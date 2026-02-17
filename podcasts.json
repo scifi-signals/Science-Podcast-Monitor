@@ -1,0 +1,53 @@
+[
+  {
+    "id": "huberman-lab",
+    "name": "Huberman Lab",
+    "host": "Andrew Huberman",
+    "rss_url": "https://feeds.megaphone.fm/hubermanlab",
+    "category": "science_health_influencer",
+    "influence_tier": "high",
+    "avg_episode_minutes": 120,
+    "active": true
+  },
+  {
+    "id": "radiolab",
+    "name": "Radiolab",
+    "host": "Lulu Miller, Latif Nasser",
+    "rss_url": "https://feeds.simplecast.com/EmVW7VGp",
+    "category": "science_storytelling",
+    "influence_tier": "high",
+    "avg_episode_minutes": 45,
+    "active": true
+  },
+  {
+    "id": "science-friday",
+    "name": "Science Friday",
+    "host": "Ira Flatow",
+    "rss_url": "http://feeds.wnyc.org/science-friday",
+    "category": "science_news",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 60,
+    "active": true
+  },
+  {
+    "id": "techtank",
+    "name": "TechTank",
+    "host": "Brookings Institution",
+    "rss_url": "https://feeds.acast.com/public/shows/5f2827aa17f940498f691817",
+    "category": "tech_policy",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "laws-of-notion",
+    "name": "Laws of Notion",
+    "host": "Institute for Science & Policy",
+    "rss_url": "",
+    "category": "science_policy",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 30,
+    "active": false,
+    "notes": "RSS feed URL needs to be looked up"
+  }
+]

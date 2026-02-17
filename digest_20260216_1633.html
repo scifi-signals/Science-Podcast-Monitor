@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 16, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 16, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">15</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">80</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals a diverse scientific landscape spanning exercise physiology, climate science, public health, and space exploration. A high-profile Huberman Lab episode challenges sex-specific fitness myths, presenting evidence that men and women respond similarly to resistance training—a finding with implications for public health messaging. Meanwhile, Bluesky discussions reflect growing concern about scientific integrity and politicization of research, alongside substantive coverage of climate tipping points, vaccine efficacy, and biodiversity shifts. The convergence of these topics suggests heightened public engagement with both foundational science literacy and meta-questions about research governance.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Evidence-based approaches vs. marketing-driven health claims</li>
+<li>Sex/gender differences in biological responses (exercise physiology, vaccine efficacy)</li>
+<li>Long-term health outcomes and chronic disease prevention</li>
+<li>Scientific integrity and resistance to oversimplification</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Dementia prevention through vaccination—expanding vaccine discourse beyond infectious disease prevention</li>
+<li>Antarctic ice sheet tipping points and irreversibility narratives in climate communication</li>
+<li>Scientific accountability and politicization as ongoing public concern</li>
+<li>Women's health research nuance—moving beyond hormonal determinism in exercise science</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Engage on exercise science and sex differences: NASEM could convene expert consensus on evidence-based fitness recommendations to counter misinformation in popular media</div>
+<div class="opportunity">Address science politicization: Provide authoritative guidance on research integrity, peer review, and funding structures amid public concern about scientific accountability</div>
+<div class="opportunity">Climate communication: Leverage Antarctic ice sheet research to develop clearer messaging on tipping points and irreversibility for policymakers</div>
+<div class="opportunity">Vaccine and public health coordination: Support integrated messaging on expanded health benefits of vaccines (dementia prevention, beyond infection control) to strengthen vaccine confidence</div>
+<div class="opportunity">Women's health research agenda: Highlight NASEM studies on sex differences in health and biology to inform equitable public health guidance</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Persistent marketing of sex-specific training protocols without evidence—Huberman episode directly counters claims that menstrual cycle phase or hormonal contraceptive use require tailored exercise programming; evidence shows minimal impact on training outcomes</div>
+<div class="claim">Potential for overstated vaccine-dementia associations: Bluesky posts on vaccine links to dementia prevention require verification; ensure public health messaging distinguishes between emerging research and established consensus</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">🔴 HIGH</span>
+  <span class="episode-title">Huberman Lab: The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Feb 16 &middot; 152 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Lauren Colenso-Semple discusses evidence-based resistance training and fitness for women, emphasizing that men and women respond to exercise similarly and debunking myths about sex-specific training protocols. The episode covers practical training programming (frequency, volume, rep ranges), the limited impact of menstrual cycle phases on exercise adaptation, the minimal effects of hormonal contraceptives on training outcomes, and the importance of resistance training for long-term health and muscle preservation across the lifespan. Key themes include the dangers of oversimplifying exercise recommendations based on hormonal fluctuations and the need to focus on consistent, progressive resistance training rather than complex periodization schemes marketed specifically to women.</p>
+<div style="margin:8px 0;">
+  <span class="topic-tag">Muscle protein synthesis and hypertrophy in men vs women</span>
+  <span class="topic-tag">Effects of menstrual cycle hormones on exercise adaptation</span>
+  <span class="topic-tag">Hormonal contraceptive use and resistance training outcomes</span>
+  <span class="topic-tag">Perimenopause and menopause muscle loss</span>
+  <span class="topic-tag">Progressive overload and rep range flexibility for hypertrophy</span>
+  <span class="topic-tag">Fed vs fasted state training and body composition</span>
+  <span class="topic-tag">Post-workout protein timing and muscle adaptation</span>
+  <span class="topic-tag">Creatine monohydrate supplementation</span>
+  <span class="topic-tag">Cortisol response to resistance training</span>
+  <span class="topic-tag">Interference effect of concurrent endurance and resistance training</span>
+  <span class="topic-tag">Estrogen and testosterone receptor distribution in muscle and fat tissue</span>
+  <span class="topic-tag">Age-related muscle loss and sarcopenia</span>
+  <span class="topic-tag">Cold exposure and recovery</span>
+  <span class="topic-tag">Hormone replacement therapy and cognitive/cardiovascular outcomes</span>
+  <span class="topic-tag">Grip strength as longevity marker</span>
+</div>
+<div class="nasem-match">NASEM: Ovarian Cancers: Evolving Paradigms in Research and Care</div>
+<div class="nasem-match">NASEM: Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects" target="_blank">Oil in the Sea IV: Inputs, Fates, and Effects</a></div>
+<div class="nasem-match">NASEM: Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/25552/promoting-positive-adolescent-health-behaviors-and-outcomes-thriving-in-the" target="_blank">Promoting Positive Adolescent Health Behaviors and Outcomes: Thriving in the 21st Century</a></div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/24845/facilitating-health-communication-with-immigrant-refugee-and-migrant-populations-through-the-use-of-health-literacy-and-community-engagement-strategies" target="_blank">Facilitating Health Communication with Immigrant, Refugee, and Migrant Populations Through the Use of Health Literacy and Community Engagement Strategies: Proceedings of a Workshop</a></div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/25161/the-use-of-dispersants-in-marine-oil-spill-response" target="_blank">The Use of Dispersants in Marine Oil Spill Response</a></div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region" target="_blank">Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress</a></div>
+<div class="nasem-match">NASEM: <a href="https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future" target="_blank">Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future</a></div>
+<div class="claim">Men and women show similar muscle protein synthesis responses to exercise and similar relative strength/size gains from training</div>
+<div class="claim">Testosterone levels within normal range (300-1200 ng/dL) show no linear relationship with muscle growth potential</div>
+<div class="claim">Menstrual cycle hormonal fluctuations do not require changes to exercise programming</div>
+<div class="quote">"As a woman, if I honestly thought there were things we should do differently to optimize our results, of course, I would be doing them myself and telling other women to do them too. The data says men and women respond to exercise very similarly."</div>
+<div class="quote">"The narrative that women need a sex-specific program or nutrient timing guidance or a particular intensity of exercise or rep range or all of it, it makes women feel like they're being spoken to and being considered and they're part of this community instead of, oh, you know, just do what your boyfriend does or what your husband does."</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">80 posts analyzed</p>
+<h3 style="margin-top:12px;">Trending Topics</h3>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Research Integrity (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions on scientific accountability, funding structures, politicization of science, and government regulation of research.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Science (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on tipping points in Antarctic ice sheets, PFAS regulation, seabird guano ecology, and fire-adapted plant ecosystems.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Research and Public Health (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of COVID-19 vaccination efficacy, vaccine associations with dementia prevention, and measles outbreaks.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary and Space Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Astronomy updates including exoplanet discoveries, solar eclipses, Mars exploration, and lunar seismic missions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Evolutionary Biology (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on species adaptation, mass extinction recovery, ancient biological complexity, and tropical species migration.</span></div>
+<div class="section-divider"></div>
+<h3>Notable Posts</h3>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">247 likes &middot; 43 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">**It is important to understand that cultivating a class of intellectually powerful scientists who are given lots of cash and little social accountability is a structural feature that Epstein was taking advantage of, not inventing.**
+
+🧪🔭⚛️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mey7dzghak2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">179 likes &middot; 37 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Importantly, for the moment, Epstein’s circle is winning. Area studies and women’s and gender studies departments are being closed and outlawed. All the structures we put in place to compel the Lee’s of the world to do the right thing even when they don’t want to are being eliminated. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3meybmx7uvs2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">155 likes &middot; 18 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">In the United States, the astro/physicists who worked on the Manhattan Project and their intellectual descendants were guaranteed so much cash and freedom in exchange for service to murder technology and Epstein showed up right as that support was starting to wain 
+
+This context matters too ⚛️🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mey7il462c2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sailorrooscout.bsky.social</div>
+  <div class="bluesky-stats">124 likes &middot; 26 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">According to the study’s authors, COVID vaccination was effective in all ALL groups and in persons with OR without major chronic conditions.
+
+The study has been published in the New England Journal of Medicine. YES, it is PEER-REVIEWED.
+• www.nejm.org/doi/full/10....
+
+🧪🧵⬇️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sailorrooscout.bsky.social/post/3meyjpmzyck2s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@philplait.bsky.social</div>
+  <div class="bluesky-stats">109 likes &middot; 23 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">A dying star beams a searchlight into space, illuminating its past.
+
+badastronomy.beehiiv.com/p/hubble-uns...
+
+🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/philplait.bsky.social/post/3meyh7bw46k2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<h3>NASEM-Relevant Mentions</h3>
+<div class="nasem-match"><strong>Scientific Integrity and Research Accountability</strong>: Posts on Epstein scandal and elimination of oversight mechanisms in academia relate directly to NASEM's work on research integrity, conflict of interest policies, and institutional governance structures.</div>
+<div class="nasem-match"><strong>Science Policy and Government Regulation</strong>: Multiple posts on EPA greenhouse gas rule changes, NIH leadership transitions, and politicization of science connect to NASEM's role in advising on evidence-based policy and scientific integrity in government.</div>
+<div class="nasem-match"><strong>Public Health and Vaccine Policy</strong>: Posts on COVID vaccination efficacy, measles outbreaks, and vaccine-dementia associations relate to NASEM's work in vaccine safety, disease prevention, and translation of scientific evidence into public health policy.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 16, 2026 at 04:33 PM | Internal use only
+    </div>
+</body>
+</html>

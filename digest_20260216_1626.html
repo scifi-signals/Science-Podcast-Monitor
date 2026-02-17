@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 16, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 16, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">80</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Bluesky science discourse reflects five major research domains with particular emphasis on structural vulnerabilities in science. The most consequential conversations center on research integrity challenges, vaccine efficacy communication, and climate tipping points—especially Antarctic ice stability. Space exploration and biodiversity research generate substantial engagement, with notable focus on species migration patterns and microplastic contamination. Institutional trust in science emerges as an underlying concern across policy, public health, and environmental topics. These discussions reveal both scientific progress and critical gaps in translating research into policy action.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Trust and credibility in science institutions amid political pressure</li>
+<li>Communication challenges translating research findings to public policy</li>
+<li>Environmental and climate urgency requiring rapid institutional response</li>
+<li>Funding mechanisms and their impact on research priorities and independence</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Increased scrutiny of scientist accountability and research ethics frameworks</li>
+<li>Microplastics ecosystem contamination gaining mainstream scientific attention</li>
+<li>Tropical species migration patterns as climate indicator</li>
+<li>Space career pipeline and talent development in aerospace sector</li>
+<li>Vaccine communication strategies addressing efficacy specificity and risk perception</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene expert committee on research integrity and scientist safety amid politicization</div>
+<div class="opportunity">Produce guidance on effective science policy communication for policymakers</div>
+<div class="opportunity">Commission assessment of Antarctic ice stability research and sea-level rise implications for planning</div>
+<div class="opportunity">Develop consensus report on microplastics: environmental pathways and remediation priorities</div>
+<div class="opportunity">Engage on vaccine efficacy communication standards and public health messaging frameworks</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">No significant scientific consensus contradictions identified in this dataset</div>
+<div class="claim">Monitor vaccine-associated disease claims for accuracy; efficacy discussions appear evidence-based on available posts</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">80 posts analyzed</p>
+<h3 style="margin-top:12px;">Trending Topics</h3>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Research Integrity (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of structural issues in science funding, scientist accountability, political attacks on researchers, and institutional challenges to research institutions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccines and Public Health (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering COVID-19 vaccination efficacy, vaccine-associated disease risk reduction, and public health communication challenges.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Science (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on tipping points in Antarctic ice stability, sea-level rise projections, tropical species migration, and environmental policy.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary and Space Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of Mars exploration, lunar missions, exoplanet discoveries, solar eclipses, and space career opportunities.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Ecology (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Field research on amphibians, marine species distribution shifts, microplastics in ecosystems, and wildlife adaptation to environmental change.</span></div>
+<div class="section-divider"></div>
+<h3>Notable Posts</h3>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">247 likes &middot; 43 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">**It is important to understand that cultivating a class of intellectually powerful scientists who are given lots of cash and little social accountability is a structural feature that Epstein was taking advantage of, not inventing.**
+
+🧪🔭⚛️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mey7dzghak2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">178 likes &middot; 36 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Importantly, for the moment, Epstein’s circle is winning. Area studies and women’s and gender studies departments are being closed and outlawed. All the structures we put in place to compel the Lee’s of the world to do the right thing even when they don’t want to are being eliminated. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3meybmx7uvs2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">155 likes &middot; 18 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">In the United States, the astro/physicists who worked on the Manhattan Project and their intellectual descendants were guaranteed so much cash and freedom in exchange for service to murder technology and Epstein showed up right as that support was starting to wain 
+
+This context matters too ⚛️🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mey7il462c2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sailorrooscout.bsky.social</div>
+  <div class="bluesky-stats">123 likes &middot; 26 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">According to the study’s authors, COVID vaccination was effective in all ALL groups and in persons with OR without major chronic conditions.
+
+The study has been published in the New England Journal of Medicine. YES, it is PEER-REVIEWED.
+• www.nejm.org/doi/full/10....
+
+🧪🧵⬇️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sailorrooscout.bsky.social/post/3meyjpmzyck2s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@philplait.bsky.social</div>
+  <div class="bluesky-stats">107 likes &middot; 23 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">A dying star beams a searchlight into space, illuminating its past.
+
+badastronomy.beehiiv.com/p/hubble-uns...
+
+🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/philplait.bsky.social/post/3meyh7bw46k2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<h3>NASEM-Relevant Mentions</h3>
+<div class="nasem-match"><strong>Science Policy and Institutional Accountability</strong>: Posts highlighting erosion of institutional oversight in academia, closure of area/gender studies departments, and politicization of science inform NASEM's work on research integrity, governance structures, and science policy advice.</div>
+<div class="nasem-match"><strong>Vaccine Efficacy and Public Health Communication</strong>: Multiple posts on COVID-19 vaccine efficacy, disease prevention benefits, and challenges in combating vaccine misinformation align with NASEM's vaccine policy recommendations and public health guidance roles.</div>
+<div class="nasem-match"><strong>Climate Science and Tipping Points</strong>: Discussion of Antarctic ice sheet stability, sea-level rise projections, and climate policy responses directly relate to NASEM's climate science assessments and policy recommendations.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 16, 2026 at 04:26 PM | Internal use only
+    </div>
+</body>
+</html>
