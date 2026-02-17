@@ -43,11 +43,160 @@
     "id": "laws-of-notion",
     "name": "Laws of Notion",
     "host": "Institute for Science & Policy",
-    "rss_url": "",
+    "rss_url": "https://coalatsunset.libsyn.com/rss",
     "category": "science_policy",
     "influence_tier": "emerging",
     "avg_episode_minutes": 30,
-    "active": false,
-    "notes": "RSS feed URL needs to be looked up"
+    "active": true
+  },
+  {
+    "id": "science-policy-irl",
+    "name": "Science Policy IRL (The Ongoing Transformation)",
+    "host": "Issues in Science & Technology",
+    "rss_url": "https://anchor.fm/s/745ef528/podcast/rss",
+    "category": "science_policy",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "science-for-policy",
+    "name": "Science for Policy",
+    "host": "European Commission SAM",
+    "rss_url": "https://feed.podbean.com/scientificadvice/feed.xml",
+    "category": "science_policy",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "science-of-politics",
+    "name": "The Science of Politics",
+    "host": "Matt Grossmann",
+    "rss_url": "https://feeds.soundcloud.com/users/soundcloud:users:336233436/sounds.rss",
+    "category": "science_policy",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 35,
+    "active": true
+  },
+  {
+    "id": "unbiased-science",
+    "name": "Unbiased Science",
+    "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+    "rss_url": "https://feeds.megaphone.fm/ARML4885290081",
+    "category": "science_health",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "science-will-win",
+    "name": "Science Will Win",
+    "host": "Pfizer",
+    "rss_url": "https://feeds.simplecast.com/EdevDQof",
+    "category": "science_health",
+    "influence_tier": "emerging",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "peter-attia-drive",
+    "name": "The Peter Attia Drive",
+    "host": "Peter Attia, MD",
+    "rss_url": "https://rss.libsyn.com/shows/121729/destinations/713489.xml",
+    "category": "science_health_influencer",
+    "influence_tier": "high",
+    "avg_episode_minutes": 120,
+    "active": true
+  },
+  {
+    "id": "found-my-fitness",
+    "name": "Found My Fitness",
+    "host": "Rhonda Patrick, PhD",
+    "rss_url": "https://podcast.foundmyfitness.com/rss.xml",
+    "category": "science_health_influencer",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 90,
+    "active": true
+  },
+  {
+    "id": "startalk",
+    "name": "StarTalk Radio",
+    "host": "Neil deGrasse Tyson",
+    "rss_url": "https://feeds.simplecast.com/4T39_jAj",
+    "category": "science_communication",
+    "influence_tier": "high",
+    "avg_episode_minutes": 50,
+    "active": true
+  },
+  {
+    "id": "lex-fridman",
+    "name": "Lex Fridman Podcast",
+    "host": "Lex Fridman",
+    "rss_url": "https://lexfridman.com/feed/podcast/",
+    "category": "longform_interview",
+    "influence_tier": "high",
+    "avg_episode_minutes": 180,
+    "active": true
+  },
+  {
+    "id": "making-sense",
+    "name": "Making Sense",
+    "host": "Sam Harris",
+    "rss_url": "https://wakingup.libsyn.com/rss",
+    "category": "longform_interview",
+    "influence_tier": "high",
+    "avg_episode_minutes": 90,
+    "active": true
+  },
+  {
+    "id": "ezra-klein",
+    "name": "The Ezra Klein Show",
+    "host": "Ezra Klein",
+    "rss_url": "https://feeds.simplecast.com/82FI35Px",
+    "category": "longform_interview",
+    "influence_tier": "high",
+    "avg_episode_minutes": 75,
+    "active": true
+  },
+  {
+    "id": "short-wave",
+    "name": "Short Wave",
+    "host": "Emily Kwong, Regina Barber",
+    "rss_url": "https://feeds.npr.org/510351/podcast.xml",
+    "category": "science_news",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 15,
+    "active": true
+  },
+  {
+    "id": "nature-podcast",
+    "name": "Nature Podcast",
+    "host": "Springer Nature",
+    "rss_url": "https://rss.acast.com/nature",
+    "category": "science_news",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "science-magazine",
+    "name": "Science Magazine Podcast",
+    "host": "Sarah Crespi",
+    "rss_url": "https://feeds.megaphone.fm/AAAS8717073854",
+    "category": "science_news",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 30,
+    "active": true
+  },
+  {
+    "id": "skeptics-guide",
+    "name": "The Skeptics' Guide to the Universe",
+    "host": "Dr. Steven Novella",
+    "rss_url": "https://feed.theskepticsguide.org/feed/rss.aspx?feed=sgu",
+    "category": "science_communication",
+    "influence_tier": "medium",
+    "avg_episode_minutes": 80,
+    "active": true
   }
 ]

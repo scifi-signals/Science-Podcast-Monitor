@@ -268,7 +268,8 @@ Setup Instructions:
         episodes = check_all_feeds(lookback_days=lookback_days or 7)
         for ep in episodes:
             dur = f" ({ep['duration_minutes']:.0f} min)" if ep.get('duration_minutes') else ""
-            print(f"  - [{ep['podcast_name']}] {ep['title']}{dur}")
+            title = ep['title'].encode('ascii', 'replace').decode('ascii')
+            print(f"  - [{ep['podcast_name']}] {title}{dur}")
             print(f"    Published: {ep.get('published', 'Unknown')}")
             print(f"    Audio: {ep['audio_url'][:80]}...")
     else:
