@@ -1,7 +1,10 @@
 # audio_downloader.py
 # Download and prepare podcast audio for transcription
+# Uses ffmpeg directly (not pydub) to avoid loading entire files into RAM
 
 import os
+import shutil
+import subprocess
 import tempfile
 import requests
 from config import MAX_AUDIO_FILE_SIZE_MB, COMPRESS_BITRATE
@@ -49,12 +52,25 @@ def download_audio(audio_url, episode_id="episode"):
     return filepath
 
 
+def _get_duration_seconds(filepath):
+    """Get audio duration in seconds using ffprobe."""
+    try:
+        result = subprocess.run(
+            ['ffprobe', '-v', 'quiet', '-show_entries', 'format=duration',
+             '-of', 'default=noprint_wrappers=1:nokey=1', filepath],
+            capture_output=True, text=True, timeout=30
+        )
+        return float(result.stdout.strip())
+    except Exception:
+        return None
+
+
 def compress_audio(filepath, force=False):
     """
-    Compress audio to 64kbps mono MP3.
-    Always compresses to ensure consistent quality and small chunk sizes.
+    Compress audio to 64kbps mono MP3 using ffmpeg directly.
+    Streams data instead of loading into RAM.
 
-    Returns path to compressed file (may be same as input if already small enough).
+    Returns path to compressed file.
     """
     size_mb = os.path.getsize(filepath) / (1024 * 1024)
 
@@ -63,27 +79,27 @@ def compress_audio(filepath, force=False):
 
     print(f"  File is {size_mb:.1f} MB (limit: {MAX_AUDIO_FILE_SIZE_MB} MB), compressing...")
 
-    try:
-        from pydub import AudioSegment
-    except ImportError:
-        print("  [ERROR] pydub not installed. Run: pip install pydub")
-        print("  [ERROR] Also need ffmpeg installed on system.")
+    if not shutil.which('ffmpeg'):
+        print("  [ERROR] ffmpeg not found on system. Install ffmpeg.")
         return filepath
 
     try:
-        audio = AudioSegment.from_file(filepath)
-        # Convert to mono, lower bitrate
-        audio = audio.set_channels(1)
-
         compressed_path = filepath.rsplit('.', 1)[0] + '_compressed.mp3'
-        audio.export(compressed_path, format='mp3', bitrate=COMPRESS_BITRATE)
+        result = subprocess.run(
+            ['ffmpeg', '-i', filepath, '-ac', '1', '-ab', COMPRESS_BITRATE,
+             '-y', compressed_path],
+            capture_output=True, text=True, timeout=600
+        )
+
+        if result.returncode != 0:
+            print(f"  [ERROR] ffmpeg failed: {result.stderr[-200:]}")
+            return filepath
 
         new_size_mb = os.path.getsize(compressed_path) / (1024 * 1024)
         print(f"  Compressed: {size_mb:.1f} MB -> {new_size_mb:.1f} MB")
 
         # Clean up original
         os.remove(filepath)
-
         return compressed_path
 
     except Exception as e:
@@ -93,40 +109,51 @@ def compress_audio(filepath, force=False):
 
 def chunk_audio(filepath, chunk_minutes=15):
     """
-    Split audio file into time-based chunks for transcription API.
-    Uses 15-minute chunks to stay well within token limits.
+    Split audio file into time-based chunks using ffmpeg directly.
+    Uses segment muxer to avoid loading entire file into RAM.
 
     Returns list of chunk file paths.
     """
-    try:
-        from pydub import AudioSegment
-    except ImportError:
-        print("  [ERROR] pydub not installed for chunking")
+    if not shutil.which('ffmpeg'):
+        print("  [ERROR] ffmpeg not found for chunking")
         return [filepath]
 
     try:
-        audio = AudioSegment.from_file(filepath)
-        duration_ms = len(audio)
-        duration_min = duration_ms / 60000
+        duration = _get_duration_seconds(filepath)
+        if duration is None:
+            print("  [WARN] Could not determine duration, skipping chunking")
+            return [filepath]
+
+        duration_min = duration / 60
 
         # No chunking needed for short audio
         if duration_min <= chunk_minutes:
             return [filepath]
 
-        chunk_duration_ms = chunk_minutes * 60 * 1000
-        num_chunks = int(duration_ms / chunk_duration_ms) + (1 if duration_ms % chunk_duration_ms else 0)
-
+        chunk_seconds = chunk_minutes * 60
+        num_chunks = int(duration / chunk_seconds) + (1 if duration % chunk_seconds else 0)
         print(f"  Chunking {duration_min:.0f} min audio into {num_chunks} x {chunk_minutes} min pieces...")
 
-        chunks = []
-        for i in range(num_chunks):
-            start = i * chunk_duration_ms
-            end = min((i + 1) * chunk_duration_ms, duration_ms)
-            chunk = audio[start:end]
+        base = filepath.rsplit('.', 1)[0]
+        pattern = f"{base}_chunk%03d.mp3"
 
-            chunk_path = filepath.rsplit('.', 1)[0] + f'_chunk{i}.mp3'
-            chunk.export(chunk_path, format='mp3', bitrate=COMPRESS_BITRATE)
-            chunks.append(chunk_path)
+        result = subprocess.run(
+            ['ffmpeg', '-i', filepath, '-f', 'segment', '-segment_time', str(chunk_seconds),
+             '-ac', '1', '-ab', COMPRESS_BITRATE, '-y', pattern],
+            capture_output=True, text=True, timeout=600
+        )
+
+        if result.returncode != 0:
+            print(f"  [ERROR] Chunking failed: {result.stderr[-200:]}")
+            return [filepath]
+
+        # Find the generated chunk files
+        chunk_dir = os.path.dirname(filepath)
+        chunk_base = os.path.basename(base) + '_chunk'
+        chunks = sorted([
+            os.path.join(chunk_dir, f) for f in os.listdir(chunk_dir)
+            if f.startswith(chunk_base) and f.endswith('.mp3')
+        ])
 
         print(f"  Split into {len(chunks)} chunks")
         return chunks
@@ -146,7 +173,7 @@ def prepare_audio(audio_url, episode_id="episode"):
     if not filepath:
         return []
 
-    # Always compress large files; compress everything to ensure consistent format
+    # Always compress large files
     size_mb = os.path.getsize(filepath) / (1024 * 1024)
     filepath = compress_audio(filepath, force=(size_mb > MAX_AUDIO_FILE_SIZE_MB))
     chunks = chunk_audio(filepath)
