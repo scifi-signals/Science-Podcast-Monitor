@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 17, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 17, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">43</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">82</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals three converging domains demanding NASEM attention: (1) emerging psychedelic therapeutics operating in a federal-state regulatory gap with sustainability challenges requiring standardized clinical protocols; (2) the hygiene hypothesis gaining mainstream traction with actionable implications for pediatric health policy; (3) geopolitical competition over technical standards development in AI, quantum, and biotechnology threatening U.S. competitiveness and international interoperability. Additionally, Bluesky data indicates significant concern about science policy stability, particularly NIH budget cuts and HHS research cancellations. These issues intersect around standardization, evidence rigor, and governance frameworks—core NASEM expertise areas.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Technical standards development as strategic infrastructure (AI governance, quantum computing, biotechnology standards featured across both policy and geopolitics discussion)</li>
+<li>Rigorous clinical/scientific protocols required for emerging interventions (psilocybin therapy emphasizing therapist training and patient screening; microbiome research emphasizing evidence quality)</li>
+<li>Tension between innovation acceleration and safety/equity safeguards (psychedelic clinics closing due to business model failure; AI deployment outpacing policy frameworks)</li>
+<li>Global South/equity dimensions in technology governance (India AI Impact Summit shift toward implementation; microbiome research applicability across populations)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>State-level psilocybin therapy programs creating de facto clinical research ecosystems outside federal framework—one-third of Oregon clinics closed, signaling unsustainable business models despite therapeutic promise</li>
+<li>Hygiene hypothesis moving from research consensus to public health practice (outdoor preschool expansion cited as cultural shift evidence)</li>
+<li>Standards development increasingly recognized as geopolitical competition vector—China's systematic engineer training in standards contrasted with U.S. reactive approach</li>
+<li>India positioning itself as Global South leader in practical AI governance implementation rather than abstract safety frameworks</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or convene consensus report on clinical trial standards for psychedelic-assisted therapies—addressing training protocols, patient screening criteria, and evidence thresholds needed to stabilize state programs and inform potential federal rescheduling</div>
+<div class="opportunity">Develop policy brief on pediatric microbiome exposure recommendations—translating hygiene hypothesis research into actionable guidance for childcare settings, urban planning, and public health messaging</div>
+<div class="opportunity">Engage standards development gaps: NASEM could coordinate with ANSI to address identified U.S. workforce disadvantage in standards knowledge; produce technical guidance for AI interoperability standards relevant to global health/agriculture applications</div>
+<div class="opportunity">Convene science policy working group addressing NIH/HHS budget cuts and research continuity—stabilization messaging and evidence synthesis on downstream impacts of current disruptions</div>
+<div class="opportunity">Position NASEM expertise in AI governance for international engagement—offer standards-based framework to complement India AI Impact Summit's operational focus</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Psilocybin business sustainability claims need context: episode correctly cites 1/3 Oregon clinic closures but attributes solely to sustainability; actual causes likely include federal illegality creating financing barriers, uninsured status limiting patient access, and premature market saturation—framing matters for policy</div>
+<div class="claim">No detected consensus-contradicting claims in primary sources; StarTalk segment on quantum entanglement/FTL communication appropriately frames speculative claims as listener speculation rather than established physics</div>
+<div class="claim">Monitor emerging claims about microbiome exposure: while hygiene hypothesis evidence is robust, potential overcorrection toward 'dirtiness is always good' messaging—careful about conflating beneficial soil/dog exposure with all pathogenic exposure</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Cosmic Queries – Your God Is Too Small</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Feb 17 &middot; 50 min</div>
+<p style="margin:10px 0;font-size:14px;">This StarTalk episode features Neil deGrasse Tyson and Chuck Nice answering diverse listener questions about physics and cosmology. Topics range from technical optics questions about evanescent waves and total internal reflection, to fundamental physics concepts like the speed of light in different media, gravitational wave detection, quantum entanglement, special relativity, and speculative ideas about dark energy. The episode also includes philosophical discussions about the implications of potential extraterrestrial life and references Giordano Bruno's historical perspective on a universe with many worlds.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Evanescent waves and total internal reflection (TIRF microscopy)</span>
+  <span class="topic-tag">Speed of light in various media and index of refraction</span>
+  <span class="topic-tag">Optical coatings and anti-reflective lens design</span>
+  <span class="topic-tag">Gravitational wave detection using LIGO and laser interferometry</span>
+  <span class="topic-tag">Gravitational wave propagation and spacetime expansion</span>
+  <span class="topic-tag">Quantum entanglement and black holes</span>
+  <span class="topic-tag">Faster-than-light communication via quantum mechanics</span>
+  <span class="topic-tag">Special relativity and reference frames</span>
+  <span class="topic-tag">Time dilation in relativistic systems</span>
+  <span class="topic-tag">Dark energy and cosmic expansion mechanisms</span>
+  <span class="topic-tag">Europa and potential extraterrestrial life in the solar system</span>
+  <span class="topic-tag">Rodent evolution and post-human ecological succession</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon" target="_blank">Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27396/social-media-and-adolescent-health" target="_blank">Social Media and Adolescent Health</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22670/design-guidance-for-high-speed-to-low-speed-transition-zones-for-rural-highways" target="_blank">Design Guidance for High-Speed to Low-Speed Transition Zones for Rural Highways</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design" target="_blank">Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21722/optimizing-the-us-ground-based-optical-and-infrared-astronomy-system" target="_blank">Optimizing the U.S. Ground-Based Optical and Infrared Astronomy System</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">An Assessment of the Prospects for Inertial Fusion Energy</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical" target="_blank">Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Light travels at 40% normal speed in diamond (index of refraction 2.4) - this is accurate physics</div>
+<div class="claim">Index of refraction can be used to calculate light bending in lenses - standard physics</div>
+<div class="claim">LIGO detects gravitational waves by measuring spacetime contraction/expansion - accurate but nuanced; listener raises valid concern about whether measuring devices would stretch proportionally with spacetime</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Your God is too small. Too small. Your God of just Earth and the sun. - Giordano Bruno (quoted regarding theological implications of a vast universe)"</div>
+<div class="quote">"The speed of light is not just a good idea. It's not just a good idea, it's the law. That's a dated reference to 55 miles an hour speed limit when we wimped out and said, we're not going to go fast anymore. - Neil deGrasse Tyson (explaining that light speed is a cosmic speed limit)"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">TechTank: What to expect from the India AI Impact Summit</span>
+</div>
+<div class="episode-meta">Brookings Institution &middot; Feb 16 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses the India AI Impact Summit (February 16-20, 2026) and its significance as the first major global AI summit hosted in the Global South. The conversation traces the evolution of AI governance summits from the 2023 UK focus on safety to the current emphasis on practical deployment, implementation, and equitable impact across developing nations. Key themes include the shift from abstract risk discussions to operational questions about healthcare, agriculture, and public services; the tension between sovereign AI strategies and international interoperability; and critical gaps between high-level policy commitments and implementable technical standards.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Artificial intelligence governance and policy frameworks</span>
+  <span class="topic-tag">AI safety and risk assessment</span>
+  <span class="topic-tag">AI model development and testing standards</span>
+  <span class="topic-tag">AI deployment in healthcare delivery systems</span>
+  <span class="topic-tag">AI applications in agricultural credit and market information systems</span>
+  <span class="topic-tag">Machine learning bias and algorithmic fairness</span>
+  <span class="topic-tag">AI transparency and reporting standards</span>
+  <span class="topic-tag">Technical benchmarking and measurement methods for AI systems</span>
+  <span class="topic-tag">Data infrastructure and AI system interoperability</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27197/highway-safety-behavioral-strategies-for-rural-and-tribal-areas-a-guide" target="_blank">Highway Safety Behavioral Strategies for Rural and Tribal Areas: A Guide</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education" target="_blank">Standards for K-12 Engineering Education?</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation" target="_blank">AI Applications for Automatic Pavement Condition Evaluation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">India has invested in sovereign AI models to reduce technology dependence on concentrated AI capabilities in a few countries and firms</div>
+<div class="claim">India's digital public infrastructure (payment systems, ID systems) demonstrates successful government use of AI technologies</div>
+<div class="claim">The concentration of AI capabilities in a small number of countries and firms is characterized as a governance risk</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"This arc of awareness about risk, going to capability building, thinking about impact and from my point of view, accountability to make sure that we are achieving what we want to do and minimizing the negative impact, is something that I will be looking into through the conversations."</div>
+<div class="quote">"Operational standards would actually be the middle layers that it's going to connect the two principles and technical research. And that's still being built. And that's quite underdeveloped. And I will say that that's the implementation gap."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: A Little Grime Can Boost Kids’ Health. But What Kind?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 16 &middot; 17 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the health benefits of exposing children to dirt and microbes, specifically how environmental interactions with soil, animals, and peers support immune system development. Dr. Jack Gilbert and Dr. Amber Fife Johnson discuss research showing that microbial exposure during childhood is critical for preventing asthma, allergies, and autoimmune diseases later in life. The episode examines what types of exposure matter most—soil and dog contact being particularly beneficial—and notes a cultural shift in the U.S. toward outdoor preschools as evidence of increasing acceptance of the 'hygiene hypothesis.'</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Hygiene hypothesis and immune system development</span>
+  <span class="topic-tag">Gut microbiome diversity in childhood</span>
+  <span class="topic-tag">Microbial exposure and asthma prevention</span>
+  <span class="topic-tag">Allergen exposure and immune tolerance</span>
+  <span class="topic-tag">Dog-associated allergens versus cat allergens</span>
+  <span class="topic-tag">Soil microbiota and immune stimulation</span>
+  <span class="topic-tag">Preschool-induced microbiome changes</span>
+  <span class="topic-tag">Social transmission of microbes in children</span>
+  <span class="topic-tag">Immune cell-gut interactions (70% figure)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation" target="_blank">Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26612/advancing-the-framework-for-assessing-causality-of-health-and-welfare-effects-to-inform-national-ambient-air-quality-standard-reviews" target="_blank">Advancing the Framework for Assessing Causality of Health and Welfare Effects to Inform National Ambient Air Quality Standard Reviews</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26478/improving-diversity-of-the-genomics-workforce-proceedings-of-a-workshop" target="_blank">Improving Diversity of the Genomics Workforce: Proceedings of a Workshop—in Brief</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Children physically interacting with dogs have ~15% reduction in asthma likelihood</div>
+<div class="claim">~70% of immune cells interact with the gut</div>
+<div class="claim">Children with reduced gut microbial diversity in early life have higher rates of asthma and allergic disease</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What we're dealing with are ape creatures ourselves who evolved in a world that's seething with microbes, microbial stimulants, all the little bacterial cells, viral cells, fungi floating around, and they're stimulating our immune systems."</div>
+<div class="quote">"Childhood is this really critical intervention window because the immune system development is really highly plastic in early life. And intervening later when we're adults is far less effective than supporting immune development early on."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: How Are State-Run Psilocybin Therapy Programs Going?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 17 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode examines the emerging state-run psilocybin therapy programs in Colorado, Oregon, and New Mexico, which offer supervised therapeutic use of the drug despite federal illegality. The episode explores the structure of these programs (multi-session treatment with integration therapy), their costs (thousands of dollars, uninsured), and business sustainability challenges—noting that one-third of Oregon's clinics have closed since 2023. Researchers highlight psilocybin's potential for treating existential distress in advanced cancer patients and other conditions, while emphasizing the importance of rigorous scientific standards, proper therapist training, and careful patient screening, particularly for those with family histories of psychosis.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Psilocybin-assisted therapy for treatment-resistant depression</span>
+  <span class="topic-tag">Psilocybin therapy for anxiety in advanced cancer patients</span>
+  <span class="topic-tag">Psilocybin for addiction treatment</span>
+  <span class="topic-tag">Psilocybin for PTSD treatment</span>
+  <span class="topic-tag">Neuroplasticity and cognitive flexibility induced by psilocybin</span>
+  <span class="topic-tag">Integration therapy following psilocybin administration</span>
+  <span class="topic-tag">Clinical trial design for psychedelic therapeutics</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a" target="_blank">Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13154/implementing-a-national-cancer-clinical-trials-system-for-the-21st-century" target="_blank">Implementing a National Cancer Clinical Trials System for the 21st Century: Workshop Summary</a></div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Psilocybin causes existential distress relief in advanced cancer patients—ongoing clinical trial research needed for confirmation</div>
+<div class="claim">One-third of Oregon's psilocybin clinics have shut down since program opened in 2023—business sustainability concern</div>
+<div class="claim">Psilocybin allows neuroplasticity and cognitive flexibility enabling therapy outcomes that would 'potentially take years' to achieve otherwise</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Integration. These sessions are required by the state. And basically that is where the patient will discuss things that came up during the actual psilocybin trip... this is key because a lot of the folks that we spoke with were very adamant that this was seen as the most important piece in order to take the lessons that folks have during the sessions and actually integrate them into their daily lives."</div>
+<div class="quote">"What's really going on is allowing neuroplasticity, allowing cognitive flexibility so that when they get these eight hours of integration therapy in the four weeks following the dosing day, their brains have literally been changed in a way that they can achieve therapy outcomes that would potentially take years to achieve otherwise."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Policy IRL (The Ongoing Transformation): Who Sets the Standard?</span>
+</div>
+<div class="episode-meta">Issues in Science & Technology &middot; Feb 17 &middot; 31 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the critical but often invisible role of standards development in modern society, exploring how technical standards underpin everything from transportation safety to global commerce. The discussion highlights the importance of inclusive, transparent, consensus-based standards development processes and warns that geopolitical competition is increasingly politicizing standards development, particularly in emerging technologies like AI, quantum computing, and biotechnology. ANSI's updated U.S. standards strategy aims to ensure American participation and influence in global standards-setting to protect national competitiveness, market access, and citizen safety.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Quantum computing performance measurement standards</span>
+  <span class="topic-tag">Environmental health impacts of nanotechnology</span>
+  <span class="topic-tag">Semiconductor chip standards for AI systems</span>
+  <span class="topic-tag">Critical minerals supply chain standards</span>
+  <span class="topic-tag">Biotechnology standards development</span>
+  <span class="topic-tag">6G telecommunications standards</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate" target="_blank">Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education" target="_blank">Standards for K-12 Engineering Education?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation" target="_blank">Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey" target="_blank">Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education" target="_blank">Standards for K-12 Engineering Education?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations" target="_blank">Forest Health and Biotechnology: Possibilities and Considerations</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Standards do not impede innovation; they enable better performance measurement and competitive differentiation</div>
+<div class="claim">Supply chain vulnerabilities during COVID could have been mitigated by standards development</div>
+<div class="claim">China requires all engineers to learn about standards, creating competitive advantage over U.S. workforce</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Airplanes are thousands of standards taking flight, right? It's the things you don't think about, but oh my God, you're so glad they're there."</div>
+<div class="quote">"People who develop the standards set the rules of the road. The people who develop standards first, they could be first movers in a new economy."</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">82 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Government Disruption (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of NIH budget changes, HHS mRNA research cancellations, staff politicization, and broader concerns about science policy stability under current administration.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Paleontology and Evolutionary Biology (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on mass extinction recovery timelines, dinosaur integument structures, mollusk evolution, and the Cabrières Biota paleontological discoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of Antarctic tipping points, construction emissions, wildfire ecosystem recovery, and land-use sustainability impacts.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">JWST observations, lunar missions, superkilonova discovery, solar eclipse events, and cosmic distance measurement techniques.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Field Research (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Amphibian research in Madagascar, deep-sea expedition initiatives, mammal biology studies, and wildlife documentation.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drnereide.bsky.social</div>
+  <div class="bluesky-stats">203 likes &middot; 35 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">🧵
+In case you missed it, here’s the #JWST wide-field view of the huge galaxy cluster MACS-J0417.5-1154, known for its stunning gravitational lensing effects and its wild ongoing merger dance. 🔭 🧪 ⚛️
+
+➡️ webbtelescope.org/contents/new...
+
+#cosmology #extragalactic #space #Astronomy #universe
+
+1/8</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drnereide.bsky.social/post/3mez5fc6rsc2q" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">200 likes &middot; 37 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">You can’t expect public understanding of science — and things like vaccines — to thrive if you won’t support science communication!!!!!!!!!!!!! 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mez4awpr7s2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">145 likes &middot; 74 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">HHS canceled  $500M in novel mRNA research, narrowed criteria on who should get the mRNA COVID vaccine, refused  to review a completed study of a mRNA flu vaccine.
+
+“We reject the claim that our approach to vaccines is anti-science or hostile to innovation.”
+
+🧪 🎁 🔗 www.nytimes.com/2026/02/16/h...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mezlmurrc22l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">107 likes &middot; 73 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">An important read.
+Congress approved increases to the #NIH budget. Good. But there is more going on. Things aren't normal. The staff are pressured to align their goals w/ politics, not science. Whistleblower protections only exist on paper. The threats are real.
+
+🧪 open.substack.com/pub/elizabet...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3meze47l6522z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@compoundchem.com</div>
+  <div class="bluesky-stats">64 likes &middot; 25 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Frog toxins are in the news with the evidence that Russian opposition leader Alexei Navalny was posioned with epibatidine. Here's more on frog toxins and how poisonous frogs avoid poisoning themselves: www.compoundchem.com/2017/09/26/p...
+
+#ChemSky 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/compoundchem.com/post/3meyz5xwsz726" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Vaccine Development Policy and mRNA Research Funding</strong>: HHS funding cancellations for mRNA research directly impact scientific capability assessments and R&D continuity that NASEM tracks; relevant to vaccine policy recommendations and innovation infrastructure.</div>
+<div class="nasem-match"><strong>Federal Science Agency Governance and Institutional Integrity</strong>: Reports of politicization of NIH staff goals, whistleblower protection erosion, and director vacancies relate to NASEM's mission to advise on strengthening federal research institutions and S&T workforce.</div>
+<div class="nasem-match"><strong>Climate Tipping Points and Antarctic Ice Sheet Stability</strong>: Research on East Antarctic marine sectors' stability thresholds (2-5°C) provides empirical foundation for climate risk assessments that inform NASEM climate policy and adaptation recommendations.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 17, 2026 at 11:47 AM | Internal use only
+    </div>
+</body>
+</html>
