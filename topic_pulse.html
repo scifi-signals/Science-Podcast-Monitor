@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Pulse | Science Podcast Monitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        .header h1 { font-size: 2rem; margin-bottom: 6px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; }
+
+        nav {
+            background: #44337a;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        nav a:hover, nav a.active {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
+
+        /* Search */
+        .search-section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 30px;
+            margin-bottom: 24px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 14px 20px;
+            border: 2px solid #e9d8fd;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus { border-color: #805ad5; }
+
+        .search-box input::placeholder { color: #a0aec0; }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+
+        .filter-btn {
+            padding: 6px 14px;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            background: white;
+            color: #4a5568;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover { border-color: #805ad5; color: #553c9a; }
+        .filter-btn.active { background: #805ad5; color: white; border-color: #805ad5; }
+
+        .result-count {
+            color: #718096;
+            font-size: 0.9rem;
+            margin-top: 8px;
+        }
+
+        /* Results */
+        .results { margin-top: 8px; }
+
+        .episode-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            padding: 20px;
+            margin-bottom: 16px;
+            border-left: 4px solid #805ad5;
+            transition: box-shadow 0.2s;
+        }
+
+        .episode-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+        .episode-card .podcast-name {
+            font-weight: 700;
+            color: #553c9a;
+            font-size: 0.95rem;
+        }
+
+        .episode-card .episode-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin: 4px 0;
+        }
+
+        .episode-card .meta {
+            color: #718096;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 1px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .tier-high { background: #c53030; }
+        .tier-medium { background: #d69e2e; }
+        .tier-emerging { background: #38a169; }
+
+        .episode-card .summary {
+            font-size: 0.9rem;
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .topic-tags { margin: 8px 0; }
+
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin: 2px 4px 2px 0;
+        }
+
+        .topic-tag.highlight {
+            background: #805ad5;
+            color: white;
+            font-weight: 600;
+        }
+
+        .nasem-link {
+            display: block;
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 6px 12px;
+            margin: 4px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.85rem;
+        }
+
+        .nasem-link a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-link a:hover { text-decoration: underline; }
+
+        .claim-box {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 6px 12px;
+            margin: 4px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.85rem;
+            color: #742a2a;
+        }
+
+        mark {
+            background: #fefcbf;
+            color: #744210;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #a0aec0;
+        }
+
+        .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+        .empty-state h3 { color: #718096; margin-bottom: 8px; }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.6rem; }
+            .search-box input { font-size: 1rem; padding: 12px 16px; }
+            nav a { padding: 10px 12px; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Topic Pulse</h1>
+        <p class="subtitle">Search across podcast episodes by topic, claim, or keyword</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="topic_pulse.html" class="active">Topic Pulse</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="subscribe.html">Subscribe</a>
+    </nav>
+
+    <div class="container">
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search topics, claims, summaries... (e.g. &quot;PFAS&quot;, &quot;AI regulation&quot;, &quot;climate&quot;)" autofocus>
+            </div>
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-filter="all">All Categories</button>
+                <button class="filter-btn" data-filter="science_policy">Science Policy</button>
+                <button class="filter-btn" data-filter="science_health_influencer">Influencers</button>
+                <button class="filter-btn" data-filter="longform_interview">Long-form</button>
+                <button class="filter-btn" data-filter="science_news">Science News</button>
+            </div>
+            <div class="result-count" id="result-count"></div>
+        </div>
+
+        <div class="results" id="results">
+            <div class="empty-state">
+                <div class="icon">&#x1F50D;</div>
+                <h3>Search podcast episodes</h3>
+                <p>Enter a topic, keyword, or claim to find matching episodes across all monitored podcasts.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine</p>
+        <p>Internal use only</p>
+    </footer>
+
+    <script>
+        let allEpisodes = [];
+        let activeFilter = 'all';
+        let debounceTimer = null;
+
+        // Load topic index
+        fetch('topic_index.json')
+            .then(r => r.json())
+            .then(data => {
+                allEpisodes = data.episodes || [];
+                document.getElementById('result-count').textContent =
+                    `${allEpisodes.length} episodes indexed (last 90 days)`;
+            })
+            .catch(() => {
+                document.getElementById('results').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">&#x26A0;</div>
+                        <h3>Index not available</h3>
+                        <p>The topic index hasn't been generated yet. It will appear after the next pipeline run.</p>
+                    </div>`;
+            });
+
+        // Search with debounce
+        document.getElementById('search-input').addEventListener('input', function() {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => doSearch(this.value), 300);
+        });
+
+        // Category filters
+        document.getElementById('filters').addEventListener('click', function(e) {
+            if (e.target.classList.contains('filter-btn')) {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                activeFilter = e.target.dataset.filter;
+                doSearch(document.getElementById('search-input').value);
+            }
+        });
+
+        function doSearch(query) {
+            query = query.trim().toLowerCase();
+            if (!query) {
+                document.getElementById('results').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">&#x1F50D;</div>
+                        <h3>Search podcast episodes</h3>
+                        <p>Enter a topic, keyword, or claim to find matching episodes.</p>
+                    </div>`;
+                document.getElementById('result-count').textContent =
+                    `${allEpisodes.length} episodes indexed (last 90 days)`;
+                return;
+            }
+
+            const terms = query.split(/\s+/);
+
+            let results = allEpisodes.filter(ep => {
+                // Category filter
+                if (activeFilter !== 'all' && ep.category !== activeFilter) return false;
+
+                // Build searchable text
+                const searchText = [
+                    ep.summary || '',
+                    ...(ep.science_topics || []),
+                    ...(ep.claims_to_note || []),
+                    ...(ep.policy_relevance || []),
+                    ep.episode_title || '',
+                    ep.podcast_name || '',
+                ].join(' ').toLowerCase();
+
+                return terms.every(term => searchText.includes(term));
+            });
+
+            document.getElementById('result-count').textContent =
+                `${results.length} episode${results.length !== 1 ? 's' : ''} match "${query}"`;
+
+            if (results.length === 0) {
+                document.getElementById('results').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">&#x1F6AB;</div>
+                        <h3>No matches found</h3>
+                        <p>Try different keywords or broaden your search.</p>
+                    </div>`;
+                return;
+            }
+
+            document.getElementById('results').innerHTML = results.map(ep => {
+                const tier = ep.influence_tier || 'emerging';
+                const tierClass = 'tier-' + tier;
+
+                // Format date
+                let dateStr = '';
+                try {
+                    const dt = new Date(ep.published);
+                    dateStr = dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                } catch(e) {}
+
+                // Highlight matching topics
+                const topicHtml = (ep.science_topics || []).map(t => {
+                    const isMatch = terms.some(term => t.toLowerCase().includes(term));
+                    return `<span class="topic-tag${isMatch ? ' highlight' : ''}">${t}</span>`;
+                }).join('');
+
+                // Highlight summary
+                const summary = highlightText(ep.summary || '', terms);
+
+                // NASEM matches
+                const nasemHtml = (ep.nasem_publications || []).slice(0, 3).map(pub =>
+                    `<div class="nasem-link"><a href="${pub.url}" target="_blank">${pub.title}</a></div>`
+                ).join('');
+
+                // Claims (highlighted)
+                const claimsHtml = (ep.claims_to_note || []).filter(c =>
+                    terms.some(term => c.toLowerCase().includes(term))
+                ).slice(0, 2).map(c =>
+                    `<div class="claim-box">${highlightText(c, terms)}</div>`
+                ).join('');
+
+                return `
+                    <div class="episode-card">
+                        <span class="tier-badge ${tierClass}">${tier.toUpperCase()} REACH</span>
+                        <span class="podcast-name">${ep.podcast_name}</span>
+                        <div class="episode-title">${ep.episode_title}</div>
+                        <div class="meta">${ep.host || ''}${dateStr ? ' &middot; ' + dateStr : ''}</div>
+                        <div class="summary">${summary}</div>
+                        <div class="topic-tags">${topicHtml}</div>
+                        ${nasemHtml}
+                        ${claimsHtml}
+                    </div>`;
+            }).join('');
+        }
+
+        function highlightText(text, terms) {
+            if (!text) return '';
+            let result = escapeHtml(text);
+            terms.forEach(term => {
+                if (term.length < 2) return;
+                const regex = new RegExp('(' + escapeRegex(term) + ')', 'gi');
+                result = result.replace(regex, '<mark>$1</mark>');
+            });
+            return result;
+        }
+
+        function escapeHtml(str) {
+            return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+
+        function escapeRegex(str) {
+            return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+    </script>
+</body>
+</html>

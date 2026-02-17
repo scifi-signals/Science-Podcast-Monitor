@@ -13,6 +13,9 @@ from summarizer import summarize_episode
 from bluesky_monitor import get_bluesky_digest
 from digest_generator import build_digest
 from html_formatter import format_digest_html, save_digest
+from summary_store import save_summary
+from topic_tracker import record_podcast_topics, record_bluesky_topics, get_cross_channel_topics
+from alert_matcher import match_alerts, send_alerts
 
 
 def process_episode(episode):
@@ -138,6 +141,22 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
             if summaries:
                 summaries = match_summaries_to_nasem(summaries)
 
+            # Persist structured summaries for topic search
+            if summaries:
+                print(f"\n[STORE] Saving structured summaries...")
+                for s in summaries:
+                    try:
+                        save_summary(s)
+                    except Exception as e:
+                        print(f"  [WARN] Failed to save summary: {e}")
+
+            # Record topics for cross-channel tracking
+            if summaries:
+                try:
+                    record_podcast_topics(summaries)
+                except Exception as e:
+                    print(f"  [WARN] Topic tracking failed: {e}")
+
             # Mark episodes as processed
             if processed_guids:
                 mark_processed(processed_guids)
@@ -149,6 +168,11 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
     if not podcast_only:
         try:
             bluesky_data = get_bluesky_digest(hours_back=48)
+            # Record Bluesky topics for cross-channel tracking
+            try:
+                record_bluesky_topics(bluesky_data)
+            except Exception as e:
+                print(f"  [WARN] Bluesky topic tracking failed: {e}")
         except Exception as e:
             print(f"\n[ERROR] Bluesky monitoring failed: {e}")
 
@@ -156,7 +180,14 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
     if summaries or bluesky_data.get("post_count", 0) > 0:
         print(f"\n[DIGEST] Building digest...")
 
-        digest = build_digest(summaries, bluesky_data)
+        # Get cross-channel topics for the digest
+        cross_channel_topics = []
+        try:
+            cross_channel_topics = get_cross_channel_topics(days=14)
+        except Exception as e:
+            print(f"  [WARN] Cross-channel topic retrieval failed: {e}")
+
+        digest = build_digest(summaries, bluesky_data, cross_channel_topics=cross_channel_topics)
         html = format_digest_html(digest)
         filepath = save_digest(html)
 
@@ -176,6 +207,21 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
                     print(f"  [SKIP] Email not configured: {status['message']}")
             except Exception as e:
                 print(f"  [ERROR] Email failed: {e}")
+
+        # Send topic alerts to subscribers
+        if summaries:
+            try:
+                alerts = match_alerts(summaries)
+                if alerts:
+                    print(f"\n[ALERTS] Sending {len(alerts)} topic alert(s)...")
+                    result = send_alerts(alerts)
+                    if result['sent']:
+                        print(f"  [OK] Sent {result['sent']} alert(s)")
+                    if result['errors']:
+                        for err in result['errors']:
+                            print(f"  [ERROR] {err}")
+            except Exception as e:
+                print(f"  [WARN] Alert matching failed: {e}")
 
         # Print summary
         print(f"\n{'='*60}")

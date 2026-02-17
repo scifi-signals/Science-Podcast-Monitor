@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Timeline | Science Podcast Monitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        .header h1 { font-size: 2rem; margin-bottom: 6px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; }
+
+        nav {
+            background: #44337a;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        nav a:hover, nav a.active {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
+
+        /* Controls */
+        .controls {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .controls label {
+            font-weight: 600;
+            color: #553c9a;
+            font-size: 0.9rem;
+        }
+
+        .range-btn {
+            padding: 6px 16px;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            background: white;
+            color: #4a5568;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .range-btn:hover { border-color: #805ad5; color: #553c9a; }
+        .range-btn.active { background: #805ad5; color: white; border-color: #805ad5; }
+
+        .topic-count {
+            margin-left: auto;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+
+        /* Timeline */
+        .timeline { position: relative; padding-left: 40px; }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 16px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e9d8fd;
+        }
+
+        .topic-entry {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            padding: 20px;
+            margin-bottom: 16px;
+            position: relative;
+            cursor: pointer;
+            transition: box-shadow 0.2s;
+        }
+
+        .topic-entry:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+        .topic-entry::before {
+            content: '';
+            position: absolute;
+            left: -32px;
+            top: 24px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #805ad5;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px #e9d8fd;
+        }
+
+        .topic-entry .topic-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #553c9a;
+            margin-bottom: 4px;
+        }
+
+        .topic-entry .topic-stats {
+            font-size: 0.85rem;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .channel-chips {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .channel-chip {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .channel-chip.podcast {
+            background: #e9d8fd;
+            color: #553c9a;
+        }
+
+        .channel-chip.bluesky {
+            background: #bee3f8;
+            color: #2b6cb0;
+        }
+
+        /* Expanded detail */
+        .topic-detail {
+            display: none;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .topic-detail.open { display: block; }
+
+        .mention-list { list-style: none; padding: 0; }
+
+        .mention-list li {
+            padding: 6px 0;
+            font-size: 0.85rem;
+            color: #4a5568;
+            border-bottom: 1px solid #f7fafc;
+        }
+
+        .mention-list li:last-child { border-bottom: none; }
+
+        .mention-date {
+            color: #a0aec0;
+            font-size: 0.8rem;
+            min-width: 80px;
+            display: inline-block;
+        }
+
+        .mention-channel {
+            font-weight: 600;
+            margin-right: 6px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #a0aec0;
+        }
+
+        .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+        .empty-state h3 { color: #718096; margin-bottom: 8px; }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.6rem; }
+            .timeline { padding-left: 30px; }
+            .topic-entry::before { left: -22px; }
+            nav a { padding: 10px 12px; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Information Flow Timeline</h1>
+        <p class="subtitle">Topics appearing across multiple channels (podcasts + Bluesky)</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="topic_pulse.html">Topic Pulse</a>
+        <a href="timeline.html" class="active">Timeline</a>
+        <a href="subscribe.html">Subscribe</a>
+    </nav>
+
+    <div class="container">
+        <div class="controls">
+            <label>Time Range:</label>
+            <button class="range-btn" data-days="7">7 days</button>
+            <button class="range-btn active" data-days="14">14 days</button>
+            <button class="range-btn" data-days="30">30 days</button>
+            <span class="topic-count" id="topic-count"></span>
+        </div>
+
+        <div class="timeline" id="timeline">
+            <div class="empty-state">
+                <div class="icon">&#x23F3;</div>
+                <h3>Loading timeline...</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine</p>
+        <p>Internal use only</p>
+    </footer>
+
+    <script>
+        let allTopics = [];
+        let activeDays = 14;
+
+        fetch('timeline_data.json')
+            .then(r => r.json())
+            .then(data => {
+                allTopics = data.topics || [];
+                renderTimeline();
+            })
+            .catch(() => {
+                document.getElementById('timeline').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">&#x26A0;</div>
+                        <h3>Timeline not available</h3>
+                        <p>Cross-channel topic data hasn't been generated yet. It will appear after the next pipeline run.</p>
+                    </div>`;
+            });
+
+        // Time range buttons
+        document.querySelector('.controls').addEventListener('click', function(e) {
+            if (e.target.classList.contains('range-btn')) {
+                document.querySelectorAll('.range-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                activeDays = parseInt(e.target.dataset.days);
+                renderTimeline();
+            }
+        });
+
+        function renderTimeline() {
+            const cutoff = new Date();
+            cutoff.setDate(cutoff.getDate() - activeDays);
+            const cutoffISO = cutoff.toISOString();
+
+            // Filter topics with recent cross-channel activity
+            const filtered = allTopics.filter(t => {
+                // Check if any channel has mentions within the time range
+                const channels = t.channels || {};
+                let recentChannelCount = 0;
+                for (const [chKey, chData] of Object.entries(channels)) {
+                    // chData might be an array of mentions or an object with mentions
+                    let mentions = [];
+                    if (Array.isArray(chData)) {
+                        mentions = chData;
+                    } else if (chData && Array.isArray(chData.recent_mentions)) {
+                        mentions = chData.recent_mentions;
+                    } else if (typeof chData === 'object') {
+                        // timeline_data.json uses {podcast_name: [{date, episode}]}
+                        mentions = Array.isArray(chData) ? chData : [];
+                    }
+
+                    const hasRecent = mentions.some(m => (m.date || '') >= cutoffISO);
+                    if (hasRecent) recentChannelCount++;
+                }
+                return recentChannelCount >= 2;
+            });
+
+            document.getElementById('topic-count').textContent =
+                `${filtered.length} cross-channel topic${filtered.length !== 1 ? 's' : ''}`;
+
+            if (filtered.length === 0) {
+                document.getElementById('timeline').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">&#x1F4CA;</div>
+                        <h3>No cross-channel topics in this period</h3>
+                        <p>Try expanding the time range. Cross-channel topics appear when the same subject is discussed on 2+ different podcasts or on both podcasts and Bluesky.</p>
+                    </div>`;
+                return;
+            }
+
+            document.getElementById('timeline').innerHTML = filtered.map((t, i) => {
+                // Build channel chips
+                const channels = t.channels || {};
+                const chipHtml = Object.entries(channels).map(([chKey, chData]) => {
+                    let name = chKey;
+                    let type = 'podcast';
+                    if (typeof chData === 'object' && !Array.isArray(chData)) {
+                        // Could be from topic_tracker format or generate_topic_index format
+                        if (chKey.toLowerCase().includes('bluesky')) {
+                            type = 'bluesky';
+                            name = 'Bluesky';
+                        } else {
+                            name = chKey;
+                        }
+                    }
+                    return `<span class="channel-chip ${type}">${escapeHtml(name)}</span>`;
+                }).join('');
+
+                // Build mention detail
+                let mentionHtml = '';
+                for (const [chKey, chData] of Object.entries(channels)) {
+                    let mentions = [];
+                    if (Array.isArray(chData)) {
+                        mentions = chData;
+                    } else if (chData && Array.isArray(chData.recent_mentions)) {
+                        mentions = chData.recent_mentions;
+                    }
+
+                    mentions.forEach(m => {
+                        let dateStr = '';
+                        try {
+                            dateStr = new Date(m.date).toLocaleDateString('en-US', {month:'short', day:'numeric'});
+                        } catch(e) {}
+                        mentionHtml += `<li>
+                            <span class="mention-date">${dateStr}</span>
+                            <span class="mention-channel">${escapeHtml(chKey)}</span>
+                            ${m.episode || m.context ? escapeHtml(m.episode || m.context) : ''}
+                        </li>`;
+                    });
+                }
+
+                // Format first-seen date
+                let firstSeen = '';
+                try {
+                    firstSeen = new Date(t.first_seen).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
+                } catch(e) {}
+
+                return `
+                    <div class="topic-entry" onclick="this.querySelector('.topic-detail').classList.toggle('open')">
+                        <div class="topic-name">${escapeHtml(t.topic)}</div>
+                        <div class="topic-stats">
+                            ${t.channel_count} channels &middot;
+                            ${t.mention_count} total mentions &middot;
+                            First seen: ${firstSeen}
+                        </div>
+                        <div class="channel-chips">${chipHtml}</div>
+                        <div class="topic-detail">
+                            <ul class="mention-list">${mentionHtml}</ul>
+                        </div>
+                    </div>`;
+            }).join('');
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+    </script>
+</body>
+</html>

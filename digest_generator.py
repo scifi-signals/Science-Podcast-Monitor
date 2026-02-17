@@ -96,9 +96,14 @@ def generate_meta_summary(podcast_summaries, bluesky_digest):
     return meta
 
 
-def build_digest(podcast_summaries, bluesky_digest):
+def build_digest(podcast_summaries, bluesky_digest, cross_channel_topics=None):
     """
     Build the complete digest data structure.
+
+    Args:
+        podcast_summaries: list of episode summary dicts
+        bluesky_digest: dict from bluesky_monitor
+        cross_channel_topics: list of cross-channel topic dicts from topic_tracker
 
     Returns dict ready for HTML formatting.
     """
@@ -114,6 +119,7 @@ def build_digest(podcast_summaries, bluesky_digest):
         "meta_summary": meta,
         "podcast_episodes": sorted_podcasts,
         "bluesky": bluesky_digest,
+        "cross_channel_topics": cross_channel_topics or [],
         "stats": {
             "episodes_processed": len(podcast_summaries),
             "bluesky_posts_analyzed": bluesky_digest.get("post_count", 0),

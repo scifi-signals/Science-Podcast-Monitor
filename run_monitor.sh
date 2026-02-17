@@ -26,6 +26,11 @@ git pull --rebase origin main || {
 # Run the monitor (max 5 episodes to control costs)
 python main.py --email --max 5
 
+# Update site manifest and topic index for GitHub Pages
+echo "$(date): Updating site and topic index..."
+python update_site.py
+python generate_topic_index.py
+
 # Commit and push results
 if [[ -n $(git status --porcelain) ]]; then
     echo "$(date): Changes detected, committing..."

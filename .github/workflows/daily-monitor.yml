@@ -40,10 +40,17 @@ jobs:
         run: |
           python main.py --max 5
 
+      - name: Update site and topic index
+        run: |
+          python update_site.py
+          python generate_topic_index.py
+
       - name: Commit and push results
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add digest_*.html history.json 2>/dev/null || true
+          git add digest_*.html history.json digest_manifest.json 2>/dev/null || true
+          git add topic_index.json timeline_data.json topic_timeline.json 2>/dev/null || true
+          git add data/summaries/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Auto-generated podcast digest $(date +'%Y-%m-%d')"
           git push

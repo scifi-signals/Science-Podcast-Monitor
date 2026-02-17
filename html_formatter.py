@@ -20,11 +20,13 @@ def format_digest_html(digest):
     meta = digest.get("meta_summary", {})
     episodes = digest.get("podcast_episodes", [])
     bluesky = digest.get("bluesky", {})
+    cross_channel = digest.get("cross_channel_topics", [])
     stats = digest.get("stats", {})
 
     # Build sections
     meta_html = _format_meta_summary(meta)
     episodes_html = _format_episodes(episodes)
+    propagation_html = _format_topic_propagation(cross_channel)
     bluesky_html = _format_bluesky(bluesky)
     methodology_html = _format_methodology(stats)
 
@@ -165,6 +167,7 @@ def format_digest_html(digest):
         {_format_stats(stats)}
         {meta_html}
         {episodes_html}
+        {propagation_html}
         {bluesky_html}
         {methodology_html}
     </div>
@@ -347,6 +350,42 @@ def _tier_reach_badge(tier):
     }
     bg, label = config.get(tier, ("#718096", "UNKNOWN"))
     return f'<span style="background:{bg};color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">{label}</span>'
+
+
+def _format_topic_propagation(cross_channel_topics):
+    """Format the cross-channel topic propagation section."""
+    if not cross_channel_topics:
+        return ""
+
+    html = '<div class="card">\n'
+    html += '<h2>Topic Propagation</h2>\n'
+    html += '<p style="font-size:13px;color:#718096;margin-bottom:16px;">Topics appearing across multiple channels in the last 14 days, indicating broader scientific discourse.</p>\n'
+
+    for topic in cross_channel_topics[:8]:
+        name = topic.get('topic', '?')
+        n_channels = topic.get('channel_count', 0)
+        n_mentions = topic.get('total_mentions', 0)
+
+        # Build channel list
+        channels = topic.get('channels', {})
+        channel_tags = ''
+        for ch_key, ch_data in channels.items():
+            ch_type = ch_data.get('type', 'podcast') if isinstance(ch_data, dict) else 'podcast'
+            ch_name = ch_data.get('name', ch_key) if isinstance(ch_data, dict) else ch_key
+
+            if ch_type == 'bluesky':
+                channel_tags += f'<span style="display:inline-block;background:#bee3f8;color:#2b6cb0;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">{ch_name}</span>\n'
+            else:
+                channel_tags += f'<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">{ch_name}</span>\n'
+
+        html += f'''<div style="border-left:3px solid #805ad5;padding:10px 14px;margin:8px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:15px;">{name}</div>
+    <div style="font-size:12px;color:#718096;margin:4px 0;">{n_channels} channels &middot; {n_mentions} total mentions</div>
+    <div style="margin-top:6px;">{channel_tags}</div>
+</div>\n'''
+
+    html += '</div>\n'
+    return html
 
 
 def _format_bluesky(bluesky):

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor | NASEM</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header .org {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .header h1 { font-size: 2.5rem; margin-bottom: 10px; font-weight: 700; }
+        .header .subtitle { font-size: 1.1rem; opacity: 0.9; }
+
+        nav {
+            background: #44337a;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        nav a:hover, nav a.active {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+
+        .latest-section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .latest-section h2 { color: #553c9a; margin-bottom: 20px; font-size: 1.3rem; }
+
+        .latest-digest {
+            background: linear-gradient(135deg, #faf5ff 0%, #e9d8fd 100%);
+            border-radius: 8px;
+            padding: 24px;
+            border-left: 4px solid #805ad5;
+        }
+
+        .latest-digest h3 { color: #553c9a; margin-bottom: 8px; }
+        .latest-digest .date { color: #4a5568; font-size: 0.9rem; margin-bottom: 16px; }
+
+        .latest-digest .btn {
+            display: inline-block;
+            background: #553c9a;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .latest-digest .btn:hover { background: #6b46c1; }
+
+        .info-box {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #4a5568;
+        }
+
+        .info-box strong { color: #553c9a; }
+
+        .archive-section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .archive-section h2 { color: #553c9a; margin-bottom: 20px; font-size: 1.3rem; }
+
+        .archive-list { list-style: none; }
+
+        .archive-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .archive-list li:last-child { border-bottom: none; }
+
+        .archive-list a {
+            color: #6b46c1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .archive-list a:hover { text-decoration: underline; }
+
+        .archive-list .meta {
+            color: #718096;
+            font-size: 0.85rem;
+            margin-left: 12px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.8rem; }
+            nav a { padding: 10px 12px; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="org">National Academies of Sciences, Engineering, and Medicine</div>
+        <h1>Science Podcast Monitor</h1>
+        <p class="subtitle">Daily Intelligence Digest</p>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="topic_pulse.html">Topic Pulse</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="subscribe.html">Subscribe</a>
+    </nav>
+
+    <div class="container">
+        <!-- Latest Digest -->
+        <div class="latest-section">
+            <h2>Latest Digest</h2>
+            <div class="latest-digest" id="latest-digest">
+                <h3>Loading...</h3>
+                <p class="date">Checking for latest digest...</p>
+            </div>
+
+            <div class="info-box">
+                <strong>What is this?</strong> The Science Podcast Monitor transcribes and summarizes
+                episodes from 22 science podcasts daily, matches discussed topics to NASEM publications,
+                and monitors the Bluesky Science Feed for trending discussions. Digests are generated
+                daily with email delivery.
+            </div>
+        </div>
+
+        <!-- Archive -->
+        <div class="archive-section">
+            <h2>Previous Digests</h2>
+            <ul class="archive-list" id="archive-list">
+                <li>Loading archive...</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine</p>
+        <p>Internal use only</p>
+    </footer>
+
+    <script>
+        fetch('digest_manifest.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.digests && data.digests.length > 0) {
+                    const latest = data.digests[0];
+                    const episodeText = latest.episodes
+                        ? `${latest.episodes} episode${latest.episodes !== 1 ? 's' : ''} analyzed`
+                        : 'Digest available';
+
+                    document.getElementById('latest-digest').innerHTML = `
+                        <h3>${latest.date}</h3>
+                        <p class="date">${episodeText}</p>
+                        <a href="${latest.file}" class="btn">View Latest Digest &rarr;</a>
+                    `;
+
+                    const archiveList = document.getElementById('archive-list');
+                    if (data.digests.length > 1) {
+                        archiveList.innerHTML = data.digests.slice(1).map(d => {
+                            const epText = d.episodes
+                                ? `${d.episodes} episode${d.episodes !== 1 ? 's' : ''}`
+                                : '';
+                            return `
+                                <li>
+                                    <a href="${d.file}">${d.date}</a>
+                                    <span class="meta">${epText}</span>
+                                </li>
+                            `;
+                        }).join('');
+                    } else {
+                        archiveList.innerHTML = '<li>No previous digests yet.</li>';
+                    }
+                }
+            })
+            .catch(err => {
+                document.getElementById('latest-digest').innerHTML = `
+                    <h3>No digests available yet</h3>
+                    <p class="date">Digests will appear here after the first pipeline run.</p>
+                `;
+                document.getElementById('archive-list').innerHTML =
+                    '<li>Archive not available yet.</li>';
+            });
+    </script>
+</body>
+</html>
