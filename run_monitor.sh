@@ -34,7 +34,7 @@ python generate_topic_index.py
 # Commit and push results
 if [[ -n $(git status --porcelain) ]]; then
     echo "$(date): Changes detected, committing..."
-    git add -A
+    git add digest_*.html digest_manifest.json history.json topic_timeline.json topic_index.html data/summaries/*.json
     git commit -m "Automated podcast digest $(date +%Y-%m-%d)"
     git push origin main
     echo "$(date): Pushed to GitHub"
