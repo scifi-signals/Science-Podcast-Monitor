@@ -99,6 +99,70 @@
 
         .info-box strong { color: #553c9a; }
 
+        .podcast-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 12px;
+            background: none;
+            border: none;
+            color: #6b46c1;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0;
+            font-family: inherit;
+        }
+
+        .podcast-toggle:hover { color: #553c9a; }
+
+        .podcast-toggle .arrow {
+            display: inline-block;
+            transition: transform 0.2s;
+            font-size: 0.75rem;
+        }
+
+        .podcast-toggle.open .arrow { transform: rotate(90deg); }
+
+        .podcast-list {
+            display: none;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .podcast-list.open { display: block; }
+
+        .podcast-category {
+            margin-bottom: 14px;
+        }
+
+        .podcast-category:last-child { margin-bottom: 0; }
+
+        .podcast-category h4 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #553c9a;
+            margin-bottom: 6px;
+        }
+
+        .podcast-category ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+        }
+
+        .podcast-category li {
+            font-size: 0.85rem;
+            color: #4a5568;
+        }
+
+        .podcast-category .host {
+            color: #a0aec0;
+        }
+
         .archive-section {
             background: white;
             border-radius: 12px;
@@ -173,6 +237,55 @@
                 episodes from 22 science podcasts daily, matches discussed topics to NASEM publications,
                 and monitors the Bluesky Science Feed for trending discussions. Digests are generated
                 daily with email delivery.
+
+                <button class="podcast-toggle" onclick="this.classList.toggle('open'); document.getElementById('podcast-list').classList.toggle('open')">
+                    <span class="arrow">&#9654;</span> Tracked Podcasts (22)
+                </button>
+
+                <div class="podcast-list" id="podcast-list">
+                    <div class="podcast-category">
+                        <h4>Science Policy</h4>
+                        <ul>
+                            <li>Laws of Notion</li>
+                            <li>Science Policy IRL</li>
+                            <li>Science for Policy</li>
+                            <li>The Science of Politics</li>
+                            <li>Unbiased Science</li>
+                            <li>Science Will Win</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-category">
+                        <h4>High-Reach Influencers</h4>
+                        <ul>
+                            <li>Huberman Lab</li>
+                            <li>The Peter Attia Drive</li>
+                            <li>Found My Fitness</li>
+                            <li>Radiolab</li>
+                            <li>StarTalk Radio</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-category">
+                        <h4>Long-form Interview</h4>
+                        <ul>
+                            <li>Lex Fridman Podcast</li>
+                            <li>Making Sense</li>
+                            <li>The Ezra Klein Show</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-category">
+                        <h4>Science News &amp; Communication</h4>
+                        <ul>
+                            <li>Science Friday</li>
+                            <li>TechTank</li>
+                            <li>Short Wave</li>
+                            <li>Nature Podcast</li>
+                            <li>Science Magazine</li>
+                            <li>Skeptics' Guide to the Universe</li>
+                            <li>Hidden Brain</li>
+                            <li>Babbage from The Economist</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
