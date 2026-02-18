@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 18, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 18, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing focuses on pediatric clinical trials as a critical infrastructure challenge in drug development, with specific attention to mRNA vaccine regulatory pathways. Dr. Neil Goldenberg from Johns Hopkins highlighted fundamental differences between pediatric and adult trials—including physiological distinctions, enhanced vulnerability protections, and representation gaps—that create operational catch-22s for researchers. The FDA's recent refusal-to-file decision on Moderna's mRNA flu vaccine application signals regulatory scrutiny of trial design methodology and carries implications for the broader mRNA technology pipeline. Over the past week, pediatric clinical trial methodology has appeared consistently alongside discussions of vaccine development, suggesting sustained institutional interest in evidence-based pediatric treatment pathways.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Pediatric clinical trial design and infrastructure challenges</li>
+<li>mRNA vaccine development and regulatory review processes</li>
+<li>Physiological and developmental differences affecting drug safety and efficacy in children</li>
+<li>Multi-center trial coordination and specimen biobanking logistics</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>FDA regulatory scrutiny of mRNA vaccine trial methodologies (Moderna flu vaccine refusal-to-file signals tighter design standards)</li>
+<li>Off-label medication use in pediatric populations as a systematic research gap</li>
+<li>Pediatric thromboembolism and anticoagulation as clinically urgent research areas</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission white paper on pediatric trial infrastructure barriers and best practices to support FDA and industry stakeholders</div>
+<div class="opportunity">Host working group on mRNA vaccine trial design standards to clarify regulatory expectations and reduce future refusal-to-file decisions</div>
+<div class="opportunity">Develop guidance on ethical oversight frameworks that balance child protection with adequate trial enrollment and representation</div>
+<div class="opportunity">Coordinate with NIH and industry on multi-center pediatric biobanking standards to reduce operational bottlenecks</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">No notable misinformation detected in today's sources. FDA refusal-to-file rates (4% over a decade) presented accurately and contextually.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Pediatric Clinical Translation and Safety</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science is establishing pediatric medicine as a distinct translational priority, covering clinical trial design, vaccine development (mRNA flu), and rare pediatric pathologies like stroke and thrombosis management. This represents emerging focus on how adult-model therapies must be reimagined for developmental physiology, with implications for regulatory pathways and trial infrastructure.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise on pediatric clinical trial methodology standards and how vaccine platforms (mRNA) require age-stratified safety and efficacy frameworks.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Mechanisms of Motor Performance and Pressure</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave is converging on neuroscience of athletic/motor execution under cognitive load, examining reward circuits (ventral striatum, nucleus accumbens), fatigue physiology, and motor cortex function during high-stakes performance. Science Friday complements this with biomechanical data on elite athletic feats (quadruple axel), creating an integrated view of how brain and body interact in extreme performance.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can synthesize neuroscience and biomechanics research to inform sports science policy, injury prevention, and understanding cognitive-motor limits in high-performance domains.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Non-Human Cognition and Theory of Mind</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave is deepening exploration of animal cognition beyond humans—bonobo language, symbolic communication, pretend play, and imaginative capacity—positioning non-human theory of mind as measurable cognitive trait. This challenges traditional intelligence hierarchies and suggests comparative cognition frameworks.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should consider how animal cognition research informs cognitive science definitions, comparative neuroscience policy, and ethical frameworks for cognition-based animal research.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Intelligence Measurement and Neurodiversity Recognition</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Hidden Brain is interrogating IQ testing validity, implicit learning mechanisms, and the g-factor concept while highlighting twice-exceptional (2E) individuals who defy single-metric intelligence frameworks. This represents a fading confidence in traditional psychometric models and emerging recognition of multidimensional cognitive profiles.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Hidden Brain</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene on intelligence measurement reform, neurodiversity in education and talent identification, and how implicit learning capability is invisible to standard IQ assessments.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Viral Evolution and Immunological Escape Mechanisms</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave is tracking HIV vaccine immunity challenges—broadly neutralizing antibodies (bNAbs), viral strain variation, and immune evasion—as a model problem in vaccinology. This reflects ongoing tension between vaccine design and pathogen adaptability, relevant across vaccine platforms.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise on next-generation vaccine strategy for evolving pathogens, immunology research priorities, and how HIV vaccine lessons transfer to emerging respiratory viruses.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Feb 18 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines pediatric clinical trials, their importance for developing evidence-based treatments for children, and the infrastructure challenges that impede their conduct. Guest Dr. Neil Goldenberg from Johns Hopkins discusses why pediatric trials are fundamentally different from adult trials due to physiological differences, vulnerability protections, and the catch-22 of needing both rigorous oversight and adequate representation. The hosts also address a recent FDA decision to refuse to review Moderna's mRNA flu vaccine application, which signals regulatory concerns about vaccine trial design and has broader implications for mRNA technology development.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Pediatric clinical trials design and methodology</span>
+  <span class="topic-tag">mRNA-based flu vaccine development</span>
+  <span class="topic-tag">Thrombosis and anticoagulation in pediatric populations</span>
+  <span class="topic-tag">Pediatric stroke pathophysiology</span>
+  <span class="topic-tag">COVID-19 thromboembolism in children</span>
+  <span class="topic-tag">Developmental differences in drug metabolism and coagulation proteins</span>
+  <span class="topic-tag">Blood clotting system proteins and functional aspects across developmental stages</span>
+  <span class="topic-tag">Multi-center clinical trial infrastructure</span>
+  <span class="topic-tag">Off-label medication use in pediatric populations</span>
+  <span class="topic-tag">Biobanking and specimen collection in pediatric research</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials" target="_blank">The Prevention and Treatment of Missing Data in Clinical Trials</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of" target="_blank">The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance" target="_blank">Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine</div>
+<div class="claim">Moderna separately ran a trial versus high-dose shot in adults 65 and older</div>
+<div class="claim">FDA refusal-to-file letters represent only 4% of applications over a decade</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Kids really don't have a voice... it's us as caretakers, as parents, as primary physicians, subspecialists to advocate for them. But too often folks, including pharmaceutical industry, will say, well, it's too difficult to do that... And so then we have a result whereby we're treating kids off-label in many circumstances."</div>
+<div class="quote">"Kids are not just small adults... pediatric trials need to account for the fact that an infant trial is probably not the same as an adolescent, post-pubertal adolescent trial because metabolism and developmental differences between kids and adults are substantial."</div>
+</div>
+</div>
+
+        
+        
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 18, 2026 at 10:36 AM | Internal use only
+    </div>
+</body>
+</html>
