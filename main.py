@@ -13,7 +13,7 @@ from summarizer import summarize_episode
 from bluesky_monitor import get_bluesky_digest
 from digest_generator import build_digest
 from html_formatter import format_digest_html, save_digest
-from summary_store import save_summary
+from summary_store import save_summary, load_recent_summaries
 from topic_tracker import record_podcast_topics, record_bluesky_topics, get_cross_channel_topics
 from alert_matcher import match_alerts, send_alerts
 
@@ -187,7 +187,20 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
         except Exception as e:
             print(f"  [WARN] Cross-channel topic retrieval failed: {e}")
 
-        digest = build_digest(summaries, bluesky_data, cross_channel_topics=cross_channel_topics)
+        # Load recent summaries for multi-day context
+        recent_summaries = []
+        try:
+            recent_summaries = load_recent_summaries(days=7)
+            if recent_summaries:
+                print(f"  [CONTEXT] Loaded {len(recent_summaries)} recent summaries for trend analysis")
+        except Exception as e:
+            print(f"  [WARN] Recent summary loading failed: {e}")
+
+        digest = build_digest(
+            summaries, bluesky_data,
+            cross_channel_topics=cross_channel_topics,
+            recent_summaries=recent_summaries,
+        )
         html = format_digest_html(digest)
         filepath = save_digest(html)
 

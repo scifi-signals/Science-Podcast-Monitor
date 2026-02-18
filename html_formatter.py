@@ -18,6 +18,7 @@ def format_digest_html(digest):
     """
     date = digest.get("date", datetime.now().strftime("%B %d, %Y"))
     meta = digest.get("meta_summary", {})
+    trends = digest.get("trend_synthesis", [])
     episodes = digest.get("podcast_episodes", [])
     bluesky = digest.get("bluesky", {})
     cross_channel = digest.get("cross_channel_topics", [])
@@ -25,6 +26,7 @@ def format_digest_html(digest):
 
     # Build sections
     meta_html = _format_meta_summary(meta)
+    trends_html = _format_trend_synthesis(trends)
     episodes_html = _format_episodes(episodes)
     propagation_html = _format_topic_propagation(cross_channel)
     bluesky_html = _format_bluesky(bluesky)
@@ -166,6 +168,7 @@ def format_digest_html(digest):
     <div class="container">
         {_format_stats(stats)}
         {meta_html}
+        {trends_html}
         {episodes_html}
         {propagation_html}
         {bluesky_html}
@@ -248,6 +251,40 @@ def _format_meta_summary(meta):
         html += '<h3>Misinformation Watch</h3>\n'
         for m in misinfo:
             html += f'<div class="claim">{m}</div>\n'
+
+    html += '</div>\n'
+    return html
+
+
+def _format_trend_synthesis(trends):
+    """Format the cross-show trend synthesis section."""
+    if not trends:
+        return ""
+
+    html = '<div class="card">\n'
+    html += '<h2>Cross-Show Trends</h2>\n'
+    html += '<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>\n'
+
+    for trend in trends:
+        topic = trend.get('topic', '?')
+        narrative = trend.get('narrative', '')
+        shows = trend.get('shows', [])
+        relevance = trend.get('nasem_relevance', '')
+
+        # Show badges
+        show_tags = ''
+        for show in shows:
+            show_tags += f'<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">{show}</span>\n'
+
+        html += f'''<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">{topic}</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">{narrative}</p>
+    <div style="margin-bottom:6px;">{show_tags}</div>\n'''
+
+        if relevance:
+            html += f'    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> {relevance}</div>\n'
+
+        html += '</div>\n'
 
     html += '</div>\n'
     return html
