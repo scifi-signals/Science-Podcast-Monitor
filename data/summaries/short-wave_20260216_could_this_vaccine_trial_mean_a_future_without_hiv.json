@@ -1,0 +1,550 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "Could this vaccine trial mean a future without HIV?",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-02-16T08:00:00",
+  "duration_minutes": 11.95,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode discusses a Pan-Africa HIV vaccine trial based on groundbreaking research by South African virologists who have collected blood samples from 117 women over 20 years to understand HIV's behavior across populations. The research was nearly derailed when the Trump administration froze USAID foreign aid in early 2025, cutting $45 million in funding just weeks before the trial was to begin. The team secured alternative funding of $2.2 million from the South African Medical Research Council and Gates Foundation, allowing them to proceed with a scaled-down trial focused on South Africa. The vaccine development is based on discovering broadly neutralizing antibodies found in some HIV-positive individuals that can neutralize up to 90% of global HIV variants.",
+  "science_topics": [
+    "HIV vaccine development",
+    "Broadly neutralizing antibodies (bNAbs)",
+    "HIV viral evolution and strain variation",
+    "HIV immune evasion mechanisms",
+    "Comparative virology across African populations",
+    "COVID-19 research (mentioned as benefiting from HIV sample research)",
+    "RSV research (mentioned as benefiting from HIV sample research)",
+    "Cancer research (mentioned as benefiting from HIV sample research)"
+  ],
+  "claims_to_note": [
+    "Broadly neutralizing antibodies can stop HIV virus in up to 90% of global cases",
+    "Broadly neutralizing antibodies rarely emerge naturally in time to help infected individuals",
+    "HIV virus varies significantly between countries and within individuals",
+    "Two decades of blood sample collection from 117 South African women has enabled detailed understanding of HIV infection and viral hiding mechanisms",
+    "Trump administration's foreign aid freeze in early 2025 directly halted USAID-funded vaccine trial just weeks before launch"
+  ],
+  "policy_relevance": [
+    "Trump administration executive order freezing most foreign aid in early 2025",
+    "USAID $45 million grant to develop HIV vaccine cancelled due to foreign aid freeze",
+    "Stop work orders issued from Washington weeks before trial launch",
+    "Alternative funding sourced from South African Medical Research Council and Gates Foundation ($2.2 million)",
+    "Vaccine trial scope reduced from Pan-Africa collaboration to South Africa-only due to reduced funding"
+  ],
+  "key_quotes": [
+    "I completely underestimated how much it would gut the program.",
+    "It's a bare bones version. We will still get the answer, but it's going to cost us time, years, which is not trivial because people are getting infected with this virus constantly.",
+    "A broadly neutralizing antibody could stop my virus and could stop your virus and could stop an HIV virus from any other person. And in many cases, up to 90% of global viruses could be stopped by one antibody."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "HIV vaccine development",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        },
+        {
+          "id": "13382",
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "next iteration smart vaccines",
+            "prioritization software tool phase",
+            "prioritization software tool developed",
+            "multi attribute utility theory",
+            "ranking vaccines",
+            "utilizes decision science",
+            "development validation",
+            "vaccine development",
+            "concept presented",
+            "model developed",
+            "software blueprint",
+            "prioritization",
+            "demonstration",
+            "concept",
+            "phase"
+          ],
+          "description": "SMART Vaccines--Strategic Multi-Attribute Ranking Tool for Vaccines--is a prioritization software tool developed by the Institute of Medicine that utilizes decision science and modeling to help inform choices among candidates for new vaccine development. A blueprint for this computer-based guide was presented in the 2012 report Ranking Vaccines: A Prioritization Framework: Phase I. Ranking Vaccines: A Prioritization Software Tool,Phase II extends the proof-of-concept presented in the Phase I report, which was based on multi-attribute utility theory. This report refines a beta version of the model developed in the Phase I report and presents its next iteration, SMART Vaccines 1.0. Ranking Vaccines: Phase II discusses the methods underlying the development, validation, and evaluation of SMART Vaccines 1.0. It also discusses how SMART Vaccines should--and, just as importantly, should not--be used. The report also offers ideas for future enhancements for SMART Vaccines as well as for ideas",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Identifying and Prioritizing New Preventive Vaccines for Development, Phase II"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Broadly neutralizing antibodies (bNAbs)",
+      "publications": [
+        {
+          "id": "26428",
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "early childhood education",
+            "special education",
+            "education programs",
+            "improve academic achievement",
+            "educational opportunities",
+            "federal government",
+            "evaluation statistics",
+            "expanding fundamental",
+            "esra authorizing",
+            "support learning",
+            "equity oriented science",
+            "advancing",
+            "ies"
+          ],
+          "description": "In 2002 Congress passed the Education Sciences Reform Act of 2002 (ESRA), authorizing the creation of the Institute of Education Sciences (IES) as the research, evaluation, statistics, and assessment arm of the Department of Education, and crystallizing the federal government's commitment to providing national leadership in expanding fundamental knowledge and understanding of education from early childhood through postsecondary study. IES shares information on the condition and progress of education in the United States, including early childhood education and special education; educational practices that support learning and improve academic achievement and access to educational opportunities for all students; and the effectiveness of federal and other education programs. In response to a request from the Institute of Education Sciences, this report provides guidance on the future of education research at the National Center for Education Research and the National Center for Special E",
+          "year": 2022,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "25129",
+          "title": "Exploring Early Childhood Care and Education Levers to Improve Population Health: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25129/exploring-early-childhood-care-and-education-levers-to-improve-population-health",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "population health improvement",
+            "health sectors broadly",
+            "early childhood birth",
+            "early childhood care",
+            "cross sectoral partnerships",
+            "social determinants",
+            "important opportunity",
+            "human development",
+            "critical period",
+            "deeper focus",
+            "exploring early childhood care",
+            "improve population health",
+            "education levers"
+          ],
+          "description": "On September 14, 2017, the Roundtable on Population Health Improvement of the National Academies of Sciences, Engineering, and Medicine convened a workshop to explore the intersection of health and early childhood care and education, two key social determinants of health. This workshop follows a 2014 roundtable workshop that considered the interface between the education and health sectors broadly, from research and metrics to cross-sectoral partnerships and financing. The 2017 workshop continued that discussion, with a deeper focus on early childhood (birth through age 5) as a critical period in human development and an important opportunity for educational and related interventions. This publication summarizes the presentations and discussions from the 2017 workshop.",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "HIV viral evolution and strain variation",
+      "publications": [
+        {
+          "id": "12692",
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "book leading evolutionary biologists",
+            "selection natural artificial",
+            "term artificial selection",
+            "darwin addressed during",
+            "series explores evolutionary",
+            "science historians reflect",
+            "sackler colloquium sponsored",
+            "particular biological topic",
+            "current scientific thought",
+            "three main categories",
+            "two centuries",
+            "volume iii",
+            "evolution",
+            "darwin",
+            "light"
+          ],
+          "description": "Two Centuries of Darwin is the outgrowth of an Arthur M. Sackler Colloquium, sponsored by the National Academy of Sciences on January 16-17, 2009. In the chapters of this book, leading evolutionary biologists and science historians reflect on and commemorate the Darwinian Revolution. They canvass modern research approaches and current scientific thought on each of the three main categories of selection (natural, artificial, and sexual) that Darwin addressed during his career. Although Darwin's legacy is associated primarily with the illumination of natural selection in The Origin, he also contemplated and wrote extensively about what we now term artificial selection and sexual selection. In a concluding section of this book, several science historians comment on Darwin's seminal contributions. Two Centuries of Darwin is the third book of the In the Light of Evolution series. Each installment in the series explores evolutionary perspectives on a particular biological topic that is scien",
+          "year": 2009,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "11876",
+          "title": "Science, Evolution, and Creationism",
+          "keywords": [
+            "evolution",
+            "evolutionary",
+            "biology",
+            "science",
+            "origins",
+            "natural selection"
+          ]
+        },
+        {
+          "id": "13223",
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "learned realms traditionally reserved",
+            "biodiversity currently faces",
+            "evolutionary processes",
+            "foster biotic diversity",
+            "gain deeper insights",
+            "evolutionary principles",
+            "two urgent challenges",
+            "evolutionary thought",
+            "evolution ile series",
+            "evolutionary past",
+            "cooperation",
+            "evolution",
+            "conflict",
+            "volume",
+            "light"
+          ],
+          "description": "Biodiversity-the genetic variety of life-is an exuberant product of the evolutionary past, a vast human-supportive resource (aesthetic, intellectual, and material) of the present, and a rich legacy to cherish and preserve for the future. Two urgent challenges, and opportunities, for 21st-century science are to gain deeper insights into the evolutionary processes that foster biotic diversity, and to translate that understanding into workable solutions for the regional and global crises that biodiversity currently faces. A grasp of evolutionary principles and processes is important in other societal arenas as well, such as education, medicine, sociology, and other applied fields including agriculture, pharmacology, and biotechnology. The ramifications of evolutionary thought also extend into learned realms traditionally reserved for philosophy and religion. The central goal of the In the Light of Evolution (ILE) series is to promote the evolutionary sciences through state-of-the-art coll",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "HIV immune evasion mechanisms",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "25762",
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "cool earth nrc reviewed",
+            "provided high level",
+            "climate intervention",
+            "reflecting sunlight",
+            "state",
+            "mechanisms",
+            "regarding",
+            "establish",
+            "encompass",
+            "governing",
+            "solar geoengineering",
+            "governance"
+          ],
+          "description": "The National Research Council report Climate Intervention: Reflecting Sunlight to Cool Earth (NRC, 2015) reviewed the state of the science and provided high-level findings and recommendations regarding SG methods. This current study was tasked to update the 2015 assessment of the state of understanding and to provide recommendations for how to establish a research program, what to encompass in the research agenda, and what mechanisms to employ for governing this research.",
+          "year": 2021,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "24833",
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "seemingly simple concept encompasses",
+            "featuring invited speakers",
+            "cyber resilience hosted",
+            "important mechanism",
+            "mechanisms policies",
+            "security changes",
+            "private sector",
+            "wide variety",
+            "software",
+            "presentations",
+            "resilience",
+            "mechanism",
+            "security"
+          ],
+          "description": "Software update is an important mechanism by which security changes and improvements are made in software, and this seemingly simple concept encompasses a wide variety of practices, mechanisms, policies, and technologies. To explore the landscape further, the Forum on Cyber Resilience hosted a workshop featuring invited speakers from government, the private sector, and academia. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Comparative virology across African populations",
+      "publications": [
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "25443",
+          "title": "Long-Term Health Monitoring of Populations Following a Nuclear or Radiological Incident in the United States: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25443/long-term-health-monitoring-of-populations-following-a-nuclear-or-radiological-incident-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "participants assessed existing",
+            "another incident occurs",
+            "local agencies respond",
+            "cause deaths injuries",
+            "radiological incident",
+            "psychosocial effects",
+            "populations affected",
+            "affected population",
+            "radioactive materials",
+            "surrounding community",
+            "long term health monitoring",
+            "populations following",
+            "nuclear"
+          ],
+          "description": "Accidents and terrorist attacks that lead to the release of radioactive materials can cause deaths, injuries, and a range of psychosocial effects in the surrounding community and team of emergency responders. In the United States, federal, state, and local agencies respond with the necessary resources to address the consequences of nuclear and radiological incidents and monitor the affected population. Following the 2011 Fukushima Daiichi Nuclear Power Plant accident and the 2017 Gotham Shield National Level Exercise, the CDC recognized an opportunity to improve their practices by establishing a more efficient and timely health effect surveillance system before another incident occurs. On March 12-13th, 2019, the National Academies convened a workshop to discuss the process for preparing a radiation registry for monitoring long-term health effects of populations affected by a nuclear or radiological incident. Participants assessed existing information, useful practices, and tools for p",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 1711,
+  "saved_at": "2026-02-18T11:43:10.059608"
+}

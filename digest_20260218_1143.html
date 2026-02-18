@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 18, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 18, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">41</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">78</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's sources highlight critical intersections between human performance science, pediatric medical research infrastructure, vaccine development innovation, and emerging climate-driven health threats. The podcasts reveal sophisticated neuroscience explaining athletic performance under pressure and cognitive abilities in non-human primates, while a major HIV vaccine trial in South Africa advances despite significant U.S. funding disruptions. Bluesky data shows sustained scientific community focus on climate-ecosystem linkages, AI's role in research productivity, and women's representation in STEM leadership. Key policy concern: USAID funding freeze threatened a 20-year HIV vaccine program, underscoring the fragility of international collaborative research dependent on government appropriations.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>High-stakes performance and pressure effects on human cognition and physiology</li>
+<li>Physiological and developmental differences requiring specialized research design (pediatric vs. adult populations; athletic vs. general populations)</li>
+<li>International collaborative research infrastructure vulnerability to policy/funding disruptions</li>
+<li>Vaccine development timelines and regulatory decision-making (mRNA flu, HIV)</li>
+<li>Broadly neutralizing antibodies and immunological innovation across disease areas</li>
+<li>Long-term observational research cohorts as foundation for breakthrough discoveries</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Interstellar object characterization using multi-telescope coordination (Hubble, JWST, SPHEREx)</li>
+<li>Climate-driven disease range expansion and ecosystem cascade effects on human health</li>
+<li>AI-generated content risks in peer review and scientific publishing integrity</li>
+<li>Cognitive reframing as clinical intervention for performance anxiety and choking</li>
+<li>Imagination and theory-of-mind capacity in non-human primate evolution</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or convene on pediatric clinical trial infrastructure gaps and regulatory streamlining—directly addresses Dr. Goldenberg's catch-22 between oversight and enrollment</div>
+<div class="opportunity">Develop guidance on AI content detection in peer review and maintain scientific publishing standards as AI augmentation accelerates</div>
+<div class="opportunity">Produce policy brief on international research collaboration resilience given USAID funding disruption impact on HIV vaccine trial—highlight 20-year cohort value</div>
+<div class="opportunity">Host roundtable on cognitive science applications to Olympic/elite athletic performance—timely given 2026 Winter Olympics and neuroscience data on reframing interventions</div>
+<div class="opportunity">Convene working group on broadly neutralizing antibody research across disease areas (HIV, RSV, cancer immunotherapy) to identify cross-disciplinary acceleration opportunities</div>
+<div class="opportunity">Assess gender representation in scientific leadership and publicize women scientist awards to amplify International Day messaging</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Claim that quadruple axel is performed only by Ilya Malinin as of 2026 may be outdated or regionally limited—verify current competitive data</div>
+<div class="claim">Claim that apes do not commonly use pointing behavior requires scrutiny against recent primate cognition literature showing pointing in some species under specific conditions</div>
+<div class="claim">Broadly neutralizing antibodies stopping HIV in '90% of global cases' requires clarification: does this refer to in vitro neutralization capacity, clinical trial efficacy, or prevention potential? Clinical translation remains unproven</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Could this vaccine trial mean a future without HIV?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 16 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses a Pan-Africa HIV vaccine trial based on groundbreaking research by South African virologists who have collected blood samples from 117 women over 20 years to understand HIV's behavior across populations. The research was nearly derailed when the Trump administration froze USAID foreign aid in early 2025, cutting $45 million in funding just weeks before the trial was to begin. The team secured alternative funding of $2.2 million from the South African Medical Research Council and Gates Foundation, allowing them to proceed with a scaled-down trial focused on South Africa. The vaccine development is based on discovering broadly neutralizing antibodies found in some HIV-positive individuals that can neutralize up to 90% of global HIV variants.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">HIV vaccine development</span>
+  <span class="topic-tag">Broadly neutralizing antibodies (bNAbs)</span>
+  <span class="topic-tag">HIV viral evolution and strain variation</span>
+  <span class="topic-tag">HIV immune evasion mechanisms</span>
+  <span class="topic-tag">Comparative virology across African populations</span>
+  <span class="topic-tag">COVID-19 research (mentioned as benefiting from HIV sample research)</span>
+  <span class="topic-tag">RSV research (mentioned as benefiting from HIV sample research)</span>
+  <span class="topic-tag">Cancer research (mentioned as benefiting from HIV sample research)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity" target="_blank">The Future of Education Research at IES: Advancing an Equity-Oriented Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25129/exploring-early-childhood-care-and-education-levers-to-improve-population-health" target="_blank">Exploring Early Childhood Care and Education Levers to Improve Population Health: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Broadly neutralizing antibodies can stop HIV virus in up to 90% of global cases</div>
+<div class="claim">Broadly neutralizing antibodies rarely emerge naturally in time to help infected individuals</div>
+<div class="claim">HIV virus varies significantly between countries and within individuals</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I completely underestimated how much it would gut the program."</div>
+<div class="quote">"It's a bare bones version. We will still get the answer, but it's going to cost us time, years, which is not trivial because people are getting infected with this virus constantly."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Tea time... with an ape?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 17 &middot; 11 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores a cognitive science study that tested whether Kanzi, a famous bonobo who died in 2024, possessed the ability to imagine—a capacity long considered uniquely human. Researchers conducted controlled experiments using pretend tea parties with imaginary juice, similar to studies done with human children, to determine if Kanzi could entertain false scenarios and mentally separate reality from pretense. The findings suggest that imagination may have evolutionary roots dating back millions of years to common ancestors of humans and bonobos, indicating a deeper mental life in non-human animals than previously understood.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Bonobo cognition and language comprehension</span>
+  <span class="topic-tag">Symbolic communication in non-human primates</span>
+  <span class="topic-tag">Theory of mind and imaginative capacity in animals</span>
+  <span class="topic-tag">Pretend play as a cognitive ability</span>
+  <span class="topic-tag">Evolutionary psychology and primate evolution</span>
+  <span class="topic-tag">Comparative cognition between humans and apes</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop" target="_blank">Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26618/an-assessment-of-native-seed-needs-and-the-capacity-for-their-supply" target="_blank">An Assessment of Native Seed Needs and the Capacity for Their Supply: Final Report</a></div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">A 1993 study found that 8-year-old Kanzi could outperform a two-year-old human when given more than 600 spoken instructions</div>
+<div class="claim">Kanzi correctly identified the location of imaginary juice about 70% of the time in the experimental tea party task</div>
+<div class="claim">Pointing is described as not a common behavior for apes, making Kanzi unusual in this regard</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Our findings suggest that Kanzi was able to, in his mind, sort of entertain two versions of reality. On the one hand, he sees two empty cups in front of him. He knows that they're empty. But he's also able to imagine, to pretend that one of them is not."</div>
+<div class="quote">"This ability to sort of go beyond the present, go beyond reality in your mind, is a sort of remarkable cognitive feat. And it tells us, for one, that very likely that capacity, those roots of our imagination, were present millions of years ago in the common ancestors that we shared with bonobos."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The neuroscience of cracking under pressure</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 18 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the neuroscience of performance under pressure, featuring neuroscientist Vikram Chib from Johns Hopkins University who studies how the brain responds to rewards and fatigue. The discussion centers on why athletes sometimes excel or choke during high-stakes competitions like the Olympics, revealing that the brain's reward processing system (particularly the ventral striatum) can reframe high incentives as potential losses, triggering anxiety that impairs performance. Research shows that cognitive reframing techniques—such as focusing on overall performance portfolios rather than individual high-stakes trials—can help overcome choking behavior by reducing loss-related brain activity.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Ventral striatum and reward processing</span>
+  <span class="topic-tag">Cognitive fatigue versus physical fatigue</span>
+  <span class="topic-tag">Motor cortex and motor performance under pressure</span>
+  <span class="topic-tag">Nucleus accumbens in reward signaling</span>
+  <span class="topic-tag">Prefrontal cortex in reward response</span>
+  <span class="topic-tag">Cerebellum function in motor coordination</span>
+  <span class="topic-tag">Loss aversion and performance anxiety</span>
+  <span class="topic-tag">Cognitive reframing techniques for performance optimization</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration" target="_blank">Plasma Science: Enabling Technology, Sustainability, Security, and Exploration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26705/reducing-racial-inequality-in-crime-and-justice-science-practice-and" target="_blank">Reducing Racial Inequality in Crime and Justice: Science, Practice, and Policy</a></div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program" target="_blank">Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24943/indicators-for-monitoring-undergraduate-stem-education" target="_blank">Indicators for Monitoring Undergraduate STEM Education</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13048/recapturing-a-future-for-space-exploration-life-and-physical-sciences" target="_blank">Recapturing a Future for Space Exploration: Life and Physical Sciences Research for a New Era</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13070/preparedness-and-response-to-a-rural-mass-casualty-incident-workshop" target="_blank">Preparedness and Response to a Rural Mass Casualty Incident: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25650/evidence-based-practice-for-public-health-emergency-preparedness-and-response" target="_blank">Evidence-Based Practice for Public Health Emergency Preparedness and Response</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Reward processing in the ventral striatum can counteract feelings of fatigue and effort costs</div>
+<div class="claim">High monetary incentives ($100) can cause choking behavior in skilled motor tasks, with performance declining as stakes increase beyond moderate levels</div>
+<div class="claim">The ventral striatum reframes high-stakes incentives as potential losses, triggering worry that impairs motor function through crosstalk between reward and motor signals</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"So you can think of any action that you're doing as like a trade-off between the effort costs that you're putting in and the reward you're getting out. So if I boost up that reward a little bit, right, it might motivate me more to overcome some of that feeling of fatigue and do the task that you're set out to do."</div>
+<div class="quote">"They would see that really high incentive and they would view it as a loss. They would get worried about actually losing the really high incentive. And that worry about loss was related to how they choked under pressure."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Jump, Spin, Glide: The Science Of Figure Skating</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 18 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the biomechanics and physics underlying figure skating, focusing on the quadruple axel and other advanced technical skills performed at the Olympics. Dr. Deborah King explains how skaters use principles of physics—particularly moment of inertia, angular momentum, and torque—to execute complex aerial maneuvers in under one second of airtime. The discussion covers the interplay between physical attributes, technique, mental performance, and the extreme cardiovascular demands of competitive figure skating programs.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Moment of inertia in rotational motion</span>
+  <span class="topic-tag">Angular momentum and torque in athletic movement</span>
+  <span class="topic-tag">Quadruple axel jump biomechanics (4.5 revolutions in ~0.9 seconds)</span>
+  <span class="topic-tag">Airtime physics in figure skating jumps</span>
+  <span class="topic-tag">Proprioception and body awareness during aerial rotation</span>
+  <span class="topic-tag">Aerobic and anaerobic energy systems in endurance sports</span>
+  <span class="topic-tag">Injury biomechanics from landing loads in figure skating</span>
+  <span class="topic-tag">Off-ice training transfer to on-ice performance</span>
+  <span class="topic-tag">Body composition and morphology effects on rotational sports performance</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">An Assessment of the Prospects for Inertial Fusion Energy</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change" target="_blank">Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide" target="_blank">Implementing Machine Learning at State Departments of Transportation: A Guide</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28337/building-institutional-capacity-for-engaged-research-proceedings-of-a-workshop" target="_blank">Building Institutional Capacity for Engaged Research: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis" target="_blank">Teaching K-12 Science and Engineering During a Crisis</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide" target="_blank">Minimizing Utility Issues During Construction: A Guide</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Quadruple axel is only being performed in competition by Ilya Malinin (as of 2026)</div>
+<div class="claim">Quadruple axel airtime is typically 0.8-0.9 seconds with 4.5 revolutions</div>
+<div class="claim">Figure skaters do not use 'spotting' technique during rapid rotations unlike ballet dancers</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The quadruple axle is a jump that is unique in that, as an axle jump, the skaters step forward and is facing forward when they jump into the air...there's actually an extra half revolution you have to complete so that you're facing backwards. So it's a four and a half revolution jump."</div>
+<div class="quote">"If you're doing four and a half revolutions in a second, you're not going to be able to spot and turn your head. So having your body awareness to be able to know where you are in the air and land is obviously amazingly difficult."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Feb 18 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines pediatric clinical trials, their importance for developing evidence-based treatments for children, and the infrastructure challenges that impede their conduct. Guest Dr. Neil Goldenberg from Johns Hopkins discusses why pediatric trials are fundamentally different from adult trials due to physiological differences, vulnerability protections, and the catch-22 of needing both rigorous oversight and adequate representation. The hosts also address a recent FDA decision to refuse to review Moderna's mRNA flu vaccine application, which signals regulatory concerns about vaccine trial design and has broader implications for mRNA technology development.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Pediatric clinical trials design and methodology</span>
+  <span class="topic-tag">mRNA-based flu vaccine development</span>
+  <span class="topic-tag">Thrombosis and anticoagulation in pediatric populations</span>
+  <span class="topic-tag">Pediatric stroke pathophysiology</span>
+  <span class="topic-tag">COVID-19 thromboembolism in children</span>
+  <span class="topic-tag">Developmental differences in drug metabolism and coagulation proteins</span>
+  <span class="topic-tag">Blood clotting system proteins and functional aspects across developmental stages</span>
+  <span class="topic-tag">Multi-center clinical trial infrastructure</span>
+  <span class="topic-tag">Off-label medication use in pediatric populations</span>
+  <span class="topic-tag">Biobanking and specimen collection in pediatric research</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials" target="_blank">The Prevention and Treatment of Missing Data in Clinical Trials</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of" target="_blank">The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance" target="_blank">Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine</div>
+<div class="claim">Moderna separately ran a trial versus high-dose shot in adults 65 and older</div>
+<div class="claim">FDA refusal-to-file letters represent only 4% of applications over a decade</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Kids really don't have a voice... it's us as caretakers, as parents, as primary physicians, subspecialists to advocate for them. But too often folks, including pharmaceutical industry, will say, well, it's too difficult to do that... And so then we have a result whereby we're treating kids off-label in many circumstances."</div>
+<div class="quote">"Kids are not just small adults... pediatric trials need to account for the fact that an infant trial is probably not the same as an adolescent, post-pubertal adolescent trial because metabolism and developmental differences between kids and adults are substantial."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">78 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Interstellar Comet 3I/ATLAS Research (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts analyzing observations from Hubble, JWST, and SPHEREx satellites regarding the interstellar comet's composition, nucleus size, and water/methane abundance.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Ecosystem Vulnerability (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing coral reef food chain shortening, Antarctic science funding, disease range expansion due to climate change, and biodiversity loss as economic risk.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">AI Integration in Scientific Research (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts examining AI augmentation of scientist productivity, concerns about AI-generated content in peer review, and implications for scientific writing standards.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Women in Science and Leadership (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts highlighting International Day of Women and Girls in Science, awards for female scientists, and postdoc hiring for climate research leadership roles.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Funding and Career Development (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing long-term R&D planning challenges, student research awards, postdoc positions, and concerns about curiosity-driven research deprioritization.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@mbkplus.bsky.social</div>
+  <div class="bluesky-stats">138 likes &middot; 24 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Great article from @rboyle31.bsky.social on mysterious Little Red Dots and how they might represent a class of objects we've never really seen before: a stellar atmosphere powered by black hole accretion. 
+
+stay tuned for a spicy alternative take that should appear on the arXiv later this week! 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/mbkplus.bsky.social/post/3mf3l5p757s2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">86 likes &middot; 35 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">🧪 Vía @kffhealthnews.org 
+He lied during his confirmation. About almost everything. And they believed him. 
+
+“The only thing I want is good science”. 
+
+We are in the horror movie where the scientist is ignored.</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mf3vzjzh522v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@flyingtrilobite.com</div>
+  <div class="bluesky-stats">101 likes &middot; 17 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Deinosuchus skull
+Procreate, 2022.
+
+#GlendonMellowArt
+🐡🧪🎨</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/flyingtrilobite.com/post/3mf3qmpyyr22l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jopabinia.bsky.social</div>
+  <div class="bluesky-stats">92 likes &middot; 21 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">And a regular reminder that tunicates are chordates. These tulip things are in the same phylum as YOUUUUU 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jopabinia.bsky.social/post/3mf3nusczw226" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@natureportfolio.nature.com</div>
+  <div class="bluesky-stats">57 likes &middot; 30 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">The food chains on modern Caribbean coral reefs may have shortened by up to 70% compared with those on their prehistoric counterparts, according to research in Nature. The findings suggest that modern reefs could be increasingly vulnerable to external stressors and ecosystem collapse. 🌍 🧪 </div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/natureportfolio.nature.com/post/3mf42s5kigl2c" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Funding and Curiosity-Driven Science</strong>: Posts raise concerns about deprioritization of investigator-led research and long-term R&D planning in current funding environment, central to NASEM's role in science policy advising.</div>
+<div class="nasem-match"><strong>AI Integration in Scientific Research</strong>: Multiple posts discuss AI's impact on research productivity and peer review integrity; NASEM addresses implications of AI augmentation for research quality, workforce, and scientific standards.</div>
+<div class="nasem-match"><strong>Climate Change, Biodiversity, and IPCC Assessment</strong>: Posts on coral reef ecosystem collapse, disease range expansion, Antarctic science, and IPCC AR7 chapter recruitment align with NASEM's work on climate adaptation and biodiversity assessment.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 18, 2026 at 11:43 AM | Internal use only
+    </div>
+</body>
+</html>

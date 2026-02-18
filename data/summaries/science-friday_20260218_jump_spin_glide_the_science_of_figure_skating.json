@@ -1,0 +1,549 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Jump, Spin, Glide: The Science Of Figure Skating",
+  "host": "Ira Flatow",
+  "published": "2026-02-18T10:00:00",
+  "duration_minutes": 17.633333333333333,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores the biomechanics and physics underlying figure skating, focusing on the quadruple axel and other advanced technical skills performed at the Olympics. Dr. Deborah King explains how skaters use principles of physics—particularly moment of inertia, angular momentum, and torque—to execute complex aerial maneuvers in under one second of airtime. The discussion covers the interplay between physical attributes, technique, mental performance, and the extreme cardiovascular demands of competitive figure skating programs.",
+  "science_topics": [
+    "Moment of inertia in rotational motion",
+    "Angular momentum and torque in athletic movement",
+    "Quadruple axel jump biomechanics (4.5 revolutions in ~0.9 seconds)",
+    "Airtime physics in figure skating jumps",
+    "Proprioception and body awareness during aerial rotation",
+    "Aerobic and anaerobic energy systems in endurance sports",
+    "Injury biomechanics from landing loads in figure skating",
+    "Off-ice training transfer to on-ice performance",
+    "Body composition and morphology effects on rotational sports performance"
+  ],
+  "claims_to_note": [
+    "Quadruple axel is only being performed in competition by Ilya Malinin (as of 2026)",
+    "Quadruple axel airtime is typically 0.8-0.9 seconds with 4.5 revolutions",
+    "Figure skaters do not use 'spotting' technique during rapid rotations unlike ballet dancers",
+    "Free skate competition lasts approximately 4 minutes",
+    "Smaller moment of inertia (long, narrow body shape) enables faster rotation in air",
+    "Free skate performance combines aerobic and anaerobic energy system demands similar to mile-running"
+  ],
+  "policy_relevance": [
+    "Research interest in quantifying landing loads and their relationship to overuse injuries in skaters",
+    "Evidence-based training and scheduling recommendations to reduce figure skating injuries",
+    "Study of off-ice training effectiveness and injury prevention strategies in competitive figure skating"
+  ],
+  "key_quotes": [
+    "The quadruple axle is a jump that is unique in that, as an axle jump, the skaters step forward and is facing forward when they jump into the air...there's actually an extra half revolution you have to complete so that you're facing backwards. So it's a four and a half revolution jump.",
+    "If you're doing four and a half revolutions in a second, you're not going to be able to spot and turn your head. So having your body awareness to be able to know where you are in the air and land is obviously amazingly difficult.",
+    "Every skater is constrained by the laws of physics and needs to utilize their technique to be sure that they can optimize their performance within the laws of physics."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Moment of inertia in rotational motion",
+      "publications": [
+        {
+          "id": "18289",
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "keywords": [
+            "fusion",
+            "inertial fusion",
+            "energy",
+            "nuclear",
+            "laser",
+            "ignition"
+          ]
+        },
+        {
+          "id": "27129",
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "attitudes behaviors social cohesion",
+            "built infrastructure reshaping mandates",
+            "entail massive socio emotional",
+            "adaptive societal responses",
+            "enhanced human responses",
+            "scale societal responses",
+            "translating policies investments",
+            "environmental change",
+            "climate change",
+            "sustained local impact",
+            "integrating",
+            "human"
+          ],
+          "description": "Responding to climate change will entail massive socio-emotional and behavioral changes. Translating policies, investments, or built infrastructure-reshaping mandates into real and sustained local impact that incorporates accountability and culture change will require hands-on work. Adaptive societal responses to climate change will succeed or fail based on the attitudes, behaviors, social cohesion and capital, organizational and emotional strengths, and collective impact and input of all stakeholders. To consider how to integrate, align, and converge the broad mix of social, behavioral, and cognitive sciences to produce new insights and inform efforts for enhanced human responses to environmental change, Board on Environmental Change and Society of the National Academies of Sciences, Engineering and Medicine convened this 2023 workshop, entitled Committee on Integrating the Human Sciences to Scale Societal Responses to Environmental Change: A Workshop. The workshop was intended to inv",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Environmental Change And Societ"
+        },
+        {
+          "id": "27880",
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "gained significant momentum across",
+            "implementing machine learning",
+            "data generation advancements",
+            "assist state dots",
+            "decision making tool",
+            "assessing costs ben",
+            "transportation dots",
+            "transportation agencies",
+            "state departments",
+            "deep learning",
+            "transportation",
+            "guide"
+          ],
+          "description": "Within the last two decades, Machine Learning (ML), the main subfield of Artificial Intelligence (AI), has gained significant momentum across all sectors, driven by a confluence of factors: exponential growth in data generation, advancements in data storage and computing, and innovations in algorithmic techniques. Most notably and recently, the proliferation of deep learning (DL) methods and generative AI tools (GATs) such as ChatGPT are revolutionizing the business landscape. In an era where data is pouring in from new sources, the pace of data growth is exceeding the pace at which state and local Departments of Transportation (DOTs) are able to use it. NCHRP Research Report 1122: Implementing Machine Learning at State Departments of Transportation: A Guide, from TRB's National Cooperative Highway Research Program, serves as both an education and a decision-making tool to assist state DOTs and other transportation agencies in identifying promising ML applications; assessing costs, ben",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Angular momentum and torque in athletic movement",
+      "publications": [
+        {
+          "id": "27880",
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "gained significant momentum across",
+            "implementing machine learning",
+            "data generation advancements",
+            "assist state dots",
+            "decision making tool",
+            "assessing costs ben",
+            "transportation dots",
+            "transportation agencies",
+            "state departments",
+            "deep learning",
+            "transportation",
+            "guide"
+          ],
+          "description": "Within the last two decades, Machine Learning (ML), the main subfield of Artificial Intelligence (AI), has gained significant momentum across all sectors, driven by a confluence of factors: exponential growth in data generation, advancements in data storage and computing, and innovations in algorithmic techniques. Most notably and recently, the proliferation of deep learning (DL) methods and generative AI tools (GATs) such as ChatGPT are revolutionizing the business landscape. In an era where data is pouring in from new sources, the pace of data growth is exceeding the pace at which state and local Departments of Transportation (DOTs) are able to use it. NCHRP Research Report 1122: Implementing Machine Learning at State Departments of Transportation: A Guide, from TRB's National Cooperative Highway Research Program, serves as both an education and a decision-making tool to assist state DOTs and other transportation agencies in identifying promising ML applications; assessing costs, ben",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        },
+        {
+          "id": "28337",
+          "title": "Building Institutional Capacity for Engaged Research: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28337/building-institutional-capacity-for-engaged-research-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "ecosystem shared actionable ideas",
+            "building institutional capacity",
+            "members industry stakeholders",
+            "societally impactful scholarship",
+            "accomplish shared goals",
+            "support diverse forms",
+            "institutional capacities",
+            "explore opportunities",
+            "although momentum",
+            "routinely enables",
+            "engaged"
+          ],
+          "description": "The complex challenges facing society today call for new ways of doing research that bring researchers, policy makers, community leaders and members, industry stakeholders, and others together to identify evidence needs, contribute different kinds of knowledge and expertise, and use evidence to accomplish shared goals. Although momentum is building toward a research enterprise that more routinely enables and rewards this type of collaboration, the development of institutional capacities to support diverse forms of engaged research have not kept pace with the need for them. To explore opportunities for engaged and societally impactful scholarship, the Board on Science Education at the National Academies of Sciences, Engineering, and Medicine convened a workshop, Building Institutional Capacity for Engaged Research in Washington, D.C, held online on June 13 and 14, 2024. A diverse set of leaders and stakeholders from across the research ecosystem shared actionable ideas and innovations t",
+          "year": 2025,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "22702",
+          "title": "Methodologies to Estimate the Economic Impacts of Disruptions to the Goods Movement System",
+          "url": "https://nap.nationalacademies.org/catalog/22702/methodologies-to-estimate-the-economic-impacts-of-disruptions-to-the-goods-movement-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "freight and freightage",
+            "goods movement system describes",
+            "full economic impact",
+            "major freight corridors",
+            "private entities beyond",
+            "economic impacts",
+            "critical infrastructure",
+            "intermodal connectors",
+            "cooperative highway",
+            "program nchrp",
+            "disruptions",
+            "goods movement system",
+            "economic impact",
+            "methodologies",
+            "estimate"
+          ],
+          "description": "\"TRB's National Cooperative Highway Research Program (NCHRP) Report 732: Methodologies to Estimate the Economic Impacts of Disruptions to the Goods Movement System describes the impacts of bottlenecks and interruptions to the flow of goods through the nation's major freight corridors and intermodal connectors, the dynamics of that flow in response to disruptions, and the full economic impact on public and private entities beyond just the critical infrastructure and the carriers that depend on that flow.\"--Publication information.",
+          "year": 2012,
+          "page_keywords": [
+            "Freight and freightage"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Quadruple axel jump biomechanics (4.5 revolutions in ~0.9 seconds)",
+      "publications": [
+        {
+          "id": "11876",
+          "title": "Science, Evolution, and Creationism",
+          "keywords": [
+            "evolution",
+            "evolutionary",
+            "biology",
+            "science",
+            "origins",
+            "natural selection"
+          ]
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Airtime physics in figure skating jumps",
+      "publications": [
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Proprioception and body awareness during aerial rotation",
+      "publications": [
+        {
+          "id": "25909",
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic is resulting in widespread and ongoing changes to how the K-12 education system functions, including disruptions to science teaching and learning environments. Students and teachers are all figuring out how to do schooling differently, and districts and states are working overtime to reimagine systems and processes. This is difficult and stressful work in the middle of the already stressful and sometimes traumatic backdrop of the global pandemic. In addition, students with disabilities, students of color, immigrants, English learners, and students from under-resourced communities have been disproportionately affected, both by the pandemic itself and by the resulting instructional shifts. Teaching K-12 Science and Engineering During a Crisis aims to describe what high quality science and engineering education can look like in a time of great uncertainty and to support practitioners as they work toward their goals. This book includes guidance for science and enginee",
+          "year": 2021,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "color immigrants english learners",
+            "resulting instructional shifts",
+            "high quality science",
+            "education system functions",
+            "sometimes traumatic backdrop",
+            "book includes guidance",
+            "science teaching",
+            "disabilities students",
+            "addition students",
+            "disproportionately affected",
+            "teaching",
+            "science",
+            "during",
+            "crisis"
+          ]
+        },
+        {
+          "id": "27860",
+          "title": "Minimizing Utility Issues During Construction: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "public utilities",
+            "help mitigate utility conflicts",
+            "highway improvement projects",
+            "change order documentation",
+            "often require relocation",
+            "utility facilities",
+            "minimizing utility",
+            "cooperative highway",
+            "highway features",
+            "during construction",
+            "economic impact",
+            "guide"
+          ],
+          "description": "\"Roadways intersect utility facilities above and below ground. Facilities such as water, sewer, natural gas, fiber optic, and electric lines may be impacted by highway improvement projects and often require relocation. Issues and conflicts between highway features and utility facilities can arise and impede highway construction projects, causing construction delays, economic impacts, and safety concerns. NCHRP Research Report 1110: Minimizing Utility Issues During Construction: A Guide, from TRB's National Cooperative Highway Research Program, provides practitioners with a guide to help mitigate utility conflicts using strategies such as improving pre-letting utility investigations, inspection procedures, and change order documentation.\" --Publisher's website",
+          "year": 2024,
+          "page_keywords": [
+            "Public utilities"
+          ]
+        },
+        {
+          "id": "27881",
+          "title": "Uncrewed Aerial Systems Applications for Bridge Inspections: Element-Level Bridge Data Collection",
+          "url": "https://nap.nationalacademies.org/catalog/27881/uncrewed-aerial-systems-applications-for-bridge-inspections-element-level-bridge",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "bridges",
+            "uncrewed aerial systems applications",
+            "bridge inspections"
+          ],
+          "year": 2024,
+          "page_keywords": [
+            "Bridges"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2230,
+  "saved_at": "2026-02-18T11:43:10.056934"
+}

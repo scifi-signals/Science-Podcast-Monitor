@@ -1,0 +1,642 @@
+{
+  "podcast_id": "unbiased-science",
+  "podcast_name": "Unbiased Science",
+  "episode_title": "Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+  "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+  "published": "2026-02-18T11:00:00",
+  "duration_minutes": 36.06666666666667,
+  "influence_tier": "emerging",
+  "category": "science_health",
+  "summary": "This episode examines pediatric clinical trials, their importance for developing evidence-based treatments for children, and the infrastructure challenges that impede their conduct. Guest Dr. Neil Goldenberg from Johns Hopkins discusses why pediatric trials are fundamentally different from adult trials due to physiological differences, vulnerability protections, and the catch-22 of needing both rigorous oversight and adequate representation. The hosts also address a recent FDA decision to refuse to review Moderna's mRNA flu vaccine application, which signals regulatory concerns about vaccine trial design and has broader implications for mRNA technology development.",
+  "science_topics": [
+    "Pediatric clinical trials design and methodology",
+    "mRNA-based flu vaccine development",
+    "Thrombosis and anticoagulation in pediatric populations",
+    "Pediatric stroke pathophysiology",
+    "COVID-19 thromboembolism in children",
+    "Developmental differences in drug metabolism and coagulation proteins",
+    "Blood clotting system proteins and functional aspects across developmental stages",
+    "Multi-center clinical trial infrastructure",
+    "Off-label medication use in pediatric populations",
+    "Biobanking and specimen collection in pediatric research"
+  ],
+  "claims_to_note": [
+    "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+    "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
+    "FDA refusal-to-file letters represent only 4% of applications over a decade",
+    "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+    "Kids.Dot trial took 20 years from conception to publication and guideline change",
+    "Pharmaceutical anticoagulant trials in children typically take close to a decade to complete, versus more rapid completion in adults",
+    "HHS canceled over $500 million in mRNA contracts",
+    "Europe, Canada, and Australia accepted Moderna's mRNA flu vaccine application"
+  ],
+  "policy_relevance": [
+    "FDA refusal-to-file letter for Moderna mRNA flu vaccine application and stricter approach to federal vaccine approvals",
+    "HHS cancellation of over $500 million in mRNA research contracts",
+    "National Institutes of Health (NIH) Pediatric Clinical Trials Working Group involvement",
+    "Federal funding mechanisms for pediatric clinical trials and pandemic research funding eligibility restrictions",
+    "FDA approval and labeling requirements for pediatric treatments",
+    "Institutional Review Board (IRB) regulatory oversight of pediatric research",
+    "National Cancer Institute-funded clinical trial networks for pediatric oncology",
+    "Need for federal infrastructure funding and guaranteed support for pediatric trial consortia",
+    "Workforce development and mentoring in pediatric multi-center trial research"
+  ],
+  "key_quotes": [
+    "Kids really don't have a voice... it's us as caretakers, as parents, as primary physicians, subspecialists to advocate for them. But too often folks, including pharmaceutical industry, will say, well, it's too difficult to do that... And so then we have a result whereby we're treating kids off-label in many circumstances.",
+    "Kids are not just small adults... pediatric trials need to account for the fact that an infant trial is probably not the same as an adolescent, post-pubertal adolescent trial because metabolism and developmental differences between kids and adults are substantial.",
+    "There's a bit of a crisis currently in terms of both the mechanisms by which those trials can be funded and secondly, the infrastructure that exists to be able to run those trials rather than having to develop an infrastructure for each idea that is developed."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Pediatric clinical trials design and methodology",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        },
+        {
+          "id": "12879",
+          "title": "A National Cancer Clinical Trials System for the 21st Century: Reinvigorating the NCI Cooperative Group Program",
+          "url": "https://nap.nationalacademies.org/catalog/12879/a-national-cancer-clinical-trials-system-for-the-21st-century",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cooperative group program",
+            "leverages evolving technologies",
+            "improved cancer therapies",
+            "involves broad cooperation",
+            "provide high quality",
+            "iom recommends changes",
+            "cancer institute",
+            "efficiently responds",
+            "emerging scientific",
+            "clinical trial",
+            "cancer clinical trials system",
+            "nci cooperative group program",
+            "reinvigorating"
+          ],
+          "description": "The National Cancer Institute's (NCI) Clinical Trials Cooperative Group Program has played a key role in developing new and improved cancer therapies. However, the program is falling short of its potential, and the IOM recommends changes that aim to transform the Cooperative Group Program into a dynamic system that efficiently responds to emerging scientific knowledge; involves broad cooperation of stakeholders; and leverages evolving technologies to provide high-quality, practice-changing research.",
+          "year": 2010,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "mRNA-based flu vaccine development",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        },
+        {
+          "id": "13382",
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "next iteration smart vaccines",
+            "prioritization software tool phase",
+            "prioritization software tool developed",
+            "multi attribute utility theory",
+            "ranking vaccines",
+            "utilizes decision science",
+            "development validation",
+            "vaccine development",
+            "concept presented",
+            "model developed",
+            "software blueprint",
+            "prioritization",
+            "demonstration",
+            "concept",
+            "phase"
+          ],
+          "description": "SMART Vaccines--Strategic Multi-Attribute Ranking Tool for Vaccines--is a prioritization software tool developed by the Institute of Medicine that utilizes decision science and modeling to help inform choices among candidates for new vaccine development. A blueprint for this computer-based guide was presented in the 2012 report Ranking Vaccines: A Prioritization Framework: Phase I. Ranking Vaccines: A Prioritization Software Tool,Phase II extends the proof-of-concept presented in the Phase I report, which was based on multi-attribute utility theory. This report refines a beta version of the model developed in the Phase I report and presents its next iteration, SMART Vaccines 1.0. Ranking Vaccines: Phase II discusses the methods underlying the development, validation, and evaluation of SMART Vaccines 1.0. It also discusses how SMART Vaccines should--and, just as importantly, should not--be used. The report also offers ideas for future enhancements for SMART Vaccines as well as for ideas",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Identifying and Prioritizing New Preventive Vaccines for Development, Phase II"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Thrombosis and anticoagulation in pediatric populations",
+      "publications": [
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "27207",
+          "title": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+          "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "pediatric subspecialty physician workforce",
+            "infants children",
+            "adolescents",
+            "meeting",
+            "needs"
+          ],
+          "year": 2024,
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Pediatric stroke pathophysiology",
+      "publications": [
+        {
+          "id": "27207",
+          "title": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+          "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "pediatric subspecialty physician workforce",
+            "infants children",
+            "adolescents",
+            "meeting",
+            "needs"
+          ],
+          "year": 2024,
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25982",
+          "title": "The Future of Nursing 2020-2030: Charting a Path to Achieve Health Equity",
+          "url": "https://nap.nationalacademies.org/catalog/25982/the-future-of-nursing-2020-2030-charting-a-path-to",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "robert wood johnson foundation",
+            "nearly million nurses",
+            "helping people live",
+            "health care professions",
+            "healthiest possible life",
+            "experiences seeking care",
+            "nurses live",
+            "nurses work",
+            "health equity",
+            "health education",
+            "achieve health equity",
+            "charting",
+            "nursing",
+            "path"
+          ],
+          "description": "The decade ahead will test the nation's nearly 4 million nurses in new and complex ways. Nurses live and work at the intersection of health, education, and communities. Nurses work in a wide array of settings and practice at a range of professional levels. They are often the first and most frequent line of contact with people of all backgrounds and experiences seeking care and they represent the largest of the health care professions. A nation cannot fully thrive until everyone - no matter who they are, where they live, or how much money they make - can live their healthiest possible life, and helping people live their healthiest life is and has always been the essential role of nurses. Nurses have a critical role to play in achieving the goal of health equity, but they need robust education, supportive work environments, and autonomy. Accordingly, at the request of the Robert Wood Johnson Foundation, on behalf of the National Academy of Medicine, an ad hoc committee under the auspices",
+          "year": 2021,
+          "committee": "Committee on the Future of Nursing 2020-2030"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "COVID-19 thromboembolism in children",
+      "publications": [
+        {
+          "id": "26809",
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic has had an unprecedented impact on the lives of children and their families, who have faced innumerable challenges such as illness and death; school closures; social isolation; financial hardship; food insecurity; deleterious mental health effects; and difficulties accessing health care. In almost every outcome related to social, emotional, behavioral, educational, mental, physical, and economic health and well-being, families identifying as Black, Latino, and Native American, and those with low incomes, have disproportionately borne the brunt of the negative effects of the pandemic. The effects of the COVID-19 pandemic on children and families will be felt for years to come. While these long-term effects are unknown, they are likely to have particularly significant implications for children and families from racially and ethnically minoritized communities and with low incomes. Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families iden",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "deleterious mental health effects",
+            "difficulties accessing health care",
+            "long term effects",
+            "ethnically minoritized communities",
+            "faced innumerable challenges",
+            "families identifying",
+            "covid pandemic",
+            "negative effects",
+            "economic health",
+            "disproportionately borne",
+            "addressing",
+            "children",
+            "families"
+          ]
+        },
+        {
+          "id": "26215",
+          "title": "Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators",
+          "url": "https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Starting in early childhood, children are capable of learning sophisticated science and engineering concepts and engage in disciplinary practices. They are deeply curious about the world around them and eager to investigate the many questions they have about their environment. Educators can develop learning environments that support the development and demonstration of proficiencies in science and engineering, including making connections across the contexts of learning, which can help children see their ideas, interests, and practices as meaningful not just for school, but also in their lives. Unfortunately, in many preschool and elementary schools science gets relatively little attention compared to English language arts and mathematics. In addition, many early childhood and elementary teachers do not have extensive grounding in science and engineering content. Science and Engineering in Preschool through Elementary Grades provides evidence-based guidance on effective approaches to p",
+          "year": 2022,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board On Science Education",
+          "keywords": [
+            "education",
+            "learning sophisticated science",
+            "early childhood children",
+            "develop learning environments",
+            "making connections across",
+            "english language arts",
+            "help children see",
+            "elementary teachers",
+            "elementary grades",
+            "extensive grounding",
+            "ideas interests",
+            "brilliance",
+            "preschool",
+            "strengths",
+            "educators",
+            "children",
+            "science"
+          ]
+        },
+        {
+          "id": "25747",
+          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "infants",
+            "developing infant feeding guidance",
+            "existing guidance shed light",
+            "young child feeding",
+            "synthesizing scientific evidence",
+            "feeding infants",
+            "feeding questions",
+            "developing evidence",
+            "young children",
+            "sound evidence",
+            "harmonizing guidelines",
+            "summarizing existing guidance",
+            "children",
+            "months",
+            "birth"
+          ],
+          "description": "Recommendations for feeding infants and young children have changed substantially over time owing to scientific advances, cultural influences, societal trends, and other factors. At the same time, stronger approaches to reviewing and synthesizing scientific evidence have evolved, such that there are now established protocols for developing evidence-based health recommendations. However, not all authoritative bodies have used such approaches for developing infant feeding guidance, and for many feeding questions there is little or no sound evidence available to guide best practices, despite the fact that research on infant and young child feeding has expanded in recent decades. Summarizing the current landscape of feeding recommendations for infants and young children can reveal the level of consistency of existing guidance, shed light on the types of evidence that underpin each recommendation, and provide insight into the feasibility of harmonizing guidelines. Feeding Infants and Childr",
+          "year": 2020,
+          "page_keywords": [
+            "Infants"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 4397,
+  "saved_at": "2026-02-18T11:43:10.057808"
+}
