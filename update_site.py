@@ -60,8 +60,8 @@ def update_manifest():
         if info:
             digests.append(info)
 
-    # Sort by file modification time (newest first)
-    digests.sort(key=lambda x: x.get('mtime', 0), reverse=True)
+    # Sort by parsed timestamp (newest first)
+    digests.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
 
     # Remove mtime from output
     for d in digests:
