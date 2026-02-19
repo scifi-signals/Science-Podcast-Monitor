@@ -1,0 +1,568 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "This chunk of glass could store two million books for 10,000 years",
+  "host": "Springer Nature",
+  "published": "2026-02-18T16:00:00",
+  "duration_minutes": 21.666666666666668,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature podcast episode covers two major scientific topics: Microsoft Research's breakthrough in long-term data storage using lasers to encode information in borosilicate glass, which could preserve data for over 10,000 years, and a promising proof-of-concept trial of personalized mRNA vaccines against triple-negative breast cancer (TNBC). The glass storage method offers advantages over magnetic hard drives by requiring no active maintenance, while the mRNA vaccine study demonstrates feasibility of tailored cancer immunotherapy, though experts debate whether personalized versus off-the-shelf approaches represent the optimal path forward.",
+  "science_topics": [
+    "Long-term data storage in glass using femtosecond lasers",
+    "Borosilicate glass for archival data preservation",
+    "Plasma-induced nanoexplosion for data encoding",
+    "Three-dimensional optical data storage",
+    "Personalized mRNA vaccines for triple-negative breast cancer",
+    "CD8 T cell activation for tumor immunotherapy",
+    "T helper cell immune response",
+    "Tumor mutational heterogeneity and cancer immunotherapy resistance",
+    "Memory T cell induction in cancer vaccines"
+  ],
+  "claims_to_note": [
+    "Glass-stored data can remain intact for more than 10,000 years with minimal temperature-dependent decay",
+    "Borosilicate glass (Pyrex-type) can store several terabytes of data in pieces about the size of a DVD, two millimeters thick",
+    "A personalized mRNA vaccine against TNBC was successfully created within six weeks for trial participants",
+    "In the 14-person trial, memory T cells were induced against tumor features and persisted for approximately two years",
+    "Three of 14 trial participants experienced cancer recurrence; causes attributed to weak vaccine response, tumor immune evasion, or tumor mutation",
+    "Each dose of personalized mRNA cancer vaccine reportedly costs hundreds of thousands of dollars (citing New York Times reporting)"
+  ],
+  "policy_relevance": [
+    "Data archival and long-term preservation relevant to national archives, libraries, and scientific data management policy",
+    "Regulatory pathway for personalized cancer vaccines and clinical trial designs",
+    "Healthcare cost and accessibility considerations for personalized mRNA therapeutics",
+    "Discussion of randomized controlled trials as gold standard for medical testing and regulatory approval"
+  ],
+  "key_quotes": [
+    "Glass is not durable in the sense that it's fragile, but the key aspect is that it survives benign neglect. You just put it on a shelf and leave it alone and know that the data will be okay.",
+    "Once you decide to keep something, there's almost no reason to ever delete it...there's no or very little ongoing cost as a result of keeping the data, whether you think about it financially, energy usage, environmental footprint, whatever.",
+    "The critical question to address is, can you do it and can you do it fast and can you do it in a time frame that would be relevant for clinical application?"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Long-term data storage in glass using femtosecond lasers",
+      "publications": [
+        {
+          "id": "18289",
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "keywords": [
+            "fusion",
+            "inertial fusion",
+            "energy",
+            "nuclear",
+            "laser",
+            "ignition"
+          ]
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Borosilicate glass for archival data preservation",
+      "publications": [
+        {
+          "id": "22426",
+          "title": "Sustainable Energy and Transportation Strategies, Research, and Data",
+          "url": "https://nap.nationalacademies.org/catalog/22426/sustainable-energy-and-transportation-strategies-research-and-data",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "sustainable energy",
+            "transportation",
+            "data"
+          ],
+          "year": 2014
+        },
+        {
+          "id": "18267",
+          "title": "Sharing Clinical Research Data: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18267/sharing-clinical-research-data-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "pharmaceutical companies academic researchers",
+            "shared data barriers",
+            "data sharing faced",
+            "data pooling",
+            "represent lost opportunities",
+            "spur drug development",
+            "increase public trust",
+            "industry include concerns",
+            "possess large quantities",
+            "public health",
+            "sharing clinical",
+            "data"
+          ],
+          "description": "Pharmaceutical companies, academic researchers, and government agencies such as the Food and Drug Administration and the National Institutes of Health all possess large quantities of clinical research data. If these data were shared more widely within and across sectors, the resulting research advances derived from data pooling and analysis could improve public health, enhance patient safety, and spur drug development. Data sharing can also increase public trust in clinical trials and conclusions derived from them by lending transparency to the clinical research process. Much of this information, however, is never shared. Retention of clinical research data by investigators and within organizations may represent lost opportunities in biomedical research. Despite the potential benefits that could be accrued from pooling and analysis of shared data, barriers to data sharing faced by researchers in industry include concerns about data mining, erroneous secondary analyses of data, and unwa",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "27947",
+          "title": "R. Luke DuBois: Love in the Time of Data",
+          "url": "https://nap.nationalacademies.org/catalog/27947/r-luke-dubois-love-in-the-time-of-data",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "luke dubois",
+            "love",
+            "time",
+            "data"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Plasma-induced nanoexplosion for data encoding",
+      "publications": [
+        {
+          "id": "25331",
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "keywords": [
+            "fusion",
+            "nuclear fusion",
+            "plasma",
+            "energy",
+            "iter",
+            "tokamak"
+          ]
+        },
+        {
+          "id": "25802",
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "electronic books",
+            "plasma science funding workforce",
+            "enabling technology sustainability security",
+            "identifies important grand challenges",
+            "help federal agencies policymakers",
+            "transforms fundamental scientific",
+            "powerful societal applications",
+            "academic leadership understand",
+            "forecasting space weather",
+            "make informed decisions",
+            "materials processing",
+            "plasma science",
+            "exploration"
+          ],
+          "description": "Plasma Science and Engineering transforms fundamental scientific research into powerful societal applications, from materials processing and healthcare to forecasting space weather. Plasma Science: Enabling Technology, Sustainability, Security and Exploration discusses the importance of plasma research, identifies important grand challenges for the next decade, and makes recommendations on funding and workforce. This publication will help federal agencies, policymakers, and academic leadership understand the importance of plasma research and make informed decisions about plasma science funding, workforce, and research directions.",
+          "year": 2021,
+          "page_keywords": [
+            "Electronic books"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on a Decadal Assessment "
+        },
+        {
+          "id": "29073",
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "contrails dissipate within",
+            "aviation induced cloudiness",
+            "global climate impact",
+            "global economic competitiveness",
+            "civil aviation industry",
+            "persistent contrails",
+            "better understand quantify",
+            "carbon dioxide emissions",
+            "early nasa requested",
+            "sky behind aircraft",
+            "climate impacts",
+            "developing",
+            "contrails",
+            "agenda"
+          ],
+          "description": "Contrails are visible lines in the sky behind aircraft that occur when warm jet engine exhaust meets the colder surrounding atmosphere, forming small ice crystals. Most contrails dissipate within about 10 minutes, but they can last for hours under certain conditions. Persistent contrails can contribute to atmospheric warming and are estimated to have a climate impact on par with carbon dioxide emissions from aviation. In early 2024, NASA requested that the National Academies develop a national research agenda to better understand, quantify, and develop technical and operational solutions to reduce the global climate impact of aviation-induced cloudiness and persistent contrails. This report presents priorities for a national contrails research strategy and provides a vision for how this research could eventually support operational contrails mitigation. This research would support the global economic competitiveness of the U.S. civil aviation industry in the context of emerging interna",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Three-dimensional optical data storage",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "11215",
+          "title": "Re-Engineering Water Storage in the Everglades: Risks and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/11215/re-engineering-water-storage-in-the-everglades-risks-and-opportunities",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "infectious-disease",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "comprehensive everglades restoration plan",
+            "greater everglades ecosystem",
+            "providing enough storage capacity",
+            "meet human needs while",
+            "slow moving water enriched",
+            "remaining natural ecosystem",
+            "original hydrologic conditions",
+            "storage options included",
+            "flood control structures",
+            "three million acres",
+            "water storage",
+            "opportunities",
+            "everglades",
+            "risks"
+          ],
+          "description": "The Water Science and Technology Board and the Board on Environmental Studies and Toxicology have released the seventh and final report of the Committee on Restoration of the Greater Everglades Ecosystem, which provides consensus advice to the South Florida Ecosystem Restoration Task Force on various scientific and technical topics. Human settlements and flood-control structures have significantly reduced the Everglades, which once encompassed over three million acres of slow-moving water enriched by a diverse biota. To remedy the degradation of the Everglades, a comprehensive Everglades Restoration Plan was formulated in 1999 with the goal of restoring the original hydrologic conditions of its remaining natural ecosystem. A major feature of this plan is providing enough storage capacity to meet human needs while also providing the needs of the greater Everglades ecosystem. This report reviews and evaluates not only storage options included in the Restoration Plan but also other option",
+          "year": 2005,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Environmental Studies and Toxicology"
+        },
+        {
+          "id": "25613",
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "amo physics combines fundamental",
+            "wide reaching intellectual societal",
+            "optical amo science underpins",
+            "fundamental building blocks",
+            "manipulating quantum systems",
+            "foundational discipline within",
+            "optical physics",
+            "technological innovations",
+            "scientific discoveries",
+            "assesses opportunities",
+            "atomic molecular"
+          ],
+          "description": "The field of atomic, molecular, and optical (AMO) science underpins many technologies and continues to progress at an exciting pace for both scientific discoveries and technological innovations. AMO physics studies the fundamental building blocks of functioning matter to help advance the understanding of the universe. It is a foundational discipline within the physical sciences, relating to atoms and their constituents, to molecules, and to light at the quantum level. AMO physics combines fundamental research with practical application, coupling fundamental scientific discovery to rapidly evolving technological advances, innovation and commercialization. Due to the wide-reaching intellectual, societal, and economical impact of AMO, it is important to review recent advances and future opportunities in AMO physics. Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States assesses opportunities in AMO science and technology over the coming",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Personalized mRNA vaccines for triple-negative breast cancer",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "13284",
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "keywords": [
+            "precision medicine",
+            "personalized",
+            "medical",
+            "genomic",
+            "health",
+            "treatment"
+          ]
+        },
+        {
+          "id": "26284",
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+          "url": "https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "global pandemic preparedness",
+            "urgent influenza threat",
+            "global coordination",
+            "vaccines identifies ways",
+            "pandemic threat",
+            "strengthen pandemic",
+            "covid pandemic",
+            "global system",
+            "coordination mechanisms",
+            "development ecosystem",
+            "influenza imperative",
+            "countering",
+            "vaccines"
+          ],
+          "description": "The COVID-19 pandemic has laid bare the fragility of the global system of preparedness and response to pandemics and the fragmentation of our research and development ecosystem. The pandemic has provided a disruptive moment to advance new norms and frameworks for influenza. It also has demonstrated how innovative global public-private partnerships and coordination mechanisms can lead to rapid successes in viral vaccine research, manufacturing, and risk pooling. Countering the Pandemic Threat Through Global Coordination on Vaccines identifies ways to strengthen pandemic and seasonal influenza global coordination, partnerships, and financing. This report presents seven overarching recommendations for how the urgent influenza threat should be conceptualized and prioritized within the global pandemic preparedness and response agenda in the future.",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3075,
+  "saved_at": "2026-02-19T11:46:40.150686"
+}

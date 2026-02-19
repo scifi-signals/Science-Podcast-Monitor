@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 19, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 19, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">21</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">15</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">86</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing highlights converging crises in water security, public health, and science policy alongside emerging technological solutions. The western snowpack drought represents an immediate threat to tens of millions of Americans, with temperatures 5°F above normal driven by human-caused climate change requiring federal intervention in Colorado River management. Concurrently, early-onset colorectal cancer diagnoses have surged 79% since 1990, now leading cause of cancer death in young men, signaling an urgent need for revised screening protocols and epidemiological investigation. Science policy discussions reveal structural dysfunction: legislators spend 40% of work time fundraising rather than policymaking, reducing major legislation passage by 20%. On the innovation front, breakthroughs in glass-based data archival and personalized mRNA cancer vaccines demonstrate NASEM-relevant advances in long-term scientific information preservation and precision medicine. Recent pattern: water/climate, cancer epidemiology, and science policy have sustained focus across multiple days, indicating persistent high-stakes challenges.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Climate change as immediate policy driver—from snowpack dynamics to early-onset disease patterns</li>
+<li>Precision medicine advances (personalized mRNA vaccines) requiring regulatory and clinical infrastructure alignment</li>
+<li>Water security and agricultural reform as linked to climate adaptation and federal coordination</li>
+<li>Structural barriers to evidence-based policymaking (fundraising demands vs. legislation productivity)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Early-onset cancer surge (79% increase 1990–2019, colorectal leading cause <50 in men)—sustained focus; requires mechanistic investigation beyond identified risk factors</li>
+<li>Glass-based long-term data storage for archival science—novel preservation infrastructure for institutional knowledge</li>
+<li>Legislative science policy dysfunction—campaign finance structures reduce major legislation by ~20%; appears to intersect with science agency leadership instability noted on Bluesky</li>
+<li>Personalized cancer immunotherapy scaling—mRNA vaccines demonstrate feasibility but debate persists on individualized vs. off-the-shelf approaches</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene ad-hoc committee on early-onset cancer epidemiology: coordinate NCI/CDC/NIH/ACS to identify shared etiological factors and gaps in screening guidelines; consider statement affirming age-45 colorectal screening start</div>
+<div class="opportunity">Issue white paper on western water security and Colorado River governance: NASEM's convening authority could facilitate multi-state scientific consensus on agricultural efficiency and allocation frameworks aligned with climate projections</div>
+<div class="opportunity">Conduct assessment of science policy dysfunction: quantify impact of fundraising demands on legislative science literacy and evidence-based lawmaking; recommend structural reforms (public funding, session limits) with comparative state-level evidence</div>
+<div class="opportunity">Establish working group on precision medicine infrastructure: personalized mRNA vaccine trials require harmonized trial design, biomarker validation, and equity frameworks—position NASEM as convener for regulatory/clinical standards</div>
+<div class="opportunity">Partner with Microsoft/tech sector on archival standards: long-term data preservation for scientific records; NASEM could establish guidelines for institutional adoption of glass-based archival systems</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Early-onset cancer claims require verification: 79% increase and colorectal as leading cause <50 stated without primary citation; cross-check against latest SEER, NCI, and CDC data to confirm magnitude and demographic specificity</div>
+<div class="claim">Snowpack attribution: Science Friday correctly attributes 5°F warming to human-caused climate change; however, verify specific attribution percentages (0–100% range) against latest IPCC/climate attribution literature to avoid overstating certainty</div>
+<div class="claim">No major contradictions detected in core scientific claims across podcasts; however, mRNA vaccine episode debates 'personalized vs. off-the-shelf' without addressing cost-effectiveness or scalability—ensure NASEM guidance reflects feasibility constraints</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Pediatric Health Innovation and Clinical Trial Design</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science is spotlighting pediatric-specific research challenges across multiple domains—mRNA vaccine development, thrombosis management, and stroke pathophysiology—revealing a convergence around methodological rigor in vulnerable populations. This reflects growing investment in pediatric clinical trial infrastructure and age-specific therapeutic development, a shift from historical treatment-as-small-adult approaches.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor pediatric research capacity and clinical trial design standards as NIH and FDA increasingly prioritize pediatric drug development and vaccine platforms for younger populations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Water Security and Climate Adaptation in Western Infrastructure</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's deep dive into snowpack dynamics, Colorado River hydrology, and agricultural water efficiency signals urgent policy-science integration around Western water allocation. The coverage emphasizes return flow dynamics and temperature-driven precipitation shifts, framing water scarcity as both a hydrological and agricultural productivity crisis.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's water and climate programs should prioritize cross-sector modeling of Colorado River Basin resilience, integrating hydrology, agriculture, and interstate compact modernization as climate impacts accelerate.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Preventive Oncology and Early-Detection Screening Paradigms</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win's focus on early-onset colorectal cancer epidemiology and adenoma-to-carcinoma progression reflects emerging clinical concern about younger patient populations and dietary risk factors. The parallel coverage of screening method innovations (stool tests, blood tests beyond colonoscopy) suggests a shift toward non-invasive, accessible early detection.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should examine screening equity, dietary intervention evidence, and why early-onset CRC incidence is rising in younger cohorts—informing public health communication and prevention guidelines.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Viral Immune Evasion and Vaccine Development Strategy</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave and Unbiased Science are independently covering HIV vaccine development with emphasis on broadly neutralizing antibodies and viral evolution, while Unbiased Science covers mRNA-based flu vaccines. This convergence reveals a shared scientific frontier: designing vaccines that anticipate viral mutation and immune escape, moving beyond one-size-fits-all approaches.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's infectious disease initiatives should assess whether current vaccine platform investments (mRNA, protein engineering) adequately address rapidly evolving respiratory and bloodborne pathogens.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Long-Duration Data Preservation and Scientific Archive Resilience</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast's coverage of femtosecond laser encoding in borosilicate glass for three-dimensional optical data storage addresses a critical infrastructure gap: ensuring multi-century preservation of research data and digital records. This emerges as climate, storage cost, and digital obsolescence pressures mount.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene working groups on scientific data stewardship standards and next-generation archival technologies to protect long-term research records and ensure reproducibility across generations.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Huberman Lab: Essentials: Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Feb 19 &middot; 40 min</div>
+<p style="margin:10px 0;font-size:14px;">```json
+{
+  "summary": "Andrew Huberman interviews fitness expert Jeff Cavaliere about evidence-based exercise programming, covering training splits, strength versus conditioning balance, stretching protocols, shoulder mechanics, and nutrition strategies. The discussion emphasizes practical, sustainable approaches tailored to individual preferences and goals, with emphasis on consistency over perfect optimization. Key themes include the 60-40 strength-to-conditioning split, the importance of ext</p>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: This chunk of glass could store two million books for 10,000 years</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Feb 18 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">This Nature podcast episode covers two major scientific topics: Microsoft Research's breakthrough in long-term data storage using lasers to encode information in borosilicate glass, which could preserve data for over 10,000 years, and a promising proof-of-concept trial of personalized mRNA vaccines against triple-negative breast cancer (TNBC). The glass storage method offers advantages over magnetic hard drives by requiring no active maintenance, while the mRNA vaccine study demonstrates feasibility of tailored cancer immunotherapy, though experts debate whether personalized versus off-the-shelf approaches represent the optimal path forward.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Long-term data storage in glass using femtosecond lasers</span>
+  <span class="topic-tag">Borosilicate glass for archival data preservation</span>
+  <span class="topic-tag">Plasma-induced nanoexplosion for data encoding</span>
+  <span class="topic-tag">Three-dimensional optical data storage</span>
+  <span class="topic-tag">Personalized mRNA vaccines for triple-negative breast cancer</span>
+  <span class="topic-tag">CD8 T cell activation for tumor immunotherapy</span>
+  <span class="topic-tag">T helper cell immune response</span>
+  <span class="topic-tag">Tumor mutational heterogeneity and cancer immunotherapy resistance</span>
+  <span class="topic-tag">Memory T cell induction in cancer vaccines</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">An Assessment of the Prospects for Inertial Fusion Energy</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22426/sustainable-energy-and-transportation-strategies-research-and-data" target="_blank">Sustainable Energy and Transportation Strategies, Research, and Data</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18267/sharing-clinical-research-data-workshop-summary" target="_blank">Sharing Clinical Research Data: Workshop Summary</a></div>
+<div class="nasem-match">Final Report: Strategic Plan for U.S. Burning Plasma Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration" target="_blank">Plasma Science: Enabling Technology, Sustainability, Security, and Exploration</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11215/re-engineering-water-storage-in-the-everglades-risks-and-opportunities" target="_blank">Re-Engineering Water Storage in the Everglades: Risks and Opportunities</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Glass-stored data can remain intact for more than 10,000 years with minimal temperature-dependent decay</div>
+<div class="claim">Borosilicate glass (Pyrex-type) can store several terabytes of data in pieces about the size of a DVD, two millimeters thick</div>
+<div class="claim">A personalized mRNA vaccine against TNBC was successfully created within six weeks for trial participants</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Glass is not durable in the sense that it's fragile, but the key aspect is that it survives benign neglect. You just put it on a shelf and leave it alone and know that the data will be okay."</div>
+<div class="quote">"Once you decide to keep something, there's almost no reason to ever delete it...there's no or very little ongoing cost as a result of keeping the data, whether you think about it financially, energy usage, environmental footprint, whatever."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: What A Snow Drought In The West Means For The Rest Of 2026</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 19 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">Science Friday explores the severe snow drought affecting the western United States, particularly Colorado and Utah, where snowpack levels are at historic lows comparable to 1976-77 and 1980-81. The episode examines how this crisis threatens water supplies for tens of millions of people across the West, with 95% of Utah's water coming from snowmelt, and discusses the broader implications for the Colorado River system, which is already stressed. Climate scientist Brad Udall explains that warmer temperatures (5°F above normal, driven by human-caused climate change) are compounding the problem, and that solving the water crisis will require fundamental changes to agriculture in the Southwest, difficult Colorado River negotiations among seven states, and likely federal intervention.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Snowpack dynamics and water supply hydrology in the American West</span>
+  <span class="topic-tag">Climate change impacts on temperature and precipitation patterns in the Colorado River Basin</span>
+  <span class="topic-tag">Colorado River hydrology and water allocation systems</span>
+  <span class="topic-tag">Water efficiency in agriculture and return flow dynamics</span>
+  <span class="topic-tag">Anthropogenic warming and its effects on seasonal water availability</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states" target="_blank">Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">95% of Utah's water supply comes from melting snow (stated by KUER reporter David Condos)</div>
+<div class="claim">Temperatures in the western US have been 5°F above normal since October, with December in Colorado seeing 10°F above normal (attributed to human-caused climate change)</div>
+<div class="claim">Current snowpack levels are among the two worst on record for the Colorado River, comparable to 1976-77 and 1980-81</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It's hard to overstate how important snow is for our water in Utah... The state estimates that 95% of our water supply for cities and communities comes from melting snow."</div>
+<div class="quote">"So what you're going to see, I believe, is the federal government's going to impose a solution. And nobody's going to like that solution."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">The Science of Politics: Legislators are raising money instead of making policy</span>
+</div>
+<div class="episode-meta">Matt Grossmann &middot; Feb 18 &middot; 61 min</div>
+<p style="margin:10px 0;font-size:14px;">Michael Kistner discusses his book 'Paying for the Party,' which examines how legislative fundraising demands affect policymaking and representation. He argues that legislators spend 40% of their work week fundraising for their parties due to incentive structures rewarding financial loyalty with committee positions and leadership advancement. Using campaign finance reforms as natural experiments, Kistner finds that states reducing fundraising demands see approximately 20% increases in major legislation, comparable to the effects of divided government. The fundraising system also systematically disadvantages working-class legislators and women in advancing to leadership positions.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Legislators are required to spend approximately 40% of their work week (15-16 hours) fundraising, based on leaked documents from Democratic and Republican parties</div>
+<div class="claim">Campaign finance reforms (public funding and session restrictions) produce about 20% and 10% increases respectively in major legislation passage</div>
+<div class="claim">Divided government reduces major legislation passage by approximately 20%</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Even where America's system of private campaign finance doesn't lead to corruption, it may trade off with successful policymaking."</div>
+<div class="quote">"There's a lot of really good folks who I talk to who might otherwise be interested in running for public office, but they tell me, I don't want to go to Washington, D.C. and become a high-priced telemarketer, for crying sakes."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Will Win: The Alarming Rise of Early-Onset Cancers</span>
+</div>
+<div class="episode-meta">Pfizer &middot; Feb 19 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Science Will Win examines the alarming rise of early-onset cancers (diagnosed before age 50), particularly colorectal cancer in young adults. The hosts present personal narratives alongside expert commentary from oncologists at Pfizer, revealing a 79% increase in early-onset cancers from 1990-2019, with colorectal cancer now the leading cause of cancer death in men under 50. While dietary factors, alcohol use, and tobacco consumption may contribute, no single causative agent has been identified. The episode emphasizes the need for earlier screening (now recommended starting at age 45), improved healthcare access for young people, and specialized psychosocial support addressing unique challenges young cancer patients face, including impacts on fertility, career, and body image.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Early-onset colorectal cancer epidemiology</span>
+  <span class="topic-tag">Adenoma-to-carcinoma progression timeline</span>
+  <span class="topic-tag">Dietary risk factors for colorectal cancer (processed meats, low fiber, red meat, low calcium)</span>
+  <span class="topic-tag">Colorectal cancer screening methods (colonoscopy, stool tests, blood tests)</span>
+  <span class="topic-tag">Cancer biomarker screening and precision medicine</span>
+  <span class="topic-tag">Metastatic colorectal cancer disease progression</span>
+  <span class="topic-tag">Chemotherapy delivery systems and patient quality of life</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region" target="_blank">Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future" target="_blank">Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision" target="_blank">Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">79% increase in early-onset cancer diagnoses from 1990-2019 - verify against SEER/NCI databases</div>
+<div class="claim">Colorectal cancer is now the leading cause of cancer death in men under 50 and second in women under 50 - verify against latest CDC/American Cancer Society data</div>
+<div class="claim">30% predicted increase in early-onset cancer cases globally between 2019-2030 with 21% increase in deaths - verify against WHO/global cancer burden studies</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"From 1990 to 2019, we've seen an increase in early onset cancers by 79%. Research indicates this alarming trend is continuing for a number of different cancers, including breast, lung, stomach, and colorectal cancers."</div>
+<div class="quote">"Colorectal cancer was the fourth leading cause of cancer death in both men and women younger than 50 in the late 1990s, but it's now the leading cause of death in men and second in women."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">86 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Mars Perseverance/Ingenuity Anniversary (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Celebration of the 5-year anniversary of Perseverance landing on Mars and Ingenuity's contributions to the mission.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and US Research Institutions (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of institutional damage to US science agencies, leadership instability at CDC, and brain drain to Europe and China.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Extreme Weather (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies linking human-induced climate change to extreme weather events, wildfire conditions, and agricultural impacts.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Exoplanets and Habitability (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on exoplanet conditions, space weather effects on potentially habitable planets, and elemental requirements for life.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary Science and Lunar Research (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies of lunar surface features, planetary surface analysis techniques, and discoveries on Ceres and Venus.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rbcomes.bsky.social</div>
+  <div class="bluesky-stats">158 likes &middot; 34 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">It will take decades for the US to recover from the institutional damage that the Trump administration has done to science agencies. Which of course is the point.
+
+🧪⚛️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rbcomes.bsky.social/post/3mf5ug4pre222" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">117 likes &middot; 60 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Doing science in the US is starting to feel untenable. The CDC has had no stable leader. RFK Jr broke his promises on vaccines & research. Climate change is denied. Moderna will no longer invest in late stage vaccine trials. Europe and China are seizing the moment.
+🧪 bit.ly/3ZF0yzI</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mf6f4pu7cs2r" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@andrealuck.bsky.social</div>
+  <div class="bluesky-stats">110 likes &middot; 23 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">5 years ago today! Can anyone send me to the next century, please?
+
+Landing on Mars - NASA Persevererance
+
+Full size image: flic.kr/p/2oA8d1p 🔭🧪
+Credit: NASA/JPL-Caltech/Simeon Schmauß/AndreaLuck
+
+A colourised version of the amazing mosaic processed by @stim3on.bsky.social (flic.kr/p/2ozrqnk)</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/andrealuck.bsky.social/post/3mf63pokkdk2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@stellerarts.com</div>
+  <div class="bluesky-stats">112 likes &middot; 20 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Perseverance celebrates 5 years on Mars! This is a painting of the day Ingenuity unfolded (rip 🥲🚁)
+
+#space #astronomy 🔭🧪🐡</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/stellerarts.com/post/3mf7372tijs2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">86 likes &middot; 37 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">More flip flopping. It is apparently good news, but I see unpredictability, characterized by this administration. Last week, Vinay Prasad overruled his staff & issued a "refuse to file" letter, which is rare.  He's saving face by pivoting. Europe & China are interested.
+
+ 🧪 archive.today/cCkfg</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mf6gkr4y4s2r" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Institutional Capacity and Science Workforce</strong>: Posts regarding CDC leadership instability, reduced pharmaceutical investment in vaccine development, and talent migration to Europe/China directly impact NASEM's assessment of US scientific capacity and competitiveness.</div>
+<div class="nasem-match"><strong>Climate Change Science and Policy</strong>: Multiple posts on climate-driven extreme weather, wildfire frequency, and agricultural impacts align with NASEM's reports on climate science assessment and adaptation strategies.</div>
+<div class="nasem-match"><strong>Space Exploration and Planetary Science</strong>: Mars Perseverance mission achievements and lunar surface research reflect outcomes of NASA-supported science that NASEM evaluates in decadal surveys and strategic planning.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 19, 2026 at 11:47 AM | Internal use only
+    </div>
+</body>
+</html>

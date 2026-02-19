@@ -1,0 +1,713 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "What A Snow Drought In The West Means For The Rest Of 2026",
+  "host": "Ira Flatow",
+  "published": "2026-02-19T10:00:00",
+  "duration_minutes": 17.95,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "Science Friday explores the severe snow drought affecting the western United States, particularly Colorado and Utah, where snowpack levels are at historic lows comparable to 1976-77 and 1980-81. The episode examines how this crisis threatens water supplies for tens of millions of people across the West, with 95% of Utah's water coming from snowmelt, and discusses the broader implications for the Colorado River system, which is already stressed. Climate scientist Brad Udall explains that warmer temperatures (5°F above normal, driven by human-caused climate change) are compounding the problem, and that solving the water crisis will require fundamental changes to agriculture in the Southwest, difficult Colorado River negotiations among seven states, and likely federal intervention.",
+  "science_topics": [
+    "Snowpack dynamics and water supply hydrology in the American West",
+    "Climate change impacts on temperature and precipitation patterns in the Colorado River Basin",
+    "Colorado River hydrology and water allocation systems",
+    "Water efficiency in agriculture and return flow dynamics",
+    "Anthropogenic warming and its effects on seasonal water availability"
+  ],
+  "claims_to_note": [
+    "95% of Utah's water supply comes from melting snow (stated by KUER reporter David Condos)",
+    "Temperatures in the western US have been 5°F above normal since October, with December in Colorado seeing 10°F above normal (attributed to human-caused climate change)",
+    "Current snowpack levels are among the two worst on record for the Colorado River, comparable to 1976-77 and 1980-81",
+    "Las Vegas has reduced water use by one-third since 1980 while doubling its population through efficiency improvements",
+    "Water efficiency measures in agriculture can paradoxically lead to increased water use rather than reductions due to return flows"
+  ],
+  "policy_relevance": [
+    "Ongoing Colorado River negotiations among seven western states",
+    "Potential federal government intervention to impose water allocation solutions if states cannot reach consensus",
+    "Arizona's junior water rights status and potential requirement for agricultural cutbacks",
+    "Possibility of litigation involving states, Indian tribes, and international water treaties with Mexico",
+    "Discussion of potential transfers of water from agricultural to municipal use in Arizona"
+  ],
+  "key_quotes": [
+    "It's hard to overstate how important snow is for our water in Utah... The state estimates that 95% of our water supply for cities and communities comes from melting snow.",
+    "So what you're going to see, I believe, is the federal government's going to impose a solution. And nobody's going to like that solution.",
+    "In the case of the Colorado River, we've dug ourselves a really big hole here and it's going to take a whole lot of work to climb out of it."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Snowpack dynamics and water supply hydrology in the American West",
+      "publications": [
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "13514",
+          "title": "Understanding Water Reuse: Potential for Expanding the Nation's Water Supply Through Reuse of Municipal Wastewater",
+          "url": "https://nap.nationalacademies.org/catalog/13514/understanding-water-reuse-potential-for-expanding-the-nations-water-supply",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "water reuse",
+            "municipal wastewater",
+            "water supply",
+            "potential",
+            "expanding",
+            "nation"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Climate change impacts on temperature and precipitation patterns in the Colorado River Basin",
+      "publications": [
+        {
+          "id": "21787",
+          "title": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "inform public health authorities",
+            "climate change impacts",
+            "increasingly having important current",
+            "create environmental stressors",
+            "human health",
+            "global change",
+            "interagency scientific",
+            "draft interagency",
+            "general public",
+            "significant impact",
+            "climate change",
+            "impacts"
+          ],
+          "description": "The U.S. National Climate Assessment identified a number of ways in which climate change is affecting, and is likely to affect, people, infrastructure, natural resources, and ecosystems. Those impacts, in turn, are increasingly having important current and potential future consequences for human health. There is a need to probe more deeply into how climate change impacts on the environment can create environmental stressors that, in turn, are having and/or have the potential to have significant impact on human health in a number of dimensions. In response to this need, the U.S. Global Change Research Program (USGCRP) has initiated an interagency Scientific Assessment on the Impacts of Climate Change on Human Health in the United States. The Assessment is intended to inform public health authorities, other planning and policy entities, and the general public. Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States evaluates the scient",
+          "year": 2015,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "18373",
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "keywords": [
+            "climate",
+            "climate change",
+            "environment",
+            "abrupt",
+            "warming",
+            "global"
+          ]
+        },
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Colorado River hydrology and water allocation systems",
+      "publications": [
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Water efficiency in agriculture and return flow dynamics",
+      "publications": [
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Anthropogenic warming and its effects on seasonal water availability",
+      "publications": [
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "26410",
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "deepwater horizon oil spill",
+            "high energy demand driven",
+            "consumption exploration transportation",
+            "prevent chronic land",
+            "long term effects",
+            "worldwide energy supply",
+            "despite significant progress",
+            "production risks remain",
+            "oil spill science",
+            "decade long boom",
+            "inputs fates",
+            "effects",
+            "oil",
+            "sea"
+          ],
+          "description": "Oil and natural gas represent more than 50 percent of the worldwide energy supply, with high energy demand driven by population growth and improving standards of living. Despite significant progress in reducing the amount of oil in the sea from consumption, exploration, transportation, and production, risks remain. This report, the fourth in a series, documents the current state-of-knowledge on inputs, fates and effects of oil in the sea, reflecting almost 20 additional years of research, including long-term effects from spills such as the Exxon Valdez and a decade-long boom in oil spill science research following the Deepwater Horizon oil spill. The report finds that land-based sources of oil are the biggest input of oil to the sea, far outweighing other sources, and it also notes that the effects of chronic inputs on the marine environment, such as land-based runoff, are very different than that from an acute input, such as a spill. Steps to prevent chronic land-based oil inputs incl",
+          "year": 2023,
+          "committee": "Ocean Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2735,
+  "saved_at": "2026-02-19T11:46:40.149395"
+}

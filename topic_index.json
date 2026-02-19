@@ -1,7 +1,341 @@
 {
-  "updated": "2026-02-18T11:43:36.245496",
-  "episode_count": 5,
+  "updated": "2026-02-19T11:47:14.188773",
+  "episode_count": 11,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "What A Snow Drought In The West Means For The Rest Of 2026",
+      "host": "Ira Flatow",
+      "published": "2026-02-19T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Science Friday explores the severe snow drought affecting the western United States, particularly Colorado and Utah, where snowpack levels are at historic lows comparable to 1976-77 and 1980-81. The episode examines how this crisis threatens water supplies for tens of millions of people across the West, with 95% of Utah's water coming from snowmelt, and discusses the broader implications for the Colorado River system, which is already stressed. Climate scientist Brad Udall explains that warmer temperatures (5°F above normal, driven by human-caused climate change) are compounding the problem, and that solving the water crisis will require fundamental changes to agriculture in the Southwest, difficult Colorado River negotiations among seven states, and likely federal intervention.",
+      "science_topics": [
+        "Snowpack dynamics and water supply hydrology in the American West",
+        "Climate change impacts on temperature and precipitation patterns in the Colorado River Basin",
+        "Colorado River hydrology and water allocation systems",
+        "Water efficiency in agriculture and return flow dynamics",
+        "Anthropogenic warming and its effects on seasonal water availability"
+      ],
+      "claims_to_note": [
+        "95% of Utah's water supply comes from melting snow (stated by KUER reporter David Condos)",
+        "Temperatures in the western US have been 5°F above normal since October, with December in Colorado seeing 10°F above normal (attributed to human-caused climate change)",
+        "Current snowpack levels are among the two worst on record for the Colorado River, comparable to 1976-77 and 1980-81",
+        "Las Vegas has reduced water use by one-third since 1980 while doubling its population through efficiency improvements",
+        "Water efficiency measures in agriculture can paradoxically lead to increased water use rather than reductions due to return flows"
+      ],
+      "policy_relevance": [
+        "Ongoing Colorado River negotiations among seven western states",
+        "Potential federal government intervention to impose water allocation solutions if states cannot reach consensus",
+        "Arizona's junior water rights status and potential requirement for agricultural cutbacks",
+        "Possibility of litigation involving states, Indian tribes, and international water treaties with Mexico",
+        "Discussion of potential transfers of water from agricultural to municipal use in Arizona"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Understanding Water Reuse: Potential for Expanding the Nation's Water Supply Through Reuse of Municipal Wastewater",
+          "url": "https://nap.nationalacademies.org/catalog/13514/understanding-water-reuse-potential-for-expanding-the-nations-water-supply"
+        },
+        {
+          "title": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        }
+      ]
+    },
+    {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Essentials: Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere",
+      "host": "Andrew Huberman",
+      "published": "2026-02-19T09:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "```json\n{\n  \"summary\": \"Andrew Huberman interviews fitness expert Jeff Cavaliere about evidence-based exercise programming, covering training splits, strength versus conditioning balance, stretching protocols, shoulder mechanics, and nutrition strategies. The discussion emphasizes practical, sustainable approaches tailored to individual preferences and goals, with emphasis on consistency over perfect optimization. Key themes include the 60-40 strength-to-conditioning split, the importance of ext",
+      "science_topics": [],
+      "claims_to_note": [],
+      "policy_relevance": [],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "science-will-win",
+      "podcast_name": "Science Will Win",
+      "episode_title": "The Alarming Rise of Early-Onset Cancers",
+      "host": "Pfizer",
+      "published": "2026-02-19T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode of Science Will Win examines the alarming rise of early-onset cancers (diagnosed before age 50), particularly colorectal cancer in young adults. The hosts present personal narratives alongside expert commentary from oncologists at Pfizer, revealing a 79% increase in early-onset cancers from 1990-2019, with colorectal cancer now the leading cause of cancer death in men under 50. While dietary factors, alcohol use, and tobacco consumption may contribute, no single causative agent has been identified. The episode emphasizes the need for earlier screening (now recommended starting at age 45), improved healthcare access for young people, and specialized psychosocial support addressing unique challenges young cancer patients face, including impacts on fertility, career, and body image.",
+      "science_topics": [
+        "Early-onset colorectal cancer epidemiology",
+        "Adenoma-to-carcinoma progression timeline",
+        "Dietary risk factors for colorectal cancer (processed meats, low fiber, red meat, low calcium)",
+        "Colorectal cancer screening methods (colonoscopy, stool tests, blood tests)",
+        "Cancer biomarker screening and precision medicine",
+        "Metastatic colorectal cancer disease progression",
+        "Chemotherapy delivery systems and patient quality of life"
+      ],
+      "claims_to_note": [
+        "79% increase in early-onset cancer diagnoses from 1990-2019 - verify against SEER/NCI databases",
+        "Colorectal cancer is now the leading cause of cancer death in men under 50 and second in women under 50 - verify against latest CDC/American Cancer Society data",
+        "30% predicted increase in early-onset cancer cases globally between 2019-2030 with 21% increase in deaths - verify against WHO/global cancer burden studies",
+        "Approximately 35% of colorectal cancer cases linked to dietary factors - verify against epidemiological literature",
+        "Adenomas typically take 20 years to develop into cancer - verify timeline against pathology literature",
+        "American Cancer Society lowered recommended colorectal cancer screening age from 50 to 45 in 2018",
+        "Colonoscopy screening rates more than doubled among 45-49 year-olds in first year after guideline change - verify against American Cancer Society reports",
+        "Early-onset cancer patients report worse social and emotional quality of life than older patients despite better physical health - verify against oncology/psychosocial literature"
+      ],
+      "policy_relevance": [
+        "American Cancer Society screening guideline change: colorectal cancer screening recommendation lowered from age 50 to age 45 (2018), with earlier screening for those with family history or personal risk factors",
+        "Health insurance access for young adults - identified barrier to care and health outcomes",
+        "Need for primary care provider education on early-onset cancer recognition and symptoms",
+        "Clinical trial accessibility and design modifications for working-age patients (remote monitoring, flexible scheduling, travel accommodations)",
+        "Federal and institutional cancer research programs: mention of dedicated early-onset cancer programs at major U.S. institutions",
+        "Columbia Research Cancer Center's Early Onset Colon and Rectal Cancer Project",
+        "Healthcare equity concerns explicitly raised regarding Black Americans and differential access to care"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress",
+          "url": "https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region"
+        },
+        {
+          "title": "Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future",
+          "url": "https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future"
+        },
+        {
+          "title": "Progress Toward Restoring the Everglades: The Tenth Biennial Review - 2024",
+          "url": "https://nap.nationalacademies.org/catalog/27875/progress-toward-restoring-the-everglades-the-tenth-biennial-review-2024"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Dietary Reference Intakes for Calcium and Vitamin D",
+          "url": "https://nap.nationalacademies.org/catalog/13050/dietary-reference-intakes-for-calcium-and-vitamin-d"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-of-politics",
+      "podcast_name": "The Science of Politics",
+      "episode_title": "Legislators are raising money instead of making policy",
+      "host": "Matt Grossmann",
+      "published": "2026-02-18T20:09:22",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Michael Kistner discusses his book 'Paying for the Party,' which examines how legislative fundraising demands affect policymaking and representation. He argues that legislators spend 40% of their work week fundraising for their parties due to incentive structures rewarding financial loyalty with committee positions and leadership advancement. Using campaign finance reforms as natural experiments, Kistner finds that states reducing fundraising demands see approximately 20% increases in major legislation, comparable to the effects of divided government. The fundraising system also systematically disadvantages working-class legislators and women in advancing to leadership positions.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Legislators are required to spend approximately 40% of their work week (15-16 hours) fundraising, based on leaked documents from Democratic and Republican parties",
+        "Campaign finance reforms (public funding and session restrictions) produce about 20% and 10% increases respectively in major legislation passage",
+        "Divided government reduces major legislation passage by approximately 20%",
+        "Working-class legislators struggle to raise money due to lack of professional networks compared to lawyers and business professionals",
+        "Legislative professionalism correlates robustly with passage of major laws",
+        "No significant difference in legislative productivity between Democratic and Republican-controlled states",
+        "Women and minority elected officials are less likely to advance in party ranks where fundraising demands are greater"
+      ],
+      "policy_relevance": [
+        "Campaign finance reform as policy intervention - Connecticut's Citizen's Election Program (public funding) and session restriction reforms studied as treatments",
+        "Party leadership advancement systems tied to fundraising ability rather than traditional factors like seniority and expertise",
+        "Formal dues requirements for committee chair consideration in Congress and state legislatures",
+        "Legislative professionalism resources (staffing, expenditures, session length) as capacity factors",
+        "Divided government effects on policymaking capacity",
+        "Representation in party leadership structures and diversity implications",
+        "Recruitment barriers for policy-focused candidates entering legislative office"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "This chunk of glass could store two million books for 10,000 years",
+      "host": "Springer Nature",
+      "published": "2026-02-18T16:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature podcast episode covers two major scientific topics: Microsoft Research's breakthrough in long-term data storage using lasers to encode information in borosilicate glass, which could preserve data for over 10,000 years, and a promising proof-of-concept trial of personalized mRNA vaccines against triple-negative breast cancer (TNBC). The glass storage method offers advantages over magnetic hard drives by requiring no active maintenance, while the mRNA vaccine study demonstrates feasibility of tailored cancer immunotherapy, though experts debate whether personalized versus off-the-shelf approaches represent the optimal path forward.",
+      "science_topics": [
+        "Long-term data storage in glass using femtosecond lasers",
+        "Borosilicate glass for archival data preservation",
+        "Plasma-induced nanoexplosion for data encoding",
+        "Three-dimensional optical data storage",
+        "Personalized mRNA vaccines for triple-negative breast cancer",
+        "CD8 T cell activation for tumor immunotherapy",
+        "T helper cell immune response",
+        "Tumor mutational heterogeneity and cancer immunotherapy resistance",
+        "Memory T cell induction in cancer vaccines"
+      ],
+      "claims_to_note": [
+        "Glass-stored data can remain intact for more than 10,000 years with minimal temperature-dependent decay",
+        "Borosilicate glass (Pyrex-type) can store several terabytes of data in pieces about the size of a DVD, two millimeters thick",
+        "A personalized mRNA vaccine against TNBC was successfully created within six weeks for trial participants",
+        "In the 14-person trial, memory T cells were induced against tumor features and persisted for approximately two years",
+        "Three of 14 trial participants experienced cancer recurrence; causes attributed to weak vaccine response, tumor immune evasion, or tumor mutation",
+        "Each dose of personalized mRNA cancer vaccine reportedly costs hundreds of thousands of dollars (citing New York Times reporting)"
+      ],
+      "policy_relevance": [
+        "Data archival and long-term preservation relevant to national archives, libraries, and scientific data management policy",
+        "Regulatory pathway for personalized cancer vaccines and clinical trial designs",
+        "Healthcare cost and accessibility considerations for personalized mRNA therapeutics",
+        "Discussion of randomized controlled trials as gold standard for medical testing and regulatory approval"
+      ],
+      "nasem_publications": [
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Sustainable Energy and Transportation Strategies, Research, and Data",
+          "url": "https://nap.nationalacademies.org/catalog/22426/sustainable-energy-and-transportation-strategies-research-and-data"
+        },
+        {
+          "title": "Sharing Clinical Research Data: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18267/sharing-clinical-research-data-workshop-summary"
+        },
+        {
+          "title": "R. Luke DuBois: Love in the Time of Data",
+          "url": "https://nap.nationalacademies.org/catalog/27947/r-luke-dubois-love-in-the-time-of-data"
+        },
+        {
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "url": ""
+        },
+        {
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Re-Engineering Water Storage in the Everglades: Risks and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/11215/re-engineering-water-storage-in-the-everglades-risks-and-opportunities"
+        },
+        {
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+          "url": "https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the"
+        }
+      ]
+    },
     {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
@@ -374,6 +708,105 @@
         {
           "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
           "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        }
+      ]
+    },
+    {
+      "podcast_id": "hidden-brain",
+      "podcast_name": "Hidden Brain",
+      "episode_title": "Why You're Smarter Than You Think",
+      "host": "Shankar Vedantam",
+      "published": "2026-02-16T20:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Hidden Brain episode explores intelligence testing through the personal story of psychologist Scott Barry Kaufman, who was labeled as having low IQ as a child despite later becoming a successful researcher. The episode examines how IQ tests were originally designed by Alfred Binet to identify students needing remediation, but were misappropriated in America to sort and rank people by innate intelligence. Kaufman discusses how intelligence is far more complex and multifaceted than IQ tests capture, including implicit learning, creativity, and social intelligence. The episode challenges assumptions about human potential and the limitations of standardized testing.",
+      "science_topics": [
+        "IQ testing and intelligence measurement",
+        "Implicit learning and unconscious cognitive processes",
+        "General intelligence (g-factor)",
+        "Twice exceptional (2E) individuals with both giftedness and learning disabilities",
+        "Auditory processing disorders",
+        "Correlation between different cognitive abilities",
+        "Creativity and divergent thinking",
+        "Social intelligence and emotional intelligence",
+        "The history of intelligence quotient (IQ) development"
+      ],
+      "claims_to_note": [
+        "Alfred Binet explicitly stated his test was NOT designed to measure innate intelligence, only current educational needs - this is well-documented in historical records",
+        "American psychologists (particularly Louis Terman) transformed Binet's test into a tool for identifying gifted children and ranking people by presumed innate ability, contrary to Binet's original intent",
+        "IQ scores correlate with various life outcomes (income, education attainment, health), which Kaufman acknowledges as scientifically supported",
+        "Implicit learning (ability to learn probabilistic patterns unconsciously) is virtually uncorrelated with IQ scores",
+        "People strong in explicit logical reasoning may sometimes be weaker in implicit pattern learning, suggesting a potential trade-off between cognitive abilities",
+        "Kaufman scored 87-89 on IQ tests as a child (which he notes would be below average) yet became a successful academic researcher and psychologist",
+        "Processing speed deficits in childhood (from ear infections) were misinterpreted as low intelligence when they reflected an auditory processing issue"
+      ],
+      "policy_relevance": [
+        "School tracking and special education placement decisions based on IQ testing",
+        "Gifted education program enrollment criteria relying on IQ scores",
+        "The historical use of IQ tests by government agencies to restrict immigration (referenced as used at Ellis Island)",
+        "Educational policy around grade retention decisions",
+        "Assessment practices in school psychology and special education evaluation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Transportation for People with Disabilities and Older Adults During COVID-19: Lessons for Emergency Response",
+          "url": "https://nap.nationalacademies.org/catalog/27277/transportation-for-people-with-disabilities-and-older-adults-during-covid-19-lessons-for-emergency-response"
+        },
+        {
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "Key Policy Challenges and Opportunities to Improve Care for People with Mental Health and Substance Use Disorders: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25690/key-policy-challenges-and-opportunities-to-improve-care-for-people-with-mental-health-and-substance-use-disorders"
         }
       ]
     },
