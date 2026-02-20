@@ -1,0 +1,736 @@
+{
+  "podcast_id": "science-magazine",
+  "podcast_name": "Science Magazine Podcast",
+  "episode_title": "Matching sounds to shapes, and stories from the AAAS annual meeting",
+  "host": "Sarah Crespi",
+  "published": "2026-02-19T19:00:00",
+  "duration_minutes": 40.266666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "The episode covers two major topics from the 2026 AAAS annual meeting in Phoenix: (1) AI applications in scientific research, including using large language models to debunk conspiracy theories and solve physics problems about gluon interactions, and (2) concerns about the future of U.S. science funding and its potential impact on international scientific talent attraction. A secondary segment discusses the Booba-Kiki effect—the tendency to associate round shapes with the word 'Booba' and spiky shapes with 'Kiki'—and research showing this effect exists in newly hatched chickens, suggesting it reflects a fundamental perceptual principle rather than language-specific phenomenon.",
+  "science_topics": [
+    "Large language models (LLMs) for debunking conspiracy theories",
+    "Gluon interactions and spin configurations in particle physics",
+    "Cross-modal correspondence (Booba-Kiki effect)",
+    "Avian cognition and sensory perception in precocial birds",
+    "Vocal learning in chickens and other birds",
+    "Multimodal perception in non-human animals",
+    "Strong nuclear force and particle physics"
+  ],
+  "claims_to_note": [
+    "LLMs (specifically GPT-4) showed substantial effectiveness in reducing conspiracy theory beliefs, with approximately 25% of high-belief individuals abandoning their conspiracy theories after conversation, with effects sustained at 2-month follow-up",
+    "ChatGPT contributed to solving a previously unsolved physics problem regarding gluon spin interactions, though researchers verified the result independently using non-hallucinatory methods",
+    "The Booba-Kiki effect appears in newly hatched chickens with no prior auditory or linguistic experience, suggesting the effect reflects fundamental vertebrate perceptual principles rather than language-based associations",
+    "European Ph.D. programs report uptick in applications from U.S. applicants, possibly related to changes in U.S. science administration (NIH/NSF)",
+    "Chickens have repertoire of 30+ distinct vocalizations with audience-dependent modulation"
+  ],
+  "policy_relevance": [
+    "Changes in NIH and NSF administration mentioned as potential factor in international scientist migration patterns",
+    "Discussion of U.S. science funding situation and its competitive disadvantage relative to European and other international funding opportunities",
+    "Concerns about impact of U.S. science policy on attracting international Ph.D. students and researchers",
+    "AAAS annual meeting as venue for discussion of federal science policy and international science collaboration"
+  ],
+  "key_quotes": [
+    "\"The effect was so much bigger than anything that anyone had seen before and way bigger than I expected.\" - David Rand, on LLM effectiveness in debunking conspiracy theories",
+    "\"It uses the word obvious, which really tickles me... it implied that it is an obvious response, which is ridiculous to me.\" - Perry Thaler, on ChatGPT's response to the gluon interaction problem",
+    "\"Our language exploits a more broad or general perceptual principle that it can be common to the vertebrate brain... the basic process cannot be found in other species that share the same world with us.\" - Maria Lanconsoli, on the Booba-Kiki effect in chickens"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Large language models (LLMs) for debunking conspiracy theories",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        },
+        {
+          "id": "23498",
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "health literacy cultural competency",
+            "make appropriate health decisions",
+            "health literate culturally competent",
+            "health care today impact",
+            "age race cultural background",
+            "profound demographic shift",
+            "dynamic forces operating",
+            "appropriate language",
+            "language skills",
+            "language access services"
+          ],
+          "description": "The aging and evolving racial and ethnic composition of the U.S. population has the United States in the midst of a profound demographic shift and health care organizations face many issues as they move to address and adapt to this change. In their drive to adequately serve increasingly diverse communities, health care organizations are searching for approaches that will enable them to provide information and service to all persons, regardless of age, race, cultural background, or language skills, in a manner that facilitates understanding and use of that information to make appropriate health decisions. To better understand how the dynamic forces operating in health care today impact the delivery of services in a way that is health literate, culturally competent, and in an appropriate language for patients and their families, the National Academies of Sciences, Engineering, and Medicine conducted a public workshop on the integration of health literacy, cultural competency, and languag",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Gluon interactions and spin configurations in particle physics",
+      "publications": [
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "22085",
+          "title": "Interactions Between Transportation Capacity, Economic Systems, and Land Use",
+          "url": "https://nap.nationalacademies.org/catalog/22085/interactions-between-transportation-capacity-economic-systems-and-land-use",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "labor force reduced cost",
+            "transportation capacity investment",
+            "project produced case",
+            "collaborative decision making",
+            "enough structured cases",
+            "economic vitality",
+            "highway capacity",
+            "capacity expansion",
+            "economic systems",
+            "project planners",
+            "transportation capacity economic systems",
+            "land use",
+            "interactions"
+          ],
+          "description": "\"Strengthening the economic vitality of a region (jobs and income) is one of the primary reasons for investing in highway capacity. Elements of improving economic vitality include better access to markets and labor force, reduced cost of delay, reduced congestion, improved safety, reduced pollution, and a better quality of life. However, the ways in which new and improved highway capacity influences economic vitality are complex and often indirect. This project had three objectives: (1) to provide a resource to help determine the net changes in the economic systems of an area impacted by a transportation capacity investment; (2) to provide data and results from enough structured cases that project planners in the future can use the cases to demonstrate by analogy the likely impacts of a proposed project or group of projects (plan); and (3) to demonstrate how this fits into collaborative decision making for capacity expansion.\"--proj. desc. This project produced 100 case studies of alre",
+          "year": 2012,
+          "page_keywords": [
+            "Business & Economics"
+          ]
+        },
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cross-modal correspondence (Booba-Kiki effect)",
+      "publications": [
+        {
+          "id": "28291",
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "rail crossing electronic surveillance",
+            "types nature implementations successes",
+            "effectiveness success factors causes",
+            "needs decision criteria measure",
+            "rail service providers",
+            "railroad highway crossings",
+            "selected implementations",
+            "tcrp synthesis",
+            "transit cooperative",
+            "collision avoidance",
+            "electronic surveillance",
+            "state"
+          ],
+          "description": "TCRP Synthesis 177: Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice, from TRB's Transit Cooperative Research Program, documents public transit agencies' current practices and lessons learned from rail service providers and others regarding the types, nature, implementations, successes, and failures of rail crossing electronic surveillance programs, particularly related to safety. This synthesis provides insights about the needs, decision criteria, measure of effectiveness, success factors, causes for failures, and selected implementations of rail crossing electronic surveillance programs, primarily for safety. The synthesis also discusses potential future advancements in rail crossing electronic surveillance.",
+          "year": 2025,
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26809",
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic has had an unprecedented impact on the lives of children and their families, who have faced innumerable challenges such as illness and death; school closures; social isolation; financial hardship; food insecurity; deleterious mental health effects; and difficulties accessing health care. In almost every outcome related to social, emotional, behavioral, educational, mental, physical, and economic health and well-being, families identifying as Black, Latino, and Native American, and those with low incomes, have disproportionately borne the brunt of the negative effects of the pandemic. The effects of the COVID-19 pandemic on children and families will be felt for years to come. While these long-term effects are unknown, they are likely to have particularly significant implications for children and families from racially and ethnically minoritized communities and with low incomes. Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families iden",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "deleterious mental health effects",
+            "difficulties accessing health care",
+            "long term effects",
+            "ethnically minoritized communities",
+            "faced innumerable challenges",
+            "families identifying",
+            "covid pandemic",
+            "negative effects",
+            "economic health",
+            "disproportionately borne",
+            "addressing",
+            "children",
+            "families"
+          ]
+        },
+        {
+          "id": "29043",
+          "title": "The Science and Practice of Team Science",
+          "url": "https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "supporting science teams across",
+            "team science outlines adaptable",
+            "science teams require flexible",
+            "digital innovation global disruptions",
+            "enhance team dynamics",
+            "small interdisciplinary groups",
+            "scientific problems grow",
+            "organizational structures",
+            "effective collaborative",
+            "virtual collaboration",
+            "team science"
+          ],
+          "description": "As scientific problems grow more complex and interdisciplinary, the need for effective, collaborative, and context-sensitive research teams has never been greater. The Science and Practice of Team Science presents an updated, evidence-based roadmap for supporting science teams across a wide variety of domains, disciplines, and organizational structures. This new report from the National Academies builds on a decade of learning since the landmark Enhancing the Effectiveness of Team Science report. It examines how evolving forces - including digital innovation, global disruptions, and the rise of virtual collaboration - are reshaping the way scientific teams form, function, and deliver results. From small interdisciplinary groups to large-scale, distributed multiteam systems, today's science teams require flexible strategies tailored to their goals, environments, and challenges. The Science and Practice of Team Science outlines adaptable practices that enhance team dynamics and productiv",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Human-Systems Integration"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Avian cognition and sensory perception in precocial birds",
+      "publications": [
+        {
+          "id": "18255",
+          "title": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "recent scientific activity subject",
+            "lethal avian influenza strain",
+            "microbial threats convened",
+            "infectious diseases niaid",
+            "widespread attention due",
+            "one day public",
+            "scientific publications",
+            "mammalian transmissibility",
+            "researchers work",
+            "work partial",
+            "scientific inquiry communication controversy",
+            "avian influenza"
+          ],
+          "description": "When, in late 2011, it became public knowledge that two research groups had submitted for publication manuscripts that reported on their work on mammalian transmissibility of a lethal H5N1 avian influenza strain, the information caused an international debate about the appropriateness and communication of the researchers' work, the risks associated with the work, partial or complete censorship of scientific publications, and dual-use research of concern in general. Recognizing that the H5N1 research is only the most recent scientific activity subject to widespread attention due to safety and security concerns, on May 1, 2012, the National Research Council's Committee on Science, Technology and Law, in conjunction with the Board on Life Sciences and the Institute of Medicine's Forum on Microbial Threats, convened a one-day public workshop for the purposes of 1) discussing the H5N1 controversy; 2) considering responses by the National Institute of Allergy and Infectious Diseases (NIAID),",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "27397",
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "facial recognition technology",
+            "identifying potential security threats",
+            "regulations raising significant concerns",
+            "aiding law enforcement investigations",
+            "mitigate potential harms",
+            "comprehensive safeguards",
+            "identity verification",
+            "current capabilities",
+            "necessary governance",
+            "increasingly used",
+            "governance",
+            "prospects"
+          ],
+          "description": "Facial recognition technology is increasingly used for identity verification and identification, from aiding law enforcement investigations to identifying potential security threats at large venues. However, advances in this technology have outpaced laws and regulations, raising significant concerns related to equity, privacy, and civil liberties. This report explores the current capabilities, future possibilities, and necessary governance for facial recognition technology. Facial Recognition Technology discusses legal, societal, and ethical implications of the technology, and recommends ways that federal agencies and others developing and deploying the technology can mitigate potential harms and enact more comprehensive safeguards.",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Committee on Law and Justice"
+        },
+        {
+          "id": "12720",
+          "title": "Biometric Recognition: Challenges and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/12720/biometric-recognition-challenges-and-opportunities",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "biometric technologies appear poised",
+            "broader use increased concerns",
+            "biometric recognition",
+            "remain unresolved questions",
+            "fear instilling instruments",
+            "criminals patient tracking",
+            "social services among",
+            "substantial effort however",
+            "high technology gadgets",
+            "automated recognition",
+            "opportunities",
+            "challenges"
+          ],
+          "description": "Biometric recognition-the automated recognition of individuals based on their behavioral and biological characteristic-is promoted as a way to help identify terrorists, provide better control of access to physical facilities and financial accounts, and increase the efficiency of access to services and their utilization. Biometric recognition has been applied to identification of criminals, patient tracking in medical informatics, and the personalization of social services, among other things. In spite of substantial effort, however, there remain unresolved questions about the effectiveness and management of systems for biometric recognition, as well as the appropriateness and societal impact of their use. Moreover, the general public has been exposed to biometrics largely as high-technology gadgets in spy thrillers or as fear-instilling instruments of state or corporate surveillance in speculative fiction. Now, as biometric technologies appear poised for broader use, increased concerns",
+          "year": 2010,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Vocal learning in chickens and other birds",
+      "publications": [
+        {
+          "id": "25183",
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "transportation"
+          ],
+          "keywords": [
+            "education",
+            "citizen science projects focus",
+            "science learning continue",
+            "citizen science involves",
+            "while citizen science",
+            "extend participants learning",
+            "professional practitioners participants",
+            "doing science",
+            "indeed modern theories",
+            "learning recognize",
+            "projects extend",
+            "enhancing opportunities",
+            "citizen science",
+            "learning",
+            "design"
+          ],
+          "description": "In the last twenty years, citizen science has blossomed as a way to engage a broad range of individuals in doing science. Citizen science projects focus on, but are not limited to, nonscientists participating in the processes of scientific research, with the intended goal of advancing and using scientific knowledge. A rich range of projects extend this focus in myriad directions, and the boundaries of citizen science as a field are not clearly delineated. Citizen science involves a growing community of professional practitioners, participants, and stakeholders, and a thriving collection of projects. While citizen science is often recognized for its potential to engage the public in science, it is also uniquely positioned to support and extend participants' learning in science. Contemporary understandings of science learning continue to advance. Indeed, modern theories of learning recognize that science learning is complex and multifaceted. Learning is affected by factors that are indiv",
+          "year": 2018,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "11625",
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "What is science for a child? How do children learn about science and how to do science? Drawing on a vast array of work from neuroscience to classroom observation, Taking Science to School provides a comprehensive picture of what we know about teaching and learning science from kindergarten through eighth grade. By looking at a broad range of questions, this book provides a basic foundation for guiding science teaching and supporting students in their learning. Taking Science to School answers such questions as: When do children begin to learn about science? Are there critical stages in a child's development of such scientific concepts as mass or animate objects? What role does nonschool learning play in children's knowledge of science? How can science education capitalize on children's natural curiosity? What are the best tasks for books, lectures, and hands-on learning? How can teachers be taught to teach science? The book also provides a detailed examination of how we know what we k",
+          "year": 2007,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "classroom observation taking science",
+            "guiding science teaching",
+            "science education capitalize",
+            "learning science",
+            "teach science",
+            "nonschool learning play",
+            "children learn",
+            "children begin",
+            "comprehensive picture",
+            "detailed examination",
+            "teaching science",
+            "taking science",
+            "learning",
+            "school",
+            "grades"
+          ]
+        },
+        {
+          "id": "25324",
+          "title": "Making Climate Assessments Work: Learning from California and Other Subnational Climate Assessments: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25324/making-climate-assessments-work-learning-from-california-and-other-subnational",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "subnational climate assessments",
+            "subnational city county",
+            "sea level rise",
+            "urban heat islands",
+            "wildfires storm surge",
+            "climate change",
+            "warming climate",
+            "constituents customers",
+            "increasingly driven",
+            "stakeholder groups",
+            "making climate assessments work",
+            "california",
+            "learning"
+          ],
+          "description": "Climate assessment activities are increasingly driven by subnational organizationsâ€\"city, county, and state governments; utilities and private companies; and stakeholder groups and engaged publicsâ€\"trying to better serve their constituents, customers, and members by understanding and preparing for how climate change will impact them locally. Whether the threats are drought and wildfires, storm surge and sea level rise, or heat waves and urban heat islands, the warming climate is affecting people and communities across the country. To explore the growing role of subnational climate assessments and action, the National Academies of Sciences, Engineering, and Medicine hosted the 2-day workshop on August 14-15, 2018. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 5197,
+  "saved_at": "2026-02-20T11:43:22.502211"
+}

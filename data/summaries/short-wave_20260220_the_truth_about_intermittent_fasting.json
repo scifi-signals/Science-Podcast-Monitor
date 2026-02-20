@@ -1,0 +1,630 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "The truth about intermittent fasting",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-02-20T08:00:00",
+  "duration_minutes": 8.9,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Shortwave episode covers three science stories: a meta-analysis finding that intermittent fasting does not significantly outperform other diets for weight loss in overweight/obese adults; concerns about AI chatbot safety for minors and evidence that mandatory AI-disclosure reminders may be ineffective or counterproductive for vulnerable users; and a study showing that ultra-endurance running (24-106 miles) causes damage to red blood cells and inflammation, though long-term health impacts remain unknown.",
+  "science_topics": [
+    "Intermittent fasting and weight loss mechanisms",
+    "Meta-analysis of dietary interventions",
+    "GLP-1 receptor agonist drugs for weight loss",
+    "Red blood cell damage and hemolysis during extreme endurance exercise",
+    "Exercise-induced inflammation and anemia",
+    "AI chatbot mental health effects",
+    "Suicide risk and human-AI interaction"
+  ],
+  "claims_to_note": [
+    "Intermittent fasting did not work for weight loss in overweight or obese adults compared to traditional dietary advice or doing nothing - based on meta-analysis of 22 smaller studies",
+    "GLP-1 drugs produce 10-20% body weight loss over months to a year",
+    "Red blood cells are damaged during ultra-endurance running due to rapid circulation and increased oxygen demand",
+    "Mandatory AI-disclosure reminders (every 3 hours) may be ineffective or harmful for vulnerable populations",
+    "Study sample size was very small (23 runners) and long-term health impacts of extreme exercise are unknown"
+  ],
+  "policy_relevance": [
+    "California and New York laws requiring AI chatbots to send regular reminders (every 3 hours) that users are communicating with artificial intelligence",
+    "Congressional testimony by parents regarding AI chatbot dangers and suicide risk in minors",
+    "OpenAI's stated redesign of ChatGPT platform for improved safety for minors",
+    "Social scientists calling for companies to share chatbot interaction data to enable better policy research"
+  ],
+  "key_quotes": [
+    "They concluded that intermittent fasting did not work for weight loss in overweight or obese adults, as compared to either traditional dietary advice or even doing nothing.",
+    "Celeste and Linnea are urging these companies to share their data more openly so they can study these interventions better and hopefully help shape more effective policy.",
+    "When you're doing something like running, your body needs more oxygen. And that means blood is circulating through your body more quickly, which can lead to the breakdown of red blood cells."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Intermittent fasting and weight loss mechanisms",
+      "publications": [
+        {
+          "id": "25762",
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "cool earth nrc reviewed",
+            "provided high level",
+            "climate intervention",
+            "reflecting sunlight",
+            "state",
+            "mechanisms",
+            "regarding",
+            "establish",
+            "encompass",
+            "governing",
+            "solar geoengineering",
+            "governance"
+          ],
+          "description": "The National Research Council report Climate Intervention: Reflecting Sunlight to Cool Earth (NRC, 2015) reviewed the state of the science and provided high-level findings and recommendations regarding SG methods. This current study was tasked to update the 2015 assessment of the state of understanding and to provide recommendations for how to establish a research program, what to encompass in the research agenda, and what mechanisms to employ for governing this research.",
+          "year": 2021,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "24833",
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "seemingly simple concept encompasses",
+            "featuring invited speakers",
+            "cyber resilience hosted",
+            "important mechanism",
+            "mechanisms policies",
+            "security changes",
+            "private sector",
+            "wide variety",
+            "software",
+            "presentations",
+            "resilience",
+            "mechanism",
+            "security"
+          ],
+          "description": "Software update is an important mechanism by which security changes and improvements are made in software, and this seemingly simple concept encompasses a wide variety of practices, mechanisms, policies, and technologies. To explore the landscape further, the Forum on Cyber Resilience hosted a workshop featuring invited speakers from government, the private sector, and academia. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "27898",
+          "title": "Transporting Freight in Emergencies: A Guide on Special Permits and Weight Requirements",
+          "url": "https://nap.nationalacademies.org/catalog/27898/transporting-freight-in-emergencies-a-guide-on-special-permits-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "emergency management",
+            "transporting freight",
+            "weight requirements",
+            "special permits",
+            "emergencies",
+            "guide"
+          ],
+          "year": 2024,
+          "page_keywords": [
+            "Emergency management"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Meta-analysis of dietary interventions",
+      "publications": [
+        {
+          "id": "18988",
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "keywords": [
+            "climate",
+            "geoengineering",
+            "solar",
+            "intervention",
+            "cooling",
+            "albedo"
+          ]
+        },
+        {
+          "id": "25424",
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "threatened ocean ecosystems globally",
+            "however human induced stressors",
+            "bleaching events hindered growth",
+            "site specific interventions",
+            "protect coral reefs",
+            "coral reefs builds",
+            "ocean temperature acidity",
+            "overfishing sediment pollution",
+            "decision making process",
+            "human life because",
+            "coral reefs",
+            "interventions",
+            "persistence",
+            "resilience",
+            "decision",
+            "increase"
+          ],
+          "description": "Coral reefs are critical to ocean and human life because they provide food, living area, storm protection, tourism income, and more. However, human-induced stressors, such as overfishing, sediment, pollution, and habitat destruction have threatened ocean ecosystems globally for decades. In the face of climate change, these ecosystems now face an array of unfamiliar challenges due to destructive rises in ocean temperature, acidity and sea level. These factors lead to an increased frequency of bleaching events, hindered growth, and a decreasing rate of calcification. Research on interventions to combat these relatively new stressors and a reevaluation of longstanding interventions is necessary to understand and protect coral reefs in this changing climate. Previous research on these methods prompts further questions regarding the decision making process for site-specific interventions. A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs builds",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27239",
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "interventions addressing complementary feeding",
+            "interventions studied took place",
+            "complementary feeding interventions",
+            "university cooperative extension programs",
+            "special supplemental nutrition program",
+            "complementary feeding refers",
+            "home visiting programs",
+            "peer reviewed literature",
+            "health care",
+            "young children",
+            "promising interventions",
+            "state level",
+            "implement",
+            "community",
+            "infants",
+            "scoping"
+          ],
+          "description": "Complementary feeding refers to the introduction of foods other than human milk or formula to an infants diet. In response to a request from the Centers for Disease Control and Prevention, the National Academies Health and Medicine Division convened the Committee on Complementary Feeding Interventions for Infants and Young Children under Age 2 to conduct a consensus study scoping review of peer-reviewed literature and other publicly available information on interventions addressing complementary feeding of infants and young children. The interventions studied took place in the U.S. and other high-income country health care systems; early care and education settings; university cooperative extension programs; the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC); home visiting programs; and other settings. This consensus study report summarizes evidence and provides information on interventions that could be scaled up or implemented at a community or state le",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "GLP-1 receptor agonist drugs for weight loss",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "25310",
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "keywords": [
+            "opioid",
+            "addiction",
+            "medication",
+            "treatment",
+            "drug",
+            "overdose"
+          ]
+        },
+        {
+          "id": "27898",
+          "title": "Transporting Freight in Emergencies: A Guide on Special Permits and Weight Requirements",
+          "url": "https://nap.nationalacademies.org/catalog/27898/transporting-freight-in-emergencies-a-guide-on-special-permits-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "emergency management",
+            "transporting freight",
+            "weight requirements",
+            "special permits",
+            "emergencies",
+            "guide"
+          ],
+          "year": 2024,
+          "page_keywords": [
+            "Emergency management"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Red blood cell damage and hemolysis during extreme endurance exercise",
+      "publications": [
+        {
+          "id": "11269",
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cord blood program",
+            "umbilical cord blood",
+            "cord blood units",
+            "hematopoietic progenitor cell hpc",
+            "stem cell transplantation",
+            "stem cell transplants",
+            "stem cell technology",
+            "blood banks already",
+            "economics public heal",
+            "adult bone marrow",
+            "stem cell",
+            "cord blood",
+            "establishing"
+          ],
+          "description": "With the potential for self-renewal and differentiation, the possibilities for stem cells are enormous. One specific type of stem cell, the hematopoietic progenitor cell (HPC), which is derived from umbilical cord blood (as well as adult bone marrow and mobilized peripheral blood), holds particular promise. To make the most of these HPCs, the Institute of Medicine was asked to consider the optimal structure for a national cord blood program and to address pertinent issues related to maximizing the potential of stem cell technology. Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program examines: The role of cord blood in stem cell transplantation The current status of blood banks already in existence The optimal structure for the cord blood program The current use and utility of cord blood for stem cell transplants The best way to advance the use of cord blood units and make them available for research Expert advice from leaders in the fields of economics, public heal",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "27933",
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Atypical weather events, such as extreme tropical cyclones, pose substantial threats to life, property and livelihoods in the U.S. and worldwide. Despite major advances in forecasting capabilities, communicating about extreme weather events with decision-makers and the public carries considerable challenges but also provides opportunities for innovation. Decisions surrounding extreme weather events often involve making tradeoffs between different degrees and varieties of risks. For example, deciding whether or when to issue an evacuation order ahead of a tropical cyclone entails tradeoffs between the risks to lives posed by the event and the risks to livelihoods posed by the financial costs of evacuations or relocations. In early 2024, the National Academies held a workshop on risk communication around extreme tropical cyclones and other atypical climate events. Participants aimed to identify opportunities and challenges for risk communication as well as lessons about community engagem",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Environmental Change and Society",
+          "keywords": [
+            "nature",
+            "tropical cyclone entails tradeoffs",
+            "public carries considerable challenges",
+            "extreme weather events",
+            "atypical weather events",
+            "atypical climate events",
+            "forecasting capabilities communicating",
+            "example deciding whether",
+            "despite major advances",
+            "evacuation order ahead",
+            "risk communication",
+            "advancing risk communication",
+            "extreme tropical cyclones",
+            "decision makers"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Exercise-induced inflammation and anemia",
+      "publications": [
+        {
+          "id": "29073",
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "contrails dissipate within",
+            "aviation induced cloudiness",
+            "global climate impact",
+            "global economic competitiveness",
+            "civil aviation industry",
+            "persistent contrails",
+            "better understand quantify",
+            "carbon dioxide emissions",
+            "early nasa requested",
+            "sky behind aircraft",
+            "climate impacts",
+            "developing",
+            "contrails",
+            "agenda"
+          ],
+          "description": "Contrails are visible lines in the sky behind aircraft that occur when warm jet engine exhaust meets the colder surrounding atmosphere, forming small ice crystals. Most contrails dissipate within about 10 minutes, but they can last for hours under certain conditions. Persistent contrails can contribute to atmospheric warming and are estimated to have a climate impact on par with carbon dioxide emissions from aviation. In early 2024, NASA requested that the National Academies develop a national research agenda to better understand, quantify, and develop technical and operational solutions to reduce the global climate impact of aviation-induced cloudiness and persistent contrails. This report presents priorities for a national contrails research strategy and provides a vision for how this research could eventually support operational contrails mitigation. This research would support the global economic competitiveness of the U.S. civil aviation industry in the context of emerging interna",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "25424",
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "threatened ocean ecosystems globally",
+            "however human induced stressors",
+            "bleaching events hindered growth",
+            "site specific interventions",
+            "protect coral reefs",
+            "coral reefs builds",
+            "ocean temperature acidity",
+            "overfishing sediment pollution",
+            "decision making process",
+            "human life because",
+            "coral reefs",
+            "interventions",
+            "persistence",
+            "resilience",
+            "decision",
+            "increase"
+          ],
+          "description": "Coral reefs are critical to ocean and human life because they provide food, living area, storm protection, tourism income, and more. However, human-induced stressors, such as overfishing, sediment, pollution, and habitat destruction have threatened ocean ecosystems globally for decades. In the face of climate change, these ecosystems now face an array of unfamiliar challenges due to destructive rises in ocean temperature, acidity and sea level. These factors lead to an increased frequency of bleaching events, hindered growth, and a decreasing rate of calcification. Research on interventions to combat these relatively new stressors and a reevaluation of longstanding interventions is necessary to understand and protect coral reefs in this changing climate. Previous research on these methods prompts further questions regarding the decision making process for site-specific interventions. A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs builds",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "25045",
+          "title": "Review of the Draft Second State of the Carbon Cycle Report (SOCCR2)",
+          "url": "https://nap.nationalacademies.org/catalog/25045/review-of-the-draft-second-state-of-the-carbon-cycle-report-soccr2",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "fundamental physical chemical",
+            "major carbon stocks",
+            "north american continent",
+            "carbon cycle",
+            "climate cycle",
+            "climate change",
+            "important foundation",
+            "independent critique",
+            "societal decisions",
+            "academic exercise",
+            "draft second state"
+          ],
+          "description": "The second \"State of the Climate Cycle Report\" (SOCCR2) aims to elucidate the fundamental physical, chemical, and biological aspects of the carbon cycle and to discuss the challenges of accounting for all major carbon stocks and flows for the North American continent. This assessment report has broad value, as understanding the carbon cycle is not just an academic exercise. Rather, this understanding can provide an important foundation for making a wide variety of societal decisions about land use and natural resource management, climate change mitigation strategies, urban planning, and energy production and consumption. To help assure the quality and rigor of SOCCR2, this report provides an independent critique of the draft document.",
+          "year": 2018,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 1704,
+  "saved_at": "2026-02-20T11:43:22.501596"
+}

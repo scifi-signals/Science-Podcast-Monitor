@@ -1,0 +1,592 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "AMA Joins Effort To Launch Independent Vaccine Review Panel",
+  "host": "Ira Flatow",
+  "published": "2026-02-20T10:00:00",
+  "duration_minutes": 12.266666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "Dr. Michael Osterholm discusses the American Medical Association and Vaccine Integrity Project's creation of an independent vaccine review panel in response to concerns about compromised CDC/ACIP decision-making under the current HHS leadership. The new panel aims to provide science-based vaccine reviews to medical societies, healthcare providers, and payers when federal advisory processes are deemed unreliable. Osterholm emphasizes this is not meant to replace the CDC but to fill a gap by synthesizing scientific literature and providing transparent, evidence-based information to support clinical decision-making during a period of institutional disruption.",
+  "science_topics": [
+    "HPV vaccine efficacy and safety literature review",
+    "Influenza vaccine recommendations and data synthesis",
+    "COVID-19 vaccine safety and effectiveness",
+    "RSV vaccine recommendations",
+    "Hepatitis B vaccine immunization in newborns",
+    "Maternal/pregnancy-related vaccine recommendations",
+    "Vaccine safety and efficacy evaluation methodology"
+  ],
+  "claims_to_note": [
+    "Claim: Over 3,000 papers on HPV vaccine published in last 15 months — verify publication rates",
+    "Claim: ACIP has been dismantled and is 'no longer science-based' — requires verification of ACIP status and decision-making processes",
+    "Claim: CDC recently eliminated mandatory hepatitis B vaccine for newborns — verify current CDC/ACIP recommendations on neonatal hepatitis B vaccination",
+    "Claim: Elimination of hepatitis B vaccine for newborns 'will result in a number of children becoming chronically infected' — verify epidemiological projections",
+    "Claim: New England Journal of Medicine publication on influenza, COVID, and RSV vaccines was used successfully by medical societies and payers — verify publication details and uptake"
+  ],
+  "policy_relevance": [
+    "Dissolution or compromise of the Advisory Committee on Immunization Practices (ACIP)",
+    "RFK Jr. appointment as Secretary of HHS and alleged anti-vaccine positions affecting federal vaccine policy",
+    "Jay Bhattacharya named Acting Director of CDC",
+    "Changes to CDC vaccine recommendations (hepatitis B vaccination for newborns)",
+    "Creation of parallel independent vaccine review system outside federal authority structure",
+    "Insurance/payer coverage decisions for vaccines based on non-CDC guidance",
+    "Role of American Medical Association in vaccine recommendation process"
+  ],
+  "key_quotes": [
+    "\"with Mr. Kennedy likely to become the secretary of HHS, they are going to come under heavy attack. And most notably, it's likely that the Advisory Committee on Immunization Practices, what we call ACIP, an independent group of experts that advise the CDC on how vaccines should be used, would be dismantled and it would no longer be science-based. Well, that all came true.\"",
+    "\"our job is not to try to replace them. We can't wait for one day for the ACIP to be reconstituted with the kind of expertise and the process that they had before. But until then, we're here and we're going to hold up our side of the bargain of making the information available.\"",
+    "\"these are the most unusual times I've ever experienced in my 52 years in the business. Nothing, nothing is comparable to any experience we've had in the past.\""
+  ],
+  "nasem_matches": [
+    {
+      "topic": "HPV vaccine efficacy and safety literature review",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "10101",
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "measles mumps rubella vaccine",
+            "immunization safety",
+            "autism"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Strengthening Southeast Asian Academia and Industry Biotechnology and Biomanufacturing Safety and Security - A Workshop",
+          "url": "https://www.nationalacademies.org/projects/DELS-BLS-24-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Influenza vaccine recommendations and data synthesis",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "26284",
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "keywords": [
+            "pandemic",
+            "vaccine",
+            "global",
+            "coordination",
+            "influenza",
+            "preparedness"
+          ]
+        },
+        {
+          "id": "26285",
+          "title": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+          "url": "https://nap.nationalacademies.org/catalog/26285/globally-resilient-supply-chains-for-seasonal-and-pandemic-influenza-vaccines",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "bolster vaccine distribution manufacturing",
+            "pandemic influenza highlighting",
+            "prior public health emergencies",
+            "pandemic influenza events",
+            "globally resilient supply chains",
+            "international concern illustrate",
+            "covid pandemic",
+            "influenza viruses",
+            "global preparedness",
+            "distributing vaccines",
+            "pandemic influenza vaccines",
+            "seasonal"
+          ],
+          "description": "Influenza viruses, both seasonal and pandemic, have the potential to disrupt the health and well-being of populations around the world. The global response to the COVID-19 pandemic and prior public health emergencies of international concern illustrate the importance of global preparedness and coordination among governments, academia, scientists, policy makers, nongovernmental organizations, the private sector, and the public to address the threat of pandemic influenza. These health emergencies have revealed opportunities to enhance global vaccine infrastructure, manufacturing, distribution, and administration. Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines outlines key findings and recommendations to bolster vaccine distribution, manufacturing, and supply chains for future seasonal and pandemic influenza events. This report addresses the challenges of manufacturing and distributing vaccines for both seasonal and pandemic influenza, highlighting the criti",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "COVID-19 vaccine safety and effectiveness",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "11234",
+          "title": "Vaccine Safety Research, Data Access, and Public Trust",
+          "url": "https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "eight participating health organizations",
+            "vaccination histories health outcomes",
+            "vaccine safety datalink vsd",
+            "data sharing program",
+            "managed care groups",
+            "whether health problems",
+            "large linked database",
+            "program recommends",
+            "includes data",
+            "oversight groups",
+            "vaccine safety",
+            "public trust",
+            "data access"
+          ],
+          "description": "The Vaccine Safety Datalink (VSD) is a large, linked database of patient information that was developed jointly by CDC and several private managed care organizations in 1991. It includes data on vaccination histories, health outcomes, and characteristics of more than 7 million patients of eight participating health organizations. Researchers from CDC and the managed care groups have used VSD information to study whether health problems are associated with vaccinations. The subsequent VSD data sharing program was launched in 2002 to allow independent, external researchers access to information in the database. In this report, the committee that was asked to review aspects of this program recommends that two new oversight groups are needed to ensure that the policies and procedures of the VSD and its data sharing program are implemented as fairly and openly as possible.",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Strengthening Southeast Asian Academia and Industry Biotechnology and Biomanufacturing Safety and Security - A Workshop",
+          "url": "https://www.nationalacademies.org/projects/DELS-BLS-24-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "RSV vaccine recommendations",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "10101",
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "measles mumps rubella vaccine",
+            "immunization safety",
+            "autism"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Hepatitis B vaccine immunization in newborns",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "23407",
+          "title": "Eliminating the Public Health Problem of Hepatitis B and C in the United States: Phase One Report",
+          "url": "https://nap.nationalacademies.org/catalog/23407/eliminating-the-public-health-problem-of-hepatitis-b-and-c-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "common types surpassed hiv",
+            "cure hepatitis",
+            "people already infected",
+            "prevent hepatitis",
+            "viral hepatitis",
+            "seventh leading cause",
+            "chronic infections though",
+            "direct acting antivirals",
+            "two diseases account",
+            "take two generations",
+            "public health problem",
+            "phase one",
+            "eliminating",
+            "hepatitis"
+          ],
+          "description": "Hepatitis B and C cause most cases of hepatitis in the United States and the world. The two diseases account for about a million deaths a year and 78 percent of world's hepatocellular carcinoma and more than half of all fatal cirrhosis. In 2013 viral hepatitis, of which hepatitis B virus (HBV) and hepatitis C virus (HCV) are the most common types, surpassed HIV and AIDS to become the seventh leading cause of death worldwide. The world now has the tools to prevent hepatitis B and cure hepatitis C. Perfect vaccination could eradicate HBV, but it would take two generations at least. In the meantime, there is no cure for the millions of people already infected. Conversely, there is no vaccine for HCV, but new direct-acting antivirals can cure 95 percent of chronic infections, though these drugs are unlikely to reach all chronically-infected people anytime soon. This report, the first of two, examines the feasibility of hepatitis B and C elimination in the United States and identifies criti",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 1745,
+  "saved_at": "2026-02-20T11:43:22.500124"
+}

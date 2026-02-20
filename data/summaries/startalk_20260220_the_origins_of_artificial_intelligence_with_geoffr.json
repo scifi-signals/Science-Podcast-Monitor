@@ -1,0 +1,448 @@
+{
+  "podcast_id": "startalk",
+  "podcast_name": "StarTalk Radio",
+  "episode_title": "The Origins of Artificial Intelligence with Geoffrey Hinton",
+  "host": "Neil deGrasse Tyson",
+  "published": "2026-02-20T06:00:00",
+  "duration_minutes": 91.4,
+  "influence_tier": "high",
+  "category": "science_communication",
+  "summary": "Geoffrey Hinton, a pioneering AI researcher and 2024 Nobel Prize winner, discusses the origins and trajectory of artificial intelligence with Neil deGrasse Tyson. The conversation covers the historical development of AI from the 1950s, the mechanics of neural networks and backpropagation, and the capabilities of large language models. Hinton addresses both the transformative potential of AI in healthcare, drug discovery, and other domains, and the existential risks posed by increasingly intelligent systems that may develop survival instincts and resist human control. The episode emphasizes that while AI offers tremendous benefits, humanity must urgently research how to ensure safe coexistence with superintelligent systems.",
+  "science_topics": [
+    "Artificial neural networks and deep learning",
+    "Backpropagation algorithm for training neural networks",
+    "Large language models and their reasoning capabilities",
+    "Edge detection in visual cortex and image recognition",
+    "Distributed memory in neural systems",
+    "AlphaGo and AlphaZero game-playing AI systems",
+    "AI medical diagnosis and drug design applications",
+    "Confabulation versus hallucination in language models",
+    "Self-play learning and exponential improvement in AI systems",
+    "Consciousness and subjective experience in artificial systems"
+  ],
+  "claims_to_note": [
+    "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
+    "Current large language models can achieve gold medals in mathematics competitions",
+    "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+    "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+    "80% of recent U.S. stock market growth can be attributed to increases in AI company valuations",
+    "Large language models confabulate (create false memories) in ways similar to human memory recall",
+    "AlphaZero plays chess with brilliant sacrifices similar to human grandmaster Mikhail Tal without extensive search algorithms",
+    "Current language models can perform reasoning tasks and detect logical inconsistencies in their own beliefs"
+  ],
+  "policy_relevance": [
+    "Discussion of U.S. military policy on autonomous weapons systems and the shift from 'always a person in the loop' to vaguer 'human oversight' language",
+    "Constitutional AI approaches being developed by companies like Anthropic to align AI systems with human values",
+    "International cooperation concerns on AI safety, comparing alignment with Cold War nuclear deterrence cooperation",
+    "Potential job displacement and social consequences of AI replacing human intellectual labor",
+    "Government regulation and guardrails needed for AI development",
+    "Concerns about AI being used for election corruption through deepfakes and cyberattacks"
+  ],
+  "key_quotes": [
+    "Digital intelligence, we solved the problem of resurrection... we can't do it for analog ones. When you die, all your knowledge dies with you because it was in the strength of the connections for your particular brain.",
+    "If the Chinese figured out how you can prevent AI from ever wanting to take over, from ever wanting to take control away from people, they would immediately tell the Americans because they don't want AI taking control away from people in America either. We're all in the same boat when it comes to that.",
+    "The issue is this. There's two senses of bubble. One sense of bubble is, it turns out AI doesn't really work as well as people thought it might... The other sense of bubble is the companies can't get their money back from the investments because they haven't thought about the social consequences."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Artificial neural networks and deep learning",
+      "publications": [
+        {
+          "id": "27880",
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "gained significant momentum across",
+            "implementing machine learning",
+            "data generation advancements",
+            "assist state dots",
+            "decision making tool",
+            "assessing costs ben",
+            "transportation dots",
+            "transportation agencies",
+            "state departments",
+            "deep learning",
+            "transportation",
+            "guide"
+          ],
+          "description": "Within the last two decades, Machine Learning (ML), the main subfield of Artificial Intelligence (AI), has gained significant momentum across all sectors, driven by a confluence of factors: exponential growth in data generation, advancements in data storage and computing, and innovations in algorithmic techniques. Most notably and recently, the proliferation of deep learning (DL) methods and generative AI tools (GATs) such as ChatGPT are revolutionizing the business landscape. In an era where data is pouring in from new sources, the pace of data growth is exceeding the pace at which state and local Departments of Transportation (DOTs) are able to use it. NCHRP Research Report 1122: Implementing Machine Learning at State Departments of Transportation: A Guide, from TRB's National Cooperative Highway Research Program, serves as both an education and a decision-making tool to assist state DOTs and other transportation agencies in identifying promising ML applications; assessing costs, ben",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        },
+        {
+          "id": "25183",
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "transportation"
+          ],
+          "keywords": [
+            "education",
+            "citizen science projects focus",
+            "science learning continue",
+            "citizen science involves",
+            "while citizen science",
+            "extend participants learning",
+            "professional practitioners participants",
+            "doing science",
+            "indeed modern theories",
+            "learning recognize",
+            "projects extend",
+            "enhancing opportunities",
+            "citizen science",
+            "learning",
+            "design"
+          ],
+          "description": "In the last twenty years, citizen science has blossomed as a way to engage a broad range of individuals in doing science. Citizen science projects focus on, but are not limited to, nonscientists participating in the processes of scientific research, with the intended goal of advancing and using scientific knowledge. A rich range of projects extend this focus in myriad directions, and the boundaries of citizen science as a field are not clearly delineated. Citizen science involves a growing community of professional practitioners, participants, and stakeholders, and a thriving collection of projects. While citizen science is often recognized for its potential to engage the public in science, it is also uniquely positioned to support and extend participants' learning in science. Contemporary understandings of science learning continue to advance. Indeed, modern theories of learning recognize that science learning is complex and multifaceted. Learning is affected by factors that are indiv",
+          "year": 2018,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        },
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Backpropagation algorithm for training neural networks",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Large language models and their reasoning capabilities",
+      "publications": [
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "23498",
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "health literacy cultural competency",
+            "make appropriate health decisions",
+            "health literate culturally competent",
+            "health care today impact",
+            "age race cultural background",
+            "profound demographic shift",
+            "dynamic forces operating",
+            "appropriate language",
+            "language skills",
+            "language access services"
+          ],
+          "description": "The aging and evolving racial and ethnic composition of the U.S. population has the United States in the midst of a profound demographic shift and health care organizations face many issues as they move to address and adapt to this change. In their drive to adequately serve increasingly diverse communities, health care organizations are searching for approaches that will enable them to provide information and service to all persons, regardless of age, race, cultural background, or language skills, in a manner that facilitates understanding and use of that information to make appropriate health decisions. To better understand how the dynamic forces operating in health care today impact the delivery of services in a way that is health literate, culturally competent, and in an appropriate language for patients and their families, the National Academies of Sciences, Engineering, and Medicine conducted a public workshop on the integration of health literacy, cultural competency, and languag",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Edge detection in visual cortex and image recognition",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "11996",
+          "title": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "systematic collection analysis interpretation",
+            "animal health communities",
+            "effective control involves",
+            "human public health",
+            "outbreak rapid recognition",
+            "reemerging disease",
+            "disease detection",
+            "infectious disease",
+            "emerging reemerging",
+            "disease event",
+            "global infectious disease surveillance",
+            "challenges finding solutions",
+            "detection",
+            "assessing"
+          ],
+          "description": "Early detection is essential to the control of emerging, reemerging, and novel infectious diseases, whether naturally occurring or intentionally introduced. Containing the spread of such diseases in a profoundly interconnected world requires active vigilance for signs of an outbreak, rapid recognition of its presence, and diagnosis of its microbial cause, in addition to strategies and resources for an appropriate and efficient response. Although these actions are often viewed in terms of human public health, they also challenge the plant and animal health communities. Surveillance, defined as \"the continual scrutiny of all aspects of occurrence and spread of a disease that are pertinent to effective control\", involves the \"systematic collection, analysis, interpretation, and dissemination of health data.\" Disease detection and diagnosis is the act of discovering a novel, emerging, or reemerging disease or disease event and identifying its cause. Diagnosis is \"the cornerstone of effecti",
+          "year": 2007,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Distributed memory in neural systems",
+      "publications": [
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 11394,
+  "saved_at": "2026-02-20T11:43:22.500914"
+}

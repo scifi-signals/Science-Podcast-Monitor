@@ -1,7 +1,424 @@
 {
-  "updated": "2026-02-19T11:47:14.188773",
-  "episode_count": 11,
+  "updated": "2026-02-20T11:43:59.275688",
+  "episode_count": 16,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "AMA Joins Effort To Launch Independent Vaccine Review Panel",
+      "host": "Ira Flatow",
+      "published": "2026-02-20T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. Michael Osterholm discusses the American Medical Association and Vaccine Integrity Project's creation of an independent vaccine review panel in response to concerns about compromised CDC/ACIP decision-making under the current HHS leadership. The new panel aims to provide science-based vaccine reviews to medical societies, healthcare providers, and payers when federal advisory processes are deemed unreliable. Osterholm emphasizes this is not meant to replace the CDC but to fill a gap by synthesizing scientific literature and providing transparent, evidence-based information to support clinical decision-making during a period of institutional disruption.",
+      "science_topics": [
+        "HPV vaccine efficacy and safety literature review",
+        "Influenza vaccine recommendations and data synthesis",
+        "COVID-19 vaccine safety and effectiveness",
+        "RSV vaccine recommendations",
+        "Hepatitis B vaccine immunization in newborns",
+        "Maternal/pregnancy-related vaccine recommendations",
+        "Vaccine safety and efficacy evaluation methodology"
+      ],
+      "claims_to_note": [
+        "Claim: Over 3,000 papers on HPV vaccine published in last 15 months — verify publication rates",
+        "Claim: ACIP has been dismantled and is 'no longer science-based' — requires verification of ACIP status and decision-making processes",
+        "Claim: CDC recently eliminated mandatory hepatitis B vaccine for newborns — verify current CDC/ACIP recommendations on neonatal hepatitis B vaccination",
+        "Claim: Elimination of hepatitis B vaccine for newborns 'will result in a number of children becoming chronically infected' — verify epidemiological projections",
+        "Claim: New England Journal of Medicine publication on influenza, COVID, and RSV vaccines was used successfully by medical societies and payers — verify publication details and uptake"
+      ],
+      "policy_relevance": [
+        "Dissolution or compromise of the Advisory Committee on Immunization Practices (ACIP)",
+        "RFK Jr. appointment as Secretary of HHS and alleged anti-vaccine positions affecting federal vaccine policy",
+        "Jay Bhattacharya named Acting Director of CDC",
+        "Changes to CDC vaccine recommendations (hepatitis B vaccination for newborns)",
+        "Creation of parallel independent vaccine review system outside federal authority structure",
+        "Insurance/payer coverage decisions for vaccines based on non-CDC guidance",
+        "Role of American Medical Association in vaccine recommendation process"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "url": ""
+        },
+        {
+          "title": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+          "url": "https://nap.nationalacademies.org/catalog/26285/globally-resilient-supply-chains-for-seasonal-and-pandemic-influenza-vaccines"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Vaccine Safety Research, Data Access, and Public Trust",
+          "url": "https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust"
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Eliminating the Public Health Problem of Hepatitis B and C in the United States: Phase One Report",
+          "url": "https://nap.nationalacademies.org/catalog/23407/eliminating-the-public-health-problem-of-hepatitis-b-and-c-in-the-united-states"
+        }
+      ]
+    },
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "Inside Trump’s ‘Royal Court’",
+      "host": "Ezra Klein",
+      "published": "2026-02-20T10:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "This episode features journalists Ashley Parker and Michael Scherer discussing how Trump's second-term White House functions as an organizational structure, focusing on key power centers including Chief of Staff Susie Wiles, Deputy Chief of Staff Stephen Miller, Secretary of State Marco Rubio, and the President himself. The hosts examine how Trump's administration differs from his first term by emphasizing loyalty and ideological alignment over institutional checks, resulting in a less structured policy process driven by Trump's transactional instincts rather than rigorous deliberation. They analyze specific cases—including the Minneapolis situation following a police shooting and Venezuela policy—to illustrate how decisions are made and information flows to the President.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Stephen Miller's statement that 'ICE agents have total immunity' - this claim about legal immunity for ICE agents requires verification against actual DOJ guidance and court rulings",
+        "Reference to 'the Charlie Kirk murder' (appears to be the Preddy shooting in Minneapolis) being mischaracterized by Miller and Noem as involving a terrorist threat when 'obviously not true' - factual accuracy of initial characterizations should be verified",
+        "Claims about the effectiveness and outcomes of military operations in Venezuela described as 'a wild success' - outcomes and consequences of foreign military actions require independent verification"
+      ],
+      "policy_relevance": [
+        "Selection of cabinet members and administration staff based on loyalty criteria rather than traditional qualifications",
+        "Stephen Miller's role in drafting executive orders on immigration policy, university restrictions, and other regulatory actions",
+        "USAID funding decimation by Elon Musk/DOGE efforts",
+        "ICE and CBP enforcement operations and policy direction",
+        "Foreign policy decisions regarding Venezuela and potential military intervention",
+        "Tariff policy implementation and announcement procedures",
+        "Federal agency restructuring and the 'destruction of the administrative state'",
+        "Pardon decisions for January 6th defendants",
+        "Greenland acquisition discussions",
+        "Supreme Court challenge considerations for executive orders characterized as 'unconstitutional'",
+        "Coordination between State Department, Defense Department, and NSC on foreign policy"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The truth about intermittent fasting",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-02-20T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Shortwave episode covers three science stories: a meta-analysis finding that intermittent fasting does not significantly outperform other diets for weight loss in overweight/obese adults; concerns about AI chatbot safety for minors and evidence that mandatory AI-disclosure reminders may be ineffective or counterproductive for vulnerable users; and a study showing that ultra-endurance running (24-106 miles) causes damage to red blood cells and inflammation, though long-term health impacts remain unknown.",
+      "science_topics": [
+        "Intermittent fasting and weight loss mechanisms",
+        "Meta-analysis of dietary interventions",
+        "GLP-1 receptor agonist drugs for weight loss",
+        "Red blood cell damage and hemolysis during extreme endurance exercise",
+        "Exercise-induced inflammation and anemia",
+        "AI chatbot mental health effects",
+        "Suicide risk and human-AI interaction"
+      ],
+      "claims_to_note": [
+        "Intermittent fasting did not work for weight loss in overweight or obese adults compared to traditional dietary advice or doing nothing - based on meta-analysis of 22 smaller studies",
+        "GLP-1 drugs produce 10-20% body weight loss over months to a year",
+        "Red blood cells are damaged during ultra-endurance running due to rapid circulation and increased oxygen demand",
+        "Mandatory AI-disclosure reminders (every 3 hours) may be ineffective or harmful for vulnerable populations",
+        "Study sample size was very small (23 runners) and long-term health impacts of extreme exercise are unknown"
+      ],
+      "policy_relevance": [
+        "California and New York laws requiring AI chatbots to send regular reminders (every 3 hours) that users are communicating with artificial intelligence",
+        "Congressional testimony by parents regarding AI chatbot dangers and suicide risk in minors",
+        "OpenAI's stated redesign of ChatGPT platform for improved safety for minors",
+        "Social scientists calling for companies to share chatbot interaction data to enable better policy research"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Transporting Freight in Emergencies: A Guide on Special Permits and Weight Requirements",
+          "url": "https://nap.nationalacademies.org/catalog/27898/transporting-freight-in-emergencies-a-guide-on-special-permits-and"
+        },
+        {
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "url": ""
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Transporting Freight in Emergencies: A Guide on Special Permits and Weight Requirements",
+          "url": "https://nap.nationalacademies.org/catalog/27898/transporting-freight-in-emergencies-a-guide-on-special-permits-and"
+        },
+        {
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Review of the Draft Second State of the Carbon Cycle Report (SOCCR2)",
+          "url": "https://nap.nationalacademies.org/catalog/25045/review-of-the-draft-second-state-of-the-carbon-cycle-report-soccr2"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-02-20T06:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Geoffrey Hinton, a pioneering AI researcher and 2024 Nobel Prize winner, discusses the origins and trajectory of artificial intelligence with Neil deGrasse Tyson. The conversation covers the historical development of AI from the 1950s, the mechanics of neural networks and backpropagation, and the capabilities of large language models. Hinton addresses both the transformative potential of AI in healthcare, drug discovery, and other domains, and the existential risks posed by increasingly intelligent systems that may develop survival instincts and resist human control. The episode emphasizes that while AI offers tremendous benefits, humanity must urgently research how to ensure safe coexistence with superintelligent systems.",
+      "science_topics": [
+        "Artificial neural networks and deep learning",
+        "Backpropagation algorithm for training neural networks",
+        "Large language models and their reasoning capabilities",
+        "Edge detection in visual cortex and image recognition",
+        "Distributed memory in neural systems",
+        "AlphaGo and AlphaZero game-playing AI systems",
+        "AI medical diagnosis and drug design applications",
+        "Confabulation versus hallucination in language models",
+        "Self-play learning and exponential improvement in AI systems",
+        "Consciousness and subjective experience in artificial systems"
+      ],
+      "claims_to_note": [
+        "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
+        "Current large language models can achieve gold medals in mathematics competitions",
+        "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+        "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+        "80% of recent U.S. stock market growth can be attributed to increases in AI company valuations",
+        "Large language models confabulate (create false memories) in ways similar to human memory recall",
+        "AlphaZero plays chess with brilliant sacrifices similar to human grandmaster Mikhail Tal without extensive search algorithms",
+        "Current language models can perform reasoning tasks and detect logical inconsistencies in their own beliefs"
+      ],
+      "policy_relevance": [
+        "Discussion of U.S. military policy on autonomous weapons systems and the shift from 'always a person in the loop' to vaguer 'human oversight' language",
+        "Constitutional AI approaches being developed by companies like Anthropic to align AI systems with human values",
+        "International cooperation concerns on AI safety, comparing alignment with Cold War nuclear deterrence cooperation",
+        "Potential job displacement and social consequences of AI replacing human intellectual labor",
+        "Government regulation and guardrails needed for AI development",
+        "Concerns about AI being used for election corruption through deepfakes and cyberattacks"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "Matching sounds to shapes, and stories from the AAAS annual meeting",
+      "host": "Sarah Crespi",
+      "published": "2026-02-19T19:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode covers two major topics from the 2026 AAAS annual meeting in Phoenix: (1) AI applications in scientific research, including using large language models to debunk conspiracy theories and solve physics problems about gluon interactions, and (2) concerns about the future of U.S. science funding and its potential impact on international scientific talent attraction. A secondary segment discusses the Booba-Kiki effect—the tendency to associate round shapes with the word 'Booba' and spiky shapes with 'Kiki'—and research showing this effect exists in newly hatched chickens, suggesting it reflects a fundamental perceptual principle rather than language-specific phenomenon.",
+      "science_topics": [
+        "Large language models (LLMs) for debunking conspiracy theories",
+        "Gluon interactions and spin configurations in particle physics",
+        "Cross-modal correspondence (Booba-Kiki effect)",
+        "Avian cognition and sensory perception in precocial birds",
+        "Vocal learning in chickens and other birds",
+        "Multimodal perception in non-human animals",
+        "Strong nuclear force and particle physics"
+      ],
+      "claims_to_note": [
+        "LLMs (specifically GPT-4) showed substantial effectiveness in reducing conspiracy theory beliefs, with approximately 25% of high-belief individuals abandoning their conspiracy theories after conversation, with effects sustained at 2-month follow-up",
+        "ChatGPT contributed to solving a previously unsolved physics problem regarding gluon spin interactions, though researchers verified the result independently using non-hallucinatory methods",
+        "The Booba-Kiki effect appears in newly hatched chickens with no prior auditory or linguistic experience, suggesting the effect reflects fundamental vertebrate perceptual principles rather than language-based associations",
+        "European Ph.D. programs report uptick in applications from U.S. applicants, possibly related to changes in U.S. science administration (NIH/NSF)",
+        "Chickens have repertoire of 30+ distinct vocalizations with audience-dependent modulation"
+      ],
+      "policy_relevance": [
+        "Changes in NIH and NSF administration mentioned as potential factor in international scientist migration patterns",
+        "Discussion of U.S. science funding situation and its competitive disadvantage relative to European and other international funding opportunities",
+        "Concerns about impact of U.S. science policy on attracting international Ph.D. students and researchers",
+        "AAAS annual meeting as venue for discussion of federal science policy and international science collaboration"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Interactions Between Transportation Capacity, Economic Systems, and Land Use",
+          "url": "https://nap.nationalacademies.org/catalog/22085/interactions-between-transportation-capacity-economic-systems-and-land-use"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "The Science and Practice of Team Science",
+          "url": "https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science"
+        },
+        {
+          "title": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication"
+        },
+        {
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance"
+        },
+        {
+          "title": "Biometric Recognition: Challenges and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/12720/biometric-recognition-challenges-and-opportunities"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades"
+        },
+        {
+          "title": "Making Climate Assessments Work: Learning from California and Other Subnational Climate Assessments: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25324/making-climate-assessments-work-learning-from-california-and-other-subnational"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

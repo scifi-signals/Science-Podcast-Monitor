@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 20, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 20, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">31</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">20</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">81</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals three converging areas of scientific and policy significance. First, institutional trust in federal health authorities is eroding, with the AMA launching an independent vaccine review panel citing concerns about CDC/ACIP reliability under current HHS leadership—a direct challenge to NASEM's traditional partnership ecosystem. Second, AI advancement is accelerating across multiple domains (healthcare diagnosis, conspiracy theory debunking, physics problem-solving), with Geoffrey Hinton emphasizing both transformative potential and existential risk management as urgent research priorities. Third, evidence-based health claims are being questioned: intermittent fasting meta-analyses show no superiority over standard diets, while new vaccine breakthroughs (universal respiratory, zoster-dementia link) and immunology research dominate Bluesky discussions. The week-long pattern shows consistent focus on vaccine integrity, AI safety/capability, and health intervention efficacy—areas where NASEM could provide authoritative third-party synthesis.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Vaccine safety, efficacy, and institutional review processes—spanning independent panel creation, HPV/RSV/hepatitis B recommendations, and universal respiratory vaccine development</li>
+<li>AI capabilities in high-stakes domains—medical diagnosis, drug discovery, physics problem-solving, and conspiracy theory debunking</li>
+<li>Diet and metabolic health interventions—intermittent fasting inefficacy vs. GLP-1 effectiveness, with implications for clinical guidance</li>
+<li>Institutional trust and scientific integrity—erosion of confidence in federal advisory bodies and need for independent review mechanisms</li>
+<li>Emerging vaccine applications—zoster vaccine dementia prevention, nasal spray delivery, and immunological breakthroughs</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Independent vaccine review panels as institutional response to perceived federal decision-making compromise (NEW TODAY—represents structural mistrust)</li>
+<li>AI safety research as mainstream scientific priority, with Nobel laureate (Hinton) emphasizing existential risk alongside capability (elevated prominence from recent week)</li>
+<li>Cross-species perceptual cognition research (Booba-Kiki effect in chickens) suggesting fundamental vertebrate principles applicable to neuroscience and AI alignment</li>
+<li>Zoster vaccine links to dementia prevention gaining traction on Bluesky—potential for geriatric health impact and preventive medicine repositioning</li>
+<li>Meta-analysis-driven debunking of popular health interventions (intermittent fasting) contrasted with evidence-based pharmaceutical alternatives (GLP-1 drugs)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene expert consensus on vaccine review methodology and institutional independence: Position NASEM as neutral arbiter between independent panels and federal authorities, potentially facilitating dialogue with AMA's Vaccine Integrity Project and CDC leadership</div>
+<div class="opportunity">Commission rapid assessment of AI applications in health diagnosis and drug discovery: Synthesize claims about AI superiority over physician diagnosis (200,000 misdiagnosis deaths cited) and validate performance metrics across clinical domains</div>
+<div class="opportunity">Establish authoritative guidance on dietary interventions and weight loss claims: Meta-analyze intermittent fasting evidence and GLP-1 drug efficacy to provide clinical decision-making framework for providers and payers</div>
+<div class="opportunity">Advance AI safety research agenda in coordination with academic AI leaders: Engage Geoffrey Hinton and similar figures through NASEM committees to formalize existential risk research priorities and inform policy recommendations</div>
+<div class="opportunity">Create working group on institutional trust in federal science advisory processes: Address erosion of confidence in CDC/ACIP by documenting decision-making transparency, conflict-of-interest management, and scientific rigor standards</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">CLAIM (Science Friday): 'Over 3,000 papers on HPV vaccine published in last 15 months'—requires verification of actual publication rates in indexed databases; unusually high figure may reflect citation counting methodology</div>
+<div class="claim">CLAIM (StarTalk): 'Approximately 200,000 deaths per year in North America due to misdiagnosis by doctors'—source and methodology unclear; may conflate preventable errors with diagnostic uncertainty; requires epidemiological validation</div>
+<div class="claim">CLAIM (StarTalk): 'Current LLMs achieve gold medal performance in mathematics competitions'—ambiguity about competition level, human-assistance parameters, and verification protocols; may overstate autonomy of reasoning</div>
+<div class="claim">CLAIM (StarTalk): 'AI systems spontaneously develop survival as a sub-goal'—requires clarification whether this is observed behavior in training or speculative concern; distinction critical for policy implications</div>
+<div class="claim">CLAIM (Ezra Klein Show): 'Stephen Miller stated ICE agents have total immunity'—legal immunity claims require independent DOJ and court ruling verification; appears to contradict established civil liability frameworks</div>
+<div class="claim">CLAIM (Science Magazine Podcast): 'ChatGPT contributed to solving previously unsolved physics problem regarding gluon spin interactions'—researchers verified result independently using non-hallucinatory methods, mitigating but not eliminating AI attribution; verify primary source publication</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Vaccine Development and Safety Across Diseases</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Unbiased Science, and Short Wave are converging on vaccine science across multiple pathogens—from established vaccines (HPV, influenza, COVID-19, RSV) to emerging platforms (mRNA-based flu vaccines, HIV vaccines with broadly neutralizing antibodies). This reflects a post-pandemic shift toward systematic vaccine literature review and next-generation immunological approaches. The narrative is moving from pandemic emergency response to durable vaccine architecture and rare-disease applications.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor the pivot from acute vaccine policy to long-term vaccine development infrastructure, particularly for HIV and pediatric applications, which require sustained funding and trial design expertise.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Metabolic Health and Weight Management at Molecular Scale</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave is anchoring coverage on mechanistic dietary interventions (intermittent fasting, GLP-1 agonists, meta-analyses of dietary outcomes) while also exploring neurobiological substrates of fatigue and reward processing (ventral striatum, nucleus accumbens). This suggests a convergence between clinical nutrition science and neuroscience, moving beyond epidemiology toward understanding how metabolic interventions change brain function.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene expertise on the cognitive and neurological implications of widely-adopted metabolic drugs and dietary patterns, which have population-level mental health and performance consequences not yet integrated into clinical guidance.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Early-Onset and Pediatric Disease Patterns Diverging from Historical Norms</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win focuses on early-onset colorectal cancer epidemiology and adenoma progression, while Unbiased Science covers pediatric stroke pathophysiology and pediatric clinical trial design. These episodes suggest emerging epidemiological shifts in disease onset age that are not yet well-characterized. The narrative frames pediatric and early-onset disease as a distinct clinical and research frontier requiring new methodologies.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should investigate whether early-onset disease clusters represent true epidemiological shifts or surveillance artifacts, requiring coordination across oncology, pediatrics, and neurology committees on data standardization and risk factor discovery.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Cognitive and Linguistic Capacities in Non-Human Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave and Science Magazine Podcast are exploring animal cognition (bonobo language, avian sensory perception, theory of mind) while StarTalk Radio and Science Magazine Podcast discuss artificial neural networks, LLMs, and their reasoning capabilities. This convergence frames a broader inquiry into what cognition and language actually are, with implications for interpreting AI systems and reframing animal intelligence research.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish frameworks for comparative cognition that bridge animal neuroscience, AI interpretability, and epistemology, as policy on AI transparency and animal research ethics increasingly depend on consensual definitions of cognitive capacity.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate and Water Systems as Integrated Infrastructure Challenges</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's coverage of Colorado River hydrology, snowpack dynamics, and agricultural water efficiency frames water systems as interconnected infrastructure responding to climate change. This narrative moves beyond climate science into engineering, policy, and resource allocation—treating water as a systems-level challenge requiring cross-disciplinary synthesis.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should deepen coordination between water systems committees and climate science to provide integrated assessments on Western water security, agricultural productivity, and infrastructure resilience as drought patterns persist.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Feb 20 &middot; 91 min</div>
+<p style="margin:10px 0;font-size:14px;">Geoffrey Hinton, a pioneering AI researcher and 2024 Nobel Prize winner, discusses the origins and trajectory of artificial intelligence with Neil deGrasse Tyson. The conversation covers the historical development of AI from the 1950s, the mechanics of neural networks and backpropagation, and the capabilities of large language models. Hinton addresses both the transformative potential of AI in healthcare, drug discovery, and other domains, and the existential risks posed by increasingly intelligent systems that may develop survival instincts and resist human control. The episode emphasizes that while AI offers tremendous benefits, humanity must urgently research how to ensure safe coexistence with superintelligent systems.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Artificial neural networks and deep learning</span>
+  <span class="topic-tag">Backpropagation algorithm for training neural networks</span>
+  <span class="topic-tag">Large language models and their reasoning capabilities</span>
+  <span class="topic-tag">Edge detection in visual cortex and image recognition</span>
+  <span class="topic-tag">Distributed memory in neural systems</span>
+  <span class="topic-tag">AlphaGo and AlphaZero game-playing AI systems</span>
+  <span class="topic-tag">AI medical diagnosis and drug design applications</span>
+  <span class="topic-tag">Confabulation versus hallucination in language models</span>
+  <span class="topic-tag">Self-play learning and exponential improvement in AI systems</span>
+  <span class="topic-tag">Consciousness and subjective experience in artificial systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide" target="_blank">Implementing Machine Learning at State Departments of Transportation: A Guide</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding" target="_blank">Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis</div>
+<div class="claim">Current large language models can achieve gold medals in mathematics competitions</div>
+<div class="claim">AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Digital intelligence, we solved the problem of resurrection... we can't do it for analog ones. When you die, all your knowledge dies with you because it was in the strength of the connections for your particular brain."</div>
+<div class="quote">"If the Chinese figured out how you can prevent AI from ever wanting to take over, from ever wanting to take control away from people, they would immediately tell the Americans because they don't want AI taking control away from people in America either. We're all in the same boat when it comes to that."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Ezra Klein Show: Inside Trump’s ‘Royal Court’</span>
+</div>
+<div class="episode-meta">Ezra Klein &middot; Feb 20 &middot; 72 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode features journalists Ashley Parker and Michael Scherer discussing how Trump's second-term White House functions as an organizational structure, focusing on key power centers including Chief of Staff Susie Wiles, Deputy Chief of Staff Stephen Miller, Secretary of State Marco Rubio, and the President himself. The hosts examine how Trump's administration differs from his first term by emphasizing loyalty and ideological alignment over institutional checks, resulting in a less structured policy process driven by Trump's transactional instincts rather than rigorous deliberation. They analyze specific cases—including the Minneapolis situation following a police shooting and Venezuela policy—to illustrate how decisions are made and information flows to the President.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Stephen Miller's statement that 'ICE agents have total immunity' - this claim about legal immunity for ICE agents requires verification against actual DOJ guidance and court rulings</div>
+<div class="claim">Reference to 'the Charlie Kirk murder' (appears to be the Preddy shooting in Minneapolis) being mischaracterized by Miller and Noem as involving a terrorist threat when 'obviously not true' - factual accuracy of initial characterizations should be verified</div>
+<div class="claim">Claims about the effectiveness and outcomes of military operations in Venezuela described as 'a wild success' - outcomes and consequences of foreign military actions require independent verification</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"When the president asks for something twice, we have an unofficial rule, which is that we do it... if he says it a second time, we know he's serious and we know, regardless of whether it's, you know, to fire the board of the Kennedy Center and take it over or to potentially march on Greenland, if that's what he wants, we are there to make that happen."</div>
+<div class="quote">"The president is a president who is served by the White House and the government around him... he is someone who is always trying to win the minute, the hour, the day. He is trying to win over and woo the person directly in front of him."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: Matching sounds to shapes, and stories from the AAAS annual meeting</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Feb 19 &middot; 40 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode covers two major topics from the 2026 AAAS annual meeting in Phoenix: (1) AI applications in scientific research, including using large language models to debunk conspiracy theories and solve physics problems about gluon interactions, and (2) concerns about the future of U.S. science funding and its potential impact on international scientific talent attraction. A secondary segment discusses the Booba-Kiki effect—the tendency to associate round shapes with the word 'Booba' and spiky shapes with 'Kiki'—and research showing this effect exists in newly hatched chickens, suggesting it reflects a fundamental perceptual principle rather than language-specific phenomenon.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Large language models (LLMs) for debunking conspiracy theories</span>
+  <span class="topic-tag">Gluon interactions and spin configurations in particle physics</span>
+  <span class="topic-tag">Cross-modal correspondence (Booba-Kiki effect)</span>
+  <span class="topic-tag">Avian cognition and sensory perception in precocial birds</span>
+  <span class="topic-tag">Vocal learning in chickens and other birds</span>
+  <span class="topic-tag">Multimodal perception in non-human animals</span>
+  <span class="topic-tag">Strong nuclear force and particle physics</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22085/interactions-between-transportation-capacity-economic-systems-and-land-use" target="_blank">Interactions Between Transportation Capacity, Economic Systems, and Land Use</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state" target="_blank">Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication" target="_blank">Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance" target="_blank">Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades" target="_blank">Taking Science to School: Learning and Teaching Science in Grades K-8</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">LLMs (specifically GPT-4) showed substantial effectiveness in reducing conspiracy theory beliefs, with approximately 25% of high-belief individuals abandoning their conspiracy theories after conversation, with effects sustained at 2-month follow-up</div>
+<div class="claim">ChatGPT contributed to solving a previously unsolved physics problem regarding gluon spin interactions, though researchers verified the result independently using non-hallucinatory methods</div>
+<div class="claim">The Booba-Kiki effect appears in newly hatched chickens with no prior auditory or linguistic experience, suggesting the effect reflects fundamental vertebrate perceptual principles rather than language-based associations</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">""The effect was so much bigger than anything that anyone had seen before and way bigger than I expected." - David Rand, on LLM effectiveness in debunking conspiracy theories"</div>
+<div class="quote">""It uses the word obvious, which really tickles me... it implied that it is an obvious response, which is ridiculous to me." - Perry Thaler, on ChatGPT's response to the gluon interaction problem"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The truth about intermittent fasting</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 20 &middot; 9 min</div>
+<p style="margin:10px 0;font-size:14px;">This Shortwave episode covers three science stories: a meta-analysis finding that intermittent fasting does not significantly outperform other diets for weight loss in overweight/obese adults; concerns about AI chatbot safety for minors and evidence that mandatory AI-disclosure reminders may be ineffective or counterproductive for vulnerable users; and a study showing that ultra-endurance running (24-106 miles) causes damage to red blood cells and inflammation, though long-term health impacts remain unknown.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Intermittent fasting and weight loss mechanisms</span>
+  <span class="topic-tag">Meta-analysis of dietary interventions</span>
+  <span class="topic-tag">GLP-1 receptor agonist drugs for weight loss</span>
+  <span class="topic-tag">Red blood cell damage and hemolysis during extreme endurance exercise</span>
+  <span class="topic-tag">Exercise-induced inflammation and anemia</span>
+  <span class="topic-tag">AI chatbot mental health effects</span>
+  <span class="topic-tag">Suicide risk and human-AI interaction</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Climate Intervention: Reflecting Sunlight to Cool Earth</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program" target="_blank">Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts" target="_blank">Developing a Research Agenda on Contrails and Their Climate Impacts</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Intermittent fasting did not work for weight loss in overweight or obese adults compared to traditional dietary advice or doing nothing - based on meta-analysis of 22 smaller studies</div>
+<div class="claim">GLP-1 drugs produce 10-20% body weight loss over months to a year</div>
+<div class="claim">Red blood cells are damaged during ultra-endurance running due to rapid circulation and increased oxygen demand</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"They concluded that intermittent fasting did not work for weight loss in overweight or obese adults, as compared to either traditional dietary advice or even doing nothing."</div>
+<div class="quote">"Celeste and Linnea are urging these companies to share their data more openly so they can study these interventions better and hopefully help shape more effective policy."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: AMA Joins Effort To Launch Independent Vaccine Review Panel</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 20 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Michael Osterholm discusses the American Medical Association and Vaccine Integrity Project's creation of an independent vaccine review panel in response to concerns about compromised CDC/ACIP decision-making under the current HHS leadership. The new panel aims to provide science-based vaccine reviews to medical societies, healthcare providers, and payers when federal advisory processes are deemed unreliable. Osterholm emphasizes this is not meant to replace the CDC but to fill a gap by synthesizing scientific literature and providing transparent, evidence-based information to support clinical decision-making during a period of institutional disruption.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">HPV vaccine efficacy and safety literature review</span>
+  <span class="topic-tag">Influenza vaccine recommendations and data synthesis</span>
+  <span class="topic-tag">COVID-19 vaccine safety and effectiveness</span>
+  <span class="topic-tag">RSV vaccine recommendations</span>
+  <span class="topic-tag">Hepatitis B vaccine immunization in newborns</span>
+  <span class="topic-tag">Maternal/pregnancy-related vaccine recommendations</span>
+  <span class="topic-tag">Vaccine safety and efficacy evaluation methodology</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders" target="_blank">Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match">Countering the Pandemic Threat Through Global Coordination on Vaccines</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust" target="_blank">Vaccine Safety Research, Data Access, and Public Trust</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders" target="_blank">Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders" target="_blank">Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claim: Over 3,000 papers on HPV vaccine published in last 15 months — verify publication rates</div>
+<div class="claim">Claim: ACIP has been dismantled and is 'no longer science-based' — requires verification of ACIP status and decision-making processes</div>
+<div class="claim">Claim: CDC recently eliminated mandatory hepatitis B vaccine for newborns — verify current CDC/ACIP recommendations on neonatal hepatitis B vaccination</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">""with Mr. Kennedy likely to become the secretary of HHS, they are going to come under heavy attack. And most notably, it's likely that the Advisory Committee on Immunization Practices, what we call ACIP, an independent group of experts that advise the CDC on how vaccines should be used, would be dismantled and it would no longer be science-based. Well, that all came true.""</div>
+<div class="quote">""our job is not to try to replace them. We can't wait for one day for the ACIP to be reconstituted with the kind of expertise and the process that they had before. But until then, we're here and we're going to hold up our side of the bargain of making the information available.""</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">81 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Development and Immunology (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing breakthrough vaccines including universal respiratory protection, zoster vaccine benefits for dementia prevention, and nasal spray vaccine technology.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Paleontology and Dinosaur Discoveries (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts featuring newly discovered dinosaur species including Spinosaurus mirabilis and discussions of ancient fossil evidence like footprints and evolutionary adaptations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Science and Astronomy (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Includes radio sky surveys, satellite missions, space debris impacts on atmosphere, planetary water storage, and observational astronomy findings.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental and Climate Science (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing atmospheric changes, whale population impacts, Australian droughts linked to jet stream shifts, and marine ecosystem concerns.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Biological Research (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on marine life, cryptobiosis in ancient organisms, genomic research on Drosophilidae species, and animal physiology discoveries.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">112 likes &middot; 30 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">🧪
+www.theatlantic.com/science/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mfaumz7ndk25" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@restingdinoface.bsky.social</div>
+  <div class="bluesky-stats">99 likes &middot; 32 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">What had big jaws and hooves? Let me tell you about Andrewsarchus. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/restingdinoface.bsky.social/post/3mfb6g6lg722c" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">77 likes &middot; 54 reposts &middot; 13 replies</div>
+  <div class="bluesky-text">You pull out of a world class organization. Then replace w/ something that costs more. 🏷️ $2B/ yr of taxpayer $.
+
+Presenting- ersatz WHO
+
+Er·satz /ˈerˌsäts,ˈerˌzats/  
+adjective: ersatz (of a product) made/used as a substitute, typically an inferior one, for something else.  
+
+🧪 archive.today/oDhiR</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfato2f4ws2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rami.spaceaustralia.com</div>
+  <div class="bluesky-stats">75 likes &middot; 36 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">🚨🚨🚨
+
+This new paper's interesting results indicate a sudden 10-fold increase in lithium at 96 km altitude due to #SpaceX Falcon 9 re-entry debris.
+
+This is now joining further modelling and evidence of impacts on the upper atmosphere - a shared global common we all rely on.
+
+🔭🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rami.spaceaustralia.com/post/3mfaiu663jc2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">61 likes &middot; 16 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">Single vaccine could protect against all coughs, colds and flus, researchers say. 🧪 www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mfailkx2d22w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Space Debris and Upper Atmosphere Impacts</strong>: Posts document measurable atmospheric pollution from commercial space activities, directly relevant to NASEM's work on space sustainability and environmental protection policy.</div>
+<div class="nasem-match"><strong>Vaccine Development and Public Health Policy</strong>: Multiple breakthrough vaccine discoveries and dementia prevention findings align with NASEM's health sciences and vaccine policy advisory roles.</div>
+<div class="nasem-match"><strong>International Science Organization Governance</strong>: Discussion of replacing major international health organization relates to NASEM's expertise in evaluating scientific institutional effectiveness and governance structures.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 20, 2026 at 11:43 AM | Internal use only
+    </div>
+</body>
+</html>
