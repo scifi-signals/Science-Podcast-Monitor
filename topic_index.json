@@ -1,7 +1,410 @@
 {
-  "updated": "2026-02-20T11:43:59.275688",
-  "episode_count": 16,
+  "updated": "2026-02-21T11:28:57.126408",
+  "episode_count": 21,
   "episodes": [
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The noise that isn't there",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-02-21T10:05:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores tinnitus, a condition affecting approximately 15% of adults where people perceive phantom sounds like ringing or buzzing in their ears despite no external sound source. The episode explains how tinnitus arises from the brain's compensatory response to hearing damage, particularly to specialized nerve fibers that process loud sounds. Researchers at Mass Eye and Ear have discovered 'hidden hearing loss'—damage that standard hearing tests cannot detect—and are developing new diagnostic approaches and treatments like cognitive behavioral therapy that target broader brain networks affected by severe tinnitus.",
+      "science_topics": [
+        "Tinnitus (chronic phantom auditory perception)",
+        "Hidden hearing loss (damage to high-frequency auditory nerve fibers)",
+        "Auditory nerve fiber function and types",
+        "Brain hyperactivity and compensatory mechanisms in hearing loss",
+        "Phantom limb pain analogy in tinnitus pathophysiology",
+        "Cognitive behavioral therapy for tinnitus management",
+        "Mindfulness therapy for tinnitus",
+        "Temporal bone audiology and hearing test limitations",
+        "Limbic system involvement in severe tinnitus",
+        "Executive function and tinnitus-related depression"
+      ],
+      "claims_to_note": [
+        "Almost 15% of all adults have tinnitus; 100 million people have severe tinnitus",
+        "Standard audiological hearing tests are 'completely insensitive' to loss of loud-sound-coding nerve fibers",
+        "Hidden hearing loss was 'only discovered a few years ago' by Mass Eye and Ear researchers",
+        "The nerve fibers most susceptible to aging and noise exposure are those that code for loud sounds",
+        "Severe tinnitus represents a 'whole brain problem' involving recruitment of non-auditory brain networks (executive control, limbic system)",
+        "Cognitive behavioral therapy and mindfulness therapy can reduce severe tinnitus disability by targeting non-auditory brain systems rather than just auditory pathways"
+      ],
+      "policy_relevance": [
+        "Mass Eye and Ear launched a new Tinnitus Clinic (opened last year in the episode's timeframe)",
+        "Current clinical practice relies on standard hearing tests that miss hidden hearing loss—potential need for updated diagnostic standards",
+        "Gap in clinical care: many patients with tinnitus are told 'there's nothing I can do for you' despite new research suggesting treatment options"
+      ],
+      "nasem_publications": [
+        {
+          "title": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "title": "Living Well with Chronic Illness: A Call for Public Health Action",
+          "url": "https://nap.nationalacademies.org/catalog/13272/living-well-with-chronic-illness-a-call-for-public-health"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Hearing Health Care for Adults: Priorities for Improving Access and Affordability",
+          "url": "https://nap.nationalacademies.org/catalog/23446/hearing-health-care-for-adults-priorities-for-improving-access-and"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
+          "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Autism Rates Appear To Be Even Across Sexes. Diagnosis Is Not",
+      "host": "Ira Flatow",
+      "published": "2026-02-21T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "A new Swedish epidemiological study challenges the long-held belief that autism is three times more common in boys than girls, finding instead that autism prevalence is roughly equal across sexes assigned at birth, but girls and women are diagnosed significantly later in life—often not until adolescence or adulthood. The research reveals that diagnostic criteria for autism were historically developed based on male presentations, leading to underdiagnosis in females who may mask or present autism differently. Researchers and clinicians discuss how delayed diagnoses profoundly affect people's lives, the need to update diagnostic criteria to be more neurodiversity-affirming, and the importance of recognizing autism as natural neurological variation rather than deficit.",
+      "science_topics": [
+        "Sex differences in autism diagnosis and prevalence",
+        "Autism masking/camouflaging behaviors in females",
+        "Age of autism diagnosis across birth cohorts",
+        "Diagnostic criteria for autism spectrum disorder",
+        "Behavioral presentation differences between autistic boys and girls",
+        "Epidemiology of autism spectrum disorder in Swedish population"
+      ],
+      "claims_to_note": [
+        "CDC reports autism is three times more common in boys than girls—study suggests this reflects diagnostic bias rather than true prevalence difference",
+        "Swedish cohort study (1985-2022) found autism prevalence roughly equal by sex assigned at birth, with female-assigned individuals diagnosed later",
+        "Average diagnosis age: 10-14 years for boys, 15-19 years for girls; by age 20, diagnosis rates reach 1:1 ratio",
+        "Autistic girls show equal social understanding difficulties as autistic boys but appear more socially proficient outwardly",
+        "Autism diagnostic criteria were historically based on male case descriptions, potentially biasing interpretation toward male presentations",
+        "Autistic girls more likely to have interests appearing relational/social rather than highly specific objects, making autism less noticeable"
+      ],
+      "policy_relevance": [
+        "Diagnostic criteria for autism need revision to include female presentations and reduce diagnostic bias",
+        "DSM/diagnostic manual criteria historically based on male cases—need for neurodiversity-affirming diagnostic frameworks",
+        "Swedish health registers have potential to track transgender and non-binary autism diagnoses in future research",
+        "Clinical training and diagnostic protocols need updating to recognize autism presentations in people assigned female at birth"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans",
+          "url": "https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans"
+        },
+        {
+          "title": "Assessing Prevalence and Trends in Obesity: Navigating the Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/23505/assessing-prevalence-and-trends-in-obesity-navigating-the-evidence"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Transforming the Workforce for Children Birth Through Age 8: A Unifying Foundation",
+          "url": "https://nap.nationalacademies.org/catalog/19401/transforming-the-workforce-for-children-birth-through-age-8-a"
+        },
+        {
+          "title": "Criteria for Selecting the Leading Health Indicators for Healthy People 2030",
+          "url": "https://nap.nationalacademies.org/catalog/25531/criteria-for-selecting-the-leading-health-indicators-for-healthy-people-2030"
+        },
+        {
+          "title": "Strengthening Equitable Community Resilience: Criteria and Guiding Principles for the Gulf Research Program's Enhancing Community Resilience (EnCoRe) Initiative",
+          "url": "https://nap.nationalacademies.org/catalog/26880/strengthening-equitable-community-resilience-criteria-and-guiding-principles-for-the"
+        },
+        {
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "url": ""
+        },
+        {
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization"
+        },
+        {
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on"
+        },
+        {
+          "title": "Integrating Social and Behavioral Sciences Within the Weather Enterprise",
+          "url": "https://nap.nationalacademies.org/catalog/24865/integrating-social-and-behavioral-sciences-within-the-weather-enterprise"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#460 — When the Center Cannot Hold",
+      "host": "Sam Harris",
+      "published": "2026-02-20T20:40:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Sam Harris and Jonah Goldberg discuss the erosion of institutional norms and democratic processes in American politics under the Trump administration. They examine structural problems in the primary system and campaign finance that incentivize extreme candidates, the loss of institutional checks and balances in Congress, and the growing schism within the Republican Party between those rejecting Nazi-adjacent politics and those willing to accommodate far-right extremists. The conversation emphasizes that restoring democratic health requires both parties to move toward sanity simultaneously, as current incentive structures reward tribalism and institutional disloyalty.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Claim about tariffs: Goldberg states that economists have been saying for '30 years, 50 years, 70 years' that Americans, not foreigners, pay tariffs. This reflects standard economic consensus but is worth verifying against current NASEM or National Academy perspectives on trade economics.",
+        "Implicit claim about institutional norm-setting: Discussion of the 'presumption of regularity' in judicial proceedings and claims that federal judges (including conservative ones) have rescinded this presumption due to government dishonesty. This is a governance claim, not a scientific one, but relates to institutional functioning."
+      ],
+      "policy_relevance": [
+        "Tariff policy: Kevin Hassett (Chief Economic Advisor to the President) allegedly penalizing staff economists for publishing findings about tariff incidence that contradict administration policy",
+        "FCC regulation: Reference to 'chicanery' involving Stephen Colbert and FCC, suggesting regulatory capture or politicization",
+        "Judicial independence and rule of law: Discussion of federal judges rescinding 'presumption of regularity' in government legal filings, indicating concerns about executive branch credibility",
+        "Congressional oversight: Discussion of Congress failing to perform oversight function and institutional checks on executive power",
+        "Primary system reform: Critique of direct primary system as structural problem requiring policy change",
+        "Campaign finance: Discussion of how small-donor fundraising has created perverse incentives for partisan polarization",
+        "Potential military action: Reference to possibility of invasion of Iran as policy concern"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: How hovering bumblebees keep their cool",
+      "host": "Springer Nature",
+      "published": "2026-02-20T15:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.",
+      "science_topics": [
+        "Sex differences in brain structure and functional connectivity",
+        "fMRI neuroimaging of structural and functional brain connections",
+        "Default mode network hyperconnectivity and depression",
+        "Puberty-related brain development and sexual dimorphism",
+        "Bumblebee thermoregulation during flight",
+        "Bumblebee wing muscle mechanics and heat generation",
+        "Neuroplasticity and environmental influences on brain development"
+      ],
+      "claims_to_note": [
+        "Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation",
+        "Default mode network hyperconnectivity in females is linked to depression and anxiety disorders",
+        "Males show stronger interhemispheric functional connections in the cerebellum with age",
+        "Women have higher frequencies of depression and anxiety; men more likely to have substance abuse issues; boys more commonly diagnosed with autism spectrum disorder—hosts acknowledge these may reflect socioeconomic, social, and environmental factors rather than purely biological sex differences",
+        "Bumblebees generate substantial heat during flight and can thermoregulate using wing muscles"
+      ],
+      "policy_relevance": [
+        "Potential implications for personalizing mental health treatment based on sex-specific brain differences",
+        "Discussion of need for sex-disaggregated research and treatment approaches in psychiatry and neurology"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Incorporating Resilience into Transportation Networks",
+          "url": "https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks"
+        },
+        {
+          "title": "Implementation of the National Intercity Bus Atlas",
+          "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Minimizing Utility Issues During Construction: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide"
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Gray's Donation",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-02-20T15:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This episode tells the story of Sarah and Ross Gray, who gave birth to identical twins in 2010—one with anencephaly (a fatal neural tube defect) who lived only six days. After Thomas's death, his donated tissues and organs (blood, liver, eyes) were used in medical research. Years later, Sarah and Ross embarked on a quest to discover how Thomas's donations were used, visiting research institutions to trace his biological legacy and find meaning in their loss.",
+      "science_topics": [
+        "Anencephaly (neural tube defect)",
+        "Epigenetics and epigenetic differences in identical twins",
+        "Cord blood banking and analysis",
+        "Retinoblastoma (pediatric eye cancer)",
+        "Liver cell preservation and cryopreservation at negative 150 degrees Celsius",
+        "Retinal tissue processing and storage",
+        "Human Genome Project applications"
+      ],
+      "claims_to_note": [
+        "Anencephaly can be detected via ultrasound at 12-week first trimester screening by observing a 'bumpy' skull rather than round",
+        "Identical twins with anencephaly showed approximately 1,000 epigenetic differences between them despite genetic identity",
+        "Optimal temperature for freezing infant liver cells is negative 150 degrees Celsius",
+        "Retinoblastoma occurs almost exclusively in children",
+        "Normal healthy retinas for research can typically only be obtained when a healthy child dies"
+      ],
+      "policy_relevance": [
+        "Selective termination in pregnancy and medical ethics consultation with religious authorities",
+        "Organ and tissue donation procedures and legal documentation requirements",
+        "Institutional protocols for obtaining informed consent from parents of deceased children for tissue/organ research use",
+        "Tissue banking and sample processing regulations",
+        "Privacy and communication policies between researchers and families of tissue donors"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
+          "url": "https://nap.nationalacademies.org/catalog/10851/keeping-patients-safe-transforming-the-work-environment-of-nurses"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Guide for the Analysis of Multimodal Corridor Access Management",
+          "url": "https://nap.nationalacademies.org/catalog/25342/guide-for-the-analysis-of-multimodal-corridor-access-management"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Barriers and Opportunities for 2-Year and 4-Year STEM Degrees: Systemic Change to Support Students' Diverse Pathways",
+          "url": "https://nap.nationalacademies.org/catalog/21739/barriers-and-opportunities-for-2-year-and-4-year-stem-degrees"
+        },
+        {
+          "title": "Hepatitis and Liver Cancer: A National Strategy for Prevention and Control of Hepatitis B and C",
+          "url": "https://nap.nationalacademies.org/catalog/12793/hepatitis-and-liver-cancer-a-national-strategy-for-prevention-and"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

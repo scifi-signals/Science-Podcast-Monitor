@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 21, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 21, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">20</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">91</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">This week's coverage reveals critical gaps in diagnostic frameworks across multiple health domains. A Swedish epidemiological study challenges the prevailing assumption that autism is three times more common in boys, suggesting instead that diagnostic bias—rooted in male-centered criteria—delays female diagnoses by 5-9 years on average. Parallel discussions on sex differences in brain structure and tinnitus pathophysiology highlight how incomplete understanding of biological variation affects clinical recognition. Meanwhile, podcast and Bluesky discourse emphasize institutional erosion in democratic processes and advances in mRNA vaccine technology. The convergence of sex-differences research across neurology, psychiatry, and sensory medicine suggests NASEM could advance evidence-based diagnostic standards that account for biological and behavioral heterogeneity.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Sex/gender differences in disease presentation and diagnosis: autism masking in females, sex differences in brain connectivity at puberty, potential underrecognition in other conditions</li>
+<li>Diagnostic criteria limitations: autism diagnostic tools developed on male phenotypes; hidden hearing loss undetectable by standard audiometry</li>
+<li>Institutional norms and scientific integrity: research ethics concerns, data fabrication risks, need for robust verification systems</li>
+<li>Tissue banking and biomedical research: cord blood banking, organ/tissue donation tracing, cryopreservation protocols</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>mRNA vaccine platform expansion (flu-COVID combination, universal coronavirus vaccines) — gains momentum on Bluesky; builds on prior week's pediatric mRNA-flu vaccine coverage</li>
+<li>Sex-disaggregated diagnostics and neurodevelopmental research — autism, brain connectivity differences, potential applications across other neurological/psychiatric conditions (note: recurring theme from 2026-02-20 Nature Podcast on brain sex differences)</li>
+<li>Hidden/undetectable medical pathology — hearing loss not captured by standard tests; may reflect broader diagnostic gaps in neurosensory conditions</li>
+<li>Democratic institutional fragility — polarization, norm erosion, incentive misalignment (political discourse, not science-related but present in high-engagement content)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or sponsor consensus study on sex/gender-based diagnostic bias across medical specialties (autism, tinnitus, cardiovascular, other conditions); integrate recent Swedish epidemiology and fMRI findings</div>
+<div class="opportunity">Develop guidelines for sex-disaggregated data collection and reporting in clinical trials and diagnostic validation studies, addressing the 5-9 year diagnostic delay observed in females</div>
+<div class="opportunity">Convene working group on hidden hearing loss and sensory diagnostics; update audiological screening standards to detect high-frequency nerve fiber damage</div>
+<div class="opportunity">Establish best-practice standards for tissue/organ donation tracking systems and institutional repositories, drawing on donor-family engagement models (Radiolab case study)</div>
+<div class="opportunity">Issue statement on research integrity and ethical review of vaccine trials and mRNA platforms, addressing Bluesky concerns about data fabrication and scientific misinformation</div>
+<div class="opportunity">Engage on trade economics and tariff analysis—verify claims about cost incidence with NAS economists; potential for authoritative policy briefing</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Claim: Standard audiological hearing tests are 'completely insensitive' to loud-sound-coding nerve fiber loss — framing is hyperbolic; standard tests are insensitive to *specific* high-frequency fiber damage but do detect frank hearing loss; language risks overstating diagnostic failure</div>
+<div class="claim">Implicit claim: Brain sex differences are established causal findings — Nature Podcast correctly cautions that cross-sectional fMRI data cannot determine causation; social/environmental factors confounded with biological factors; avoid oversimplification into 'male brain' / 'female brain' categories</div>
+<div class="claim">Tariff cost incidence claim (Making Sense) — statement that 'Americans, not foreigners, pay tariffs' reflects standard theory but lacks nuance on distributional effects, pass-through rates, and heterogeneous impacts; NASEM should verify current consensus position</div>
+<div class="claim">Claim that tinnitus affects '100 million people with severe tinnitus' — episode cites 15% prevalence (~44M in US adult population); '100M severe' is unclear denominator and may conflate global figures; verify precision</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex differences in neurodevelopmental diagnosis and brain function</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and Nature Podcast are converging on sex differences across neurobiology: Science Friday covered diagnostic disparities in autism (masking behaviors in females, age-of-diagnosis shifts), while Nature Podcast examined structural and functional sex differences in brain connectivity, default mode networks, and puberty-related sexual dimorphism. This suggests growing recognition that diagnostic criteria and neuroimaging interpretation may systematically disadvantage or misidentify females.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise on updating clinical diagnostic frameworks and research standards to account for sex-based differences in neurobiological presentation and behavioral manifestation.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Vaccine safety, efficacy, and public health data synthesis</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and Unbiased Science both addressed vaccine development and safety in the same period. Science Friday synthesized HPV, influenza, COVID-19, and RSV vaccine data; Unbiased Science focused on mRNA flu vaccine development and pediatric clinical trial design. Together they reflect sustained policy interest in vaccine efficacy literature reviews and pediatric safety evaluation as public health priorities.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM committees on vaccines and pediatric health should track emerging data on mRNA platforms and multi-pathogen vaccination strategies for evidence-based policy recommendations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Early-onset and prevention-focused colorectal cancer epidemiology</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win dedicated coverage to early-onset colorectal cancer epidemiology, adenoma progression timelines, and dietary risk factors (processed meat, low fiber, red meat, low calcium), alongside screening modality comparisons. This reflects emerging clinical concern about rising rates in younger cohorts and dietary/lifestyle intervention opportunities before advanced disease.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess whether screening guidelines need revision for younger populations and whether dietary recommendations warrant updates based on mechanistic and epidemiological evidence.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neuroimaging and cognition in sensory loss and fatigue</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave episodes (Feb 21, 18, 16) clustered coverage of hearing loss neuromechanisms (tinnitus, auditory nerve hyperactivity), reward processing under motor fatigue (ventral striatum), and cognitive performance under pressure (motor cortex). These episodes suggest growing neuroscientific attention to how peripheral sensory or metabolic constraints alter central brain function and behavior.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM neuroscience and sensory loss committees should consider integrating neuroimaging and computational models into clinical understanding of hearing aid efficacy and cognitive fatigue in aging and disease.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Long-term data archival and emerging storage technologies</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast reported femtosecond laser encoding in borosilicate glass for three-dimensional optical data storage and archival preservation—a distinct shift toward materials-based solutions for information longevity. This reflects growing urgency around preserving large datasets (scientific, genomic, climate) amid digital obsolescence risks.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise federal agencies on data preservation standards and infrastructure for long-term scientific datasets, especially genomic and climate archives critical to reproducibility and longitudinal research.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Radiolab: Gray's Donation</span>
+</div>
+<div class="episode-meta">Lulu Miller, Latif Nasser &middot; Feb 20 &middot; 27 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode tells the story of Sarah and Ross Gray, who gave birth to identical twins in 2010—one with anencephaly (a fatal neural tube defect) who lived only six days. After Thomas's death, his donated tissues and organs (blood, liver, eyes) were used in medical research. Years later, Sarah and Ross embarked on a quest to discover how Thomas's donations were used, visiting research institutions to trace his biological legacy and find meaning in their loss.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Anencephaly (neural tube defect)</span>
+  <span class="topic-tag">Epigenetics and epigenetic differences in identical twins</span>
+  <span class="topic-tag">Cord blood banking and analysis</span>
+  <span class="topic-tag">Retinoblastoma (pediatric eye cancer)</span>
+  <span class="topic-tag">Liver cell preservation and cryopreservation at negative 150 degrees Celsius</span>
+  <span class="topic-tag">Retinal tissue processing and storage</span>
+  <span class="topic-tag">Human Genome Project applications</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program" target="_blank">Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21739/barriers-and-opportunities-for-2-year-and-4-year-stem-degrees" target="_blank">Barriers and Opportunities for 2-Year and 4-Year STEM Degrees: Systemic Change to Support Students' Diverse Pathways</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Anencephaly can be detected via ultrasound at 12-week first trimester screening by observing a 'bumpy' skull rather than round</div>
+<div class="claim">Identical twins with anencephaly showed approximately 1,000 epigenetic differences between them despite genetic identity</div>
+<div class="claim">Optimal temperature for freezing infant liver cells is negative 150 degrees Celsius</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"You're the only one that wanted it. Bad things happen to children. And so by being able to help you with your work. We added a layer to Thomas's life."</div>
+<div class="quote">"I started feeling that these were Thomas's colleagues and his coworkers and that he was a valuable partner in this important research that was being done."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #460 — When the Center Cannot Hold</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Feb 20 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">Sam Harris and Jonah Goldberg discuss the erosion of institutional norms and democratic processes in American politics under the Trump administration. They examine structural problems in the primary system and campaign finance that incentivize extreme candidates, the loss of institutional checks and balances in Congress, and the growing schism within the Republican Party between those rejecting Nazi-adjacent politics and those willing to accommodate far-right extremists. The conversation emphasizes that restoring democratic health requires both parties to move toward sanity simultaneously, as current incentive structures reward tribalism and institutional disloyalty.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claim about tariffs: Goldberg states that economists have been saying for '30 years, 50 years, 70 years' that Americans, not foreigners, pay tariffs. This reflects standard economic consensus but is worth verifying against current NASEM or National Academy perspectives on trade economics.</div>
+<div class="claim">Implicit claim about institutional norm-setting: Discussion of the 'presumption of regularity' in judicial proceedings and claims that federal judges (including conservative ones) have rescinded this presumption due to government dishonesty. This is a governance claim, not a scientific one, but relates to institutional functioning.</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Trump is running what political scientists sometimes call a personalist regime where the distinction between his personal aims and desires and the demands of state are completely blurred."</div>
+<div class="quote">"We live in a climate now where if one party is crazy, it gives permission to the other party to be crazy as well. And that's a vicious cycle."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Briefing chat: How hovering bumblebees keep their cool</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Feb 20 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sex differences in brain structure and functional connectivity</span>
+  <span class="topic-tag">fMRI neuroimaging of structural and functional brain connections</span>
+  <span class="topic-tag">Default mode network hyperconnectivity and depression</span>
+  <span class="topic-tag">Puberty-related brain development and sexual dimorphism</span>
+  <span class="topic-tag">Bumblebee thermoregulation during flight</span>
+  <span class="topic-tag">Bumblebee wing muscle mechanics and heat generation</span>
+  <span class="topic-tag">Neuroplasticity and environmental influences on brain development</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks" target="_blank">Incorporating Resilience into Transportation Networks</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states" target="_blank">Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis" target="_blank">Teaching K-12 Science and Engineering During a Crisis</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation</div>
+<div class="claim">Default mode network hyperconnectivity in females is linked to depression and anxiety disorders</div>
+<div class="claim">Males show stronger interhemispheric functional connections in the cerebellum with age</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"There's a lot of potential here that understanding exactly how our brains are different could lead to maybe better treatments because you kind of know what you're looking at a bit more rather than perhaps treating everyone the same."</div>
+<div class="quote">"Sex is just one part of why we have health disparities—with socioeconomic outcomes, sexual violence, and body shaming also contributing to brain changes"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Autism Rates Appear To Be Even Across Sexes. Diagnosis Is Not</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 21 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">A new Swedish epidemiological study challenges the long-held belief that autism is three times more common in boys than girls, finding instead that autism prevalence is roughly equal across sexes assigned at birth, but girls and women are diagnosed significantly later in life—often not until adolescence or adulthood. The research reveals that diagnostic criteria for autism were historically developed based on male presentations, leading to underdiagnosis in females who may mask or present autism differently. Researchers and clinicians discuss how delayed diagnoses profoundly affect people's lives, the need to update diagnostic criteria to be more neurodiversity-affirming, and the importance of recognizing autism as natural neurological variation rather than deficit.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sex differences in autism diagnosis and prevalence</span>
+  <span class="topic-tag">Autism masking/camouflaging behaviors in females</span>
+  <span class="topic-tag">Age of autism diagnosis across birth cohorts</span>
+  <span class="topic-tag">Diagnostic criteria for autism spectrum disorder</span>
+  <span class="topic-tag">Behavioral presentation differences between autistic boys and girls</span>
+  <span class="topic-tag">Epidemiology of autism spectrum disorder in Swedish population</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism" target="_blank">Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans" target="_blank">Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism" target="_blank">Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25531/criteria-for-selecting-the-leading-health-indicators-for-healthy-people-2030" target="_blank">Criteria for Selecting the Leading Health Indicators for Healthy People 2030</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26880/strengthening-equitable-community-resilience-criteria-and-guiding-principles-for-the" target="_blank">Strengthening Equitable Community Resilience: Criteria and Guiding Principles for the Gulf Research Program's Enhancing Community Resilience (EnCoRe) Initiative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization" target="_blank">Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on" target="_blank">Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">CDC reports autism is three times more common in boys than girls—study suggests this reflects diagnostic bias rather than true prevalence difference</div>
+<div class="claim">Swedish cohort study (1985-2022) found autism prevalence roughly equal by sex assigned at birth, with female-assigned individuals diagnosed later</div>
+<div class="claim">Average diagnosis age: 10-14 years for boys, 15-19 years for girls; by age 20, diagnosis rates reach 1:1 ratio</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The prevalence of autism is actually pretty even across the sexes, but people with female stamped on their birth certificate are often diagnosed later in life."</div>
+<div class="quote">"I grew up believing that there was fundamentally something deeply bad and rotten about myself... Getting a diagnosis is like vindication. It's like a verdict of not guilty."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The noise that isn't there</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 21 &middot; 21 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores tinnitus, a condition affecting approximately 15% of adults where people perceive phantom sounds like ringing or buzzing in their ears despite no external sound source. The episode explains how tinnitus arises from the brain's compensatory response to hearing damage, particularly to specialized nerve fibers that process loud sounds. Researchers at Mass Eye and Ear have discovered 'hidden hearing loss'—damage that standard hearing tests cannot detect—and are developing new diagnostic approaches and treatments like cognitive behavioral therapy that target broader brain networks affected by severe tinnitus.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Tinnitus (chronic phantom auditory perception)</span>
+  <span class="topic-tag">Hidden hearing loss (damage to high-frequency auditory nerve fibers)</span>
+  <span class="topic-tag">Auditory nerve fiber function and types</span>
+  <span class="topic-tag">Brain hyperactivity and compensatory mechanisms in hearing loss</span>
+  <span class="topic-tag">Phantom limb pain analogy in tinnitus pathophysiology</span>
+  <span class="topic-tag">Cognitive behavioral therapy for tinnitus management</span>
+  <span class="topic-tag">Mindfulness therapy for tinnitus</span>
+  <span class="topic-tag">Temporal bone audiology and hearing test limitations</span>
+  <span class="topic-tag">Limbic system involvement in severe tinnitus</span>
+  <span class="topic-tag">Executive function and tinnitus-related depression</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13272/living-well-with-chronic-illness-a-call-for-public-health" target="_blank">Living Well with Chronic Illness: A Call for Public Health Action</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23446/hearing-health-care-for-adults-priorities-for-improving-access-and" target="_blank">Hearing Health Care for Adults: Priorities for Improving Access and Affordability</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state" target="_blank">Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Almost 15% of all adults have tinnitus; 100 million people have severe tinnitus</div>
+<div class="claim">Standard audiological hearing tests are 'completely insensitive' to loss of loud-sound-coding nerve fibers</div>
+<div class="claim">Hidden hearing loss was 'only discovered a few years ago' by Mass Eye and Ear researchers</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The vast, vast, vast majority of patients are being told, there's nothing I can do for you, goodbye. I've seen some patients who are like borderline suicidal."</div>
+<div class="quote">"If tinnitus is the result of the hyperactivity of the brain because something is missing, then people with normal hearing tests should not have tinnitus... the gold standard of hearing evaluation around the world to this day is completely insensitive to the loss of those fibers."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">91 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">mRNA Vaccine Development (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing advances in mRNA vaccine technology, including combination flu-COVID vaccines and universal coronavirus vaccines with promising trial results.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Astronomy (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Significant coverage of NASA's Artemis II mission milestones, James Webb Space Telescope discoveries, and various astronomical observations and missions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Scientific Research Ethics and Integrity (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of research ethics concerns including fabricated data, misinformation in science communication, and controversial vaccine trials.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Paleontology and Evolutionary Biology (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering fossil discoveries, hominin migration patterns, conodonts, and species classification with new genetic insights.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental Science and Conservation (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of wildlife restoration efforts, species recovery including Galápagos tortoises, mangrove restoration challenges, and fracking health impacts.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">467 likes &middot; 141 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">More good news on vaccines 
+
+A two-in-one mRNA vaccine developed by Moderna targets seasonal influenza & COVID-19. It produced robust and durable immune responses w/o safety concerns in a small mid-stage trial. 
+
+mRNA is the future. We can’t afford to lose it.
+
+🧪 www.reuters.com/business/hea...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfdlykuf6c24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">447 likes &middot; 159 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">Holy fuck! 🧪
+
+www.science.org/doi/10.1126/...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mfcrwhkpmk2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@greenleejw.bsky.social</div>
+  <div class="bluesky-stats">137 likes &middot; 26 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">It's Friday. You want to talk about sex, right? Snake and eel sex?
+
+'Cause medieval people thought that was maybe a thing.
+
+Many medieval bestiaries tell how male vipers go to the beach at night & hiss to summon female sea eels for trysts on the sand.
+
+Booty call for Ms. Eel? 1/4
+🗃️🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/greenleejw.bsky.social/post/3mfcmuij3bs2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">125 likes &middot; 37 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Really nice essay by @cosmolooney.bsky.social about the importance of pursuing scientific ideas that turn out to be wrong:
+
+"This is not a reason for despair; being wrong is not the same as failing."
+
+🧪🔭⚛️ #cosmology
+www.firstprinciples.org/article/some...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mfcnzxi3gc2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">100 likes &middot; 27 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Exciting! Stanford researchers have developed a UNIVERSAL INTRANASAL vaccine. A study in mouse models shows that vaccinated mice were protected against Covid  & other coronaviruses. Still a long way to humans. This study was #NIH funded. 
+
+A potential game changer.
+🧪 med.stanford.edu/news/all-new...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfdkj7o4ms24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>mRNA Vaccine Technology and Public Health</strong>: NASEM conducts studies on vaccine development, public health preparedness, and emerging infectious disease response; relevant to vaccine safety and efficacy assessment</div>
+<div class="nasem-match"><strong>Research Integrity and Scientific Misconduct</strong>: NASEM addresses research ethics, reproducibility, and integrity issues through its reports on research practices and institutional oversight mechanisms</div>
+<div class="nasem-match"><strong>Federal Science Funding and Support for Early Career Researchers</strong>: NASEM advocates for sustained NIH funding and support for next-generation scientists; concerns about attacks on research funding directly align with NASEM's mission</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 21, 2026 at 11:28 AM | Internal use only
+    </div>
+</body>
+</html>
