@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 22, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 22, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">14</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">94</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing highlights convergence on agricultural biotechnology, data preservation, and research ethics. Banana disease resistance research featuring both conventional breeding and GMO approaches dominated podcast discussion, with hosts debating regulatory pathways for crop resilience. Microsoft's glass-based data storage technology received renewed attention across sources. Bluesky data reveals significant concern about research integrity violations and IRB compliance issues within federal health agencies—a critical pattern emerging alongside broader science communication challenges. Climate and space exploration topics remain steady background concerns, while wildlife conservation and vaccine safety discussions continue from previous days' momentum.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Tropical Race 4 fungal disease resistance in bananas—genetic mapping, CRISPR, and GMO deployment pathways</li>
+<li>Long-term data storage innovation (Microsoft Silica glass technology with femtosecond laser encoding)</li>
+<li>Research integrity and IRB violations in federal health agencies</li>
+<li>Vaccine safety and efficacy literature synthesis</li>
+<li>Sex-differentiated outcomes in disease diagnosis and brain structure (autism, depression, neuroimaging)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Research misconduct allegations targeting federal health agencies—escalating from general ethics discussions to specific IRB violations (NEW, HIGH PRIORITY)</li>
+<li>Comparative approaches to crop disease resistance: GMO vs. marker-assisted selection debate gaining policy traction</li>
+<li>Data archival as climate/preservation strategy—glass storage technology positioning as solution for long-term information security</li>
+<li>Sex-based diagnostic disparities in autism and neurological conditions (ONGOING, BROADENING)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment of IRB oversight mechanisms and federal health agency compliance—address misconduct allegations with credible independent review</div>
+<div class="opportunity">Develop consensus report on regulatory frameworks for genetically modified crops addressing disease resistance; position NASEM as neutral arbiter between breeding and CRISPR approaches</div>
+<div class="opportunity">Host convening on data preservation standards for climate research and critical infrastructure—leverage glass storage technology expertise</div>
+<div class="opportunity">Establish standing committee on sex/gender differences in disease diagnosis and treatment to standardize best practices across medical fields</div>
+<div class="opportunity">Produce guidance on science communication best practices for public engagement on sensitive topics (vaccines, mental health, UAPs)</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">High-altitude living significantly reduces diabetes risk—flagged as potentially fictional by Skeptics' Guide hosts; needs evidence clarification for public messaging</div>
+<div class="claim">Brain organoids learning via reinforcement learning—multiple hosts questioned feasibility; recommend NASEM clarity on current state of organoid cognition research</div>
+<div class="claim">GMO Cavendish banana with 98% Tropical Race 4 resistance approved in Australia 2024—verify regulatory status and efficacy claims; conflation of breeding vs. GMO pathways creates public confusion</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender Differences in Neurobiology and Health Diagnosis</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Nature Podcast, and Short Wave are converging on how biological sex differences manifest across multiple physiological systems—from brain structure and functional connectivity to autism diagnostic disparities. Science Friday highlighted how females mask autism symptoms, leading to diagnostic delays, while Nature Podcast documented sexual dimorphism in brain development during puberty and depression-linked hyperconnectivity patterns. This reflects a broader recognition that medical research has historically overlooked or mischaracterized sex-differentiated presentations.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize guidance on sex-disaggregated data collection and analysis across clinical research, as current diagnostic and therapeutic frameworks may systematically underidentify or misdiagnose conditions in underrepresented sex populations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Vaccine Development, Safety, and Real-World Effectiveness Integration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and Unbiased Science are discussing vaccine pipelines across multiple pathogens—HPV, influenza, COVID-19, RSV, and mRNA-based flu vaccines—alongside rigorous safety and efficacy synthesis. The coverage shifts from pandemic-era emergency authorization narratives toward systematic review of long-term outcomes and pediatric-specific trial design. Unbiased Science's focus on pediatric thrombosis and anticoagulation in vaccine contexts suggests emerging emphasis on mechanistic understanding of rare adverse events.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can leverage this convergence to develop standardized frameworks for post-authorization vaccine safety surveillance and communicating rare adverse event data to diverse audiences without eroding public confidence.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Agricultural Resilience and Disease Management via Genetic Innovation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Skeptics' Guide to the Universe deep-dived into Tropical Race 4 fungal resistance in bananas, covering genetic mapping, marker-assisted selection, and CRISPR-based GMO development strategies. This episode reflects growing scientific consensus that addressing food security threats requires integrating classical breeding with cutting-edge genomics. The narrative centers on translating lab-based molecular insights into crop deployment and ecosystem resilience.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission an expert consensus report on the regulatory, economic, and environmental pathways for deploying gene-edited crops to address emerging pathogens—particularly for staple crops affecting global food security.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Mechanisms of Fatigue, Performance, and Reward Under Cognitive Stress</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave episodes (Feb 18, 20) are isolating distinct neural substrates for fatigue cognition—ventral striatum reward processing, motor cortex performance degradation, and nucleus accumbens signaling. Separately, Short Wave also covered intermittent fasting and GLP-1 drugs as weight-loss mechanisms. Together, these suggest emerging interest in how metabolic, neural, and behavioral systems interact under resource scarcity or physiological stress, with potential implications for athletic performance and metabolic health.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's health and medicine division should explore whether neuroscience insights on fatigue and reward circuitry can inform public health interventions for sedentary populations or clinical populations with comorbid depression and metabolic syndrome.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Early-Life Risk Stratification and Precision Screening Expansion</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win and Unbiased Science are highlighting pediatric and early-onset disease patterns—early-onset colorectal cancer epidemiology with adenoma progression timelines, and pediatric stroke pathophysiology. These shows frame emerging disease trajectories as requiring earlier screening, mechanistic biomarker discovery, and risk stratification. Science Will Win explicitly linked processed meat and low-fiber diets to colorectal adenoma risk, suggesting dietary intervention opportunities earlier in the disease course.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess evidence for expanding colorectal cancer screening to younger cohorts and evaluate whether lifestyle-based primary prevention (dietary intervention) or biomarker-driven secondary prevention could reduce disease burden in at-risk subpopulations.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026</span>
+</div>
+<div class="episode-meta">Dr. Steven Novella &middot; Feb 21</div>
+<p style="margin:10px 0;font-size:14px;">This episode of The Skeptics' Guide to the Universe covers several science and policy topics including banana disease resistance research using genetic mapping, pharmaceutical direct-to-consumer advertising policy, AI-controlled prosthetic limbs, Microsoft's glass data storage technology, UFO/UAP reporting statistics, and discussions of mental illness and culpability. The hosts discuss both scientific advances and policy implications, including debates about GMO vs. breeding approaches to disease-resistant crops and regulatory challenges around drug advertising.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Tropical Race 4 fungal resistance in wild banana varieties (Calcutta 4)</span>
+  <span class="topic-tag">Genetic mapping and marker-assisted selection in banana breeding</span>
+  <span class="topic-tag">CRISPR gene editing for disease resistance</span>
+  <span class="topic-tag">GMO Cavendish banana development</span>
+  <span class="topic-tag">AI-controlled prosthetic limbs and proprioceptive feedback</span>
+  <span class="topic-tag">Uncanny Valley and motor control perception</span>
+  <span class="topic-tag">Borosilicate glass data storage (Microsoft Silica project)</span>
+  <span class="topic-tag">Data archival using laser-written glass voxels</span>
+  <span class="topic-tag">Radar technology limitations in detecting balloons and UAPs</span>
+  <span class="topic-tag">Brain organoids and reinforcement learning</span>
+  <span class="topic-tag">High altitude effects on diabetes risk</span>
+  <span class="topic-tag">Animal behavior responses to human interaction</span>
+  <span class="topic-tag">Bipolar disorder and behavioral disinhibition</span>
+  <span class="topic-tag">Prosthetic limb movement speed and sense of ownership</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events" target="_blank">Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/1097/mapping-and-sequencing-the-human-genome" target="_blank">Mapping and Sequencing the Human Genome</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications" target="_blank">Quantitative Safety Analyses for Highway Applications</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Living at high altitude significantly reduces diabetes risk - flagged as potentially fictional by hosts</div>
+<div class="claim">Mouse-derived brain organoids can learn and remember tasks using reinforcement learning - flagged as questionable by multiple hosts</div>
+<div class="claim">GMO Cavendish banana resistant to Tropical Race 4 approved in Australia in 2024 with 98% resistance rate</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We are in an endless fight here... we will never win... This arms race is never going to end... Not with existing, any projection of existing technology."</div>
+<div class="quote">"The thing that I find a little annoying is that they've already freaking done it. You know, we already have a resistant banana. The whole purpose of this is to do one that isn't GMO for the anti-GMO idiots, right?"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">94 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Scientific Ethics and Research Integrity (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing IRB approval violations, vaccine safety concerns, and research misconduct allegations involving federal health agencies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Environmental Science (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering PHEV emissions data, AMOC monitoring, Antarctic Peninsula research, and various environmental monitoring studies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomy (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts about NASA's Artemis 2 delays, satellite re-entry pollution, galaxy dynamics, and astronomical observations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Wildlife Conservation and Biodiversity (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Content about endangered species including pangolins, tortoises, cleaner wrasse, and various insect populations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Communication and Public Engagement (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing science media strategy, medical animation, disaster warning communication, and science influencer content.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">306 likes &middot; 85 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Giant tortoises return to Galápagos island after nearly 200 years. 🧪 www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mffmoukuic2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@exceedhergrasp1.bsky.social</div>
+  <div class="bluesky-stats">256 likes &middot; 128 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">In desperation to generate support for changing the US vaccine schedule, CDC appointees allied with Kennedy circumvented scientific & ethical safeguards to 'experiment' with Hep B vaccination in West Africa.
+
+The Crimes Against Humanity administration. 🧪
+
+www.rollingstone.com/politics/pol...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/exceedhergrasp1.bsky.social/post/3mfesrfebd22n" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">142 likes &middot; 99 reposts &middot; 10 replies</div>
+  <div class="bluesky-text"> An important read for EVERYONE
+Why ethics in science is of great importance
+
+IRB (Internal Review Board) approval is REQUIRED for any U.S. research involving animals/humans. 
+Guess what: there was no real approval. And no compliance
+
+This is corruption.
+ 🧪 www.rollingstone.com/politics/pol...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mffakhupzc2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">127 likes &middot; 66 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">The exodus of next generation scientists is exacerbated by deep cuts to #NIH training programs meant to support early career scientists.
+
+Last year, half of the US Nobel prize winners in science subjects were immigrants.
+
+Who would want to come here?
+
+🧪 www.theguardian.com/us-news/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mffscmwckc2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@minouette.bsky.social</div>
+  <div class="bluesky-stats">118 likes &middot; 48 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">The 3rd Saturday in February is World Pangolin Day to draw attention to the plight of the world’s most trafficked animals, these magnificent scaly mammals. 🧪🐡 There 8 species of #pangolin in Africa and Asia, all endangered, threatened by poachers for their meat & scales (used in traditional 🧵</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/minouette.bsky.social/post/3mfeoqb46ks2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Integrity and Ethics</strong>: Posts alleging IRB violations and circumvented safety protocols directly relate to NASEM's work on research integrity standards, particularly regarding human subjects protection and vaccine safety oversight.</div>
+<div class="nasem-match"><strong>Scientific Workforce Development</strong>: Discussion of NIH training program cuts and early-career scientist exodus relates to NASEM's assessments of STEM workforce trends and recommendations for sustaining scientific capacity.</div>
+<div class="nasem-match"><strong>Space Safety and Environmental Impact</strong>: Posts on SpaceX Falcon 9 lithium pollution and satellite re-entry debris relate to NASEM's work on space sustainability, orbital debris mitigation, and environmental monitoring.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 22, 2026 at 11:27 AM | Internal use only
+    </div>
+</body>
+</html>

@@ -1,0 +1,465 @@
+{
+  "podcast_id": "skeptics-guide",
+  "podcast_name": "The Skeptics' Guide to the Universe",
+  "episode_title": "The Skeptics Guide #1076 - Feb 21 2026",
+  "host": "Dr. Steven Novella",
+  "published": "2026-02-21T14:00:00",
+  "duration_minutes": null,
+  "influence_tier": "medium",
+  "category": "science_communication",
+  "summary": "This episode of The Skeptics' Guide to the Universe covers several science and policy topics including banana disease resistance research using genetic mapping, pharmaceutical direct-to-consumer advertising policy, AI-controlled prosthetic limbs, Microsoft's glass data storage technology, UFO/UAP reporting statistics, and discussions of mental illness and culpability. The hosts discuss both scientific advances and policy implications, including debates about GMO vs. breeding approaches to disease-resistant crops and regulatory challenges around drug advertising.",
+  "science_topics": [
+    "Tropical Race 4 fungal resistance in wild banana varieties (Calcutta 4)",
+    "Genetic mapping and marker-assisted selection in banana breeding",
+    "CRISPR gene editing for disease resistance",
+    "GMO Cavendish banana development",
+    "AI-controlled prosthetic limbs and proprioceptive feedback",
+    "Uncanny Valley and motor control perception",
+    "Borosilicate glass data storage (Microsoft Silica project)",
+    "Data archival using laser-written glass voxels",
+    "Radar technology limitations in detecting balloons and UAPs",
+    "Brain organoids and reinforcement learning",
+    "High altitude effects on diabetes risk",
+    "Animal behavior responses to human interaction",
+    "Bipolar disorder and behavioral disinhibition",
+    "Prosthetic limb movement speed and sense of ownership"
+  ],
+  "claims_to_note": [
+    "Living at high altitude significantly reduces diabetes risk - flagged as potentially fictional by hosts",
+    "Mouse-derived brain organoids can learn and remember tasks using reinforcement learning - flagged as questionable by multiple hosts",
+    "GMO Cavendish banana resistant to Tropical Race 4 approved in Australia in 2024 with 98% resistance rate",
+    "77% of UAP reports from AARO (May 2023-June 2024) were identified as balloons; total 757 reports over 13 months",
+    "Only 2% of resolved UAP cases were commercial aircraft, 4% satellites, 8% birds, 16% drones",
+    "Zero evidence of extraterrestrial activity or breakthrough technologies in resolved UAP cases",
+    "Direct-to-consumer drug advertising increases both drug utilization and healthcare costs",
+    "Marker-assisted selection can reduce banana breeding development time from 12 months to immediate screening"
+  ],
+  "policy_relevance": [
+    "FDA/regulatory approval of GMO Cavendish banana in Australia (2024)",
+    "Multiple approaches to banana disease resistance: GMO (approved), CRISPR (emerging), and traditional breeding (in progress)",
+    "Direct-to-consumer pharmaceutical advertising policy debates - American Medical Association calls for ban",
+    "Medicare Part D (2003) correlated with significant increase in pharmaceutical advertising",
+    "Trump administration pushing for restrictions on drug advertising",
+    "Bernie Sanders et al. introduced bipartisan bill to restrict/ban direct-to-consumer drug advertising",
+    "Citizens United Supreme Court decision constrains ability to ban pharmaceutical advertising as free speech issue",
+    "AARO (All Domain Anomaly Resolution Office) established 2022 to investigate UAPs - reports to Congress",
+    "NORAD protocols for scrambling fighter jets to investigate unidentified radar tracks"
+  ],
+  "key_quotes": [
+    "We are in an endless fight here... we will never win... This arms race is never going to end... Not with existing, any projection of existing technology.",
+    "The thing that I find a little annoying is that they've already freaking done it. You know, we already have a resistant banana. The whole purpose of this is to do one that isn't GMO for the anti-GMO idiots, right?",
+    "Just going to the Olympics, just going, to me, it would be a major, major win. I wouldn't even need to do anything else, not even come close to medaling, come in last place. I was at the Olympics. I was good enough to go to the Olympics."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Tropical Race 4 fungal resistance in wild banana varieties (Calcutta 4)",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "27933",
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Atypical weather events, such as extreme tropical cyclones, pose substantial threats to life, property and livelihoods in the U.S. and worldwide. Despite major advances in forecasting capabilities, communicating about extreme weather events with decision-makers and the public carries considerable challenges but also provides opportunities for innovation. Decisions surrounding extreme weather events often involve making tradeoffs between different degrees and varieties of risks. For example, deciding whether or when to issue an evacuation order ahead of a tropical cyclone entails tradeoffs between the risks to lives posed by the event and the risks to livelihoods posed by the financial costs of evacuations or relocations. In early 2024, the National Academies held a workshop on risk communication around extreme tropical cyclones and other atypical climate events. Participants aimed to identify opportunities and challenges for risk communication as well as lessons about community engagem",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Environmental Change and Society",
+          "keywords": [
+            "nature",
+            "tropical cyclone entails tradeoffs",
+            "public carries considerable challenges",
+            "extreme weather events",
+            "atypical weather events",
+            "atypical climate events",
+            "forecasting capabilities communicating",
+            "example deciding whether",
+            "despite major advances",
+            "evacuation order ahead",
+            "risk communication",
+            "advancing risk communication",
+            "extreme tropical cyclones",
+            "decision makers"
+          ]
+        },
+        {
+          "id": "26428",
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "early childhood education",
+            "special education",
+            "education programs",
+            "improve academic achievement",
+            "educational opportunities",
+            "federal government",
+            "evaluation statistics",
+            "expanding fundamental",
+            "esra authorizing",
+            "support learning",
+            "equity oriented science",
+            "advancing",
+            "ies"
+          ],
+          "description": "In 2002 Congress passed the Education Sciences Reform Act of 2002 (ESRA), authorizing the creation of the Institute of Education Sciences (IES) as the research, evaluation, statistics, and assessment arm of the Department of Education, and crystallizing the federal government's commitment to providing national leadership in expanding fundamental knowledge and understanding of education from early childhood through postsecondary study. IES shares information on the condition and progress of education in the United States, including early childhood education and special education; educational practices that support learning and improve academic achievement and access to educational opportunities for all students; and the effectiveness of federal and other education programs. In response to a request from the Institute of Education Sciences, this report provides guidance on the future of education research at the National Center for Education Research and the National Center for Special E",
+          "year": 2022,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Genetic mapping and marker-assisted selection in banana breeding",
+      "publications": [
+        {
+          "id": "1097",
+          "title": "Mapping and Sequencing the Human Genome",
+          "url": "https://nap.nationalacademies.org/catalog/1097/mapping-and-sequencing-the-human-genome",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "highly readable explanation",
+            "recommend specific interim",
+            "far reaching consequences",
+            "social questions",
+            "genetic mapping",
+            "monumental project",
+            "human genome",
+            "legal social",
+            "ethical questions",
+            "proposed project",
+            "sequencing",
+            "mapping"
+          ],
+          "description": "There is growing enthusiasm in the scientific community about the prospect of mapping and sequencing the human genome, a monumental project that will have far-reaching consequences for medicine, biology, technology, and other fields. But how will such an effort be organized and funded? How will we develop the new technologies that are needed? What new legal, social, and ethical questions will be raised? Mapping and Sequencing the Human Genome is a blueprint for this proposed project. The authors offer a highly readable explanation of the technical aspects of genetic mapping and sequencing, and they recommend specific interim and long-range research goals, organizational strategies, and funding levels. They also outline some of the legal and social questions that might arise and urge their early consideration by policymakers.",
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on Mapping and Sequencing the Human Genome"
+        },
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CRISPR gene editing for disease resistance",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "21891",
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "keywords": [
+            "pandemic",
+            "infectious disease",
+            "outbreak",
+            "epidemic",
+            "preparedness",
+            "global health"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "GMO Cavendish banana development",
+      "publications": [
+        {
+          "id": "27732",
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "carbon utilization infrastructure markets",
+            "eliminate net carbon emissions",
+            "aviation fuel chemicals plastics",
+            "reversing climate change focus",
+            "carbon dioxide released",
+            "contribute additional emissions",
+            "fossil emitting processes",
+            "fossil fuel combustion",
+            "greenhouse gas emissions",
+            "systems carbon",
+            "development",
+            "final"
+          ],
+          "description": "National and international plans for halting and reversing climate change focus on reducing and eventually ending the largest source of greenhouse gas emissions: carbon dioxide (CO2) released by fossil fuel combustion. However, as the nation moves towards replacing many fossil CO2-emitting processes with zero- or low-carbon-emission alternatives, special attention is needed to eliminate net carbon emissions from the systems that cannot be fully \"decarbonized\", such as the production of aviation fuel, chemicals, plastics, and construction materials. For these systems, carbon will need to be managed and utilized effectively, in a way that either prevents CO2 from entering the atmosphere or reuses it through circular processes that do not contribute additional emissions. Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report is the second report of a two-part study. The study's first report assessed the state of infrastructure for CO2 transportation, use,",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "28851",
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "highway research",
+            "traffic safety document analogous",
+            "quantitative safety analyses",
+            "highway capacity manual",
+            "highway applications",
+            "trb conference session",
+            "cooperative highway",
+            "traffic operations",
+            "process undertaken",
+            "program describes",
+            "development"
+          ],
+          "description": "\"Development of the AASHTO Highway Safety Manual began from a TRB conference session and a workshop, both held in 1999, that identified the need for a traffic safety document analogous to the role of the Highway Capacity Manual for traffic operations. NCHRP Research Report 1140: Quantitative Safety Analyses for Highway Applications, from TRB's National Cooperative Highway Research Program, describes a multiyear research process undertaken to improve the state of the practice for quantitative safety analyses for highway applications.\" --",
+          "year": 2025,
+          "page_keywords": [
+            "Highway research"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI-controlled prosthetic limbs and proprioceptive feedback",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 13139,
+  "saved_at": "2026-02-22T11:27:18.208619"
+}
