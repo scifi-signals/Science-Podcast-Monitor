@@ -1,7 +1,316 @@
 {
-  "updated": "2026-02-22T11:27:55.592348",
-  "episode_count": 22,
+  "updated": "2026-02-23T11:48:08.399843",
+  "episode_count": 25,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Why Aren’t There Biomarkers For Mental Illness?",
+      "host": "Ira Flatow",
+      "published": "2026-02-23T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Despite advances in understanding mental illness biology, no blood test or brain scan can definitively diagnose depression, anxiety, PTSD, or other psychiatric disorders. The upcoming DSM revision will include biomarkers, but Dr. John Crystal from Yale explains that current biomarker research is largely aspirational rather than clinically ready. The challenge stems from the brain's complexity, genetic heterogeneity (e.g., ~450 common genetic variants contribute to schizophrenia risk), and overlapping symptoms across conditions, with the field working toward precision psychiatry analogous to modern cancer diagnosis.",
+      "science_topics": [
+        "Biomarkers for psychiatric disorders (depression, anxiety, PTSD)",
+        "Schizophrenia genetics and rare mutations",
+        "Post-traumatic stress disorder molecular signatures",
+        "Alzheimer's disease PET imaging and biomarkers",
+        "Functional magnetic resonance imaging (fMRI) for psychiatric diagnosis",
+        "Brain tissue molecular analysis and cellular signatures",
+        "Polygenic risk factors in mental illness",
+        "Precision medicine in psychiatry"
+      ],
+      "claims_to_note": [
+        "DSM-5 has ~270 different ways to meet criteria for major depression — verify against current DSM-5 documentation",
+        "3-5% of schizophrenia cases involve rare mutations with 50-100 fold increased vulnerability — cross-reference with recent genetic epidemiology studies",
+        "Approximately 450 common genetic variants contribute to schizophrenia risk — verify against latest GWAS meta-analyses",
+        "Molecular signatures of depression in PTSD overlap but differ in important ways — verify against cited brain tissue studies",
+        "Alzheimer's disease PET scans reliably identify biomarkers and there are now treatments to slow memory decline — verify against current FDA-approved Alzheimer's therapeutics and imaging standards"
+      ],
+      "policy_relevance": [
+        "Diagnostic and Statistical Manual of Mental Disorders (DSM) revision process and incorporation of biomarkers",
+        "American Psychiatric Association's anticipatory framework for future biomarker integration into diagnostic scheme",
+        "Clinical implementation challenges for biomarker-based psychiatric diagnosis in standard medical practice"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies"
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Treatment for Posttraumatic Stress Disorder in Military and Veteran Populations: Final Assessment",
+          "url": "https://nap.nationalacademies.org/catalog/18724/treatment-for-posttraumatic-stress-disorder-in-military-and-veteran-populations"
+        },
+        {
+          "title": "Letter Report on Review of Department of Veterans Affairs Monograph on Potential Therapeutic Effects of Service and Emotional Support Dogs on Veterans with Post Traumatic Stress Disorder",
+          "url": "https://nap.nationalacademies.org/catalog/26039/letter-report-on-review-of-department-of-veterans-affairs-monograph-on-potential-therapeutic-effects-of-service-and-emotional-support-dogs-on-veterans-with-post-traumatic-stress-disorder"
+        },
+        {
+          "title": "Traumatic Brain Injury: A Roadmap for Accelerating Progress",
+          "url": "https://nap.nationalacademies.org/catalog/25394/traumatic-brain-injury-a-roadmap-for-accelerating-progress"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray",
+      "host": "Andrew Huberman",
+      "published": "2026-02-23T09:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Dr. Tony Wyss-Coray discusses his research on blood-derived factors that can rejuvenate aging brains and bodies. The episode focuses on parabiosis experiments showing that young blood can reverse aging markers in old mice, including improving memory and reducing inflammation. Wyss-Coray describes translating these findings toward human clinical trials using plasma fractions and discusses the identification of specific proteins (like clusterin and GDF11) that may mediate these rejuvenating effects. The conversation also addresses lifestyle factors like exercise, sleep, diet, and cognitive engagement as evidence-based approaches to maintaining vitality and longevity.",
+      "science_topics": [
+        "Parabiosis experiments and heterochronic blood exchange",
+        "Young blood plasma factors and aging reversal",
+        "Epigenetic clocks for measuring biological aging",
+        "Therapeutic plasma exchange (TPE)",
+        "Clusterin (apolipoprotein J) as rejuvenating factor",
+        "GDF11 (growth and differentiation factor 11)",
+        "Exercise-derived blood factors and brain benefits",
+        "Glymphatic clearance and cerebrospinal fluid composition",
+        "Synaptic proteins as predictors of cognitive decline",
+        "Cellular aging assessment via proteomics",
+        "Muscle cell aging in amyotrophic lateral sclerosis (ALS)",
+        "Astrocyte aging and Alzheimer's disease risk",
+        "NAD/NMN supplementation and longevity",
+        "Caloric restriction and intermittent fasting effects",
+        "Sleep and brain clearance mechanisms",
+        "Organ-specific aging rates and trajectories",
+        "High-intensity versus endurance exercise effects",
+        "Platelet-rich plasma (PRP) and growth factors",
+        "Exosomes as delivery vehicles for cellular communication",
+        "Anterior cingulate cortex growth in response to challenging exercise"
+      ],
+      "claims_to_note": [
+        "Young blood infusions improved memory function and reactivated stem cells in mouse brains - animal studies only, human translation still pending",
+        "Therapeutic plasma exchange in 500 Alzheimer's patients showed 'clear significant benefits' - needs verification of specific effect sizes and long-term outcomes",
+        "A small trial (40 individuals) from Circulate Therapeutics showed some organs looked younger on epigenetic clocks after plasma exchange - modest effects, not dramatic",
+        "There is no human intervention that can extend lifespan that has been tested or validated - contradicts some popular claims about longevity interventions",
+        "NMN/NR supplements increase blood NAD levels but do not show effects on lifespan, frailty, or tangible outcomes in humans - important caveat about supplement efficacy",
+        "A researcher tested 10 preparations of NMN and found many do not contain what is on the label - quality control issue in supplement industry",
+        "Exercise in young mice transmits beneficial brain effects through blood factors - animal studies, human translation unclear",
+        "Clusterin from exercise-derived blood can mimic some rejuvenating effects when injected into mice - mechanism still not fully understood",
+        "Synaptic protein ratio in cerebrospinal fluid is strong predictor of cognitive resilience independent of Alzheimer's pathological markers - based on 3,000 individuals",
+        "Sprinters and high-jumpers show 5-8 year longevity advantage over marathoners - correlation not causation, confounding lifestyle factors",
+        "Astrocyte aging is much stronger predictor of Alzheimer's development than overall brain age - needs confirmation in larger cohorts",
+        "Individuals with ALS showed enrichment in extremely old skeletal muscle and heart muscle cells - cross-sectional and longitudinal findings need replication"
+      ],
+      "policy_relevance": [
+        "FDA approval status of platelet-rich plasma (PRP) for various medical applications",
+        "Clinical trial design and requirements for demonstrating safety and efficacy before FDA approval",
+        "Regulatory oversight of stem cell clinics operating outside U.S. (Mexico example cited) with lack of stringent regulations",
+        "Drug repurposing and off-label use of already FDA-approved medications for new indications",
+        "Therapeutic plasma exchange regulatory pathway and current clinical trial landscape",
+        "Supplement manufacturing and labeling standards - quality control issues not adequately regulated",
+        "Patent expiration and lack of pharmaceutical company incentive to investigate already-approved drugs for new indications",
+        "Need for precision medicine approaches in clinical trial design rather than 'all comers' approach",
+        "EveryCure non-profit model for identifying repurposed treatments for rare diseases",
+        "Public health communication strategy on sleep (Matt Walker/Why We Sleep impact)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "url": ""
+        },
+        {
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Scaling and Sustaining Pre-K-12 STEM Education Innovations: Systemic Challenges, Systemic Responses",
+          "url": "https://nap.nationalacademies.org/catalog/27950/scaling-and-sustaining-pre-k-12-stem-education-innovations-systemic"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The serious hunt for alien life",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-02-23T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the Search for Extraterrestrial Intelligence (SETI), a scientific effort spanning decades to detect signals from intelligent alien life. The discussion covers the history of SETI from the 1924 Mars listening experiment and Frank Drake's Project Ozma in 1960, to modern efforts using the Drake equation to estimate the likelihood of extraterrestrial civilizations. Astronomers note that current search efforts have only examined a small fraction of available data—roughly equivalent to a hot tub of water compared to the ocean—and are expanding beyond traditional radio signal analysis to include optical telescopes and other methods to search a much larger volume of space.",
+      "science_topics": [
+        "Search for Extraterrestrial Intelligence (SETI)",
+        "Drake equation for estimating probability of intelligent alien life",
+        "Exoplanet detection and prevalence (at least one rocky planet per star on average)",
+        "Radio astronomy and radio telescope observations",
+        "Optical astronomy methods applied to SETI",
+        "Astrobiology and habitability requirements for life",
+        "Signal pattern detection from space",
+        "Goldilocks zone (habitable zone) requirements for planets"
+      ],
+      "claims_to_note": [
+        "Every star roughly has at least one planet on average, with at least one rocky-type planet per star — this reflects current exoplanet survey findings",
+        "The universe is 13.8 billion years old — consistent with current cosmological estimates",
+        "Our sun is approximately 4.6 billion years old — consistent with solar system age estimates",
+        "SETI at Home recruited 3.8 million participants — specific historical claim about distributed computing project",
+        "As of ~2000, SETI had searched the equivalent of a pint glass of water compared to the ocean of possible search space — this is described as an illustrative analogy rather than a precise quantification"
+      ],
+      "policy_relevance": [
+        "SETI Institute operates as a nonprofit research organization conducting official search efforts",
+        "History of U.S. Army and Navy participation in early alien signal detection attempts (1924)",
+        "Role of federal funding and resources for radio telescope time and astronomical research supporting SETI work",
+        "Scientific collaboration between universities (University of Washington) and SETI Institute on research projects"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Report Series: Committee on Astronomy and Astrophysics: Small Explorer Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24808/report-series-committee-on-astronomy-and-astrophysics-small-explorer-missions"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Report Series: Committee on Astronomy and Astrophysics: Small Explorer Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24808/report-series-committee-on-astronomy-and-astrophysics-small-explorer-missions"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+          "url": "https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics"
+        }
+      ]
+    },
     {
       "podcast_id": "skeptics-guide",
       "podcast_name": "The Skeptics' Guide to the Universe",

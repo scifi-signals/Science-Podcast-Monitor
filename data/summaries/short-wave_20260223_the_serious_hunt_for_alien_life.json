@@ -1,0 +1,510 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "The serious hunt for alien life",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-02-23T08:00:00",
+  "duration_minutes": 12.216666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores the Search for Extraterrestrial Intelligence (SETI), a scientific effort spanning decades to detect signals from intelligent alien life. The discussion covers the history of SETI from the 1924 Mars listening experiment and Frank Drake's Project Ozma in 1960, to modern efforts using the Drake equation to estimate the likelihood of extraterrestrial civilizations. Astronomers note that current search efforts have only examined a small fraction of available data—roughly equivalent to a hot tub of water compared to the ocean—and are expanding beyond traditional radio signal analysis to include optical telescopes and other methods to search a much larger volume of space.",
+  "science_topics": [
+    "Search for Extraterrestrial Intelligence (SETI)",
+    "Drake equation for estimating probability of intelligent alien life",
+    "Exoplanet detection and prevalence (at least one rocky planet per star on average)",
+    "Radio astronomy and radio telescope observations",
+    "Optical astronomy methods applied to SETI",
+    "Astrobiology and habitability requirements for life",
+    "Signal pattern detection from space",
+    "Goldilocks zone (habitable zone) requirements for planets"
+  ],
+  "claims_to_note": [
+    "Every star roughly has at least one planet on average, with at least one rocky-type planet per star — this reflects current exoplanet survey findings",
+    "The universe is 13.8 billion years old — consistent with current cosmological estimates",
+    "Our sun is approximately 4.6 billion years old — consistent with solar system age estimates",
+    "SETI at Home recruited 3.8 million participants — specific historical claim about distributed computing project",
+    "As of ~2000, SETI had searched the equivalent of a pint glass of water compared to the ocean of possible search space — this is described as an illustrative analogy rather than a precise quantification"
+  ],
+  "policy_relevance": [
+    "SETI Institute operates as a nonprofit research organization conducting official search efforts",
+    "History of U.S. Army and Navy participation in early alien signal detection attempts (1924)",
+    "Role of federal funding and resources for radio telescope time and astronomical research supporting SETI work",
+    "Scientific collaboration between universities (University of Washington) and SETI Institute on research projects"
+  ],
+  "key_quotes": [
+    "If the thing we were looking for was the size of the ocean, so far, as of about 2000, we had looked at a pint glass of water compared to the volume of the ocean.",
+    "The Drake equation is the number of stars times the fraction of those stars that should have intelligent life, capable of sending us signals.",
+    "My estimate a couple of years ago was we've pushed that from a pint glass of water to maybe a hot tub. You know... that's massive progress, right? There's a lot of pint glasses in a hot tub."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Search for Extraterrestrial Intelligence (SETI)",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "27846",
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "keywords": [
+            "ocean",
+            "marine",
+            "sea",
+            "oceanography",
+            "coastal",
+            "marine science"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Drake equation for estimating probability of intelligent alien life",
+      "publications": [
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        },
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "exobiology",
+            "planetary science",
+            "decadal strategy",
+            "origins worlds",
+            "astrobiology",
+            "life"
+          ],
+          "year": 2023,
+          "page_keywords": [
+            "Exobiology"
+          ]
+        },
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Exoplanet detection and prevalence (at least one rocky planet per star on average)",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Radio astronomy and radio telescope observations",
+      "publications": [
+        {
+          "id": "24808",
+          "title": "Report Series: Committee on Astronomy and Astrophysics: Small Explorer Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24808/report-series-committee-on-astronomy-and-astrophysics-small-explorer-missions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sufficient compelling science motivations",
+            "astrophysics decadal survey",
+            "smex sized mission",
+            "astrophysics laid out",
+            "space science week",
+            "recommended activities",
+            "recommended priorities",
+            "smex announcement",
+            "astrophysics caa",
+            "exciting portfolio",
+            "small explorer missions",
+            "astrophysics",
+            "astronomy",
+            "series"
+          ],
+          "description": "The 2010 astronomy and astrophysics decadal survey, New Worlds, New Horizons in Astronomy and Astrophysics, laid out an exciting portfolio of recommended activities to guide the agencies' research programs over the period 2012-2021. The newly constituted Committee on Astronomy and Astrophysics (CAA) is tasked with monitoring the progress of the survey's recommended priorities. The CAA met in conjunction with Space Science Week 2017 in Washington, D.C., on March 28- 30, 2017. This was the first meeting at which the CAA could produce a report, and in advance of that meeting, the CAA received a question from NASA about an upcoming Small Explorer (SMEX) mission call. This report addresses whether there may or may not be sufficient compelling science motivations for a SMEX-sized mission to justify a SMEX Announcement of Opportunity (AO) in 2018 or 2019 (as is currently planned).",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Optical astronomy methods applied to SETI",
+      "publications": [
+        {
+          "id": "24808",
+          "title": "Report Series: Committee on Astronomy and Astrophysics: Small Explorer Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24808/report-series-committee-on-astronomy-and-astrophysics-small-explorer-missions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sufficient compelling science motivations",
+            "astrophysics decadal survey",
+            "smex sized mission",
+            "astrophysics laid out",
+            "space science week",
+            "recommended activities",
+            "recommended priorities",
+            "smex announcement",
+            "astrophysics caa",
+            "exciting portfolio",
+            "small explorer missions",
+            "astrophysics",
+            "astronomy",
+            "series"
+          ],
+          "description": "The 2010 astronomy and astrophysics decadal survey, New Worlds, New Horizons in Astronomy and Astrophysics, laid out an exciting portfolio of recommended activities to guide the agencies' research programs over the period 2012-2021. The newly constituted Committee on Astronomy and Astrophysics (CAA) is tasked with monitoring the progress of the survey's recommended priorities. The CAA met in conjunction with Space Science Week 2017 in Washington, D.C., on March 28- 30, 2017. This was the first meeting at which the CAA could produce a report, and in advance of that meeting, the CAA received a question from NASA about an upcoming Small Explorer (SMEX) mission call. This report addresses whether there may or may not be sufficient compelling science motivations for a SMEX-sized mission to justify a SMEX Announcement of Opportunity (AO) in 2018 or 2019 (as is currently planned).",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "12951",
+          "title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+          "url": "https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "astrophysics proposes enhancing innovative",
+            "technological development theory computation",
+            "data handling laboratory experiments",
+            "scientific opportunities infrastructure",
+            "changed dramatically during",
+            "contingent upon maintaining",
+            "physics chemistry biology",
+            "moderate cost programs",
+            "astrophysics outlines",
+            "international context",
+            "astrophysics",
+            "astronomy",
+            "horizons",
+            "worlds"
+          ],
+          "description": "Driven by discoveries, and enabled by leaps in technology and imagination, our understanding of the universe has changed dramatically during the course of the last few decades. The fields of astronomy and astrophysics are making new connections to physics, chemistry, biology, and computer science. Based on a broad and comprehensive survey of scientific opportunities, infrastructure, and organization in a national and international context, New Worlds, New Horizons in Astronomy and Astrophysics outlines a plan for ground- and space- based astronomy and astrophysics for the decade of the 2010's. Realizing these scientific opportunities is contingent upon maintaining and strengthening the foundations of the research enterprise including technological development, theory, computation and data handling, laboratory experiments, and human resources. New Worlds, New Horizons in Astronomy and Astrophysics proposes enhancing innovative but moderate-cost programs in space and on the ground that w",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 1661,
+  "saved_at": "2026-02-23T11:47:30.166305"
+}
