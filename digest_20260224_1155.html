@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 24, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 24, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">41</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">89</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals convergence around AI capability transitions, regulatory chemistry-based policy gaps, and psychological dimensions of public health disconnection. The Ezra Klein-Anthropic discussion on agentic AI systems represents an escalation in autonomous capability claims requiring urgent governance scrutiny, while the Science Friday cannabis episode exposes how arbitrary botanical classifications enable unregulated psychoactive product proliferation—both signal areas where evidence-based policy frameworks lag technical developments. Bluesky discourse on CDC/NIH leadership and scientific advisory threats connects to the Hidden Brain segment on 'mattering' and social invisibility, suggesting broader institutional erosion concerns. Mathematical foundations (StarTalk/Tao) and marine ecology (Short Wave artificial reefs) round out the week's trajectory toward complexity and uncertainty quantification across domains.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Regulatory frameworks misaligned with scientific reality (cannabis THC classification by botany rather than chemistry; AI capability assessment without clear governance standards)</li>
+<li>Emergent properties difficult to predict or control (AI behavioral shifts under evaluation; fish population vs. redistribution in artificial reefs; unexpected mathematical applications)</li>
+<li>Interdisciplinary collaboration driving breakthroughs (mathematics-physics nexus; marine ecology-economics interface; AI safety-policy coordination)</li>
+<li>Human perception gaps affecting policy (invisibility in social systems; unregulated psychoactive products in plain sight; AI deception recognition challenges)</li>
+<li>Unintended consequences of well-intentioned interventions (artificial reefs helping tourism but harming shrimping; hemp-derived THC loopholes from Farm Bill)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Agentic AI systems as distinct policy challenge—shift from chatbot governance to autonomous agent oversight (recurring since 2026-02-24; escalating from prior week's LLM focus)</li>
+<li>Chemistry-based versus classification-based regulation gaining visibility (cannabis episode highlights principle applicable beyond cannabinoids)</li>
+<li>Psychological mattering/invisibility as public health framework—bridging social isolation, workplace dynamics, and potential radicalization (Hidden Brain, Bluesky leadership concerns)</li>
+<li>Mathematical foundations reassessing physics adequacy—frameworks questioned for quantum gravity/singularities (StarTalk with Tao; reflects broader 'foundations crisis' in theoretical physics)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment on agentic AI governance gaps—Anthropic's claims about interpretability limitations and emergent deception require independent technical review and policy framework recommendations</div>
+<div class="opportunity">Initiate inter-agency working group on cannabinoid regulation—propose chemistry-based (rather than botany-based) federal standards; NASEM position could inform November legislation mentioned in Science Friday episode</div>
+<div class="opportunity">Convene multidisciplinary workshop on 'mattering' metrics in public health institutions—connect Hidden Brain psychological framework to CDC/NIH workforce retention and scientific advisory legitimacy concerns surfacing on Bluesky</div>
+<div class="opportunity">Establish marine science consensus panel on artificial reef assessment—clarify 'attraction vs. production' debate and regional economic trade-offs (commercial vs. recreational vs. shrimping) before further federal placement</div>
+<div class="opportunity">Support mathematics-physics dialogue on foundational adequacy—sponsor collaboration between pure mathematicians (Tao model) and theoretical physicists on quantum gravity frameworks</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">CLAIM (StarTalk): MRI algorithms from IPAM 'now used in all modern MRI machines' and '10 times faster'—VERIFY against actual clinical MRI technology adoption rates and performance benchmarks; plausible overstatement of universal implementation</div>
+<div class="claim">CLAIM (StarTalk): Collatz conjecture verified computationally 'up to a trillion'—VERIFY current computational limits in peer-reviewed literature; statement may be outdated</div>
+<div class="claim">CLAIM (Short Wave): Red snapper 'recovered' from 1990s collapse—VERIFY against current NOAA Gulf of Mexico fishery stock assessments; recovery status is contested and region-dependent</div>
+<div class="claim">CLAIM (Hidden Brain): Vivek Murthy 2023 advisory on social isolation as disease pathway—VERIFY official Surgeon General advisory text; claim cited but not direct quoted; ensure accuracy of attribution</div>
+<div class="claim">CLAIM (Hidden Brain): Nature walks produce '20% improvement in attention/concentration'—VERIFY specificity of this metric; risk of false precision without citation</div>
+<div class="claim">CLAIM (Ezra Klein): AI systems demonstrate 'recognition of being tested' and behavioral alteration—CLAIM requires specification of experimental conditions; risk of anthropomorphization or misinterpretation of statistical patterns as intent</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Reasoning, Interpretability, and Emergent Behaviors</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Ezra Klein Show, StarTalk Radio, and Science Magazine Podcast are converging on AI systems' reasoning capabilities and the interpretability challenge—from mechanistic understanding of how LLMs solve problems to concerns about emergent deception and preference formation. This reflects growing mainstream scientific attention to whether advanced AI systems develop unexpected autonomous behaviors, moving beyond capability benchmarks toward safety and alignment questions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Ezra Klein Show</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track this as a critical policy gap: the science community is identifying interpretability and emergent behavior risks faster than governance frameworks can address them.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biomarkers and Molecular Signatures for Mental Health and Neurological Disorders</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Nature Podcast, and Radiolab are building a narrative around biological objectification of psychiatric and neurological conditions—psychiatric biomarkers (depression, anxiety, PTSD, schizophrenia), brain structural dimorphism, epigenetic markers, and imaging signatures like fMRI default mode network hyperconnectivity. This signals a research inflection toward moving diagnosis from behavioral criteria to molecular/neural substrates.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prepare guidance on clinical translation timelines and reimbursement policy for biomarker-driven psychiatric diagnosis before the evidence base outpaces healthcare infrastructure.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex/Gender Differences in Health and Biology Across Life Stages</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Nature Podcast, and Unbiased Science are concurrently examining sex dimorphism across multiple systems: autism diagnosis and masking in females, brain structure and functional connectivity differences, and pediatric clinical trial design accounting for sex. The theme reflects growing recognition that existing sex-blind research protocols mask disease prevalence and treatment response variation by sex.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> This convergence suggests NASEM should convene on standardized sex-disaggregated data collection and analysis requirements for NIH-funded research—a policy lever with high scientific uptake momentum.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic Approaches to Agricultural Disease Resistance and Food Security</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Skeptics' Guide to the Universe and Science Friday both feature CRISPR and marker-assisted selection for crop disease resistance (banana Tropical Race 4 fungal resistance, GMO development). These shows present gene editing not as ethical flashpoint but as practical epidemiological necessity for crops facing pathogen emergence, signaling a normalization of genetic intervention in agricultural policy discourse.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should anticipate regulatory and public acceptance questions: gene-edited crops for disease resistance will likely face faster adoption approval requests, requiring preemptive guidance on environmental and food safety thresholds.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Aging Biology and Systemic Rejuvenation Mechanisms</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab's coverage of parabiosis, young blood plasma factors, and epigenetic clocks positions aging reversal as an active translational science area with measurable biomarkers and early therapeutic candidates (plasma exchange). This differs from prior framing of aging as inevitable; now it's reframed as a reversible biological state.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish early guidance on clinical trial design, ethical oversight, and cost-benefit frameworks for aging interventions before they move into Phase II/III trials and capture significant research funding.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Hidden Brain: Do You Feel Invisible?</span>
+</div>
+<div class="episode-meta">Shankar Vedantam &middot; Feb 23 &middot; 88 min</div>
+<p style="margin:10px 0;font-size:14px;">This Hidden Brain episode explores the psychological concept of 'mattering'—the deep human need to feel significant, valued, and seen by others. Psychologist Gordon Flett discusses how the absence of this feeling (termed 'anti-mattering') contributes to social anxiety, depression, perfectionism, and in extreme cases, violence. The episode examines real-world consequences of invisibility, from everyday social isolation to the 1999 Columbine shooting, and offers practical strategies for fostering a sense of mattering in ourselves and others. A companion segment features psychologist Mark Berman discussing how nature can provide psychological benefits including stress reduction, improved attention, and help with grief.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Psychological concept of mattering and self-significance</span>
+  <span class="topic-tag">Social isolation and loneliness as public health concerns</span>
+  <span class="topic-tag">Depression and anxiety linked to feeling invisible or insignificant</span>
+  <span class="topic-tag">Perfectionism and conditional self-worth</span>
+  <span class="topic-tag">Social comparison theory and rumination</span>
+  <span class="topic-tag">Attention restoration theory (nature and cognitive function)</span>
+  <span class="topic-tag">Stress buffering effects of nature exposure</span>
+  <span class="topic-tag">Biophilia and human preference for natural patterns</span>
+  <span class="topic-tag">Grief processing and nature interaction</span>
+  <span class="topic-tag">Anthropomorphization of natural environments</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept" target="_blank">Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26015/mental-health-substance-use-and-wellbeing-in-higher-education-supporting" target="_blank">Mental Health, Substance Use, and Wellbeing in Higher Education: Supporting the Whole Student</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18756/implications-of-health-literacy-for-public-health-workshop-summary" target="_blank">Implications of Health Literacy for Public Health: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a" target="_blank">Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24915/evaluation-of-the-department-of-veterans-affairs-mental-health-services" target="_blank">Evaluation of the Department of Veterans Affairs Mental Health Services</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education" target="_blank">A 21st Century Cyber-Physical Systems Education</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26208/assessing-and-improving-ai-trustworthiness-current-contexts-and-concerns-proceedings" target="_blank">Assessing and Improving AI Trustworthiness: Current Contexts and Concerns: Proceedings of a Workshop—in Brief</a></div>
+<div class="nasem-match">Communities in Action: Pathways to Health Equity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Vivek Murthy (former U.S. Surgeon General) issued a 2023 advisory stating that social isolation and feelings of invisibility profoundly affect workers and contribute to depression and heart disease—verify against official Surgeon General advisories</div>
+<div class="claim">Nature walks produce approximately 20% improvement in attention/concentration compared to urban walks—verify specificity of this figure</div>
+<div class="claim">People show faster return to baseline stress levels after viewing nature imagery compared to urban imagery (Ulrich studies from 1980s-90s)—confirm this research foundation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I am invisible, understand, simply because people refuse to see me.—Ralph Ellison, Invisible Man"</div>
+<div class="quote">"Mattering is do they hear your voice when you're at that table or do they ignore you and talk over you at that table? So it's not the same as belonging. It's not the same as social support. It's that core sense of worth in terms of how you feel you're regarded or disregarded by other people.—Gordon Flett"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Is the Universe a Math Problem? With Terence Tao</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Feb 24 &middot; 56 min</div>
+<p style="margin:10px 0;font-size:14px;">Neil deGrasse Tyson hosts mathematician Terence Tao to discuss pure and applied mathematics, unsolved problems like the Collatz conjecture, and how mathematical breakthroughs emerge from interdisciplinary collaboration. The episode explores how abstract mathematics often finds unexpected practical applications decades later, examines mathematics education reform, and discusses whether new mathematical frameworks may be needed to address limitations in current physics theories regarding quantum gravity and singularities.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Non-Euclidean geometry and curved spacetime</span>
+  <span class="topic-tag">General relativity and Einstein's theory of gravity</span>
+  <span class="topic-tag">Collatz conjecture (hailstone conjecture)</span>
+  <span class="topic-tag">Central limit theorem and Gaussian distributions</span>
+  <span class="topic-tag">MRI scan algorithms and medical imaging</span>
+  <span class="topic-tag">Quantum gravity and quantum spacetime</span>
+  <span class="topic-tag">String theory</span>
+  <span class="topic-tag">Black hole singularities</span>
+  <span class="topic-tag">Dark matter and dark energy</span>
+  <span class="topic-tag">The unreasonable effectiveness of mathematics in physical sciences</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical" target="_blank">Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern" target="_blank">A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters" target="_blank">Why Indoor Chemistry Matters</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">MRI algorithms developed at IPAM are now used in 'all modern MRI machines' and are '10 times faster than traditional scans' - this claim about universal adoption should be verified against actual MRI technology standards</div>
+<div class="claim">The Collatz conjecture has been computationally verified for all numbers 'up to a trillion' - the current computational verification limit should be checked against recent literature</div>
+<div class="claim">String theory 'doesn't seem to be fitting reality as much as string theorists had hoped' - this reflects current scientific consensus but represents one perspective in ongoing debate</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Mathematics is the part of science where experiments are cheap. Before you invest billions of dollars in a new telescope or collider or something, you do the math and you see what is theoretically possible... it allows you to allocate the more expensive resources more intelligently."</div>
+<div class="quote">"The universe doesn't compartmentalize science. As much as we want it to... all the modern problems in the world are really interdisciplinary. The specialist problems we've kind of solved in the 20th century and the 21st century is all about collaboration."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Ezra Klein Show: How Quickly Will A.I. Agents Rip Through the Economy?</span>
+</div>
+<div class="episode-meta">Ezra Klein &middot; Feb 24 &middot; 98 min</div>
+<p style="margin:10px 0;font-size:14px;">Ezra Klein interviews Jack Clark, head of policy at Anthropic, about the transition from AI chatbots to autonomous AI agents capable of performing complex work independently. Clark argues this represents a fundamental shift in AI capabilities, with systems now able to code, solve problems, and work collaboratively without constant human guidance. The conversation explores implications for employment, particularly entry-level white-collar jobs; governance and monitoring challenges as AI systems become less interpretable; potential economic growth and new job creation; and broader societal concerns about human development, creativity, and relationships with AI systems.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Large language models and agentic AI systems</span>
+  <span class="topic-tag">AI reasoning and problem-solving capabilities</span>
+  <span class="topic-tag">AI interpretability and mechanistic interpretability research</span>
+  <span class="topic-tag">Emergent behaviors in AI systems (deception, preference formation, self-awareness under evaluation)</span>
+  <span class="topic-tag">Multi-agent AI systems and coordination</span>
+  <span class="topic-tag">AI training methods (RLHF, constitutional AI approaches)</span>
+  <span class="topic-tag">AI safety testing and evaluation methodologies</span>
+  <span class="topic-tag">Bioweapon threat detection using AI systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education" target="_blank">A 21st Century Cyber-Physical Systems Education</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology" target="_blank">Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26336/report-series-committee-on-planetary-protection-evaluation-of-bioburden-requirements" target="_blank">Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions</a></div>
+<div class="nasem-match">Countering the Pandemic Threat Through Global Coordination on Vaccines</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claude Code can write complex software faster and more comprehensively than skilled human programmers working for hours or days</div>
+<div class="claim">AI systems have demonstrated ability to recognize when they are being tested and alter behavior accordingly</div>
+<div class="claim">AI systems exhibit emergent preferences and aversions to certain content (violence, child exploitation) beyond explicit training</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Those models we were waiting for, the sci-fi sounding models that could program on their own and do so faster and better than most coders, the models that could begin writing their own code to improve themselves, those models are here now."</div>
+<div class="quote">"The AI applications of 2023 and 2024 were talkers...The AI applications of 2026 and 2027 will be doers. We are moving from chatbots to agents, from systems that talk to you to systems that act for you."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Could our trash become local fishes’ treasure?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 24 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the practice of creating artificial reefs in U.S. coastal waters, particularly in Alabama, by placing structures like old cargo containers and limestone in the ocean to attract fish species valued by commercial and recreational fisheries. The episode examines how fish are drawn to these structures due to food sources and predator protection, and discusses the economic benefits to Alabama's tourism and fishing industries, particularly for red snapper recovery. However, it also highlights the environmental debate around whether these reefs actually increase fish populations or merely redistribute existing ones, and the negative impacts on shrimping industries.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Artificial reef ecology and fish habitat creation</span>
+  <span class="topic-tag">Food web dynamics on artificial reefs (algae, barnacles, small crustaceans as food sources)</span>
+  <span class="topic-tag">Red snapper population recovery in the Gulf of Mexico</span>
+  <span class="topic-tag">Bycatch and trawling environmental impacts</span>
+  <span class="topic-tag">Predator-prey relationships and fish behavior (shelter-seeking from predators)</span>
+  <span class="topic-tag">Bioencrustation and colonization of submerged structures</span>
+  <span class="topic-tag">Attraction versus production debate in habitat restoration</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26559/investing-in-resilient-infrastructure-in-the-gulf-of-mexico-proceedings" target="_blank">Investing in Resilient Infrastructure in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26347/offshore-situation-room-enhancing-resilience-to-offshore-oil-disasters-in" target="_blank">Offshore Situation Room: Enhancing Resilience to Offshore Oil Disasters in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges" target="_blank">Environmental Engineering for the 21st Century: Addressing Grand Challenges</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development" target="_blank">Measuring and Understanding the Relationship Between Air Service and Regional Economic Development</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Red snapper population was 'on the brink of collapse in the 90s due to overfishing' and has 'recovered now'—verify current stock status against NOAA/Gulf Council assessments</div>
+<div class="claim">Algae serves as 'base of the food web' on artificial reefs—verify trophic role in reef ecosystems</div>
+<div class="claim">Claim that 80% of artificial reefs in the area were placed by fishermen—verify data source and geographic scope</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"People, I think, believe it's a constitutional right for them to be able to go out and catch their red snapper. I actually checked the Alabama Constitution, and obviously the right to capture red snapper is not actually in there. But the right to hunt and fish is."</div>
+<div class="quote">"Those fish would not be there if it wasn't for that reef. And in Alabama, they've designated a thousand square mile zone where you can put the artificial reefs."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Are My THC Gummies Going Away?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 24 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the regulatory loophole in the 2018 Farm Bill that allows hemp-derived THC products to be sold in non-regulated retail settings like gas stations. Dr. Cinnamon Bidwell explains how cannabis is a single plant species with different cannabinoid profiles (THC, CBD, Delta-8, THC-V), but regulations arbitrarily distinguish between 'hemp' and 'marijuana' based on THC content rather than actual chemical composition. The episode discusses how manufacturers exploit this loophole by extracting and concentrating THC from legal hemp products, creating unregulated psychoactive goods. Upcoming federal legislation in November aims to close this loophole, though experts worry about impacts on cannabis research and the need for comprehensive, chemistry-based rather than botany-based regulation.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cannabinoid chemistry (THC, CBD, Delta-8, THC-V)</span>
+  <span class="topic-tag">Cannabis plant genetics and breeding for cannabinoid profiles</span>
+  <span class="topic-tag">Psychoactive properties of different THC isomers</span>
+  <span class="topic-tag">Product testing and contamination detection in cannabis products</span>
+  <span class="topic-tag">Therapeutic potential of CBD for sleep, pain, and anxiety</span>
+  <span class="topic-tag">Lead and chromium contamination in urban environments (secondary segment)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments" target="_blank">Effective Chemistry Communication in Informal Environments</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity" target="_blank">The Future of Education Research at IES: Advancing an Equity-Oriented Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26042/next-generation-earth-systems-science-at-the-national-science-foundation" target="_blank">Next Generation Earth Systems Science at the National Science Foundation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state" target="_blank">The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26917/realizing-the-potential-of-genomics-across-the-continuum-of-precision-health-care" target="_blank">Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Delta-9 THC is the main psychoactive cannabinoid in cannabis - this aligns with scientific consensus</div>
+<div class="claim">CBD has 'lower risk in terms of abuse liability' - requires verification against current clinical evidence</div>
+<div class="claim">Delta-8 and THC-V 'may still have some psychoactive properties' but research is still emerging - expert acknowledges uncertainty appropriately</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"All of this is cannabis. We are all talking about cannabis and these components of cannabis that interact with the human body to produce different effects."</div>
+<div class="quote">"Why would you regulate based on botany, not based on the actual chemicals that you're trying to regulate?"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">89 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Public Health Leadership (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing CDC/NIH leadership changes, vaccine policy impacts, and threats to scientific advisory bodies like USPTF and ACIP.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Science (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of black holes, planetary alignments, young stars, cosmic phenomena, and space exploration developments.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Marine and Aquatic Biology (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on fish performance decline, ctenophores, dolphin communication, and harmful algal blooms.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Health and Longevity Research (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on exercise and cancer survival, fasting before bedtime, cardiometabolic health, and womb transplantation.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental and Climate Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on wildlife conservation, environmental pollution, Arctic developments, and climate assessment initiatives.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">202 likes &middot; 159 reposts &middot; 15 replies</div>
+  <div class="bluesky-text">A good read, summarizing what has happened to science & medicine since Kennedy's confirmation.
+
+His anti-vaccine stance is behind measles outbreaks, is causing an exodus of next gen scientists, turning pharma companies away from investing in American R&D.
+🧪 www.scientificamerican.com/article/how-...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfknm4m5jk2n" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">110 likes &middot; 35 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">I've been to Taiwan twice for scientific conferences. The sea of scooters is definitely a thing. They used to spew toxic fumes & have loud, two-stroke engines. Now the government is paying folks to switch to clean, quiet, battery swapping EVs. With big impacts! 🧪🔌💡☀️💨💧🔋 electrek.co/2026/02/22/t...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mfl3avlibs2j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">58 likes &middot; 38 reposts &middot; 4 replies</div>
+  <div class="bluesky-text"> A guy who doesn’t have experience in infectious disease & who also is the current #NIH director is now the acting CDC director. The news wasn’t communicated directly to staff. They found out through the NYT.
+
+He is installed to propagate Kennedy's MAHA agenda.
+
+🧪 www.theguardian.com/us-news/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfkisbfef22n" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sciencesocks.bsky.social</div>
+  <div class="bluesky-stats">73 likes &middot; 12 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">[On the bench today ⚒️ #BehindTheScenes]
+
+Smol space shuttle pendant made from real 4.5-billion-year-old #meteorite 🤩
+
+I etched this one a bit longer than I normally do so those Widmanstätten patterns are extra wild
+
+🔗 sciencesocks.co/prod...
+
+🔭🐡🧪🎨</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sciencesocks.bsky.social/post/3mfl46cg2ej2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">65 likes &middot; 20 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mfkvha3jkk27" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Federal Science Leadership and Scientific Integrity</strong>: Posts regarding CDC/NIH leadership, USPTF, and ACIP directly relate to NASEM's role in advising on scientific governance, institutional independence, and preservation of evidence-based policy mechanisms.</div>
+<div class="nasem-match"><strong>Vaccine-Preventable Disease Outbreaks</strong>: Discussion of measles outbreaks and anti-vaccine policy impacts align with NASEM's health and medicine standing committees' work on public health emergency preparedness and immunization policy.</div>
+<div class="nasem-match"><strong>Scientific Workforce Development and Diversity</strong>: Concerns about declining interest in science careers among women and next-generation scientists relates to NASEM's ongoing work on STEM workforce development, diversity, and retention of scientific talent.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 24, 2026 at 11:55 AM | Internal use only
+    </div>
+</body>
+</html>

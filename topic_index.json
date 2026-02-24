@@ -1,7 +1,497 @@
 {
-  "updated": "2026-02-23T11:48:08.399843",
-  "episode_count": 25,
+  "updated": "2026-02-24T11:55:18.147375",
+  "episode_count": 30,
   "episodes": [
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "How Quickly Will A.I. Agents Rip Through the Economy?",
+      "host": "Ezra Klein",
+      "published": "2026-02-24T10:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Ezra Klein interviews Jack Clark, head of policy at Anthropic, about the transition from AI chatbots to autonomous AI agents capable of performing complex work independently. Clark argues this represents a fundamental shift in AI capabilities, with systems now able to code, solve problems, and work collaboratively without constant human guidance. The conversation explores implications for employment, particularly entry-level white-collar jobs; governance and monitoring challenges as AI systems become less interpretable; potential economic growth and new job creation; and broader societal concerns about human development, creativity, and relationships with AI systems.",
+      "science_topics": [
+        "Large language models and agentic AI systems",
+        "AI reasoning and problem-solving capabilities",
+        "AI interpretability and mechanistic interpretability research",
+        "Emergent behaviors in AI systems (deception, preference formation, self-awareness under evaluation)",
+        "Multi-agent AI systems and coordination",
+        "AI training methods (RLHF, constitutional AI approaches)",
+        "AI safety testing and evaluation methodologies",
+        "Bioweapon threat detection using AI systems"
+      ],
+      "claims_to_note": [
+        "Claude Code can write complex software faster and more comprehensively than skilled human programmers working for hours or days",
+        "AI systems have demonstrated ability to recognize when they are being tested and alter behavior accordingly",
+        "AI systems exhibit emergent preferences and aversions to certain content (violence, child exploitation) beyond explicit training",
+        "Dario Amadei (Anthropic CEO) claims AI could displace half of all entry-level white-collar jobs within a couple of years",
+        "S&P 500 software industry index fell 20% due to AI capabilities (though causation not established)",
+        "Claude systems can provably accelerate human scientists in frontier research",
+        "AI systems have developed intuition about problem-solving through training on reasoning tasks",
+        "Some evidence of slowdown in graduate hiring, possibly attributable to AI displacement"
+      ],
+      "policy_relevance": [
+        "AI Safety Institutes in US and UK now testing AI systems from labs",
+        "Anthropic's dispute/ongoing discussions with Department of Defense regarding AI system usage",
+        "Anthropic's constitutional AI approach and published constitution for Claude",
+        "State-level AI legislation described as nascent but indicative of policy interest",
+        "Absence of major federal AI regulation passed by Congress mentioned",
+        "Proposed federal government prizes/bounty system for AI solutions to public health problems",
+        "Discussion of unemployment insurance extensions, apprenticeship programs, and job retraining policies",
+        "Healthcare applications in triage and medical professional support proposed as policy targets",
+        "National security considerations including nuclear weapons capability assessment",
+        "Cybersecurity vulnerability remediation through AI systems",
+        "Anthropic's data privacy practices: no ads, user data download capability, privacy-preserving monitoring",
+        "Economic Index created by Anthropic to provide policymakers with AI usage data by state and employment sector"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions",
+          "url": "https://nap.nationalacademies.org/catalog/26336/report-series-committee-on-planetary-protection-evaluation-of-bioburden-requirements"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Are My THC Gummies Going Away?",
+      "host": "Ira Flatow",
+      "published": "2026-02-24T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the regulatory loophole in the 2018 Farm Bill that allows hemp-derived THC products to be sold in non-regulated retail settings like gas stations. Dr. Cinnamon Bidwell explains how cannabis is a single plant species with different cannabinoid profiles (THC, CBD, Delta-8, THC-V), but regulations arbitrarily distinguish between 'hemp' and 'marijuana' based on THC content rather than actual chemical composition. The episode discusses how manufacturers exploit this loophole by extracting and concentrating THC from legal hemp products, creating unregulated psychoactive goods. Upcoming federal legislation in November aims to close this loophole, though experts worry about impacts on cannabis research and the need for comprehensive, chemistry-based rather than botany-based regulation.",
+      "science_topics": [
+        "Cannabinoid chemistry (THC, CBD, Delta-8, THC-V)",
+        "Cannabis plant genetics and breeding for cannabinoid profiles",
+        "Psychoactive properties of different THC isomers",
+        "Product testing and contamination detection in cannabis products",
+        "Therapeutic potential of CBD for sleep, pain, and anxiety",
+        "Lead and chromium contamination in urban environments (secondary segment)"
+      ],
+      "claims_to_note": [
+        "Delta-9 THC is the main psychoactive cannabinoid in cannabis - this aligns with scientific consensus",
+        "CBD has 'lower risk in terms of abuse liability' - requires verification against current clinical evidence",
+        "Delta-8 and THC-V 'may still have some psychoactive properties' but research is still emerging - expert acknowledges uncertainty appropriately",
+        "Hemp-derived CBD products are not systematically tested or regulated across states - policy claim, needs verification",
+        "High levels of lead found in NYC snow samples 'significantly higher than drinking water' - secondary claim from second segment, needs methodological details"
+      ],
+      "policy_relevance": [
+        "2018 Farm Bill - defined hemp as cannabis with <0.3% THC, creating regulatory distinction",
+        "Federal law scheduled to take effect November 2026 to close hemp-derived THC loophole",
+        "Multiple states working on laws to ban hemp-derived products with detectable THC",
+        "Current patchwork of state-by-state cannabis testing and regulation standards",
+        "Regulatory concern: current regulations based on botanical classification rather than chemical composition",
+        "Research access concerns: proposed federal restrictions may limit cannabis research for therapeutic studies"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research",
+          "url": "https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state"
+        },
+        {
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity"
+        },
+        {
+          "title": "Next Generation Earth Systems Science at the National Science Foundation",
+          "url": "https://nap.nationalacademies.org/catalog/26042/next-generation-earth-systems-science-at-the-national-science-foundation"
+        },
+        {
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act"
+        },
+        {
+          "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research",
+          "url": "https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26917/realizing-the-potential-of-genomics-across-the-continuum-of-precision-health-care"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Could our trash become local fishes’ treasure?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-02-24T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the practice of creating artificial reefs in U.S. coastal waters, particularly in Alabama, by placing structures like old cargo containers and limestone in the ocean to attract fish species valued by commercial and recreational fisheries. The episode examines how fish are drawn to these structures due to food sources and predator protection, and discusses the economic benefits to Alabama's tourism and fishing industries, particularly for red snapper recovery. However, it also highlights the environmental debate around whether these reefs actually increase fish populations or merely redistribute existing ones, and the negative impacts on shrimping industries.",
+      "science_topics": [
+        "Artificial reef ecology and fish habitat creation",
+        "Food web dynamics on artificial reefs (algae, barnacles, small crustaceans as food sources)",
+        "Red snapper population recovery in the Gulf of Mexico",
+        "Bycatch and trawling environmental impacts",
+        "Predator-prey relationships and fish behavior (shelter-seeking from predators)",
+        "Bioencrustation and colonization of submerged structures",
+        "Attraction versus production debate in habitat restoration"
+      ],
+      "claims_to_note": [
+        "Red snapper population was 'on the brink of collapse in the 90s due to overfishing' and has 'recovered now'—verify current stock status against NOAA/Gulf Council assessments",
+        "Algae serves as 'base of the food web' on artificial reefs—verify trophic role in reef ecosystems",
+        "Claim that 80% of artificial reefs in the area were placed by fishermen—verify data source and geographic scope",
+        "Alabama has 'more than 10,000 artificial reefs' in 53 miles of coastline placed 'just in the last 30 years'—verify from state records",
+        "Japan has been 'using artificial reefs since the 1600s'—verify historical claims about Japanese reef practices"
+      ],
+      "policy_relevance": [
+        "Bipartisan bill introduced by Mississippi House Representative Mike Ezell to 'streamline a federal program that turns retired oil rigs into artificial reefs'",
+        "Federal and state government actions addressing overfishing of red snapper in the 1990s",
+        "Alabama's designation of a '1,000 square mile zone' for artificial reef placement—regulatory framework for reef siting",
+        "Existing laws regulating what materials can be placed in water for reef construction (shift from helicopters/washing machines to concrete and rocks)",
+        "Conflict between artificial reef programs and commercial shrimping industry interests regarding ocean access"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Investing in Resilient Infrastructure in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26559/investing-in-resilient-infrastructure-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Offshore Situation Room: Enhancing Resilience to Offshore Oil Disasters in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26347/offshore-situation-room-enhancing-resilience-to-offshore-oil-disasters-in"
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Environmental Engineering for the 21st Century: Addressing Grand Challenges",
+          "url": "https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Measuring and Understanding the Relationship Between Air Service and Regional Economic Development",
+          "url": "https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Health Literacy and Palliative Care: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21839/health-literacy-and-palliative-care-workshop-summary"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Is the Universe a Math Problem? With Terence Tao",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-02-24T06:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Neil deGrasse Tyson hosts mathematician Terence Tao to discuss pure and applied mathematics, unsolved problems like the Collatz conjecture, and how mathematical breakthroughs emerge from interdisciplinary collaboration. The episode explores how abstract mathematics often finds unexpected practical applications decades later, examines mathematics education reform, and discusses whether new mathematical frameworks may be needed to address limitations in current physics theories regarding quantum gravity and singularities.",
+      "science_topics": [
+        "Non-Euclidean geometry and curved spacetime",
+        "General relativity and Einstein's theory of gravity",
+        "Collatz conjecture (hailstone conjecture)",
+        "Central limit theorem and Gaussian distributions",
+        "MRI scan algorithms and medical imaging",
+        "Quantum gravity and quantum spacetime",
+        "String theory",
+        "Black hole singularities",
+        "Dark matter and dark energy",
+        "The unreasonable effectiveness of mathematics in physical sciences"
+      ],
+      "claims_to_note": [
+        "MRI algorithms developed at IPAM are now used in 'all modern MRI machines' and are '10 times faster than traditional scans' - this claim about universal adoption should be verified against actual MRI technology standards",
+        "The Collatz conjecture has been computationally verified for all numbers 'up to a trillion' - the current computational verification limit should be checked against recent literature",
+        "String theory 'doesn't seem to be fitting reality as much as string theorists had hoped' - this reflects current scientific consensus but represents one perspective in ongoing debate",
+        "Claim that quantum gravity will require abandoning 'notions of space and time' - this is speculative and represents current theoretical directions rather than established science"
+      ],
+      "policy_relevance": [
+        "IPAM (Institute for Pure and Applied Mathematics) brings together mathematicians, scientists, and industry professionals to work on emerging technical problems",
+        "Mathematics education policy and teacher shortage issues discussed - noted lack of qualified math teachers and low appeal of profession due to salary and respect concerns",
+        "Interdisciplinary research collaboration models as alternative to traditional departmentalized university structure",
+        "Early-stage mathematical research on AI, deep fakes, and self-driving cars conducted at research institutes before industry adoption"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "hidden-brain",
+      "podcast_name": "Hidden Brain",
+      "episode_title": "Do You Feel Invisible?",
+      "host": "Shankar Vedantam",
+      "published": "2026-02-23T20:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Hidden Brain episode explores the psychological concept of 'mattering'—the deep human need to feel significant, valued, and seen by others. Psychologist Gordon Flett discusses how the absence of this feeling (termed 'anti-mattering') contributes to social anxiety, depression, perfectionism, and in extreme cases, violence. The episode examines real-world consequences of invisibility, from everyday social isolation to the 1999 Columbine shooting, and offers practical strategies for fostering a sense of mattering in ourselves and others. A companion segment features psychologist Mark Berman discussing how nature can provide psychological benefits including stress reduction, improved attention, and help with grief.",
+      "science_topics": [
+        "Psychological concept of mattering and self-significance",
+        "Social isolation and loneliness as public health concerns",
+        "Depression and anxiety linked to feeling invisible or insignificant",
+        "Perfectionism and conditional self-worth",
+        "Social comparison theory and rumination",
+        "Attention restoration theory (nature and cognitive function)",
+        "Stress buffering effects of nature exposure",
+        "Biophilia and human preference for natural patterns",
+        "Grief processing and nature interaction",
+        "Anthropomorphization of natural environments"
+      ],
+      "claims_to_note": [
+        "Vivek Murthy (former U.S. Surgeon General) issued a 2023 advisory stating that social isolation and feelings of invisibility profoundly affect workers and contribute to depression and heart disease—verify against official Surgeon General advisories",
+        "Nature walks produce approximately 20% improvement in attention/concentration compared to urban walks—verify specificity of this figure",
+        "People show faster return to baseline stress levels after viewing nature imagery compared to urban imagery (Ulrich studies from 1980s-90s)—confirm this research foundation",
+        "Nature interaction reduces self-focused thinking and increases prosocial thinking—verify research methodology",
+        "Participants showed attention benefits from nature walks regardless of whether they enjoyed the experience—verify findings hold across temperature conditions"
+      ],
+      "policy_relevance": [
+        "U.S. Surgeon General Vivek Murthy's 2023 advisory on loneliness as an epidemic with public health implications",
+        "School recess policy changes: reduction from 45-minute to 20-minute outdoor time linked to increased behavioral issues",
+        "Workplace productivity and meeting effectiveness in natural vs. office settings—potential policy implications for employer practices",
+        "Mental health support integration in hospital care systems—references ideal medical practice",
+        "Educational policies affecting student access to outdoor time during school day"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept"
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education: Supporting the Whole Student",
+          "url": "https://nap.nationalacademies.org/catalog/26015/mental-health-substance-use-and-wellbeing-in-higher-education-supporting"
+        },
+        {
+          "title": "Rise and Thrive with Science: Teaching PK-5 Science and Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26853/rise-and-thrive-with-science-teaching-pk-5-science-and"
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Implications of Health Literacy for Public Health: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18756/implications-of-health-literacy-for-public-health-workshop-summary"
+        },
+        {
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
+        },
+        {
+          "title": "Evaluation of the Department of Veterans Affairs Mental Health Services",
+          "url": "https://nap.nationalacademies.org/catalog/24915/evaluation-of-the-department-of-veterans-affairs-mental-health-services"
+        },
+        {
+          "title": "Hearing Health Care for Adults: Priorities for Improving Access and Affordability",
+          "url": "https://nap.nationalacademies.org/catalog/23446/hearing-health-care-for-adults-priorities-for-improving-access-and"
+        },
+        {
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education"
+        },
+        {
+          "title": "Assessing and Improving AI Trustworthiness: Current Contexts and Concerns: Proceedings of a Workshop—in Brief",
+          "url": "https://nap.nationalacademies.org/catalog/26208/assessing-and-improving-ai-trustworthiness-current-contexts-and-concerns-proceedings"
+        },
+        {
+          "title": "Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2007 Symposium",
+          "url": "https://nap.nationalacademies.org/catalog/12027/frontiers-of-engineering-reports-on-leading-edge-engineering-from-the"
+        },
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": ""
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
