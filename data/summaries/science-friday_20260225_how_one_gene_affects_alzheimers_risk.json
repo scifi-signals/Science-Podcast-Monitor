@@ -1,0 +1,402 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "How One Gene Affects Alzheimer’s Risk",
+  "host": "Ira Flatow",
+  "published": "2026-02-25T10:00:00",
+  "duration_minutes": 12.5,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "Dr. Dylan Williams discusses the role of the APOE gene in Alzheimer's disease risk, explaining that people inherit one of three variants (E2, E3, E4) with different risk profiles. While researchers have known for 30 years that APOE variants correlate with Alzheimer's risk, the underlying mechanisms remain poorly understood and underinvestigated. Williams argues that therapeutics targeting the medium and high-risk APOE variants deserve greater research attention, as only 1 of approximately 140 drugs in Alzheimer's clinical trials directly addresses APOE, and that other genetic and environmental factors also modulate disease risk.",
+  "science_topics": [
+    "APOE gene variants (E2, E3, E4) and Alzheimer's disease risk stratification",
+    "Apolipoprotein E protein function in lipid transport and brain health",
+    "Alzheimer's pathological hallmarks: amyloid plaques and tau tangles",
+    "Gene-environment interactions in neurodegeneration",
+    "Genetic epidemiology of Alzheimer's disease",
+    "Ethnic variation in APOE effects and disease susceptibility"
+  ],
+  "claims_to_note": [
+    "APOE has been known to affect Alzheimer's risk for approximately 30 years — verify timeline of APOE-Alzheimer's association discovery",
+    "E2 is lowest risk, E3 medium risk, E4 highest risk for Alzheimer's — confirm risk gradient classification",
+    "Only 1 of approximately 140 drugs in Alzheimer's clinical trials directly targets APOE — verify current clinical trial landscape",
+    "Individuals with two copies of E4 have approximately 60% lifetime risk of Alzheimer's disease — check prevalence and penetrance estimates",
+    "About 15% of population has one copy of E2; 0.5-1% have two copies of E2 — verify APOE allele frequency distributions",
+    "Heavy lifelong smokers have approximately 15% lifetime risk of lung cancer — verify as epidemiological comparison point"
+  ],
+  "policy_relevance": [
+    "Recommendation against direct-to-consumer genetic testing for APOE in UK due to lack of clinical actionability and penetrance",
+    "Lack of clinical trial focus on APOE-targeted therapeutics relative to amyloid and tau-targeting approaches",
+    "Need for research funding allocation toward APOE-focused drug development",
+    "Importance of including diverse ethnic populations in Alzheimer's genetic research to understand population-specific APOE effects"
+  ],
+  "key_quotes": [
+    "Amongst about 140 different types of drugs that are in clinical trials for Alzheimer's disease now, only one directly relates to APOE as a form of gene therapy.",
+    "Even the people that inherit the highest risk variation of APOE, so they inherit two copies of E4, they might have a lifetime risk of perhaps 60%. And that's reassuring in the sense that many things in biology, perhaps 40%, will lead a full lifetime without developing dementia due to Alzheimer's disease.",
+    "I think it's a fundamental rule in most people who go on to get it. So we wouldn't really recommend people seek their APOE gene risk at the moment, because it wouldn't really give anyone much as action or information."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "APOE gene variants (E2, E3, E4) and Alzheimer's disease risk stratification",
+      "publications": [
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Apolipoprotein E protein function in lipid transport and brain health",
+      "publications": [
+        {
+          "id": "25048",
+          "title": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health care systems across",
+            "preventing disease providing diagnoses",
+            "diseases adverse drug outcomes",
+            "clinical screening programs",
+            "improving health outcomes",
+            "particular health concern",
+            "clinically actionable variants",
+            "clinical interventions",
+            "identify individuals",
+            "particular interest",
+            "evaluating genomic screening programs",
+            "health care systems",
+            "implementing"
+          ],
+          "description": "Genomic applications are being integrated into a broad range of clinical and research activities at health care systems across the United States. This trend can be attributed to a variety of factors, including the declining cost of genome sequencing and the potential for improving health outcomes and cutting the costs of care. The goals of these genomics-based programs may be to identify individuals with clinically actionable variants as a way of preventing disease, providing diagnoses for patients with rare diseases, and advancing research on genetic contributions to health and disease. Of particular interest are genomics- based screening programs, which will, in this publication, be clinical screening programs that examine genes or variants in unselected populations in order to identify individuals who are at an increased risk for a particular health concern (e.g., diseases, adverse drug outcomes) and who might benefit from clinical interventions. On November 1, 2017, the National Ac",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "25616",
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "trial altogether confusing investigators",
+            "titled clinical trials",
+            "diverse populations participation",
+            "health literacy convened",
+            "broad patient base",
+            "become confused mistrustful",
+            "discussion centered around",
+            "early trials",
+            "individualized nature",
+            "possibly affecting",
+            "health literacy",
+            "clinical",
+            "impact"
+          ],
+          "description": "Because of the individualized nature of drug and therapeutic treatments, clinical trials require participants who represent the diversity of the patient base. If early trials do not have a broad patient base, it can be difficult to know who may or may not benefit from or respond to a treatment later. In addition to diversity in recruitment, informed consent during participation is also crucial. If participants do not fully understand what they are signing up for, they may become confused, mistrustful, or drop out of a trial altogether, confusing investigators and possibly affecting the generalizability of a study. To explore the incorporation of health literacy practices into clinical trials, the Roundtable on Health Literacy convened a workshop titled Clinical Trials: Practice and Impact on April 11, 2019, in Washington, DC. The workshop presentations and discussion centered around issues related to the challenges or barriers for diverse populations' participation in clinical trials, ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "27835",
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health care children especially",
+            "adolescent health care system",
+            "families improves child health",
+            "improving health care",
+            "launching lifelong health",
+            "mental health challenges",
+            "requires transforming key components",
+            "public health",
+            "health equity",
+            "leverage community supports",
+            "children youth",
+            "families"
+          ],
+          "description": "Ensuring every child is on an optimal trajectory to a healthy and productive adulthood is imperative for the nation's future. Investments in children and families improves child health, but also health equity, education outcomes, workforce productivity, and cost-effectiveness in public spending. Despite advances in health care, children, especially those from historically marginalized groups, face rising rates of chronic diseases, obesity, and mental health challenges. Launching Lifelong Health by Improving Health Care for Children, Youth, And Families presents a vision for transforming the child and adolescent health care system. This report also examines how the health care system can be better positioned to equitably address the needs of all children and families and leverage community supports. This requires transforming key components, such as health care financing, public health investment, community partnerships, and accountability strategies, to encourage team-based care delive",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Alzheimer's pathological hallmarks: amyloid plaques and tau tangles",
+      "publications": [
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        },
+        {
+          "id": "25902",
+          "title": "Understanding Nursing Home, Hospice, and Palliative Care for Individuals with Later-Stage Dementia: Proceedings of a Workshop—in Brief",
+          "url": "https://nap.nationalacademies.org/catalog/25902/understanding-nursing-home-hospice-and-palliative-care-for-individuals-with-later-stage-dementia",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "key points made",
+            "participants during",
+            "dementias hosted",
+            "social science",
+            "via webcast",
+            "alzheimer",
+            "presentations",
+            "disease",
+            "discussions",
+            "developing",
+            "nursing home hospice",
+            "later stage dementia",
+            "palliative care",
+            "individuals"
+          ],
+          "description": "On July 7, 2020, the Committee on Developing a Behavioral and Social Science Research Agenda on Alzheimer's Disease and Alzheimer's Disease-Related Dementias hosted a public workshop via webcast. This Proceedings of a Workshop-in Brief summarizes the key points made by the workshop participants during the presentations and discussions.",
+          "year": 2020
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Gene-environment interactions in neurodegeneration",
+      "publications": [
+        {
+          "id": "18373",
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "keywords": [
+            "climate",
+            "climate change",
+            "environment",
+            "abrupt",
+            "warming",
+            "global"
+          ]
+        },
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        },
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Genetic epidemiology of Alzheimer's disease",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 1758,
+  "saved_at": "2026-02-25T11:49:04.303792"
+}

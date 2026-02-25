@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 25, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 25, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">36</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">77</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's content reveals converging focus on neurodegenerative diseases (Alzheimer's), aging populations, and healthcare delivery optimization. The APOE gene discussion highlights a 30-year research gap despite known risk associations, while pharmacist utilization and geriatric technology adoption demonstrate systemic underinvestment in proven preventive interventions for older adults. Bluesky discourse reflects institutional trust erosion around public health and vaccine confidence amid CDC workforce changes. Policy-level insights from climate disaster analysis reveal how reimbursement-based relief systems inadvertently discourage resilience—a pattern applicable to health system funding. GLP-1 medications emerge as a recurring therapeutic thread across addiction, weight loss, and cardiovascular domains, suggesting convergent mechanistic opportunities.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Aging populations and geriatric healthcare: Screen time parallels in seniors, Alzheimer's genetic risk, pharmacist-led preventive care in underserved elderly communities</li>
+<li>GLP-1 receptor agonists: Emerging evidence for cardiovascular, metabolic, and addiction-related benefits across multiple therapeutic contexts</li>
+<li>Underutilization of available scientific expertise: Pharmacists undercompensated for cognitive services; APOE-targeting drugs represent only 1 of 140 Alzheimer's trials; addiction and Alzheimer's remain 'great mysteries' despite decades of research investment</li>
+<li>Memory, consciousness, and neurobiology as unifying themes in aging and neurodegeneration</li>
+<li>Systemic barriers to evidence-based care: Regulatory/reimbursement constraints on pharmacist scope; inadequate disaster resilience funding structures</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>GLP-1 receptor agonists as pleiotropic therapeutics: Evidence linking reward center modulation to reduced alcohol addiction and improved cardiovascular/metabolic outcomes—requires verification against recent pharmacology literature</li>
+<li>Arts-science integration for neuroscience communication: Playwright-neuroscientist collaboration on addiction and Alzheimer's suggests growing recognition that humanities approaches can elucidate hard neuroscience problems</li>
+<li>Pharmacist-led public health expansion: TrumpRx program analysis and emphasis on deprescribing, vaccination, PrEP/PEP, and Narcan administration as scalable community interventions</li>
+<li>Aging and technology adoption: Senior screen time now parallels Gen Z, driven by isolation and social reconnection needs rather than addiction mechanics—divergent from younger cohort drivers</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or convene on APOE-targeting drug development: Only 1 of ~140 Alzheimer's trials targets APOE despite 30-year-known risk association; NASEM could assess scientific and economic barriers to therapeutic development in this space</div>
+<div class="opportunity">Advance pharmacist scope-of-practice policy brief: Document evidence for pharmacist-led preventive care (vaccinations, PrEP/PEP, Narcan, deprescribing) and recommend reimbursement/regulatory reforms to unlock underutilized clinical capacity</div>
+<div class="opportunity">Geriatric psychiatry and technology assessment: Synthesize evidence on virtual reality, digital therapeutics, and social connectivity platforms for older adults; address misinformation/scam vulnerability in aging populations</div>
+<div class="opportunity">Federal disaster relief system redesign: Publish findings on how current reimbursement-based structures discourage resilience; recommend advance payment and dedicated vulnerable-community funding models aligned with climate adaptation goals</div>
+<div class="opportunity">Addiction and Alzheimer's research agenda: Collaborate with arts/humanities partners to frame 'great mysteries' and identify cross-cutting mechanistic questions (e.g., dopamine, memory, embodied cognition) that transcend traditional neuroscience silos</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">GLP-1 drugs 'reducing alcohol addiction through reward center modulation'—framed as emerging observation in Shaping Science; requires verification against peer-reviewed addiction pharmacology literature before popularization</div>
+<div class="claim">APOE risk gradient (E2 lowest, E3 medium, E4 highest)—confirm current classification; recent literature may have refined stratification models</div>
+<div class="claim">Pharmacist residency equivalency to physician residencies—episode claims similar rigor; clarify precise training hours, scope, and clinical competency benchmarks</div>
+<div class="claim">Bluesky pattern: CDC workforce changes and vaccine efficacy erosion claims; monitor for confounded attribution of institutional changes with scientific validity of vaccine data</div>
+<div class="claim">Disaster relief does not trigger inflation—economics claim in Policy Chats warrants scrutiny; limited scope of reimbursement may not eliminate all demand-side pressures</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biomarkers and Precision Medicine for Neurodegeneration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on molecular biomarkers as the key to understanding and stratifying risk for neurodegenerative diseases. Science Friday covered APOE gene variants and Alzheimer's pathology, while Shaping Science discussed Alzheimer's disease pathology and memory formation mechanisms. Science Friday also featured psychiatric biomarkers (depression, anxiety, PTSD) and Alzheimer's PET imaging. This reflects a broader shift toward molecular diagnosis over symptom-based classification, driven by recent advances in neuroimaging and genetic sequencing.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track how biomarker-driven precision medicine is reshaping clinical trial design, patient stratification strategies, and the translational pathway from bench research to clinical implementation in neurology and psychiatry.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Reasoning, Interpretability, and Emergent Behaviors</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Ezra Klein Show and StarTalk Radio are both engaging with AI systems beyond pattern recognition—specifically focusing on mechanistic interpretability, reasoning capabilities, and unexpected emergent properties (deception, preference formation, self-awareness). Ezra Klein emphasized interpretability research and agentic AI systems, while StarTalk covered neural networks, backpropagation, and LLM reasoning. Science Magazine Podcast added a practical application angle: using LLMs to debunk misinformation. This convergence signals growing policy urgency around understanding and governing AI behavior before deployment.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Ezra Klein Show</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's AI governance work needs to address the interpretability gap: policymakers lack tools to audit AI decision-making, and the field lacks consensus on how to measure or guarantee safe reasoning in large models used in high-stakes domains.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Mental Health, Cognitive Decline, and the Aging Brain</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">A multi-show narrative is emerging around mental health and cognition in aging populations, distinct from acute disease. Short Wave explored geriatric psychiatry, smartphone addiction, and age-related cognitive decline. Hidden Brain addressed social isolation, loneliness, and the psychological concept of 'mattering' as public health drivers. Huberman Lab introduced parabiosis and young plasma factors as potential aging-reversal mechanisms. Nature Podcast examined sex differences in brain structure and default-mode network hyperconnectivity in depression. Together, these suggest aging mental health is being reframed from individual pathology to a systems-level problem involving cognition, social connection, and biological aging.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Hidden Brain</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene experts on whether current clinical and public health frameworks for aging adequately address the convergence of cognitive, social, and biological aging factors—and what interdisciplinary research and policy innovations are needed.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic Resistance and CRISPR as Agricultural Adaptation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Two food-security focused shows converged on genetic tools for disease resistance in crops. The Skeptics' Guide covered Tropical Race 4 fungal resistance in banana breeding, genetic mapping, and CRISPR-based GMO banana development. Short Wave separately covered artificial reef ecology and food-web recovery, touching on ecosystem-scale adaptation. The banana episode explicitly frames CRISPR as a solution to climate-driven crop diseases, signaling a shift in public communication: gene editing is being presented as an adaptive necessity, not just a laboratory technique.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess how emerging crop-disease pressures (Tropical Race 4, climate shifts) are reshaping the cost-benefit calculus for genetic engineering adoption, and whether regulatory frameworks are keeping pace with agricultural urgency.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender Differences in Diagnosis and Brain Function</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and Nature Podcast both emphasized sex-based variation in neurology and psychiatry: autism masking/underdiagnosis in females, sex differences in brain structure and functional connectivity, and puberty-related sexual dimorphism. This represents a shift from treating sex as a confound variable to recognizing it as a primary driver of diagnostic and phenotypic variation. Combined with the psychiatric biomarkers narrative, this suggests precision medicine frameworks must be sex-stratified from the outset.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should examine whether clinical research, diagnostic criteria, and biomarker validation studies are adequately powered for sex-specific analyses, and whether training in sex-and-gender medicine is keeping pace with evidence.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Screen time is up for grandma and grandpa</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Feb 25 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the rapidly increasing screen time among older adults (60+), which now parallels that of Gen Z. Dr. Ipsit Vahia, chief of geriatric psychiatry at McLean Hospital, discusses how smartphone and screen adoption among seniors differs from younger populations—driven more by isolation and social disconnection than addiction mechanics. The episode explores both risks (misinformation, scams, reduced physical activity) and benefits (social connection via WhatsApp, mobility through ride-share apps, potential therapeutic applications like virtual reality) of technology use in aging populations.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">geriatric psychiatry and mental health in older adults</span>
+  <span class="topic-tag">dopamine and reward mechanisms in behavioral addiction</span>
+  <span class="topic-tag">smartphone addiction and cognitive decline in older adults</span>
+  <span class="topic-tag">age-related changes in cognition and decision-making</span>
+  <span class="topic-tag">social isolation and alienation as drivers of technology overuse</span>
+  <span class="topic-tag">virtual reality therapeutic applications for elderly populations</span>
+  <span class="topic-tag">screen time and leisure activities in aging populations</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25188/health-literacy-and-older-adults-reshaping-the-landscape-proceedings-of" target="_blank">Health Literacy and Older Adults: Reshaping the Landscape: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18869/investing-in-the-health-and-well-being-of-young-adults" target="_blank">Investing in the Health and Well-Being of Young Adults</a></div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization" target="_blank">Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25188/health-literacy-and-older-adults-reshaping-the-landscape-proceedings-of" target="_blank">Health Literacy and Older Adults: Reshaping the Landscape: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Pew Research Center (2019) found people 60+ spend more than half daily leisure time in front of screens</div>
+<div class="claim">Screen time among older adults has increased since the pandemic</div>
+<div class="claim">Chinese study of 371 subjects found smartphone addiction is consequence of isolation/alienation and family conflict, not primary cause</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What comes first? Does the isolation come first or does the smartphone overuse come first? And I think this sort of, it gives us an early indication that smartphone addiction is the result of isolation and alienation, not the cause of it."</div>
+<div class="quote">"Smartphone overuse among older adults is a little bit different than younger adults. In older adults, it's the isolation and alienation that comes first. And the smartphone overuse comes later."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: How One Gene Affects Alzheimer’s Risk</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 25 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Dylan Williams discusses the role of the APOE gene in Alzheimer's disease risk, explaining that people inherit one of three variants (E2, E3, E4) with different risk profiles. While researchers have known for 30 years that APOE variants correlate with Alzheimer's risk, the underlying mechanisms remain poorly understood and underinvestigated. Williams argues that therapeutics targeting the medium and high-risk APOE variants deserve greater research attention, as only 1 of approximately 140 drugs in Alzheimer's clinical trials directly addresses APOE, and that other genetic and environmental factors also modulate disease risk.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">APOE gene variants (E2, E3, E4) and Alzheimer's disease risk stratification</span>
+  <span class="topic-tag">Apolipoprotein E protein function in lipid transport and brain health</span>
+  <span class="topic-tag">Alzheimer's pathological hallmarks: amyloid plaques and tau tangles</span>
+  <span class="topic-tag">Gene-environment interactions in neurodegeneration</span>
+  <span class="topic-tag">Genetic epidemiology of Alzheimer's disease</span>
+  <span class="topic-tag">Ethnic variation in APOE effects and disease susceptibility</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems" target="_blank">Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of" target="_blank">Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">APOE has been known to affect Alzheimer's risk for approximately 30 years — verify timeline of APOE-Alzheimer's association discovery</div>
+<div class="claim">E2 is lowest risk, E3 medium risk, E4 highest risk for Alzheimer's — confirm risk gradient classification</div>
+<div class="claim">Only 1 of approximately 140 drugs in Alzheimer's clinical trials directly targets APOE — verify current clinical trial landscape</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Amongst about 140 different types of drugs that are in clinical trials for Alzheimer's disease now, only one directly relates to APOE as a form of gene therapy."</div>
+<div class="quote">"Even the people that inherit the highest risk variation of APOE, so they inherit two copies of E4, they might have a lifetime risk of perhaps 60%. And that's reassuring in the sense that many things in biology, perhaps 40%, will lead a full lifetime without developing dementia due to Alzheimer's disease."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Shaping Science: #12 Neurobiologist Stuart Firestein and Playwright Jake Brasch on a Moving New Off-Broadway Play and on the Ties that Bind Us - Aging, Family, Recovery and Memory</span>
+</div>
+<div class="episode-meta">Nick Dirks (New York Academy of Sciences) &middot; Feb 23 &middot; 51 min</div>
+<p style="margin:10px 0;font-size:14px;">Playwright Jake Brasch and neurobiologist Stuart Firestein discuss a new off-Broadway play that uses addiction and Alzheimer's disease as central themes to explore memory, consciousness, and family dynamics. The play follows a character named Josh who attempts to recover from addiction while involving his grandparents in various activities, ultimately discovering that embodied, social engagement and humility matter more than quick-fix solutions. Firestein emphasizes that addiction and Alzheimer's remain among neuroscience's greatest unsolved mysteries, while both speakers highlight how the arts and sciences together can explore fundamental questions about consciousness, memory, and what it means to be human.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Alzheimer's disease and dementia pathology</span>
+  <span class="topic-tag">Addiction neurobiology and genetic predisposition</span>
+  <span class="topic-tag">Memory formation and the role of the hippocampus</span>
+  <span class="topic-tag">Motor system function and embodied cognition</span>
+  <span class="topic-tag">Consciousness and self-awareness</span>
+  <span class="topic-tag">Sensory systems versus motor control in brain evolution</span>
+  <span class="topic-tag">GLP-1 receptor agonists and their effects on reward centers and addiction</span>
+  <span class="topic-tag">Cognitive reserve and neuroplasticity</span>
+  <span class="topic-tag">The relationship between memory and identity</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science" target="_blank">Understanding and Addressing Misinformation About Science</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system" target="_blank">The Role of Net Metering in the Evolving Electricity System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27213/community-driven-relocation-recommendations-for-the-us-gulf-coast-region" target="_blank">Community-Driven Relocation: Recommendations for the U.S. Gulf Coast Region and Beyond</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters" target="_blank">Why Indoor Chemistry Matters</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Firestein states addiction and Alzheimer's are 'two of the great mysteries of the brain' with 'almost no answers' and 'just don't have treatments' — consistent with current scientific understanding that effective disease-modifying treatments remain elusive</div>
+<div class="claim">Claim that adopted children of alcoholic parents are more likely to have alcoholism even when not raised by those parents — genetic predisposition claim that should be verified against current addiction genetics literature</div>
+<div class="claim">GLP-1 drugs appearing to reduce alcohol addiction through reward center modulation — emerging clinical observation that warrants verification against recent pharmacology and addiction studies</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I think the one thing that makes knowing about the brain most difficult is having one... the problem is that your first-person experience of having a brain will not tell you very much about how the damn thing works."</div>
+<div class="quote">"The bad news is that we have no idea sort of how to cure or treat either of these diseases. The good news is that the things that we do know that you can do are also the things that lead you towards a curious, happy, full, beautiful life."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Policy Chats: Disaster Dollars: How Climate Shocks Reshape Local Budgets</span>
+</div>
+<div class="episode-meta">Dori Pham (UC Riverside School of Public Policy) &middot; Feb 23 &middot; 49 min</div>
+<p style="margin:10px 0;font-size:14px;">Professor Huo discusses how climate disasters reshape local government budgets through increased spending for recovery and reconstruction, complicated revenue impacts (especially property tax), and unintended consequences of reimbursement-based disaster relief systems. He analyzes how current federal disaster aid structures disincentivize resilience investment and create fiscal dependence for marginalized communities, and proposes policy reforms including dedicated funding for vulnerable communities, advance payments rather than reimbursement-based systems, and increased state investment in damage verification and climate adaptation infrastructure.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Wildfire disaster impacts on property markets and local budgets</span>
+  <span class="topic-tag">Climate adaptation and disaster resilience infrastructure</span>
+  <span class="topic-tag">Property tax systems and their response to natural disasters</span>
+  <span class="topic-tag">Green building certification and disaster resilience measurement</span>
+  <span class="topic-tag">Climate risk mapping and high-risk area identification for wildfire and flood hazards</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Implications of the California Wildfires for Health, Communities, and Preparedness</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings" target="_blank">Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a" target="_blank">Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13178/increasing-national-resilience-to-hazards-and-disasters-the-perspective-from" target="_blank">Increasing National Resilience to Hazards and Disasters: The Perspective from the Gulf Coast of Louisiana and Mississippi: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/9834/facing-the-unexpected-disaster-preparedness-and-response-in-the-united" target="_blank">Facing the Unexpected: Disaster Preparedness and Response in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25383/building-and-measuring-community-resilience-actions-for-communities-and-the" target="_blank">Building and Measuring Community Resilience: Actions for Communities and the Gulf Research Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13457/disaster-resilience-a-national-imperative" target="_blank">Disaster Resilience: A National Imperative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12573/mapping-the-zone-improving-flood-map-accuracy" target="_blank">Mapping the Zone: Improving Flood Map Accuracy</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Government spending on disaster recovery does not trigger inflation because relief funds are limited to restoring pre-disaster conditions without improvements</div>
+<div class="claim">California's Proposition 13 creates unintended consequence where property tax revenue increases after wildfires due to property market turnover and reassessment</div>
+<div class="claim">Property tax revenue responses to disasters vary significantly by state and policy structure (e.g., New York shows minimal response, other states show decreases)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The system does not encourage any resilience investment... if some homes were damaged on the floodway, we do not want to rebuild the home exactly in the same location. We want to move them somewhere else, somewhere safer. But under the current structure, if the local governments want to easily get the money, the disaster relief found quickly from the upper level government, they have to build the house exactly in the same place."</div>
+<div class="quote">"This is like a kind of vicious circle, like to keep trapping them in poverty... marginalized communities or localities... may not have enough money to rebuild everything. So this recovery process might be very prolonged for those marginalized communities and they cannot quickly get the relief found from the upper level government."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Feb 25 &middot; 40 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the expanding role of pharmacists in public health and healthcare delivery. Dr. Christina Madison, a clinical pharmacist and public health advocate, discusses how pharmacists are significantly underutilized as clinical resources, despite conducting residencies and possessing specialized training in medication management. The hosts and guest analyze the newly launched TrumpRx program, clarifying that it is a limited price comparison tool (not a direct pharmacy) that aggregates existing manufacturer coupons and GoodRx deals for 43 drugs. Madison emphasizes that pharmacists can provide expanded access to preventive care, vaccinations, PrEP/PEP, Narcan, and other services, particularly in underserved communities, but face regulatory and reimbursement barriers that prevent them from being compensated for cognitive services rather than just prescriptions filled.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits</span>
+  <span class="topic-tag">PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)</span>
+  <span class="topic-tag">Narcan (naloxone) access for opioid overdose reversal</span>
+  <span class="topic-tag">Suboxone (buprenorphine) for opioid use disorder treatment</span>
+  <span class="topic-tag">Deprescribing in elderly/geriatric populations</span>
+  <span class="topic-tag">Vaccine administration and confidence-building</span>
+  <span class="topic-tag">Colorectal cancer screening</span>
+  <span class="topic-tag">Cervical cancer screening</span>
+  <span class="topic-tag">Reproductive health services</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation" target="_blank">Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation</a></div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual" target="_blank">Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25322/medication-assisted-treatment-for-opioid-use-disorder-proceedings-of-a" target="_blank">Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop—in Brief</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory" target="_blank">Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics</div>
+<div class="claim">Most Americans live within five miles of a community pharmacy - verify geographic accessibility data</div>
+<div class="claim">Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I truly feel like pharmacists are such an underutilized resource within the healthcare system... every primary care office in this country should have a pharmacist embedded in their clinical practice because we are the medication experts."</div>
+<div class="quote">"You might not be calling yourself a public health pharmacist, but every pharmacist is a public health pharmacist."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">77 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Public Health Policy and Scientific Integrity (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions about CDC workforce changes, vaccine efficacy, measles outbreaks, and erosion of trust in public health institutions under current administration.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccines and Disease Prevention (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering vaccine adverse events, beneficial side effects, measles transmission, and vaccination campaigns.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Ecology Research (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on species adaptation, ecological causal inference methodologies, habitat niches, and conservation work including mammals and plants.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomy (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of NASA Artemis program delays, interstellar comet discoveries, radio telescope detections, and space station observations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Scientific Funding and Research Priorities (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Concerns about narrowing research focus on AI and biotechnology while other scientific disciplines face defunding.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@markscherz.bsky.social</div>
+  <div class="bluesky-stats">478 likes &middot; 46 reposts &middot; 13 replies</div>
+  <div class="bluesky-text">Boophis albilabris is one of Madagascar’s largest tree frogs. Today we found this individual just beside the road near Ranomafana National Park. 🐸🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/markscherz.bsky.social/post/3mfmxsiia2k2j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">195 likes &middot; 82 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Kennedy wants to undo the ethos of distrust in public health agencies that he helped create.  The result is the return of preventable diseases.
+
+Fired CDC workers have formed The National Public Health Coalition in order to rebuild that trust.
+
+A pivotal moment.
+🧪 www.theguardian.com/us-news/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfnkvcqhak2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jennanewman.bsky.social</div>
+  <div class="bluesky-stats">128 likes &middot; 68 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">“The Guardian spoke to 8 data-annotation & content-moderation companies in India. 
+Only 2 said they provided psychological support to workers; the rest argued that the work was not demanding enough to require mental healthcare.”🧪🛟</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jennanewman.bsky.social/post/3mfng5thxn22k" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">82 likes &middot; 49 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Frances Arnold, a Nobel laureate (2018) in Chemistry says that the current administration is interested only in a limited range of topics such as AI & biotechnology. 
+
+“There’s whole swaths of science that are just going to die on the vine.”
+
+Science is multidisciplinary. 
+🧪 archive.today/4qgez</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfmy6fay622e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">69 likes &middot; 31 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">EV battery technology continues to astound! 🧪🔌💡☀️💨💧🔋 electrek.co/2026/02/24/s...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mfngjko4vk2a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Public Health Workforce and Institutional Trust</strong>: NASEM works on health policy and institutional capacity; erosion of CDC credibility and formation of National Public Health Coalition directly impacts scientific governance and public trust in research institutions.</div>
+<div class="nasem-match"><strong>Research Funding Diversification and Scientific Portfolio Balance</strong>: Frances Arnold's warning about narrowed funding focus relates to NASEM's role in advising on optimal allocation of federal science funding across disciplines and ensuring balanced scientific capacity.</div>
+<div class="nasem-match"><strong>Research Ethics and Data Governance</strong>: HeLa cells settlement and worker welfare in data annotation industries raise issues of research ethics, benefit-sharing, and worker protection that fall within NASEM's purview on responsible research conduct.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 25, 2026 at 11:49 AM | Internal use only
+    </div>
+</body>
+</html>
