@@ -1,0 +1,591 @@
+{
+  "podcast_id": "science-will-win",
+  "podcast_name": "Science Will Win",
+  "episode_title": "Bringing Cancer Into Focus: Biomarkers & Precision Medicine",
+  "host": "Pfizer",
+  "published": "2026-02-26T09:00:00",
+  "duration_minutes": 29.9,
+  "influence_tier": "emerging",
+  "category": "science_health",
+  "summary": "This episode examines the role of biomarkers and precision medicine in transforming lung cancer treatment, using personal stories from patients Dr. Ross Camidge and Kelly Hoffman alongside scientific explanations. The episode traces the history of biomarker discovery from EGFR in the 1990s through ALK and other mutations, explaining how identifying specific genetic mutations allows for targeted therapies that are more effective and less toxic than traditional chemotherapy. The discussion highlights how next-generation sequencing has enabled testing for multiple biomarkers simultaneously, and notes that approximately 40-50% of non-small cell lung cancer patients now have actionable biomarkers with available therapies.",
+  "science_topics": [
+    "EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer",
+    "ALK (anaplastic lymphoma kinase) rearrangements in lung cancer",
+    "Biomarkers and tumor markers as diagnostic tools",
+    "Next-generation sequencing (NGS) for comprehensive genetic analysis",
+    "Targeted therapy/tyrosine kinase inhibitors for cancer treatment",
+    "Immunotherapy and immune checkpoint inhibition",
+    "Acquired resistance in cancer treatment",
+    "BRAF mutations in lung cancer",
+    "NRGN beta-6 as a novel biomarker target",
+    "Liquid biopsy and tissue biopsy techniques"
+  ],
+  "claims_to_note": [
+    "40-50% of non-small cell lung cancer patients have an actionable biomarker with available therapy",
+    "9-10 biomarkers have been discovered in lung cancer",
+    "EGFR mutation discovery occurred in 2004 by Harvard and Memorial Sloan Kettering researchers",
+    "ALK mutation occurs in approximately 5% of non-small cell lung cancer cases",
+    "20 years ago, majority of advanced stage lung cancer patients would not live more than a year",
+    "Non-small cell lung cancer represents 80% of thoracic oncology cases",
+    "Two-thirds of lung cancer patients are diagnosed at stage 4/advanced disease",
+    "Non-small cell lung cancer responds to chemotherapy at 15-30% response rates in advanced cases",
+    "First targeted therapy for ALK biomarker was developed by Pfizer in August 2011"
+  ],
+  "policy_relevance": [
+    "Discussion of lung cancer screening as an available option for early detection",
+    "Mention of FDA approval processes for targeted therapies (implied through discussion of drug development timeline)",
+    "Clinical trial development and advancement of new therapies through research institutions",
+    "Role of academic medical centers (Harvard, Memorial Sloan Kettering) in biomarker discovery"
+  ],
+  "key_quotes": [
+    "Biomarkers have kept me alive. You can think of a biomarker as a tiny molecular indicator that informs doctors about what's driving a patient's cancer.",
+    "20 years ago, you know, people with advanced stage disease, the majority of people would not live more than a year. It was very aggressive. And our treatments were relatively blunt instruments.",
+    "If my mother had been diagnosed with the lung cancer that she had, had she been diagnosed five years later, she may still be with us today. Because when we finally did get those biomarkers done and understand the type of lung cancer she had, there's immunotherapy out now."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer",
+      "publications": [
+        {
+          "id": "29065",
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "support normal physical growth",
+            "demonstrate quality factors",
+            "quality particularly critical",
+            "certain quality factors",
+            "drug omnibus reform act",
+            "science regarding methodologies",
+            "drug administration asked",
+            "infant formula",
+            "protein quality",
+            "biological quality",
+            "quality factor requirements",
+            "growth monitoring"
+          ],
+          "description": "Formula is often the sole source of nutrition for many infants, making its safety and quality particularly critical. While most food laws and regulations apply to infant formulas, they are also subject to additional requirements and manufacturer regulations for certain quality factors. These include an assessment of protein quality and demonstration that the formula supports normal infant physical growth. Per the Food and Drug Omnibus Reform Act of 2022, the U.S. Food and Drug Administration asked the National Academies to examine and report on the state of the science regarding methodologies for assessing the biological quality of protein in infant formula and the ability of infant formula to support normal physical growth. The committee's statement of task noted that its analysis should include the examination of current study designs and methods that could demonstrate quality factors have been met. The resulting report presents conclusions, recommendations, and areas of future resea",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        },
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "21754",
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "pediatric cancers little progress",
+            "significant acute side effects",
+            "american cancer society",
+            "pediatric cancers present",
+            "cancer policy forum",
+            "substantial continuing challenges",
+            "examine specific opportunities",
+            "while survival rates",
+            "cancer treatment",
+            "childhood cancer",
+            "comprehensive cancer care",
+            "institute",
+            "children",
+            "families",
+            "joint"
+          ],
+          "description": "Childhood cancer is an area of oncology that has seen both remarkable progress as well as substantial continuing challenges. While survival rates for some pediatric cancers present a story of success, for many types of pediatric cancers, little progress has been made. Many cancer treatments are known to cause not only significant acute side effects, but also lead to numerous long-term health risks and reduced quality of life. Even in cases where the cancer is considered curable, the consequences of treatment present substantial long-term health and psychosocial concerns for children, their families, their communities, and our health system. To examine specific opportunities and suggestions for driving optimal care delivery supporting survival with high quality of life, the National Cancer Policy Forum of the Institute of Medicine and the American Cancer Society co-hosted a workshop which convened experts and members of the public on March 9 and 10, 2015. At this workshop, clinicians an",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "ALK (anaplastic lymphoma kinase) rearrangements in lung cancer",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "21754",
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "pediatric cancers little progress",
+            "significant acute side effects",
+            "american cancer society",
+            "pediatric cancers present",
+            "cancer policy forum",
+            "substantial continuing challenges",
+            "examine specific opportunities",
+            "while survival rates",
+            "cancer treatment",
+            "childhood cancer",
+            "comprehensive cancer care",
+            "institute",
+            "children",
+            "families",
+            "joint"
+          ],
+          "description": "Childhood cancer is an area of oncology that has seen both remarkable progress as well as substantial continuing challenges. While survival rates for some pediatric cancers present a story of success, for many types of pediatric cancers, little progress has been made. Many cancer treatments are known to cause not only significant acute side effects, but also lead to numerous long-term health risks and reduced quality of life. Even in cases where the cancer is considered curable, the consequences of treatment present substantial long-term health and psychosocial concerns for children, their families, their communities, and our health system. To examine specific opportunities and suggestions for driving optimal care delivery supporting survival with high quality of life, the National Cancer Policy Forum of the Institute of Medicine and the American Cancer Society co-hosted a workshop which convened experts and members of the public on March 9 and 10, 2015. At this workshop, clinicians an",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "11468",
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "keywords": [
+            "cancer",
+            "survivor",
+            "oncology",
+            "treatment",
+            "patient",
+            "tumor"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Biomarkers and tumor markers as diagnostic tools",
+      "publications": [
+        {
+          "id": "11468",
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "keywords": [
+            "cancer",
+            "survivor",
+            "oncology",
+            "treatment",
+            "patient",
+            "tumor"
+          ]
+        },
+        {
+          "id": "21841",
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "keywords": [
+            "cancer",
+            "ovarian",
+            "oncology",
+            "tumor",
+            "treatment",
+            "women"
+          ]
+        },
+        {
+          "id": "21692",
+          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "molecularly targeted cancer therapies",
+            "better cancer treatments",
+            "cancer policy forum",
+            "improved patient outcomes",
+            "simply treating cancers",
+            "discuss recent trends",
+            "past decade advances",
+            "cancer community",
+            "long held goal",
+            "cancer rather",
+            "development",
+            "biomarkers",
+            "adoption",
+            "policy"
+          ],
+          "description": "A long-held goal in oncology has been to develop therapies that target the specific abnormalities in each patient's cancer rather than simply treating cancers based on the tissue of origin. In the past decade, advances in technology have enabled researchers to relatively quickly and inexpensively determine, in minute detail, the genetic makeup of tumors. Although relatively few targeted cancer therapies are currently available in the clinic and it is not yet clear whether all cancers are driven by genetic changes that can be targeted, there is widespread optimism in the cancer community that this new ability to assess the genetic abnormalities in tumors will ultimately lead to better cancer treatments and improved patient outcomes. Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies is the summary of a workshop convened in November 2014 by the Institute of Medicine's National Cancer Policy Forum to discuss recent trends in the developme",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Medicine in Neuroscience: Tools, Translation, and Implementation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Next-generation sequencing (NGS) for comprehensive genetic analysis",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "27165",
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "gene thereby diversifying genetic",
+            "existing methods cannot discover",
+            "current technological limitations",
+            "pressing societal challenges",
+            "living systems hold",
+            "distinct rna molecules",
+            "rna modifications",
+            "biological processes",
+            "human diseases",
+            "concerted efforts",
+            "sequencing rna",
+            "modifications",
+            "charting",
+            "biology",
+            "era"
+          ],
+          "description": "Concerted efforts to deepen understanding of RNA modifications and their role in living systems hold the potential to advance human health, improve crop yields, and address other pressing societal challenges. RNA, which carries the information encoded by DNA to the places where it is needed, is amazingly diverse and dynamic. RNA is processed and modified through natural biological pathways, giving rise to hundreds, in some cases thousands, of distinct RNA molecules for each gene, thereby diversifying genetic information. RNA modifications are known to be pivotal players in nearly all biological processes, and their dysregulation has been implicated in a wide range of human diseases and disorders. Yet, our knowledge of RNA modifications remains incomplete, hindered by current technological limitations. Existing methods cannot discover all RNA modifications, let alone comprehensively sequence them on every RNA molecule. Nonetheless, what is known about RNA modifications has already been ",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Targeted therapy/tyrosine kinase inhibitors for cancer treatment",
+      "publications": [
+        {
+          "id": "25043",
+          "title": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "cancer survivorship care since",
+            "cancer survivors receive",
+            "participants highlighted potential opportunities",
+            "cancer policy forum",
+            "cancer patient",
+            "significant physical psychosocial",
+            "financial repercussions",
+            "transition made",
+            "planning management",
+            "identifying best",
+            "long term survivorship care",
+            "cancer treatment"
+          ],
+          "description": "The 2006 Institute of Medicine (IOM) consensus study report From Cancer Patient to Cancer Survivor: Lost in Transition made recommendations to improve the quality of care that cancer survivors receive, in recognition that cancer survivors are at risk for significant physical, psychosocial, and financial repercussions from cancer and its treatment. Since then, efforts to recognize and address the unique needs of cancer survivors have increased, including an emphasis on improving the evidence base for cancer survivorship care and identifying best practices in the delivery of high-quality cancer survivorship care. To examine progress in cancer survivorship care since the Lost in Transition report, the National Cancer Policy Forum of the National Academies of Sciences, Engineering, and Medicine held a workshop in July 2017, in Washington, DC. Workshop participants highlighted potential opportunities to improve the planning, management, and delivery of cancer survivorship care. This publica",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "21754",
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "pediatric cancers little progress",
+            "significant acute side effects",
+            "american cancer society",
+            "pediatric cancers present",
+            "cancer policy forum",
+            "substantial continuing challenges",
+            "examine specific opportunities",
+            "while survival rates",
+            "cancer treatment",
+            "childhood cancer",
+            "comprehensive cancer care",
+            "institute",
+            "children",
+            "families",
+            "joint"
+          ],
+          "description": "Childhood cancer is an area of oncology that has seen both remarkable progress as well as substantial continuing challenges. While survival rates for some pediatric cancers present a story of success, for many types of pediatric cancers, little progress has been made. Many cancer treatments are known to cause not only significant acute side effects, but also lead to numerous long-term health risks and reduced quality of life. Even in cases where the cancer is considered curable, the consequences of treatment present substantial long-term health and psychosocial concerns for children, their families, their communities, and our health system. To examine specific opportunities and suggestions for driving optimal care delivery supporting survival with high quality of life, the National Cancer Policy Forum of the Institute of Medicine and the American Cancer Society co-hosted a workshop which convened experts and members of the public on March 9 and 10, 2015. At this workshop, clinicians an",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "11259",
+          "title": "Making Better Drugs for Children with Cancer",
+          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "treating childhood cancers stand",
+            "less dramatic improvements",
+            "making better drugs",
+            "cancer treatment",
+            "past four decades",
+            "cancer identifies",
+            "chemotherapeutic drugs",
+            "treatment regimens",
+            "drug discovery",
+            "building combinations",
+            "children",
+            "cancer"
+          ],
+          "description": "The successes that have been achieved in treating childhood cancers stand as beacons against the less dramatic improvements for adults with cancer. Progress began to accelerate in the 1960s and 1970s, as treatment regimens were built up, primarily by building combinations of chemotherapeutic drugs. However the near absence of research in pediatric cancer drug discovery threatens to halt the progress in childhood cancer treatment achieved during the past four decades. Making Better Drugs for Children with Cancer identifies the major issues to be addressed in developing new agents for childhood cancers, the gaps in research and development, and the steps that have been suggested to move the process forward. This report also makes a new proposal to capitalize on today's science to bring new treatments to children's cancers.",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "National Cancer Policy Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3459,
+  "saved_at": "2026-02-26T11:48:48.118333"
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - February 26, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">February 26, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">28</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">15</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">76</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals significant scientific progress in precision medicine and light biology, alongside critical governance challenges. A landmark lung cancer biomarker episode demonstrates how next-generation sequencing enables personalized treatment for 40-50% of non-small cell lung cancer patients—representing mature translation of basic research to clinical practice. Separately, the EPA's rescission of its 2009 endangerment finding removes the regulatory foundation for greenhouse gas controls, though EPA conceded the underlying climate science remains valid. Bluesky discussions show sustained engagement with climate science, biodiversity, and research integrity—topics aligned with recent podcasts on environmental policy and emerging biomarker standards. However, factual errors in political discourse (notably misattributing a crime's perpetrator) underscore ongoing challenges in evidence-based communication. NASEM has opportunities to amplify precision medicine standards, validate climate science assertions, and strengthen public communication on research integrity.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Biomarkers and precision medicine translation: NGS-enabled targeted therapies reducing chemotherapy toxicity in lung cancer</li>
+<li>Climate science consensus: EPA unable to challenge underlying climate science despite regulatory rollback</li>
+<li>Light biology and circadian health: Photoreceptor mechanisms linking light exposure to hormonal, immune, and visual function</li>
+<li>Research integrity and factual accuracy: Misinformation in public discourse versus scientific consensus</li>
+<li>Regulatory foundations for environmental and health protection: Legal versus scientific arguments in policy</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Precision medicine maturation: 40-50% of lung cancer patients now have actionable biomarkers—represents clinical adoption threshold for personalized oncology (recurring across past week: biomarkers theme on 2026-02-23)</li>
+<li>Light therapy applications expanding: Red light (670nm) and near-infrared (790nm) for vision decline reversal and cellular health—translational research moving toward consumer protocols</li>
+<li>Regulatory rollback on climate authority: EPA endangerment finding rescission signals shift toward state-level and market-driven climate action, with automaker pressure creating counter-pressure</li>
+<li>Democratic governance erosion narratives: Drawing on comparative authoritarianism analysis (Kasparov framework) to frame domestic political risk</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission a consensus study on precision medicine biomarker standards and NGS testing protocols to establish clinical utility thresholds and equity in access—addresses oncology translation gap</div>
+<div class="opportunity">Publish rapid assessment validating EPA's conceded climate science findings and clarifying distinction between legal/regulatory authority and scientific validity—counters regulatory rollback messaging</div>
+<div class="opportunity">Convene expert panel on light biology therapeutics (red light, circadian interventions) to establish evidence standards for consumer products and clinical claims—addresses Huberman Lab protocol translation gap</div>
+<div class="opportunity">Issue public statement on research integrity and factual accuracy in political discourse—leverage NASEM credibility to model evidence-based communication standards</div>
+<div class="opportunity">Engage with state environmental agencies on climate policy continuity post-federal rollback—position NASEM as neutral science broker for multi-state climate action frameworks</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Crime attribution error: Trump's State of the Union attributed Ukrainian refugee murder (Irina) to 'open borders' and illegal immigrants; perpetrator was actually from Charlotte and not an illegal immigrant—factual misrepresentation of a real crime used for political narrative</div>
+<div class="claim">Melatonin supplementation claims require verification: Huberman claims high endogenous melatonin in children delays puberty (healthy) and that supplementation should be avoided in pregnancy due to placental effects—conflicting with some medical literature suggesting melatonin has been studied in pregnancy; NASEM should cross-reference obstetric guidelines</div>
+<div class="claim">Inflation and economic claim contradictions: Trump claims inflation 'plummeting' and 'incomes rising fast' while Klein's data shows negative 30% approval on inflation handling—divergence between claim and public perception data</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biomarkers and Molecular Signatures Across Disease States</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on the theme that molecular biomarkers—genetic variants, protein signatures, imaging markers—enable early detection and stratification across neurological, psychiatric, and oncological diseases. Science Friday covered APOE variants in Alzheimer's (2026-02-25) and psychiatric biomarkers including schizophrenia genetics (2026-02-23); Science Will Win discussed NGS and tumor markers in lung cancer (2026-02-26); Huberman Lab explored epigenetic clocks for aging (2026-02-23). This reflects a broader shift toward precision medicine approaches that move beyond symptom-based diagnosis.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should consider how to accelerate biomarker validation pipelines and standardize clinical implementation across health systems to realize precision medicine benefits.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Reasoning, Interpretability, and Emergent Behaviors</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Ezra Klein Show (2026-02-24) and Science Magazine Podcast (2026-02-19) are both examining large language models with focus on reasoning capabilities, interpretability, and unexpected emergent behaviors (deception, preference formation). StarTalk Radio (2026-02-20) discussed neural networks and backpropagation algorithms in parallel. This convergence signals growing concern among science communicators and experts about AI systems' opacity and the need for mechanistic understanding before deployment.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Ezra Klein Show</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM leadership should prioritize developing frameworks for AI interpretability research and governance to inform federal science and technology policy.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate Adaptation and Disaster Resilience in Communities</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Policy Chats (2026-02-23) examined wildfire impacts on property markets, disaster resilience infrastructure, and green building certification; Science Friday (2026-02-26, 2026-02-25) covered greenhouse gas emissions, vehicle standards, and power plant emissions. Together, these episodes frame climate change as both an immediate infrastructure challenge and a long-term emissions mitigation problem, with emerging emphasis on adaptation and economic resilience.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Policy Chats</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop integrated guidance on climate adaptation infrastructure and property resilience standards that align with decarbonization goals.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Mental Health, Neurobiology, and Social Isolation in Aging Populations</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave (2026-02-25) explored geriatric psychiatry, smartphone addiction, and cognitive decline in older adults; Hidden Brain (2026-02-23) addressed psychological concepts of mattering, social isolation, and loneliness as public health crises; Science Friday (2026-02-23) discussed psychiatric biomarkers for depression and anxiety. This convergence highlights an emerging recognition that mental health in older adults is a critical public health challenge with both neurobiological and social determinants.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Hidden Brain</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene working groups on geriatric mental health to address social isolation, cognitive decline, and neurobiology-informed interventions in aging.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic Engineering and Disease-Resistant Crop Development</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Skeptics' Guide to the Universe (2026-02-21) discussed CRISPR gene editing, marker-assisted selection, and GMO banana development for fungal resistance (Tropical Race 4). This reflects a fading hesitation about gene-editing approaches and an emerging emphasis on using molecular tools to address food security threats posed by emerging pathogens and climate stress.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should evaluate regulatory and acceptance pathways for gene-edited crops as climate and disease pressures accelerate agricultural innovation needs.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #461 — Dictators Always Tell You What They'll Do</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Feb 25 &middot; 29 min</div>
+<p style="margin:10px 0;font-size:14px;">Garry Kasparov, chairman of the Renew Democracy Initiative and former chess world champion, discusses the erosion of democratic norms under Trump's second term. Drawing on his experience with authoritarianism in the Soviet Union and Putin's Russia, Kasparov argues that Trump's actions constitute a systematic threat to American democracy—not merely policy disagreements or corruption, but a fundamental assault on constitutional order. He emphasizes that dictators often publicly announce their intentions and warns that America faces a critical juncture in the 2026 midterms that will determine the fate of democratic institutions. Kasparov advocates for credibility restoration and cross-party cooperation as essential to rebuilding democratic trust.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Kasparov claims Putin announced plans to recover Russian imperial greatness in a 2005 speech before Russian parliament, describing Soviet collapse as 'greatest geopolitical catastrophe of 20th century'</div>
+<div class="claim">Claims Putin outlined NATO rollback demands at 2007 Munich Security Conference</div>
+<div class="claim">Claims Kasparov predicted in August 2008 that Ukraine would follow Georgia as target of Putin aggression</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Dictators always lie about what they have done, but very often they tell you exactly what they're going to do. So you'd better believe them."</div>
+<div class="quote">"With Trump, corruption is not a problem. Corruption is the system. The way Donald Trump is making himself rich is just, it's using the United States resources, United States policies, United States agencies. It's quite systematic."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Ezra Klein Show: Trump’s Fantasy State of the Union</span>
+</div>
+<div class="episode-meta">Ezra Klein &middot; Feb 25 &middot; 47 min</div>
+<p style="margin:10px 0;font-size:14px;">Ezra Klein analyzes Trump's 2026 State of the Union address, arguing that Trump's political vulnerabilities on immigration and the economy have worsened significantly since his 2024 election. Rather than acknowledging these problems or proposing solutions, Trump claimed everything is going well, contradicting public perception. Klein and guest Aaron Reddish discuss how Trump's isolation in a sycophantic administration, reliance on communication over actual governance, and deep engagement with right-wing conspiracy theories leave him detached from reality and unable to strategically address his political challenges.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Trump claims inflation is 'plummeting' and 'incomes are rising fast' - Klein notes these claims contradict economic reality with Trump's net approval on inflation at negative 30% and economy at negative 17%</div>
+<div class="claim">Trump attributed a murder of a Ukrainian refugee (Irina) to 'open borders' and illegal immigrants, but Klein corrects this by stating the perpetrator was actually from Charlotte and not an illegal immigrant - a significant factual error about a real crime</div>
+<div class="claim">Trump claims the border is 'secure' when Klein's data suggests immigration remains a vulnerability with his net approval declining from +10% to negative 7-13% on this issue</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What Trump said again and again was that the American people don't know what they're talking about. Today our border is secure. Our spirit is restored. Inflation is plummeting. Incomes are rising fast."</div>
+<div class="quote">"I think he believes his own bullshit. And I think that is an important skeleton key at this point to understanding the Trump administration."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Huberman Lab: Essentials: Using Light to Optimize Health</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Feb 26 &middot; 42 min</div>
+<p style="margin:10px 0;font-size:14px;">This Huberman Lab episode explains how different wavelengths of light interact with biology through photoreceptors in eyes and skin to influence hormones, neural function, and cellular health. The episode covers light's effects on melatonin production and circadian rhythms, pain perception via endogenous opioids, immune function through the spleen, skin and hair growth, and emerging research on red light therapy for reversing age-related vision decline. Huberman emphasizes practical protocols for optimizing light exposure across seasons while cautioning against excessive bright light exposure.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Circadian rhythm regulation by intrinsically photosensitive ganglion cells and melanopsin</span>
+  <span class="topic-tag">Melatonin production and suppression by light exposure</span>
+  <span class="topic-tag">Light wavelengths and tissue penetration (UVB, red light at 670nm, near-infrared at 790nm)</span>
+  <span class="topic-tag">Endogenous opioid release from periaqueductal gray in response to bright light</span>
+  <span class="topic-tag">UVB light effects on immune function and spleen activation via sympathetic nervous system</span>
+  <span class="topic-tag">Red light therapy effects on mitochondrial function, ATP production, and reactive oxygen species reduction</span>
+  <span class="topic-tag">Visual acuity improvement in aging using red light exposure (photoaging reversal)</span>
+  <span class="topic-tag">Drusen accumulation and cholesterol deposits in retina with aging</span>
+  <span class="topic-tag">Stem cell activation in skin and hair follicles triggered by light exposure to eyes</span>
+  <span class="topic-tag">Melatonin's regulatory effects on bone mass, gonadal maturation, and placental development</span>
+  <span class="topic-tag">Seasonal affective disorder and light-based interventions</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states" target="_blank">Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27416/supporting-family-caregivers-in-stemm-a-call-to-action" target="_blank">Supporting Family Caregivers in STEMM: A Call to Action</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up" target="_blank">Guidance on PFAS Exposure, Testing, and Clinical Follow-Up</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability" target="_blank">Selected Heritable Disorders of Connective Tissue and Disability</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24619/assessment-of-solid-state-lighting-phase-two" target="_blank">Assessment of Solid-State Lighting, Phase Two</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual" target="_blank">Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Melatonin supplementation levels are typically supraphysiological compared to natural endogenous production</div>
+<div class="claim">High endogenous melatonin in children suppresses gonadal maturation and is healthy for delaying puberty</div>
+<div class="claim">Melatonin supplementation should be avoided during pregnancy due to effects on placental development - needs verification against obstetric guidelines</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Light can actually change the genes that the cells of your body express, and that is true throughout the lifespan."</div>
+<div class="quote">"The environment around us is converted into a signal that changes the environment within us. That signal is melatonin."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: EPA Repeals The Legal Basis For Regulating Greenhouse Gases</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Feb 26 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">The Trump administration rescinded the EPA's 2009 endangerment finding, which legally established that greenhouse gas emissions endanger public health and welfare under the Clean Air Act. This finding was the regulatory basis for EPA authority to limit greenhouse gas emissions from vehicles and power plants. Dr. Andy Miller, an original author of the finding, explains that while the administration frames this as a legal rather than scientific argument, the EPA was unable to challenge the underlying climate science and ultimately conceded its validity. The rescission may trigger state-level regulatory responses and faces international pressure from automakers, though Miller suggests it may not constitute a catastrophic setback.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Greenhouse gas emissions and climate change</span>
+  <span class="topic-tag">CO2 as a pollutant</span>
+  <span class="topic-tag">Vehicle emission standards and fuel efficiency</span>
+  <span class="topic-tag">Power plant emissions</span>
+  <span class="topic-tag">Electric vehicles and plug-in hybrids</span>
+  <span class="topic-tag">Coal-to-natural gas transition in electricity generation</span>
+  <span class="topic-tag">Renewable energy integration</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10388/oil-in-the-sea-iii-inputs-fates-and-effects" target="_blank">Oil in the Sea III: Inputs, Fates, and Effects</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26612/advancing-the-framework-for-assessing-causality-of-health-and-welfare-effects-to-inform-national-ambient-air-quality-standard-reviews" target="_blank">Advancing the Framework for Assessing Causality of Health and Welfare Effects to Inform National Ambient Air Quality Standard Reviews</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles" target="_blank">Overcoming Barriers to Deployment of Plug-in Electric Vehicles</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education" target="_blank">Standards for K-12 Engineering Education?</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26668/navigating-an-electric-vehicle-future-proceedings-of-a-workshop" target="_blank">Navigating an Electric Vehicle Future: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles" target="_blank">Overcoming Barriers to Deployment of Plug-in Electric Vehicles</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">EPA was unable to demonstrate that mainstream climate science is in error or too uncertain for regulatory purposes</div>
+<div class="claim">Emissions from utility industry were already declining due to market shifts from coal to natural gas and renewables before regulatory action</div>
+<div class="claim">The endangerment finding enabled EPA vehicle emission regulations without waiting for Congressional action</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It officially and legally defines greenhouse gases as air pollutants. And with that definition and that finding, then that means that EPA is obligated to regulate that air pollutant or those air pollutants under the Clean Air Act."</div>
+<div class="quote">"The EPA was really forced to accept in this legal setting that the mainstream climate science is valid. They were not able to show that the science is either in error or is too uncertain to be used as the basis for regulatory decisions."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Will Win: Bringing Cancer Into Focus: Biomarkers & Precision Medicine</span>
+</div>
+<div class="episode-meta">Pfizer &middot; Feb 26 &middot; 30 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the role of biomarkers and precision medicine in transforming lung cancer treatment, using personal stories from patients Dr. Ross Camidge and Kelly Hoffman alongside scientific explanations. The episode traces the history of biomarker discovery from EGFR in the 1990s through ALK and other mutations, explaining how identifying specific genetic mutations allows for targeted therapies that are more effective and less toxic than traditional chemotherapy. The discussion highlights how next-generation sequencing has enabled testing for multiple biomarkers simultaneously, and notes that approximately 40-50% of non-small cell lung cancer patients now have actionable biomarkers with available therapies.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer</span>
+  <span class="topic-tag">ALK (anaplastic lymphoma kinase) rearrangements in lung cancer</span>
+  <span class="topic-tag">Biomarkers and tumor markers as diagnostic tools</span>
+  <span class="topic-tag">Next-generation sequencing (NGS) for comprehensive genetic analysis</span>
+  <span class="topic-tag">Targeted therapy/tyrosine kinase inhibitors for cancer treatment</span>
+  <span class="topic-tag">Immunotherapy and immune checkpoint inhibition</span>
+  <span class="topic-tag">Acquired resistance in cancer treatment</span>
+  <span class="topic-tag">BRAF mutations in lung cancer</span>
+  <span class="topic-tag">NRGN beta-6 as a novel biomarker target</span>
+  <span class="topic-tag">Liquid biopsy and tissue biopsy techniques</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">From Cancer Patient to Cancer Survivor: Lost in Transition</div>
+<div class="nasem-match">Ovarian Cancers: Evolving Paradigms in Research and Care</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a" target="_blank">Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">40-50% of non-small cell lung cancer patients have an actionable biomarker with available therapy</div>
+<div class="claim">9-10 biomarkers have been discovered in lung cancer</div>
+<div class="claim">EGFR mutation discovery occurred in 2004 by Harvard and Memorial Sloan Kettering researchers</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Biomarkers have kept me alive. You can think of a biomarker as a tiny molecular indicator that informs doctors about what's driving a patient's cancer."</div>
+<div class="quote">"20 years ago, you know, people with advanced stage disease, the majority of people would not live more than a year. It was very aggressive. And our treatments were relatively blunt instruments."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">76 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Paleontology and Dinosaur Discoveries (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing newly discovered small dinosaur fossils from South America and paleontological research methods.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Impact (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering climate effects on water resources, drought indices, renewable energy transitions, and ecosystem health.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Science (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Wide-ranging discussions including galaxy observations, lunar eclipses, black holes, and extraterrestrial life searches.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Integrity and Scientific Ethics (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing fraudulent research detection, scientist misconduct fallout, and misinformation in science communication.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Ecology (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on ecosystem indicators like butterflies, frog diversity, bird migration tracking, and plant heat tolerance responses.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@whysharksmatter.bsky.social</div>
+  <div class="bluesky-stats">178 likes &middot; 19 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Scientists face fallout for past associations with Epstein 🧪
+
+idp.nature.com/authorize?re...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/whysharksmatter.bsky.social/post/3mfq262ltg22h" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">119 likes &middot; 48 reposts &middot; 13 replies</div>
+  <div class="bluesky-text">🧪Autism has a strong genetic component, involving ~500 genes. Environmental factors are implicated as well. 
+
+The vague misleading phrase “Science is never settled” in the context of vaccines & autism is a glaring 🚩🚩. Spoken like a spurious “medical professional”.
+
+Beware of MAHAesque rhetoric.</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfpsxfqjbk2s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@markscherz.bsky.social</div>
+  <div class="bluesky-stats">96 likes &middot; 13 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Platypelis tuberifera always remind me of a rockclimber bridging a chimney, the way they sit in the groove of Pandanus fronds. Such charming frogs! And we know so very little about their ecology. For instance, as far as I know nobody has ever found their eggs or tadpoles! 🧪🐸🇲🇬</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/markscherz.bsky.social/post/3mfpgpocl5c2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@studiomineralia.bsky.social</div>
+  <div class="bluesky-stats">74 likes &middot; 16 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Saturated red Heulandite perfectly positioned on a basalt matrix covered in spires of sparkling black Chalcedony. Jalgaon, Maharashtra, India. 🧪 #minerals #geology #earthscience #crystals #artgallery</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/studiomineralia.bsky.social/post/3mfqiicjnms2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@alinemghilardi.bsky.social</div>
+  <div class="bluesky-stats">50 likes &middot; 22 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">www.sci.news/paleontology... 
+⚒️🧪🦕</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/alinemghilardi.bsky.social/post/3mfpw6rvtrk2k" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Scientific Integrity and Research Ethics</strong>: Posts on fraudulent research detection, misconduct fallout, and unqualified medical professionals relate to NASEM's work on research integrity standards and credentialing.</div>
+<div class="nasem-match"><strong>Climate Change Impacts on Water and Public Health</strong>: Climate-driven threats to drinking water quantity/quality and cardiovascular disease projections align with NASEM's work on climate adaptation and health security.</div>
+<div class="nasem-match"><strong>Science Communication and Countering Misinformation</strong>: Posts on vaccine-autism myths and AI understanding nuclear weapons stakes relate to NASEM's mission of informing policy through credible science communication.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated February 26, 2026 at 11:49 AM | Internal use only
+    </div>
+</body>
+</html>

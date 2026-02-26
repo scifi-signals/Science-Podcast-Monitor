@@ -1,0 +1,660 @@
+{
+  "podcast_id": "huberman-lab",
+  "podcast_name": "Huberman Lab",
+  "episode_title": "Essentials: Using Light to Optimize Health",
+  "host": "Andrew Huberman",
+  "published": "2026-02-26T09:00:00",
+  "duration_minutes": 42.5,
+  "influence_tier": "high",
+  "category": "science_health_influencer",
+  "summary": "This Huberman Lab episode explains how different wavelengths of light interact with biology through photoreceptors in eyes and skin to influence hormones, neural function, and cellular health. The episode covers light's effects on melatonin production and circadian rhythms, pain perception via endogenous opioids, immune function through the spleen, skin and hair growth, and emerging research on red light therapy for reversing age-related vision decline. Huberman emphasizes practical protocols for optimizing light exposure across seasons while cautioning against excessive bright light exposure.",
+  "science_topics": [
+    "Circadian rhythm regulation by intrinsically photosensitive ganglion cells and melanopsin",
+    "Melatonin production and suppression by light exposure",
+    "Light wavelengths and tissue penetration (UVB, red light at 670nm, near-infrared at 790nm)",
+    "Endogenous opioid release from periaqueductal gray in response to bright light",
+    "UVB light effects on immune function and spleen activation via sympathetic nervous system",
+    "Red light therapy effects on mitochondrial function, ATP production, and reactive oxygen species reduction",
+    "Visual acuity improvement in aging using red light exposure (photoaging reversal)",
+    "Drusen accumulation and cholesterol deposits in retina with aging",
+    "Stem cell activation in skin and hair follicles triggered by light exposure to eyes",
+    "Melatonin's regulatory effects on bone mass, gonadal maturation, and placental development",
+    "Seasonal affective disorder and light-based interventions"
+  ],
+  "claims_to_note": [
+    "Melatonin supplementation levels are typically supraphysiological compared to natural endogenous production",
+    "High endogenous melatonin in children suppresses gonadal maturation and is healthy for delaying puberty",
+    "Melatonin supplementation should be avoided during pregnancy due to effects on placental development - needs verification against obstetric guidelines",
+    "UVB exposure improves wound healing, hair growth, and nail turnover - cite studies needed",
+    "Red light (670nm) and near-infrared (790nm) exposure for 2-3 minutes daily improved visual acuity by 22% in subjects aged 40-72 but not younger - requires verification of Jeffrey Lab studies",
+    "Red light exposure reduced drusen (cholesterol deposits) in the retina",
+    "Short wavelength light from screens increases cortisol in evening hours - needs current evidence check",
+    "Most commercial red light panels are too bright for safe direct eye viewing",
+    "Light exposure effects on immune function are mediated by sympathetic nervous system activation, not direct spleen illumination"
+  ],
+  "policy_relevance": [
+    "Mention of seasonal affective disorder (SAD) and potential policy implications for winter light exposure recommendations in healthcare",
+    "Reference to director of Chronobiology Unit at National Institutes of Mental Health (Sarah Matar) supporting year-round UVB exposure",
+    "Potential implications for workplace lighting standards, particularly for shift workers",
+    "Medical contraindications requiring ophthalmologist and dermatologist consultation for individuals with retinitis pigmentosa, macular degeneration, glaucoma, or skin cancer risk"
+  ],
+  "key_quotes": [
+    "Light can actually change the genes that the cells of your body express, and that is true throughout the lifespan.",
+    "The environment around us is converted into a signal that changes the environment within us. That signal is melatonin.",
+    "Viewing red light and near infrared light at a distance at which it is safe for just a couple of minutes each day allowed a reversal of the aging process of these neurons."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Circadian rhythm regulation by intrinsically photosensitive ganglion cells and melanopsin",
+      "publications": [
+        {
+          "id": "27765",
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "vulnerabilities identifies remaining gaps",
+            "additional risk management planning",
+            "supply chain disruptions",
+            "supply market competition",
+            "relevant stakeholders addressed",
+            "drug administration contracted",
+            "infant formula",
+            "marketplace vulnerabilities",
+            "consequently disruptions",
+            "protect infants",
+            "challenges",
+            "regulation"
+          ],
+          "description": "Infant formula is a primary or supplementary source of nutrition for many infants in the U.S. Consequently, disruptions to the supply of infant formula can have a severe impact on infants' health and well-being. In late 2021 and early 2022, a recall of specific infant formula products, followed by a pause in production, resulted in a widespread, national shortage. The incident demonstrated that additional risk management planning is needed to protect infants from the consequences of potential future supply chain disruptions. In 2023, the U.S. Food and Drug Administration contracted with the National Academies to convene an expert committee to examine and report on challenges in supply, market competition, and regulation of infant formula. The resulting consensus study report explains policy and marketplace vulnerabilities that were exposed during the shortage, describes the extent to which actions taken by relevant stakeholders addressed these vulnerabilities, identifies remaining gaps",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food And Nutrition Board"
+        },
+        {
+          "id": "27416",
+          "title": "Supporting Family Caregivers in STEMM: A Call to Action",
+          "url": "https://nap.nationalacademies.org/catalog/27416/supporting-family-caregivers-in-stemm-a-call-to-action",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "supporting family caregivers",
+            "stemm",
+            "call"
+          ],
+          "year": 2025,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "10195",
+          "title": "Stem Cells and the Future of Regenerative Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/10195/stem-cells-and-the-future-of-regenerative-medicine",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "embryonic stem cells",
+            "important stem cells",
+            "stem cell lines",
+            "undifferentiated human cells",
+            "funding questions prompted",
+            "conflicting religious beliefs",
+            "therapeutic potential",
+            "political crosshairs",
+            "deeper exploration",
+            "biological ethical",
+            "stem cell",
+            "regenerative"
+          ],
+          "description": "Recent scientific breakthroughs, celebrity patient advocates, and conflicting religious beliefs have come together to bring the state of stem cell researchâ€\"specifically embryonic stem cell researchâ€\"into the political crosshairs. President Bush's watershed policy statement allows federal funding for embryonic stem cell research but only on a limited number of stem cell lines. Millions of Americans could be affected by the continuing political debate among policymakers and the public. Stem Cells and the Future of Regenerative Medicine provides a deeper exploration of the biological, ethical, and funding questions prompted by the therapeutic potential of undifferentiated human cells. In terms accessible to lay readers, the book summarizes what we know about adult and embryonic stem cells and discusses how to go about the transition from mouse studies to research that has therapeutic implications for people. Perhaps most important, Stem Cells and the Future of Regenerative Medicine als",
+          "year": 2002,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Neuroscience and Behavioral Health"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Melatonin production and suppression by light exposure",
+      "publications": [
+        {
+          "id": "23531",
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ambient air pollutant standards",
+            "date indoor exposure",
+            "various indoor sources",
+            "extremely small particles",
+            "adverse health effects",
+            "liquid droplets comprising",
+            "outdoor particles",
+            "outdoor exposure",
+            "indoor exposures",
+            "dust particles",
+            "particulate matter",
+            "indoor exposure",
+            "health risks"
+          ],
+          "description": "The U.S. Environmental Protection Agency (EPA) defines PM as a mixture of extremely small particles and liquid droplets comprising a number of components, including \"acids (such as nitrates and sulfates), organic chemicals, metals, soil or dust particles, and allergens (such as fragments of pollen and mold spores)\". The health effects of outdoor exposure to particulate matter (PM) are the subject of both research attention and regulatory action. Although much less studied to date, indoor exposure to PM is gaining attention as a potential source of adverse health effects. Indoor PM can originate from outdoor particles and also from various indoor sources, including heating, cooking, and smoking. Levels of indoor PM have the potential to exceed outdoor PM levels. Understanding the major features and subtleties of indoor exposures to particles of outdoor origin can improve our understanding of the exposureâ€\"response relationship on which ambient air pollutant standards are based. The EPA",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "26156",
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "offer pfas blood testing",
+            "non stick cookware water",
+            "polyfluoroalkyl substances pfas",
+            "fire fighting foam because",
+            "water reduce friction",
+            "resist temperature changes",
+            "stain repellent fabrics",
+            "made used disposed",
+            "adverse health effects",
+            "pfas exposure",
+            "pfas exposure testing",
+            "clinical follow",
+            "guidance"
+          ],
+          "description": "In thousands of communities across the United States, drinking water is contaminated with chemicals known as perfluoroalkyl and polyfluoroalkyl substances (PFAS). PFAS are used in a wide range of products, such as non-stick cookware, water and stain repellent fabrics, and fire-fighting foam, because they have properties that repel oil and water, reduce friction, and resist temperature changes. PFAS can leak into the environment where they are made, used, disposed of, or spilled. PFAS exposure has been linked to a number of adverse health effects including certain cancers, thyroid dysfunction, changes in cholesterol, and small reductions in birth weight. This report recommends that the Centers for Disease Control and Prevention (CDC) update its clinical guidance to advise clinicians to offer PFAS blood testing to patients who are likely to have a history of elevated exposure, such as those with occupational exposures or those who live in areas known to be contaminated. If testing reveal",
+          "year": 2022,
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on the Guidance on PFAS "
+        },
+        {
+          "id": "13209",
+          "title": "Long-Term Health Consequences of Exposure to Burn Pits in Iraq and Afghanistan",
+          "url": "https://nap.nationalacademies.org/catalog/13209/long-term-health-consequences-of-exposure-to-burn-pits-in-iraq-and-afghanistan",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "long term health effects",
+            "efficient data gathering methods",
+            "open air burn pits",
+            "particular controversy surrounds",
+            "insufficient evidence prevented",
+            "veterans affairs asked",
+            "developing firm conclusions",
+            "burn pit used",
+            "joint base balad",
+            "waste per day",
+            "long term health consequences",
+            "burn pits",
+            "afghanistan",
+            "exposure",
+            "iraq"
+          ],
+          "description": "Many veterans returning from the conflicts in Iraq and Afghanistan have health problems they believe are related to their exposure to the smoke from the burning of waste in open-air \"burn pits\" on military bases. Particular controversy surrounds the burn pit used to dispose of solid waste at Joint Base Balad in Iraq, which burned up to 200 tons of waste per day in 2007. The Department of Veterans Affairs asked the IOM to form a committee to determine the long-term health effects from exposure to these burn pits. Insufficient evidence prevented the IOM committee from developing firm conclusions. This report, therefore, recommends that, along with more efficient data-gathering methods, a study be conducted that would evaluate the health status of service members from their time of deployment over many years to determine their incidence of chronic diseases.",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on the Health of Select Populations"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Light wavelengths and tissue penetration (UVB, red light at 670nm, near-infrared at 790nm)",
+      "publications": [
+        {
+          "id": "26431",
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "social security disability insurance",
+            "supplemental security income program",
+            "connective tissue hdcts",
+            "selected heritable disorders",
+            "because connective tissue",
+            "social security administration",
+            "inherited genetic disorders",
+            "multiple body systems",
+            "ehlers danlos syndromes",
+            "selected hdcts",
+            "connective tissue",
+            "disability"
+          ],
+          "description": "Heritable disorders of connective tissue (HDCTs) are a diverse group of inherited genetic disorders and subtypes. Because connective tissue is found throughout the body, the impairments associated with HDCTs manifest in multiple body systems and may change or vary in severity throughout an affected individual's lifetime. In some cases, these impairments may be severe enough to qualify an eligible child or adult for monetary benefits through the U.S. Social Security Administration's (SSA's) Social Security Disability Insurance or Supplemental Security Income program. SSA asked the National Academies of Sciences, Engineering, and Medicine to convene an expert committee that would provide current information regarding the diagnosis, treatment, and prognosis of selected HDCTs, including Marfan syndrome and the Ehlers-Danlos syndromes, and the effect of the disorders and their treatment on functioning. The resulting report, Selected Heritable Disorders of Connective Tissue and Disability, p",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "24619",
+          "title": "Assessment of Solid-State Lighting, Phase Two",
+          "url": "https://nap.nationalacademies.org/catalog/24619/assessment-of-solid-state-lighting-phase-two",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advanced solid state lighting",
+            "standard incandescent light bulb",
+            "compact fluorescent lamps cfls",
+            "newer lighting technologies",
+            "thomas edison invented",
+            "still works mainly",
+            "energy consumption",
+            "increased dramatically",
+            "dramatically decreasing",
+            "energy used"
+          ],
+          "description": "The standard incandescent light bulb, which still works mainly as Thomas Edison invented it, converts more than 90% of the consumed electricity into heat. Given the availability of newer lighting technologies that convert a greater percentage of electricity into useful light, there is potential to decrease the amount of energy used for lighting in both commercial and residential applications. Although technologies such as compact fluorescent lamps (CFLs) have emerged in the past few decades and will help achieve the goal of increased energy efficiency, solid-state lighting (SSL) stands to play a large role in dramatically decreasing U.S. energy consumption for lighting. Since the publication of the 2013 National Research Council report Assessment of Advanced Solid-State Lighting, the penetration of SSL has increased dramatically, with a resulting savings in energy and costs that were foreshadowed by that study. What was not anticipated then is the dramatic dislocation and restructuring",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "21744",
+          "title": "Cost, Effectiveness, and Deployment of Fuel Economy Technologies for Light-Duty Vehicles",
+          "url": "https://nap.nationalacademies.org/catalog/21744/cost-effectiveness-and-deployment-of-fuel-economy-technologies-for-light-duty-vehicles",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advanced technologies materials electronics",
+            "undergo substantial technological changes",
+            "increasingly stringent fuel economy",
+            "dominant powertrain configuration even",
+            "light duty vehicle fleet",
+            "greenhouse gas emission standards",
+            "light duty trucks",
+            "next several decades",
+            "next decade cars",
+            "fuel vehicles",
+            "fuel economy technologies",
+            "light duty vehicles",
+            "cost effectiveness",
+            "deployment"
+          ],
+          "description": "The light-duty vehicle fleet is expected to undergo substantial technological changes over the next several decades. New powertrain designs, alternative fuels, advanced materials and significant changes to the vehicle body are being driven by increasingly stringent fuel economy and greenhouse gas emission standards. By the end of the next decade, cars and light-duty trucks will be more fuel efficient, weigh less, emit less air pollutants, have more safety features, and will be more expensive to purchase relative to current vehicles. Though the gasoline-powered spark ignition engine will continue to be the dominant powertrain configuration even through 2030, such vehicles will be equipped with advanced technologies, materials, electronics and controls, and aerodynamics. And by 2030, the deployment of alternative methods to propel and fuel vehicles and alternative modes of transportation, including autonomous vehicles, will be well underway. What are these new technologies - how will the",
+          "year": 2015,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Endogenous opioid release from periaqueductal gray in response to bright light",
+      "publications": [
+        {
+          "id": "24781",
+          "title": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+          "url": "https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ongoing opioid crisis lies",
+            "drug overdose driven largely",
+            "drug administration fda launched",
+            "two public health challenges",
+            "growing opioid problem",
+            "opioid use disorder",
+            "unintentional injury death",
+            "causing untold disability",
+            "opioid medications",
+            "opioid epidemic",
+            "prescription opioid use",
+            "individual benefits",
+            "balancing societal",
+            "pain management",
+            "risks"
+          ],
+          "description": "Drug overdose, driven largely by overdose related to the use of opioids, is now the leading cause of unintentional injury death in the United States. The ongoing opioid crisis lies at the intersection of two public health challenges: reducing the burden of suffering from pain and containing the rising toll of the harms that can arise from the use of opioid medications. Chronic pain and opioid use disorder both represent complex human conditions affecting millions of Americans and causing untold disability and loss of function. In the context of the growing opioid problem, the U.S. Food and Drug Administration (FDA) launched an Opioids Action Plan in early 2016. As part of this plan, the FDA asked the National Academies of Sciences, Engineering, and Medicine to convene a committee to update the state of the science on pain research, care, and education and to identify actions the FDA and others can take to respond to the opioid epidemic, with a particular focus on informing FDA's develo",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        },
+        {
+          "id": "25310",
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "keywords": [
+            "opioid",
+            "addiction",
+            "medication",
+            "treatment",
+            "drug",
+            "overdose"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "UVB light effects on immune function and spleen activation via sympathetic nervous system",
+      "publications": [
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 5293,
+  "saved_at": "2026-02-26T11:48:48.116707"
+}

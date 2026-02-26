@@ -1,7 +1,364 @@
 {
-  "updated": "2026-02-25T11:49:45.790273",
-  "episode_count": 35,
+  "updated": "2026-02-26T11:49:22.964886",
+  "episode_count": 40,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "EPA Repeals The Legal Basis For Regulating Greenhouse Gases",
+      "host": "Ira Flatow",
+      "published": "2026-02-26T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The Trump administration rescinded the EPA's 2009 endangerment finding, which legally established that greenhouse gas emissions endanger public health and welfare under the Clean Air Act. This finding was the regulatory basis for EPA authority to limit greenhouse gas emissions from vehicles and power plants. Dr. Andy Miller, an original author of the finding, explains that while the administration frames this as a legal rather than scientific argument, the EPA was unable to challenge the underlying climate science and ultimately conceded its validity. The rescission may trigger state-level regulatory responses and faces international pressure from automakers, though Miller suggests it may not constitute a catastrophic setback.",
+      "science_topics": [
+        "Greenhouse gas emissions and climate change",
+        "CO2 as a pollutant",
+        "Vehicle emission standards and fuel efficiency",
+        "Power plant emissions",
+        "Electric vehicles and plug-in hybrids",
+        "Coal-to-natural gas transition in electricity generation",
+        "Renewable energy integration"
+      ],
+      "claims_to_note": [
+        "EPA was unable to demonstrate that mainstream climate science is in error or too uncertain for regulatory purposes",
+        "Emissions from utility industry were already declining due to market shifts from coal to natural gas and renewables before regulatory action",
+        "The endangerment finding enabled EPA vehicle emission regulations without waiting for Congressional action",
+        "Power plant emissions regulations 'didn't require deep cuts' and 'codified what was already happening in the utility industry'"
+      ],
+      "policy_relevance": [
+        "Rescission of the 2009 EPA endangerment finding under the Trump administration",
+        "Legal basis: Clean Air Act and its applicability to greenhouse gases",
+        "Massachusetts v. EPA (2007) Supreme Court decision establishing that greenhouse gases meet Clean Air Act definitions",
+        "EPA Administrator Lee Zeldin's justification based on recent Supreme Court decisions limiting EPA authority",
+        "Vehicle fuel efficiency standards regulation under EPA authority",
+        "Power plant emissions reduction programs (Clean Power Plan era)",
+        "Potential state-level regulatory responses and 50-state regulatory fragmentation",
+        "International pressure from overseas automakers and consumer preferences driving efficiency regardless of federal regulation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Oil in the Sea III: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/10388/oil-in-the-sea-iii-inputs-fates-and-effects"
+        },
+        {
+          "title": "Advancing the Framework for Assessing Causality of Health and Welfare Effects to Inform National Ambient Air Quality Standard Reviews",
+          "url": "https://nap.nationalacademies.org/catalog/26612/advancing-the-framework-for-assessing-causality-of-health-and-welfare-effects-to-inform-national-ambient-air-quality-standard-reviews"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Overcoming Barriers to Deployment of Plug-in Electric Vehicles",
+          "url": "https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles"
+        },
+        {
+          "title": "Standards for K-12 Engineering Education?",
+          "url": "https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education"
+        },
+        {
+          "title": "Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon"
+        },
+        {
+          "title": "Navigating an Electric Vehicle Future: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26668/navigating-an-electric-vehicle-future-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Overcoming Barriers to Deployment of Plug-in Electric Vehicles",
+          "url": "https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles"
+        },
+        {
+          "title": "The Role of Net Metering in the Evolving Electricity System",
+          "url": "https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system"
+        }
+      ]
+    },
+    {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Essentials: Using Light to Optimize Health",
+      "host": "Andrew Huberman",
+      "published": "2026-02-26T09:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "This Huberman Lab episode explains how different wavelengths of light interact with biology through photoreceptors in eyes and skin to influence hormones, neural function, and cellular health. The episode covers light's effects on melatonin production and circadian rhythms, pain perception via endogenous opioids, immune function through the spleen, skin and hair growth, and emerging research on red light therapy for reversing age-related vision decline. Huberman emphasizes practical protocols for optimizing light exposure across seasons while cautioning against excessive bright light exposure.",
+      "science_topics": [
+        "Circadian rhythm regulation by intrinsically photosensitive ganglion cells and melanopsin",
+        "Melatonin production and suppression by light exposure",
+        "Light wavelengths and tissue penetration (UVB, red light at 670nm, near-infrared at 790nm)",
+        "Endogenous opioid release from periaqueductal gray in response to bright light",
+        "UVB light effects on immune function and spleen activation via sympathetic nervous system",
+        "Red light therapy effects on mitochondrial function, ATP production, and reactive oxygen species reduction",
+        "Visual acuity improvement in aging using red light exposure (photoaging reversal)",
+        "Drusen accumulation and cholesterol deposits in retina with aging",
+        "Stem cell activation in skin and hair follicles triggered by light exposure to eyes",
+        "Melatonin's regulatory effects on bone mass, gonadal maturation, and placental development",
+        "Seasonal affective disorder and light-based interventions"
+      ],
+      "claims_to_note": [
+        "Melatonin supplementation levels are typically supraphysiological compared to natural endogenous production",
+        "High endogenous melatonin in children suppresses gonadal maturation and is healthy for delaying puberty",
+        "Melatonin supplementation should be avoided during pregnancy due to effects on placental development - needs verification against obstetric guidelines",
+        "UVB exposure improves wound healing, hair growth, and nail turnover - cite studies needed",
+        "Red light (670nm) and near-infrared (790nm) exposure for 2-3 minutes daily improved visual acuity by 22% in subjects aged 40-72 but not younger - requires verification of Jeffrey Lab studies",
+        "Red light exposure reduced drusen (cholesterol deposits) in the retina",
+        "Short wavelength light from screens increases cortisol in evening hours - needs current evidence check",
+        "Most commercial red light panels are too bright for safe direct eye viewing",
+        "Light exposure effects on immune function are mediated by sympathetic nervous system activation, not direct spleen illumination"
+      ],
+      "policy_relevance": [
+        "Mention of seasonal affective disorder (SAD) and potential policy implications for winter light exposure recommendations in healthcare",
+        "Reference to director of Chronobiology Unit at National Institutes of Mental Health (Sarah Matar) supporting year-round UVB exposure",
+        "Potential implications for workplace lighting standards, particularly for shift workers",
+        "Medical contraindications requiring ophthalmologist and dermatologist consultation for individuals with retinitis pigmentosa, macular degeneration, glaucoma, or skin cancer risk"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Supporting Family Caregivers in STEMM: A Call to Action",
+          "url": "https://nap.nationalacademies.org/catalog/27416/supporting-family-caregivers-in-stemm-a-call-to-action"
+        },
+        {
+          "title": "Stem Cells and the Future of Regenerative Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/10195/stem-cells-and-the-future-of-regenerative-medicine"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Long-Term Health Consequences of Exposure to Burn Pits in Iraq and Afghanistan",
+          "url": "https://nap.nationalacademies.org/catalog/13209/long-term-health-consequences-of-exposure-to-burn-pits-in-iraq-and-afghanistan"
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "Assessment of Solid-State Lighting, Phase Two",
+          "url": "https://nap.nationalacademies.org/catalog/24619/assessment-of-solid-state-lighting-phase-two"
+        },
+        {
+          "title": "Cost, Effectiveness, and Deployment of Fuel Economy Technologies for Light-Duty Vehicles",
+          "url": "https://nap.nationalacademies.org/catalog/21744/cost-effectiveness-and-deployment-of-fuel-economy-technologies-for-light-duty-vehicles"
+        },
+        {
+          "title": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+          "url": "https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-will-win",
+      "podcast_name": "Science Will Win",
+      "episode_title": "Bringing Cancer Into Focus: Biomarkers & Precision Medicine",
+      "host": "Pfizer",
+      "published": "2026-02-26T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode examines the role of biomarkers and precision medicine in transforming lung cancer treatment, using personal stories from patients Dr. Ross Camidge and Kelly Hoffman alongside scientific explanations. The episode traces the history of biomarker discovery from EGFR in the 1990s through ALK and other mutations, explaining how identifying specific genetic mutations allows for targeted therapies that are more effective and less toxic than traditional chemotherapy. The discussion highlights how next-generation sequencing has enabled testing for multiple biomarkers simultaneously, and notes that approximately 40-50% of non-small cell lung cancer patients now have actionable biomarkers with available therapies.",
+      "science_topics": [
+        "EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer",
+        "ALK (anaplastic lymphoma kinase) rearrangements in lung cancer",
+        "Biomarkers and tumor markers as diagnostic tools",
+        "Next-generation sequencing (NGS) for comprehensive genetic analysis",
+        "Targeted therapy/tyrosine kinase inhibitors for cancer treatment",
+        "Immunotherapy and immune checkpoint inhibition",
+        "Acquired resistance in cancer treatment",
+        "BRAF mutations in lung cancer",
+        "NRGN beta-6 as a novel biomarker target",
+        "Liquid biopsy and tissue biopsy techniques"
+      ],
+      "claims_to_note": [
+        "40-50% of non-small cell lung cancer patients have an actionable biomarker with available therapy",
+        "9-10 biomarkers have been discovered in lung cancer",
+        "EGFR mutation discovery occurred in 2004 by Harvard and Memorial Sloan Kettering researchers",
+        "ALK mutation occurs in approximately 5% of non-small cell lung cancer cases",
+        "20 years ago, majority of advanced stage lung cancer patients would not live more than a year",
+        "Non-small cell lung cancer represents 80% of thoracic oncology cases",
+        "Two-thirds of lung cancer patients are diagnosed at stage 4/advanced disease",
+        "Non-small cell lung cancer responds to chemotherapy at 15-30% response rates in advanced cases",
+        "First targeted therapy for ALK biomarker was developed by Pfizer in August 2011"
+      ],
+      "policy_relevance": [
+        "Discussion of lung cancer screening as an available option for early detection",
+        "Mention of FDA approval processes for targeted therapies (implied through discussion of drug development timeline)",
+        "Clinical trial development and advancement of new therapies through research institutions",
+        "Role of academic medical centers (Harvard, Memorial Sloan Kettering) in biomarker discovery"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "url": ""
+        },
+        {
+          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a"
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Making Better Drugs for Children with Cancer",
+          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer"
+        }
+      ]
+    },
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "Trump’s Fantasy State of the Union",
+      "host": "Ezra Klein",
+      "published": "2026-02-25T22:17:28",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Ezra Klein analyzes Trump's 2026 State of the Union address, arguing that Trump's political vulnerabilities on immigration and the economy have worsened significantly since his 2024 election. Rather than acknowledging these problems or proposing solutions, Trump claimed everything is going well, contradicting public perception. Klein and guest Aaron Reddish discuss how Trump's isolation in a sycophantic administration, reliance on communication over actual governance, and deep engagement with right-wing conspiracy theories leave him detached from reality and unable to strategically address his political challenges.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Trump claims inflation is 'plummeting' and 'incomes are rising fast' - Klein notes these claims contradict economic reality with Trump's net approval on inflation at negative 30% and economy at negative 17%",
+        "Trump attributed a murder of a Ukrainian refugee (Irina) to 'open borders' and illegal immigrants, but Klein corrects this by stating the perpetrator was actually from Charlotte and not an illegal immigrant - a significant factual error about a real crime",
+        "Trump claims the border is 'secure' when Klein's data suggests immigration remains a vulnerability with his net approval declining from +10% to negative 7-13% on this issue",
+        "Discussion of crime statistics: Klein notes violent crime has 'fallen quite a bit' and is 'at a violent crime low' despite public perception of disorder",
+        "Trump's characterization of Democrats' immigration policy as deliberately aimed at bringing in voters to support Democratic candidates - Klein calls this a conspiracy theory"
+      ],
+      "policy_relevance": [
+        "Trump's tariff policies and their economic effects - Klein notes net approval on trade at negative 23%",
+        "Trump RX program - individual negotiations with drug manufacturers for cheaper prescription drug prices, characterized as retail rather than wholesale policy",
+        "Immigration enforcement operations involving ICE, CBP, and National Guard deployments to major cities",
+        "SAVE Act - Trump's voter ID requirement proposal",
+        "Congressional insider stock trading ban - Trump proposal that Klein notes is very popular but Democrats did not implement",
+        "Potential Democratic subpoena powers if they win House/Senate majority, threatening investigations into Trump administration corruption",
+        "Texas Senate race dynamics and Trump's refusal to endorse John Cornyn, potentially affecting Republican Senate control",
+        "EPA's endangerment finding repeal by Trump administration (mentioned in advertisement segment)"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#461 — Dictators Always Tell You What They'll Do",
+      "host": "Sam Harris",
+      "published": "2026-02-25T19:15:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Garry Kasparov, chairman of the Renew Democracy Initiative and former chess world champion, discusses the erosion of democratic norms under Trump's second term. Drawing on his experience with authoritarianism in the Soviet Union and Putin's Russia, Kasparov argues that Trump's actions constitute a systematic threat to American democracy—not merely policy disagreements or corruption, but a fundamental assault on constitutional order. He emphasizes that dictators often publicly announce their intentions and warns that America faces a critical juncture in the 2026 midterms that will determine the fate of democratic institutions. Kasparov advocates for credibility restoration and cross-party cooperation as essential to rebuilding democratic trust.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Kasparov claims Putin announced plans to recover Russian imperial greatness in a 2005 speech before Russian parliament, describing Soviet collapse as 'greatest geopolitical catastrophe of 20th century'",
+        "Claims Putin outlined NATO rollback demands at 2007 Munich Security Conference",
+        "Claims Kasparov predicted in August 2008 that Ukraine would follow Georgia as target of Putin aggression",
+        "Claims 1994 nuclear agreement guaranteed Ukraine's sovereignty and borders in exchange for surrendering third-largest nuclear arsenal"
+      ],
+      "policy_relevance": [
+        "Discussion of executive power and presidential authority over tariffs and foreign policy",
+        "References to DOJ independence and concerns about politicization of law enforcement",
+        "Mentions Supreme Court decision by Justice Neil Gorsuch on credibility/consistency across administrations",
+        "Discussion of election security and Trump's stated intent toward 'federalization of elections'",
+        "References to 2026 midterm elections as decisive for Democratic control of Congress",
+        "Discussion of Trump administration personnel (Pam Bondi, Kash Patel) and staffing with loyalists",
+        "Mentions Biden administration's damage to Democratic Party credibility",
+        "References to immigration, transgender issues as campaign topics in 2024"
+      ],
+      "nasem_publications": []
+    },
     {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
@@ -1614,98 +1971,6 @@
       "nasem_publications": []
     },
     {
-      "podcast_id": "nature-podcast",
-      "podcast_name": "Nature Podcast",
-      "episode_title": "Briefing chat: How hovering bumblebees keep their cool",
-      "host": "Springer Nature",
-      "published": "2026-02-20T15:00:00",
-      "influence_tier": "medium",
-      "category": "science_news",
-      "summary": "This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.",
-      "science_topics": [
-        "Sex differences in brain structure and functional connectivity",
-        "fMRI neuroimaging of structural and functional brain connections",
-        "Default mode network hyperconnectivity and depression",
-        "Puberty-related brain development and sexual dimorphism",
-        "Bumblebee thermoregulation during flight",
-        "Bumblebee wing muscle mechanics and heat generation",
-        "Neuroplasticity and environmental influences on brain development"
-      ],
-      "claims_to_note": [
-        "Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation",
-        "Default mode network hyperconnectivity in females is linked to depression and anxiety disorders",
-        "Males show stronger interhemispheric functional connections in the cerebellum with age",
-        "Women have higher frequencies of depression and anxiety; men more likely to have substance abuse issues; boys more commonly diagnosed with autism spectrum disorder—hosts acknowledge these may reflect socioeconomic, social, and environmental factors rather than purely biological sex differences",
-        "Bumblebees generate substantial heat during flight and can thermoregulate using wing muscles"
-      ],
-      "policy_relevance": [
-        "Potential implications for personalizing mental health treatment based on sex-specific brain differences",
-        "Discussion of need for sex-disaggregated research and treatment approaches in psychiatry and neurology"
-      ],
-      "nasem_publications": [
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Artificial Intelligence and the Future of Work",
-          "url": ""
-        },
-        {
-          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
-          "url": ""
-        },
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Artificial Intelligence and the Future of Work",
-          "url": ""
-        },
-        {
-          "title": "Incorporating Resilience into Transportation Networks",
-          "url": "https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks"
-        },
-        {
-          "title": "Implementation of the National Intercity Bus Atlas",
-          "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas"
-        },
-        {
-          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
-          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
-        },
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
-          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
-        },
-        {
-          "title": "Teaching K-12 Science and Engineering During a Crisis",
-          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
-        },
-        {
-          "title": "Minimizing Utility Issues During Construction: A Guide",
-          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide"
-        }
-      ]
-    },
-    {
       "podcast_id": "radiolab",
       "podcast_name": "Radiolab",
       "episode_title": "Gray's Donation",
@@ -1797,6 +2062,98 @@
         {
           "title": "Hepatitis and Liver Cancer: A National Strategy for Prevention and Control of Hepatitis B and C",
           "url": "https://nap.nationalacademies.org/catalog/12793/hepatitis-and-liver-cancer-a-national-strategy-for-prevention-and"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: How hovering bumblebees keep their cool",
+      "host": "Springer Nature",
+      "published": "2026-02-20T15:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.",
+      "science_topics": [
+        "Sex differences in brain structure and functional connectivity",
+        "fMRI neuroimaging of structural and functional brain connections",
+        "Default mode network hyperconnectivity and depression",
+        "Puberty-related brain development and sexual dimorphism",
+        "Bumblebee thermoregulation during flight",
+        "Bumblebee wing muscle mechanics and heat generation",
+        "Neuroplasticity and environmental influences on brain development"
+      ],
+      "claims_to_note": [
+        "Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation",
+        "Default mode network hyperconnectivity in females is linked to depression and anxiety disorders",
+        "Males show stronger interhemispheric functional connections in the cerebellum with age",
+        "Women have higher frequencies of depression and anxiety; men more likely to have substance abuse issues; boys more commonly diagnosed with autism spectrum disorder—hosts acknowledge these may reflect socioeconomic, social, and environmental factors rather than purely biological sex differences",
+        "Bumblebees generate substantial heat during flight and can thermoregulate using wing muscles"
+      ],
+      "policy_relevance": [
+        "Potential implications for personalizing mental health treatment based on sex-specific brain differences",
+        "Discussion of need for sex-disaggregated research and treatment approaches in psychiatry and neurology"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Incorporating Resilience into Transportation Networks",
+          "url": "https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks"
+        },
+        {
+          "title": "Implementation of the National Intercity Bus Atlas",
+          "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Minimizing Utility Issues During Construction: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide"
         }
       ]
     },
