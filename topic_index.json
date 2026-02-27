@@ -1,7 +1,294 @@
 {
-  "updated": "2026-02-26T11:49:22.964886",
-  "episode_count": 40,
+  "updated": "2026-02-27T11:37:58.626197",
+  "episode_count": 44,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Into the Woods, From Chestnut Genetics To Tiny Forests",
+      "host": "Ira Flatow",
+      "published": "2026-02-27T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode covers two major forest restoration efforts: reviving the American chestnut through genetic breeding and backcrossing programs, and establishing \"mini forests\" using the Miyawaki method for rapid urban reforestation. The American Chestnut Foundation's 40-year effort combines genetics from blight-resistant Asian chestnut species with American chestnuts, using genomic tools to accelerate breeding for fungal resistance. The second segment discusses how small urban forest patches (tennis court-sized minimum) can become self-sustaining ecosystems in 2-3 years by planting native, shade-tolerant species that create their own microclimate.",
+      "science_topics": [
+        "Chestnut blight fungal pathogen resistance and breeding",
+        "Backcrossing and recurrent selection in tree genetics",
+        "Genomic sequencing and DNA testing for disease resistance traits",
+        "Polygenic inheritance of disease resistance (hundreds of genomic regions)",
+        "Ecological succession and climax communities",
+        "Forest microclimate development",
+        "Miyawaki method for rapid reforestation",
+        "Native species co-evolution and adaptation"
+      ],
+      "claims_to_note": [
+        "American chestnut was nearly eliminated by fungal blight introduced via imported Chinese and Japanese chestnuts in late 1800s",
+        "An estimated 4 billion American chestnut trees were lost",
+        "Chestnut blight resistance is controlled by hundreds of genomic regions, not 2-3 genes as previously assumed",
+        "Genetically modified chestnut with wheat gene showed improved seedling resistance but failed in field trials and grew slower",
+        "Mini forests become self-sustaining and require no watering or weeding after 2-3 years",
+        "Minimum viable forest size is approximately tennis court dimensions with 4-yard minimum depth for proper microclimate"
+      ],
+      "policy_relevance": [
+        "American Chestnut Foundation operates as a nonprofit with 16 state chapters conducting distributed breeding efforts",
+        "Restoration efforts require coordination across multiple states and private landowners",
+        "Forest restoration testing sites need regulatory approval and planning partnerships",
+        "Land use decisions affecting vacant lots and cleared forest areas are relevant to restoration site selection"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Achieving Behavioral Health Equity for Children, Families, and Communities: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25347/achieving-behavioral-health-equity-for-children-families-and-communities-proceedings"
+        },
+        {
+          "title": "Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned",
+          "url": "https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The dangers of warming winter lakes",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-02-27T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores how warming winters are affecting lake ice formation and freezing patterns, particularly in Madison, Wisconsin, where iconic winter festivals like Frozen Assets depend on thick ice. The episode highlights the cultural significance of frozen lakes in northern communities, examines the science of ice types and safety, and documents how changing freeze-thaw cycles create dangerous conditions for both recreational activities and emergency rescue operations. It illustrates how climate-driven changes to lake ice patterns are impacting both community traditions and public safety infrastructure.",
+      "science_topics": [
+        "Lake ice formation and thermodynamics (black ice vs. white ice)",
+        "Warming water temperatures and delayed lake freezing",
+        "Freeze-thaw cycles and ice shelf formation",
+        "Lake hydrology and river-lake interactions affecting ice stability",
+        "Climate change impacts on freshwater systems"
+      ],
+      "claims_to_note": [
+        "Lake Mendota in Madison, Wisconsin has frozen over almost every year since 2011, but increasingly fails to form ice thick enough for festivals",
+        "Four inches of black ice is safe for a person to walk on",
+        "Black ice forms from lake water freezing downward and is stronger than white ice",
+        "White ice forms from freezing snow or slush and contains more air, making it weaker and less safe",
+        "Multiple freeze-thaw cycles create dangerous ice shelves (water sandwiched between two ice layers) that appear solid but are structurally unsound",
+        "Madison Fire Department had increased ice rescues during 'mild winter' years with multiple freeze-thaw cycles"
+      ],
+      "policy_relevance": [
+        "Emergency response infrastructure and training (Madison Fire Department lake rescue teams) may need adaptation as ice conditions become less predictable",
+        "Potential impacts on community event planning and winter festival traditions tied to reliable ice formation",
+        "Public safety protocols for ice conditions may require updating based on changing freeze-thaw patterns"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "The Impacts of Racism and Bias on Black People Pursuing Careers in Science, Engineering, and Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25849/the-impacts-of-racism-and-bias-on-black-people-pursuing-careers-in-science-engineering-and-medicine"
+        },
+        {
+          "title": "An American Crisis: The Growing Absence of Black Men in Medicine and Science: Proceedings of a Joint Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25130/an-american-crisis-the-growing-absence-of-black-men-in"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Navigating an Electric Vehicle Future: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26668/navigating-an-electric-vehicle-future-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Interactions Between Transportation Capacity, Economic Systems, and Land Use",
+          "url": "https://nap.nationalacademies.org/catalog/22085/interactions-between-transportation-capacity-economic-systems-and-land-use"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "Tropical birds’ ‘silent spring,’ and mapping people’s brains during surgery",
+      "host": "Sarah Crespi",
+      "published": "2026-02-26T19:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Magazine podcast episode covers two main topics: a mysterious decline in tropical bird populations in Ecuador, Panama, and Brazil despite intact forests and protected status, potentially linked to climate instability and insect population collapses; and a refined method for mapping brain function during awake neurosurgery that measures response latency rather than just binary performance errors, improving the precision of surgical decision-making for tumor and lesion removal near language areas.",
+      "science_topics": [
+        "Tropical bird population decline in Amazon rainforests",
+        "Insect population decline in tropical ecosystems",
+        "La Niña climate effects on avian populations",
+        "Tropical ecosystem biodiversity and niche specialization",
+        "Direct electrical stimulation (DES) of brain during awake neurosurgery",
+        "Language mapping and speech processing in the brain",
+        "Psycholinguistics and response latency in speech production",
+        "Functional localization of speech processing stages in motor cortex and temporal regions",
+        "North American bird decline linked to agricultural intensification",
+        "Dark matter galaxies detected by Hubble telescope"
+      ],
+      "claims_to_note": [
+        "Bird populations in Ecuador, Panama, and Brazil have declined following intense La Niña conditions in the 2010s and have not recovered despite changed climate conditions",
+        "Insect populations in tropical regions (particularly Costa Rica) are experiencing 'apocalyptic level of decline'",
+        "Tropical regions maintain stable conditions over millennia, allowing species to evolve into specialized ecological niches sensitive to climate instability",
+        "Insectivorous birds are experiencing the most severe declines in Ecuador and Brazil, while multiple dietary groups decline in Panama",
+        "Stimulation timing modulates effects on speech processing, with early stimulation affecting word-finding and late stimulation affecting motor speech planning",
+        "Current awake brain mapping protocols may miss subtle interference effects that occur without overt errors in task performance",
+        "North American bird decline hotspots correlate with high-intensity agriculture, cropland area, fertilizer use, and pesticide use"
+      ],
+      "policy_relevance": [
+        "Protected tropical forests in Ecuador, Panama, and Brazil under conservation management showing ecosystem stress despite protected status",
+        "NIH funding for long-term ecological monitoring and bird population studies across multiple sites",
+        "Clinical protocols for awake brain mapping during neurosurgery and patient consent procedures",
+        "Environmental health implications of agricultural intensification and pesticide use for migratory bird populations in North America"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity at Risk: Today's Choices Matter",
+          "url": "https://nap.nationalacademies.org/catalog/26384/biodiversity-at-risk-todays-choices-matter"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -358,6 +645,88 @@
         "References to immigration, transgender issues as campaign topics in 2024"
       ],
       "nasem_publications": []
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "How earthquakes and lightning help explain squeaky sneakers",
+      "host": "Springer Nature",
+      "published": "2026-02-25T16:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature podcast episode covers two main scientific topics: the physics of squeaky shoes and human hippocampal neurogenesis. Researchers at Harvard and University of Nottingham discovered that shoe squeaks result from 'opening pulses'—waves of detachment traveling at the speed of sound through rubber—triggered by surface patterns and electrostatic charging (tribocharging), mechanisms similar to those in earthquakes. The second segment reports findings from University of Illinois Chicago showing that hippocampal neurogenesis (generation of new neurons) occurs in human brains and is significantly elevated in 'super-agers' with preserved cognitive function, with differences linked to epigenetic alterations, suggesting potential targets for therapeutic intervention.",
+      "science_topics": [
+        "Stick-slip friction dynamics at rubber-glass interfaces",
+        "Opening pulses and slip pulse propagation in elastomeric materials",
+        "Tribocharging and electrostatic discharge at frictional interfaces",
+        "Schallamach waves in rubber deformation",
+        "Hippocampal neurogenesis in adult human brains",
+        "Epigenetic regulation of gene expression in neural stem cells",
+        "Cognitive aging and neurodegeneration (Alzheimer's disease)",
+        "Patient-derived induced pluripotent stem cells (iPSCs)"
+      ],
+      "claims_to_note": [
+        "Hippocampal neurogenesis exists in human adult brains and persists into advanced age—described as previously debated in the scientific community",
+        "Super-agers (individuals 70-90 years old with exceptional memory) show significantly elevated levels of hippocampal neurogenesis compared to age-matched controls and Alzheimer's disease patients",
+        "The neurogenesis differences between cognitive phenotypes are primarily driven by epigenetic alterations rather than genetic differences",
+        "Tribocharging at rubber-glass interfaces can generate micro-explosions that nucleate opening slip pulses",
+        "The pitch of squeaks is determined by surface geometry (ridge patterns) and block height, not by applied normal force"
+      ],
+      "policy_relevance": [
+        "Potential pharmaceutical interventions for cognitive aging—researchers propose developing therapeutics based on identified neurogenesis-related genetic signatures",
+        "Need for new neuroimaging technologies to study neurogenesis in living human brains versus current reliance on post-mortem tissue analysis",
+        "Applications to materials engineering and design optimization for friction and sound control in industrial and consumer products"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Frontiers of Materials Research: A Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/25244/frontiers-of-materials-research-a-decadal-survey"
+        },
+        {
+          "title": "Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report",
+          "url": "https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Oil in the Sea III: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/10388/oil-in-the-sea-iii-inputs-fates-and-effects"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        }
+      ]
     },
     {
       "podcast_id": "unbiased-science",

@@ -1,0 +1,411 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Into the Woods, From Chestnut Genetics To Tiny Forests",
+  "host": "Ira Flatow",
+  "published": "2026-02-27T10:00:00",
+  "duration_minutes": 18.35,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Friday episode covers two major forest restoration efforts: reviving the American chestnut through genetic breeding and backcrossing programs, and establishing \"mini forests\" using the Miyawaki method for rapid urban reforestation. The American Chestnut Foundation's 40-year effort combines genetics from blight-resistant Asian chestnut species with American chestnuts, using genomic tools to accelerate breeding for fungal resistance. The second segment discusses how small urban forest patches (tennis court-sized minimum) can become self-sustaining ecosystems in 2-3 years by planting native, shade-tolerant species that create their own microclimate.",
+  "science_topics": [
+    "Chestnut blight fungal pathogen resistance and breeding",
+    "Backcrossing and recurrent selection in tree genetics",
+    "Genomic sequencing and DNA testing for disease resistance traits",
+    "Polygenic inheritance of disease resistance (hundreds of genomic regions)",
+    "Ecological succession and climax communities",
+    "Forest microclimate development",
+    "Miyawaki method for rapid reforestation",
+    "Native species co-evolution and adaptation"
+  ],
+  "claims_to_note": [
+    "American chestnut was nearly eliminated by fungal blight introduced via imported Chinese and Japanese chestnuts in late 1800s",
+    "An estimated 4 billion American chestnut trees were lost",
+    "Chestnut blight resistance is controlled by hundreds of genomic regions, not 2-3 genes as previously assumed",
+    "Genetically modified chestnut with wheat gene showed improved seedling resistance but failed in field trials and grew slower",
+    "Mini forests become self-sustaining and require no watering or weeding after 2-3 years",
+    "Minimum viable forest size is approximately tennis court dimensions with 4-yard minimum depth for proper microclimate"
+  ],
+  "policy_relevance": [
+    "American Chestnut Foundation operates as a nonprofit with 16 state chapters conducting distributed breeding efforts",
+    "Restoration efforts require coordination across multiple states and private landowners",
+    "Forest restoration testing sites need regulatory approval and planning partnerships",
+    "Land use decisions affecting vacant lots and cleared forest areas are relevant to restoration site selection"
+  ],
+  "key_quotes": [
+    "With genetic engineering, it can be kind of challenging because we put in a gene from wheat that seemed to have some improvements in resistance when you looked at the seedlings and we inoculated the little baby chestnuts. But then when we put them out in the field and we looked at the resistance over time, it didn't hold up very well.",
+    "Success looks like trees that have mostly American chestnut genetics that are blight resistant, that grow tall, that are competitive, that capture the diversity that remains in the wild population.",
+    "It takes about two to three years for it to become self-sustaining... you no longer need to water or weed after two or three years."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Chestnut blight fungal pathogen resistance and breeding",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Backcrossing and recurrent selection in tree genetics",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Genomic sequencing and DNA testing for disease resistance traits",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Polygenic inheritance of disease resistance (hundreds of genomic regions)",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "21891",
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "keywords": [
+            "pandemic",
+            "infectious disease",
+            "outbreak",
+            "epidemic",
+            "preparedness",
+            "global health"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Ecological succession and climax communities",
+      "publications": [
+        {
+          "id": "26623",
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Involvement with the juvenile justice system can impact young people's physical and mental health and well-being throughout their lives, as well as the health and well-being of their families and communities. Youth of color are more likely to become involved with the juvenile justice system, and suffer worse outcomes in sentencing, during incarceration, and after release. The National Academies of Sciences, Engineering, and Medicine's Roundtable on the Promotion of Health Equity convened a workshop to discuss the impact that juvenile justice system involvement has on the health and well-being of adolescents, families, and communities of color; examine policies that are successful in improving outcomes; and explore what needs to be done to improve all aspects of encounters with the juvenile justice system. The workshop suggested pursuing alternatives to traditional juvenile justice systems that would allow adolescents to stay in their communities rather than in detention, responding to ",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Population Health And Public He",
+          "keywords": [
+            "medical",
+            "juvenile justice system involvement",
+            "traditional juvenile justice systems",
+            "health equity convened",
+            "sentencing during incarceration",
+            "suggested pursuing alternatives",
+            "suffer worse outcomes",
+            "impact young people",
+            "mental health",
+            "adolescents families",
+            "communities rather",
+            "youth families",
+            "communities",
+            "impact",
+            "health",
+            "color"
+          ]
+        },
+        {
+          "id": "25347",
+          "title": "Achieving Behavioral Health Equity for Children, Families, and Communities: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25347/achieving-behavioral-health-equity-for-children-families-and-communities-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "behavioral health equity",
+            "behavioral health promotion",
+            "health equity convened",
+            "explore health equity",
+            "socio ecological developmental model",
+            "health care services",
+            "health opportunities",
+            "solution oriented discussions",
+            "improve social determinants",
+            "promoting children",
+            "achieving behavioral health equity",
+            "children families",
+            "communities"
+          ],
+          "description": "In November 2017, the The Forum on Promoting Children's Cognitive, Affective, and Behavioral Health, in collaboration with the Roundtable on the Promotion of Health Equity, convened a workshop on promoting children's behavioral health equity. The workshop used a socio-ecological developmental model to explore health equity of children and families, including those with complex needs and chronic conditions. Particular attention was paid to challenges experienced by children and families in both rural and urban contexts, to include but not limited to poverty, individual and institutional racism, low-resourced communities, and hindered access to educational and health care services. Workshop participants also engaged in solution-oriented discussions of initiatives, policies, and programs that aim to improve social determinants of health, opportunities for behavioral health promotion, and access to quality services that address the behavioral health of all children and families. This publi",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Children, Youth, and Families"
+        },
+        {
+          "id": "27170",
+          "title": "Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned",
+          "url": "https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "mexico communities particularly vulnerable",
+            "individuals families communities",
+            "prolonged disaster recovery",
+            "increasing disaster risk",
+            "unprecedented public health",
+            "global covid pandemic",
+            "weather climate hazards",
+            "acute weather events",
+            "seven major hurricanes",
+            "single disaster",
+            "gulf coast communities",
+            "compounding disasters",
+            "lessons learned",
+            "impacts"
+          ],
+          "description": "Experiencing a single disaster - a hurricane, tornado, flood, severe winter storm, or a global pandemic - can wreak havoc on the lives and livelihoods of individuals, families, communities and entire regions. For many people who live in communities in the U.S. Gulf of Mexico region, the reality of disaster is starker. Endemic socioeconomic and health disparities have made many living in Gulf of Mexico communities particularly vulnerable to the effects of weather-climate hazards. Prolonged disaster recovery and increasing disaster risk is an enduring reality for many living in Gulf of Mexico communities. Between 2020 and 2021, seven major hurricanes and a severe winter storm affected communities across the region. As a backdrop to these acute weather events, the global COVID-19 pandemic was unfolding, producing a complex and unprecedented public health and socioeconomic crisis. Traditionally, the impacts of disasters are quantified individually and often in economic terms of property da",
+          "year": 2024,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Gulf Health and Resilience Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2404,
+  "saved_at": "2026-02-27T11:37:21.004957"
+}

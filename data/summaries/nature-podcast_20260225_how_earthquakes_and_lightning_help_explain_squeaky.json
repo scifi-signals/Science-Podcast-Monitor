@@ -1,0 +1,559 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "How earthquakes and lightning help explain squeaky sneakers",
+  "host": "Springer Nature",
+  "published": "2026-02-25T16:00:00",
+  "duration_minutes": 19.583333333333332,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature podcast episode covers two main scientific topics: the physics of squeaky shoes and human hippocampal neurogenesis. Researchers at Harvard and University of Nottingham discovered that shoe squeaks result from 'opening pulses'—waves of detachment traveling at the speed of sound through rubber—triggered by surface patterns and electrostatic charging (tribocharging), mechanisms similar to those in earthquakes. The second segment reports findings from University of Illinois Chicago showing that hippocampal neurogenesis (generation of new neurons) occurs in human brains and is significantly elevated in 'super-agers' with preserved cognitive function, with differences linked to epigenetic alterations, suggesting potential targets for therapeutic intervention.",
+  "science_topics": [
+    "Stick-slip friction dynamics at rubber-glass interfaces",
+    "Opening pulses and slip pulse propagation in elastomeric materials",
+    "Tribocharging and electrostatic discharge at frictional interfaces",
+    "Schallamach waves in rubber deformation",
+    "Hippocampal neurogenesis in adult human brains",
+    "Epigenetic regulation of gene expression in neural stem cells",
+    "Cognitive aging and neurodegeneration (Alzheimer's disease)",
+    "Patient-derived induced pluripotent stem cells (iPSCs)"
+  ],
+  "claims_to_note": [
+    "Hippocampal neurogenesis exists in human adult brains and persists into advanced age—described as previously debated in the scientific community",
+    "Super-agers (individuals 70-90 years old with exceptional memory) show significantly elevated levels of hippocampal neurogenesis compared to age-matched controls and Alzheimer's disease patients",
+    "The neurogenesis differences between cognitive phenotypes are primarily driven by epigenetic alterations rather than genetic differences",
+    "Tribocharging at rubber-glass interfaces can generate micro-explosions that nucleate opening slip pulses",
+    "The pitch of squeaks is determined by surface geometry (ridge patterns) and block height, not by applied normal force"
+  ],
+  "policy_relevance": [
+    "Potential pharmaceutical interventions for cognitive aging—researchers propose developing therapeutics based on identified neurogenesis-related genetic signatures",
+    "Need for new neuroimaging technologies to study neurogenesis in living human brains versus current reliance on post-mortem tissue analysis",
+    "Applications to materials engineering and design optimization for friction and sound control in industrial and consumer products"
+  ],
+  "key_quotes": [
+    "It turns out that it's a combination of earthquakes and lightning.—Adel Jalouli, Harvard University, describing the mechanisms of shoe squeaks involving both stick-slip dynamics and electrostatic discharge",
+    "They had their own special way of dealing with aging, this resilience signature.—Orly Lazarov, describing the unique gene expression profile in cognitively high-performing older adults",
+    "The main discovery is that geometry matters. Small details matter in friction... when you take a flat rubber and you slide it, you'll hear a sound that is akin to taking a tape and opening it. And the moment you put these fine details, very, very tiny details, at the interface, all of a sudden you'll hear a musical note.—Gabriele Albertini, University of Nottingham, on how surface patterns control squeak acoustics"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Stick-slip friction dynamics at rubber-glass interfaces",
+      "publications": [
+        {
+          "id": "21798",
+          "title": "Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "public trust science",
+            "maintaining public confidence",
+            "childhood vaccination cancer screening",
+            "public interfaces",
+            "explores empirical evidence",
+            "trust play",
+            "social trust",
+            "public debates",
+            "public opinion",
+            "scientists faded",
+            "confidence",
+            "interfaces",
+            "society",
+            "life"
+          ],
+          "description": "Does the public trust science? Scientists? Scientific organizations? What roles do trust and the lack of trust play in public debates about how science can be used to address such societal concerns as childhood vaccination, cancer screening, and a warming planet? What could happen if social trust in science or scientists faded? These types of questions led the Roundtable on Public Interfaces of the Life Sciences of the National Academies of Sciences, Engineering, and Medicine to convene a 2-day workshop on May 5-6, 2015 on public trust in science. This report explores empirical evidence on public opinion and attitudes toward life sciences as they relate to societal issues, whether and how contentious debate about select life science topics mediates trust, and the roles that scientists, business, media, community groups, and other stakeholders play in creating and maintaining public confidence in life sciences. Does the Public Trust Science? Trust and Confidence at the Interfaces of the",
+          "year": 2015,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        },
+        {
+          "id": "26156",
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "offer pfas blood testing",
+            "non stick cookware water",
+            "polyfluoroalkyl substances pfas",
+            "fire fighting foam because",
+            "water reduce friction",
+            "resist temperature changes",
+            "stain repellent fabrics",
+            "made used disposed",
+            "adverse health effects",
+            "pfas exposure",
+            "pfas exposure testing",
+            "clinical follow",
+            "guidance"
+          ],
+          "description": "In thousands of communities across the United States, drinking water is contaminated with chemicals known as perfluoroalkyl and polyfluoroalkyl substances (PFAS). PFAS are used in a wide range of products, such as non-stick cookware, water and stain repellent fabrics, and fire-fighting foam, because they have properties that repel oil and water, reduce friction, and resist temperature changes. PFAS can leak into the environment where they are made, used, disposed of, or spilled. PFAS exposure has been linked to a number of adverse health effects including certain cancers, thyroid dysfunction, changes in cholesterol, and small reductions in birth weight. This report recommends that the Centers for Disease Control and Prevention (CDC) update its clinical guidance to advise clinicians to offer PFAS blood testing to patients who are likely to have a history of elevated exposure, such as those with occupational exposures or those who live in areas known to be contaminated. If testing reveal",
+          "year": 2022,
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on the Guidance on PFAS "
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Opening pulses and slip pulse propagation in elastomeric materials",
+      "publications": [
+        {
+          "id": "25244",
+          "title": "Frontiers of Materials Research: A Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/25244/frontiers-of-materials-research-a-decadal-survey",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "modern materials science builds",
+            "fundamental science materials",
+            "economically viable materials",
+            "third decadal survey",
+            "similar efforts worldwide",
+            "data science",
+            "understand control",
+            "producing reliable",
+            "polymer composites",
+            "products essential",
+            "decadal survey",
+            "frontiers",
+            "materials"
+          ],
+          "description": "Modern materials science builds on knowledge from physics, chemistry, biology, mathematics, computer and data science, and engineering sciences to enable us to understand, control, and expand the material world. Although it is anchored in inquiry-based fundamental science, materials research is strongly focused on discovering and producing reliable and economically viable materials, from super alloys to polymer composites, that are used in a vast array of products essential to today's societies and economies. Frontiers of Materials Research: A Decadal Survey is aimed at documenting the status and promising future directions of materials research in the United States in the context of similar efforts worldwide. This third decadal survey in materials research reviews the progress and achievements in materials research and changes in the materials research landscape over the last decade; research opportunities for investment for the period 2020-2030; impacts that materials research has ha",
+          "year": 2019,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26703",
+          "title": "Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report",
+          "url": "https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "reaching net zero emissions",
+            "carbon materials pervade",
+            "carbon dioxide utilization",
+            "circular carbon economies",
+            "evaluates market opportunities",
+            "transform wastes like",
+            "building materials",
+            "useful materials",
+            "infrastructure needs",
+            "commodity chemicals",
+            "carbon dioxide utilization markets",
+            "infrastructure",
+            "opportunities",
+            "status",
+            "first"
+          ],
+          "description": "Carbon materials pervade many aspects of modern life, from fuels and building materials to consumer goods and commodity chemicals. Reaching net-zero emissions will require replacing existing fossil-carbon-based systems with circular-carbon economies that transform wastes like CO2 into useful materials. This report evaluates market opportunities and infrastructure needs to help decision makers better understand how carbon dioxide utilization can contribute to a net-zero emissions future.",
+          "year": 2023,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "27830",
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "high magnetic field science",
+            "high magnetic field technologies",
+            "magnetic resonance imaging enables",
+            "while nuclear magnetic resonance",
+            "critical materials access necessary",
+            "workforce facilities magnet development",
+            "high magnetic fields",
+            "proposed fusion energy reactors",
+            "identify scientific opportunities",
+            "science foundation",
+            "current status",
+            "technology",
+            "direction"
+          ],
+          "description": "High magnetic fields are a vital tool in many areas of science and technology that impact our everyday lives. Magnetic resonance imaging enables a wide range of medical diagnostics and research, while nuclear magnetic resonance is critical for drug discovery research and more. High magnetic fields are an essential component to many proposed fusion energy reactors and are necessary to push the boundaries towards the development of new quantum technologies and semiconductors. At the request of the National Science Foundation, the National Academies organized a study to identify scientific opportunities and key applications for high-magnetic-field science and technology for the next decade and beyond. This report explores the current state and future prospects for high-magnetic-field technologies and recommends actions to support the workforce, facilities, magnet development, and critical materials access necessary to promote U.S. innovation.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Tribocharging and electrostatic discharge at frictional interfaces",
+      "publications": [
+        {
+          "id": "21798",
+          "title": "Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "public trust science",
+            "maintaining public confidence",
+            "childhood vaccination cancer screening",
+            "public interfaces",
+            "explores empirical evidence",
+            "trust play",
+            "social trust",
+            "public debates",
+            "public opinion",
+            "scientists faded",
+            "confidence",
+            "interfaces",
+            "society",
+            "life"
+          ],
+          "description": "Does the public trust science? Scientists? Scientific organizations? What roles do trust and the lack of trust play in public debates about how science can be used to address such societal concerns as childhood vaccination, cancer screening, and a warming planet? What could happen if social trust in science or scientists faded? These types of questions led the Roundtable on Public Interfaces of the Life Sciences of the National Academies of Sciences, Engineering, and Medicine to convene a 2-day workshop on May 5-6, 2015 on public trust in science. This report explores empirical evidence on public opinion and attitudes toward life sciences as they relate to societal issues, whether and how contentious debate about select life science topics mediates trust, and the roles that scientists, business, media, community groups, and other stakeholders play in creating and maintaining public confidence in life sciences. Does the Public Trust Science? Trust and Confidence at the Interfaces of the",
+          "year": 2015,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        },
+        {
+          "id": "10388",
+          "title": "Oil in the Sea III: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/10388/oil-in-the-sea-iii-inputs-fates-and-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "health-care",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "effective measures pollutant discharge",
+            "oil spills vessel operations",
+            "two stroke engines used",
+            "marine waters worldwide",
+            "sensitive coastal environments",
+            "book identifies important",
+            "assessing petroleum load",
+            "oil pollutant discharge",
+            "exxon valdez spill",
+            "petroleum pollutants",
+            "inputs fates",
+            "sea iii",
+            "effects",
+            "oil"
+          ],
+          "description": "Since the early 1970s, experts have recognized that petroleum pollutants were being discharged in marine waters worldwide, from oil spills, vessel operations, and land-based sources. Public attention to oil spills has forced improvements. Still, a considerable amount of oil is discharged yearly into sensitive coastal environments. Oil in the Sea provides the best available estimate of oil pollutant discharge into marine waters, including an evaluation of the methods for assessing petroleum load and a discussion about the concerns these loads represent. Featuring close-up looks at the Exxon Valdez spill and other notable events, the book identifies important research questions and makes recommendations for better analysis ofâ€\"and more effective measures againstâ€\"pollutant discharge. The book discusses: Inputâ€\"where the discharges come from, including the role of two-stroke engines used on recreational craft. Behavior or fateâ€\"how oil is affected by processes such as evaporation as i",
+          "year": 2003,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Hippocampal neurogenesis in adult human brains",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "27129",
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "attitudes behaviors social cohesion",
+            "built infrastructure reshaping mandates",
+            "entail massive socio emotional",
+            "adaptive societal responses",
+            "enhanced human responses",
+            "scale societal responses",
+            "translating policies investments",
+            "environmental change",
+            "climate change",
+            "sustained local impact",
+            "integrating",
+            "human"
+          ],
+          "description": "Responding to climate change will entail massive socio-emotional and behavioral changes. Translating policies, investments, or built infrastructure-reshaping mandates into real and sustained local impact that incorporates accountability and culture change will require hands-on work. Adaptive societal responses to climate change will succeed or fail based on the attitudes, behaviors, social cohesion and capital, organizational and emotional strengths, and collective impact and input of all stakeholders. To consider how to integrate, align, and converge the broad mix of social, behavioral, and cognitive sciences to produce new insights and inform efforts for enhanced human responses to environmental change, Board on Environmental Change and Society of the National Academies of Sciences, Engineering and Medicine convened this 2023 workshop, entitled Committee on Integrating the Human Sciences to Scale Societal Responses to Environmental Change: A Workshop. The workshop was intended to inv",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Environmental Change And Societ"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2829,
+  "saved_at": "2026-02-27T11:37:21.006388"
+}
