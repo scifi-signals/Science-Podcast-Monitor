@@ -1,7 +1,194 @@
 {
-  "updated": "2026-02-27T11:37:58.626197",
-  "episode_count": 44,
+  "updated": "2026-02-28T11:24:16.446882",
+  "episode_count": 46,
   "episodes": [
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: Pokémon turns 30 — how Pikachu and pals inspired generations of researchers",
+      "host": "Springer Nature",
+      "published": "2026-02-27T15:38:45",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature Podcast episode marks Pokémon's 30th anniversary (February 27, 1996) by exploring the intersection between Pokémon and scientific research. Hosts discuss how Pokémon inspired generations of researchers, particularly biologists and paleontologists, through its collecting mechanics that parallel taxonomy and natural history classification. The episode features expert Miriam Nadav discussing examples including a Field Museum exhibition linking Pokémon to fossils, phylogenetic analysis of Pokémon evolutionary relationships, and multiple instances of real species named after Pokémon characters.",
+      "science_topics": [
+        "Pokémon phylogenetic analysis and evolutionary trees",
+        "Biological evolution vs. individual metamorphosis in Pokémon",
+        "Taxonomy and species classification inspired by Pokémon collecting mechanics",
+        "Paleontology - fossil discovery of baby marine turtles from dinosaur era (Colombia)",
+        "Bee biodiversity - polyester bees (Hymenoptera) and morphological/DNA sequencing identification",
+        "Species naming conventions and nomenclature in biology",
+        "Insect collecting and natural history collecting practices"
+      ],
+      "claims_to_note": [
+        "Phylogenetic analysis of 646 Pokémon using actual phylogenetic software produced 'realistic looking' evolutionary tree with water-origin (2012 study by Matt and colleagues) - verify publication and methodology",
+        "Analysis suggested lampreys and bony fishes were earliest Pokémon types to reach present state - this is speculation applied to fictional species",
+        "Pokémon transformation is closer to metamorphosis than biological evolution - correctly notes that real metamorphosis occurs over long timescales, unlike sudden Pokémon transformations",
+        "Eight new bee species identified through morphological examination and DNA sequencing in Chile - claimed to be named after Pokémon",
+        "Fossils from Colombia initially thought to be plants were identified as baby marine turtles in 2023"
+      ],
+      "policy_relevance": [
+        "Field Museum (Chicago) hosting first US exhibition linking Pokémon fossils to real paleontological specimens - indicates science institution engagement with popular culture",
+        "Pokémon Go mentioned as game played by researchers - relevant to science communication and public engagement",
+        "Centre for Biodiversity Genomics (Canada) - research institution conducting species discovery work"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Evolution in Hawaii: A Supplement to 'Teaching About Evolution and the Nature of Science'",
+          "url": "https://nap.nationalacademies.org/catalog/10865/evolution-in-hawaii-a-supplement-to-teaching-about-evolution-and"
+        },
+        {
+          "title": "In the Light of Evolution: Volume IV: The Human Condition",
+          "url": "https://nap.nationalacademies.org/catalog/12931/in-the-light-of-evolution-volume-iv-the-human-condition"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Black Box",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-02-27T15:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This episode explores three scientific and medical 'black boxes'—systems where inputs and outputs are visible but the mechanisms remain mysterious. The first examines how anesthesia works despite 170 years of clinical use, revealing that unconsciousness may result from disrupted neural communication through slow brain waves rather than global shutdown. The second segment is a rebroadcast about magicians Sydney and Lesley Piddington whose mind-reading act captivated 20 million listeners in the 1950s, with the mechanism remaining deliberately concealed. The final black box addresses metamorphosis in butterflies, explaining how caterpillars dissolve into cellular 'soup' within chrysalises yet somehow reorganize into butterflies, with evidence suggesting adult structures pre-exist within caterpillars.",
+      "science_topics": [
+        "Anesthesia mechanisms and propofol/sevoflurane pharmacology",
+        "Neural oscillations and slow-wave activity in unconscious states",
+        "Brain connectivity and consciousness during anesthesia",
+        "Insect metamorphosis and chrysalis development",
+        "Caterpillar anatomical transformation",
+        "Imaginal discs in lepidopteran development",
+        "17th-century comparative microscopy and entomology",
+        "Memory formation across metamorphic transitions"
+      ],
+      "claims_to_note": [
+        "Anesthetic agents (propofol, sevoflurane, dexmedetomidine, ketamine) have not had their mechanisms fully understood despite 170 years of clinical use—requires verification against current anesthesia literature",
+        "Auditory cortex remains active during anesthesia even when patients are unconscious—this is presented as evidence of partial brain activity",
+        "Consciousness may depend on synchronized neural communication across brain regions rather than overall neural activity level—represents current hypothesis requiring peer-reviewed confirmation",
+        "Caterpillars undergo near-complete cellular dissolution inside chrysalises, reducing to 'goo' or cellular soup—should be verified against developmental biology literature",
+        "Pre-formed adult structures (wings, antennae, legs) exist within caterpillars before pupation and do not dissolve during metamorphosis—this appears consistent with imaginal disc theory but warrants confirmation"
+      ],
+      "policy_relevance": [
+        "Potential clinical applications for anesthesia monitoring in operating rooms using neural signal interpretation",
+        "Medical education implications regarding understanding of anesthetic mechanisms",
+        "No explicit policy, legislation, or regulatory discussion present in transcript"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+          "url": "https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Educating the Student Body: Taking Physical Activity and Physical Education to School",
+          "url": "https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
+        },
+        {
+          "title": "Transformation in the Air: A Review of the FAA's Certification Research Plan",
+          "url": "https://nap.nationalacademies.org/catalog/21757/transformation-in-the-air-a-review-of-the-faas-certification"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
