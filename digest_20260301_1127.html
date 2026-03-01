@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 01, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 01, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">103</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">A critical measles resurgence is dominating health discourse, with US cases exceeding 1000 in just two months of 2026—significantly outpacing 2025 escalation rates. This public health emergency coincides with ongoing scientific discussions spanning space exploration (lunar eclipses, Mars missions), biomedical advances (immunotherapy, SuperAgers neuroscience), and environmental concerns (PFAS tracking, seabed mining). Recent podcast coverage has focused on foundational biology and neuroscience (anesthesia mechanisms, circadian rhythms, Alzheimer's biomarkers), while broader ecosystem concerns—tropical bird decline, wildfire resilience—remain secondary to the acute measles crisis. The convergence of vaccine-preventable disease resurgence with weakened pandemic-era public health infrastructure represents an immediate briefing priority.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Measles outbreak acceleration (2026 vs. 2025 rates)</li>
+<li>Immunotherapy and cancer biomarker innovation</li>
+<li>Neurodegeneration biomarkers (Alzheimer's, psychiatric disorders)</li>
+<li>Climate-driven ecological disruption (tropical biodiversity loss, seismic monitoring)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Measles resurgence as acute public health crisis (NEW — escalating beyond previous week context)</li>
+<li>Seismic activity and geological monitoring (Bangladesh, Seattle, Fiji)</li>
+<li>PFAS toxics tracking and environmental health surveillance</li>
+<li>Dark matter galaxy observations and astronomical discovery pace</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene rapid expert assessment on measles resurgence drivers (vaccination coverage, variant characteristics, immunization infrastructure gaps)</div>
+<div class="opportunity">Synthesize immunotherapy and cancer biomarker evidence for clinical translation briefings</div>
+<div class="opportunity">Engage on Alzheimer's disease biomarker standardization and gene-environment interaction research (APOE variants, polygenic risk)</div>
+<div class="opportunity">Provide science-policy guidance on seabed mining regulation balancing resource needs with ecosystem protection</div>
+<div class="opportunity">Address PFAS toxicology surveillance standards and environmental health tracking frameworks</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Monitor for vaccine hesitancy narratives capitalizing on measles outbreak—validate efficacy/safety data in real-time</div>
+<div class="claim">Track AI health advice claims (noted in biomedical research coverage)—clarify when AI tools lack clinical validation</div>
+<div class="claim">Distinguish evidence-based cannabis cannabinoid effects from unsubstantiated claims about Delta-8 and other isomers</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic and Molecular Biomarkers for Complex Diseases</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on the use of genomic sequencing, genetic variants, and molecular biomarkers to diagnose and stratify risk for diverse conditions: cardiovascular disease (GLP-1 response in Unbiased Science), Alzheimer's (APOE variants in Science Friday), lung cancer (EGFR/ALK mutations in Science Will Win), and psychiatric disorders (biomarkers in Science Friday). This reflects a broader shift toward precision medicine and the clinical translation of genomic research. NASEM should anticipate policy questions about biomarker validation standards, insurance coverage, and equitable access to genetic testing.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Biomarker-driven precision medicine is reshaping clinical practice and R&D investment; NASEM needs to advise on validation frameworks, regulatory pathways, and workforce training for genomic medicine.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate and Environmental Tipping Points in Ecosystems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Climate-driven ecosystem disruption is surfacing across multiple science shows through distinct lenses: tropical bird and insect population collapse (Science Magazine Podcast, linked to La Niña), delayed lake freezing and altered ice formation (Short Wave), wildfire impacts on property and resilience (Policy Chats), and fish habitat recovery via artificial reefs (Short Wave). These episodes reveal converging concern about threshold dynamics and adaptation capacity in natural systems. The topic is emerging as urgent rather than fading, with shows moving from observation to policy solutions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Policy Chats</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Ecosystem tipping points and climate adaptation are now visible across marine, freshwater, and terrestrial domains; NASEM should guide integrated assessment of critical thresholds and co-benefits of nature-based solutions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Mechanisms of Consciousness, Aging, and Brain Health</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Brain-focused research is clustering around three interconnected themes: anesthesia and consciousness (Radiolab—neural oscillations during unconsciousness), aging and cognitive decline (Short Wave—smartphone addiction and age-related cognition; Huberman Lab—parabiosis and epigenetic aging clocks), and neurodegenerative disease biomarkers (Science Friday on Alzheimer's; Shaping Science on dementia pathology). Shows are moving beyond descriptive neuroscience toward mechanistic understanding and therapeutic targets. This reflects maturation of translational brain science and growing public interest in healthy aging.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Convergence of consciousness research, aging biology, and dementia pathology demands coordinated investment strategy; NASEM should assess gaps in brain aging research infrastructure and recommend priorities for healthy longevity science.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Reasoning, Interpretability, and Emergent Behaviors</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Ezra Klein Show's recent episode on large language models and agentic AI marks an intensification of discussion about mechanistic interpretability, emergent capabilities (deception, preference formation), and AI reasoning at scale. While only one show covered this in the summary window, it signals growing attention from intellectually diverse audiences beyond AI-specialist media. The narrative is shifting from capability demonstration to concern about unpredictable behaviors and the need for interpretability research before deployment.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Ezra Klein Show</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> AI interpretability and safety are becoming mainstream policy topics; NASEM should initiate convening on governance frameworks for agentic systems and recommend research priorities for mechanistic interpretability.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Plant and Pathogen Evolution Under Selection Pressure</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Tree genetics and disease resistance (Science Friday—chestnut blight, backcrossing, polygenic inheritance) and cannabis breeding for cannabinoid profiles (Science Friday) represent applied evolutionary biology responding to environmental stress or market demand. Both examples highlight the use of genomic tools and classical breeding to accelerate trait selection. This trend reflects growing capacity to intervene in crop and forest genetics at scale, raising questions about genetic diversity, intellectual property, and ecosystem consequences.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Accelerated crop and forest genetics programs need governance frameworks for ecological risk, genetic diversity stewardship, and equitable benefit-sharing; NASEM should advise on long-term resilience of food and forest systems under climate change.</div>
+</div>
+</div>
+
+        
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">103 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Public Health Crisis - Measles Resurgence (1 posts)</span> <span style="font-size:13px;color:#4a5568;">Measles cases in the US have exceeded 1000 in just two months of 2026, with infection rates accelerating faster than 2025 levels.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Science and Astronomy (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Ongoing discussions about lunar eclipses, Mars missions, dark matter galaxies, and astronomical observations across multiple posts.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biomedical Research and Innovation (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of immunotherapy for cancer, SuperAgers neuroscience, archaea chromatin structure, and AI health advice concerns.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Geological and Seismic Activity (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Reports on earthquakes in Bangladesh, Seattle anniversary, Fiji seismic monitoring, and paleontological discoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental Science and Sustainability (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on forest bathing health benefits, carbon sequestration from rubber, seabed mining regulations, and PFAS toxics tracking.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">350 likes &middot; 193 reposts &middot; 21 replies</div>
+  <div class="bluesky-text">Congratulations to us. 
+
+We've officially passed 1000 measles cases. In two months, we approached half of the TOTAL confirmed cases (2281) in 2025.  And that is in the beginning of 2026. The rate of infections is accelerating faster than last year.
+
+  🧪 www.scientificamerican.com/article/u-s-...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfwpyxkxn22l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sheencr.bsky.social</div>
+  <div class="bluesky-stats">196 likes &middot; 63 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">This trial looks very promising of a new type of immunotherapy for cancer that shrunk prostrate tumours 🧪🧵</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sheencr.bsky.social/post/3mfvtnesrfs2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">173 likes &middot; 82 reposts &middot; 15 replies</div>
+  <div class="bluesky-text">🧪 February is #BlackHistoryMonth
+
+In 1951, Henrietta Lacks's cervical cancer cells were taken w/o her consent & used for research.
+
+Her cells, coined HeLa, became the first immortal human cell line. They engendered advances in medicine such as cancer/HIV research, vaccine dev & genome sequencing.</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mfx45ojeyc2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">99 likes &middot; 14 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Waxing Gibbous Moon. 2019UT 28 February 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mfx3gogzq22i" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rbcomes.bsky.social</div>
+  <div class="bluesky-stats">63 likes &middot; 45 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">This is a critical story, because it ties in to the pocket rescissions approach that Russ Vought used last year at a small scale. This may be a bigger run at it after Congress passed a roughly normal science budget this cycle. 🧪⚛️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rbcomes.bsky.social/post/3mfwmeaq5ys2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Measles Public Health Crisis</strong>: Falls under NASEM's National Academies of Sciences, Engineering, and Medicine health policy purview; requires evidence-based vaccine policy recommendations and epidemic response coordination.</div>
+<div class="nasem-match"><strong>Space Policy and Orbital Debris/Megaconstellations</strong>: Relates to NASEM's space science and policy assessment work; requires evaluation of regulatory frameworks for large-scale orbital infrastructure projects and mitigation of space debris.</div>
+<div class="nasem-match"><strong>AI in Healthcare and Medical Diagnostic Validation</strong>: Aligns with NASEM's assessment of emerging technologies in medicine; requires standards development for AI validation in clinical applications and patient safety protocols.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 01, 2026 at 11:27 AM | Internal use only
+    </div>
+</body>
+</html>
