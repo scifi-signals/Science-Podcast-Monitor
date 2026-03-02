@@ -4606,12 +4606,16 @@
           {
             "date": "2026-02-26T11:49:00.308408",
             "context": "Wide-ranging discussions including galaxy observations, lunar eclipses, black holes, and extraterrestrial life searches."
+          },
+          {
+            "date": "2026-03-02T11:42:17.321836",
+            "context": "Observations of Mars exploration, exoplanet discoveries, dark matter research, and astronomical imaging achievements."
           }
         ]
       }
     },
     "first_seen": "2026-02-24T11:54:52.553660",
-    "total_mentions": 15
+    "total_mentions": 20
   },
   "marine and aquatic biology": {
     "canonical_name": "Marine and Aquatic Biology",
@@ -5308,12 +5312,16 @@
           {
             "date": "2026-02-25T11:49:18.467436",
             "context": "Discussions about CDC workforce changes, vaccine efficacy, measles outbreaks, and erosion of trust in public health institutions under current administration."
+          },
+          {
+            "date": "2026-03-02T11:42:17.321836",
+            "context": "Concerns about CDC/HHS leadership decisions, unethical research practices, vaccine advocacy, and conflicts of interest in health policy."
           }
         ]
       }
     },
     "first_seen": "2026-02-25T11:49:18.467436",
-    "total_mentions": 8
+    "total_mentions": 16
   },
   "vaccines and disease prevention": {
     "canonical_name": "Vaccines and Disease Prevention",
@@ -6973,6 +6981,60 @@
       }
     },
     "first_seen": "2026-03-01T11:26:51.098269",
+    "total_mentions": 5
+  },
+  "renewable energy and climate technology": {
+    "canonical_name": "Renewable Energy and Climate Technology",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-02T11:42:17.321836",
+        "mentions": [
+          {
+            "date": "2026-03-02T11:42:17.321836",
+            "context": "China's rapid deployment of solar and wind technology, global renewable energy transition, and fossil fuel phase-out strategies dominate discussion."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-02T11:42:17.321836",
+    "total_mentions": 12
+  },
+  "history and philosophy of science": {
+    "canonical_name": "History and Philosophy of Science",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-02T11:42:17.321836",
+        "mentions": [
+          {
+            "date": "2026-03-02T11:42:17.321836",
+            "context": "Historical perspectives on mathematicians, climate science origins, and scientific discovery narratives featuring underrepresented scientists."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-02T11:42:17.321836",
+    "total_mentions": 6
+  },
+  "biomedical research and neuroscience": {
+    "canonical_name": "Biomedical Research and Neuroscience",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-02T11:42:17.321836",
+        "mentions": [
+          {
+            "date": "2026-03-02T11:42:17.321836",
+            "context": "Studies on prenatal drug safety, mitochondrial aging mechanisms, infant microbiome development, and Alzheimer's disease research."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-02T11:42:17.321836",
     "total_mentions": 5
   }
 }
