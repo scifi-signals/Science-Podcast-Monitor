@@ -6562,12 +6562,16 @@
           {
             "date": "2026-02-27T11:37:33.618315",
             "context": "New species descriptions, Mexican wolf population recovery, and biodiversity assessments across multiple ecosystems."
+          },
+          {
+            "date": "2026-03-03T11:43:31.082599",
+            "context": "Research on new species identification, ecosystem health indicators, and biogeographic patterns including butterflies, ducks, and crustaceans."
           }
         ]
       }
     },
     "first_seen": "2026-02-27T11:37:33.618315",
-    "total_mentions": 4
+    "total_mentions": 10
   },
   "anesthesia mechanisms and propofol/sevoflurane pharmacology": {
     "canonical_name": "Anesthesia mechanisms and propofol/sevoflurane pharmacology",
@@ -7035,6 +7039,78 @@
       }
     },
     "first_seen": "2026-03-02T11:42:17.321836",
+    "total_mentions": 5
+  },
+  "lunar eclipse and astronomical events": {
+    "canonical_name": "Lunar Eclipse and Astronomical Events",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-03T11:43:31.082599",
+        "mentions": [
+          {
+            "date": "2026-03-03T11:43:31.082599",
+            "context": "Multiple posts discussing the March 3-4 total lunar eclipse visibility across North America and related astronomical observations."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-03T11:43:31.082599",
+    "total_mentions": 8
+  },
+  "climate change and environmental impacts": {
+    "canonical_name": "Climate Change and Environmental Impacts",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-03T11:43:31.082599",
+        "mentions": [
+          {
+            "date": "2026-03-03T11:43:31.082599",
+            "context": "Posts examining warming trends affecting wildlife distribution, water availability, heat stress in sports, and ecosystem dynamics."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-03T11:43:31.082599",
+    "total_mentions": 7
+  },
+  "mars exploration and astrobiology": {
+    "canonical_name": "Mars Exploration and Astrobiology",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-03T11:43:31.082599",
+        "mentions": [
+          {
+            "date": "2026-03-03T11:43:31.082599",
+            "context": "NASA rover findings on ancient Mars habitability, organic chemistry, and contemporary Perseverance mission observations."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-03T11:43:31.082599",
+    "total_mentions": 4
+  },
+  "women in science and academic leadership": {
+    "canonical_name": "Women in Science and Academic Leadership",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-03T11:43:31.082599",
+        "mentions": [
+          {
+            "date": "2026-03-03T11:43:31.082599",
+            "context": "Historical and contemporary posts highlighting women's contributions to astronomy, medicine, and scientific research despite systemic barriers."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-03T11:43:31.082599",
     "total_mentions": 5
   }
 }
