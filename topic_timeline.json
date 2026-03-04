@@ -3032,12 +3032,16 @@
           {
             "date": "2026-02-22T11:27:31.234859",
             "context": "Posts covering PHEV emissions data, AMOC monitoring, Antarctic Peninsula research, and various environmental monitoring studies."
+          },
+          {
+            "date": "2026-03-04T02:06:06.030411",
+            "context": "Posts covering climate change, soil moisture anomalies, AMOC collapse risk, and ecosystem responses to climate change."
           }
         ]
       }
     },
     "first_seen": "2026-02-22T11:27:31.234859",
-    "total_mentions": 8
+    "total_mentions": 16
   },
   "space and astronomy": {
     "canonical_name": "Space and Astronomy",
@@ -4610,12 +4614,16 @@
           {
             "date": "2026-03-02T11:42:17.321836",
             "context": "Observations of Mars exploration, exoplanet discoveries, dark matter research, and astronomical imaging achievements."
+          },
+          {
+            "date": "2026-03-04T02:06:06.030411",
+            "context": "Discussion of celestial observations including solar eclipses, distant galaxies, exoplanets, and JWST discoveries."
           }
         ]
       }
     },
     "first_seen": "2026-02-24T11:54:52.553660",
-    "total_mentions": 20
+    "total_mentions": 27
   },
   "marine and aquatic biology": {
     "canonical_name": "Marine and Aquatic Biology",
@@ -7111,6 +7119,60 @@
       }
     },
     "first_seen": "2026-03-03T11:43:31.082599",
+    "total_mentions": 5
+  },
+  "biomedical research and health": {
+    "canonical_name": "Biomedical Research and Health",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-04T02:06:06.030411",
+        "mentions": [
+          {
+            "date": "2026-03-04T02:06:06.030411",
+            "context": "Posts on gut microbiota, Parkinson's disease diagnostics, gene therapies, and infectious disease treatments."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-04T02:06:06.030411",
+    "total_mentions": 6
+  },
+  "science communication and advocacy": {
+    "canonical_name": "Science Communication and Advocacy",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-04T02:06:06.030411",
+        "mentions": [
+          {
+            "date": "2026-03-04T02:06:06.030411",
+            "context": "Coverage of Stand Up for Science movement, public engagement, and scientific integrity in policy."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-04T02:06:06.030411",
+    "total_mentions": 6
+  },
+  "marine biology and ocean science": {
+    "canonical_name": "Marine Biology and Ocean Science",
+    "channels": {
+      "bluesky:science_feed": {
+        "type": "bluesky",
+        "name": "Bluesky Science Feed",
+        "first_seen": "2026-03-04T02:06:06.030411",
+        "mentions": [
+          {
+            "date": "2026-03-04T02:06:06.030411",
+            "context": "Posts discussing ocean health, invasive species, deep-sea organisms, and marine biodiversity monitoring."
+          }
+        ]
+      }
+    },
+    "first_seen": "2026-03-04T02:06:06.030411",
     "total_mentions": 5
   }
 }
