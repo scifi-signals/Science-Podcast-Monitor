@@ -1,33 +1,35 @@
 # transcriber.py
-# Transcribe podcast audio using OpenAI API
+# Transcribe podcast audio using Groq's Whisper API (OpenAI-compatible)
 
 import os
 import json
+import time
 from datetime import datetime
 from openai import OpenAI
-from config import OPENAI_API_KEY, TRANSCRIPTION_MODEL, TRANSCRIPT_DIR
+from config import GROQ_API_KEY, TRANSCRIPTION_MODEL, TRANSCRIPT_DIR
 
 
-def get_openai_client():
-    """Get OpenAI client."""
-    if not OPENAI_API_KEY:
-        raise ValueError("OpenAI API key not configured. Set OPENAI_API_KEY or create openai_api_key.txt")
-    return OpenAI(api_key=OPENAI_API_KEY)
+def get_groq_client():
+    """Get Groq client (OpenAI-compatible)."""
+    if not GROQ_API_KEY:
+        raise ValueError("Groq API key not configured. Set GROQ_API_KEY or create groq_api_key.txt")
+    return OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 
 
 def transcribe_file(audio_path):
     """
-    Transcribe a single audio file using OpenAI API.
+    Transcribe a single audio file using Groq Whisper API.
 
     Returns transcript text.
     """
-    client = get_openai_client()
+    client = get_groq_client()
 
     with open(audio_path, "rb") as audio_file:
         transcript = client.audio.transcriptions.create(
             model=TRANSCRIPTION_MODEL,
             file=audio_file,
-            response_format="text"
+            response_format="text",
+            language="en",
         )
 
     return transcript
@@ -48,6 +50,9 @@ def transcribe_chunks(chunk_paths):
         print(f"    Chunk {i+1}/{len(chunk_paths)}...")
         text = transcribe_file(path)
         parts.append(text)
+        # Pace requests to stay under Groq's 20 RPM free-tier limit
+        if i < len(chunk_paths) - 1:
+            time.sleep(4)
 
     return "\n\n".join(parts)
 

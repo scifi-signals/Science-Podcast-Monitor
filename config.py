@@ -22,6 +22,7 @@ def _load_api_key(env_var, filename):
 ANTHROPIC_API_KEY = _load_api_key("ANTHROPIC_API_KEY", "anthropic_api_key.txt")
 OPENAI_API_KEY = _load_api_key("OPENAI_API_KEY", "openai_api_key.txt")
 GROK_API_KEY = _load_api_key("GROK_API_KEY", "grok_api_key.txt")
+GROQ_API_KEY = _load_api_key("GROQ_API_KEY", "groq_api_key.txt")
 
 LLM_MODELS = {
     "anthropic": "claude-haiku-4-5-20251001",
@@ -34,7 +35,7 @@ LLM_MAX_TOKENS = 4096
 # ======================
 # TRANSCRIPTION SETTINGS
 # ======================
-TRANSCRIPTION_MODEL = "gpt-4o-mini-transcribe"
+TRANSCRIPTION_MODEL = "whisper-large-v3-turbo"
 MAX_AUDIO_FILE_SIZE_MB = 25
 COMPRESS_BITRATE = "64k"
 

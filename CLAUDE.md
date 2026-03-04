@@ -19,13 +19,13 @@ python main.py --send-last     # Email most recent digest
 - **GitHub:** `scifi-signals/Science-Podcast-Monitor`
 - **Server:** DigitalOcean (`science-intel` / 159.203.126.156)
 - **Schedule:** Daily 6am ET via GitHub Actions (`daily-monitor.yml`) + DigitalOcean cron (`run_monitor.sh`)
-- **Secrets:** OPENAI_API_KEY + ANTHROPIC_API_KEY on GitHub; key files on server
+- **Secrets:** GROQ_API_KEY + ANTHROPIC_API_KEY on GitHub; key files on server
 
 ## Pipeline
 
 1. `rss_monitor.py` — Check 20 feeds for new episodes (3-day lookback)
 2. `audio_downloader.py` — Download + compress audio (ffmpeg, 64k, 15-min chunks)
-3. `transcriber.py` — OpenAI `gpt-4o-mini-transcribe`
+3. `transcriber.py` — Groq `whisper-large-v3-turbo` (free tier, 20 RPM)
 4. `summarizer.py` — Claude Haiku 4.5 (topics, claims, policy relevance, key quotes)
 5. `nasem_matcher.py` — Match to 1,300+ publications (keyword + LLM fallback)
 6. `bluesky_monitor.py` — Bluesky Science Feed (48-hour window)
@@ -54,13 +54,13 @@ python main.py --send-last     # Email most recent digest
 
 - **ffmpeg directly, NOT pydub** — pydub causes OOM on 1GB droplet
 - **Browser User-Agent header** needed for Acast CDN (TechTank)
-- **15-min time-based chunking** (not file-size) due to OpenAI token limits
+- **15-min time-based chunking** (not file-size) due to Groq's 25MB file limit
 - **Python 3.12** has audioop built-in; 3.13+ needs `audioop-lts`
 - **2GB swap** added to server for large audio processing
 - **Gmail REST API** because DigitalOcean blocks SMTP ports
 
 ## API Keys
 
-- `OPENAI_API_KEY` / `openai_api_key.txt` — Transcription
+- `GROQ_API_KEY` / `groq_api_key.txt` — Transcription (Groq Whisper, free tier)
 - `ANTHROPIC_API_KEY` / `anthropic_api_key.txt` — Summarization
 - `credentials.json` / `token.json` — Gmail OAuth

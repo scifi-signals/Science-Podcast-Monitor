@@ -33,7 +33,7 @@ jobs:
 
       - name: Create API key files
         run: |
-          echo "${{ secrets.OPENAI_API_KEY }}" > openai_api_key.txt
+          echo "${{ secrets.GROQ_API_KEY }}" > groq_api_key.txt
           echo "${{ secrets.ANTHROPIC_API_KEY }}" > anthropic_api_key.txt
 
       - name: Run podcast monitor
