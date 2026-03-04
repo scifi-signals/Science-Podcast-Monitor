@@ -123,6 +123,17 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
             return
 
         if episodes:
+            # Skip episodes over 120 min — too long for free-tier transcription budget
+            MAX_EPISODE_MINUTES = 120
+            long = [e for e in episodes if (e.get('duration_minutes') or 0) > MAX_EPISODE_MINUTES]
+            if long:
+                for e in long:
+                    print(f"  [SKIP] {e['podcast_name']}: {e['title']} ({e.get('duration_minutes', 0):.0f} min > {MAX_EPISODE_MINUTES} min limit)")
+                episodes = [e for e in episodes if (e.get('duration_minutes') or 0) <= MAX_EPISODE_MINUTES]
+
+            # Sort shortest first to maximize episodes processed within rate limits
+            episodes.sort(key=lambda e: e.get('duration_minutes') or 60)
+
             if max_episodes and len(episodes) > max_episodes:
                 print(f"\nLimiting to {max_episodes} episode(s) (of {len(episodes)} found)")
                 episodes = episodes[:max_episodes]
