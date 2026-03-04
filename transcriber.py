@@ -3,9 +3,10 @@
 
 import os
 import json
+import re
 import time
 from datetime import datetime
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
 from config import GROQ_API_KEY, TRANSCRIPTION_MODEL, TRANSCRIPT_DIR
 
 
@@ -16,23 +17,48 @@ def get_groq_client():
     return OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 
 
-def transcribe_file(audio_path):
+def _parse_retry_seconds(error_message):
+    """Parse 'try again in XmYs' from Groq rate limit error."""
+    match = re.search(r'try again in (\d+)m([\d.]+)s', str(error_message))
+    if match:
+        return int(match.group(1)) * 60 + float(match.group(2))
+    match = re.search(r'try again in ([\d.]+)s', str(error_message))
+    if match:
+        return float(match.group(1))
+    match = re.search(r'try again in (\d+)m', str(error_message))
+    if match:
+        return int(match.group(1)) * 60
+    return 120  # Default 2 min wait if can't parse
+
+
+def transcribe_file(audio_path, max_retries=3):
     """
     Transcribe a single audio file using Groq Whisper API.
+    Retries on rate limit errors with the wait time from the error message.
 
     Returns transcript text.
     """
     client = get_groq_client()
 
-    with open(audio_path, "rb") as audio_file:
-        transcript = client.audio.transcriptions.create(
-            model=TRANSCRIPTION_MODEL,
-            file=audio_file,
-            response_format="text",
-            language="en",
-        )
-
-    return transcript
+    for attempt in range(max_retries):
+        try:
+            with open(audio_path, "rb") as audio_file:
+                transcript = client.audio.transcriptions.create(
+                    model=TRANSCRIPTION_MODEL,
+                    file=audio_file,
+                    response_format="text",
+                    language="en",
+                )
+            return transcript
+        except RateLimitError as e:
+            wait_seconds = _parse_retry_seconds(str(e))
+            # Add 10s buffer
+            wait_seconds = min(wait_seconds + 10, 600)
+            if attempt < max_retries - 1:
+                print(f"    Rate limited. Waiting {wait_seconds:.0f}s...")
+                time.sleep(wait_seconds)
+            else:
+                raise
 
 
 def transcribe_chunks(chunk_paths):
@@ -117,7 +143,6 @@ def save_transcript(transcript, episode):
 
 def _safe_filename(s, max_len=50):
     """Convert string to safe filename."""
-    import re
     s = re.sub(r'[^\w\s-]', '', s)
     s = re.sub(r'\s+', '_', s)
     return s[:max_len].strip('_').lower()
