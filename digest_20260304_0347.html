@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 04, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 04, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">47</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">81</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's coverage reveals a sustained focus on brain health and neurological conditions across multiple dimensions: cognitive decline prevention through targeted training, aphantasia as a distinct neurological phenotype affecting 4% of the population, and the mechanisms underlying mental imagery generation. Concurrently, climate-driven ecological disruption is emerging as a critical theme, exemplified by earlier spring lake ice thaw desynchronizing fish spawning cycles and threatening cold-water fisheries. Biotechnology continues advancing rapidly, with enzyme engineering and AI-guided protein design positioned to revolutionize chemical synthesis within 5-10 years. Animal behavior studies provide nuanced perspectives on primate social development and welfare assessment in captive settings. These themes collectively underscore NASEM's potential role in translating neuroscience findings into policy, addressing climate-aquatic ecosystem interactions, and guiding responsible development of AI-enabled biotechnology.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Brain connectivity and neurological function: aphantasia visual cortex connectivity, cognitive training effects on dementia risk, mental imagery generation mechanisms</li>
+<li>Climate change ecological cascades: Earlier spring ice thaw disrupting food webs and fish reproduction; broader patterns of ecosystem phenological misalignment</li>
+<li>AI and machine learning applications: enzyme engineering, protein design prediction, potential for rapid biotechnological innovation within 5-10 years</li>
+<li>Neuroscience longitudinal studies and intervention efficacy: 20-year dementia prevention data from speed-of-processing training; genetic components of neurological conditions</li>
+<li>Primate cognition and animal welfare: social hierarchies, maternal care importance, anthropomorphism in public discourse</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Aphantasia as a measurable neurological condition gaining scientific legitimacy post-2015; Bluesky data shows ongoing neuroscience research momentum on consciousness and sensory representation</li>
+<li>Enzyme engineering and directed evolution positioned as climate solution pathway (PFAS degradation, plastic breakdown); convergence with AI/ML design tools represents accelerating biotechnology trajectory</li>
+<li>Spring ice phenology as a sensitive climate change indicator affecting freshwater ecosystems; extends multi-day pattern of climate-driven ecological disruption content</li>
+<li>Cognitive training intervention specificity: speed-of-processing training demonstrates measurable dementia risk reduction, contrasting with broader 'brain health' claims; aligns with recent neuroscience focus on targeted interventions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Translate dementia prevention science into public health guidance: convene experts on speed-of-processing cognitive training methodology to assess scalability, accessibility, and integration into clinical practice for aging populations</div>
+<div class="opportunity">Establish interdisciplinary working group on climate-aquatic ecosystem interactions: synthesize lake ice phenology research with fisheries management, propose adaptive strategies for freshwater conservation as ice-dependent systems shift</div>
+<div class="opportunity">Develop responsible innovation framework for AI-directed enzyme engineering: address safety, oversight, and dual-use considerations as researchers approach claimed 5-10 year capability to encode 'virtually any chemical transformation'</div>
+<div class="opportunity">Commission assessment of aphantasia prevalence and neuroscience: validate population estimates, explore occupational distribution claims (technical vs. arts professions), inform neurodiversity inclusion policies in research and education</div>
+<div class="opportunity">Host roundtable on primate welfare in research and captive settings: leverage Short Wave episode discussion to convene primatologists, ethicists, and zoo directors on best practices for maternal care alternatives and social integration protocols</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Overgeneralization risk in cognitive training claims: While 25% dementia risk reduction is evidence-based from randomized trial, public discourse may overstate applicability; episode clearly specifies populations (65+, n=2,832), training intensity (12 hours total), and persistence of benefits—but scalability claims require caution</div>
+<div class="claim">Anthropomorphism conflation: Short Wave addresses this explicitly, but risk remains that viral 'Punch the macaque' narrative may drive false equivalencies between human and macaque infant development without nuance; episode effectively counters with science</div>
+<div class="claim">AI enzyme design timeline claims: Frances Arnold's '5-10 year' prediction for encoding 'virtually any chemical transformation' is aspirational; distinguish between directed evolution current capabilities and speculative AI-enabled futures</div>
+<div class="claim">Lake ice thaw determinism: While earlier ice-out is documented (2-month variability range), episode appropriately avoids claiming inevitable walleye collapse; adaptive management and stocking strategies remain viable, reducing fatalistic framing</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Cognitive Aging and Brain Health Across the Lifespan</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on mechanisms of cognitive decline and preservation, spanning from basic neuroscience (circadian rhythm effects on brain function via Huberman Lab) to clinical interventions (cognitive training and APOE genetics via Science Friday). The narrative emerging is that cognitive reserve, environmental factors (light exposure, behavioral patterns), and genetic predisposition interact to determine dementia risk, with implications for preventive medicine moving beyond pharmacology to lifestyle and personalized genomic screening.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track the shift toward precision gerontology and personalized cognitive health interventions, particularly around translating neuroscience findings into public health policy for aging populations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Protein Engineering and AI-Driven Molecular Design</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's focus on directed enzyme evolution, AI-designed proteins, and machine learning in protein design reflects an accelerating convergence of computational biology with wet-lab synthesis. This represents a maturing capability to rationally engineer biological catalysts for industrial and therapeutic applications, moving beyond evolutionary discovery toward intentional design.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess infrastructure and workforce needs for AI-augmented bioengineering and consider policy frameworks for intellectual property, regulatory approval, and biosafety in synthetic biology pipelines.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate-Driven Ecological Phase Shifts and Trophic Disruption</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave and Science Magazine Podcast are both documenting climate-mediated phenological mismatches—delayed lake freezing and spring spawning disruptions, tropical bird population collapse from La Niña effects—indicating cascading food web decoupling. These represent not isolated environmental changes but systemic ecosystem reorganization driven by warming and altered precipitation.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize research on early-warning indicators of ecosystem tipping points and advise on adaptive management strategies for fisheries and biodiversity conservation under rapid climate change.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic Resistance Engineering in Crop and Forest Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's reporting on chestnut blight resistance through backcrossing and polygenic trait selection reflects a broader shift toward genomic-assisted breeding to restore ecological function and agricultural resilience. This bridges applied genetics with ecosystem restoration, moving beyond single-gene resistance to quantitative trait mapping.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should examine regulatory and commercialization pathways for genetically improved crops and trees, and assess whether current breeding timelines can outpace pathogen evolution and climate volatility.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Public Health Access and Pharmacological Intervention Democratization</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science's coverage of GLP-1 agonists, PrEP/PEP, naloxone, and buprenorphine reflects ongoing tension between pharmaceutical innovation and equitable access. The emerging narrative emphasizes that clinical efficacy alone is insufficient—supply chains, cost, stigma, and provider distribution determine population-level health outcomes.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess barriers to rapid scale-up of effective therapeutics (obesity, HIV prevention, opioid use disorder) and recommend policy levers for equitable distribution and insurance coverage.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Spring ice is thawing earlier in lakes. What does that mean for life below the surface?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 02 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines how earlier spring ice thaw in lakes is disrupting spawning cycles and food webs for cold-water fish species like walleye. Through ice fishing on Lake Wabisa in Wisconsin, reporter Burley McCoy and fisheries biologist Zach Feiner explore how increasingly variable ice-out timing—ranging from mid-March to mid-May in recent years—desynchronizes algae blooms, zooplankton availability, and fish reproduction, ultimately reducing survival rates of young fish. The episode discusses implications for the 1.7 million ice fishers in the U.S. and considers adaptive management strategies, including potential shifts toward stocking warm-water fish species as traditional cold-water fisheries decline.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Spring lake ice phenology and timing variability</span>
+  <span class="topic-tag">Walleye reproduction and spring spawning</span>
+  <span class="topic-tag">Algae blooms and zooplankton dynamics in lakes</span>
+  <span class="topic-tag">Food web decoupling in aquatic ecosystems</span>
+  <span class="topic-tag">Larval fish survival rates and recruitment</span>
+  <span class="topic-tag">Cold-water vs. warm-water fish species ecology</span>
+  <span class="topic-tag">Climate change impacts on lake ice duration</span>
+  <span class="topic-tag">Fish stock augmentation and conservation stocking</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23552/frontiers-in-decadal-climate-variability-proceedings-of-a-workshop" target="_blank">Frontiers in Decadal Climate Variability: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science" target="_blank">The Science and Practice of Team Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26744/national-plan-for-health-workforce-well-being" target="_blank">National Plan for Health Workforce Well-Being</a></div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11624/to-recruit-and-advance-women-students-and-faculty-in-science" target="_blank">To Recruit and Advance: Women Students and Faculty in Science and Engineering</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13039/nutrient-requirements-of-fish-and-shrimp" target="_blank">Nutrient Requirements of Fish and Shrimp</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Walleye populations have declined significantly in many lakes and now rely on human stocking to maintain numbers</div>
+<div class="claim">Variability in spring ice thaw timing (2-month range documented from mid-March to mid-May) causes measurable declines in young walleye survival rates the following fall</div>
+<div class="claim">Thousands of lakes are predicted to stop forming ice entirely before the end of the century</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We've lost a good six weeks off of our ice fishing season since I started back in the 1980s. We used to start in December, end in April. Now we start in January, end in March."</div>
+<div class="quote">"In years with huge swings in when the lake thaws, they don't count as many young walleyes the next fall. So fewer of them are surviving."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: The Art And Science Of Staving Off Cognitive Decline</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 02 &middot; 17 min</div>
+<p style="margin:10px 0;font-size:14px;">Science Friday features a discussion of cognitive reserve and dementia prevention, centered around playwright Jake Brash's semi-autobiographical play "The Reservoir" about managing alcoholism and aging family members. The episode highlights a major longitudinal study finding that specialized speed-of-processing cognitive training reduced dementia risk by 25% over 20 years in adults 65 and older, with Dr. Marilyn Albert from Johns Hopkins explaining the study's methodology and implications for brain health.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cognitive reserve and dementia prevention</span>
+  <span class="topic-tag">Speed-of-processing cognitive training</span>
+  <span class="topic-tag">Alzheimer's disease pathology and risk factors</span>
+  <span class="topic-tag">Brain connectivity and neuroimaging</span>
+  <span class="topic-tag">Divided attention tasks and adaptive difficulty training</span>
+  <span class="topic-tag">Age-related cognitive decline</span>
+  <span class="topic-tag">Alcohol-induced cognitive impairment and recovery</span>
+  <span class="topic-tag">Longitudinal studies on dementia incidence</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Specialized speed-of-processing training reduced dementia diagnosis risk by 25% over 20 years in randomized trial</div>
+<div class="claim">Training involved twice-weekly one-hour sessions for six weeks, with booster sessions at years 1 and 3</div>
+<div class="claim">Benefits persisted across all age groups 65 and older (average age 74) with no age-related variation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I started there and then quickly realized, oh my gosh, I'm writing about that year of my life...the science was really what started it. - Jake Brash on developing the play concept from cognitive reserve research"</div>
+<div class="quote">"25% lower risk is really quite a lot...if we could reduce that by 25%, it would be wonderful. - Dr. Marilyn Albert on the study's public health significance"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Audio long read: Many people have no mental imagery. What’s going on in their brains?</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 02 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores aphantasia, a neurological condition affecting approximately 4% of the population characterized by the absence or severe weakness of mental imagery. The episode traces the scientific discovery and study of aphantasia, beginning with neurologist Adam Zeman's 2015 paper that coined the term, and examines recent neuroscience research investigating how brains of people with aphantasia differ in visual cortex activity and inter-regional connectivity. Researchers have identified that aphantasia involves both an inability to consciously experience mental images and difficulties voluntarily generating them, despite the presence of visual representations in the brain. The condition appears to have genetic components, may be more common in technical professions, and notably reduces the vividness of autobiographical memories while having minimal impact on most behavioral and cognitive tasks.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Aphantasia (absence of mental imagery)</span>
+  <span class="topic-tag">Visual cortex activity and mental imagery generation</span>
+  <span class="topic-tag">Binocular rivalry as a measurement technique for mental imagery strength</span>
+  <span class="topic-tag">Brain connectivity between visual and frontal regions</span>
+  <span class="topic-tag">Autobiographical memory and visual representation</span>
+  <span class="topic-tag">Hyperphantasia (unusually vivid mental imagery)</span>
+  <span class="topic-tag">Functional magnetic resonance imaging (fMRI) studies of imagery</span>
+  <span class="topic-tag">Machine learning algorithms for decoding brain activity</span>
+  <span class="topic-tag">Hallucinations in schizophrenia and Parkinson's disease</span>
+  <span class="topic-tag">Post-traumatic stress disorder visual intrusions</span>
+  <span class="topic-tag">Synesthesia and prosopagnosia (face blindness) as comparative neurological phenomena</span>
+  <span class="topic-tag">Genetic components of aphantasia</span>
+  <span class="topic-tag">Consciousness and sensory representations</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25710/final-review-of-the-study-on-supplemental-treatment-approaches-of-low-activity-waste-at-the-hanford-nuclear-reservation" target="_blank">Final Review of the Study on Supplemental Treatment Approaches of Low-Activity Waste at the Hanford Nuclear Reservation: Review #4</a></div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research" target="_blank">Risk Assessment Techniques for Transportation Asset Management: Conduct of Research</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23539/electricity-use-in-rural-and-islanded-communities-summary-of-a" target="_blank">Electricity Use in Rural and Islanded Communities: Summary of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Aphantasia affects approximately 4% of the population</div>
+<div class="claim">Aphantasia has a genetic component with tenfold increased likelihood if a sibling has aphantasia</div>
+<div class="claim">Aphantasia may be more common in people in scientific and technical professions than in arts careers</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"When I close my eyes, there's absolutely nothing there, Shine recalls telling his colleagues."</div>
+<div class="quote">"The fact that there are people with a complete lack of mental imagery brings fresh ways to study this internal experience... how does it affect our emotion, our perception, our attention, our memory? We can understand this with aphantasia."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Will Punch the baby monkey be okay?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 03 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the viral internet phenomenon of Punch, a baby macaque abandoned by his mother at Ichikawa City Zoo in Tokyo, examining whether public concern for his welfare is warranted. Host Katia Riddle interviews primatologist Lauren Robinson to understand macaque social hierarchies, maternal care importance, and how infant monkeys develop in zoo settings. The discussion reveals that maternal rejection, while uncommon, does occur in macaques, and that without maternal care an infant would not survive in the wild. The episode addresses anthropomorphism—humans projecting human emotions onto animals—while explaining that Punch's integration into the macaque troop through grooming relationships and social learning is proceeding normally for his species.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Macaque social hierarchies and dominance behaviors</span>
+  <span class="topic-tag">Maternal care in primates and attachment theory</span>
+  <span class="topic-tag">Harry Harlow's cloth mother experiments with rhesus macaques</span>
+  <span class="topic-tag">Infant primate development and socialization</span>
+  <span class="topic-tag">Despotic versus egalitarian social structures in macaques</span>
+  <span class="topic-tag">Maternal rejection and infant abandonment in macaques</span>
+  <span class="topic-tag">Anthropomorphism in human perception of animal behavior</span>
+  <span class="topic-tag">Snow monkey (Japanese macaque) behavioral ecology</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Communities in Action: Pathways to Health Equity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26573/evolving-crisis-standards-of-care-and-ongoing-lessons-from-covid-19" target="_blank">Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern" target="_blank">A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer" target="_blank">Making Better Drugs for Children with Cancer</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop" target="_blank">The Drug Development Paradigm in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications" target="_blank">Quantitative Safety Analyses for Highway Applications</a></div>
+<div class="nasem-match">Communities in Action: Pathways to Health Equity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Maternal rejection in macaques is uncommon but not rare; research facilities have protocols for surrogate placement</div>
+<div class="claim">An abandoned infant macaque would not survive in the wild without maternal support</div>
+<div class="claim">Grooming relationships and proximity-seeking are indicators of successful social integration in macaque groups</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If we get mad at snow monkeys for being aggressive to each other, we might as well be mad at the rain for being wet. It's just who they are as a species."</div>
+<div class="quote">"We don't want to project our own human narratives onto animals. I think they're just kind of doing what snow monkeys do."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: The Evolution Of An Enzyme Engineer Who Changed Chemistry</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 03 &middot; 30 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Frances Arnold, 2018 Nobel Prize winner in Chemistry, discusses directed evolution—a technique for engineering enzymes to perform novel functions by applying evolutionary principles similar to selective breeding. Arnold explains how this approach enables the creation of designer enzymes for practical applications like stain removal, drug synthesis, and breaking down environmental pollutants. She emphasizes that AI tools combined with evolutionary optimization will likely enable researchers to genetically encode virtually any desired chemical transformation within five to ten years. The conversation also explores Arnold's unconventional path to science, her philosophy on scientific communication, and her vision for biology's central role in addressing future challenges.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Directed evolution of enzymes</span>
+  <span class="topic-tag">Enzyme catalysis and protein engineering</span>
+  <span class="topic-tag">AI-designed enzymes and machine learning in protein design</span>
+  <span class="topic-tag">Carbon-silicon bond formation</span>
+  <span class="topic-tag">PFAS (forever chemicals) degradation using enzymes</span>
+  <span class="topic-tag">Novel-to-nature chemistry</span>
+  <span class="topic-tag">Protein structure prediction</span>
+  <span class="topic-tag">Selective breeding applied to biological systems</span>
+  <span class="topic-tag">Tuberculosis drug synthesis using enzymatic systems</span>
+  <span class="topic-tag">Plastic degradation enzymes</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Climate Intervention: Reflecting Sunlight to Cool Earth</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10999/the-engineer-of-2020-visions-of-engineering-in-the-new" target="_blank">The Engineer of 2020: Visions of Engineering in the New Century</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration" target="_blank">A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering" target="_blank">New Directions for Chemical Engineering</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Within 5-10 years, researchers will be able to genetically encode almost all chemical transformations that could be performed in enzymatic systems</div>
+<div class="claim">AI design tools can provide access to virtually any chemical transformation an enzyme could perform</div>
+<div class="claim">Enzymes can be evolved to catalyze carbon-silicon bonds, which do not occur naturally in biology</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Enzymes are the transformation agents of the whole natural world. It's enzymes that take carbon dioxide and sunlight and simple starting materials and build trees and human beings and flowers and birds. They're the best chemists on the planet."</div>
+<div class="quote">"You get what you screen for. And that may sound like a silly statement, but it's actually a very profound statement because if you don't screen or search for the thing that you really care about, you'll get what you searched for, but it may not be what you want."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">81 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Earth Systems (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing climate change, soil moisture, magnetic pole reversals, AMOC collapse, Antarctic ice sheet dynamics, and winter temperature records.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Science (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Content about solar eclipses, exoplanets, jellyfish galaxies, Moon observations, and distant world imaging.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biological Research and Animal Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on animal behavior including chimpanzee ethanol consumption, vampire bats, clonal ants, and bird migration patterns.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Funding (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions about science funding, RFK Jr.'s influence on health research, independent advisory committees, and DOE grant opportunities.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Medical and Health Research (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on Parkinson's disease diagnostics, sleeping sickness treatment, gut microbiota research, firearm violence prevention, and infectious diseases.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sailorrooscout.bsky.social</div>
+  <div class="bluesky-stats">2106 likes &middot; 416 reposts &middot; 85 replies</div>
+  <div class="bluesky-text">I aspire to exude as much confidence as this little Kinesin protein strutting along a microtubule while hauling intracellular cargo. 
+
+Look at that little guy go! 🔬🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sailorrooscout.bsky.social/post/3mg6hfqe2t223" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">191 likes &middot; 105 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">"HS under Kennedy has made a habit of throwing good money after bad science."
+
+That "good money" is our tax payer $$, thrown at unethical studies. He pushes ideology over evidence.  
+
+The cover of the most recent issue of The Lancet says it all.
+  🧪 www.thelancet.com/journals/lan...
+
+ #ImpeachRFKJr</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mg6caxlyxs2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">185 likes &middot; 102 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">The antidote to the incessant propaganda wheel (WH & the likes of Kennedy et al.) is to form your own damn independent advisory group.
+
+The Independent Autism Coordinating Committee (I-ACC) includes autism researchers, also 2 former NIH directors who study autism for a living.
+
+🧪 archive.today/OQ6Ch</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mg6newobys2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">99 likes &middot; 11 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Stunning 🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mg6lca2zxs2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@philplait.bsky.social</div>
+  <div class="bluesky-stats">77 likes &middot; 19 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Need a place to go to get away from <all this>? Paid subbies to my newsletter get a big ol' dose of the cosmos 3 times a week! Like today's issue about lightning on Mars, China may have already peaked its CO2 emission, and finding meteors seismically.
+
+badastronomy.beehiiv.com/p/more-marti...
+
+🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/philplait.bsky.social/post/3mg65skinf22o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Science Policy and Research Integrity</strong>: Posts critique RFK Jr.'s stewardship of HHS/NIH and advocate for independent advisory structures in autism research; directly relevant to NASEM's role in advising on science policy and research governance.</div>
+<div class="nasem-match"><strong>Climate Change and Earth Systems Tipping Points</strong>: Multiple posts on AMOC collapse, Antarctic ice sheet dynamics, and magnetic pole reversals relate to NASEM's work on climate science assessment and understanding critical earth system transitions.</div>
+<div class="nasem-match"><strong>Public Health and Emerging Infectious Diseases</strong>: Posts on sleeping sickness treatment innovation and parasitic disease research align with NASEM's interests in global health threats and medical research translation.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 04, 2026 at 03:47 AM | Internal use only
+    </div>
+</body>
+</html>

@@ -1,7 +1,476 @@
 {
-  "updated": "2026-03-04T02:06:23.922977",
-  "episode_count": 46,
+  "updated": "2026-03-04T03:47:14.678480",
+  "episode_count": 51,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The Evolution Of An Enzyme Engineer Who Changed Chemistry",
+      "host": "Ira Flatow",
+      "published": "2026-03-03T11:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. Frances Arnold, 2018 Nobel Prize winner in Chemistry, discusses directed evolution—a technique for engineering enzymes to perform novel functions by applying evolutionary principles similar to selective breeding. Arnold explains how this approach enables the creation of designer enzymes for practical applications like stain removal, drug synthesis, and breaking down environmental pollutants. She emphasizes that AI tools combined with evolutionary optimization will likely enable researchers to genetically encode virtually any desired chemical transformation within five to ten years. The conversation also explores Arnold's unconventional path to science, her philosophy on scientific communication, and her vision for biology's central role in addressing future challenges.",
+      "science_topics": [
+        "Directed evolution of enzymes",
+        "Enzyme catalysis and protein engineering",
+        "AI-designed enzymes and machine learning in protein design",
+        "Carbon-silicon bond formation",
+        "PFAS (forever chemicals) degradation using enzymes",
+        "Novel-to-nature chemistry",
+        "Protein structure prediction",
+        "Selective breeding applied to biological systems",
+        "Tuberculosis drug synthesis using enzymatic systems",
+        "Plastic degradation enzymes"
+      ],
+      "claims_to_note": [
+        "Within 5-10 years, researchers will be able to genetically encode almost all chemical transformations that could be performed in enzymatic systems",
+        "AI design tools can provide access to virtually any chemical transformation an enzyme could perform",
+        "Enzymes can be evolved to catalyze carbon-silicon bonds, which do not occur naturally in biology",
+        "PFAS degradation via enzymes is feasible and could be cost-effective, though Arnold notes it is one of several approaches and that not making them in the first place is also important",
+        "Directed evolution allows identification of novel properties in enzymes that may not have been the original selection target"
+      ],
+      "policy_relevance": [
+        "Gates Foundation funding for enzyme design to create affordable tuberculosis drugs for developing countries",
+        "Environmental pollution remediation via engineered enzymes (PFAS/forever chemicals degradation)",
+        "Federal support for synthetic biology and enzyme engineering research (implied through grant mention from Procter & Gamble)",
+        "Discussion of alternative energy research background influencing enzyme engineering career trajectory"
+      ],
+      "nasem_publications": [
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "url": ""
+        },
+        {
+          "title": "The Engineer of 2020: Visions of Engineering in the New Century",
+          "url": "https://nap.nationalacademies.org/catalog/10999/the-engineer-of-2020-visions-of-engineering-in-the-new"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress",
+          "url": "https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Will Punch the baby monkey be okay?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-03T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the viral internet phenomenon of Punch, a baby macaque abandoned by his mother at Ichikawa City Zoo in Tokyo, examining whether public concern for his welfare is warranted. Host Katia Riddle interviews primatologist Lauren Robinson to understand macaque social hierarchies, maternal care importance, and how infant monkeys develop in zoo settings. The discussion reveals that maternal rejection, while uncommon, does occur in macaques, and that without maternal care an infant would not survive in the wild. The episode addresses anthropomorphism—humans projecting human emotions onto animals—while explaining that Punch's integration into the macaque troop through grooming relationships and social learning is proceeding normally for his species.",
+      "science_topics": [
+        "Macaque social hierarchies and dominance behaviors",
+        "Maternal care in primates and attachment theory",
+        "Harry Harlow's cloth mother experiments with rhesus macaques",
+        "Infant primate development and socialization",
+        "Despotic versus egalitarian social structures in macaques",
+        "Maternal rejection and infant abandonment in macaques",
+        "Anthropomorphism in human perception of animal behavior",
+        "Snow monkey (Japanese macaque) behavioral ecology"
+      ],
+      "claims_to_note": [
+        "Maternal rejection in macaques is uncommon but not rare; research facilities have protocols for surrogate placement",
+        "An abandoned infant macaque would not survive in the wild without maternal support",
+        "Grooming relationships and proximity-seeking are indicators of successful social integration in macaque groups",
+        "Harry Harlow's work demonstrated that affection, not just food, is developmentally critical for primate infants",
+        "Snow monkeys exhibit 'despotic' hierarchies with strict dominance structures and ritualized aggression behaviors",
+        "Aggression within a hierarchy is normal and does not indicate failed integration into the social group"
+      ],
+      "policy_relevance": [
+        "Zoo management and animal welfare protocols for orphaned primates",
+        "Research facility standards for surrogate parent placement in non-human primates"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": ""
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital"
+        },
+        {
+          "title": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series",
+          "url": "https://nap.nationalacademies.org/catalog/26573/evolving-crisis-standards-of-care-and-ongoing-lessons-from-covid-19"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Making Better Drugs for Children with Cancer",
+          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer"
+        },
+        {
+          "title": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop"
+        },
+        {
+          "title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+          "url": "https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": ""
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Audio long read: Many people have no mental imagery. What’s going on in their brains?",
+      "host": "Springer Nature",
+      "published": "2026-03-02T14:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores aphantasia, a neurological condition affecting approximately 4% of the population characterized by the absence or severe weakness of mental imagery. The episode traces the scientific discovery and study of aphantasia, beginning with neurologist Adam Zeman's 2015 paper that coined the term, and examines recent neuroscience research investigating how brains of people with aphantasia differ in visual cortex activity and inter-regional connectivity. Researchers have identified that aphantasia involves both an inability to consciously experience mental images and difficulties voluntarily generating them, despite the presence of visual representations in the brain. The condition appears to have genetic components, may be more common in technical professions, and notably reduces the vividness of autobiographical memories while having minimal impact on most behavioral and cognitive tasks.",
+      "science_topics": [
+        "Aphantasia (absence of mental imagery)",
+        "Visual cortex activity and mental imagery generation",
+        "Binocular rivalry as a measurement technique for mental imagery strength",
+        "Brain connectivity between visual and frontal regions",
+        "Autobiographical memory and visual representation",
+        "Hyperphantasia (unusually vivid mental imagery)",
+        "Functional magnetic resonance imaging (fMRI) studies of imagery",
+        "Machine learning algorithms for decoding brain activity",
+        "Hallucinations in schizophrenia and Parkinson's disease",
+        "Post-traumatic stress disorder visual intrusions",
+        "Synesthesia and prosopagnosia (face blindness) as comparative neurological phenomena",
+        "Genetic components of aphantasia",
+        "Consciousness and sensory representations"
+      ],
+      "claims_to_note": [
+        "Aphantasia affects approximately 4% of the population",
+        "Aphantasia has a genetic component with tenfold increased likelihood if a sibling has aphantasia",
+        "Aphantasia may be more common in people in scientific and technical professions than in arts careers",
+        "People with aphantasia perform relatively well on standard memory assessments and mental rotation tasks",
+        "Visual cortex shows activity during imagery attempts in people with aphantasia similar to control individuals",
+        "Aphantasia reduces the richness and vividness of autobiographical memories",
+        "People with aphantasia can recognize faces and identify spatial locations as well as those with typical imagery",
+        "Over 20,000 people have contacted Adam Zeman about aphantasia since 2015 New York Times article"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Ending Discrimination Against People with Mental and Substance Use Disorders: The Evidence for Stigma Change",
+          "url": "https://nap.nationalacademies.org/catalog/23442/ending-discrimination-against-people-with-mental-and-substance-use-disorders"
+        },
+        {
+          "title": "Final Review of the Study on Supplemental Treatment Approaches of Low-Activity Waste at the Hanford Nuclear Reservation: Review #4",
+          "url": "https://nap.nationalacademies.org/catalog/25710/final-review-of-the-study-on-supplemental-treatment-approaches-of-low-activity-waste-at-the-hanford-nuclear-reservation"
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Electricity Use in Rural and Islanded Communities: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23539/electricity-use-in-rural-and-islanded-communities-summary-of-a"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The Art And Science Of Staving Off Cognitive Decline",
+      "host": "Ira Flatow",
+      "published": "2026-03-02T11:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Science Friday features a discussion of cognitive reserve and dementia prevention, centered around playwright Jake Brash's semi-autobiographical play \"The Reservoir\" about managing alcoholism and aging family members. The episode highlights a major longitudinal study finding that specialized speed-of-processing cognitive training reduced dementia risk by 25% over 20 years in adults 65 and older, with Dr. Marilyn Albert from Johns Hopkins explaining the study's methodology and implications for brain health.",
+      "science_topics": [
+        "Cognitive reserve and dementia prevention",
+        "Speed-of-processing cognitive training",
+        "Alzheimer's disease pathology and risk factors",
+        "Brain connectivity and neuroimaging",
+        "Divided attention tasks and adaptive difficulty training",
+        "Age-related cognitive decline",
+        "Alcohol-induced cognitive impairment and recovery",
+        "Longitudinal studies on dementia incidence"
+      ],
+      "claims_to_note": [
+        "Specialized speed-of-processing training reduced dementia diagnosis risk by 25% over 20 years in randomized trial",
+        "Training involved twice-weekly one-hour sessions for six weeks, with booster sessions at years 1 and 3",
+        "Benefits persisted across all age groups 65 and older (average age 74) with no age-related variation",
+        "Training was beneficial above and beyond daily activities like crossword puzzles, physical exercise, and healthy diet",
+        "Annual cost of dementia in US is approximately $400 billion",
+        "Higher cognitive reserve may result in sharper decline once cognitive symptoms appear (playwright's observation, not rigorously tested claim)"
+      ],
+      "policy_relevance": [
+        "Sloan Foundation funding for both the play and cognitive research",
+        "Public health implications of 25% dementia risk reduction for aging population health policy",
+        "Potential healthcare cost savings if findings scale to population level ($400 billion annual dementia costs)",
+        "Future research stimulus and need for funding to understand mechanisms of cognitive training interventions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Spring ice is thawing earlier in lakes. What does that mean for life below the surface?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-02T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines how earlier spring ice thaw in lakes is disrupting spawning cycles and food webs for cold-water fish species like walleye. Through ice fishing on Lake Wabisa in Wisconsin, reporter Burley McCoy and fisheries biologist Zach Feiner explore how increasingly variable ice-out timing—ranging from mid-March to mid-May in recent years—desynchronizes algae blooms, zooplankton availability, and fish reproduction, ultimately reducing survival rates of young fish. The episode discusses implications for the 1.7 million ice fishers in the U.S. and considers adaptive management strategies, including potential shifts toward stocking warm-water fish species as traditional cold-water fisheries decline.",
+      "science_topics": [
+        "Spring lake ice phenology and timing variability",
+        "Walleye reproduction and spring spawning",
+        "Algae blooms and zooplankton dynamics in lakes",
+        "Food web decoupling in aquatic ecosystems",
+        "Larval fish survival rates and recruitment",
+        "Cold-water vs. warm-water fish species ecology",
+        "Climate change impacts on lake ice duration",
+        "Fish stock augmentation and conservation stocking"
+      ],
+      "claims_to_note": [
+        "Walleye populations have declined significantly in many lakes and now rely on human stocking to maintain numbers",
+        "Variability in spring ice thaw timing (2-month range documented from mid-March to mid-May) causes measurable declines in young walleye survival rates the following fall",
+        "Thousands of lakes are predicted to stop forming ice entirely before the end of the century",
+        "Ice fishing season in the Wisconsin/Montana region has shortened by approximately 6 weeks since the 1980s (December-April to January-March)",
+        "Blue gills and crappie (warm-water fish) are expected to thrive better as lakes warm, while walleye (cool-water species) will suffer"
+      ],
+      "policy_relevance": [
+        "Fish stocking programs and their sustainability as climate conditions change",
+        "State fisheries management decisions regarding which species to prioritize for stocking and harvest regulations",
+        "Local habitat protection policies for cold-water fish species",
+        "Adaptive management strategies for fisheries under climate change",
+        "Economic considerations for the ice fishing industry (equipment sales, guide services, tourism)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Frontiers in Decadal Climate Variability: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23552/frontiers-in-decadal-climate-variability-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "The Science and Practice of Team Science",
+          "url": "https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science"
+        },
+        {
+          "title": "National Plan for Health Workforce Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/26744/national-plan-for-health-workforce-well-being"
+        },
+        {
+          "title": "Review of the EPA's Economic Analysis of Final Water Quality Standards for Nutrients for Lakes and Flowing Waters in Florida",
+          "url": "https://nap.nationalacademies.org/catalog/13376/review-of-the-epas-economic-analysis-of-final-water-quality-standards-for-nutrients-for-lakes-and-flowing-waters-in-florida"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "To Recruit and Advance: Women Students and Faculty in Science and Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/11624/to-recruit-and-advance-women-students-and-faculty-in-science"
+        },
+        {
+          "title": "Nutrient Requirements of Fish and Shrimp",
+          "url": "https://nap.nationalacademies.org/catalog/13039/nutrient-requirements-of-fish-and-shrimp"
+        },
+        {
+          "title": "Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of"
+        }
+      ]
+    },
     {
       "podcast_id": "nature-podcast",
       "podcast_name": "Nature Podcast",
