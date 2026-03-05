@@ -1,0 +1,712 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Heart surgery with quick-setting magnetic fluid could prevent strokes",
+  "host": "Springer Nature",
+  "published": "2026-03-04T16:00:00",
+  "duration_minutes": 18.2,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature Podcast episode covers two main research stories: (1) A novel magnetic hydrogel fluid developed to seal the left atrial appendage in the heart as a stroke prevention method, offering advantages over traditional stiff mechanical occluders by conforming to various appendage shapes and avoiding cardiac damage. (2) Recent breakthroughs in producing bulk hexagonal diamond crystals and measuring their properties, which show slightly greater hardness than cubic diamond but less than theoretical predictions, with potential applications in cutting tools and heat management in computing. A research highlight on wastewater system greenhouse gas emissions is also featured.",
+  "science_topics": [
+    "Left atrial appendage (LAA) closure with magnetic hydrogel",
+    "Atrial fibrillation and stroke prevention",
+    "Magnetic particles in biomedical applications",
+    "Hexagonal diamond crystal structure and synthesis",
+    "Cubic versus hexagonal diamond atomic arrangement",
+    "Diamond hardness testing via nanoindentation",
+    "X-ray synchrotron diffraction for material characterization",
+    "Electron microscopy of crystal structures",
+    "Thermal conductivity of diamond materials",
+    "Highly-oriented pyrolytic graphite (HOPG) transformation",
+    "Wastewater treatment greenhouse gas emissions (methane and nitrous oxide)"
+  ],
+  "claims_to_note": [
+    "Magnetic fluid occluder showed no clot formation in rat and pig models over multi-year observation (pig monitored 2+ years post-surgery with no ill effects)",
+    "Wastewater systems emit 19-27% more greenhouse gases than officially reported in statistics from 38 countries analyzed",
+    "Hexagonal diamond is harder than cubic diamond, but only by a small amount, contradicting earlier theoretical predictions of 50-60% increased hardness",
+    "Hexagonal diamond shows higher thermal stability than cubic diamond",
+    "Blood-magnetic fluid interaction causes stiffening within less than one minute in cardiac conditions",
+    "Magnetic particles in the gel may interfere with MRI imaging and require strong magnets with constraints on surgical metal objects"
+  ],
+  "policy_relevance": [
+    "Stroke prevention treatment development for atrial fibrillation patients (millions worldwide affected)",
+    "Clinical trial pathway for magnetic hydrogel cardiac device (regulatory approval needed before human trials)",
+    "National greenhouse gas emissions reporting standards for wastewater systems (countries must improve accounting per research findings)",
+    "Material science research relevant to computing industry heat management and microelectronics regulation"
+  ],
+  "key_quotes": [
+    "I have magnetic gel and it can embolise perfectly any shape, any structures... do you need this kind of thing in your heart? And they are very interested. - Xu Xincha on developing the magnetic fluid for LAA closure",
+    "Because for clinical applications, I think any new method has to take a lot of years to make sure that the safety and the compatibility and the stability. We have to do many years of work to make sure that it's safe. - Xu Xincha on the need for extensive safety testing before human trials",
+    "The really important evidence is from the x-ray synchrotron diffraction patterns... this is measuring over a much larger area of the sample. So this is quite strong proof that they made what they said they made over a macroscopic area. - James Elliott on validation of hexagonal diamond synthesis"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Left atrial appendage (LAA) closure with magnetic hydrogel",
+      "publications": [
+        {
+          "id": "27830",
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "high magnetic field science",
+            "high magnetic field technologies",
+            "magnetic resonance imaging enables",
+            "while nuclear magnetic resonance",
+            "critical materials access necessary",
+            "workforce facilities magnet development",
+            "high magnetic fields",
+            "proposed fusion energy reactors",
+            "identify scientific opportunities",
+            "science foundation",
+            "current status",
+            "technology",
+            "direction"
+          ],
+          "description": "High magnetic fields are a vital tool in many areas of science and technology that impact our everyday lives. Magnetic resonance imaging enables a wide range of medical diagnostics and research, while nuclear magnetic resonance is critical for drug discovery research and more. High magnetic fields are an essential component to many proposed fusion energy reactors and are necessary to push the boundaries towards the development of new quantum technologies and semiconductors. At the request of the National Science Foundation, the National Academies organized a study to identify scientific opportunities and key applications for high-magnetic-field science and technology for the next decade and beyond. This report explores the current state and future prospects for high-magnetic-field technologies and recommends actions to support the workforce, facilities, magnet development, and critical materials access necessary to promote U.S. innovation.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "28022",
+          "title": "Flood Forecasting for Transportation Resilience: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/28022/flood-forecasting-for-transportation-resilience-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "help protect critical infrastructure",
+            "flood forecasting capability",
+            "enable advanced early warnings",
+            "events fast response times",
+            "managing flood impacts",
+            "use flood forecasts",
+            "empower state dots",
+            "issuing road closures",
+            "enhance roadway safety",
+            "flood locations",
+            "transportation resilience",
+            "flood forecasting",
+            "guide"
+          ],
+          "description": "Transportation systems are exposed to a diverse range of hazards, with flooding being one of the most common and consequential. State departments of transportation (DOTs) may use flood forecasts to inform actions such as issuing internal flood-level notifications, directing field staff to flood locations, and issuing road closures. A flood-forecasting capability can help inform a proactive approach to managing flood impacts by supporting preparation for events, fast response times, and efficient use of resources.NCHRP Research Report 1131: Flood Forecasting for Transportation Resilience: A Guide, from TRB's National Cooperative Highway Research Program, seeks to empower state DOTs with technical resources and organizational insights to better predict the timing and magnitude of flooding and enable advanced early warnings to help protect critical infrastructure and enhance roadway safety.",
+          "year": 2025,
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Atrial fibrillation and stroke prevention",
+      "publications": [
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        },
+        {
+          "id": "28813",
+          "title": "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation",
+          "url": "https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "bridges",
+            "vehicles highway bridges",
+            "tunnel strikes",
+            "assist state dots",
+            "overheight motor vehicles",
+            "actuated warning devices",
+            "prevent bridge",
+            "tunnel owners",
+            "cooperative highway",
+            "state departments",
+            "transportation dots",
+            "prevention",
+            "mitigation",
+            "bridge",
+            "guide"
+          ],
+          "description": "Bridge and tunnel strikes inflict serious damage to vehicles, highway bridges, and tunnels; cause injuries and fatalities; and impose detours and costly delays on highway users. Attempts by state departments of transportation (DOTs) and other bridge and tunnel owners to prevent bridge and tunnel strikes include signing, lighting, height detection systems, and actuated warning devices.NCHRP Research Report 1132: Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation, from TRB's National Cooperative Highway Research Program, presents state-of-the-art information to assist state DOTs in the prevention and mitigation of bridge and tunnel strikes by overheight motor vehicles.Supplemental to the report is NCHRP Web-Only Report 411: Prevention and Mitigation of Bridge and Tunnel Strikes.",
+          "year": 2025,
+          "page_keywords": [
+            "Bridges"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Magnetic particles in biomedical applications",
+      "publications": [
+        {
+          "id": "27993",
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "automatic pavement condition evaluation",
+            "assess current pavement conditions",
+            "refine pavement performance models",
+            "evaluate pavement conditions",
+            "artificial intelligence technologies",
+            "rehabilitation treatments",
+            "cooperative highway",
+            "nchrp synthesis",
+            "budget needs",
+            "semiautomated",
+            "applications"
+          ],
+          "description": "Departments of transportation (DOTs) use pavement condition surveys to assess current pavement conditions and predict future pavement conditions to determine the type and timing of maintenance and rehabilitation treatments; define future budget needs; and develop, or refine, pavement performance models. Over the last two decades, pavement condition assessment has transitioned from manual to semiautomated to fully automated pavement condition surveys.NCHRP Synthesis 636: AI Applications for Automatic Pavement Condition Evaluation, from TRB's National Cooperative Highway Research Program, documents state DOT automated pavement distress identification and the use of artificial intelligence technologies to evaluate pavement conditions.",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "18763",
+          "title": "Ranking Vaccines: Applications of a Prioritization Software Tool: Phase III: Use Case Studies and Data Framework",
+          "url": "https://nap.nationalacademies.org/catalog/18763/ranking-vaccines-applications-of-a-prioritization-software-tool-phase-iii",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "prioritization software tool developed",
+            "vaccine product profiles",
+            "ranking vaccines",
+            "utilizes decision science",
+            "smart vaccines",
+            "public health agency",
+            "york state department",
+            "use case scenarios",
+            "practical applications",
+            "vaccine development",
+            "prioritization software tool",
+            "phase iii",
+            "use case",
+            "applications",
+            "data"
+          ],
+          "description": "SMART Vaccines - Strategic Multi-Attribute Ranking Tool for Vaccines - is a prioritization software tool developed by the Institute of Medicine that utilizes decision science and modeling to help inform choices among candidates for new vaccine development. A blueprint for this computer-based guide was presented in the 2012 report Ranking Vaccines: A Prioritization Framework: Phase I. The 2013 Phase II report refined a beta version of the model developed in the Phase I report. Ranking Vaccines: Applications of a Prioritization Software Tool: Phase III: Use Case Studies and Data Framework extends this project by demonstrating the practical applications of SMART Vaccines through use case scenarios in partnership with the Public Health Agency of Canada, New York State Department of Health, and the Serum Institute of India. This report also explores a novel application of SMART Vaccines in determining new vaccine product profiles, and offers practical strategies for data synthesis and estim",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Hexagonal diamond crystal structure and synthesis",
+      "publications": [
+        {
+          "id": "11767",
+          "title": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "dietary reference intakes dris",
+            "tolerable upper intake levels",
+            "federal nutrition officials",
+            "quantitative reference values",
+            "synthesis project undertaken",
+            "recommended intakes",
+            "individual counseling",
+            "education communities",
+            "nutrients energy",
+            "food components",
+            "dietary reference intakes",
+            "synthesis"
+          ],
+          "description": "What information is available to inform the planning of a nutrition research agenda for the United States and Canada? This question provided the backdrop for the Dietary Reference Intakes Research Synthesis project undertaken by the Food and Nutrition Board of the Institute of Medicine (IOM) of the National Academies. The Dietary Reference Intakes (DRIs) are quantitative reference values for recommended intakes and tolerable upper intake levels for a range of nutrients. They are used widely by dietitians in individual counseling, by federal nutrition officials in program and policy development, and by the nutrition research and education communities in government, academia, and industry. Between 1997 and 2005, the IOM published a series of six DRI reports covering a total of 45 nutrients, energy, and other food components. The IOM also issued two reports describing ways to apply the DRIs in assessment and planning. Together, these eight reports contain more than 450 research recommenda",
+          "year": 2007,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        },
+        {
+          "id": "13508",
+          "title": "Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?",
+          "url": "https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "corps water resources infrastructure",
+            "engineers water resources infrastrucutre",
+            "corps water resources budget",
+            "water management infrastructure",
+            "includes approximately dams miles",
+            "control structures harbors",
+            "river navigation channels",
+            "infrastructure dominated",
+            "existing infrastructure",
+            "mid federal funding",
+            "engineers water resources infrastructure",
+            "deterioration investment",
+            "divestment",
+            "corps"
+          ],
+          "description": "Over the past century, the U.S. Army Corps of Engineers has built a vast network of water management infrastructure that includes approximately 700 dams, 14,000 miles of levees, 12,000 miles of river navigation channels and control structures, harbors and ports, and other facilities. Historically, the construction of new infrastructure dominated the Corps' water resources budget and activities. Today, national water needs and priorities increasingly are shifting to operations, maintenance, and rehabilitation of existing infrastructure, much of which has exceeded its design life. However, since the mid-1980s federal funding for new project construction and major rehabilitation has declined steadily. As a result, much of the Corps' water resources infrastructure is deteriorating and wearing out faster than it is being replaced. Corps of Engineers Water Resources Infrastrucutre: Deterioration, Investment, or Divestment? explores the status of operations, maintenance, and rehabilitation of",
+          "year": 2013,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on U.S. Army Corps of Engineers Water Resources Science, Engineering, and Planning"
+        },
+        {
+          "id": "27460",
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing critical infrastructure weaknesses",
+            "widespread environmental damage especially",
+            "years high hazard structures",
+            "impose significant economic losses",
+            "modeling extreme storms call",
+            "nuclear power plants",
+            "high hazard dams",
+            "withstand floods resulting",
+            "provided useful guidance",
+            "while pmp estimates"
+          ],
+          "description": "For more than 75 years, high-hazard structures in the U.S., including dams and nuclear power plants, have been engineered to withstand floods resulting from the most unlikely but possible precipitation, termed Probable Maximum Precipitation (PMP). Failure of any one of the more than 16,000 high-hazard dams and 50 nuclear power plants in the United States could result in the loss of life and impose significant economic losses and widespread environmental damage, especially under the pressures of climate change. While PMP estimates have provided useful guidance for designing critical infrastructure, weaknesses in the scientific foundations of PMP, combined with advances in understanding, observing, and modeling extreme storms, call for fundamental changes to the definition of PMP and the methods used to estimate it. Modernizing Probable Maximum Precipitation Estimation recommends a new definition of PMP and presents a vision for a methodology relevant for design, operation, and regulatio",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science And Technology Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cubic versus hexagonal diamond atomic arrangement",
+      "publications": [
+        {
+          "id": "25613",
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "amo physics combines fundamental",
+            "wide reaching intellectual societal",
+            "optical amo science underpins",
+            "fundamental building blocks",
+            "manipulating quantum systems",
+            "foundational discipline within",
+            "optical physics",
+            "technological innovations",
+            "scientific discoveries",
+            "assesses opportunities",
+            "atomic molecular"
+          ],
+          "description": "The field of atomic, molecular, and optical (AMO) science underpins many technologies and continues to progress at an exciting pace for both scientific discoveries and technological innovations. AMO physics studies the fundamental building blocks of functioning matter to help advance the understanding of the universe. It is a foundational discipline within the physical sciences, relating to atoms and their constituents, to molecules, and to light at the quantum level. AMO physics combines fundamental research with practical application, coupling fundamental scientific discovery to rapidly evolving technological advances, innovation and commercialization. Due to the wide-reaching intellectual, societal, and economical impact of AMO, it is important to review recent advances and future opportunities in AMO physics. Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States assesses opportunities in AMO science and technology over the coming",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "11482",
+          "title": "Controlling the Quantum World of Atoms, Molecules, and Photons: An Interim Report",
+          "url": "https://nap.nationalacademies.org/catalog/11482/controlling-the-quantum-world-of-atoms-molecules-and-photons-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advances made possible",
+            "homeland security relies",
+            "field touch almost",
+            "stars gave way",
+            "atomic clocks",
+            "greatest advances",
+            "screening technologies",
+            "atomic molecular",
+            "fundamental physics",
+            "societal importance",
+            "atoms molecules",
+            "quantum world",
+            "controlling",
+            "photons",
+            "interim"
+          ],
+          "description": "Atomic, molecular, and optical (AMO) science illustrates powerfully the ties of fundamental physics to society. Its very name comes from three of the twentieth century's greatest advances: the establishment of the atom as the building block of matter; the development of quantum mechanics, which made it possible to understand the inner workings of atoms and molecules; and the invention of the laser. Advances made possible by the scientists in this field touch almost every sphere of societal importance in the past century. Navigation by the stars gave way to navigation by clocks, which in turn has given way to today's navigation by atomic clocks. Laser surgery has replaced the knife for the most delicate operations. Homeland security relies on a multitude of screening technologies based on AMO research to detect toxins in the air and hidden weapons in luggage or on persons, to name a few. New drugs are now designed with the aid of x-ray scattering to determine their structure at the mole",
+          "year": 2005,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3131,
+  "saved_at": "2026-03-05T11:37:50.357356"
+}

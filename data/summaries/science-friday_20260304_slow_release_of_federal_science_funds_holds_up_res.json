@@ -1,0 +1,510 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Slow Release Of Federal Science Funds Holds Up Research",
+  "host": "Ira Flatow",
+  "published": "2026-03-04T11:00:00",
+  "duration_minutes": 12.716666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "The episode examines a severe slowdown in federal science research funding despite Congressional budget approval for fiscal year 2026. The Office of Management and Budget (OMB) has implemented unusual restrictions on fund disbursement, releasing only 30% of normal grant funding levels at agencies like the NIH while limiting spending to salaries rather than research grants. This administrative bottleneck is causing widespread disruption across research institutions, delaying hiring of postdocs and students, and potentially triggering a brain drain as scientists consider opportunities abroad.",
+  "science_topics": [
+    "Biomedical research funding at NIH",
+    "NASA Earth science missions",
+    "AI and quantum computing research at NSF",
+    "National laboratories data analysis initiatives at Department of Energy"
+  ],
+  "claims_to_note": [
+    "NIH funding disbursement in early 2026 was only 30% of prior year levels at comparable points",
+    "Over 50 research proposals at Carnegie Institution have been pending since March 2025 without funding decisions despite budget approval",
+    "OMB is selectively funding some priorities (e.g., Artemis 2 moon mission at NASA) while restricting others (e.g., NASA Earth science missions)",
+    "Scientists report considering relocation to other countries (Canada, Europe, Australia, Mexico) due to funding uncertainty",
+    "OMB rewrote spending restriction rules last year without Congressional authorization"
+  ],
+  "policy_relevance": [
+    "Congressional budget approval for fiscal year 2026 but OMB implementation delays",
+    "OMB (Office of Management and Budget) restrictions on federal agency fund disbursement mechanisms",
+    "October-November 2025 government shutdown impact on funding timelines",
+    "White House administration priorities affecting agency funding allocation decisions",
+    "Project 2025 framework cited as basis for OMB director Russell Vought's authority claims over fund dispersal",
+    "Democratic Congressional members reportedly pressuring administration to release restricted funds",
+    "Genesis Project at Department of Energy for AI analysis of national laboratory datasets"
+  ],
+  "key_quotes": [
+    "The problem with the money not flowing at a regular pace is that we have to plan several years in advance for not only the research that we're doing, but also for the training of the next generation of scientists. You can imagine that waiting up to a year or more to find out if that funding is coming in really impacts the pace of our research, but even more so, it impacts the hiring of students or postdocs because that only happens once a year.",
+    "Long story short, OMB is dispersing a lot less money than it normally would. And there's these restrictions on it, which means scientists can't use it for what they normally would. And those restrictions were not put there by Congress.",
+    "We're in such a disruptive landscape right now. I suspect we're going to have to buckle in for the long haul here... I think we can expect more chaos and disruption like we've seen over the past year."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Biomedical research funding at NIH",
+      "publications": [
+        {
+          "id": "18944",
+          "title": "SBIR at the National Science Foundation",
+          "keywords": [
+            "research",
+            "nsf",
+            "funding",
+            "science",
+            "sbir",
+            "grants",
+            "innovation"
+          ]
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        },
+        {
+          "id": "25008",
+          "title": "The Next Generation of Biomedical and Behavioral Sciences Researchers: Breaking Through",
+          "url": "https://nap.nationalacademies.org/catalog/25008/the-next-generation-of-biomedical-and-behavioral-sciences-researchers-breaking",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "challenges facing young scientists",
+            "several core challenges",
+            "revolutionary medical advances",
+            "powering economic output",
+            "establish long term",
+            "biomedical enterprise",
+            "second world war",
+            "biomedical industry",
+            "scientists qualified",
+            "preeminent system",
+            "next generation",
+            "researchers",
+            "biomedical",
+            "behavioral",
+            "breaking"
+          ],
+          "description": "Since the end of the Second World War, the United States has developed the world's preeminent system for biomedical research, one that has given rise to revolutionary medical advances as well as a dynamic and innovative business sector generating high-quality jobs and powering economic output and exports for the U.S. economy. However, there is a growing concern that the biomedical research enterprise is beset by several core challenges that undercut its vitality, promise, and productivity and that could diminish its critical role in the nation's health and innovation in the biomedical industry. Among the most salient of these challenges is the gulf between the burgeoning number of scientists qualified to participate in this system as academic researchers and the elusive opportunities to establish long-term research careers in academia. The patchwork of measures to address the challenges facing young scientists that has emerged over the years has allowed the U.S. biomedical enterprise t",
+          "year": 2018,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Higher Education and Workforce"
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "NASA Earth science missions",
+      "publications": [
+        {
+          "id": "24857",
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "large strategic missions within",
+            "multiple spacecraft nasa smd",
+            "five dozen missions",
+            "multiple scientific fields",
+            "scientific fields associated",
+            "nearly operational spacecraft",
+            "conduct missions",
+            "missions span",
+            "earth science",
+            "planetary science",
+            "large strategic science missions",
+            "powering science",
+            "nasa"
+          ],
+          "description": "NASA's Science Mission Directorate (SMD) currently operates over five dozen missions, with approximately two dozen additional missions in development. These missions span the scientific fields associated with SMD's four divisionsâ€\"Astrophysics, Earth Science, Heliophysics, and Planetary Sciences. Because a single mission can consist of multiple spacecraft, NASA-SMD is responsible for nearly 100 operational spacecraft. The most high profile of these are the large strategic missions, often referred to as \"flagships.\" Large strategic missions are essential to maintaining the global leadership of the United States in space exploration and in science because only the United States has the budget, technology, and trained personnel in multiple scientific fields to conduct missions that attract a range of international partners. This report examines the role of large, strategic missions within a balanced program across NASA-SMD space and Earth sciences programs. It considers the role and scie",
+          "year": 2018,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "13405",
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "earth science program found",
+            "decadal survey called",
+            "nasa responded favorably",
+            "securing practical benefits",
+            "making informed decisions",
+            "made significant progress",
+            "products forecast models",
+            "human induced changes",
+            "earth observations",
+            "integrated observations",
+            "earth science",
+            "decadal survey",
+            "implementation",
+            "applications",
+            "midterm",
+            "space",
+            "nasa"
+          ],
+          "description": "Understanding the effects of natural and human-induced changes on the global environment and their implications requires a foundation of integrated observations of land, sea, air and space, on which to build credible information products, forecast models, and other tools for making informed decisions. The 2007 National Research Council report on decadal survey called for a renewal of the national commitment to a program of Earth observations in which attention to securing practical benefits for humankind plays an equal role with the quest to acquire new knowledge about the Earth system. NASA responded favorably and aggressively to this survey, embracing its overall recommendations for Earth observations, missions, technology investments, and priorities for the underlying science. As a result, the science and applications communities have made significant progress over the past 5 years. However, the Committee on Assessment of NASA's Earth Science Program found that the survey vision is ",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "25761",
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The Earth system functions and connects in unexpected ways - from the microscopic interactions of bacteria and rocks to the macro-scale processes that build and erode mountains and regulate Earth's climate. Efforts to study Earth's intertwined processes are made even more pertinent and urgent by the need to understand how the Earth can continue to sustain both civilization and the planet's biodiversity. A Vision for NSF Earth Sciences 2020-2030: Earth in Time provides recommendations to help the National Science Foundation plan and support the next decade of Earth science research, focusing on research priorities, infrastructure and facilities, and partnerships. This report presents a compelling and vibrant vision of the future of Earth science research.",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources",
+          "keywords": [
+            "science",
+            "earth system functions",
+            "earth science",
+            "science foundation plan",
+            "macro scale processes",
+            "regulate earth",
+            "nsf earth",
+            "intertwined processes",
+            "priorities infrastructure",
+            "microscopic interactions",
+            "vibrant vision",
+            "vision",
+            "time"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        },
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "AI and quantum computing research at NSF",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "18944",
+          "title": "SBIR at the National Science Foundation",
+          "keywords": [
+            "research",
+            "nsf",
+            "funding",
+            "science",
+            "sbir",
+            "grants",
+            "innovation"
+          ]
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "National laboratories data analysis initiatives at Department of Energy",
+      "publications": [
+        {
+          "id": "18282",
+          "title": "Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations",
+          "url": "https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "green building certification systems",
+            "cost benefit analysis return",
+            "congressional defense committees",
+            "ashrae energy standard",
+            "defense authorization act",
+            "sustainability standards used",
+            "environmental design leed",
+            "fiscal year requires",
+            "long term payback",
+            "building standards",
+            "energy efficiency standards",
+            "military construction",
+            "major renovations",
+            "department",
+            "defense"
+          ],
+          "description": "Congress has an ongoing interest in ensuring that the 500,000 buildings and other structures owned and operated by the Department of Defense (DOD) are operated effectively in terms of cost and resource use. Section 2830 of the National Defense Authorization Act for fiscal year requires the Secretary of Defense to submit a report to the congressional defense committees on the energy-efficiency and sustainability standards used by DOD for military construction and major renovations of buildings. DOD's report must include a cost-benefit analysis, return on investment, and long-term payback for the building standards and green building certification systems, including: (A) American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) Standard 189.1-2011 for the Design of High-Performance, Green Buildings Except Low-Rise Residential. (B) ASHRAE Energy Standard 90.1-2010 for Buildings Except Low-Rise Residential. (C) Leadership in Energy and Environmental Design (LEED) S",
+          "year": 2013,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Infrastructure and the Constructed Environment"
+        },
+        {
+          "id": "12091",
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "affordable energy supplies",
+            "impacts while providing sufficient",
+            "current energy prices",
+            "energy rises faster",
+            "important indirect impacts",
+            "energy production",
+            "energy portfolio",
+            "natural resources degradation",
+            "energy futur",
+            "geopolitically unstable regions",
+            "transformation",
+            "technology",
+            "america",
+            "energy"
+          ],
+          "description": "Energy production and use touch our lives in countless ways. We are reminded of the cost of energy every time we fill up at the gas pump, pay an electricity bill, or purchase an airline ticket. Energy use also has important indirect impacts, not all of which are reflected in current energy prices: depletion of natural resources, degradation of the environment, and threats to national security arising from a growing dependence on geopolitically unstable regions for some of our energy supplies. These indirect impacts could increase in the future if the demand for energy rises faster than available energy supplies. Our nation's challenge is to develop an energy portfolio that reduces these impacts while providing sufficient and affordable energy supplies to sustain our future economic prosperity. The United States has enormous economic and intellectual resources that can be brought to bear on these challenges through a sustained national effort in the decades ahead. America's Energy Futur",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on America's Energy Future"
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        },
+        {
+          "title": "Exploring Opportunities for Energy Parks",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-P-723",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 2311,
+  "saved_at": "2026-03-05T11:37:50.355899"
+}

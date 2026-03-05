@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 05, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 05, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">37</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">74</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Federal science funding faces a critical administrative bottleneck with OMB restricting disbursement to only 30% of normal levels despite Congressional budget approval, creating widespread delays in research hiring and threatening a potential brain drain. Concurrently, vaccine policy shifts under RFK Jr. are generating international public health controversy by targeting thimerosal (contradicting WHO/FDA safety consensus) and enabling ethically questionable vaccine studies in developing nations. Medical innovation continues with novel magnetic hydrogel technologies for stroke prevention and advances in cancer immunotherapy, while climate and biodiversity remain steady concerns across platforms. The convergence of funding disruption and vaccine policy uncertainty creates urgent risks to U.S. scientific credibility and public health infrastructure.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Federal science funding crisis and OMB disbursement restrictions impacting NIH, NSF, and NASA</li>
+<li>Vaccine safety and public health policy under new HHS leadership</li>
+<li>Biomedical innovation in cardiac intervention and cancer treatment</li>
+<li>Climate impacts on ecosystems and biodiversity loss</li>
+<li>Scientific communication and combating misinformation through engagement strategies</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>RFK Jr. vaccine skepticism policies creating international public health friction (new, high-visibility)</li>
+<li>Administrative science funding freezes as distinct from legislative budget battles (ongoing, escalating severity)</li>
+<li>Magnetic and advanced materials for medical device development (recurring theme across biomedical research)</li>
+<li>Gene therapy and immunotherapy expanding into previously intractable cancer types (continuing momentum)</li>
+<li>3D visualization and computational imaging enhancing scientific discovery and public engagement (growing adoption)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Issue rapid consensus statement on thimerosal safety and vaccine policy to counter misinformation with authoritative scientific evidence</div>
+<div class="opportunity">Convene federal funding working group with OMB, agency leadership, and research community to document cascading impacts of 30% funding restriction and propose rapid remediation</div>
+<div class="opportunity">Develop briefing on international implications of U.S. vaccine policy changes for global health partnerships and developing nations</div>
+<div class="opportunity">Launch initiative on science communication best practices (using 3D imaging, art-science collaboration) to rebuild public trust and counter misinformation</div>
+<div class="opportunity">Coordinate with NIH/NSF/DOE on brain drain risk assessment and strategies to retain early-career scientists during funding freeze</div>
+<div class="opportunity">Establish technical working group on emerging cardiac intervention technologies (magnetic hydrogel occluders) to advise regulatory and innovation pathways</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Thimerosal contains mercury that accumulates in infants (FALSE: mercury is rapidly excreted; scientific consensus from WHO, FDA, CDC confirms safety)</div>
+<div class="claim">Hepatitis B vaccine at birth causes harm warranting CDC discontinuation (MISLEADING: CDC vote lacks supporting research; external experts cite 99% reduction in childhood hepatitis B since vaccine introduction; current Guinea-Bissau study design parallels unethical research practices)</div>
+<div class="claim">Hexagonal diamond hardness exceeds cubic diamond by 50-60% (OVERSTATED: actual hardness advantage is small, contradicting earlier theoretical predictions)</div>
+<div class="claim">Observable universe contains 200 billion galaxies (OUTDATED: figure is somewhat dated; current estimates range 100-200 billion to potentially trillions accounting for faint galaxies)</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI-Driven Protein and Molecular Design</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Machine learning approaches to enzyme engineering and protein design are emerging as a significant research frontier, with Science Friday covering AI-designed enzymes and directed enzyme evolution (2026-03-03), while Nature Podcast discussed hexagonal diamond crystal structure synthesis (2026-03-04). These episodes reflect convergence on computational methods enabling novel molecular architectures, suggesting AI is moving from data analysis to active scientific discovery in structural biology.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor AI's role in accelerating biomedical and materials research, particularly implications for workforce training and research infrastructure investment.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate-Driven Ecological Disruption and Phenology Shifts</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are documenting how warming temperatures alter fundamental ecological timing: Short Wave covered spring lake ice phenology variability and delayed freezing (2026-03-02, 2026-02-27), while Science Magazine Podcast reported La Niña climate effects on tropical bird populations (2026-02-26). This convergence suggests climate impacts on biodiversity are now observable at fine temporal scales, moving beyond models to real-time ecosystem disruption.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Climate-driven phenological mismatches threaten food webs and biodiversity; NASEM should prioritize interdisciplinary research on ecosystem resilience and early-warning monitoring systems.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neuroscience of Consciousness and Mental Imagery</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Brain imaging and consciousness research is converging across shows: Nature Podcast examined aphantasia and visual cortex connectivity (2026-03-02), while Radiolab explored neural oscillations and brain connectivity during anesthesia (2026-02-27). Both discuss mechanisms of consciousness through measurement of neural activity patterns, indicating a shift toward mechanistic understanding of subjective experience.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> Understanding consciousness mechanisms has implications for anesthesiology, neurodegenerative disease, and brain-computer interfaces—key areas for NASEM health and biomedical guidance.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Precision Cancer Medicine and Personalized Treatment</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Cancer research is advancing toward molecularly-targeted and individualized approaches: Science Will Win detailed BRCA mutations, triple-negative breast cancer immunotherapy, and gene therapy for metastases (2026-03-05), reflecting clinical translation of genomic discoveries. This suggests oncology is moving from population-level to patient-level precision strategies.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess workforce and infrastructure needs for precision oncology implementation, including genomic testing accessibility and immunotherapy training requirements.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Federal Research Funding and Infrastructure Assessment</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (2026-03-04) featured a dedicated episode on biomedical research funding at NIH, NASA Earth science missions, AI/quantum computing at NSF, and Department of Energy data analysis initiatives. This rare consolidated coverage suggests growing policy attention to research portfolio alignment and cross-agency coordination in emerging technologies.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM leadership should leverage this elevated public discourse on federal research investments to inform guidance on funding mechanisms, research priorities, and inter-agency collaboration structures.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The global fallout of RFK Jr.'s vaccine policies</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 04 &middot; 15 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines how RFK Jr.'s policies as HHS Secretary are affecting global vaccine programs and creating international public health controversy. The discussion focuses on two key cases: the U.S. threatening to withhold funding from Gavi unless it removes thimerosal from vaccines, and a controversial hepatitis B vaccine study in Guinea-Bissau that has drawn comparisons to the Tuskegee experiment. The episode highlights the disconnect between RFK Jr.'s vaccine skepticism and scientific consensus, as well as the potential consequences of these policy shifts for vulnerable populations in developing countries.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Thimerosal in vaccines as preservative</span>
+  <span class="topic-tag">Mercury exposure and toxicity from vaccines</span>
+  <span class="topic-tag">Hepatitis B vaccine efficacy and safety in newborns</span>
+  <span class="topic-tag">Post-exposure vaccination against hepatitis B</span>
+  <span class="topic-tag">Vaccine contamination prevention in multi-dose vials</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the" target="_blank">Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the" target="_blank">Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders" target="_blank">Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23407/eliminating-the-public-health-problem-of-hepatitis-b-and-c-in-the-united-states" target="_blank">Eliminating the Public Health Problem of Hepatitis B and C in the United States: Phase One Report</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10534/immunization-safety-review-sv40-contamination-of-polio-vaccine-and-cancer" target="_blank">Immunization Safety Review: SV40 Contamination of Polio Vaccine and Cancer</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">RFK Jr. claims thimerosal involves 'injecting mercury into more than 100 million black and brown babies' — framed as harmful; scientific consensus from WHO, FDA, and CDC deems thimerosal safe; mercury from thimerosal is rapidly excreted and does not accumulate</div>
+<div class="claim">CDC advisors voted to stop routine hepatitis B vaccination at birth for all U.S. newborns, citing potential harm — described as lacking supporting research; external medical groups cite studies showing vaccine is very safe and credit it with 99% reduction in young children with hepatitis B since 1991</div>
+<div class="claim">Researchers conducting hepatitis B study in Guinea-Bissau claim they are not withholding vaccines from babies who would otherwise receive them — disputed by WHO and medical experts including Paul Offit who characterize the study design as unethical</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The amount of mercury that you get, dangerous mercury that you get that could be toxic from a single thimerosal-containing vaccine is like less than you would get from eating a tuna fish sandwich. — Angela Rasmussen, virologist"</div>
+<div class="quote">"Children will no doubt die because those vaccines are unavailable. — Paul Offit, regarding potential consequences if Gavi removes thimerosal"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Slow Release Of Federal Science Funds Holds Up Research</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 04 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode examines a severe slowdown in federal science research funding despite Congressional budget approval for fiscal year 2026. The Office of Management and Budget (OMB) has implemented unusual restrictions on fund disbursement, releasing only 30% of normal grant funding levels at agencies like the NIH while limiting spending to salaries rather than research grants. This administrative bottleneck is causing widespread disruption across research institutions, delaying hiring of postdocs and students, and potentially triggering a brain drain as scientists consider opportunities abroad.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Biomedical research funding at NIH</span>
+  <span class="topic-tag">NASA Earth science missions</span>
+  <span class="topic-tag">AI and quantum computing research at NSF</span>
+  <span class="topic-tag">National laboratories data analysis initiatives at Department of Energy</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">SBIR at the National Science Foundation</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions" target="_blank">Powering Science: NASA's Large Strategic Science Missions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of" target="_blank">Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey</a></div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match">SBIR at the National Science Foundation</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations" target="_blank">Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">NIH funding disbursement in early 2026 was only 30% of prior year levels at comparable points</div>
+<div class="claim">Over 50 research proposals at Carnegie Institution have been pending since March 2025 without funding decisions despite budget approval</div>
+<div class="claim">OMB is selectively funding some priorities (e.g., Artemis 2 moon mission at NASA) while restricting others (e.g., NASA Earth science missions)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The problem with the money not flowing at a regular pace is that we have to plan several years in advance for not only the research that we're doing, but also for the training of the next generation of scientists. You can imagine that waiting up to a year or more to find out if that funding is coming in really impacts the pace of our research, but even more so, it impacts the hiring of students or postdocs because that only happens once a year."</div>
+<div class="quote">"Long story short, OMB is dispersing a lot less money than it normally would. And there's these restrictions on it, which means scientists can't use it for what they normally would. And those restrictions were not put there by Congress."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Heart surgery with quick-setting magnetic fluid could prevent strokes</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 04 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Nature Podcast episode covers two main research stories: (1) A novel magnetic hydrogel fluid developed to seal the left atrial appendage in the heart as a stroke prevention method, offering advantages over traditional stiff mechanical occluders by conforming to various appendage shapes and avoiding cardiac damage. (2) Recent breakthroughs in producing bulk hexagonal diamond crystals and measuring their properties, which show slightly greater hardness than cubic diamond but less than theoretical predictions, with potential applications in cutting tools and heat management in computing. A research highlight on wastewater system greenhouse gas emissions is also featured.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Left atrial appendage (LAA) closure with magnetic hydrogel</span>
+  <span class="topic-tag">Atrial fibrillation and stroke prevention</span>
+  <span class="topic-tag">Magnetic particles in biomedical applications</span>
+  <span class="topic-tag">Hexagonal diamond crystal structure and synthesis</span>
+  <span class="topic-tag">Cubic versus hexagonal diamond atomic arrangement</span>
+  <span class="topic-tag">Diamond hardness testing via nanoindentation</span>
+  <span class="topic-tag">X-ray synchrotron diffraction for material characterization</span>
+  <span class="topic-tag">Electron microscopy of crystal structures</span>
+  <span class="topic-tag">Thermal conductivity of diamond materials</span>
+  <span class="topic-tag">Highly-oriented pyrolytic graphite (HOPG) transformation</span>
+  <span class="topic-tag">Wastewater treatment greenhouse gas emissions (methane and nitrous oxide)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states" target="_blank">The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation" target="_blank">Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation" target="_blank">AI Applications for Automatic Pavement Condition Evaluation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary" target="_blank">Dietary Reference Intakes Research Synthesis: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical" target="_blank">Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Magnetic fluid occluder showed no clot formation in rat and pig models over multi-year observation (pig monitored 2+ years post-surgery with no ill effects)</div>
+<div class="claim">Wastewater systems emit 19-27% more greenhouse gases than officially reported in statistics from 38 countries analyzed</div>
+<div class="claim">Hexagonal diamond is harder than cubic diamond, but only by a small amount, contradicting earlier theoretical predictions of 50-60% increased hardness</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I have magnetic gel and it can embolise perfectly any shape, any structures... do you need this kind of thing in your heart? And they are very interested. - Xu Xincha on developing the magnetic fluid for LAA closure"</div>
+<div class="quote">"Because for clinical applications, I think any new method has to take a lot of years to make sure that the safety and the compatibility and the stability. We have to do many years of work to make sure that it's safe. - Xu Xincha on the need for extensive safety testing before human trials"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: 3D Images Of Galaxies Will Rock You (Ft. Queen)</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 05 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode features astrophysicist Derek Ward-Thompson and astronomer Brian May (guitarist of Queen) discussing their new book 'Islands in Infinity: Galaxies 3D,' which presents the first stereoscopic 3D images of galaxies. The conversation explores how 3D visualization reveals new details about galactic structure, particularly interacting galaxies in collision. Brian May reflects on his unconventional career balancing music and astronomy, and both hosts emphasize the importance of integrating art and science communication to combat scientific misinformation and engage broader audiences.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Stereoscopic 3D imaging of galaxies</span>
+  <span class="topic-tag">Galactic structure and morphology</span>
+  <span class="topic-tag">Interacting and colliding galaxies</span>
+  <span class="topic-tag">Galaxy evolution</span>
+  <span class="topic-tag">Milky Way galaxy (estimated 200 billion galaxies in observable universe)</span>
+  <span class="topic-tag">Relativity and time dilation (the Twin Paradox)</span>
+  <span class="topic-tag">Star formation and planet formation</span>
+  <span class="topic-tag">Mathematical foundations of music and physics</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation" target="_blank">Modernizing Probable Maximum Precipitation Estimation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system" target="_blank">Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18817/can-earths-and-societys-systems-meet-the-needs-of-10-billion-people" target="_blank">Can Earth's and Society's Systems Meet the Needs of 10 Billion People?: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity" target="_blank">The Future of Education Research at IES: Advancing an Equity-Oriented Science</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Estimated 200 billion galaxies in the observable universe - this figure is somewhat dated; current estimates from Hubble data suggest 100-200 billion, though more recent studies propose potentially trillions when accounting for very faint galaxies</div>
+<div class="claim">3D stereoscopic imaging of galaxies reveals new understanding of galactic collisions and structure - claim is presented as observational/pedagogical benefit rather than new scientific discovery</div>
+<div class="claim">Music follows strict mathematical rules and involves applied physics - scientifically accurate statement about mathematical properties of sound and music</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I think the complete person, the complete human being, has to understand both art and science. They have to understand the beauty of the universe, and they also have to understand the way it works."</div>
+<div class="quote">"We're seeing science being submerged in a welter of superstition, and we seem to be going backwards in many ways... our responsibility to give kids an inquiring mind so that they find out for themselves what the truth really is."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Will Win: What Women Carry: Courage Through Cancer</span>
+</div>
+<div class="episode-meta">Pfizer &middot; Mar 05 &middot; 28 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode traces the history of breast cancer awareness and treatment through the personal story of Katrina Johnson, a five-time cancer survivor, and historical context from women's advocacy movements. The episode highlights how women's grassroots organizing and peer-to-peer support transformed breast cancer from a stigmatized "hidden disease" into a visible health issue with improved treatment paradigms. Key topics include the evolution from radical mastectomy to breast-conserving surgery, the discovery and clinical significance of BRCA gene mutations, the emotional and physical impacts of cancer treatment including fertility concerns and body image changes, and emerging therapies including immunotherapy and gene therapy targeting metastatic breast cancer.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">BRCA1 and BRCA2 gene mutations and breast cancer risk</span>
+  <span class="topic-tag">Radical mastectomy versus breast-conserving surgery</span>
+  <span class="topic-tag">Triple negative breast cancer immunotherapy</span>
+  <span class="topic-tag">Gene therapy for hepatic metastases in breast cancer</span>
+  <span class="topic-tag">3D mammography and breast tissue imaging</span>
+  <span class="topic-tag">Chemotherapy-induced fertility impacts and ovulation suppression</span>
+  <span class="topic-tag">Surgical menopause from oophorectomy</span>
+  <span class="topic-tag">Cancer cell metastasis mechanisms and liver colonization</span>
+  <span class="topic-tag">AI applications in cancer research and detection</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and" target="_blank">Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">One in eight women receives a breast cancer diagnosis in her lifetime in the United States</div>
+<div class="claim">Breast cancer incidence rates increased more than 1% per year from 2018-2022</div>
+<div class="claim">Five-year survival rate for breast cancer in the 1920s was 5%</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Women almost immediately begin to play a role in terms of expanding that membership and saying, teach us the message and we will send it out to the public. - Kirsten Gardner on women's role in cancer advocacy"</div>
+<div class="quote">"I need someone that wants, that has this quest for knowledge, that wants to understand me. Katrina Marvin Johnson, me. My breast cancer, my story. - Katrina Johnson on patient-centered care"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">74 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Biodiversity (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing climate impacts on insects, biodiversity loss, and heat mortality in tropical ecosystems.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary Science and Mars Exploration (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of Mars missions (MAVEN, Perseverance), atmospheric phenomena, and lunar development plans.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Evolutionary Biology and Paleontology (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions of early fish fossils, mollusk evolution, multicellular life origins, and fossil record gaps.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Medical and Pharmaceutical Research (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on Dravet syndrome drug treatments, GLP-1 receptor agonists, and immunological advances.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Exoplanet Science (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on hot Jupiters, mini-Neptunes, active galactic nuclei, and planetary formation theories.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@uaf-oarc-alaska.bsky.social</div>
+  <div class="bluesky-stats">349 likes &middot; 37 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">🧪🌊🦑🐳 #WhaleWednesday #AlaskaSky</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/uaf-oarc-alaska.bsky.social/post/3mgbl347vhk2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">111 likes &middot; 72 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">The opposite of what our HHS secretary should be doing. 
+
+🧪 www.theguardian.com/us-news/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgbeu3z7ks2a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@restingdinoface.bsky.social</div>
+  <div class="bluesky-stats">134 likes &middot; 37 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Who was eating whom 150 million years ago? The answers help outline how Jurassic ecosystems worked. My latest newsletter's out now! 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/restingdinoface.bsky.social/post/3mgax5md7d22k" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@meghanbartels.bsky.social</div>
+  <div class="bluesky-stats">127 likes &middot; 38 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Trust me, you don't want to miss the incredible photos of these goobers: 🧪 🪶 www.scientificamerican.com/article/kaka...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/meghanbartels.bsky.social/post/3mgazheuiok2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jennanewman.bsky.social</div>
+  <div class="bluesky-stats">55 likes &middot; 23 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">“An abundance of girls functions as a form of capital that wealthy men can mobilize to build ties among themselves…
+In [this system], men endowed w/ wealth extract value from young women's *bodies* w/ a disturbing degree of impunity, permitted through the value system of our society.”🧪
+Ashley Mears!</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jennanewman.bsky.social/post/3mgbucsyqbk2r" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Antimicrobial Resistance Policy</strong>: Open-access research on genomics applications in national AMR action plans aligns with NASEM's expertise in science policy and public health recommendations.</div>
+<div class="nasem-match"><strong>Climate Change Impacts on Biodiversity</strong>: Research on thermal tolerance limits and heat mortality in tropical insects supports NASEM's work on climate adaptation and ecosystem resilience.</div>
+<div class="nasem-match"><strong>Public Understanding of Science and Climate Action</strong>: Posts on spiral of silence regarding climate policy relate to NASEM's role in science communication and public engagement on policy matters.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 05, 2026 at 11:38 AM | Internal use only
+    </div>
+</body>
+</html>
