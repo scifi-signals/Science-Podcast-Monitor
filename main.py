@@ -4,6 +4,7 @@
 import sys
 import os
 import json
+import time
 from datetime import datetime
 
 from rss_monitor import check_all_feeds, mark_processed
@@ -90,7 +91,8 @@ def match_summaries_to_nasem(summaries):
 
 
 def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
-                 send_email=False, podcast_only=False, bluesky_only=False):
+                 send_email=False, podcast_only=False, bluesky_only=False,
+                 wall_clock_minutes=38):
     """
     Run the full podcast monitoring pipeline.
 
@@ -101,12 +103,15 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
         send_email: If True, send digest via email after generating
         podcast_only: Skip Bluesky monitoring
         bluesky_only: Skip podcast processing
+        wall_clock_minutes: Stop processing new episodes after this many minutes
+                           to leave time for digest generation and git push
     """
     print("=" * 60)
     print("  SCIENCE PODCAST MONITOR")
     print(f"  {datetime.now().strftime('%B %d, %Y %H:%M')}")
     print("=" * 60)
 
+    pipeline_start = time.monotonic()
     summaries = []
     processed_guids = []
     bluesky_data = {"post_count": 0, "trending_topics": [], "notable_posts": []}
@@ -139,6 +144,15 @@ def run_pipeline(lookback_days=None, max_episodes=None, dry_run=False,
                 episodes = episodes[:max_episodes]
 
             for episode in episodes:
+                # Check wall-clock budget before starting a new episode
+                elapsed_min = (time.monotonic() - pipeline_start) / 60
+                if elapsed_min >= wall_clock_minutes:
+                    remaining = len(episodes) - len(summaries)
+                    print(f"\n[TIME] {elapsed_min:.0f} min elapsed (budget: {wall_clock_minutes} min)")
+                    print(f"  Stopping episode processing to leave time for digest + git push")
+                    print(f"  {remaining} episode(s) deferred to next run")
+                    break
+
                 try:
                     summary = process_episode(episode)
                     if summary:

@@ -53,7 +53,7 @@ def transcribe_file(audio_path, max_retries=3):
         except RateLimitError as e:
             wait_seconds = _parse_retry_seconds(str(e))
             # Add 10s buffer
-            wait_seconds = min(wait_seconds + 10, 600)
+            wait_seconds = min(wait_seconds + 10, 300)
             if attempt < max_retries - 1:
                 print(f"    Rate limited. Waiting {wait_seconds:.0f}s...")
                 time.sleep(wait_seconds)

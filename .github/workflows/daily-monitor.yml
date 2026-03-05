@@ -39,7 +39,7 @@ jobs:
 
       - name: Run podcast monitor
         run: |
-          python main.py --max 5
+          python main.py --max 3
 
       - name: Update site and topic index
         run: |
