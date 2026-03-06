@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 06, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 06, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">37</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">91</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals converging evidence on metabolic and behavioral determinants of public health challenges, with particular emphasis on how neural systems drive disease outcomes. Dr. Zuker's work on taste perception and the gut-brain axis demonstrates obesity as a circuit disorder exploitable by processed foods, while Dr. Chater's behavioral science critique warns that individual-focused interventions (nudges) have enabled corporate deflection from systemic reforms—a pattern evident across climate, obesity, and food policy. Adolescent sleep deprivation has reached crisis levels (75% of U.S. high school students sleeping <7 hours), with documented cascading harms. Data governance emerges as foundational for AI-driven regulatory compliance in life sciences. Bluesky trends show sustained pressure on scientific institutions (trust erosion, political constraints) alongside progress in medical innovation and space discovery.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Obesity and metabolic disease: neural circuit dysfunction vs. individual willpower (Huberman, Science Friday, Bluesky medical innovation)</li>
+<li>Food environment and processed foods as systemic drivers of health outcomes (Huberman, Science Friday behavioral economics)</li>
+<li>Data quality and governance as prerequisites for AI reliability and regulatory compliance (Life Science Rundown, broader AI governance discourse)</li>
+<li>Adolescent health crisis: sleep deprivation with documented downstream effects on mental health, academics, and safety</li>
+<li>Individual versus systemic framing of solutions: behavioral nudges insufficient without structural policy change</li>
+<li>Commercial medical testing and misinformation: IgG food sensitivity tests, vaccine-allergy false links, unvalidated interventions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Gut-brain axis as mechanistic framework for understanding chronic disease and nutrient sensing—consolidating Huberman's taste work with broader metabolic science</li>
+<li>Data governance and AI validation in regulated life sciences becoming acute bottleneck (recurring theme from Life Science Rundown; aligns with past week's AI/ML regulatory discussions on Science Friday 2026-03-04)</li>
+<li>Erosion of scientific trust and evidence-based policymaking amid political pressure (Bluesky pattern on science advocacy; consistent with March for Science references)</li>
+<li>Oral immunotherapy for food allergy reversal in pediatric populations—emerging treatment modality with clinical validation potential</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene working group on systemic versus individual approaches to obesity and metabolic disease prevention—NASEM could synthesize Zuker's neuroscience with Chater's policy critique to advise on food environment regulation and subsidy reform</div>
+<div class="opportunity">Establish consensus study on adolescent sleep deprivation: epidemiology, causal mechanisms, and evidence-based policy interventions (school start times, device regulation, etc.)</div>
+<div class="opportunity">Develop NASEM guidance on data governance standards for life sciences regulatory submissions to FDA and international authorities—address AI validation, data lineage, and reproducibility in context of accelerating AI adoption</div>
+<div class="opportunity">Partner with science communication networks to counter misinformation on vaccines and food allergies; amplify evidence on IgE vs. IgG testing and oral immunotherapy efficacy</div>
+<div class="opportunity">Respond to Bluesky discourse on scientific trust erosion by authoring white paper on institutional safeguards for evidence-based policymaking under political pressure</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">RFK Jr. claims linking vaccines to food allergies—explicitly debunked in Unbiased Science episode; no mechanistic or epidemiological support. NASEM should monitor for amplification and prepare rapid-response communication.</div>
+<div class="claim">Carbon footprint concept attributed to individual consumer behavior: Chater's claim that BP invented 'carbon footprint' as PR strategy deserves verification; if accurate, represents deliberate systemic obfuscation that NASEM policy work should surface.</div>
+<div class="claim">IgG antibody testing marketed as food allergy diagnostic—widespread commercial exploitation of unvalidated test; Unbiased Science clarifies IgG merely indicates exposure, not allergy. NASEM could support FDA or FTC action on labeling.</div>
+<div class="claim">Implicit claim that taste receptors and neural circuits alone determine obesity risk: while Zuker's neuroscience is sound, framing obesity as 'primarily a brain circuit disorder' may understate socioeconomic, pharmacological, and metabolic factors. NASEM should ensure integrated biopsychosocial framing in any public statements.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neuroscience of Perception and Consciousness</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are examining how the brain constructs perception—from taste sensation circuits (Huberman Lab) to visual imagery absence (Nature Podcast) to anesthesia-induced neural state changes (Radiolab). This convergence reflects growing interdisciplinary focus on mapping subjective experience through neural mechanisms, with particular attention to signal transduction, brain connectivity, and consciousness itself.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track emerging consensus on consciousness research methodologies and funding priorities, as multiple agencies (NIH, NSF) are likely to increase investments in fundamental neuroscience.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Clinical Translation of Advanced Biologics and Real-World Evidence</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Life Science Rundown, Science Will Win, and Nature Podcast are all reporting on translating laboratory discoveries into clinical practice—cell/gene therapies, immunotherapy for triple-negative breast cancer, and magnetic hydrogel devices for cardiac applications. These episodes emphasize the role of real-world data and remote trials in validation, signaling a shift in how efficacy is defined and measured beyond traditional RCTs.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM leadership should consider how regulatory frameworks and funding mechanisms must evolve to support real-world evidence generation and remote trial infrastructure for biologic therapies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Food, Immune Response, and Systemic Health</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Huberman Lab, and Unbiased Science are all exploring connections between food intake, immune signaling, and health outcomes—spanning gut-brain axis (Huberman), food allergy mechanisms and novel therapies (Unbiased Science), and obesity/diet environment links (Science Friday). This reflects emerging understanding that food is not merely nutrition but a primary immune and neurobiological interface.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should elevate food-immune-microbiome research as a cross-agency priority, bridging nutrition, immunology, and neuroscience funding silos.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI and Machine Learning in Protein and Molecular Design</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday covered both directed enzyme evolution and AI-designed enzymes, while The Life Science Rundown discussed AI model training in regulated clinical contexts. This signals convergence around AI as a tool for accelerating biological discovery, with growing attention to validation, safety, and regulatory oversight in high-stakes applications.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene experts on AI validation standards for biomedical applications, particularly for enzyme design and protein engineering where commercial interest is accelerating.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental and Ecological Tipping Points in Climate and Water Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave reported on Cascadia seismic risk and spring lake ice phenology changes, while Science Friday highlighted climate mitigation policy. Together these suggest growing media attention to both sudden-onset risks (earthquakes) and slower ecological shifts (lake dynamics, food web decoupling), reflecting increasing scientific concern about interconnected Earth system instability.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should strengthen integration of geophysical hazard assessment with climate and ecosystem monitoring to inform infrastructure and adaptation policy.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Huberman Lab: Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Mar 05 &middot; 35 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Charles Zuker discusses the neurobiology of taste perception, distinguishing between detection (sensory receptor activation) and perception (brain interpretation). He explains how the five basic tastes (sweet, sour, bitter, salty, umami) map onto specific neural circuits from taste receptors through the brainstem to the cortex. A central finding is that sugar preference is driven by a gut-brain axis mechanism: while artificial sweeteners activate taste receptors like sugar, they fail to activate intestinal sensors that recognize glucose, preventing satisfaction of sugar cravings and contributing to overconsumption. He argues obesity is fundamentally a brain circuit disorder rather than a metabolism problem, with implications for understanding how highly processed foods exploit evolved neural systems for nutrient recognition.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Taste receptor molecular biology and signal transduction</span>
+  <span class="topic-tag">Neural circuits for taste perception from tongue to gustatory cortex</span>
+  <span class="topic-tag">Gut-brain axis and vagal signaling in nutrient sensing</span>
+  <span class="topic-tag">Post-ingestive nutrient recognition by intestinal cells</span>
+  <span class="topic-tag">Desensitization mechanisms at receptor and neural circuit levels</span>
+  <span class="topic-tag">Taste plasticity and learning (e.g., coffee acceptance despite initial bitterness)</span>
+  <span class="topic-tag">Homeostatic modulation of taste by internal physiological state</span>
+  <span class="topic-tag">Artificial sweeteners and glucose-specific intestinal sensors</span>
+  <span class="topic-tag">Neural basis of appetitive versus aversive taste responses</span>
+  <span class="topic-tag">Sugar and fat as hijackers of evolved nutrient-sensing circuits</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance" target="_blank">Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10668/nutrient-requirements-of-dogs-and-cats" target="_blank">Nutrient Requirements of Dogs and Cats</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Artificial sweeteners do not activate gut-brain axis receptors for glucose, leaving sugar cravings unsatisfied despite taste activation</div>
+<div class="claim">Obesity is primarily a disease of brain circuits rather than metabolism or physiology</div>
+<div class="claim">Five basic tastes (sweet, sour, bitter, salty, umami) accommodate all dietary needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The brain is only made of neurons that only understand electrical signals. So how do you transform that reality into nothing but electrical signals that now need to represent the world? That process is what we can operationally define as perception."</div>
+<div class="quote">"I don't think obesity is a disease of metabolism. I believe obesity is a disease of brain circuits. The brain ultimately appears to be the conductor of this orchestra of physiology and metabolism."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Teen sleep is getting wrecked by more than just phones</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 06 &middot; 8 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode covers three science stories: a study showing insufficient sleep among U.S. high school students has increased significantly from 2007 to 2023, with over three-quarters now getting less than seven hours nightly; new research on the Cascadia subduction zone fault using seafloor sensors revealing the northern section is more tightly locked and may release stress differently than previously thought; and analysis of ancient pottery residues from 4,000-8,000 years ago in northern Europe revealing prehistoric diets including a fish and Gelder roseberry stew, highlighting forgotten foods in modern cuisine.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Adolescent sleep deprivation and sleep duration trends in high school students</span>
+  <span class="topic-tag">Cascadia subduction zone mechanics and megathrust earthquake dynamics</span>
+  <span class="topic-tag">Seismic signal measurement from seafloor sensors</span>
+  <span class="topic-tag">Archaeological analysis of ancient food remains and prehistoric diet reconstruction</span>
+  <span class="topic-tag">Gelder roseberries as historical food source</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10421/engaging-schools-fostering-high-school-students-motivation-to-learn" target="_blank">Engaging Schools: Fostering High School Students' Motivation to Learn</a></div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13167/grand-challenges-in-earthquake-engineering-research-a-community-workshop-report" target="_blank">Grand Challenges in Earthquake Engineering Research: A Community Workshop Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13092/national-earthquake-resilience-research-implementation-and-outreach" target="_blank">National Earthquake Resilience: Research, Implementation, and Outreach</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match">Sea Change: 2015-2025 Decadal Survey of Ocean Sciences</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise" target="_blank">Ocean Acoustics Education and Expertise</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology" target="_blank">Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">More than three-quarters of high school students are getting less than seven hours of sleep per night (data from 2007-2023)</div>
+<div class="claim">Some high school students are getting less than five hours of sleep per night</div>
+<div class="claim">Insufficient sleep in teens correlates with increased depression, car accidents, worse school performance, and diminished life outcomes</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If teens don't get enough sleep, they're more depressed. They get in more car accidents. They do worse at school. They don't get good jobs. They don't maintain relationships. They don't have happy and productive lives."</div>
+<div class="quote">"The study authors say since insufficient sleep seems to be a problem plaguing most teens, there must be structural environmental factors at play here."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Fixing Society's Toughest Problems? ‘It’s On You’</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 06 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Nick Chater discusses how behavioral science and corporate messaging have shifted responsibility for solving major societal problems from systemic/regulatory solutions to individual consumer choice. Drawing on his experience advising the UK government on climate and behavioral policy, Chater argues that the 'nudge' approach—while well-intentioned—has inadvertently enabled corporations to deflect blame for problems like climate change, obesity, and privacy concerns. He advocates for reframing behavioral science to support large-scale systemic policies rather than individual behavioral interventions, and demonstrates how this occurred with BP's invention of the 'carbon footprint' concept as a PR strategy.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Behavioral economics and behavioral science applications to public policy</span>
+  <span class="topic-tag">Climate change mitigation and carbon reduction targets</span>
+  <span class="topic-tag">Obesity epidemiology and food environment effects on diet</span>
+  <span class="topic-tag">Psychology of individual versus systemic problem framing</span>
+  <span class="topic-tag">Sugar and salt reformulation in food products</span>
+  <span class="topic-tag">Social media and screen time health effects</span>
+  <span class="topic-tag">Cognitive biases in human decision-making</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18997/public-health-implications-of-raising-the-minimum-age-of-legal-access-to-tobacco-products" target="_blank">Public Health Implications of Raising the Minimum Age of Legal Access to Tobacco Products</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13294/scientific-standards-for-studies-on-modified-risk-tobacco-products" target="_blank">Scientific Standards for Studies on Modified Risk Tobacco Products</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Carbon footprint concept was primarily invented by British Petroleum as a PR campaign—this is a specific historical claim about corporate origins that could be verified</div>
+<div class="claim">Nudge interventions have been ineffective at addressing climate change individually—Chater claims six years on UK Climate Change Committee yielded no individual behavioral interventions that made meaningful difference</div>
+<div class="claim">Obesity is a relatively recent problem in Western nations (40-50 years), not caused by eroded willpower but by changes in food environment—claim about environmental determinism vs. individual factors</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If you're in the fossil fuel industry, it's a really, really useful thing for the public at large to own the problem themselves... that's a very effective strategy where we can start blaming ourselves and also blaming each other rather than thinking we need to make major structural changes."</div>
+<div class="quote">"Just individual behavior wasn't where the action was... the things that were really mattering in the UK were things like decarbonising the grid, closing down coal-fired power stations and pushing wind and solar."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Food Allergies: A Tough Nut to Crack</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Mar 04 &middot; 35 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines food allergies, intolerances, and sensitivities with allergist Dr. Farrah Khan, distinguishing between these conditions and debunking the proliferation of unvalidated commercial food sensitivity tests. The hosts discuss how IgG antibody testing marketed to consumers merely indicates prior food exposure rather than actual allergic reactions, while legitimate IgE-mediated allergies involve specific immune mechanisms. The episode covers emerging treatments like oral immunotherapy that can potentially reverse food allergies in young children, the alpha-gal syndrome (tick-borne meat allergy), and connections between eczema and food allergies, while addressing misinformation from RFK Jr. about vaccine-allergy links.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">IgE-mediated food allergies (immune mechanisms)</span>
+  <span class="topic-tag">IgG antibody testing for food sensitivities (commercialized testing)</span>
+  <span class="topic-tag">Oral and sublingual immunotherapy for food allergy treatment</span>
+  <span class="topic-tag">Alpha-gal syndrome (tick-borne carbohydrate allergy to mammalian meat)</span>
+  <span class="topic-tag">LEAP trial findings on early allergen introduction in infants</span>
+  <span class="topic-tag">Lactose intolerance and enzymatic activity loss with aging</span>
+  <span class="topic-tag">Celiac disease diagnosis and gluten sensitivity</span>
+  <span class="topic-tag">Atopic march (eczema-allergies-asthma progression)</span>
+  <span class="topic-tag">Skin barrier disruption in eczema and food allergy risk</span>
+  <span class="topic-tag">Adenovirus-based COVID-19 vaccine adverse events and thrombotic mechanisms</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up" target="_blank">Guidance on PFAS Exposure, Testing, and Clinical Follow-Up</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26729/reassessment-of-the-department-of-veterans-affairs-airborne-hazards-and-open-burn-pit-registry" target="_blank">Reassessment of the Department of Veterans Affairs Airborne Hazards and Open Burn Pit Registry</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12519/mathematics-learning-in-early-childhood-paths-toward-excellence-and-equity" target="_blank">Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community" target="_blank">Early Relational Health: Building Foundations for Child, Family, and Community Well-Being</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Vaccines do not cause food allergies - stated as established fact with no scientific support presented for the claim being rebutted</div>
+<div class="claim">LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate</div>
+<div class="claim">Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">""Vaccines do not cause food allergies. Mic drop. Thank you Farrah for clarifying that. No connection. Apparently it needed to be said.""</div>
+<div class="quote">""[IgG testing] is not legitimate at all. I don't understand why these companies have not been sued up the wazoo because the claims that they are making are also wildly inaccurate... It's a scam. Save your money. Do not, do not, do not purchase.""</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">The Life Science Rundown: Getting Data Governance for Regulatory Submissions Right Before AI Gets it Wrong with Cary Smithson</span>
+</div>
+<div class="episode-meta">Nick Capman (The FDA Group) &middot; Mar 05 &middot; 28 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses the critical importance of data governance in life sciences regulatory submissions, particularly as companies face increasingly stringent structured data requirements from health authorities. Cary Smithson outlines foundational steps for implementing data governance programs, including defining critical data elements, assigning ownership, mapping data lineage, and codifying standards. The conversation emphasizes that proper data governance is essential for regulatory compliance, supporting AI/analytics initiatives, aligning with standards like IDMP and PQCMC, and achieving business outcomes such as faster submissions and fewer health authority queries.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cell and gene therapies</span>
+  <span class="topic-tag">Real-world data and real-world evidence in clinical trials</span>
+  <span class="topic-tag">Remote clinical trials</span>
+  <span class="topic-tag">AI model training and validation in regulated contexts</span>
+  <span class="topic-tag">Medical device software and connected devices</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision" target="_blank">Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials" target="_blank">The Prevention and Treatment of Missing Data in Clinical Trials</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials" target="_blank">The Prevention and Treatment of Missing Data in Clinical Trials</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11923/software-for-dependable-systems-sufficient-evidence" target="_blank">Software for Dependable Systems: Sufficient Evidence?</a></div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Poor data governance can lead to AI models producing unreliable or noncompliant outputs</div>
+<div class="claim">Non-standard or low quality data can undermine AI model performance and compliance, potentially giving erroneous or misleading results</div>
+<div class="claim">Data quality issues and poor governance can cause regulatory delays, health authority queries, and resubmission requirements</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"AI and analytics depend on trustworthy data. So without clear definitions, controls, provenance, AI models produce unreliable or noncompliant outputs, and governance enables explainability and validation, which are essential in the regulated context of which we operate."</div>
+<div class="quote">"If you try to define all of these things at once, it can just take a long time and you won't really quickly get to results. So while I mentioned that you want to identify this, you want to do it within your scope, and then you can scale and expand from there."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">91 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Science Advocacy and Policy Under Political Pressure (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing erosion of trust in health agencies, evidence-based policymaking, and March for Science protests on March 7, 2026.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Energy Solutions (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of climate stabilization strategies, EV charging technology, and grid-scale battery storage replacing gas peaker plants.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomical Discoveries (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering gravitational wave detections, pulsar discoveries, star systems, universe age debates, and space infrastructure investments.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Conservation Concerns (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Reports on invasive species threats, bird population decline, coral reef protection limitations, and endangered species rediscoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Medical and Surgical Innovation (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of robotic surgery, laser bone surgery, SuperAgers neuroscience research, and mRNA vaccine development.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">156 likes &middot; 87 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">This weekend, on March 7, @standupforscience.bsky.social is leading protests in 25 locations.
+
+Scientists had warned about the replacement of evidence over ideology and the damage it would cause. Everything that I was worried about came true. 
+
+🧪 www.scientificamerican.com/article/stan...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgdnreyqus2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">129 likes &middot; 54 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">This is encouraging.
+
+Kennedy promised to restore trust in our health agencies. 
+
+He achieved the opposite.
+
+Confidence in health agencies dropped during Trump’s first year.
+
+38% of people trust Kennedy.  
+
+Polls show more trust in professional associations. 
+🧪 www.eurekalert.org/news-release...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mge5qhjk3c24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">113 likes &middot; 29 reposts &middot; 13 replies</div>
+  <div class="bluesky-text">This is an idea that is so ridiculous it would give ridiculous a bad name. 🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mgdrdx3dbs2e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">79 likes &middot; 26 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Everything you think you know about EV charging is going to become obsolete. 🧪🔌💡☀️💨💧🔋 insideevs.com/news/789094/...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mgdzbohw3222" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@lauriewinkless.bsky.social</div>
+  <div class="bluesky-stats">73 likes &middot; 30 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">My March story for @forbes.com has just gone live. It's all about pedestrian crossings and how the timings they're based on no longer match the demographics of our cities ⚛️🧪👩‍🔬
+ www.forbes.com/sites/laurie...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/lauriewinkless.bsky.social/post/3mgedrzlpo22k" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Erosion of Trust in Federal Health Agencies and Science Policy</strong>: Directly relevant to NASEM's role advising on science policy; declining trust in FDA, CDC, and health agencies represents critical governance challenge requiring NASEM input on restoring evidence-based decision-making.</div>
+<div class="nasem-match"><strong>Climate Change Mitigation and Energy Infrastructure</strong>: Aligns with NASEM's work on energy solutions and climate stabilization; grid modernization and battery storage technology adoption requires policy guidance on technological transitions and infrastructure investment.</div>
+<div class="nasem-match"><strong>Public Health Crisis Management and Vaccine Hesitancy</strong>: Relevant to NASEM's public health advisory work; polio resurgence and broader vaccine confidence issues require NASEM recommendations on communicating vaccine safety and addressing vaccine hesitancy globally.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 06, 2026 at 11:35 AM | Internal use only
+    </div>
+</body>
+</html>

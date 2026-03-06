@@ -1,0 +1,539 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "Teen sleep is getting wrecked by more than just phones",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-03-06T08:00:00",
+  "duration_minutes": 8.283333333333333,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode covers three science stories: a study showing insufficient sleep among U.S. high school students has increased significantly from 2007 to 2023, with over three-quarters now getting less than seven hours nightly; new research on the Cascadia subduction zone fault using seafloor sensors revealing the northern section is more tightly locked and may release stress differently than previously thought; and analysis of ancient pottery residues from 4,000-8,000 years ago in northern Europe revealing prehistoric diets including a fish and Gelder roseberry stew, highlighting forgotten foods in modern cuisine.",
+  "science_topics": [
+    "Adolescent sleep deprivation and sleep duration trends in high school students",
+    "Cascadia subduction zone mechanics and megathrust earthquake dynamics",
+    "Seismic signal measurement from seafloor sensors",
+    "Archaeological analysis of ancient food remains and prehistoric diet reconstruction",
+    "Gelder roseberries as historical food source"
+  ],
+  "claims_to_note": [
+    "More than three-quarters of high school students are getting less than seven hours of sleep per night (data from 2007-2023)",
+    "Some high school students are getting less than five hours of sleep per night",
+    "Insufficient sleep in teens correlates with increased depression, car accidents, worse school performance, and diminished life outcomes",
+    "The northern section of the Cascadia fault is more tightly locked and storing more stress than the central section",
+    "The central section of the Cascadia fault allows more fluid movement along the fault",
+    "Cascadia plates are moving toward each other at approximately one inch or more per year"
+  ],
+  "policy_relevance": [
+    "School start times policy mentioned as potential intervention linked to improved adolescent sleep duration and mental health outcomes",
+    "CDC Youth Risk Behavior Survey as source of teen sleep data (surveys 120,000+ U.S. high schoolers biennially)"
+  ],
+  "key_quotes": [
+    "If teens don't get enough sleep, they're more depressed. They get in more car accidents. They do worse at school. They don't get good jobs. They don't maintain relationships. They don't have happy and productive lives.",
+    "The study authors say since insufficient sleep seems to be a problem plaguing most teens, there must be structural environmental factors at play here.",
+    "What people see as tasty changes massively depending on the cultural context."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Adolescent sleep deprivation and sleep duration trends in high school students",
+      "publications": [
+        {
+          "id": "10421",
+          "title": "Engaging Schools: Fostering High School Students' Motivation to Learn",
+          "url": "https://nap.nationalacademies.org/catalog/10421/engaging-schools-fostering-high-school-students-motivation-to-learn",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "shapes adolescents school engagement",
+            "learn disadvantaged urban adolescents",
+            "school pedagogy curriculum climate",
+            "community affect adolescents attitudes",
+            "school size vocational teaching",
+            "reform urban high schools",
+            "engaging schools reviews current",
+            "low income students claimed",
+            "recent metlife survey percent",
+            "increasing students motivation",
+            "engaging schools",
+            "learn"
+          ],
+          "description": "When it comes to motivating people to learn, disadvantaged urban adolescents are usually perceived as a hard sell. Yet, in a recent MetLife survey, 89 percent of the low-income students claimed \"I really want to learn\" applied to them. What is it about the school environmentâ€\"pedagogy, curriculum, climate, organizationâ€\"that encourages or discourages engagement in school activities? How do peers, family, and community affect adolescents' attitudes towards learning? Engaging Schools reviews current research on what shapes adolescents' school engagement and motivation to learnâ€\"including new findings on students' sense of belongingâ€\"and looks at ways these can be used to reform urban high schools. This book discusses what changes hold the greatest promise for increasing students' motivation to learn in these schools. It looks at various approaches to reform through different methods of instruction and assessment, adjustments in school size, vocational teaching, and other key areas. E",
+          "year": 2003,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Children, Youth, and Families"
+        },
+        {
+          "id": "26015",
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "keywords": [
+            "mental health",
+            "psychology",
+            "substance use",
+            "wellbeing",
+            "college",
+            "students"
+          ]
+        },
+        {
+          "id": "25038",
+          "title": "Graduate STEM Education for the 21st Century",
+          "keywords": [
+            "education",
+            "stem",
+            "graduate",
+            "phd",
+            "academic",
+            "university",
+            "students"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Cascadia subduction zone mechanics and megathrust earthquake dynamics",
+      "publications": [
+        {
+          "id": "13167",
+          "title": "Grand Challenges in Earthquake Engineering Research: A Community Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/13167/grand-challenges-in-earthquake-engineering-research-a-community-workshop-report",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "devastating impact major earthquakes",
+            "chile provide stark reminders",
+            "earthquake resilient society",
+            "modern earthquake planning",
+            "geological threats become",
+            "identify grand challenges",
+            "communities infrastructure",
+            "experimental capabilities",
+            "cyberinfrastructure tools",
+            "recent earthquakes",
+            "grand challenges",
+            "earthquake",
+            "community"
+          ],
+          "description": "As geological threats become more imminent, society must make a major commitment to increase the resilience of its communities, infrastructure, and citizens. Recent earthquakes in Japan, New Zealand, Haiti, and Chile provide stark reminders of the devastating impact major earthquakes have on the lives and economic stability of millions of people worldwide. The events in Haiti continue to show that poor planning and governance lead to long-term chaos, while nations like Chile demonstrate steady recovery due to modern earthquake planning and proper construction and mitigation activities. At the request of the National Science Foundation, the National Research Council hosted a two-day workshop to give members of the community an opportunity to identify \"Grand Challenges\" for earthquake engineering research that are needed to achieve an earthquake resilient society, as well as to describe networks of earthquake engineering experimental capabilities and cyberinfrastructure tools that could ",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources"
+        },
+        {
+          "id": "13092",
+          "title": "National Earthquake Resilience: Research, Implementation, and Outreach",
+          "url": "https://nap.nationalacademies.org/catalog/13092/national-earthquake-resilience-research-implementation-and-outreach",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "earthquake prone populated area",
+            "recent disastrous magnitude earthquake",
+            "struck northern japan demonstrates",
+            "cool nuclear reactors demonstrates",
+            "multi agency program mandated",
+            "earthquake resilience",
+            "earthquake disaster",
+            "earthquake causing",
+            "major earthquake",
+            "damaging earthquakes",
+            "implementation",
+            "outreach"
+          ],
+          "description": "The United States will certainly be subject to damaging earthquakes in the future. Some of these earthquakes will occur in highly populated and vulnerable areas. Coping with moderate earthquakes is not a reliable indicator of preparedness for a major earthquake in a populated area. The recent, disastrous, magnitude-9 earthquake that struck northern Japan demonstrates the threat that earthquakes pose. Moreover, the cascading nature of impacts-the earthquake causing a tsunami, cutting electrical power supplies, and stopping the pumps needed to cool nuclear reactors-demonstrates the potential complexity of an earthquake disaster. Such compound disasters can strike any earthquake-prone populated area. National Earthquake Resilience presents a roadmap for increasing our national resilience to earthquakes. The National Earthquake Hazards Reduction Program (NEHRP) is the multi-agency program mandated by Congress to undertake activities to reduce the effects of future earthquakes in the United",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources"
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Seismic signal measurement from seafloor sensors",
+      "publications": [
+        {
+          "id": "27846",
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "keywords": [
+            "ocean",
+            "marine",
+            "sea",
+            "oceanography",
+            "coastal",
+            "marine science"
+          ]
+        },
+        {
+          "id": "21655",
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "keywords": [
+            "ocean",
+            "marine",
+            "oceanography",
+            "sea",
+            "coastal",
+            "marine biology"
+          ]
+        },
+        {
+          "id": "27130",
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "state transportation agencies",
+            "risks quantify risks",
+            "extreme weather risks",
+            "increasingly becoming important",
+            "transportation agencies",
+            "assess risks",
+            "appropriate tools",
+            "use tools",
+            "implemented",
+            "demonstrate",
+            "measurement",
+            "transportation asset management",
+            "techniques",
+            "conduct",
+            "risk"
+          ],
+          "description": "\"The assessment of climatic and extreme weather risks is increasingly becoming important to the operation of transportation agencies. There are easy-to-use tools and techniques that can be implemented by agencies. [This report] discusses how to assess risks and summarizes 12 studies that demonstrate how to enhance the measurement of risks, quantify risks, and better link risk management processes with the appropriate tools.\"--Publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "State transportation agencies"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Archaeological analysis of ancient food remains and prehistoric diet reconstruction",
+      "publications": [
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Gelder roseberries as historical food source",
+      "publications": [
+        {
+          "id": "27337",
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "ocean acoustics education",
+            "ocean acoustics began",
+            "fundamental ocean science",
+            "widely varying career paths",
+            "higher education institutions",
+            "vocational associates level",
+            "ocean environment",
+            "human generated sources",
+            "assesses expected dem",
+            "formal education",
+            "expertise"
+          ],
+          "description": "Ocean Acoustics - the study of sound in the ocean, how it travels, interacts with, and is affected by its underwater surroundings - is a growing and critical field. Sound from both natural and human-generated sources can be an effective tool for probing the ocean environment. While the first applications of ocean acoustics began in the military, applications today encompass offshore energy production, national security, environmental monitoring, climate science, exploration and mapping, as well as fundamental ocean science. Even as demand for ocean acoustics grows, workforce development is challenged by both the multidisciplinary nature of the field and its widely varying career paths. Ocean acoustics may be housed in a diversity of departments in higher education institutions, and career paths and trajectory of formal education can range from the vocational/associates' level through the doctorate level. This report examines the state of ocean acoustics education; assesses expected dem",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "27154",
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "nantucket shoals region off",
+            "efficient clean energy resources",
+            "affect oceanic physical processes",
+            "offshore wind farms",
+            "wind energy",
+            "environmentally responsible way",
+            "renewable energy",
+            "hydrodynamic alterations",
+            "hydrodynamic changes",
+            "affect foraging",
+            "nantucket shoals regional ecology",
+            "potential hydrodynamic impacts",
+            "offshore wind energy",
+            "evaluation",
+            "whales"
+          ],
+          "description": "The transition to renewable energy has spurred many efforts to scale up the U.S. portfolio of efficient clean energy resources, including the development of offshore wind farms. The Nantucket Shoals region off the coast of Massachusetts is the first large scale wind farm installation under development in U.S. waters. To ensure Nantucket Shoals region offshore wind energy installations are being planned, constructed, and developed in an environmentally responsible way, the Bureau of Ocean Energy Management (BOEM) asked the National Academies to evaluate the potential for offshore wind farms in the Nantucket Shoals region to affect oceanic physical processes, and, in turn, how those hydrodynamic alterations might affect local to regional ecosystems. Of particular interest to BOEM are the potential effects of hydrodynamic changes on zooplankton productivity and aggregations, which may affect foraging for the critically endangered North Atlantic right whale. This report found the impacts o",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 1897,
+  "saved_at": "2026-03-06T11:35:02.885375"
+}

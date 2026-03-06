@@ -1,7 +1,290 @@
 {
-  "updated": "2026-03-05T11:38:20.797170",
-  "episode_count": 56,
+  "updated": "2026-03-06T11:35:36.674074",
+  "episode_count": 61,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Fixing Society's Toughest Problems? ‘It’s On You’",
+      "host": "Ira Flatow",
+      "published": "2026-03-06T11:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. Nick Chater discusses how behavioral science and corporate messaging have shifted responsibility for solving major societal problems from systemic/regulatory solutions to individual consumer choice. Drawing on his experience advising the UK government on climate and behavioral policy, Chater argues that the 'nudge' approach—while well-intentioned—has inadvertently enabled corporations to deflect blame for problems like climate change, obesity, and privacy concerns. He advocates for reframing behavioral science to support large-scale systemic policies rather than individual behavioral interventions, and demonstrates how this occurred with BP's invention of the 'carbon footprint' concept as a PR strategy.",
+      "science_topics": [
+        "Behavioral economics and behavioral science applications to public policy",
+        "Climate change mitigation and carbon reduction targets",
+        "Obesity epidemiology and food environment effects on diet",
+        "Psychology of individual versus systemic problem framing",
+        "Sugar and salt reformulation in food products",
+        "Social media and screen time health effects",
+        "Cognitive biases in human decision-making"
+      ],
+      "claims_to_note": [
+        "Carbon footprint concept was primarily invented by British Petroleum as a PR campaign—this is a specific historical claim about corporate origins that could be verified",
+        "Nudge interventions have been ineffective at addressing climate change individually—Chater claims six years on UK Climate Change Committee yielded no individual behavioral interventions that made meaningful difference",
+        "Obesity is a relatively recent problem in Western nations (40-50 years), not caused by eroded willpower but by changes in food environment—claim about environmental determinism vs. individual factors",
+        "Gradual sugar and salt reformulation in food products can reduce consumption without consumer detection—claimed as evidence that systemic approaches work without consumer detriment",
+        "There are approximately 150 nudge units operating globally across governments—specific quantifiable claim"
+      ],
+      "policy_relevance": [
+        "UK Behavioral Insights Team (Nudge Unit) created in 2010 under David Cameron's government",
+        "UK Climate Change Committee's role in setting and monitoring carbon reduction targets",
+        "UK legislation on sugar and salt reduction in drinks and prepared foods",
+        "Carbon taxes as policy mechanism—discussed as politically difficult but potentially effective with proper framing",
+        "Government regulation versus individual responsibility framing in climate, food, and tech policy",
+        "Direct.gov carbon footprint campaign by UK government"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Public Health Implications of Raising the Minimum Age of Legal Access to Tobacco Products",
+          "url": "https://nap.nationalacademies.org/catalog/18997/public-health-implications-of-raising-the-minimum-age-of-legal-access-to-tobacco-products"
+        },
+        {
+          "title": "Scientific Standards for Studies on Modified Risk Tobacco Products",
+          "url": "https://nap.nationalacademies.org/catalog/13294/scientific-standards-for-studies-on-modified-risk-tobacco-products"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Teen sleep is getting wrecked by more than just phones",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-06T08:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode covers three science stories: a study showing insufficient sleep among U.S. high school students has increased significantly from 2007 to 2023, with over three-quarters now getting less than seven hours nightly; new research on the Cascadia subduction zone fault using seafloor sensors revealing the northern section is more tightly locked and may release stress differently than previously thought; and analysis of ancient pottery residues from 4,000-8,000 years ago in northern Europe revealing prehistoric diets including a fish and Gelder roseberry stew, highlighting forgotten foods in modern cuisine.",
+      "science_topics": [
+        "Adolescent sleep deprivation and sleep duration trends in high school students",
+        "Cascadia subduction zone mechanics and megathrust earthquake dynamics",
+        "Seismic signal measurement from seafloor sensors",
+        "Archaeological analysis of ancient food remains and prehistoric diet reconstruction",
+        "Gelder roseberries as historical food source"
+      ],
+      "claims_to_note": [
+        "More than three-quarters of high school students are getting less than seven hours of sleep per night (data from 2007-2023)",
+        "Some high school students are getting less than five hours of sleep per night",
+        "Insufficient sleep in teens correlates with increased depression, car accidents, worse school performance, and diminished life outcomes",
+        "The northern section of the Cascadia fault is more tightly locked and storing more stress than the central section",
+        "The central section of the Cascadia fault allows more fluid movement along the fault",
+        "Cascadia plates are moving toward each other at approximately one inch or more per year"
+      ],
+      "policy_relevance": [
+        "School start times policy mentioned as potential intervention linked to improved adolescent sleep duration and mental health outcomes",
+        "CDC Youth Risk Behavior Survey as source of teen sleep data (surveys 120,000+ U.S. high schoolers biennially)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Engaging Schools: Fostering High School Students' Motivation to Learn",
+          "url": "https://nap.nationalacademies.org/catalog/10421/engaging-schools-fostering-high-school-students-motivation-to-learn"
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Grand Challenges in Earthquake Engineering Research: A Community Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/13167/grand-challenges-in-earthquake-engineering-research-a-community-workshop-report"
+        },
+        {
+          "title": "National Earthquake Resilience: Research, Implementation, and Outreach",
+          "url": "https://nap.nationalacademies.org/catalog/13092/national-earthquake-resilience-research-implementation-and-outreach"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise"
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "life-science-rundown",
+      "podcast_name": "The Life Science Rundown",
+      "episode_title": "Getting Data Governance for Regulatory Submissions Right Before AI Gets it Wrong with Cary Smithson",
+      "host": "Nick Capman (The FDA Group)",
+      "published": "2026-03-05T17:36:26",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode discusses the critical importance of data governance in life sciences regulatory submissions, particularly as companies face increasingly stringent structured data requirements from health authorities. Cary Smithson outlines foundational steps for implementing data governance programs, including defining critical data elements, assigning ownership, mapping data lineage, and codifying standards. The conversation emphasizes that proper data governance is essential for regulatory compliance, supporting AI/analytics initiatives, aligning with standards like IDMP and PQCMC, and achieving business outcomes such as faster submissions and fewer health authority queries.",
+      "science_topics": [
+        "Cell and gene therapies",
+        "Real-world data and real-world evidence in clinical trials",
+        "Remote clinical trials",
+        "AI model training and validation in regulated contexts",
+        "Medical device software and connected devices"
+      ],
+      "claims_to_note": [
+        "Poor data governance can lead to AI models producing unreliable or noncompliant outputs",
+        "Non-standard or low quality data can undermine AI model performance and compliance, potentially giving erroneous or misleading results",
+        "Data quality issues and poor governance can cause regulatory delays, health authority queries, and resubmission requirements",
+        "Strong data governance can reduce health authority queries by approximately 25% (based on case study example)",
+        "Implementation of data governance programs can accelerate affiliate submissions by 30-50% through standardized attributes and automated data feeds"
+      ],
+      "policy_relevance": [
+        "FDA regulatory submission requirements and structured data expectations",
+        "EU IDMP (Identification of Medicinal Products) and SPORE code requirements",
+        "UDI (Unique Device Identification) for medical devices",
+        "HL7 FHIR standards for health data exchange",
+        "Structured PQCMC (Chemistry, Manufacturing, and Controls) submission requirements in the U.S.",
+        "GXP (Good X Practice) compliance and computer system validation requirements",
+        "Health authority expectations for faster, more consistent submissions with transparent data lineage",
+        "FDA queries and inspection observations related to data governance failures"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "A National Cancer Clinical Trials System for the 21st Century: Reinvigorating the NCI Cooperative Group Program",
+          "url": "https://nap.nationalacademies.org/catalog/12879/a-national-cancer-clinical-trials-system-for-the-21st-century"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Software for Dependable Systems: Sufficient Evidence?",
+          "url": "https://nap.nationalacademies.org/catalog/11923/software-for-dependable-systems-sufficient-evidence"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -198,6 +481,107 @@
       ]
     },
     {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker",
+      "host": "Andrew Huberman",
+      "published": "2026-03-05T09:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Dr. Charles Zuker discusses the neurobiology of taste perception, distinguishing between detection (sensory receptor activation) and perception (brain interpretation). He explains how the five basic tastes (sweet, sour, bitter, salty, umami) map onto specific neural circuits from taste receptors through the brainstem to the cortex. A central finding is that sugar preference is driven by a gut-brain axis mechanism: while artificial sweeteners activate taste receptors like sugar, they fail to activate intestinal sensors that recognize glucose, preventing satisfaction of sugar cravings and contributing to overconsumption. He argues obesity is fundamentally a brain circuit disorder rather than a metabolism problem, with implications for understanding how highly processed foods exploit evolved neural systems for nutrient recognition.",
+      "science_topics": [
+        "Taste receptor molecular biology and signal transduction",
+        "Neural circuits for taste perception from tongue to gustatory cortex",
+        "Gut-brain axis and vagal signaling in nutrient sensing",
+        "Post-ingestive nutrient recognition by intestinal cells",
+        "Desensitization mechanisms at receptor and neural circuit levels",
+        "Taste plasticity and learning (e.g., coffee acceptance despite initial bitterness)",
+        "Homeostatic modulation of taste by internal physiological state",
+        "Artificial sweeteners and glucose-specific intestinal sensors",
+        "Neural basis of appetitive versus aversive taste responses",
+        "Sugar and fat as hijackers of evolved nutrient-sensing circuits"
+      ],
+      "claims_to_note": [
+        "Artificial sweeteners do not activate gut-brain axis receptors for glucose, leaving sugar cravings unsatisfied despite taste activation",
+        "Obesity is primarily a disease of brain circuits rather than metabolism or physiology",
+        "Five basic tastes (sweet, sour, bitter, salty, umami) accommodate all dietary needs",
+        "Bitter taste is enriched at back of tongue as last-line defense against toxins",
+        "Mice lacking sweet taste receptors can still develop sugar preference through post-ingestive learning via gut-brain axis",
+        "Taste preferences can be modified by learning and internal metabolic state despite hardwired initial valences",
+        "Modern highly processed foods co-opt nutrient-sensing circuits in ways that would not occur in nature",
+        "Each taste quality maps to distinct brain regions in gustatory cortex",
+        "Salt preference switches from appetitive to aversive at high concentrations unless animal is salt-deprived"
+      ],
+      "policy_relevance": [
+        "Potential implications for food labeling and artificial sweetener regulation based on mechanistic understanding of their ineffectiveness at satisfying sugar cravings",
+        "Brain-based perspective on obesity may inform public health approaches focusing on neural circuit interventions rather than solely caloric restriction or metabolic targets",
+        "Gap between training of metabolic scientists and neuroscientists acknowledged as potential policy concern for addressing nutrition and obesity",
+        "Mechanistic understanding of gut-brain axis could inform design of dietary interventions and appetite regulation strategies"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Public Engagement on Genetically Modified Organisms: When Science and Citizens Connect: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21750/public-engagement-on-genetically-modified-organisms-when-science-and-citizens"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance"
+        },
+        {
+          "title": "Nutrient Requirements of Dogs and Cats",
+          "url": "https://nap.nationalacademies.org/catalog/10668/nutrient-requirements-of-dogs-and-cats"
+        },
+        {
+          "title": "Nutrient Requirements of Dairy Cattle: Eighth Revised Edition",
+          "url": "https://nap.nationalacademies.org/catalog/25806/nutrient-requirements-of-dairy-cattle-eighth-revised-edition"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        }
+      ]
+    },
+    {
       "podcast_id": "nature-podcast",
       "podcast_name": "Nature Podcast",
       "episode_title": "Heart surgery with quick-setting magnetic fluid could prevent strokes",
@@ -375,6 +759,109 @@
         {
           "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
           "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "Food Allergies: A Tough Nut to Crack",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-03-04T11:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode examines food allergies, intolerances, and sensitivities with allergist Dr. Farrah Khan, distinguishing between these conditions and debunking the proliferation of unvalidated commercial food sensitivity tests. The hosts discuss how IgG antibody testing marketed to consumers merely indicates prior food exposure rather than actual allergic reactions, while legitimate IgE-mediated allergies involve specific immune mechanisms. The episode covers emerging treatments like oral immunotherapy that can potentially reverse food allergies in young children, the alpha-gal syndrome (tick-borne meat allergy), and connections between eczema and food allergies, while addressing misinformation from RFK Jr. about vaccine-allergy links.",
+      "science_topics": [
+        "IgE-mediated food allergies (immune mechanisms)",
+        "IgG antibody testing for food sensitivities (commercialized testing)",
+        "Oral and sublingual immunotherapy for food allergy treatment",
+        "Alpha-gal syndrome (tick-borne carbohydrate allergy to mammalian meat)",
+        "LEAP trial findings on early allergen introduction in infants",
+        "Lactose intolerance and enzymatic activity loss with aging",
+        "Celiac disease diagnosis and gluten sensitivity",
+        "Atopic march (eczema-allergies-asthma progression)",
+        "Skin barrier disruption in eczema and food allergy risk",
+        "Adenovirus-based COVID-19 vaccine adverse events and thrombotic mechanisms"
+      ],
+      "claims_to_note": [
+        "Vaccines do not cause food allergies - stated as established fact with no scientific support presented for the claim being rebutted",
+        "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+        "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+        "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+        "Only 20% of children outgrow peanut allergies, barely 10% outgrow tree nut allergies - specific percentages should be verified against current literature",
+        "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+        "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
+        "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+        "60% of people have inherited antibody variation affecting adenovirus protein recognition - specific percentage from vaccine safety study"
+      ],
+      "policy_relevance": [
+        "RFK Jr. as HHS secretary nominee and his promotion of vaccine-allergy misinformation",
+        "FDA/regulatory oversight gaps in food sensitivity testing marketing (implied need for enforcement action)",
+        "Vaccine surveillance systems and safety monitoring (mentioned as effective system preventing continued AstraZeneca/J&J vaccine use)",
+        "Celiac disease diagnostic requirements and gluten-free criteria standards (regulatory/medical standards mentioned)",
+        "Ultra-processed food prevalence in U.S. food system (70% figure cited) and policy infrastructure gaps around farm-to-table support",
+        "Healthcare provider licensing and scope of practice issues (ENT over-ordering allergy panels outside specialty)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/13021/direct-to-consumer-genetic-testing-summary-of-a-workshop"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Reassessment of the Department of Veterans Affairs Airborne Hazards and Open Burn Pit Registry",
+          "url": "https://nap.nationalacademies.org/catalog/26729/reassessment-of-the-department-of-veterans-affairs-airborne-hazards-and-open-burn-pit-registry"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity",
+          "url": "https://nap.nationalacademies.org/catalog/12519/mathematics-learning-in-early-childhood-paths-toward-excellence-and-equity"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
         }
       ]
     },

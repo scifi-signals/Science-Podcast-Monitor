@@ -1,0 +1,608 @@
+{
+  "podcast_id": "life-science-rundown",
+  "podcast_name": "The Life Science Rundown",
+  "episode_title": "Getting Data Governance for Regulatory Submissions Right Before AI Gets it Wrong with Cary Smithson",
+  "host": "Nick Capman (The FDA Group)",
+  "published": "2026-03-05T17:36:26",
+  "duration_minutes": 28.083333333333332,
+  "influence_tier": "emerging",
+  "category": "science_policy",
+  "summary": "This episode discusses the critical importance of data governance in life sciences regulatory submissions, particularly as companies face increasingly stringent structured data requirements from health authorities. Cary Smithson outlines foundational steps for implementing data governance programs, including defining critical data elements, assigning ownership, mapping data lineage, and codifying standards. The conversation emphasizes that proper data governance is essential for regulatory compliance, supporting AI/analytics initiatives, aligning with standards like IDMP and PQCMC, and achieving business outcomes such as faster submissions and fewer health authority queries.",
+  "science_topics": [
+    "Cell and gene therapies",
+    "Real-world data and real-world evidence in clinical trials",
+    "Remote clinical trials",
+    "AI model training and validation in regulated contexts",
+    "Medical device software and connected devices"
+  ],
+  "claims_to_note": [
+    "Poor data governance can lead to AI models producing unreliable or noncompliant outputs",
+    "Non-standard or low quality data can undermine AI model performance and compliance, potentially giving erroneous or misleading results",
+    "Data quality issues and poor governance can cause regulatory delays, health authority queries, and resubmission requirements",
+    "Strong data governance can reduce health authority queries by approximately 25% (based on case study example)",
+    "Implementation of data governance programs can accelerate affiliate submissions by 30-50% through standardized attributes and automated data feeds"
+  ],
+  "policy_relevance": [
+    "FDA regulatory submission requirements and structured data expectations",
+    "EU IDMP (Identification of Medicinal Products) and SPORE code requirements",
+    "UDI (Unique Device Identification) for medical devices",
+    "HL7 FHIR standards for health data exchange",
+    "Structured PQCMC (Chemistry, Manufacturing, and Controls) submission requirements in the U.S.",
+    "GXP (Good X Practice) compliance and computer system validation requirements",
+    "Health authority expectations for faster, more consistent submissions with transparent data lineage",
+    "FDA queries and inspection observations related to data governance failures"
+  ],
+  "key_quotes": [
+    "AI and analytics depend on trustworthy data. So without clear definitions, controls, provenance, AI models produce unreliable or noncompliant outputs, and governance enables explainability and validation, which are essential in the regulated context of which we operate.",
+    "If you try to define all of these things at once, it can just take a long time and you won't really quickly get to results. So while I mentioned that you want to identify this, you want to do it within your scope, and then you can scale and expand from there.",
+    "You should really start with people, the organization. And you can have a phased initiative...your tools can support your data catalog, your quality rules, and data lineage. And they'll support the governance, but they can't really substitute for it."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Cell and gene therapies",
+      "publications": [
+        {
+          "id": "21860",
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "molecularly targeted therapies represent",
+            "identify molecular variations specific",
+            "right patient",
+            "individual patient",
+            "right treatment",
+            "biomarker tests",
+            "beneficial treatment",
+            "complex tests",
+            "molecular underpinnings",
+            "precision medicine",
+            "molecularly targeted therapies",
+            "unlocking precision",
+            "key"
+          ],
+          "description": "Every patient is unique, and the evolving field of precision medicine aims to ensure the delivery of the right treatment to the right patient at the right time. In an era of rapid advances in biomedicine and enhanced understanding of the genetic basis of disease, health care providers increasingly have access to advanced technologies that may identify molecular variations specific to an individual patient, which subsequently can be targeted for treatment. Known as biomarker tests for molecularly targeted therapies, these complex tests have the potential to enable the selection of the most beneficial treatment (and also to identify treatments that may be harmful or ineffective) for the molecular underpinnings of an individual patient's disease. Such tests are key to unlocking the promise of precision medicine. Biomarker tests for molecularly targeted therapies represent a crucial area of focus for developing methods that could later be applicable to other areas of precision medicine. Th",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "27165",
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "gene thereby diversifying genetic",
+            "existing methods cannot discover",
+            "current technological limitations",
+            "pressing societal challenges",
+            "living systems hold",
+            "distinct rna molecules",
+            "rna modifications",
+            "biological processes",
+            "human diseases",
+            "concerted efforts",
+            "sequencing rna",
+            "modifications",
+            "charting",
+            "biology",
+            "era"
+          ],
+          "description": "Concerted efforts to deepen understanding of RNA modifications and their role in living systems hold the potential to advance human health, improve crop yields, and address other pressing societal challenges. RNA, which carries the information encoded by DNA to the places where it is needed, is amazingly diverse and dynamic. RNA is processed and modified through natural biological pathways, giving rise to hundreds, in some cases thousands, of distinct RNA molecules for each gene, thereby diversifying genetic information. RNA modifications are known to be pivotal players in nearly all biological processes, and their dysregulation has been implicated in a wide range of human diseases and disorders. Yet, our knowledge of RNA modifications remains incomplete, hindered by current technological limitations. Existing methods cannot discover all RNA modifications, let alone comprehensively sequence them on every RNA molecule. Nonetheless, what is known about RNA modifications has already been ",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "24742",
+          "title": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cancer drug development evaluation",
+            "promising cancer treatments",
+            "destroy cancer cells",
+            "drug development pipeline",
+            "molecular mechanisms underpinning",
+            "immune system responds",
+            "cancer therapies",
+            "associated biomarker tests",
+            "targeted therapies",
+            "standard chemotherapies",
+            "drug development paradigm",
+            "oncology"
+          ],
+          "description": "Advances in cancer research have led to an improved understanding of the molecular mechanisms underpinning the development of cancer and how the immune system responds to cancer. This influx of research has led to an increasing number and variety of therapies in the drug development pipeline, including targeted therapies and associated biomarker tests that can select which patients are most likely to respond, and immunotherapies that harness the body's immune system to destroy cancer cells. Compared with standard chemotherapies, these new cancer therapies may demonstrate evidence of benefit and clearer distinctions between efficacy and toxicity at an earlier stage of development. However, there is a concern that the traditional processes for cancer drug development, evaluation, and regulatory approval could impede or delay the use of these promising cancer treatments in clinical practice. This has led to a number of effortsâ€\"by patient advocates, the pharmaceutical industry, and the F",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Real-world data and real-world evidence in clinical trials",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        },
+        {
+          "id": "26349",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "economic landscapes increasing complexity",
+            "clinical trials barriers",
+            "artificial intelligence applications",
+            "drug discovery development",
+            "digital health technologies",
+            "development life cycle",
+            "clinical care",
+            "real world settings",
+            "advance clinical",
+            "health care",
+            "transformed clinical trials enterprise",
+            "envisioning"
+          ],
+          "description": "The evolution of health care is expanding the possibilities for integration of clinical research into the continuum of clinical care; new approaches are enabling the collection of data in real-world settings; and new modalities, such as digital health technologies and artificial intelligence applications, are being leveraged to overcome challenges and advance clinical research. At the same time, the clinical research enterprise is strained by rising costs, varying global regulatory and economic landscapes, increasing complexity of clinical trials, barriers to recruitment and retention of research participants, and a clinical research workforce that is under tremendous demands. Looking ahead to 2030, the Forum on Drug Discovery, Development, and Translation of the National Academies of Sciences, Engineering, and Medicine convened a public workshop for stakeholders from across the drug research and development life cycle to reflect on the lessons learned over the past 10 years and consid",
+          "year": 2022,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Health Sciences Policy"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Remote clinical trials",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        },
+        {
+          "id": "12879",
+          "title": "A National Cancer Clinical Trials System for the 21st Century: Reinvigorating the NCI Cooperative Group Program",
+          "url": "https://nap.nationalacademies.org/catalog/12879/a-national-cancer-clinical-trials-system-for-the-21st-century",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cooperative group program",
+            "leverages evolving technologies",
+            "improved cancer therapies",
+            "involves broad cooperation",
+            "provide high quality",
+            "iom recommends changes",
+            "cancer institute",
+            "efficiently responds",
+            "emerging scientific",
+            "clinical trial",
+            "cancer clinical trials system",
+            "nci cooperative group program",
+            "reinvigorating"
+          ],
+          "description": "The National Cancer Institute's (NCI) Clinical Trials Cooperative Group Program has played a key role in developing new and improved cancer therapies. However, the program is falling short of its potential, and the IOM recommends changes that aim to transform the Cooperative Group Program into a dynamic system that efficiently responds to emerging scientific knowledge; involves broad cooperation of stakeholders; and leverages evolving technologies to provide high-quality, practice-changing research.",
+          "year": 2010,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI model training and validation in regulated contexts",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Medical device software and connected devices",
+      "publications": [
+        {
+          "id": "11923",
+          "title": "Software for Dependable Systems: Sufficient Evidence?",
+          "url": "https://nap.nationalacademies.org/catalog/11923/software-for-dependable-systems-sufficient-evidence",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "underlie software system dependability",
+            "existing software systems",
+            "proposed development methods",
+            "dependable software",
+            "highlighting promising avenues",
+            "software failures",
+            "extraordinary dependability",
+            "although often useful",
+            "dependable systems",
+            "fundamental principles",
+            "sufficient evidence",
+            "software"
+          ],
+          "description": "The focus of Software for Dependable Systems is a set of fundamental principles that underlie software system dependability and that suggest a different approach to the development and assessment of dependable software. Unfortunately, it is difficult to assess the dependability of software. The field of software engineering suffers from a pervasive lack of evidence about the incidence and severity of software failures; about the dependability of existing software systems; about the efficacy of existing and proposed development methods; about the benefits of certification schemes; and so on. There are many anecdotal reports, which-although often useful for indicating areas of concern or highlighting promising avenues of research-do little to establish a sound and complete basis for making policy decisions regarding dependability. The committee regards claims of extraordinary dependability that are sometimes made on this basis for the most critical of systems as unsubstantiated, and perh",
+          "year": 2007,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 4211,
+  "saved_at": "2026-03-06T11:35:02.886876"
+}

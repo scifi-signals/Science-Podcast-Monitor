@@ -1,0 +1,515 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Fixing Society's Toughest Problems? ‘It’s On You’",
+  "host": "Ira Flatow",
+  "published": "2026-03-06T11:00:00",
+  "duration_minutes": 18.033333333333335,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "Dr. Nick Chater discusses how behavioral science and corporate messaging have shifted responsibility for solving major societal problems from systemic/regulatory solutions to individual consumer choice. Drawing on his experience advising the UK government on climate and behavioral policy, Chater argues that the 'nudge' approach—while well-intentioned—has inadvertently enabled corporations to deflect blame for problems like climate change, obesity, and privacy concerns. He advocates for reframing behavioral science to support large-scale systemic policies rather than individual behavioral interventions, and demonstrates how this occurred with BP's invention of the 'carbon footprint' concept as a PR strategy.",
+  "science_topics": [
+    "Behavioral economics and behavioral science applications to public policy",
+    "Climate change mitigation and carbon reduction targets",
+    "Obesity epidemiology and food environment effects on diet",
+    "Psychology of individual versus systemic problem framing",
+    "Sugar and salt reformulation in food products",
+    "Social media and screen time health effects",
+    "Cognitive biases in human decision-making"
+  ],
+  "claims_to_note": [
+    "Carbon footprint concept was primarily invented by British Petroleum as a PR campaign—this is a specific historical claim about corporate origins that could be verified",
+    "Nudge interventions have been ineffective at addressing climate change individually—Chater claims six years on UK Climate Change Committee yielded no individual behavioral interventions that made meaningful difference",
+    "Obesity is a relatively recent problem in Western nations (40-50 years), not caused by eroded willpower but by changes in food environment—claim about environmental determinism vs. individual factors",
+    "Gradual sugar and salt reformulation in food products can reduce consumption without consumer detection—claimed as evidence that systemic approaches work without consumer detriment",
+    "There are approximately 150 nudge units operating globally across governments—specific quantifiable claim"
+  ],
+  "policy_relevance": [
+    "UK Behavioral Insights Team (Nudge Unit) created in 2010 under David Cameron's government",
+    "UK Climate Change Committee's role in setting and monitoring carbon reduction targets",
+    "UK legislation on sugar and salt reduction in drinks and prepared foods",
+    "Carbon taxes as policy mechanism—discussed as politically difficult but potentially effective with proper framing",
+    "Government regulation versus individual responsibility framing in climate, food, and tech policy",
+    "Direct.gov carbon footprint campaign by UK government"
+  ],
+  "key_quotes": [
+    "If you're in the fossil fuel industry, it's a really, really useful thing for the public at large to own the problem themselves... that's a very effective strategy where we can start blaming ourselves and also blaming each other rather than thinking we need to make major structural changes.",
+    "Just individual behavior wasn't where the action was... the things that were really mattering in the UK were things like decarbonising the grid, closing down coal-fired power stations and pushing wind and solar.",
+    "We're evolved to work in small groups where the action is all about individuals... but we're not evolved to deal with extremely complicated societies with large corporations and governments and systems of laws."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Behavioral economics and behavioral science applications to public policy",
+      "publications": [
+        {
+          "id": "26874",
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "recommends integrating behavioral specialists",
+            "six public policy domains",
+            "behavioral economics",
+            "collaborations among economists",
+            "policy impact",
+            "policy arena",
+            "climate change",
+            "influenced policymaking",
+            "psychologists focuses",
+            "numerous domains",
+            "directions"
+          ],
+          "description": "Behavioral economics - a field based in collaborations among economists and psychologists - focuses on integrating a nuanced understanding of behavior into models of decision-making. Since the mid-20th century, this growing field has produced research in numerous domains and has influenced policymaking, research, and marketing. However, little has been done to assess these contributions and review evidence of their use in the policy arena. Behavioral Economics: Policy Impact and Future Directions examines the evidence for behavioral economics and its application in six public policy domains: health, retirement benefits, climate change, social safety net benefits, climate change, education, and criminal justice. The report concludes that the principles of behavioral economics are indispensable for the design of policy and recommends integrating behavioral specialists into policy development within government units. In addition, the report calls for strengthening research methodology and",
+          "year": 2024,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Board On Behavioral Cognitive And Sensor"
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "13405",
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "earth science program found",
+            "decadal survey called",
+            "nasa responded favorably",
+            "securing practical benefits",
+            "making informed decisions",
+            "made significant progress",
+            "products forecast models",
+            "human induced changes",
+            "earth observations",
+            "integrated observations",
+            "earth science",
+            "decadal survey",
+            "implementation",
+            "applications",
+            "midterm",
+            "space",
+            "nasa"
+          ],
+          "description": "Understanding the effects of natural and human-induced changes on the global environment and their implications requires a foundation of integrated observations of land, sea, air and space, on which to build credible information products, forecast models, and other tools for making informed decisions. The 2007 National Research Council report on decadal survey called for a renewal of the national commitment to a program of Earth observations in which attention to securing practical benefits for humankind plays an equal role with the quest to acquire new knowledge about the Earth system. NASA responded favorably and aggressively to this survey, embracing its overall recommendations for Earth observations, missions, technology investments, and priorities for the underlying science. As a result, the science and applications communities have made significant progress over the past 5 years. However, the Committee on Assessment of NASA's Earth Science Program found that the survey vision is ",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        },
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Climate change mitigation and carbon reduction targets",
+      "publications": [
+        {
+          "id": "18373",
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "keywords": [
+            "climate",
+            "climate change",
+            "environment",
+            "abrupt",
+            "warming",
+            "global"
+          ]
+        },
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        },
+        {
+          "id": "21852",
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "extreme event attribution seeks",
+            "individual weather events couldn",
+            "human cause climate change",
+            "broad trends scientists cautioned",
+            "climate models simulate",
+            "intense weather events",
+            "relatively young science",
+            "frequent heavy rainfall",
+            "extreme events",
+            "extremely hot days",
+            "extreme weather events",
+            "climate change",
+            "attribution",
+            "context"
+          ],
+          "description": "As climate has warmed over recent years, a new pattern of more frequent and more intense weather events has unfolded across the globe. Climate models simulate such changes in extreme events, and some of the reasons for the changes are well understood. Warming increases the likelihood of extremely hot days and nights, favors increased atmospheric moisture that may result in more frequent heavy rainfall and snowfall, and leads to evaporation that can exacerbate droughts. Even with evidence of these broad trends, scientists cautioned in the past that individual weather events couldn't be attributed to climate change. Now, with advances in understanding the climate science behind extreme events and the science of extreme event attribution, such blanket statements may not be accurate. The relatively young science of extreme event attribution seeks to tease out the influence of human-cause climate change from other factors, such as natural sources of variability like El NiÃ±o, as contributor",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Obesity epidemiology and food environment effects on diet",
+      "publications": [
+        {
+          "id": "18373",
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "keywords": [
+            "climate",
+            "climate change",
+            "environment",
+            "abrupt",
+            "warming",
+            "global"
+          ]
+        },
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        },
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Psychology of individual versus systemic problem framing",
+      "publications": [
+        {
+          "id": "26015",
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "keywords": [
+            "mental health",
+            "psychology",
+            "substance use",
+            "wellbeing",
+            "college",
+            "students"
+          ]
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "25038",
+          "title": "Graduate STEM Education for the 21st Century",
+          "keywords": [
+            "education",
+            "stem",
+            "graduate",
+            "phd",
+            "academic",
+            "university",
+            "students"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Sugar and salt reformulation in food products",
+      "publications": [
+        {
+          "id": "18997",
+          "title": "Public Health Implications of Raising the Minimum Age of Legal Access to Tobacco Products",
+          "url": "https://nap.nationalacademies.org/catalog/18997/public-health-implications-of-raising-the-minimum-age-of-legal-access-to-tobacco-products",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "drug administration public health",
+            "likely public health impact",
+            "highest among persons aged",
+            "purchasing tobacco products",
+            "tobacco products considers",
+            "psychology health effects",
+            "psychosocial maturity continue",
+            "minimum age laws",
+            "tobacco use",
+            "existing literature",
+            "public health",
+            "tobacco products",
+            "legal access",
+            "minimum age",
+            "raising"
+          ],
+          "description": "Tobacco use by adolescents and young adults poses serious concerns. Nearly all adults who have ever smoked daily first tried a cigarette before 26 years of age. Current cigarette use among adults is highest among persons aged 21 to 25 years. The parts of the brain most responsible for cognitive and psychosocial maturity continue to develop and change through young adulthood, and adolescent brains are uniquely vulnerable to the effects of nicotine. At the request of the U.S. Food and Drug Administration, Public Health Implications of Raising the Minimum Age of Legal Access to Tobacco Products considers the likely public health impact of raising the minimum age for purchasing tobacco products. The report reviews the existing literature on tobacco use patterns, developmental biology and psychology, health effects of tobacco use, and the current landscape regarding youth access laws, including minimum age laws and their enforcement. Based on this literature, the report makes conclusions ab",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "13294",
+          "title": "Scientific Standards for Studies on Modified Risk Tobacco Products",
+          "url": "https://nap.nationalacademies.org/catalog/13294/scientific-standards-for-studies-on-modified-risk-tobacco-products",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "conventional tobacco products",
+            "alcohol illegal drugs murder",
+            "iom identifies minimum standards",
+            "tobacco control act",
+            "family smoking prevention",
+            "fda scientific evidence",
+            "reduce tobacco",
+            "suicide combined",
+            "reduce harm",
+            "either designed",
+            "modified risk tobacco products",
+            "scientific standards"
+          ],
+          "description": "Smoking-related diseases kill more Americans than alcohol, illegal drugs, murder and suicide combined. The passage of the Family Smoking Prevention and Tobacco Control Act of 2009 gave the FDA authority to regulate \"modified risk tobacco products\" (MRTPs), tobacco products that are either designed or advertised to reduce harm or the risk of tobacco-related disease. MRTPs must submit to the FDA scientific evidence to demonstrate the product has the potential to reduce tobacco related harms as compared to conventional tobacco products. The IOM identifies minimum standards for scientific studies that an applicant would need to complete to obtain an order to market the product from the FDA.",
+          "year": 2012,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3362,
+  "saved_at": "2026-03-06T11:35:02.886252"
+}
