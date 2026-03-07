@@ -1,0 +1,693 @@
+{
+  "podcast_id": "science-magazine",
+  "podcast_name": "Science Magazine Podcast",
+  "episode_title": "An alleged nuclear blast may reignite weapons testing, and who owns the Moon",
+  "host": "Sarah Crespi",
+  "published": "2026-03-05T19:00:00",
+  "episode_url": "",
+  "duration_minutes": 38.31666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Magazine podcast episode from March 5, 2026, covers major shifts in U.S. science policy including the nomination of Jim O'Neill (a non-scientist humanities and tech investment background) to lead the NSF, and Jay Bhattacharya's appointment as acting CDC director while maintaining his NIH role. The episode discusses allegations that China conducted a small nuclear weapons test in 2020, which could trigger resumed testing by the U.S. and Russia. Additional policy coverage includes proposed changes to radiation exposure standards (potentially weakening the ALARA principle) to facilitate next-generation nuclear power plant construction, and new restrictions on foreign researchers' access to NIST laboratories. The episode concludes with a children's science book roundup.",
+  "science_topics": [
+    "Nuclear weapons testing and seismic detection methods",
+    "Linear no-threshold (LNT) model of radiation risk",
+    "ALARA (as low as reasonably achievable) radiation exposure standards",
+    "Radiation hormesis theory",
+    "Plutonium pit stability in nuclear weapons",
+    "Spider silk production and material properties",
+    "Rube Goldberg machines and simple machines physics",
+    "Outer space treaty and space law",
+    "NIH grant funding rates and multi-year funding mechanisms",
+    "Early-stage investigator success rates in biomedical research"
+  ],
+  "claims_to_note": [
+    "U.S. alleges China conducted a nuclear weapons test in June 2020 using decoupling techniques - unconfirmed allegation made without released definitive evidence",
+    "The Comprehensive Test Ban Treaty (CTBT) has not been ratified by the U.S., China, or Russia, though all claim adherence",
+    "China conducted 'a few dozen' nuclear tests before signing the test ban treaty in 1996; U.S. conducted 'more than a thousand'; Russia conducted 'several hundred'",
+    "Early-stage investigator success rates at NIH dropped from 26% to 19%, affecting approximately 300 fewer young investigators - attributed partly to multi-year funding policy",
+    "Linear no-threshold model shows increased cancer risk among people with lifetime radiation exposure equivalent to 500 chest X-rays, with average study exposure at 180 chest X-rays",
+    "ALARA principle is regulatory, not scientific - premised on LNT model which is 'fairly widely accepted' by U.S. and international scientific panels but 'not universally accepted'",
+    "PhD students typically take 6 years to complete research and defend theses",
+    "Spider silk diameter specifications for WWII weapons (one ten-thousandth of an inch) for crosshairs in guns, bombs, and periscopes"
+  ],
+  "policy_relevance": [
+    "Jim O'Neill nominated as NSF director - requires Senate confirmation; previously acting CDC director and HHS official with tech investment background (Peter Thiel connection)",
+    "Jay Bhattacharya appointed as acting CDC director while maintaining NIH directorship - raises concerns about dual-role capacity and his pandemic-era criticism of CDC lockdowns and masking policies",
+    "NIH changing grant distribution: increased multi-year funding reducing overall new grants and investigator success rates - Congressional effort to restrict this policy resulted only in maintaining current-year levels",
+    "Executive order (Spring 2025) directing agencies to reconsider radiation exposure standards and ALARA principle",
+    "Department of Energy (January 2026) memo from Secretary Wright directing agency to drop ALARA approach",
+    "Nuclear Regulatory Commission (NRC) scheduled to propose new radiation rules in April 2026",
+    "Department of Energy inviting 10 companies to build experimental reactors under DOE umbrella without NRC licensing",
+    "Proposed rule changes at NIST restricting foreign national researchers' laboratory access - no evening/weekend access without federal employee escort, access reviews based on country origin, three-year maximum employment period",
+    "House Science Committee letter to acting NIST director requesting clarity on foreign researcher restrictions",
+    "President Trump vowed to resume nuclear testing 'on equal basis' with China and Russia",
+    "State Department disarmament officials clarifying Trump's testing statements refer to alleged Chinese and Russian violations of CTBT"
+  ],
+  "key_quotes": [
+    "The levels now are pretty strict...we need to kind of do the most to reduce exposure. The standard that is used in the United States goes by the mellifluous acronym of ALARA. It stands for as low as reasonably achievable. Reasonably can mean a lot of different things.",
+    "By taking some of the best scientists and best trained scientists out of the mix of the research community, you will actually be reducing your level of competence in those areas and almost guaranteeing that your competitors will win the race to those technologies, in which case you would be undermining your own national security.",
+    "Students aren't directly employed by NIST. They're actually, there are research agreements with the universities they're at. NIST helps fund those programs and then the universities pay the students. And so those students need those stipends in order to live and work. If they lose access to the labs and lose their research project they just lost their livelihood."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Nuclear weapons testing and seismic detection methods",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "26630",
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "wants advanced nuclear reactors",
+            "advanced nuclear technologies",
+            "smaller safer less expensive",
+            "reduce greenhouse gas emissions",
+            "worlds low carbon electricity",
+            "climate change resulting",
+            "near term policies",
+            "nuclear power",
+            "successful commercialization",
+            "existential challenge",
+            "advanced nuclear reactors",
+            "foundation",
+            "laying"
+          ],
+          "description": "The world confronts an existential challenge in responding to climate change, resulting in an urgent need to reduce greenhouse gas emissions from all sectors of the economy. What will it take for new and advanced nuclear reactors to play a role in decarbonization? Nuclear power provides a significant portion of the worlds low-carbon electricity, and advanced nuclear technologies have the potential to be smaller, safer, less expensive to build, and better integrated with the modern grid. However, if the United States wants advanced nuclear reactors to play a role in its plans for decarbonization, there are many key challenges that must be overcome at the technical, economic, and regulatory levels. Laying the Foundation for New and Advanced Nuclear Reactors in the United States discusses how the United States could support the successful commercialization of advanced nuclear reactors with a set of near-term policies and practices. The recommendations of this report address the need to cl",
+          "year": 2024,
+          "committee": "Board on Energy and Environmental Systems"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Linear no-threshold (LNT) model of radiation risk",
+      "publications": [
+        {
+          "id": "13430",
+          "title": "A National Strategy for Advancing Climate Modeling",
+          "url": "https://nap.nationalacademies.org/catalog/13430/a-national-strategy-for-advancing-climate-modeling",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advancing climate modeling emphasizes",
+            "unified climate modeling enterprise",
+            "developing reliable climate models",
+            "annual climate modeling forum",
+            "supports several climate models",
+            "pushed climate patterns outside",
+            "climate modeling community",
+            "deliver climate projections",
+            "common software infrastructure shared",
+            "climate change",
+            "advancing climate modeling",
+            "strategy"
+          ],
+          "description": "As climate change has pushed climate patterns outside of historic norms, the need for detailed projections is growing across all sectors, including agriculture, insurance, and emergency preparedness planning. A National Strategy for Advancing Climate Modeling emphasizes the needs for climate models to evolve substantially in order to deliver climate projections at the scale and level of detail desired by decision makers, this report finds. Despite much recent progress in developing reliable climate models, there are still efficiencies to be gained across the large and diverse U.S. climate modeling community. Evolving to a more unified climate modeling enterprise-in particular by developing a common software infrastructure shared by all climate researchers and holding an annual climate modeling forum-could help speed progress. Throughout this report, several recommendations and guidelines are outlined to accelerate progress in climate modeling. The U.S. supports several climate models, ",
+          "year": 2013,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on a National Strategy for Advancing Climate Modeling"
+        },
+        {
+          "id": "6432",
+          "title": "Dietary Reference Intakes: A Risk Assessment Model for Establishing Upper Intake Levels for Nutrients",
+          "url": "https://nap.nationalacademies.org/catalog/6432/dietary-reference-intakes-a-risk-assessment-model-for-establishing-upper",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "establishing upper intake levels",
+            "dietary reference intakes",
+            "nutrients",
+            "model",
+            "risk"
+          ]
+        },
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "ALARA (as low as reasonably achievable) radiation exposure standards",
+      "publications": [
+        {
+          "id": "12990",
+          "title": "Standards for K-12 Engineering Education?",
+          "url": "https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "stem education science technology",
+            "implementing content standards",
+            "intriguing evidence suggests",
+            "whether standards",
+            "develop standards",
+            "improve learning",
+            "effective implementation",
+            "theoretically possible",
+            "reasonable question",
+            "extremely difficult",
+            "standards"
+          ],
+          "description": "The goal of this study was to assess the value and feasibility of developing and implementing content standards for engineering education at the K-12 level. Content standards have been developed for three disciplines in STEM education-science, technology, and mathematic-but not for engineering. To date, a small but growing number of K-12 students are being exposed to engineering-related materials, and limited but intriguing evidence suggests that engineering education can stimulate interest and improve learning in mathematics and science as well as improve understanding of engineering and technology. Given this background, a reasonable question is whether standards would improve the quality and increase the amount of teaching and learning of engineering in K-12 education. The book concludes that, although it is theoretically possible to develop standards for K-12 engineering education, it would be extremely difficult to ensure their usefulness and effective implementation. This conclus",
+          "year": 2010,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Committee on Standards for K-12 Engineering Education"
+        },
+        {
+          "id": "18803",
+          "title": "Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "common core state standards",
+            "science standards predated",
+            "standards intersect directly",
+            "science education particularly",
+            "english language arts",
+            "common standards",
+            "ngss originally outlined",
+            "standards initiatives",
+            "improving learning outcomes",
+            "key subjects represents",
+            "next generation science standards",
+            "ela standards",
+            "common core",
+            "intersection",
+            "exploring",
+            "literacy"
+          ],
+          "description": "The recent movement in K-12 education toward common standards in key subjects represents an unprecedented opportunity for improving learning outcomes for all students. These standards initiatives - the Common Core State Standards for English Language Arts and Mathematics (CCSS) and the Next Generation Science Standards (NGSS) - are informed by research on learning and teaching and a decade of standards-based education reform. While the standards have been developed separately in English/Language Arts and Science, there are areas where the standards intersect directly. One such area of intersection occurs between the \"Literacy in Science\" portions of the Common Core State Standards for English/Language Arts and the practices in the NGSS (originally outlined in the NRC's A Framework for K-12 Science Education), particularly the practice of \"Obtaining, evaluating and communicating information\". Because the CCSS literacy in science standards predated the NGSS, developers of the NGSS worked",
+          "year": 2014,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "23531",
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ambient air pollutant standards",
+            "date indoor exposure",
+            "various indoor sources",
+            "extremely small particles",
+            "adverse health effects",
+            "liquid droplets comprising",
+            "outdoor particles",
+            "outdoor exposure",
+            "indoor exposures",
+            "dust particles",
+            "particulate matter",
+            "indoor exposure",
+            "health risks"
+          ],
+          "description": "The U.S. Environmental Protection Agency (EPA) defines PM as a mixture of extremely small particles and liquid droplets comprising a number of components, including \"acids (such as nitrates and sulfates), organic chemicals, metals, soil or dust particles, and allergens (such as fragments of pollen and mold spores)\". The health effects of outdoor exposure to particulate matter (PM) are the subject of both research attention and regulatory action. Although much less studied to date, indoor exposure to PM is gaining attention as a potential source of adverse health effects. Indoor PM can originate from outdoor particles and also from various indoor sources, including heating, cooking, and smoking. Levels of indoor PM have the potential to exceed outdoor PM levels. Understanding the major features and subtleties of indoor exposures to particles of outdoor origin can improve our understanding of the exposureâ€\"response relationship on which ambient air pollutant standards are based. The EPA",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Radiation hormesis theory",
+      "publications": [
+        {
+          "id": "11631",
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "genetics",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "early work game theory",
+            "evolutionary biologists began applying",
+            "embrace game theory",
+            "evolutionary biology neuroscience",
+            "today neuroscientists peer",
+            "john nash won",
+            "briefly popular among",
+            "ever expanding repertoire",
+            "primitive cultures biolog",
+            "remained obscure until",
+            "john nash game theory",
+            "beautiful math",
+            "modern quest",
+            "nature",
+            "code"
+          ],
+          "description": "Millions have seen the movie and thousands have read the book but few have fully appreciated the mathematics developed by John Nash's beautiful mind. Today Nash's beautiful math has become a universal language for research in the social sciences and has infiltrated the realms of evolutionary biology, neuroscience, and even quantum physics. John Nash won the 1994 Nobel Prize in economics for pioneering research published in the 1950s on a new branch of mathematics known as game theory. At the time of Nash's early work, game theory was briefly popular among some mathematicians and Cold War analysts. But it remained obscure until the 1970s when evolutionary biologists began applying it to their work. In the 1980s economists began to embrace game theory. Since then it has found an ever expanding repertoire of applications among a wide range of scientific disciplines. Today neuroscientists peer into game players' brains, anthropologists play games with people from primitive cultures, biolog",
+          "year": 2006,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "27457",
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "scientific discovery seem endless",
+            "everyday conversational technologies capturing",
+            "performed without human oversight",
+            "reliable discovery whether",
+            "scientific investigation",
+            "scientific community",
+            "computational technology",
+            "created opportunities",
+            "computational theory",
+            "artificial intelligence",
+            "scientific discovery"
+          ],
+          "description": "Over the past century, artificial intelligence (AI) has evolved from computational theory to everyday conversational technologies, capturing the attention and interest of the public and the media. It has also caught the attention of the scientific community, where it has provided a new tool to support inquiry and exploration. While AI in the context of scientific investigation has existed for decades, advances in computational technology and sensing in the physical world have created opportunities to integrate AI into science in unexpected ways, with capabilities that are rapidly accelerating. As a result, AI has been leveraged by an expanding collection of disciplines in the physical and biological sciences, as well as engineering domains. While the opportunities for AI in scientific discovery seem endless, there are numerous questions about what makes for trustworthy and reliable discovery, whether such investigation should be performed without human oversight or intervention, and ho",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Plutonium pit stability in nuclear weapons",
+      "publications": [
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "26630",
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "wants advanced nuclear reactors",
+            "advanced nuclear technologies",
+            "smaller safer less expensive",
+            "reduce greenhouse gas emissions",
+            "worlds low carbon electricity",
+            "climate change resulting",
+            "near term policies",
+            "nuclear power",
+            "successful commercialization",
+            "existential challenge",
+            "advanced nuclear reactors",
+            "foundation",
+            "laying"
+          ],
+          "description": "The world confronts an existential challenge in responding to climate change, resulting in an urgent need to reduce greenhouse gas emissions from all sectors of the economy. What will it take for new and advanced nuclear reactors to play a role in decarbonization? Nuclear power provides a significant portion of the worlds low-carbon electricity, and advanced nuclear technologies have the potential to be smaller, safer, less expensive to build, and better integrated with the modern grid. However, if the United States wants advanced nuclear reactors to play a role in its plans for decarbonization, there are many key challenges that must be overcome at the technical, economic, and regulatory levels. Laying the Foundation for New and Advanced Nuclear Reactors in the United States discusses how the United States could support the successful commercialization of advanced nuclear reactors with a set of near-term policies and practices. The recommendations of this report address the need to cl",
+          "year": 2024,
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "18289",
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "keywords": [
+            "fusion",
+            "inertial fusion",
+            "energy",
+            "nuclear",
+            "laser",
+            "ignition"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 6509,
+  "saved_at": "2026-03-07T11:24:45.523917"
+}

@@ -1,7 +1,311 @@
 {
-  "updated": "2026-03-06T11:35:36.674074",
-  "episode_count": 61,
+  "updated": "2026-03-07T11:25:14.689210",
+  "episode_count": 66,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Can ‘Suggestion-Box Science’ Make Public Health More Useful?",
+      "host": "Ira Flatow",
+      "published": "2026-03-07T11:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. Erica Walker, an epidemiologist at Brown University, discusses her evolution from \"selfish science\" to \"suggestion-box science,\" arguing that public health research should be driven by community needs rather than researcher interests. Walker shares how her initial noise pollution research in Boston failed to serve affected communities until she incorporated their voices, and how returning to her hometown of Mississippi to study noise forced her to pivot to water quality research when confronted with actual community priorities. She critiques the academic incentive structure that rewards publications and grant funding over meaningful community impact, and advocates for a fundamental shift in how public health research is conceptualized and valued.",
+      "science_topics": [
+        "Noise pollution epidemiology",
+        "Water quality testing and environmental exposure assessment",
+        "Community-based participatory research methodology",
+        "Environmental health and infrastructural failure relationships",
+        "Aircraft noise exposure impacts"
+      ],
+      "claims_to_note": [
+        "Public health research studies funded by government agencies have historically not resulted in tangible improvements for low-income communities in Mississippi",
+        "University-based epidemiological research frequently leaves communities unimproved and does not build sustainable infrastructure",
+        "Current academic promotion structures incentivize publication metrics and grant funding over actual problem-solving, creating perverse incentives against solving public health problems",
+        "Federal funding efficiency pressures are forcing universities to reflect on research impact",
+        "Community organization intermediaries are typically used to provide 'organic connection' that researchers lack, paid by researchers to facilitate studies"
+      ],
+      "policy_relevance": [
+        "Federal government funding efficiency and its impact on university research accountability",
+        "Tenure and promotion policies in schools of public health that do not recognize community-engaged research as promotion-worthy",
+        "Public health agency layoffs and shakeups mentioned as context for current crisis in public health research and policy",
+        "Government funding uncertainties affecting research institutions' ability to conduct long-term studies"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Global Sources of Local Pollution: An Assessment of Long-Range Transport of Key Air Pollutants to and from the United States",
+          "url": "https://nap.nationalacademies.org/catalog/12743/global-sources-of-local-pollution-an-assessment-of-long-range"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Environmental Engineering for the 21st Century: Addressing Grand Challenges",
+          "url": "https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges"
+        },
+        {
+          "title": "Quality Criteria for Water Reuse",
+          "url": "https://nap.nationalacademies.org/catalog/19574/quality-criteria-for-water-reuse"
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems"
+        },
+        {
+          "title": "Post-Vietnam Dioxin Exposure in Agent Orange-Contaminated C-123 Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/18848/post-vietnam-dioxin-exposure-in-agent-orange-contaminated-c-123-aircraft"
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        },
+        {
+          "title": "Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#462 — More From Sam: The Iran War, American Amorality, Addressing Hopelessness, Tucker, and More",
+      "host": "Sam Harris",
+      "published": "2026-03-06T20:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Sam Harris discusses US military action against Iran, arguing that while regime change would be justified on humanitarian grounds, the Trump administration's execution is deeply concerning due to its incompetence, lack of transparency, and constitutional violations. He addresses the erosion of international norms and liberal democratic order under Trump, expresses worry about rising antisemitism across the political spectrum, and reflects on the tension between pragmatic outcomes and the authoritarian means by which they may be achieved.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Iran is characterized as a 'jihadist regime' with 'bottomless appetite' for destabilizing open societies",
+        "Claim that Iran has been 'on the verge' of developing nuclear weapons",
+        "Assertion that Iranian women face 'gender apartheid' under current regime",
+        "Claim that Russia's nuclear threat regarding Ukraine was 'a bluff that we essentially called and it proved to be a bluff'",
+        "Characterization of antisemitism as a 'mind virus for which we don't have an inoculation'"
+      ],
+      "policy_relevance": [
+        "Trump administration military action against Iran without congressional consultation or prior public explanation",
+        "Constitutional concerns regarding presidential war powers and congressional oversight",
+        "Biden and Obama administrations' Iran nuclear deal (JCPOA) approach criticized as inadequate",
+        "Ukraine military aid and support levels during Biden administration",
+        "International norms and liberal international order framework under Trump administration",
+        "Presidential powers and limitations to prevent future norm-breaking by chief executives",
+        "Republican administration handling of antisemitism and white supremacy rhetoric",
+        "Regulation and administrative norm-breaking by Trump administration"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: What Galileo’s scribbled margin notes reveal about his scientific journey",
+      "host": "Springer Nature",
+      "published": "2026-03-06T16:12:22",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature Briefing podcast episode covers two distinct stories: a study on pediatricians' naturally acquired immunity to RSV and HMPV respiratory viruses, which led to the development of potent antibody cocktails that outperform existing treatments in animal models, and a historical discovery of handwritten marginalia attributed to Galileo in a 16th-century copy of Ptolemy's Almagest, providing insights into his scientific methodology and thinking process decades before his major astronomical discoveries.",
+      "science_topics": [
+        "Respiratory syncytial virus (RSV) immunity and antibody development",
+        "Human metapneumovirus (HMPV) neutralizing antibodies",
+        "Occupationally acquired immunity in healthcare workers",
+        "Monoclonal antibody cocktails for viral infections",
+        "Passive antibody immunotherapy for pediatric patients",
+        "Heliocentric vs geocentric astronomical models",
+        "Galileo's observational methodology and textual analysis of ancient astronomy"
+      ],
+      "claims_to_note": [
+        "RSV causes 3.6 million hospitalizations and 100,000 deaths per year in children under five globally (WHO figure cited)",
+        "Nearly 100% of children acquire RSV by age two and HMPV by age five",
+        "Antibody cocktails derived from pediatrician blood samples showed approximately 25-fold improvement in RSV neutralization compared to existing approved antibody treatments",
+        "Antibodies neutralized a wider range of RSV strains than current treatments",
+        "No approved vaccines exist for RSV in young children under two, though maternal vaccination during pregnancy is available",
+        "Handwriting analysis and historical documentation support attribution of marginalia to Galileo in a 16th-century Almagest copy",
+        "Marginalia discovered predates Galileo's major astronomical observations by approximately 20 years"
+      ],
+      "policy_relevance": [
+        "Mentions lack of approved RSV vaccines for children under two, suggesting potential regulatory gap in pediatric immunizations",
+        "Monoclonal antibody treatments as alternative to vaccines for vulnerable immunocompromised populations who cannot receive or respond to vaccines",
+        "Development pathway for new antibody therapeutics following successful animal model testing"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
+          "url": "https://nap.nationalacademies.org/catalog/10851/keeping-patients-safe-transforming-the-work-environment-of-nurses"
+        },
+        {
+          "title": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+          "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of"
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Snail Sex Tape",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-03-06T16:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Radiolab episode explores the complex and elaborate reproductive biology of hermaphroditic snails, focusing on their mating behavior and the evolutionary significance of love darts. Host Molly Webster and executive editor Soren Wheeler are guided by evolutionary biologist Menno Schildhuizen through the intricate mechanisms of snail reproduction, including how snails evert their penises, engage in multi-hour mating sessions, and deploy calcium carbonate darts coated with hormones to manipulate their partners' reproductive physiology. The episode demonstrates how snail reproductive organs exemplify rapid evolutionary innovation driven by sexual conflict and counter-adaptation between male and female reproductive strategies.",
+      "science_topics": [
+        "Hermaphroditic reproduction in gastropods",
+        "Penis eversion mechanism in snails",
+        "Love darts (spermatophore delivery structures) and their composition",
+        "Hormonal manipulation of female reproductive physiology in snails",
+        "Sperm storage and digestion in hermaphroditic organisms",
+        "Rapid evolution of reproductive organs (genital evolution)",
+        "Sexual conflict and evolutionary arms races in reproduction",
+        "Dispersal rates in land snails (1-5 meter range)",
+        "Microevolution observable on human spatial scales",
+        "Shell morphology variation in snail populations",
+        "Slug evolution from snails (shell loss)"
+      ],
+      "claims_to_note": [
+        "Love darts contain hormones that cause involuntary spasms in the female reproductive organs of the receiving snail",
+        "These hormonal spasms close the entrance to the digestion chamber and push sperm toward storage and eggs",
+        "Only about 1 in 1000 sperm from a mating transfer actually reach the eggs",
+        "Some snail species have been observed stabbing their mates 3,300 times in rapid succession during mating",
+        "Love darts are made of calcium carbonate (same material as snail shells) and are approximately 1 centimeter long",
+        "Some snails recharge and reuse darts; others have disposable darts",
+        "Snails can disperse only 1-5 meters on average between birth and first reproduction",
+        "Evolutionary changes in shell morphology are visible when walking a few kilometers through snail populations"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Successful Response Starts with a Map: Improving Geospatial Support for Disaster Management",
+          "url": "https://nap.nationalacademies.org/catalog/11793/successful-response-starts-with-a-map-improving-geospatial-support-for"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "The Science and Practice of Team Science",
+          "url": "https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Re-Engineering Water Storage in the Everglades: Risks and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/11215/re-engineering-water-storage-in-the-everglades-risks-and-opportunities"
+        },
+        {
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -186,6 +490,113 @@
         {
           "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
           "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "An alleged nuclear blast may reignite weapons testing, and who owns the Moon",
+      "host": "Sarah Crespi",
+      "published": "2026-03-05T19:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Magazine podcast episode from March 5, 2026, covers major shifts in U.S. science policy including the nomination of Jim O'Neill (a non-scientist humanities and tech investment background) to lead the NSF, and Jay Bhattacharya's appointment as acting CDC director while maintaining his NIH role. The episode discusses allegations that China conducted a small nuclear weapons test in 2020, which could trigger resumed testing by the U.S. and Russia. Additional policy coverage includes proposed changes to radiation exposure standards (potentially weakening the ALARA principle) to facilitate next-generation nuclear power plant construction, and new restrictions on foreign researchers' access to NIST laboratories. The episode concludes with a children's science book roundup.",
+      "science_topics": [
+        "Nuclear weapons testing and seismic detection methods",
+        "Linear no-threshold (LNT) model of radiation risk",
+        "ALARA (as low as reasonably achievable) radiation exposure standards",
+        "Radiation hormesis theory",
+        "Plutonium pit stability in nuclear weapons",
+        "Spider silk production and material properties",
+        "Rube Goldberg machines and simple machines physics",
+        "Outer space treaty and space law",
+        "NIH grant funding rates and multi-year funding mechanisms",
+        "Early-stage investigator success rates in biomedical research"
+      ],
+      "claims_to_note": [
+        "U.S. alleges China conducted a nuclear weapons test in June 2020 using decoupling techniques - unconfirmed allegation made without released definitive evidence",
+        "The Comprehensive Test Ban Treaty (CTBT) has not been ratified by the U.S., China, or Russia, though all claim adherence",
+        "China conducted 'a few dozen' nuclear tests before signing the test ban treaty in 1996; U.S. conducted 'more than a thousand'; Russia conducted 'several hundred'",
+        "Early-stage investigator success rates at NIH dropped from 26% to 19%, affecting approximately 300 fewer young investigators - attributed partly to multi-year funding policy",
+        "Linear no-threshold model shows increased cancer risk among people with lifetime radiation exposure equivalent to 500 chest X-rays, with average study exposure at 180 chest X-rays",
+        "ALARA principle is regulatory, not scientific - premised on LNT model which is 'fairly widely accepted' by U.S. and international scientific panels but 'not universally accepted'",
+        "PhD students typically take 6 years to complete research and defend theses",
+        "Spider silk diameter specifications for WWII weapons (one ten-thousandth of an inch) for crosshairs in guns, bombs, and periscopes"
+      ],
+      "policy_relevance": [
+        "Jim O'Neill nominated as NSF director - requires Senate confirmation; previously acting CDC director and HHS official with tech investment background (Peter Thiel connection)",
+        "Jay Bhattacharya appointed as acting CDC director while maintaining NIH directorship - raises concerns about dual-role capacity and his pandemic-era criticism of CDC lockdowns and masking policies",
+        "NIH changing grant distribution: increased multi-year funding reducing overall new grants and investigator success rates - Congressional effort to restrict this policy resulted only in maintaining current-year levels",
+        "Executive order (Spring 2025) directing agencies to reconsider radiation exposure standards and ALARA principle",
+        "Department of Energy (January 2026) memo from Secretary Wright directing agency to drop ALARA approach",
+        "Nuclear Regulatory Commission (NRC) scheduled to propose new radiation rules in April 2026",
+        "Department of Energy inviting 10 companies to build experimental reactors under DOE umbrella without NRC licensing",
+        "Proposed rule changes at NIST restricting foreign national researchers' laboratory access - no evening/weekend access without federal employee escort, access reviews based on country origin, three-year maximum employment period",
+        "House Science Committee letter to acting NIST director requesting clarity on foreign researcher restrictions",
+        "President Trump vowed to resume nuclear testing 'on equal basis' with China and Russia",
+        "State Department disarmament officials clarifying Trump's testing statements refer to alleged Chinese and Russian violations of CTBT"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "A National Strategy for Advancing Climate Modeling",
+          "url": "https://nap.nationalacademies.org/catalog/13430/a-national-strategy-for-advancing-climate-modeling"
+        },
+        {
+          "title": "Dietary Reference Intakes: A Risk Assessment Model for Establishing Upper Intake Levels for Nutrients",
+          "url": "https://nap.nationalacademies.org/catalog/6432/dietary-reference-intakes-a-risk-assessment-model-for-establishing-upper"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Standards for K-12 Engineering Education?",
+          "url": "https://nap.nationalacademies.org/catalog/12990/standards-for-k-12-engineering-education"
+        },
+        {
+          "title": "Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
         }
       ]
     },
