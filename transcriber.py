@@ -13,7 +13,7 @@ from config import GROQ_API_KEY, TRANSCRIPTION_MODEL, TRANSCRIPT_DIR
 def get_groq_client():
     """Get Groq client (OpenAI-compatible)."""
     if not GROQ_API_KEY:
-        raise ValueError("Groq API key not configured. Set GROQ_API_KEY or create groq_api_key.txt")
+        raise ValueError("Groq API key not configured. Set GROQ_API_KEY environment variable")
     return OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 
 
@@ -114,6 +114,7 @@ def transcribe_episode(audio_paths, episode):
         'duration_minutes': episode.get('duration_minutes'),
         'influence_tier': episode.get('influence_tier', 'emerging'),
         'category': episode.get('category', ''),
+        'episode_url': episode.get('episode_url', ''),
         'transcript': transcript_text,
         'word_count': word_count,
         'transcribed_at': datetime.now().isoformat(),

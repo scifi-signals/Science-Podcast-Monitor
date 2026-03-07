@@ -94,6 +94,7 @@ def summarize_episode(transcript):
     summary['duration_minutes'] = transcript.get('duration_minutes')
     summary['influence_tier'] = transcript.get('influence_tier', 'emerging')
     summary['category'] = transcript.get('category', '')
+    summary['episode_url'] = transcript.get('episode_url', '')
     summary['word_count'] = transcript.get('word_count', 0)
 
     topic_count = len(summary.get('science_topics', []))
