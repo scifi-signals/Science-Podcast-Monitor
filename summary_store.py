@@ -51,6 +51,7 @@ def save_summary(summary):
         'episode_title': summary.get('episode_title', ''),
         'host': summary.get('host', ''),
         'published': summary.get('published', ''),
+        'episode_url': summary.get('episode_url', ''),
         'duration_minutes': summary.get('duration_minutes', 0),
         'influence_tier': summary.get('influence_tier', 'emerging'),
         'category': summary.get('category', ''),

@@ -135,6 +135,7 @@ def check_feed(podcast, history, lookback_days=None):
             'description': entry.get('summary', entry.get('description', '')),
             'published': published.isoformat() if published else None,
             'audio_url': audio_url,
+            'episode_url': getattr(entry, 'link', '') or '',
             'duration_minutes': parse_duration(entry),
             'influence_tier': podcast.get('influence_tier', 'emerging'),
             'category': podcast.get('category', ''),
