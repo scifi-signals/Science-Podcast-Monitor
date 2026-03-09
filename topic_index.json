@@ -1,7 +1,412 @@
 {
-  "updated": "2026-03-07T11:25:14.689210",
-  "episode_count": 66,
+  "updated": "2026-03-09T11:59:53.717672",
+  "episode_count": 70,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The Surprising Science Of Why Sneakers Squeak",
+      "host": "Ira Flatow",
+      "published": "2026-03-09T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the physics behind squeaking basketball shoes through experimental analysis. Researchers at Harvard discovered that shoe squeaks result from supersonic slip pulses that travel through the shoe sole, creating wrinkles that move faster than sound. Surprisingly, the phenomenon shares similarities with earthquake ruptures, and electrostatic discharge (similar to static electricity) triggers these slip pulses by creating localized heat and pressure changes. The study was published in Nature and demonstrates how seemingly simple everyday questions can reveal complex and unexpected physics.",
+      "science_topics": [
+        "Tribology and friction dynamics of rubber on smooth surfaces",
+        "Supersonic slip pulses in frictional interfaces",
+        "Stick-slip friction behavior",
+        "Electrostatic discharge and charge generation from rubbing",
+        "Seismic rupture dynamics and earthquake physics analogues",
+        "High-speed imaging and optical visualization techniques (total internal reflection)",
+        "Acoustic frequency generation from mechanical oscillations",
+        "Elastic deformation and wave propagation in rubber materials"
+      ],
+      "claims_to_note": [
+        "Shoe squeaking involves slip pulses traveling at supersonic speed (faster than sound)",
+        "The physical mechanism is analogous to earthquake ruptures and continental plate dynamics",
+        "Electrostatic discharge (lightning) triggers the opening of slip pulses by creating localized temperature and pressure increases",
+        "The phenomenon occurs universally when rubber or skin slides on smooth surfaces at sufficient speed",
+        "Thousands of 'shoe quakes' occur per second during squeaking",
+        "The same mechanism occurs when human hands slide on smooth surfaces at high speed, producing audible squeaking"
+      ],
+      "policy_relevance": [
+        "Mention of grant funding and university purchasing department approval processes for research equipment",
+        "Reference to researcher considering leaving academia for 'more impactful' work"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Science and Practice of Team Science",
+          "url": "https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science"
+        },
+        {
+          "title": "Tactile Wayfinding in Transportation Settings for Travelers Who Are Blind or Visually Impaired: Volume 2: Guide",
+          "url": "https://nap.nationalacademies.org/catalog/28910/tactile-wayfinding-in-transportation-settings-for-travelers-who-are-blind-or-visually-impaired"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Public Engagement on Genetically Modified Organisms: When Science and Citizens Connect: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21750/public-engagement-on-genetically-modified-organisms-when-science-and-citizens"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide"
+        },
+        {
+          "title": "Grand Challenges in Earthquake Engineering Research: A Community Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/13167/grand-challenges-in-earthquake-engineering-research-a-community-workshop-report"
+        },
+        {
+          "title": "National Earthquake Resilience: Research, Implementation, and Outreach",
+          "url": "https://nap.nationalacademies.org/catalog/13092/national-earthquake-resilience-research-implementation-and-outreach"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        }
+      ]
+    },
+    {
+      "podcast_id": "techtank",
+      "podcast_name": "TechTank",
+      "episode_title": "Going back to the moon",
+      "host": "Brookings Institution",
+      "published": "2026-03-09T08:00:00",
+      "influence_tier": "medium",
+      "category": "tech_policy",
+      "summary": "This episode discusses NASA's Artemis program to return humans to the moon after more than 50 years, examining the scientific, economic, and geopolitical motivations for lunar exploration. Casey Dreyer from the Planetary Society explains how Artemis achieves political stability through broad coalition-building, the role of commercial partnerships in reducing costs, and concerns about space militarization amid U.S.-China competition. The conversation addresses public misconceptions about NASA's budget (0.3% of federal spending) and emphasizes the importance of maintaining space exploration as a source of scientific discovery and national inspiration alongside emerging commercial and defense priorities.",
+      "science_topics": [
+        "Lunar exploration and landing technology",
+        "Mars rover operations and capabilities",
+        "Climate change on Mars and Venus - atmospheric evolution and runaway greenhouse effect",
+        "Earth observation satellites and remote sensing",
+        "Space-based telescopes and astronomical observations",
+        "Reusable rocket technology and propulsion systems",
+        "Spacecraft design and engineering for human spaceflight",
+        "Orbital mechanics and satellite operations"
+      ],
+      "claims_to_note": [
+        "Venus experienced a runaway greenhouse effect and is hot enough to melt lead - consistent with scientific consensus",
+        "Mars became cold, dry, and arid through climate change - accurate description of Mars atmospheric loss",
+        "Earth is in a 'Goldilocks' climate zone compared to Venus (too hot) and Mars (too cold) - accurate comparative planetology",
+        "NASA budget is approximately 0.3% of annual U.S. federal expenditures - factually accurate",
+        "Social Security spends the equivalent of NASA's budget every six days - claim requires verification of specific figures",
+        "Medicaid and Medicare combined spend NASA's budget equivalent every 12 days - claim requires verification",
+        "Housing and Urban Development has 10 times NASA's budget - claim requires verification",
+        "GPS originated from NASA space program - accurate (originally NAVSTAR system, U.S. DoD/military)",
+        "Communications satellites pioneered by NASA in 1970s - accurate historical claim",
+        "The Outer Space Treaty forbids weapons of mass destruction in space - accurate legal statement",
+        "Artemis has bipartisan support across Trump and Biden administrations - factually accurate",
+        "Last lunar landing was more than 50 years ago (Apollo 17 was 1972) - accurate as of 2026 date"
+      ],
+      "policy_relevance": [
+        "NASA's Artemis program as flagship U.S. space policy initiative with multi-administration support",
+        "Commercial contracts and fixed-price agreements changing NASA procurement practices",
+        "Trump administration proposal to cut NASA science activities by 47% - political battle over science funding priorities",
+        "Congressional restoration of NASA budget cuts through advocacy efforts",
+        "Creation of U.S. Space Force as independent military space command",
+        "GPS system operation under Space Force authority",
+        "Outer Space Treaty international agreement governing space weapons",
+        "U.S.-China space competition and geopolitical rivalry in lunar exploration",
+        "Department of Defense independent weather satellite system separate from NOAA",
+        "Starlink commercial satellite system military applications in Ukraine conflict",
+        "Space militarization and dual-use technology concerns in policy discussions",
+        "NASA's role in Earth climate monitoring as public priority",
+        "Asteroid detection and planetary defense as stated public priority for NASA"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Respiratory Health Effects of Airborne Hazards Exposures in the Southwest Asia Theater of Military Operations",
+          "url": "https://nap.nationalacademies.org/catalog/25837/respiratory-health-effects-of-airborne-hazards-exposures-in-the-southwest-asia-theater-of-military-operations"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Sustaining Ocean Observations to Understand Future Changes in Earth's Climate",
+          "url": "https://nap.nationalacademies.org/catalog/24919/sustaining-ocean-observations-to-understand-future-changes-in-earths-climate"
+        },
+        {
+          "title": "Limiting the Magnitude of Future Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/12785/limiting-the-magnitude-of-future-climate-change"
+        },
+        {
+          "title": "Thriving on Our Changing Planet: A Decadal Strategy for Earth Observation from Space",
+          "url": "https://nap.nationalacademies.org/catalog/24938/thriving-on-our-changing-planet-a-decadal-strategy-for-earth"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "What crocodile bones teach us about dinosaurs",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-09T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Researchers studying Nile crocodiles at a reptile center in South Africa discovered that crocodile bones form multiple growth marks per year rather than one annual ring, challenging the traditional method of estimating dinosaur ages by counting rings. The team, led by paleobiologist Anousia Chinsami-Taran, injected young crocodiles with antibiotic markers and later analyzed their bone structure, finding up to five growth rings in two-year-old crocodiles. This suggests that previous dinosaur age estimates may have been overestimates, though scientists caution that growth ring reliability varies across species and the full picture remains incomplete.",
+      "science_topics": [
+        "Dinosaur bone growth ring analysis and age estimation",
+        "Crocodile skeletal growth patterns and histology",
+        "Antibiotic biomarkers in bone tissue development",
+        "Living archosaur models for understanding extinct dinosaur biology",
+        "Growth ring formation in modern reptiles and birds",
+        "Bone tissue remodeling in aging vertebrates"
+      ],
+      "claims_to_note": [
+        "T-Rex traditionally estimated to take 20+ years to reach adulthood based on ring counting",
+        "Dinosaurs died approximately 65 million years ago",
+        "Crocodile and bird bones contain growth rings similar to dinosaur fossils",
+        "A two-year-old crocodile in the study showed up to five growth marks rather than expected annual rings",
+        "Similar results found in other reptile species and kiwi birds",
+        "Human bones also contain growth rings but they are typically remodeled and destroyed with age"
+      ],
+      "policy_relevance": [
+        "Pulitzer Center grant supported the reporting of this scientific research"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Assessing and Responding to the Growth of Computer Science Undergraduate Enrollments",
+          "url": "https://nap.nationalacademies.org/catalog/24926/assessing-and-responding-to-the-growth-of-computer-science-undergraduate-enrollments"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies"
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Assessing and Responding to the Growth of Computer Science Undergraduate Enrollments",
+          "url": "https://nap.nationalacademies.org/catalog/24926/assessing-and-responding-to-the-growth-of-computer-science-undergraduate-enrollments"
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        }
+      ]
+    },
+    {
+      "podcast_id": "skeptics-guide",
+      "podcast_name": "The Skeptics' Guide to the Universe",
+      "episode_title": "The Skeptics Guide #1078 - Mar 7 2026",
+      "host": "Dr. Steven Novella",
+      "published": "2026-03-07T14:00:00",
+      "influence_tier": "medium",
+      "category": "science_communication",
+      "summary": "This episode covers multiple science and technology topics including delays to NASA's Artemis lunar missions, growing food on the moon using lunar regolith simulants with mycorrhizal fungi, sea level rise assessment methodology errors affecting coastal hazard predictions, critical analysis of a Reiki clinical trial claiming efficacy for chronic pain, neurons-on-a-chip playing the video game Doom, and glyphosate/Roundup safety and environmental impacts. The hosts emphasize the importance of rigorous scientific methodology, proper controls in clinical trials, and distinguishing between hazard and risk in toxicology.",
+      "science_topics": [
+        "Artemis lunar missions and crew capsule helium flow systems",
+        "Growing chickpeas in simulated lunar regolith with vermicompost and arbuscular mycorrhizal fungi",
+        "Lunar regolith chemistry and particle properties",
+        "Sea level rise measurement using geoid models versus satellite data",
+        "Ocean circulation and tidal effects on sea level assessment",
+        "Reiki as energy healing treatment",
+        "Placebo-controlled clinical trial design and blinding methodology",
+        "Chronic pain management and placebo effects",
+        "Biological computing with induced pluripotent stem cells differentiated into cortical neurons",
+        "Neural network self-organization and learning",
+        "Glyphosate herbicide carcinogenicity and toxicology",
+        "International Agency for Research on Cancer (IARC) hazard classification",
+        "Non-Hodgkin lymphoma epidemiology and pesticide exposure",
+        "Facial recognition processing (fusiform face area and Thatcher illusion)",
+        "Prosopagnosia and configural face processing"
+      ],
+      "claims_to_note": [
+        "Artemis 3 mission (crewed lunar landing) has been rescheduled from 2027 to 2028 to allow additional testing of new systems in low-Earth orbit",
+        "Chickpeas grown in 75% lunar regolith simulant mixed with vermicompost produced viable seeds despite stressed growth",
+        "99% of 385 peer-reviewed coastal hazard assessment studies (2009-2025) used incorrect or insufficient methodology for measuring sea level",
+        "Sea level has been underestimated by 24-27 cm on average in coastal assessments, with up to 1 meter discrepancy in Southeast Asia and Indonesia",
+        "90% of studies compared sea level to geoid models without accounting for ocean circulation, currents, winds, and tides",
+        "Only 1% of studies reviewed used both sophisticated geoid understanding and ocean measurements with proper land elevation comparisons",
+        "Reiki versus Fakie (fake Reiki) comparison in chronic knee pain study showed no statistically significant difference",
+        "Biological neural networks with 200 neurons can learn to play Doom through reward-correction feedback loops",
+        "Glyphosate classified as probable carcinogen by IARC but regulatory agencies worldwide assess it as low-risk for consumer exposure",
+        "Best epidemiological studies controlling for other pesticide exposure show no association between glyphosate and non-Hodgkin lymphoma"
+      ],
+      "policy_relevance": [
+        "NASA's Artemis program funding and timeline decisions affecting crewed lunar missions",
+        "EPA standards for pesticide exposure (1/1000th of no-observed-effect level for children)",
+        "International regulatory agency approvals of glyphosate (EPA, European regulatory bodies, others)",
+        "IPCC and UN Intergovernmental Panel on Climate Change reliance on potentially flawed sea level data in 45 cited studies",
+        "Implications of underestimated sea level rise for coastal policy, climate refugee planning, and infrastructure decisions",
+        "Clinical trial regulatory standards and requirements for blinding methodology"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
+        },
+        {
+          "title": "Airport Parking Reservation Systems and Techniques",
+          "url": "https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques"
+        },
+        {
+          "title": "An American Crisis: The Growing Absence of Black Men in Medicine and Science: Proceedings of a Joint Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25130/an-american-crisis-the-growing-absence-of-black-men-in"
+        },
+        {
+          "title": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+          "url": "https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and"
+        },
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington"
+        },
+        {
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research"
+        },
+        {
+          "title": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+          "url": "https://nap.nationalacademies.org/catalog/26338/mid-term-assessment-of-progress-on-the-2015-strategic-vision-for-antarctic-and-southern-ocean-research"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

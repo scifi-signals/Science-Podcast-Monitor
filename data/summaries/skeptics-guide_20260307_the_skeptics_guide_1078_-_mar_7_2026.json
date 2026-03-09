@@ -1,0 +1,696 @@
+{
+  "podcast_id": "skeptics-guide",
+  "podcast_name": "The Skeptics' Guide to the Universe",
+  "episode_title": "The Skeptics Guide #1078 - Mar 7 2026",
+  "host": "Dr. Steven Novella",
+  "published": "2026-03-07T14:00:00",
+  "episode_url": "https://www.theskepticsguide.org/podcast/sgu/1078",
+  "duration_minutes": null,
+  "influence_tier": "medium",
+  "category": "science_communication",
+  "summary": "This episode covers multiple science and technology topics including delays to NASA's Artemis lunar missions, growing food on the moon using lunar regolith simulants with mycorrhizal fungi, sea level rise assessment methodology errors affecting coastal hazard predictions, critical analysis of a Reiki clinical trial claiming efficacy for chronic pain, neurons-on-a-chip playing the video game Doom, and glyphosate/Roundup safety and environmental impacts. The hosts emphasize the importance of rigorous scientific methodology, proper controls in clinical trials, and distinguishing between hazard and risk in toxicology.",
+  "science_topics": [
+    "Artemis lunar missions and crew capsule helium flow systems",
+    "Growing chickpeas in simulated lunar regolith with vermicompost and arbuscular mycorrhizal fungi",
+    "Lunar regolith chemistry and particle properties",
+    "Sea level rise measurement using geoid models versus satellite data",
+    "Ocean circulation and tidal effects on sea level assessment",
+    "Reiki as energy healing treatment",
+    "Placebo-controlled clinical trial design and blinding methodology",
+    "Chronic pain management and placebo effects",
+    "Biological computing with induced pluripotent stem cells differentiated into cortical neurons",
+    "Neural network self-organization and learning",
+    "Glyphosate herbicide carcinogenicity and toxicology",
+    "International Agency for Research on Cancer (IARC) hazard classification",
+    "Non-Hodgkin lymphoma epidemiology and pesticide exposure",
+    "Facial recognition processing (fusiform face area and Thatcher illusion)",
+    "Prosopagnosia and configural face processing"
+  ],
+  "claims_to_note": [
+    "Artemis 3 mission (crewed lunar landing) has been rescheduled from 2027 to 2028 to allow additional testing of new systems in low-Earth orbit",
+    "Chickpeas grown in 75% lunar regolith simulant mixed with vermicompost produced viable seeds despite stressed growth",
+    "99% of 385 peer-reviewed coastal hazard assessment studies (2009-2025) used incorrect or insufficient methodology for measuring sea level",
+    "Sea level has been underestimated by 24-27 cm on average in coastal assessments, with up to 1 meter discrepancy in Southeast Asia and Indonesia",
+    "90% of studies compared sea level to geoid models without accounting for ocean circulation, currents, winds, and tides",
+    "Only 1% of studies reviewed used both sophisticated geoid understanding and ocean measurements with proper land elevation comparisons",
+    "Reiki versus Fakie (fake Reiki) comparison in chronic knee pain study showed no statistically significant difference",
+    "Biological neural networks with 200 neurons can learn to play Doom through reward-correction feedback loops",
+    "Glyphosate classified as probable carcinogen by IARC but regulatory agencies worldwide assess it as low-risk for consumer exposure",
+    "Best epidemiological studies controlling for other pesticide exposure show no association between glyphosate and non-Hodgkin lymphoma"
+  ],
+  "policy_relevance": [
+    "NASA's Artemis program funding and timeline decisions affecting crewed lunar missions",
+    "EPA standards for pesticide exposure (1/1000th of no-observed-effect level for children)",
+    "International regulatory agency approvals of glyphosate (EPA, European regulatory bodies, others)",
+    "IPCC and UN Intergovernmental Panel on Climate Change reliance on potentially flawed sea level data in 45 cited studies",
+    "Implications of underestimated sea level rise for coastal policy, climate refugee planning, and infrastructure decisions",
+    "Clinical trial regulatory standards and requirements for blinding methodology"
+  ],
+  "key_quotes": [
+    "We're going to add this other mission to really make sure all these individual components work. Then we're going to land on the moon on Artemis 4. But they're saying with this extra mission, it will set us up to be able to have like annual missions.",
+    "So the idea that can it run Doom is basically this universal benchmark for testing hardware versatility. So it's just a goofy meme that you may have heard often.",
+    "If you look at the totality of the evidence, which multiple, multiple regulatory agencies have done, even ones that are friendly to organic farming and not friendly to GMOs, they say, yeah, the evidence shows that it's safe for consumers and it's even probably safe for workers."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Artemis lunar missions and crew capsule helium flow systems",
+      "publications": [
+        {
+          "id": "23490",
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "total global annual emissions",
+            "large commercial single aisle",
+            "although aviation emissions",
+            "reducing carbon emissions",
+            "commercial aircraft propulsion",
+            "twin aisle aircraft",
+            "release carbon dioxide",
+            "primary human activities",
+            "reducing emissions",
+            "global emissions",
+            "reducing global carbon emissions",
+            "energy systems"
+          ],
+          "description": "The primary human activities that release carbon dioxide (CO2) into the atmosphere are the combustion of fossil fuels (coal, natural gas, and oil) to generate electricity, the provision of energy for transportation, and as a consequence of some industrial processes. Although aviation CO2 emissions only make up approximately 2.0 to 2.5 percent of total global annual CO2 emissions, research to reduce CO2 emissions is urgent because (1) such reductions may be legislated even as commercial air travel grows, (2) because it takes new technology a long time to propagate into and through the aviation fleet, and (3) because of the ongoing impact of global CO2 emissions. Commercial Aircraft Propulsion and Energy Systems Research develops a national research agenda for reducing CO2 emissions from commercial aviation. This report focuses on propulsion and energy technologies for reducing carbon emissions from large, commercial aircraftâ€\" single-aisle and twin-aisle aircraft that carry 100 or more",
+          "year": 2016,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        },
+        {
+          "id": "26641",
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "total global ghg emissions",
+            "achieving net zero emissions",
+            "human produced greenhouse gases",
+            "evaluating ghg emissions",
+            "evaluate ghg emissions",
+            "trusted ghg emissions",
+            "climate change driven",
+            "particles collectively referred",
+            "providing decision makers",
+            "cities regional governments",
+            "greenhouse gas emissions",
+            "decision making",
+            "going forward"
+          ],
+          "description": "Climate change, driven by increases in human-produced greenhouse gases and particles (collectively referred to as GHGs), is the most serious environmental issue facing society. The need to reduce GHGs has become urgent as heat waves, heavy rain events, and other impacts of climate change have become more frequent and severe. Since the Paris Agreement was adopted in 2015, more than 136 countries, accounting for about 80% of total global GHG emissions, have committed to achieving net-zero emissions by 2050. A growing number of cities, regional governments, and industries have also made pledges to reduce emissions. Providing decision makers with useful, accurate, and trusted GHG emissions information is a crucial part of this effort. This report examines existing and emerging approaches used to generate and evaluate GHG emissions information at global to local scales. The report develops a framework for evaluating GHG emissions information to support and guide policy makers about its use ",
+          "year": 2023,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "24857",
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "large strategic missions within",
+            "multiple spacecraft nasa smd",
+            "five dozen missions",
+            "multiple scientific fields",
+            "scientific fields associated",
+            "nearly operational spacecraft",
+            "conduct missions",
+            "missions span",
+            "earth science",
+            "planetary science",
+            "large strategic science missions",
+            "powering science",
+            "nasa"
+          ],
+          "description": "NASA's Science Mission Directorate (SMD) currently operates over five dozen missions, with approximately two dozen additional missions in development. These missions span the scientific fields associated with SMD's four divisionsâ€\"Astrophysics, Earth Science, Heliophysics, and Planetary Sciences. Because a single mission can consist of multiple spacecraft, NASA-SMD is responsible for nearly 100 operational spacecraft. The most high profile of these are the large strategic missions, often referred to as \"flagships.\" Large strategic missions are essential to maintaining the global leadership of the United States in space exploration and in science because only the United States has the budget, technology, and trained personnel in multiple scientific fields to conduct missions that attract a range of international partners. This report examines the role of large, strategic missions within a balanced program across NASA-SMD space and Earth sciences programs. It considers the role and scie",
+          "year": 2018,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Growing chickpeas in simulated lunar regolith with vermicompost and arbuscular mycorrhizal fungi",
+      "publications": [
+        {
+          "id": "29030",
+          "title": "Airport Parking Reservation Systems and Techniques",
+          "url": "https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "airport parking facilities",
+            "airport parking reservation systems",
+            "recent years growing volumes",
+            "airport access providers",
+            "attract airport parkers",
+            "online booking systems",
+            "important customer amenity",
+            "airport cooperative",
+            "encouraged airports",
+            "implementation challenges",
+            "increasing competition",
+            "techniques"
+          ],
+          "description": "\"Airport parking is an important customer amenity and a principal source of revenue that helps fund the operation and development of airports. In recent years, growing volumes of passenger traffic and increasing competition from a variety of airport access providers have encouraged airports to seek new ways to attract airport parkers and enhance revenues, which may include implementing an online booking system. ACRP Synthesis 140: Airport Parking Reservation Systems and Techniques, from TRB's Airport Cooperative Research Program, documents the use of online booking systems at U.S. airports, including their benefits, costs, and implementation challenges.\" --",
+          "year": 2025,
+          "page_keywords": [
+            "Airport parking facilities"
+          ]
+        },
+        {
+          "id": "25130",
+          "title": "An American Crisis: The Growing Absence of Black Men in Medicine and Science: Proceedings of a Joint Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25130/an-american-crisis-the-growing-absence-of-black-men-in",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health care access quality",
+            "medical profession facilitate discussion",
+            "outcomes among black americans",
+            "especially troubling because",
+            "advance cultural competency",
+            "health disparities",
+            "quality healthcare",
+            "diverse workforce",
+            "medical education",
+            "medical schools",
+            "american crisis",
+            "growing absence",
+            "black men",
+            "science",
+            "joint"
+          ],
+          "description": "Black men are increasingly underrepresented in medical schools and in the medical profession. A diverse workforce is a key attribute of quality healthcare and research suggests that a diverse workforce may help to advance cultural competency and increase access to high-quality health care, especially for underserved populations. Conversely, lack of diversity in the health workforce threatens health care quality and access and contributes to health disparities. In this way, the growing absence of Black men in medicine is especially troubling, because their absence in medicine may have adverse consequences for health care access, quality, and outcomes among Black Americans and Americans overall. To better understand the factors that contribute to the low participation of Black men in the medical profession, facilitate discussion of current strategies used to increase their participation in medical education, and explore new strategies along the educational and professional pipeline that ",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "4757",
+          "title": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+          "url": "https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "tobacco free prepared",
+            "tobacco use kills",
+            "tobacco products",
+            "spitting tobacco",
+            "help everyone understand",
+            "limit young people",
+            "surrounding youths",
+            "addiction starts",
+            "effectively restrict",
+            "readable explanation",
+            "preventing nicotine addiction",
+            "tobacco free",
+            "children",
+            "growing",
+            "youths"
+          ],
+          "description": "Tobacco use kills more people than any other addiction and we know that addiction starts in childhood and youth. We all agree that youths should not smoke, but how can this be accomplished? What prevention messages will they find compelling? What effect does tobacco advertisingâ€\"more than $10 million worth every dayâ€\"have on youths? Can we responsibly and effectively restrict their access to tobacco products? These questions and more are addressed in Growing Up Tobacco Free, prepared by the Institute of Medicine to help everyone understand the troubling issues surrounding youths and tobacco use. Growing Up Tobacco Free provides a readable explanation of nicotine's effects and the process of addiction, and documents the search for an effective approach to preventing the use of cigarettes, chewing and spitting tobacco, and snuff by children and youths. It covers the results of recent initiatives to limit young people's access to tobacco and discusses approaches to controls or bans on t",
+          "year": 1994,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Preventing Nicotine Addiction in Children and Youths"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Lunar regolith chemistry and particle properties",
+      "publications": [
+        {
+          "id": "26460",
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "keywords": [
+            "wildfire",
+            "fire",
+            "urban",
+            "chemistry",
+            "combustion",
+            "wui"
+          ]
+        },
+        {
+          "id": "21790",
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing effective communication activities",
+            "enhanced communication summarizes evidence",
+            "chemistry communication activities",
+            "daily life impacting areas",
+            "chemistry community lacks",
+            "communications informal learning",
+            "communicating chemistry",
+            "practical guide intended",
+            "chemistry education",
+            "identifies key areas",
+            "effective chemistry communication",
+            "informal environments"
+          ],
+          "description": "Chemistry plays a critical role in daily life, impacting areas such as medicine and health, consumer products, energy production, the ecosystem, and many other areas. Communicating about chemistry in informal environments has the potential to raise public interest and understanding of chemistry around the world. However, the chemistry community lacks a cohesive, evidence-based guide for designing effective communication activities. This report is organized into two sections. Part A: The Evidence Base for Enhanced Communication summarizes evidence from communications, informal learning, and chemistry education on effective practices to communicate with and engage publics outside of the classroom; presents a framework for the design of chemistry communication activities; and identifies key areas for future research. Part B: Communicating Chemistry: A Framework for Sharing Science is a practical guide intended for any chemists to use in the design, implementation, and evaluation of their ",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Sea level rise measurement using geoid models versus satellite data",
+      "publications": [
+        {
+          "id": "13389",
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sea level rise along",
+            "recent satellite data show",
+            "sea level along",
+            "global sea level",
+            "earth warms sea levels",
+            "affect sea level",
+            "valuable infrastructure development",
+            "make independent projections",
+            "account regional factors",
+            "tide gauges show",
+            "sea level rise",
+            "california oregon",
+            "past present",
+            "washington",
+            "coasts"
+          ],
+          "description": "Tide gauges show that global sea level has risen about 7 inches during the 20th century, and recent satellite data show that the rate of sea-level rise is accelerating. As Earth warms, sea levels are rising mainly because ocean water expands as it warms; and water from melting glaciers and ice sheets is flowing into the ocean. Sea-level rise poses enormous risks to the valuable infrastructure, development, and wetlands that line much of the 1,600 mile shoreline of California, Oregon, and Washington. As those states seek to incorporate projections of sea-level rise into coastal planning, they asked the National Research Council to make independent projections of sea-level rise along their coasts for the years 2030, 2050, and 2100, taking into account regional factors that affect sea level. Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future explains that sea level along the U.S. west coast is affected by a number of factors. These include: clim",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "27160",
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "carbon cycle ecosystem structure",
+            "climate warms data gathered",
+            "important earth processes",
+            "sea level rise",
+            "potential social economic",
+            "offer unique insights",
+            "rising sea level",
+            "coastal antarctica",
+            "antarctica hosts",
+            "changing ecosystems",
+            "antarctic nearshore",
+            "southern ocean",
+            "directions",
+            "coastal"
+          ],
+          "description": "Antarctica hosts some of the harshest and most remote environments on Earth - and it is a region of vital importance for scientific research. The environment and position of Antarctica on the globe mean that research conducted there can offer unique insights on important Earth processes, including rising sea level, the carbon cycle, ecosystem structure. As the climate warms, data gathered from Antarctic research will be essential to understanding how Earth processes are changing and the potential social, economic, and health impacts on both U.S. and global populations. This report identifies the highest priorities for research in the Southern Ocean and nearshore and coastal Antarctica, as well as gaps in current capabilities to support this research. Global sea level rise, heat and carbon budgets, and changing ecosystems are the three highest-priority science drivers for research in the region. To address those drivers and maintain a robust U.S. research presence in this vitally import",
+          "year": 2024,
+          "committee": "Polar Research Board"
+        },
+        {
+          "id": "26338",
+          "title": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+          "url": "https://nap.nationalacademies.org/catalog/26338/mid-term-assessment-of-progress-on-the-2015-strategic-vision-for-antarctic-and-southern-ocean-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "science foundation nsf progress",
+            "changing antarctic environment",
+            "ice sheet change",
+            "made important progress",
+            "addressing three priority",
+            "amundsen sea region",
+            "sea level rise",
+            "unique environment",
+            "biological adaptations",
+            "universe operate",
+            "strategic vision",
+            "southern ocean",
+            "mid term",
+            "antarctic",
+            "progress"
+          ],
+          "description": "The Antarctic's unique environment and position on the globe make it a prime location to gain insights into how Earth and the universe operate. This report assesses National Science Foundation (NSF) progress in addressing three priority research areas identified in a 2015 National Academies report: (1) understanding the linkages between ice sheets and sea-level rise, including both a focus on current rates of ice sheet change and studies of past major ice sheet retreat episodes; (2) understanding biological adaptations to the extreme and changing Antarctic environment; and (3) establishing a next-generation cosmic microwave background (CMB) program, partly located in Antarctica, to study the origins of the universe. NSF has made important progress understanding the impacts of current ice sheet change, particularly through studies focused on the ice sheet and ocean interactions driving ongoing ice mass loss at the Thwaites Glacier and Amundsen Sea region in West Antarctica. Less progres",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Polar Research Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Ocean circulation and tidal effects on sea level assessment",
+      "publications": [
+        {
+          "id": "27846",
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "keywords": [
+            "ocean",
+            "marine",
+            "sea",
+            "oceanography",
+            "coastal",
+            "marine science"
+          ]
+        },
+        {
+          "id": "21655",
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "keywords": [
+            "ocean",
+            "marine",
+            "oceanography",
+            "sea",
+            "coastal",
+            "marine biology"
+          ]
+        },
+        {
+          "id": "27337",
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "ocean acoustics education",
+            "ocean acoustics began",
+            "fundamental ocean science",
+            "widely varying career paths",
+            "higher education institutions",
+            "vocational associates level",
+            "ocean environment",
+            "human generated sources",
+            "assesses expected dem",
+            "formal education",
+            "expertise"
+          ],
+          "description": "Ocean Acoustics - the study of sound in the ocean, how it travels, interacts with, and is affected by its underwater surroundings - is a growing and critical field. Sound from both natural and human-generated sources can be an effective tool for probing the ocean environment. While the first applications of ocean acoustics began in the military, applications today encompass offshore energy production, national security, environmental monitoring, climate science, exploration and mapping, as well as fundamental ocean science. Even as demand for ocean acoustics grows, workforce development is challenged by both the multidisciplinary nature of the field and its widely varying career paths. Ocean acoustics may be housed in a diversity of departments in higher education institutions, and career paths and trajectory of formal education can range from the vocational/associates' level through the doctorate level. This report examines the state of ocean acoustics education; assesses expected dem",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Ocean Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 17721,
+  "saved_at": "2026-03-09T11:59:20.514194"
+}

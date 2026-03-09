@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 09, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 09, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">37</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">20</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">90</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals sustained momentum across three major scientific domains: lunar exploration and resource utilization (Artemis delays, lunar agriculture feasibility), fundamental physics discoveries (tribology analogues to seismic ruptures), and paleontological methodology refinement (dinosaur age estimation via crocodile bone analysis). The Artemis program continues dominating discourse as a convergence point for space science, geopolitics, and public funding justification. Bluesky data shows parallel emphasis on scientific integrity amid infectious disease resurgence (measles at 1,500 cases, mumps across 11 states) and International Women's Day visibility in STEM. A critical methodological concern emerges: 99% of coastal hazard studies (2009-2025) employed insufficient sea level measurement protocols, suggesting systematic vulnerabilities in climate risk assessment that warrant NASEM advisory engagement.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Artemis lunar program delays (2027→2028) and crew capability development</li>
+<li>Lunar resource utilization and in-situ agriculture (regolith chemistry, mycorrhizal fungi applications)</li>
+<li>Physics of everyday phenomena revealing deeper scientific principles (shoe squeaking as seismic analogue)</li>
+<li>Methodological rigor in science and clinical trial design standards</li>
+<li>Women's contributions to STEM and inclusive scientific practice</li>
+<li>Public misconceptions about NASA budget allocation (0.3% federal spending) and space exploration ROI</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Lunar agriculture viability: chickpeas successfully germinated in 75% lunar regolith simulant—represents shift from theoretical to empirical proof-of-concept for sustained lunar habitation</li>
+<li>Biological computing: neurons-on-a-chip executing video game tasks demonstrates convergence of neuroscience, engineering, and computational biology</li>
+<li>Reiki efficacy claims in clinical trials—continuing pattern of pseudoscience entering peer-reviewed literature requiring critical gatekeeping</li>
+<li>Infectious disease resurgence (measles, mumps, RSV): 1,500 measles cases with mumps detection across 11 states indicates public health vulnerability amid vaccination hesitancy narratives</li>
+<li>Paleontological methodology revision: growth ring reinterpretation reduces dinosaur age estimates, cascading implications for understanding developmental biology and extinction patterns</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment on coastal hazard study methodologies: 99% of 385 recent peer-reviewed studies employed inadequate sea level measurement approaches—recommend coordinated standards-setting for geoid modeling vs. satellite data integration across federal agencies</div>
+<div class="opportunity">Develop NASEM position statement on Artemis program scientific objectives: clarify fundamental research priorities (lunar geology, exobiology preparation, atmospheric physics) vs. geopolitical framing to stabilize public support and interagency alignment</div>
+<div class="opportunity">Establish NASEM working group on lunar regolith toxicology and agricultural applications: proactive engagement before crewed missions encounter unexpected crop failures or crew health complications from regolith dust exposure</div>
+<div class="opportunity">Amplify NASEM expertise on scientific integrity in clinical trials: Reiki study represents broader pattern of methodological inadequacy in pain management research—position NASEM as standard-bearer for trial design rigor</div>
+<div class="opportunity">Address public health communication on measles/mumps resurgence: NASEM could coordinate with CDC on evidence-based vaccination messaging to counter misinformation narratives gaining traction in Bluesky discourse</div>
+<div class="opportunity">Support paleontological-comparative biology bridge research: fund crocodile-dinosaur bone analysis initiatives that leverage living archosaurs to refine extinct organism age estimation across vertebrate phylogeny</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Reiki clinical trial claiming efficacy for chronic pain: hosts correctly identified inadequate controls and placebo effect conflation—trial design appears to lack proper blinding or sham treatment comparison</div>
+<div class="claim">Glyphosate/Roundup safety claims conflating IARC hazard classification with actual human epidemiological risk: episode appropriately distinguished hazard identification from quantified risk assessment, but public discourse may conflate these categories</div>
+<div class="claim">Electrostatic discharge as primary trigger for shoe slip pulses: while scientifically accurate per Harvard study, popular framing may overstate role compared to friction dynamics itself—recommend precise terminology in public communication</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Lunar Resource Utilization and Habitat Sustainability</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on practical lunar agriculture and resource chemistry as critical infrastructure for sustained exploration. TechTank, The Skeptics' Guide to the Universe, and Science Friday are collectively covering lunar regolith properties, in-situ crop cultivation (chickpeas with mycorrhizal fungi), and Artemis mission engineering, signaling that lunar settlement is transitioning from theoretical to engineering-focused discourse.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene experts on lunar soil chemistry, agricultural biotechnology, and life support systems to advise on technical readiness gaps for sustained human presence beyond Earth orbit.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Emerging Viral Immunity and Antibody Engineering</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast and Unbiased Science are independently addressing viral immune response mechanisms—RSV/HMPV neutralizing antibodies and occupational immunity in healthcare workers—while the broader immunotherapy conversation extends to monoclonal cocktails and immunotherapy for cancer. This reflects growing clinical and policy focus on precision antibody therapeutics as pandemics recede but pathogen preparedness remains urgent.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish working groups on antibody-based therapeutic development pipelines and occupational health surveillance for emerging respiratory pathogens to inform public health preparedness strategy.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI-Driven Protein and Materials Engineering</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and Science Will Win are both covering machine learning applications in protein design and enzyme engineering, while The Life Science Rundown discusses AI model validation in clinical contexts. This emerging convergence suggests AI has moved from experimental to applied utility in biomedical research, raising questions about validation standards and regulatory pathways.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should publish guidance on AI validation frameworks for protein engineering and gene therapy applications to accelerate translation while maintaining scientific rigor and clinical safety standards.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Health and Exposure Assessment at Population Scale</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday has published two episodes (2026-03-07 and 2026-03-06) emphasizing community-based participatory research, noise pollution epidemiology, and environmental exposure assessment tied to health outcomes. Short Wave parallels this with adolescent sleep deprivation trends and archaeological dietary reconstruction methods. Together, these suggest a shift toward systems-level and longitudinal exposure science.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a study on environmental exposure surveillance infrastructure gaps and recommend harmonized biomarker and sensor standards for population-scale health monitoring.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sensory Neurobiology and Gut-Brain Integration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab and Nature Podcast (March 2-4) are exploring taste receptor signaling, vagal gut-brain axis communication, and nutrient sensing mechanisms. This convergence reflects growing recognition that sensory and metabolic integration is fundamental to nutrition, obesity, and disease prevention policy—moving beyond behavioral economics alone.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene neuroscience, nutrition, and public health experts to translate gut-brain axis biology into evidence-based dietary and metabolic health interventions for clinical and policy application.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">The Skeptics' Guide to the Universe: The Skeptics Guide #1078 - Mar 7 2026</span>
+</div>
+<div class="episode-meta">Dr. Steven Novella &middot; Mar 07</div>
+<p style="margin:10px 0;font-size:14px;">This episode covers multiple science and technology topics including delays to NASA's Artemis lunar missions, growing food on the moon using lunar regolith simulants with mycorrhizal fungi, sea level rise assessment methodology errors affecting coastal hazard predictions, critical analysis of a Reiki clinical trial claiming efficacy for chronic pain, neurons-on-a-chip playing the video game Doom, and glyphosate/Roundup safety and environmental impacts. The hosts emphasize the importance of rigorous scientific methodology, proper controls in clinical trials, and distinguishing between hazard and risk in toxicology.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Artemis lunar missions and crew capsule helium flow systems</span>
+  <span class="topic-tag">Growing chickpeas in simulated lunar regolith with vermicompost and arbuscular mycorrhizal fungi</span>
+  <span class="topic-tag">Lunar regolith chemistry and particle properties</span>
+  <span class="topic-tag">Sea level rise measurement using geoid models versus satellite data</span>
+  <span class="topic-tag">Ocean circulation and tidal effects on sea level assessment</span>
+  <span class="topic-tag">Reiki as energy healing treatment</span>
+  <span class="topic-tag">Placebo-controlled clinical trial design and blinding methodology</span>
+  <span class="topic-tag">Chronic pain management and placebo effects</span>
+  <span class="topic-tag">Biological computing with induced pluripotent stem cells differentiated into cortical neurons</span>
+  <span class="topic-tag">Neural network self-organization and learning</span>
+  <span class="topic-tag">Glyphosate herbicide carcinogenicity and toxicology</span>
+  <span class="topic-tag">International Agency for Research on Cancer (IARC) hazard classification</span>
+  <span class="topic-tag">Non-Hodgkin lymphoma epidemiology and pesticide exposure</span>
+  <span class="topic-tag">Facial recognition processing (fusiform face area and Thatcher illusion)</span>
+  <span class="topic-tag">Prosopagnosia and configural face processing</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon" target="_blank">Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques" target="_blank">Airport Parking Reservation Systems and Techniques</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25130/an-american-crisis-the-growing-absence-of-black-men-in" target="_blank">An American Crisis: The Growing Absence of Black Men in Medicine and Science: Proceedings of a Joint Workshop</a></div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments" target="_blank">Effective Chemistry Communication in Informal Environments</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington" target="_blank">Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research" target="_blank">Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match">Sea Change: 2015-2025 Decadal Survey of Ocean Sciences</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Artemis 3 mission (crewed lunar landing) has been rescheduled from 2027 to 2028 to allow additional testing of new systems in low-Earth orbit</div>
+<div class="claim">Chickpeas grown in 75% lunar regolith simulant mixed with vermicompost produced viable seeds despite stressed growth</div>
+<div class="claim">99% of 385 peer-reviewed coastal hazard assessment studies (2009-2025) used incorrect or insufficient methodology for measuring sea level</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We're going to add this other mission to really make sure all these individual components work. Then we're going to land on the moon on Artemis 4. But they're saying with this extra mission, it will set us up to be able to have like annual missions."</div>
+<div class="quote">"So the idea that can it run Doom is basically this universal benchmark for testing hardware versatility. So it's just a goofy meme that you may have heard often."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: What crocodile bones teach us about dinosaurs</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 09 &middot; 11 min</div>
+<p style="margin:10px 0;font-size:14px;">Researchers studying Nile crocodiles at a reptile center in South Africa discovered that crocodile bones form multiple growth marks per year rather than one annual ring, challenging the traditional method of estimating dinosaur ages by counting rings. The team, led by paleobiologist Anousia Chinsami-Taran, injected young crocodiles with antibiotic markers and later analyzed their bone structure, finding up to five growth rings in two-year-old crocodiles. This suggests that previous dinosaur age estimates may have been overestimates, though scientists caution that growth ring reliability varies across species and the full picture remains incomplete.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dinosaur bone growth ring analysis and age estimation</span>
+  <span class="topic-tag">Crocodile skeletal growth patterns and histology</span>
+  <span class="topic-tag">Antibiotic biomarkers in bone tissue development</span>
+  <span class="topic-tag">Living archosaur models for understanding extinct dinosaur biology</span>
+  <span class="topic-tag">Growth ring formation in modern reptiles and birds</span>
+  <span class="topic-tag">Bone tissue remodeling in aging vertebrates</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24926/assessing-and-responding-to-the-growth-of-computer-science-undergraduate-enrollments" target="_blank">Assessing and Responding to the Growth of Computer Science Undergraduate Enrollments</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies" target="_blank">Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary</a></div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24926/assessing-and-responding-to-the-growth-of-computer-science-undergraduate-enrollments" target="_blank">Assessing and Responding to the Growth of Computer Science Undergraduate Enrollments</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">T-Rex traditionally estimated to take 20+ years to reach adulthood based on ring counting</div>
+<div class="claim">Dinosaurs died approximately 65 million years ago</div>
+<div class="claim">Crocodile and bird bones contain growth rings similar to dinosaur fossils</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Each of them, their skeletons tell a story about how they grew. So we can say so much about the biology of dinosaurs because we have them as a model to understand dinosaur growth."</div>
+<div class="quote">"This is a two-year-old crocodile. And in many cases, we found up to five growth marks in the bones. So there were extra growth marks formed during their short life."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">TechTank: Going back to the moon</span>
+</div>
+<div class="episode-meta">Brookings Institution &middot; Mar 09 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses NASA's Artemis program to return humans to the moon after more than 50 years, examining the scientific, economic, and geopolitical motivations for lunar exploration. Casey Dreyer from the Planetary Society explains how Artemis achieves political stability through broad coalition-building, the role of commercial partnerships in reducing costs, and concerns about space militarization amid U.S.-China competition. The conversation addresses public misconceptions about NASA's budget (0.3% of federal spending) and emphasizes the importance of maintaining space exploration as a source of scientific discovery and national inspiration alongside emerging commercial and defense priorities.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Lunar exploration and landing technology</span>
+  <span class="topic-tag">Mars rover operations and capabilities</span>
+  <span class="topic-tag">Climate change on Mars and Venus - atmospheric evolution and runaway greenhouse effect</span>
+  <span class="topic-tag">Earth observation satellites and remote sensing</span>
+  <span class="topic-tag">Space-based telescopes and astronomical observations</span>
+  <span class="topic-tag">Reusable rocket technology and propulsion systems</span>
+  <span class="topic-tag">Spacecraft design and engineering for human spaceflight</span>
+  <span class="topic-tag">Orbital mechanics and satellite operations</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration" target="_blank">Plasma Science: Enabling Technology, Sustainability, Security, and Exploration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25837/respiratory-health-effects-of-airborne-hazards-exposures-in-the-southwest-asia-theater-of-military-operations" target="_blank">Respiratory Health Effects of Airborne Hazards Exposures in the Southwest Asia Theater of Military Operations</a></div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24919/sustaining-ocean-observations-to-understand-future-changes-in-earths-climate" target="_blank">Sustaining Ocean Observations to Understand Future Changes in Earth's Climate</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24938/thriving-on-our-changing-planet-a-decadal-strategy-for-earth" target="_blank">Thriving on Our Changing Planet: A Decadal Strategy for Earth Observation from Space</a></div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Venus experienced a runaway greenhouse effect and is hot enough to melt lead - consistent with scientific consensus</div>
+<div class="claim">Mars became cold, dry, and arid through climate change - accurate description of Mars atmospheric loss</div>
+<div class="claim">Earth is in a 'Goldilocks' climate zone compared to Venus (too hot) and Mars (too cold) - accurate comparative planetology</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"having a very ambitious, technically challenging goal that drives cooperation, peaceful cooperation by default, that requires almost peaceful engagement and cooperation with our allies in addition to kind of within the nation itself is a fundamentally positive social and geopolitical thing to do"</div>
+<div class="quote">"There's something good for the soul in that, frankly, and we need positive opportunities and examples like that, things that are unifying activities rather than divisive ones"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: The Surprising Science Of Why Sneakers Squeak</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 09 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the physics behind squeaking basketball shoes through experimental analysis. Researchers at Harvard discovered that shoe squeaks result from supersonic slip pulses that travel through the shoe sole, creating wrinkles that move faster than sound. Surprisingly, the phenomenon shares similarities with earthquake ruptures, and electrostatic discharge (similar to static electricity) triggers these slip pulses by creating localized heat and pressure changes. The study was published in Nature and demonstrates how seemingly simple everyday questions can reveal complex and unexpected physics.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Tribology and friction dynamics of rubber on smooth surfaces</span>
+  <span class="topic-tag">Supersonic slip pulses in frictional interfaces</span>
+  <span class="topic-tag">Stick-slip friction behavior</span>
+  <span class="topic-tag">Electrostatic discharge and charge generation from rubbing</span>
+  <span class="topic-tag">Seismic rupture dynamics and earthquake physics analogues</span>
+  <span class="topic-tag">High-speed imaging and optical visualization techniques (total internal reflection)</span>
+  <span class="topic-tag">Acoustic frequency generation from mechanical oscillations</span>
+  <span class="topic-tag">Elastic deformation and wave propagation in rubber materials</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29043/the-science-and-practice-of-team-science" target="_blank">The Science and Practice of Team Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28910/tactile-wayfinding-in-transportation-settings-for-travelers-who-are-blind-or-visually-impaired" target="_blank">Tactile Wayfinding in Transportation Settings for Travelers Who Are Blind or Visually Impaired: Volume 2: Guide</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21798/trust-and-confidence-at-the-interfaces-of-the-life-sciences-and-society" target="_blank">Trust and Confidence at the Interfaces of the Life Sciences and Society: Does the Public Trust Science? A Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research" target="_blank">Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system" target="_blank">Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13167/grand-challenges-in-earthquake-engineering-research-a-community-workshop-report" target="_blank">Grand Challenges in Earthquake Engineering Research: A Community Workshop Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13092/national-earthquake-resilience-research-implementation-and-outreach" target="_blank">National Earthquake Resilience: Research, Implementation, and Outreach</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Shoe squeaking involves slip pulses traveling at supersonic speed (faster than sound)</div>
+<div class="claim">The physical mechanism is analogous to earthquake ruptures and continental plate dynamics</div>
+<div class="claim">Electrostatic discharge (lightning) triggers the opening of slip pulses by creating localized temperature and pressure increases</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"All right. So what you see when you rub or when you slide a basketball shoe on a smooth, dry surface is these ripples. Think about them as wrinkles. So the sole of the shoe wrinkles, and that wrinkle travels at supersonic speed."</div>
+<div class="quote">"Usually these kind of events, these kind of phenomena, you see mostly in geophysical settings. So for example, when you have an earthquake or when you have a rupture, the dynamics of this rupture versus the shoe squeaking or the shoe moving share a lot of similarities that we did not foresee."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">90 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">International Women's Day and Women in Science (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Celebration of women's contributions and achievements across STEM fields, including profiles of female scientists and calls for greater inclusion.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Public Health Threats (Measles, Mumps, RSV) (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Emerging and resurgent infectious disease outbreaks, including measles cases reaching 1500 and mumps detection across 11 states.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Exploration (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Recent astronomical discoveries, spacecraft missions, and exoplanet research including Voyager 1 findings and TESS rotation period data.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Scientific Integrity and Misinformation (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Concerns about fraud in science, logical fallacies in health misinformation, and calls to defend scientific institutions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Chemistry and Materials Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on novel materials, chemical innovations, and industrial applications including phosphine photocatalysis and synthetic products.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">393 likes &middot; 211 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">🧪March is #WomensHistoryMonth
+Today is #InternationalWomensDay
+Some highlights of women’s contribution in science. 
+
+Of note:
+
+Kizzmekia Corbett was the scientific lead of the team that developed the Moderna COVID-19 mRNA vaccine.
+
+@jackiebrenner on IG
+#Pinks</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgkgp5i6os2j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">142 likes &middot; 112 reposts &middot; 15 replies</div>
+  <div class="bluesky-text">We counted 1500 measles cases as of the end of last month. Guess who else is starting to rear its ugly head- Mumps.
+
+It has been detected in ~34 people across 11 states.
+
+Symptoms show up a few weeks after exposure in the form of fever, heads & swollen salivary glands.
+
+🧪 archive.today/zuBf9</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgkuyu57h22m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@avapolzin.bsky.social</div>
+  <div class="bluesky-stats">152 likes &middot; 61 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Happy International Women's Day! 
+
+Perfect time for me to (re)share our white paper on increasing the retention of women in professional astrophysics (really full of suggestions that broaden participation in academic science in general).
+
+arxiv.org/abs/2512.24465
+
+🧪🔭☄️👩‍🔬</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/avapolzin.bsky.social/post/3mgl4y4tiks2c" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">111 likes &middot; 69 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">A really good read on logical fallacies used to spread misinformation. It is so easy to fall for these.
+
+I’m looking at you, RFK Jr. 
+
+@yourlocalepidemiologist.skystack.xyz 
+
+@kmpanthagani.bsky.social 
+
+🧪 yourlocalepidemiologist.substack.com/p/5-logical-...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mglm7rdu3s2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@momedinamunoz.bsky.social</div>
+  <div class="bluesky-stats">150 likes &middot; 27 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Mara Wilson ( the kid actress in Matilda!) at the @standupforscience.bsky.social rally in LA quoting Carl Sagan 🧪🌎🪸🌊🦠🧬</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/momedinamunoz.bsky.social/post/3mgkt3jqr4k2s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Women in STEM Workforce Development</strong>: Multiple posts address retention, recruitment, and inclusion of women in science careers; directly relevant to NASEM's work on broadening participation in STEM.</div>
+<div class="nasem-match"><strong>Public Health and Infectious Disease Surveillance</strong>: Posts on measles, mumps, RSV, and COVID-related neurodegeneration align with NASEM's health policy expertise and public health advisory roles.</div>
+<div class="nasem-match"><strong>Scientific Integrity and Research Ethics</strong>: Discussion of fraud detection and misinformation combating relates to NASEM's advocacy for research integrity and science communication standards.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 09, 2026 at 11:59 AM | Internal use only
+    </div>
+</body>
+</html>

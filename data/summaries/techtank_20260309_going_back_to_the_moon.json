@@ -1,0 +1,653 @@
+{
+  "podcast_id": "techtank",
+  "podcast_name": "TechTank",
+  "episode_title": "Going back to the moon",
+  "host": "Brookings Institution",
+  "published": "2026-03-09T08:00:00",
+  "episode_url": "https://shows.acast.com/tech-tank/episodes/going-back-to-the-moon",
+  "duration_minutes": 35.916666666666664,
+  "influence_tier": "medium",
+  "category": "tech_policy",
+  "summary": "This episode discusses NASA's Artemis program to return humans to the moon after more than 50 years, examining the scientific, economic, and geopolitical motivations for lunar exploration. Casey Dreyer from the Planetary Society explains how Artemis achieves political stability through broad coalition-building, the role of commercial partnerships in reducing costs, and concerns about space militarization amid U.S.-China competition. The conversation addresses public misconceptions about NASA's budget (0.3% of federal spending) and emphasizes the importance of maintaining space exploration as a source of scientific discovery and national inspiration alongside emerging commercial and defense priorities.",
+  "science_topics": [
+    "Lunar exploration and landing technology",
+    "Mars rover operations and capabilities",
+    "Climate change on Mars and Venus - atmospheric evolution and runaway greenhouse effect",
+    "Earth observation satellites and remote sensing",
+    "Space-based telescopes and astronomical observations",
+    "Reusable rocket technology and propulsion systems",
+    "Spacecraft design and engineering for human spaceflight",
+    "Orbital mechanics and satellite operations"
+  ],
+  "claims_to_note": [
+    "Venus experienced a runaway greenhouse effect and is hot enough to melt lead - consistent with scientific consensus",
+    "Mars became cold, dry, and arid through climate change - accurate description of Mars atmospheric loss",
+    "Earth is in a 'Goldilocks' climate zone compared to Venus (too hot) and Mars (too cold) - accurate comparative planetology",
+    "NASA budget is approximately 0.3% of annual U.S. federal expenditures - factually accurate",
+    "Social Security spends the equivalent of NASA's budget every six days - claim requires verification of specific figures",
+    "Medicaid and Medicare combined spend NASA's budget equivalent every 12 days - claim requires verification",
+    "Housing and Urban Development has 10 times NASA's budget - claim requires verification",
+    "GPS originated from NASA space program - accurate (originally NAVSTAR system, U.S. DoD/military)",
+    "Communications satellites pioneered by NASA in 1970s - accurate historical claim",
+    "The Outer Space Treaty forbids weapons of mass destruction in space - accurate legal statement",
+    "Artemis has bipartisan support across Trump and Biden administrations - factually accurate",
+    "Last lunar landing was more than 50 years ago (Apollo 17 was 1972) - accurate as of 2026 date"
+  ],
+  "policy_relevance": [
+    "NASA's Artemis program as flagship U.S. space policy initiative with multi-administration support",
+    "Commercial contracts and fixed-price agreements changing NASA procurement practices",
+    "Trump administration proposal to cut NASA science activities by 47% - political battle over science funding priorities",
+    "Congressional restoration of NASA budget cuts through advocacy efforts",
+    "Creation of U.S. Space Force as independent military space command",
+    "GPS system operation under Space Force authority",
+    "Outer Space Treaty international agreement governing space weapons",
+    "U.S.-China space competition and geopolitical rivalry in lunar exploration",
+    "Department of Defense independent weather satellite system separate from NOAA",
+    "Starlink commercial satellite system military applications in Ukraine conflict",
+    "Space militarization and dual-use technology concerns in policy discussions",
+    "NASA's role in Earth climate monitoring as public priority",
+    "Asteroid detection and planetary defense as stated public priority for NASA"
+  ],
+  "key_quotes": [
+    "having a very ambitious, technically challenging goal that drives cooperation, peaceful cooperation by default, that requires almost peaceful engagement and cooperation with our allies in addition to kind of within the nation itself is a fundamentally positive social and geopolitical thing to do",
+    "There's something good for the soul in that, frankly, and we need positive opportunities and examples like that, things that are unifying activities rather than divisive ones",
+    "What NASA has done with Artemis, however, it's taken these kind of initial successes of SpaceX, particularly SpaceX, but also these kind of other Earth observation platforms and so forth, and said, well, what if we just expand this everywhere? And that's kind of the big unknown to say there is no market right now at the moon"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Lunar exploration and landing technology",
+      "publications": [
+        {
+          "id": "25802",
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "electronic books",
+            "plasma science funding workforce",
+            "enabling technology sustainability security",
+            "identifies important grand challenges",
+            "help federal agencies policymakers",
+            "transforms fundamental scientific",
+            "powerful societal applications",
+            "academic leadership understand",
+            "forecasting space weather",
+            "make informed decisions",
+            "materials processing",
+            "plasma science",
+            "exploration"
+          ],
+          "description": "Plasma Science and Engineering transforms fundamental scientific research into powerful societal applications, from materials processing and healthcare to forecasting space weather. Plasma Science: Enabling Technology, Sustainability, Security and Exploration discusses the importance of plasma research, identifies important grand challenges for the next decade, and makes recommendations on funding and workforce. This publication will help federal agencies, policymakers, and academic leadership understand the importance of plasma research and make informed decisions about plasma science funding, workforce, and research directions.",
+          "year": 2021,
+          "page_keywords": [
+            "Electronic books"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on a Decadal Assessment "
+        },
+        {
+          "id": "13354",
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "restoring nasa",
+            "technological edge",
+            "priorities",
+            "paving",
+            "way",
+            "era"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        },
+        {
+          "id": "23582",
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "priorities revisited"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Mars rover operations and capabilities",
+      "publications": [
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        },
+        {
+          "id": "25837",
+          "title": "Respiratory Health Effects of Airborne Hazards Exposures in the Southwest Asia Theater of Military Operations",
+          "url": "https://nap.nationalacademies.org/catalog/25837/respiratory-health-effects-of-airborne-hazards-exposures-in-the-southwest-asia-theater-of-military-operations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "afghanistan exposed service members",
+            "stressors like excessive heat",
+            "military operations reviews",
+            "military operations since",
+            "open burn pits dust",
+            "respiratory health effects",
+            "operations taking place",
+            "southwest asia theater",
+            "airborne hazards exposures",
+            "oman oman qatar",
+            "military operations"
+          ],
+          "description": "More than 3.7 million U.S. service members have participated in operations taking place in the Southwest Asia Theater of Military Operations since 1990. These operations include the 1990-1991 Persian Gulf War, a post-war stabilization period spanning 1992 through September 2001, and the campaigns undertaken in the wake of the September 11, 2001, attacks. Deployment to Iraq, Kuwait, Saudi Arabia, Bahrain, Gulf of Aden, Gulf of Oman, Oman, Qatar, the United Arab Emirates, and Afghanistan exposed service members to a number of airborne hazards, including oil-well fire smoke, emissions from open burn pits, dust and sand suspended in the air, and exhaust from diesel vehicles. The effects of these were compounded by stressors like excessive heat and noise that are inevitable attributes of service in a combat environment. Respiratory Health Effects of Airborne Hazards Exposures in the Southwest Asia Theater of Military Operations reviews the scientific evidence regarding respiratory health ou",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "26128",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "present space weather monitoring",
+            "space weather operations",
+            "space weather program",
+            "space administration",
+            "two part virtual",
+            "observational infrastructure",
+            "atmospheric administration",
+            "forecasting capabilities",
+            "consider options",
+            "effective resilient",
+            "infrastructure",
+            "planning"
+          ],
+          "description": "In response to a request from the National Oceanic and Atmospheric Administration - and with the support of the National Aeronautics and Space Administration and the National Science Foundation - the National Academies of Sciences, Engineering, and Medicine conducted a two-part virtual workshop, Space Weather Operations and Research Infrastructure, on June 16-17 and September 9-11, 2020. The overall goals of the workshop were to review present space weather monitoring and forecasting capabilities, to consider future observational infrastructure and research needs, and to consider options toward the further development of an effective, resilient, and achievable national space weather program. This publication summarizes the presentation and discussion of the workshop.",
+          "year": 2021,
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Climate change on Mars and Venus - atmospheric evolution and runaway greenhouse effect",
+      "publications": [
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        },
+        {
+          "id": "24919",
+          "title": "Sustaining Ocean Observations to Understand Future Changes in Earth's Climate",
+          "url": "https://nap.nationalacademies.org/catalog/24919/sustaining-ocean-observations-to-understand-future-changes-in-earths-climate",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "atmosphere notably carbon dioxide",
+            "increasingly face complex decisions",
+            "facilitating climate prediction",
+            "carbon dioxide associated",
+            "fossil fuel combustion",
+            "climate change",
+            "fresh water lost",
+            "climate system",
+            "ocean acidification",
+            "carbon absorbing",
+            "sustaining ocean observations",
+            "understand",
+            "changes",
+            "climate",
+            "earth"
+          ],
+          "description": "The ocean is an integral component of the Earth's climate system. It covers about 70% of the Earth's surface and acts as its primary reservoir of heat and carbon, absorbing over 90% of the surplus heat and about 30% of the carbon dioxide associated with human activities, and receiving close to 100% of fresh water lost from land ice. With the accumulation of greenhouse gases in the atmosphere, notably carbon dioxide from fossil fuel combustion, the Earth's climate is now changing more rapidly than at any time since the advent of human societies. Society will increasingly face complex decisions about how to mitigate the adverse impacts of climate change such as droughts, sea-level rise, ocean acidification, species loss, changes to growing seasons, and stronger and possibly more frequent storms. Observations play a foundational role in documenting the state and variability of components of the climate system and facilitating climate prediction and scenario development. Regular and consis",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "12785",
+          "title": "Limiting the Magnitude of Future Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/12785/limiting-the-magnitude-of-future-climate-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "reduce greenhouse gas emissions",
+            "global emissions behind china",
+            "global atmospheric concentration",
+            "climate change driven",
+            "climate change part",
+            "dominant greenhouse gas",
+            "congressionally requested america",
+            "second largest contributor",
+            "climate choices suite",
+            "largest overall source",
+            "climate change",
+            "magnitude",
+            "limiting"
+          ],
+          "description": "Climate change, driven by the increasing concentration of greenhouse gases in the atmosphere, poses serious, wide-ranging threats to human societies and natural ecosystems around the world. The largest overall source of greenhouse gas emissions is the burning of fossil fuels. The global atmospheric concentration of carbon dioxide, the dominant greenhouse gas of concern, is increasing by roughly two parts per million per year, and the United States is currently the second-largest contributor to global emissions behind China. Limiting the Magnitude of Future Climate Change, part of the congressionally requested America's Climate Choices suite of studies, focuses on the role of the United States in the global effort to reduce greenhouse gas emissions. The book concludes that in order to ensure that all levels of government, the private sector, and millions of households and individuals are contributing to shared national goals, the United States should establish a \"budget\" that sets a lim",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Earth observation satellites and remote sensing",
+      "publications": [
+        {
+          "id": "24938",
+          "title": "Thriving on Our Changing Planet: A Decadal Strategy for Earth Observation from Space",
+          "url": "https://nap.nationalacademies.org/catalog/24938/thriving-on-our-changing-planet-a-decadal-strategy-for-earth",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "opportunities social economic security",
+            "human induced environmental change",
+            "prioritized science applications",
+            "exploring earth developing",
+            "dynamic earth shaped",
+            "natural processes",
+            "changing planet",
+            "continuously monitoring",
+            "evolving behavior",
+            "programmatic guidance",
+            "earth observation",
+            "decadal strategy",
+            "thriving",
+            "space"
+          ],
+          "description": "We live on a dynamic Earth shaped by both natural processes and the impacts of humans on their environment. It is in our collective interest to observe and understand our planet, and to predict future behavior to the extent possible, in order to effectively manage resources, successfully respond to threats from natural and human-induced environmental change, and capitalize on the opportunities â€\" social, economic, security, and more â€\" that such knowledge can bring. By continuously monitoring and exploring Earth, developing a deep understanding of its evolving behavior, and characterizing the processes that shape and reshape the environment in which we live, we not only advance knowledge and basic discovery about our planet, but we further develop the foundation upon which benefits to society are built. Thriving on Our Changing Planet presents prioritized science, applications, and observations, along with related strategic and programmatic guidance, to support the U.S. civil space E",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "26925",
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "atmosphere hydrosphere geosphere cryosphere",
+            "cultivate cross disciplinary collaborations",
+            "critical topic tipping points",
+            "earth systems science",
+            "observational platforms laboratory",
+            "skilled scientific workforce",
+            "physical chemical biological",
+            "interconnected processes",
+            "behavioral processes",
+            "myriad interactions",
+            "tipping points cascading impacts",
+            "interacting risks",
+            "earth system"
+          ],
+          "description": "Earth is a complex system, with myriad interactions and feedbacks among the atmosphere, hydrosphere, geosphere, cryosphere, and biosphere, as well as the people, institutions, and technologies that respond to and influence these dynamics. A systems-based approach to scientific research can yield understanding across all aspects of Earth's interconnected processes. Earth systems studies rest on careful analyses of physical, chemical, biological, and behavioral processes and their interactions and feedbacks; these studies are supported by observational platforms, laboratory and modeling facilities, a skilled scientific workforce, and the cyberinfrastructure that connects them to enable new breakthroughs. This workshop was organized to explore the approaches to Earth systems science through the lens of a critical topic - tipping points - and to cultivate cross-disciplinary collaborations and prime new research communities to discuss examples of research needs in a broader context of Earth",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Space-based telescopes and astronomical observations",
+      "publications": [
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        },
+        {
+          "id": "28594",
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594",
+          "topics": [
+            "space"
+          ],
+          "keywords": [
+            "mars",
+            "human exploration",
+            "space exploration",
+            "mars exploration",
+            "planetary science",
+            "astrobiology",
+            "nasa",
+            "human spaceflight",
+            "science strategy",
+            "search for life",
+            "mars mission"
+          ],
+          "year": 2025,
+          "description": "Identifies the highest-priority science objectives for the first human missions to Mars, with searching for evidence of existing or past life as the top priority."
+        },
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 6298,
+  "saved_at": "2026-03-09T11:59:20.513508"
+}
