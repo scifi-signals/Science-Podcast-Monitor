@@ -1,0 +1,488 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "AI Music Is On The Charts. Where Does It Go From Here?",
+  "host": "Ira Flatow",
+  "published": "2026-03-10T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 21.183333333333334,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Friday episode examines the rapid emergence of AI-generated music into mainstream charts and streaming platforms, featuring discussion of companies like Suno and UDO that can generate songs from text prompts. The episode explores how AI music is being adopted differently across genres (particularly gospel, country, and formulaic styles), how the music industry is shifting from lawsuits to partnerships with AI companies, and features perspectives from Billboard's Kirsten Robinson on the current landscape and pioneering electronic musician Laurie Spiegel on the artistic and human dimensions of music creation that current AI systems lack.",
+  "science_topics": [
+    "Generative AI music production and large language models",
+    "Machine learning training on copyrighted musical material",
+    "Audio signal processing and audio quality assessment",
+    "Human perception and discrimination of AI-generated versus human-created audio",
+    "Algorithmic composition and harmonic analysis (Bach chorales)",
+    "Neural network-based music generation systems"
+  ],
+  "claims_to_note": [
+    "Deezer study claims 97% of listeners cannot distinguish between AI-generated and human-made songs",
+    "Suno generates 7 million songs per day (per investor pitch deck)",
+    "Billboard charts reportedly contain unknown amounts of AI-generated material not disclosed by producers",
+    "AI music models like Suno train on copyrighted material without licensing or compensation to rights holders",
+    "Gospel and country music are particularly susceptible to AI generation due to formulaic chord structures and lyrical patterns"
+  ],
+  "policy_relevance": [
+    "Major music labels previously pursued litigation against AI music companies, now shifting to licensing partnerships",
+    "Copyright and intellectual property issues regarding AI training on unlicensed copyrighted material",
+    "Recent partnerships between traditional music labels (Hollywood Media, Spotify) and AI music startups",
+    "Lack of disclosure requirements for AI-generated music in commercial releases and chart listings",
+    "Potential regulatory gaps around rights compensation for artists whose work trains AI models"
+  ],
+  "key_quotes": [
+    "I'm seeing a shocking number of professional songwriters and producers telling me mostly off the record that they are using Suno as part of professional songwriting sessions now. And so a lot of them have posited to me that there are probably songs on the Hot 100 right now that have bits and pieces of AI-generated material that is not disclosed.",
+    "In the arts, it's not a matter of keeping up. It's a matter of something honest and authentic coming from inside of you that you can embody in an experience external to you that you can share with other people.",
+    "Emotions are kind of...an essential component of music. And this is where the AIs kind of fall down, they don't have them."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Generative AI music production and large language models",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Machine learning training on copyrighted musical material",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26566",
+          "title": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26566/machine-learning-and-artificial-intelligence-to-advance-earth-system-science",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "advance earth system science",
+            "large complex multiscale system",
+            "explored educational pathways responsible",
+            "circulate energy water nutrients",
+            "natural system interactions",
+            "link scientific communities",
+            "atmospheric hydrologic geologic",
+            "behavioral scientists ethicists",
+            "actively exploring ways",
+            "opportunities around",
+            "artificial intelligence",
+            "machine learning",
+            "opportunities",
+            "challenges"
+          ],
+          "description": "The Earth system - the atmospheric, hydrologic, geologic, and biologic cycles that circulate energy, water, nutrients, and other trace substances - is a large, complex, multiscale system in space and time that involves human and natural system interactions. Machine learning (ML) and artificial intelligence (AI) offer opportunities to understand and predict this system. Researchers are actively exploring ways to use ML/AI approaches to advance scientific discovery, speed computation, and link scientific communities. To address the challenges and opportunities around using ML/AI to advance Earth system science, the National Academies convened a workshop in February 2022 that brought together Earth system experts, ML/AI researchers, social and behavioral scientists, ethicists, and decision makers to discuss approaches to improving understanding, analysis, modeling, and prediction. Participants also explored educational pathways, responsible and ethical use of these technologies, and oppor",
+          "year": 2022,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Audio signal processing and audio quality assessment",
+      "publications": [
+        {
+          "id": "29065",
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "support normal physical growth",
+            "demonstrate quality factors",
+            "quality particularly critical",
+            "certain quality factors",
+            "drug omnibus reform act",
+            "science regarding methodologies",
+            "drug administration asked",
+            "infant formula",
+            "protein quality",
+            "biological quality",
+            "quality factor requirements",
+            "growth monitoring"
+          ],
+          "description": "Formula is often the sole source of nutrition for many infants, making its safety and quality particularly critical. While most food laws and regulations apply to infant formulas, they are also subject to additional requirements and manufacturer regulations for certain quality factors. These include an assessment of protein quality and demonstration that the formula supports normal infant physical growth. Per the Food and Drug Omnibus Reform Act of 2022, the U.S. Food and Drug Administration asked the National Academies to examine and report on the state of the science regarding methodologies for assessing the biological quality of protein in infant formula and the ability of infant formula to support normal physical growth. The committee's statement of task noted that its analysis should include the examination of current study designs and methods that could demonstrate quality factors have been met. The resulting report presents conclusions, recommendations, and areas of future resea",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "10681",
+          "title": "Health Professions Education: A Bridge to Quality",
+          "url": "https://nap.nationalacademies.org/catalog/10681/health-professions-education-a-bridge-to-quality",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health professions education",
+            "health education improvement",
+            "quality chasm recommended",
+            "participants across disciplines",
+            "occupations developed ideas",
+            "better prepares clinicians",
+            "health professionals",
+            "quality improvement",
+            "interdisciplinary summit",
+            "enhance quality",
+            "quality",
+            "bridge"
+          ],
+          "description": "The Institute of Medicine study Crossing the Quality Chasm (2001) recommended that an interdisciplinary summit be held to further reform of health professions education in order to enhance quality and patient safety. Health Professions Education: A Bridge to Quality is the follow up to that summit, held in June 2002, where 150 participants across disciplines and occupations developed ideas about how to integrate a core set of competencies into health professions education. These core competencies include patient-centered care, interdisciplinary teams, evidence-based practice, quality improvement, and informatics. This book recommends a mix of approaches to health education improvement, including those related to oversight processes, the training environment, research, public reporting, and leadership. Educators, administrators, and health professionals can use this book to help achieve an approach to education that better prepares clinicians to meet both the needs of patients and the r",
+          "year": 2003,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Human perception and discrimination of AI-generated versus human-created audio",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "27129",
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "attitudes behaviors social cohesion",
+            "built infrastructure reshaping mandates",
+            "entail massive socio emotional",
+            "adaptive societal responses",
+            "enhanced human responses",
+            "scale societal responses",
+            "translating policies investments",
+            "environmental change",
+            "climate change",
+            "sustained local impact",
+            "integrating",
+            "human"
+          ],
+          "description": "Responding to climate change will entail massive socio-emotional and behavioral changes. Translating policies, investments, or built infrastructure-reshaping mandates into real and sustained local impact that incorporates accountability and culture change will require hands-on work. Adaptive societal responses to climate change will succeed or fail based on the attitudes, behaviors, social cohesion and capital, organizational and emotional strengths, and collective impact and input of all stakeholders. To consider how to integrate, align, and converge the broad mix of social, behavioral, and cognitive sciences to produce new insights and inform efforts for enhanced human responses to environmental change, Board on Environmental Change and Society of the National Academies of Sciences, Engineering and Medicine convened this 2023 workshop, entitled Committee on Integrating the Human Sciences to Scale Societal Responses to Environmental Change: A Workshop. The workshop was intended to inv",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Environmental Change And Societ"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Algorithmic composition and harmonic analysis (Bach chorales)",
+      "publications": [
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "10924",
+          "title": "Forensic Analysis: Weighing Bullet Lead Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/10924/forensic-analysis-weighing-bullet-lead-evidence",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "law",
+            "recovered bullet cabl",
+            "bullet lead cabl",
+            "fbi take additional measures",
+            "different statistical analysis",
+            "compositional analysis",
+            "forensic analysis",
+            "elemental composition",
+            "forensic technique",
+            "bullets found",
+            "cabl finding",
+            "weighing bullet lead evidence"
+          ],
+          "description": "Since the 1960s, testimony by representatives of the Federal Bureau of Investigation in thousands of criminal cases has relied on evidence from Compositional Analysis of Bullet Lead (CABL), a forensic technique that compares the elemental composition of bullets found at a crime scene to the elemental composition of bullets found in a suspect's possession. Different from ballistics techniques that compare striations on the barrel of a gun to those on a recovered bullet, CABL is used when no gun is recovered or when bullets are too small or mangled to observe striations. Forensic Analysis: Weighing Bullet Lead Evidence assesses the scientific validity of CABL, finding that the FBI should use a different statistical analysis for the technique and that, given variations in bullet manufacturing processes, expert witnesses should make clear the very limited conclusions that CABL results can support. The report also recommends that the FBI take additional measures to ensure the validity of CA",
+          "year": 2004,
+          "page_keywords": [
+            "Law"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "25342",
+          "title": "Guide for the Analysis of Multimodal Corridor Access Management",
+          "url": "https://nap.nationalacademies.org/catalog/25342/guide-for-the-analysis-of-multimodal-corridor-access-management",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "multimodal corridor access management",
+            "analysis",
+            "guide"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3496,
+  "saved_at": "2026-03-10T12:09:52.712902"
+}

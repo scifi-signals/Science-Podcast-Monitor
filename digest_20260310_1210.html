@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 10, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 10, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">33</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">20</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">82</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reflects sustained momentum across three distinct domains: fundamental science (gravitational physics, sexual orientation biology), applied innovation (circular economy waste management, AI-generated music), and policy implementation (education choice frameworks). The recurring theme across podcasts and Bluesky is the intersection of scientific discovery with societal systems—how biological mechanisms influence social identity, how emerging technologies disrupt established industries, and how policy frameworks must accommodate diverse human needs. Notably, the AI music discussion and circular economy debate both highlight tension between technological disruption and established stakeholder interests, while sexuality research underscores the importance of acknowledging harmful historical contexts in contemporary science. Bluesky data shows sustained interest in space missions, seismic monitoring, and science funding policy, indicating consistent public engagement with infrastructure-dependent research areas.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>AI-generated content entering mainstream systems (music charts) with unclear disclosure and attribution—parallels to synthetic media governance challenges</li>
+<li>Circular economy and extended producer responsibility as market-aligned sustainability models versus linear waste paradigm</li>
+<li>Gravitational physics and cosmological mechanisms (gravitons, artificial gravity, galaxy collisions) as foundational science with public curiosity</li>
+<li>Biological determinants of human diversity (sexual orientation birth order effects) requiring nuanced communication to avoid deterministic framing</li>
+<li>Science funding instability and policy-driven research cancellations impacting mission timelines (NASA, NIH, NSF)</li>
+<li>Community-engaged science methodologies (seismic monitoring with citizen instruments, participatory research) emerging as legitimate data sources</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>AI music adoption accelerating faster than legal/attribution frameworks—industry shifting from litigation to partnership model (first appearance in Science Friday, reinforces 2026-03-10 pattern)</li>
+<li>Extended producer responsibility (EPR) and circular economy shifting from niche sustainability concept to mainstream policy discussion across US states</li>
+<li>Citizen science seismic monitoring (Raspishake networks) providing real-time earthquake data alongside institutional networks—democratizing geophysics</li>
+<li>Sexual orientation etiology research expanding to women/non-male populations, complicating previous male-specific biological hypotheses (noted as recent complication in Short Wave)</li>
+<li>Space infrastructure missions (JAXA MMX, Psyche gravity assist) gaining public traction on Bluesky—sustained interest in planetary science beyond Moon/Mars</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment on AI-generated music governance: Copyright treatment, attribution standards, and platforms' disclosure obligations—addresses urgent policy gap before industry standards calcify</div>
+<div class="opportunity">Convene working group on extended producer responsibility (EPR) policy harmonization across US jurisdictions—opportunity to shape circular economy infrastructure standards based on Closed Loop Partners and NYC sanitation data</div>
+<div class="opportunity">Develop communication guidance for sexuality and sexual orientation research: Address historical harms in research ethics while communicating current biological findings without deterministic framing—particularly relevant given fraternal birth order effect media attention</div>
+<div class="opportunity">Establish framework for validating citizen science seismic networks (Raspishake, similar platforms): Standards for data quality, integration with USGS/IRIS networks, and community engagement protocols</div>
+<div class="opportunity">Review science funding predictability crisis: Coordinate with NSF/NIH leadership on impacts of budget delays and mission cancellations on research continuity (per Bluesky science policy posts)</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Claim: 'Open-air landfills are the second-largest global emitter of greenhouse gases after only certain energy sectors' (Shaping Science, Ron Gonen)—REQUIRES VERIFICATION against EPA/IPCC GHG inventory rankings. Landfills are significant methane sources but relative ranking should be confirmed with authoritative emissions data.</div>
+<div class="claim">Claim: 'Deezer study claims 97% of listeners cannot distinguish between AI-generated and human-made songs' (Science Friday)—Single study finding presented without confidence intervals or replication status; listener discrimination ability likely varies by genre and training. Recommend cautious media interpretation.</div>
+<div class="claim">Claim: 'Electromagnetism is 42 orders of magnitude stronger than gravity' (StarTalk Radio, Neil deGrasse Tyson)—Technically accurate as commonly cited figure but context-dependent (comparing specific scales). Requires explicit caveat in popularization to avoid oversimplification.</div>
+<div class="claim">Claim: 'Food waste represents 40% of total waste stream in the US' (Shaping Science)—VERIFY against EPA Waste Characterization Data; national percentages vary significantly by region and methodology. Should distinguish between mass and economic value measures.</div>
+<div class="claim">Claim: '1 million of 3 million school-age students in Florida participate in schools of choice (~33%), highest in country' (Policy Chats)—VERIFY against current Florida Department of Education enrollment data and comparable state figures for accuracy.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Systems and Content Generation Ethics</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (2026-03-10) examined generative AI in music production and machine learning trained on copyrighted material, raising questions about attribution and ownership. This reflects growing STEM media focus on how AI systems trained on human-created work affect creators and IP frameworks. The episode distinguished between technical capabilities (audio processing, human perception discrimination) and policy implications, suggesting the science community is grappling with AI deployment ahead of regulatory clarity.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise policymakers on the technical feasibility and limitations of AI content detection systems and establish evidence-based standards for AI-generated media disclosure.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Waste-to-Energy and Circular Material Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Shaping Science (2026-03-09) covered anaerobic digestion, compost production, and algae-based textile alternatives as responses to methane emissions and landfill waste. This represents a consolidating narrative around converting organic waste into feedstocks (biogas, fertilizer, novel materials) rather than disposal. The focus on material science alternatives (lab-grown Gore-Tex) alongside biological processes suggests the field is integrating chemistry and biology solutions to reduce greenhouse gas emissions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can synthesize technical readiness assessments of emerging waste conversion technologies and advise on infrastructure investments needed to scale anaerobic digestion and alternative material production.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Lunar Habitation and In-Situ Resource Utilization</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Skeptics' Guide to the Universe (2026-03-07) discussed growing crops in simulated lunar regolith using vermicompost and mycorrhizal fungi, while TechTank (2026-03-09) covered lunar landing technology. Together, these episodes reflect convergence on how human crews will actually live on the Moon—moving from pure exploration to sustained habitability through biological and agricultural systems. The focus on regolith chemistry and biology integration shows the field transitioning from "can we get there" to "can we stay there."</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTalk</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should coordinate interdisciplinary assessments of lunar life support and agriculture to prioritize research gaps in regolith biology, crop productivity, and closed-loop nutrient cycling for NASA's Artemis program.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Viral Immunity and Therapeutic Antibody Development</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast (2026-03-06) examined RSV and HMPV antibody responses with emphasis on occupational exposure and monoclonal antibody cocktails, while Unbiased Science (2026-03-04) covered food allergy immunotherapy mechanisms. Both shows highlight precision immune response targeting—moving from broad vaccination to tailored antibody and immunotherapy interventions. The overlap between respiratory viral immunity and food allergy treatment suggests immunology is converging on mechanism-specific therapeutic strategies rather than one-size-fits-all approaches.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should evaluate the clinical evidence base and scalability of monoclonal antibody cocktails and immunotherapy platforms to inform FDA regulatory pathways and public health procurement strategies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Health and Infrastructure-Disease Linkages</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (2026-03-07) connected noise pollution epidemiology, water quality, and environmental health outcomes through community-based participatory research and infrastructure failure relationships. This represents an emerging meta-narrative that individual health outcomes are increasingly understood through infrastructural and environmental systems rather than purely behavioral or genetic factors. The methodology emphasis (participatory research) signals a shift toward co-produced evidence with affected communities.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish research priorities on how aging infrastructure (water systems, noise barriers, green space) drives health disparities and develop frameworks for integrating infrastructure and public health policy.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Cosmic Queries – Gravitons & Hyperspeed</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Mar 10 &middot; 41 min</div>
+<p style="margin:10px 0;font-size:14px;">Neil deGrasse Tyson hosts a Cosmic Queries Grab Bag episode addressing fan questions about physics and astronomy. Topics include electromagnetic principles in electricity generation, gravitational waves and the search for gravitons, artificial gravity in spacecraft, galaxy collisions despite cosmic expansion, and how black holes bend light around themselves. Tyson emphasizes foundational physics principles like Faraday's electromagnetic induction, the weakness of gravity relative to electromagnetism, and relativistic invariants across different reference frames.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Electromagnetic induction and electricity generation (Faraday's law)</span>
+  <span class="topic-tag">Gravitational waves and gravitons</span>
+  <span class="topic-tag">Artificial gravity in spacecraft and inertial forces</span>
+  <span class="topic-tag">Warp drives versus hyperspace in relativity</span>
+  <span class="topic-tag">Blue stragglers in star clusters (stellar collisions)</span>
+  <span class="topic-tag">Space-based solar power arrays</span>
+  <span class="topic-tag">Galaxy rotation and angular momentum</span>
+  <span class="topic-tag">Spiral galaxy orientation bias in astronomical surveys</span>
+  <span class="topic-tag">Milky Way-Andromeda galaxy collision</span>
+  <span class="topic-tag">Cosmic expansion and the Big Rip scenario</span>
+  <span class="topic-tag">Black hole accretion disks and gravitational lensing</span>
+  <span class="topic-tag">Relativistic invariants and spacetime geometry</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of" target="_blank">Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Electricity from Renewable Resources: Status, Prospects, and Impediments</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23560/new-worlds-new-horizons-a-midterm-assessment" target="_blank">New Worlds, New Horizons: A Midterm Assessment</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical" target="_blank">Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27742/ship-collisions-with-bridges-the-nature-of-the-accidents-their" target="_blank">Ship Collisions with Bridges: The Nature of the Accidents, Their Prevention and Mitigation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Electromagnetism is 42 orders of magnitude stronger than gravity — this is a commonly cited figure in physics but specific context (comparing specific scales) matters for accuracy</div>
+<div class="claim">Only 1% of the sun's hydrogen participates in fusion at any given time — reasonable approximation given core composition but should be verified against stellar physics literature</div>
+<div class="claim">Blue stragglers are formed by stellar collisions/mergers in clusters — this is one explanation; mass transfer from binary systems is also significant and both mechanisms operate</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"All electricity is still made today. That's right. All electricity through motion... It's turbines all the way down, baby."</div>
+<div class="quote">"Bend down and pick up a rock. Okay? The entire earth was insufficient to prevent you from picking up the rock... You thwart it. And all you do is come by just like, look at you little girly Earth."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Sibling order may affect sexuality and identity</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 10 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the fraternal birth order effect—a well-documented but still-mysterious pattern where gay men, and surprisingly gay women, tend to have more older brothers than other siblings. Scientists have studied this effect across numerous countries and proposed the maternal immune hypothesis as a biological explanation, where a mother's immune response to male fetus proteins may influence the sexuality of subsequent male children. However, recent large-scale research showing the effect also appears in women has complicated this hypothesis, leaving the underlying mechanism still unresolved. The episode also explores the troubling historical context of sexuality research, which began with eugenics-informed studies aimed at 'curing' homosexuality during a time when being queer was criminalized and dangerous.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Fraternal birth order effect in sexual orientation</span>
+  <span class="topic-tag">Maternal immune hypothesis for sexual orientation development</span>
+  <span class="topic-tag">Male-specific protein antibodies and fetal development</span>
+  <span class="topic-tag">Sibling influences on human development</span>
+  <span class="topic-tag">Sexual orientation etiology and genetic/biological factors</span>
+  <span class="topic-tag">Same-sex marriage demographics and birth order patterns</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation" target="_blank">Measuring Sex, Gender Identity, and Sexual Orientation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence" target="_blank">Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation" target="_blank">Measuring Sex, Gender Identity, and Sexual Orientation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18617/refining-processes-for-the-co-development-of-genome-based-therapeutics-and-companion-diagnostic-tests" target="_blank">Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation" target="_blank">Measuring Sex, Gender Identity, and Sexual Orientation</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Baseline rate of male same-sex attraction cited as 2-3 percent</div>
+<div class="claim">Fraternal birth order effect shows approximately 33 percent increase in probability of male same-sex attraction per older brother</div>
+<div class="claim">The effect has been found consistently across U.S., Turkey, Canada, Netherlands, Samoa, Mexico, and Brazil</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Men, specifically, who exhibit attraction to the same sex are likely to have more older brothers than other types of siblings... Lots of gay men are the youngest brothers in their families. It basically established as kind of a truth even though we have to be very careful with the term truth when it comes to science."</div>
+<div class="quote">"The queer people scientists we're studying were also living in a world where this facet of their identity was dangerous. It was criminal. It was career-destroying, life-destroying... So the closet was a dangerous place to be. Outside of the closet was a dangerous place to be."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: AI Music Is On The Charts. Where Does It Go From Here?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 10 &middot; 21 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode examines the rapid emergence of AI-generated music into mainstream charts and streaming platforms, featuring discussion of companies like Suno and UDO that can generate songs from text prompts. The episode explores how AI music is being adopted differently across genres (particularly gospel, country, and formulaic styles), how the music industry is shifting from lawsuits to partnerships with AI companies, and features perspectives from Billboard's Kirsten Robinson on the current landscape and pioneering electronic musician Laurie Spiegel on the artistic and human dimensions of music creation that current AI systems lack.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Generative AI music production and large language models</span>
+  <span class="topic-tag">Machine learning training on copyrighted musical material</span>
+  <span class="topic-tag">Audio signal processing and audio quality assessment</span>
+  <span class="topic-tag">Human perception and discrimination of AI-generated versus human-created audio</span>
+  <span class="topic-tag">Algorithmic composition and harmonic analysis (Bach chorales)</span>
+  <span class="topic-tag">Neural network-based music generation systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10924/forensic-analysis-weighing-bullet-lead-evidence" target="_blank">Forensic Analysis: Weighing Bullet Lead Evidence</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Deezer study claims 97% of listeners cannot distinguish between AI-generated and human-made songs</div>
+<div class="claim">Suno generates 7 million songs per day (per investor pitch deck)</div>
+<div class="claim">Billboard charts reportedly contain unknown amounts of AI-generated material not disclosed by producers</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I'm seeing a shocking number of professional songwriters and producers telling me mostly off the record that they are using Suno as part of professional songwriting sessions now. And so a lot of them have posited to me that there are probably songs on the Hot 100 right now that have bits and pieces of AI-generated material that is not disclosed."</div>
+<div class="quote">"In the arts, it's not a matter of keeping up. It's a matter of something honest and authentic coming from inside of you that you can embody in an experience external to you that you can share with other people."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Shaping Science: #13 Ron Gonen on Reducing Landfill Waste, Effective Messaging Around Sustainability, and the Case for Extended Producer Responsibility</span>
+</div>
+<div class="episode-meta">Nick Dirks (New York Academy of Sciences) &middot; Mar 09 &middot; 50 min</div>
+<p style="margin:10px 0;font-size:14px;">Ron Gonen, founder of Closed Loop Partners and former NYC Deputy Commissioner of Sanitation, discusses the transition from a linear to circular economy. He traces the historical shift from pre-WWII reuse culture to post-WWII consumer culture driven by advertising and planned obsolescence, exemplified by light bulb cartels and plastic proliferation. The conversation covers major waste streams—food waste ($200M annually in NYC), fast fashion (8% of waste), and other materials—arguing that extended producer responsibility (EPR) policies and technological innovations can align free-market capitalism with sustainability while reducing taxpayer burden.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Anaerobic digestion of food waste for biogas production</span>
+  <span class="topic-tag">Compost production from organic waste as fertilizer</span>
+  <span class="topic-tag">Methane emissions from open-air landfills as greenhouse gas source</span>
+  <span class="topic-tag">Material science alternatives: algae-based textiles, lab-grown Gore-Tex substitutes</span>
+  <span class="topic-tag">Fiber depolymerization and deconstruction technologies for cotton and polyester recycling</span>
+  <span class="topic-tag">Planned obsolescence in product design (historical light bulb example)</span>
+  <span class="topic-tag">Microplastic and chemical leaching from degraded plastics at elevated temperatures</span>
+  <span class="topic-tag">Bioplastics and compostable plastic production</span>
+  <span class="topic-tag">Water and chemical intensity of conventional cotton agriculture</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25876/a-national-strategy-to-reduce-food-waste-at-the-consumer-level" target="_blank">A National Strategy to Reduce Food Waste at the Consumer Level</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25876/a-national-strategy-to-reduce-food-waste-at-the-consumer-level" target="_blank">A National Strategy to Reduce Food Waste at the Consumer Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare" target="_blank">Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13078/learning-science-through-computer-games-and-simulations" target="_blank">Learning Science Through Computer Games and Simulations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23674/communicating-science-effectively-a-research-agenda" target="_blank">Communicating Science Effectively: A Research Agenda</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26092/assessment-of-technologies-for-improving-light-duty-vehicle-fuel-economy-2025-2035" target="_blank">Assessment of Technologies for Improving Light-Duty Vehicle Fuel Economy—2025-2035</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Open-air landfills are the second-largest global emitter of greenhouse gases after only certain energy sectors—verify against IPCC/EPA GHG inventory rankings</div>
+<div class="claim">Food waste represents 40% of total waste stream in the US (varies by country)—confirm against EPA waste characterization data</div>
+<div class="claim">NYC spends $200 million annually on food waste disposal alone—verify with NYC Department of Sanitation budgets</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What should happen is we should say as free marketers and capitalists, you're welcome to sell that cheap product, that cheap t-shirt, those cheap jeans into the market. Free market capitalism. We love it. Go for it. But you will be responsible for its disposal."</div>
+<div class="quote">"New York City spends about $200 million a year exporting food waste that's in the garbage to landfill. Just food. Just food waste...60% to 70% of what's going to landfill is actually food waste."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Policy Chats: Education Freedom vs. Public Systems: Can We Do Both?</span>
+</div>
+<div class="episode-meta">Dori Pham (UC Riverside School of Public Policy) &middot; Mar 09 &middot; 54 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode features Shaka Mitchell, a senior fellow at the American Federation for Children and constitutional law expert, discussing education reform and school choice policy. Mitchell argues that education choice (allowing families to use public funding across various educational settings including private, charter, and homeschools) can coexist with strong public school systems and is essential for serving diverse student needs, particularly students with disabilities. The discussion covers how constitutional law frameworks have evolved to support parental choice, the role of federal and state policies, and the importance of depolarizing education debates by building trust across ideological divides.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Mitchell states that 1.2-1.3 million children participate in private choice programs nationally - this figure should be verified against current education statistics</div>
+<div class="claim">Claims that 15% of K-12 students (~7.5 million) receive special education services under IDEA - census data should confirm this percentage</div>
+<div class="claim">Asserts that Florida has approximately 1 million of 3 million school-age students in schools of choice (roughly 33%), stated as highest in country after Washington D.C. - enrollment figures should be verified</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If we have an uneducated populace, I don't really have any great hope that we're going to make a lot of headway on, say, other economic challenges or climate change challenges or criminal recidivism or health care, right? If you have an uneducated populace, then almost necessarily lots of other public policy issues that come downstream from that are going to be hamstrung."</div>
+<div class="quote">"A child is not a creature of the state...a child, first and foremost, is the responsibility of a parent. The state government or local government or federal government doesn't get to tell a parent, to force a parent to educate their child in a certain manner and at a certain place."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">82 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomy Missions (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing JAXA's MMX mission to Phobos, Psyche spacecraft gravity assist, interstellar comet 3I/ATLAS composition analysis, and gravitational lensing discoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Seismic Activity and Earthquake Monitoring (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of M6.0 earthquake in Tyrrhenian Sea near Naples with citizen science seismometer (Raspishake) observations from multiple locations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Health and Disease Research (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on COVID-19 kidney complications, cancer mortality near nuclear plants, endometriosis research, and police violence health impacts on Native populations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Materials Science and Bioengineering (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on chitosan-nickel composites, iron snails, nano-clay phosphate interactions, and biobased material innovations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Funding and Policy (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing NIH budget delays, NSF/NCAR leadership changes, and canceled NASA missions reflecting political science policy impacts.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@nicolamlow.bsky.social</div>
+  <div class="bluesky-stats">103 likes &middot; 53 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">🧪 🇨🇭 #IgNobel awards come to Switzerland as US unsafe for scientists 
+#HoppSchwiiz 
+www.theguardian.com/science/2026...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/nicolamlow.bsky.social/post/3mgohqujth22h" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">79 likes &middot; 51 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Congress approved budget increases to the #NIH. 
+But we are not out of the woods. NIH has delayed posting announcements for funding opportunities for so long that academic research programs may not have their existing funding renewed. Many programs are already in limbo.
+
+  🧪 bit.ly/4rNEa3D</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgnwvthvec2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rami.spaceaustralia.com</div>
+  <div class="bluesky-stats">103 likes &middot; 23 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">We don't talk enough about the risks of geomagnetic storms.
+
+Earlier this year, an Aussie power company said that some of their network might have been knocked out by the Jan solar storm.
+
+So I chatted to our leading space weather scientists about the origin and risk mitigation of these events.
+
+🔭🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rami.spaceaustralia.com/post/3mgnsi7bipc2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@tinylongwing.bsky.social</div>
+  <div class="bluesky-stats">97 likes &middot; 10 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Back to setting up a banding crew on Rota, where only perfect birds exist. 
+
+Såli (Micronesian Starling) and Na'abak (Micronesian Rufous Fantail), banded and released on site, for @instbirdpop.bsky.social  🪶🧪👩🏼‍⚕️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/tinylongwing.bsky.social/post/3mgojqqfx3k2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drskyskull.bsky.social</div>
+  <div class="bluesky-stats">72 likes &middot; 19 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Since I've had journalists asking me about the recent falling cat science paper that just dropped, here's the blog post I wrote about it recently. 🧪 skullsinthestars.com/2026/03/07/n...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drskyskull.bsky.social/post/3mgo7czrchs24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Science Policy and Institutional Integrity</strong>: Posts on Ig Nobel relocation, NSF/NCAR leadership concerns, and NASA mission cancellations reflect governance and policy issues central to NASEM's role advising federal science agencies and maintaining scientific independence.</div>
+<div class="nasem-match"><strong>Public Health Research Gaps</strong>: Discussion of police violence against Native Americans lacking quantitative research and COVID-19 kidney complications represents health equity and epidemiological research priorities relevant to NASEM health studies.</div>
+<div class="nasem-match"><strong>Space Weather and Critical Infrastructure</strong>: Geomagnetic storm risks to power grids and infrastructure resilience connects to NASEM's work on space weather preparedness and infrastructure protection recommendations.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 10, 2026 at 12:10 PM | Internal use only
+    </div>
+</body>
+</html>

@@ -1,7 +1,409 @@
 {
-  "updated": "2026-03-09T11:59:53.717672",
-  "episode_count": 70,
+  "updated": "2026-03-10T12:10:34.052336",
+  "episode_count": 75,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "AI Music Is On The Charts. Where Does It Go From Here?",
+      "host": "Ira Flatow",
+      "published": "2026-03-10T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode examines the rapid emergence of AI-generated music into mainstream charts and streaming platforms, featuring discussion of companies like Suno and UDO that can generate songs from text prompts. The episode explores how AI music is being adopted differently across genres (particularly gospel, country, and formulaic styles), how the music industry is shifting from lawsuits to partnerships with AI companies, and features perspectives from Billboard's Kirsten Robinson on the current landscape and pioneering electronic musician Laurie Spiegel on the artistic and human dimensions of music creation that current AI systems lack.",
+      "science_topics": [
+        "Generative AI music production and large language models",
+        "Machine learning training on copyrighted musical material",
+        "Audio signal processing and audio quality assessment",
+        "Human perception and discrimination of AI-generated versus human-created audio",
+        "Algorithmic composition and harmonic analysis (Bach chorales)",
+        "Neural network-based music generation systems"
+      ],
+      "claims_to_note": [
+        "Deezer study claims 97% of listeners cannot distinguish between AI-generated and human-made songs",
+        "Suno generates 7 million songs per day (per investor pitch deck)",
+        "Billboard charts reportedly contain unknown amounts of AI-generated material not disclosed by producers",
+        "AI music models like Suno train on copyrighted material without licensing or compensation to rights holders",
+        "Gospel and country music are particularly susceptible to AI generation due to formulaic chord structures and lyrical patterns"
+      ],
+      "policy_relevance": [
+        "Major music labels previously pursued litigation against AI music companies, now shifting to licensing partnerships",
+        "Copyright and intellectual property issues regarding AI training on unlicensed copyrighted material",
+        "Recent partnerships between traditional music labels (Hollywood Media, Spotify) and AI music startups",
+        "Lack of disclosure requirements for AI-generated music in commercial releases and chart listings",
+        "Potential regulatory gaps around rights compensation for artists whose work trains AI models"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26566/machine-learning-and-artificial-intelligence-to-advance-earth-system-science"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Health Professions Education: A Bridge to Quality",
+          "url": "https://nap.nationalacademies.org/catalog/10681/health-professions-education-a-bridge-to-quality"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Forensic Analysis: Weighing Bullet Lead Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/10924/forensic-analysis-weighing-bullet-lead-evidence"
+        },
+        {
+          "title": "Guide for the Analysis of Multimodal Corridor Access Management",
+          "url": "https://nap.nationalacademies.org/catalog/25342/guide-for-the-analysis-of-multimodal-corridor-access-management"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Sibling order may affect sexuality and identity",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-10T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the fraternal birth order effect—a well-documented but still-mysterious pattern where gay men, and surprisingly gay women, tend to have more older brothers than other siblings. Scientists have studied this effect across numerous countries and proposed the maternal immune hypothesis as a biological explanation, where a mother's immune response to male fetus proteins may influence the sexuality of subsequent male children. However, recent large-scale research showing the effect also appears in women has complicated this hypothesis, leaving the underlying mechanism still unresolved. The episode also explores the troubling historical context of sexuality research, which began with eugenics-informed studies aimed at 'curing' homosexuality during a time when being queer was criminalized and dangerous.",
+      "science_topics": [
+        "Fraternal birth order effect in sexual orientation",
+        "Maternal immune hypothesis for sexual orientation development",
+        "Male-specific protein antibodies and fetal development",
+        "Sibling influences on human development",
+        "Sexual orientation etiology and genetic/biological factors",
+        "Same-sex marriage demographics and birth order patterns"
+      ],
+      "claims_to_note": [
+        "Baseline rate of male same-sex attraction cited as 2-3 percent",
+        "Fraternal birth order effect shows approximately 33 percent increase in probability of male same-sex attraction per older brother",
+        "The effect has been found consistently across U.S., Turkey, Canada, Netherlands, Samoa, Mexico, and Brazil",
+        "2017 study found mothers of gay sons have more antibodies targeting male-specific proteins than mothers of non-gay sons",
+        "Recent study of 9+ million people found the fraternal birth order effect also manifests in women in same-sex marriages, contradicting predictions of the maternal immune hypothesis",
+        "The fraternal birth order effect shows 80% greater probability of same-sex union for youngest vs. eldest child with three brothers (per Kabatek research)"
+      ],
+      "policy_relevance": [
+        "Historical context of pre-Kinsey sexology studies informed by eugenics aimed at identifying and treating homosexuality",
+        "Discussion of discrimination and criminalization of homosexuality that affected research subjects and their willingness to participate",
+        "Implicit discussion of how scientific findings on sexual orientation could be misused for selective abortion (referenced through Justin Torres's anecdote about television audience poll on prenatal testing)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Measuring Sex, Gender Identity, and Sexual Orientation",
+          "url": "https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/24994/sexual-harassment-of-women-climate-culture-and-consequences-in-academic"
+        },
+        {
+          "title": "Measuring Sex, Gender Identity, and Sexual Orientation",
+          "url": "https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18617/refining-processes-for-the-co-development-of-genome-based-therapeutics-and-companion-diagnostic-tests"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Measuring Sex, Gender Identity, and Sexual Orientation",
+          "url": "https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Cosmic Queries – Gravitons & Hyperspeed",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-03-10T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Neil deGrasse Tyson hosts a Cosmic Queries Grab Bag episode addressing fan questions about physics and astronomy. Topics include electromagnetic principles in electricity generation, gravitational waves and the search for gravitons, artificial gravity in spacecraft, galaxy collisions despite cosmic expansion, and how black holes bend light around themselves. Tyson emphasizes foundational physics principles like Faraday's electromagnetic induction, the weakness of gravity relative to electromagnetism, and relativistic invariants across different reference frames.",
+      "science_topics": [
+        "Electromagnetic induction and electricity generation (Faraday's law)",
+        "Gravitational waves and gravitons",
+        "Artificial gravity in spacecraft and inertial forces",
+        "Warp drives versus hyperspace in relativity",
+        "Blue stragglers in star clusters (stellar collisions)",
+        "Space-based solar power arrays",
+        "Galaxy rotation and angular momentum",
+        "Spiral galaxy orientation bias in astronomical surveys",
+        "Milky Way-Andromeda galaxy collision",
+        "Cosmic expansion and the Big Rip scenario",
+        "Black hole accretion disks and gravitational lensing",
+        "Relativistic invariants and spacetime geometry"
+      ],
+      "claims_to_note": [
+        "Electromagnetism is 42 orders of magnitude stronger than gravity — this is a commonly cited figure in physics but specific context (comparing specific scales) matters for accuracy",
+        "Only 1% of the sun's hydrogen participates in fusion at any given time — reasonable approximation given core composition but should be verified against stellar physics literature",
+        "Blue stragglers are formed by stellar collisions/mergers in clusters — this is one explanation; mass transfer from binary systems is also significant and both mechanisms operate",
+        "China plans space-based solar arrays including a ring structure — current reports of Chinese space-based solar power projects exist but specifics about 'ring' design should be verified",
+        "Spiral galaxies show a slight net handedness in recent observations — Tyson notes this is newly observed (last year or so) and likely not robust, which is appropriately cautious",
+        "Andromeda-Milky Way collision will occur in ~7 billion years — commonly cited timeframe, consistent with current astronomical models",
+        "The universe's accelerating expansion will eventually tear apart atoms in the 'Big Rip' scenario — this is a legitimate theoretical scenario based on dark energy models but remains speculative"
+      ],
+      "policy_relevance": [
+        "Space-based solar power development mentioned in context of China's energy policy and technological advancement",
+        "No explicit legislation, federal agency decisions, or regulatory mentions in this transcript"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of"
+        },
+        {
+          "title": "Electricity from Renewable Resources: Status, Prospects, and Impediments",
+          "url": ""
+        },
+        {
+          "title": "The Role of Net Metering in the Evolving Electricity System",
+          "url": "https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system"
+        },
+        {
+          "title": "New Worlds, New Horizons: A Midterm Assessment",
+          "url": "https://nap.nationalacademies.org/catalog/23560/new-worlds-new-horizons-a-midterm-assessment"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "Thriving on Our Changing Planet: A Decadal Strategy for Earth Observation from Space",
+          "url": "https://nap.nationalacademies.org/catalog/24938/thriving-on-our-changing-planet-a-decadal-strategy-for-earth"
+        },
+        {
+          "title": "Ship Collisions with Bridges: The Nature of the Accidents, Their Prevention and Mitigation",
+          "url": "https://nap.nationalacademies.org/catalog/27742/ship-collisions-with-bridges-the-nature-of-the-accidents-their"
+        }
+      ]
+    },
+    {
+      "podcast_id": "policy-chats",
+      "podcast_name": "Policy Chats",
+      "episode_title": "Education Freedom vs. Public Systems: Can We Do Both?",
+      "host": "Dori Pham (UC Riverside School of Public Policy)",
+      "published": "2026-03-09T14:59:54",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode features Shaka Mitchell, a senior fellow at the American Federation for Children and constitutional law expert, discussing education reform and school choice policy. Mitchell argues that education choice (allowing families to use public funding across various educational settings including private, charter, and homeschools) can coexist with strong public school systems and is essential for serving diverse student needs, particularly students with disabilities. The discussion covers how constitutional law frameworks have evolved to support parental choice, the role of federal and state policies, and the importance of depolarizing education debates by building trust across ideological divides.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Mitchell states that 1.2-1.3 million children participate in private choice programs nationally - this figure should be verified against current education statistics",
+        "Claims that 15% of K-12 students (~7.5 million) receive special education services under IDEA - census data should confirm this percentage",
+        "Asserts that Florida has approximately 1 million of 3 million school-age students in schools of choice (roughly 33%), stated as highest in country after Washington D.C. - enrollment figures should be verified",
+        "Claims that Ohio students exposed to more competition in school choice systems performed better, and public school students in competitive environments also improved - specific research studies should be identified to verify this claim",
+        "States that less than 5% of students in some schools can read on grade level - this appears to be anecdotal observation rather than specific verified data"
+      ],
+      "policy_relevance": [
+        "Federal Education Freedom Tax Credit established through major omnibus legislation (summer 2025) - allows tax credits for scholarship funds rather than direct government funding",
+        "Tennessee's Individualized Education Accounts (IEA) Program for students with special needs - portable funding that follows students to alternative educational settings",
+        "Supreme Court cases: Pierce v. Society of Sisters, Carson v. Macon, and Montana case Espinosa - establishing parental rights to direct child education including at religious institutions",
+        "Idaho Supreme Court decision (February 2026) upholding school choice program - interpreting state constitutional 'common schools' language as floor rather than ceiling",
+        "Wyoming school choice program litigation - currently blocked by injunction affecting scholarship distribution",
+        "Federal IDEA (Individuals with Disabilities Education Act) and ADA requirements for special education access",
+        "State constitutional provisions requiring 'systems of common schools' - discussed as framework for education policy",
+        "Proposed policy reform: Attorney fee-shifting for frivolous education lawsuits to reduce litigation barriers to school choice implementation"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "shaping-science",
+      "podcast_name": "Shaping Science",
+      "episode_title": "#13 Ron Gonen on Reducing Landfill Waste, Effective Messaging Around Sustainability, and the Case for Extended Producer Responsibility",
+      "host": "Nick Dirks (New York Academy of Sciences)",
+      "published": "2026-03-09T13:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Ron Gonen, founder of Closed Loop Partners and former NYC Deputy Commissioner of Sanitation, discusses the transition from a linear to circular economy. He traces the historical shift from pre-WWII reuse culture to post-WWII consumer culture driven by advertising and planned obsolescence, exemplified by light bulb cartels and plastic proliferation. The conversation covers major waste streams—food waste ($200M annually in NYC), fast fashion (8% of waste), and other materials—arguing that extended producer responsibility (EPR) policies and technological innovations can align free-market capitalism with sustainability while reducing taxpayer burden.",
+      "science_topics": [
+        "Anaerobic digestion of food waste for biogas production",
+        "Compost production from organic waste as fertilizer",
+        "Methane emissions from open-air landfills as greenhouse gas source",
+        "Material science alternatives: algae-based textiles, lab-grown Gore-Tex substitutes",
+        "Fiber depolymerization and deconstruction technologies for cotton and polyester recycling",
+        "Planned obsolescence in product design (historical light bulb example)",
+        "Microplastic and chemical leaching from degraded plastics at elevated temperatures",
+        "Bioplastics and compostable plastic production",
+        "Water and chemical intensity of conventional cotton agriculture"
+      ],
+      "claims_to_note": [
+        "Open-air landfills are the second-largest global emitter of greenhouse gases after only certain energy sectors—verify against IPCC/EPA GHG inventory rankings",
+        "Food waste represents 40% of total waste stream in the US (varies by country)—confirm against EPA waste characterization data",
+        "NYC spends $200 million annually on food waste disposal alone—verify with NYC Department of Sanitation budgets",
+        "Plastic was not introduced to American consumer market until mid-1950s and didn't become commonplace until 1970s—historical claim should be cross-checked",
+        "Glass bottles from 2,000 years ago exist in museums demonstrating infinite reusability—accurate but anecdotal",
+        "Apparel waste grew from 1-2% of waste stream 25 years ago to 8% today—verify against EPA waste characterization trends",
+        "Claim that petroleum-based plastic required less fossil fuel for transport than heavier glass alternatives—needs lifecycle assessment verification",
+        "NYC recycling rate at 50% of recyclables—verify with current NYC sanitation statistics"
+      ],
+      "policy_relevance": [
+        "Extended Producer Responsibility (EPR) legislation: 7 states passed EPR laws in past 3 years; expansion anticipated to most states",
+        "NYC food waste composting program initiated in Bloomberg administration (2009-2013)",
+        "Plastic bag bans transitioning away from single-use bags introduced in 1970s",
+        "Proposed fashion/apparel EPR requiring take-back programs or recycling fees (modeled on European examples)",
+        "Anti-monopoly policies referenced in context of light bulb cartel prosecution (historical comparison)",
+        "Eisenhower's military-industrial complex speech (1961) and its relationship to consumer economy development",
+        "Waste pricing as public commons vs. utility-based pricing model—policy debate on cost allocation",
+        "Mention of Bloomberg administration (Cass Holloway, Ritt Argoala) sustainable policy initiatives"
+      ],
+      "nasem_publications": [
+        {
+          "title": "A National Strategy to Reduce Food Waste at the Consumer Level",
+          "url": "https://nap.nationalacademies.org/catalog/25876/a-national-strategy-to-reduce-food-waste-at-the-consumer-level"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Reducing Impacts of Food Loss and Waste: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25396/reducing-impacts-of-food-loss-and-waste-proceedings-of-a"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "A National Strategy to Reduce Food Waste at the Consumer Level",
+          "url": "https://nap.nationalacademies.org/catalog/25876/a-national-strategy-to-reduce-food-waste-at-the-consumer-level"
+        },
+        {
+          "title": "Reducing Impacts of Food Loss and Waste: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25396/reducing-impacts-of-food-loss-and-waste-proceedings-of-a"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Learning Science Through Computer Games and Simulations",
+          "url": "https://nap.nationalacademies.org/catalog/13078/learning-science-through-computer-games-and-simulations"
+        },
+        {
+          "title": "Communicating Science Effectively: A Research Agenda",
+          "url": "https://nap.nationalacademies.org/catalog/23674/communicating-science-effectively-a-research-agenda"
+        },
+        {
+          "title": "Rise and Thrive with Science: Teaching PK-5 Science and Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26853/rise-and-thrive-with-science-teaching-pk-5-science-and"
+        },
+        {
+          "title": "Assessment of Technologies for Improving Light-Duty Vehicle Fuel Economy—2025-2035",
+          "url": "https://nap.nationalacademies.org/catalog/26092/assessment-of-technologies-for-improving-light-duty-vehicle-fuel-economy-2025-2035"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+          "url": "https://nap.nationalacademies.org/catalog/24906/frontiers-of-engineering-reports-on-leading-edge-engineering-from-the"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
