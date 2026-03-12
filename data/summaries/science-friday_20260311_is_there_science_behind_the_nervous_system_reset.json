@@ -1,0 +1,575 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Is There Science Behind The ‘Nervous System Reset’?",
+  "host": "Ira Flatow",
+  "published": "2026-03-11T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 17.833333333333332,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Friday episode explores the vagus nerve and its role in regulating inflammation and immune function, examining both scientifically-validated treatments and social media wellness trends. Host Flora Lichtman interviews Dr. Kevin Tracy, a neurosurgeon and pioneer in bioelectronic medicine, who explains his discovery in the 1990s that the vagus nerve controls inflammatory responses through cytokine regulation. The discussion covers FDA-approved vagus nerve stimulation devices for rheumatoid arthritis, the mechanisms of how electrical signals convert to chemical signals that suppress inflammation, and the distinction between rigorous clinical evidence and overhyped wellness claims about breathing techniques, gargling, and humming.",
+  "science_topics": [
+    "Vagus nerve anatomy and function",
+    "Cytokine regulation and cytokine storm",
+    "Vagal anti-inflammatory reflex",
+    "Bioelectronic medicine and electrical nerve stimulation",
+    "Neuroplasticity enhancement through vagus nerve stimulation",
+    "Autonomic dysfunction in long COVID",
+    "Vagus nerve damage in COVID-19 patients",
+    "Norepinephrine and acetylcholine signaling in immune regulation"
+  ],
+  "claims_to_note": [
+    "Vagus nerve stimulation is FDA-approved for treating rheumatoid arthritis (approved Summer 2024, device by Setpoint Medical)",
+    "Approximately 80% of rheumatoid arthritis patients not responding to drug therapy show significant improvement one year after implanted vagus nerve stimulation",
+    "Vagus nerve was previously FDA-approved for epilepsy treatment in the 1990s",
+    "About half of epilepsy patients benefit from vagus nerve stimulation, with unknown mechanism",
+    "There is evidence of vagus nerve damage in patients who died of COVID",
+    "Long COVID patients show evidence of autonomic dysfunction potentially related to vagus nerve dysfunction",
+    "Vagus nerve stimulation can enhance neuroplasticity in brain and improve outcomes when paired with psychological interventions for PTSD",
+    "The vagus nerve contains approximately 200,000 fibers total (100,000 per nerve)",
+    "Current biologic drugs for rheumatoid arthritis work in only 40-50% of cases"
+  ],
+  "policy_relevance": [
+    "FDA approval of vagus nerve stimulation device (Setpoint Medical) for rheumatoid arthritis treatment",
+    "FDA approval of vagus nerve stimulation for epilepsy treatment in the 1990s",
+    "Discussion of regulatory distinction between carefully controlled clinical trials versus unproven devices making limited claims",
+    "Mention of biologic drugs advertised during television (regulatory/marketing context)"
+  ],
+  "key_quotes": [
+    "The vagus nerve was like the brakes on your car. And when you're barreling down the hill, you turn the brakes on in order to slow down the car. In this case, when you turn on the vagus nerve, you can slow down inflammation.",
+    "There's a difference between carefully controlled scientific studies in large populations that are randomized and well-controlled and somebody who makes some new device and claims it works in five or 10 people and then starts advertising it.",
+    "When I meet patients who now are walking around with an implanted vagus nerve stimulator in their neck, and they tell me that they used to be nearly disabled from rheumatoid arthritis, and now they're living a normal life and not taking any medication, it's the most gratifying thing you could ever hope to experience."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Vagus nerve anatomy and function",
+      "publications": [
+        {
+          "id": "23484",
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ensure effective federal oversight",
+            "second symposium focused",
+            "first symposium held",
+            "government deliberative process",
+            "second meeting held",
+            "technical questions surrounding",
+            "ideas identified during",
+            "public symposium",
+            "government policies",
+            "pandemic potential",
+            "second symposium march",
+            "function",
+            "gain"
+          ],
+          "description": "On March 10-11, 2016, the National Academies of Sciences, Engineering, and Medicine held a public symposium on potential U.S. government policies for the oversight of gain-of- function (GOF) research. This was the Academies' second meeting held at the request of the U.S. government to provide a mechanism to engage the life sciences community and the broader public and solicit feedback on optimal approaches to ensure effective federal oversight of GOF research as part of a broader U.S. government deliberative process. The first symposium, held in December 2014, examined the underlying scientific and technical questions surrounding the potential risks and benefits of GOF research involving pathogens with pandemic potential. The second symposium focused on discussion of the draft recommendations regarding GOF research of a Working Group of the National Science Advisory Board for Biosecurity. This report summarizes the key issues and ideas identified during the second symposium.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "26152",
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Scientific thinking and understanding are essential for all people navigating the world, not just for scientists and other science, technology, engineering and mathematics (STEM) professionals. Knowledge of science and the practice of scientific thinking are essential components of a fully functioning democracy. Science is also crucial for the future STEM workforce and the pursuit of living wage jobs. Yet, science education is not the national priority it needs to be, and states and local communities are not yet delivering high quality, rigorous learning experiences in equal measure to all students from elementary school through higher education. Call to Action for Science Education: Building Opportunity for the Future articulates a vision for high quality science education, describes the gaps in opportunity that currently exist for many students, and outlines key priorities that need to be addressed in order to advance better, more equitable science education across grades K-16. This ",
+          "year": 2021,
+          "committee": "Board on Science Education",
+          "keywords": [
+            "yet science education",
+            "mathematics stem professionals",
+            "fully functioning democracy",
+            "science technology",
+            "outlines key priorities",
+            "living wage jobs",
+            "higher education",
+            "scientific thinking",
+            "essential components",
+            "building opportunity",
+            "science education",
+            "call"
+          ]
+        },
+        {
+          "id": "25909",
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic is resulting in widespread and ongoing changes to how the K-12 education system functions, including disruptions to science teaching and learning environments. Students and teachers are all figuring out how to do schooling differently, and districts and states are working overtime to reimagine systems and processes. This is difficult and stressful work in the middle of the already stressful and sometimes traumatic backdrop of the global pandemic. In addition, students with disabilities, students of color, immigrants, English learners, and students from under-resourced communities have been disproportionately affected, both by the pandemic itself and by the resulting instructional shifts. Teaching K-12 Science and Engineering During a Crisis aims to describe what high quality science and engineering education can look like in a time of great uncertainty and to support practitioners as they work toward their goals. This book includes guidance for science and enginee",
+          "year": 2021,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "color immigrants english learners",
+            "resulting instructional shifts",
+            "high quality science",
+            "education system functions",
+            "sometimes traumatic backdrop",
+            "book includes guidance",
+            "science teaching",
+            "disabilities students",
+            "addition students",
+            "disproportionately affected",
+            "teaching",
+            "science",
+            "during",
+            "crisis"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cytokine regulation and cytokine storm",
+      "publications": [
+        {
+          "id": "27765",
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "vulnerabilities identifies remaining gaps",
+            "additional risk management planning",
+            "supply chain disruptions",
+            "supply market competition",
+            "relevant stakeholders addressed",
+            "drug administration contracted",
+            "infant formula",
+            "marketplace vulnerabilities",
+            "consequently disruptions",
+            "protect infants",
+            "challenges",
+            "regulation"
+          ],
+          "description": "Infant formula is a primary or supplementary source of nutrition for many infants in the U.S. Consequently, disruptions to the supply of infant formula can have a severe impact on infants' health and well-being. In late 2021 and early 2022, a recall of specific infant formula products, followed by a pause in production, resulted in a widespread, national shortage. The incident demonstrated that additional risk management planning is needed to protect infants from the consequences of potential future supply chain disruptions. In 2023, the U.S. Food and Drug Administration contracted with the National Academies to convene an expert committee to examine and report on challenges in supply, market competition, and regulation of infant formula. The resulting consensus study report explains policy and marketplace vulnerabilities that were exposed during the shortage, describes the extent to which actions taken by relevant stakeholders addressed these vulnerabilities, identifies remaining gaps",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food And Nutrition Board"
+        },
+        {
+          "id": "12999",
+          "title": "Rising Above the Gathering Storm, Revisited: Rapidly Approaching Category 5",
+          "url": "https://nap.nationalacademies.org/catalog/12999/rising-above-the-gathering-storm-revisited-rapidly-approaching-category-5",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "gathering storm revisited explores",
+            "present volume rising above",
+            "daunting near term challenges",
+            "prepared rising above",
+            "gathering storm book",
+            "competitiveness slip below",
+            "america stand relative",
+            "tipping point america",
+            "requisite federal funding",
+            "five years ago",
+            "rapidly approaching category",
+            "gathering storm revisited",
+            "rising above"
+          ],
+          "description": "In the face of so many daunting near-term challenges, U.S. government and industry are letting the crucial strategic issues of U.S. competitiveness slip below the surface. Five years ago, the National Academies prepared Rising Above the Gathering Storm, a book that cautioned: \"Without a renewed effort to bolster the foundations of our competitiveness, we can expect to lose our privileged position.\" Since that time we find ourselves in a country where much has changed-and a great deal has not changed. So where does America stand relative to its position of five years ago when the Gathering Storm book was prepared? The unanimous view of the authors is that our nation's outlook has worsened. The present volume, Rising Above the Gathering Storm, Revisited, explores the tipping point America now faces. Addressing America's competitiveness challenge will require many years if not decades; however, the requisite federal funding of much of that effort is about to terminate. Rising Above the Ga",
+          "year": 2010,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "2005 \"Rising Above the Gathering Storm\" Committee"
+        },
+        {
+          "id": "27460",
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing critical infrastructure weaknesses",
+            "widespread environmental damage especially",
+            "years high hazard structures",
+            "impose significant economic losses",
+            "modeling extreme storms call",
+            "nuclear power plants",
+            "high hazard dams",
+            "withstand floods resulting",
+            "provided useful guidance",
+            "while pmp estimates"
+          ],
+          "description": "For more than 75 years, high-hazard structures in the U.S., including dams and nuclear power plants, have been engineered to withstand floods resulting from the most unlikely but possible precipitation, termed Probable Maximum Precipitation (PMP). Failure of any one of the more than 16,000 high-hazard dams and 50 nuclear power plants in the United States could result in the loss of life and impose significant economic losses and widespread environmental damage, especially under the pressures of climate change. While PMP estimates have provided useful guidance for designing critical infrastructure, weaknesses in the scientific foundations of PMP, combined with advances in understanding, observing, and modeling extreme storms, call for fundamental changes to the definition of PMP and the methods used to estimate it. Modernizing Probable Maximum Precipitation Estimation recommends a new definition of PMP and presents a vision for a methodology relevant for design, operation, and regulatio",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science And Technology Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Bioelectronic medicine and electrical nerve stimulation",
+      "publications": [
+        {
+          "id": "13284",
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "keywords": [
+            "precision medicine",
+            "personalized",
+            "medical",
+            "genomic",
+            "health",
+            "treatment"
+          ]
+        },
+        {
+          "id": "21860",
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "molecularly targeted therapies represent",
+            "identify molecular variations specific",
+            "right patient",
+            "individual patient",
+            "right treatment",
+            "biomarker tests",
+            "beneficial treatment",
+            "complex tests",
+            "molecular underpinnings",
+            "precision medicine",
+            "molecularly targeted therapies",
+            "unlocking precision",
+            "key"
+          ],
+          "description": "Every patient is unique, and the evolving field of precision medicine aims to ensure the delivery of the right treatment to the right patient at the right time. In an era of rapid advances in biomedicine and enhanced understanding of the genetic basis of disease, health care providers increasingly have access to advanced technologies that may identify molecular variations specific to an individual patient, which subsequently can be targeted for treatment. Known as biomarker tests for molecularly targeted therapies, these complex tests have the potential to enable the selection of the most beneficial treatment (and also to identify treatments that may be harmful or ineffective) for the molecular underpinnings of an individual patient's disease. Such tests are key to unlocking the promise of precision medicine. Biomarker tests for molecularly targeted therapies represent a crucial area of focus for developing methods that could later be applicable to other areas of precision medicine. Th",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "23592",
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "diabetes heart disease alzheimer",
+            "january president obama announced",
+            "pmi cohort program",
+            "develop individualized care",
+            "depression bipolar disorder",
+            "patients work together",
+            "environmental parameters",
+            "extending precision",
+            "precision medicine",
+            "researchers providers",
+            "health literacy",
+            "relevance"
+          ],
+          "description": "On January 20, 2015, President Obama announced the Precision Medicine Initiative (PMI) in his State of the Union address. The PMI, by developing new approaches for detecting, measuring, and analyzing a wide range of biomedical information including molecular, genomic, cellular, clinical, behavioral, physiological, and environmental parameters, is intended to enable a new era of medicine in which researchers, providers, and patients work together to develop individualized care. Part of this effort included the creation of a national, large-scale research participant group, or cohort. The PMI Cohort Program is aimed at extending precision medicine to many diseases, including both rare and common diseases such as diabetes, heart disease, Alzheimer's disease, obesity, and mental illnesses such as depression, bipolar disorder, and schizophrenia, by building a national research cohort of 1 million or more U.S. participants. An important challenge to assembling the PMI Cohort will be to reach",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Medicine in Neuroscience: Tools, Translation, and Implementation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Neuroplasticity enhancement through vagus nerve stimulation",
+      "publications": [
+        {
+          "id": "26132",
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "keywords": [
+            "plastic",
+            "microplastic",
+            "ocean",
+            "pollution",
+            "waste",
+            "marine debris"
+          ]
+        },
+        {
+          "id": "25466",
+          "title": "Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity",
+          "url": "https://nap.nationalacademies.org/catalog/25466/vibrant-and-healthy-kids-aligning-science-practice-and-policy-to",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "children face health inequities",
+            "environmental factors significantly affect",
+            "socio behavioral science show",
+            "consequently social economic cultural",
+            "critical biological systems develop",
+            "environmental influences during",
+            "thrive throughout adulthood",
+            "early childhood periods",
+            "health equity",
+            "neurobiological development",
+            "advance health equity",
+            "aligning science",
+            "healthy kids",
+            "vibrant",
+            "policy"
+          ],
+          "description": "Children are the foundation of the United States, and supporting them is a key component of building a successful future. However, millions of children face health inequities that compromise their development, well-being, and long-term outcomes, despite substantial scientific evidence about how those adversities contribute to poor health. Advancements in neurobiological and socio-behavioral science show that critical biological systems develop in the prenatal through early childhood periods, and neurobiological development is extremely responsive to environmental influences during these stages. Consequently, social, economic, cultural, and environmental factors significantly affect a child's health ecosystem and ability to thrive throughout adulthood. Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity builds upon and updates research from Communities in Action: Pathways to Health Equity (2017) and From Neurons to Neighborhoods: The Science of Earl",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "25438",
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "guiding cancer control defines",
+            "concerted efforts often referred",
+            "key principles attributes methods",
+            "cancer control plan",
+            "throughout history perhaps",
+            "perhaps even unknowable",
+            "public health systems",
+            "word cancer",
+            "afflict individuals",
+            "different diseases",
+            "guiding cancer control",
+            "transformation",
+            "path"
+          ],
+          "description": "Throughout history, perhaps no other disease has generated the level of social, scientific, and political discourse or has had the degree of cultural significance as cancer. A collective in the truest sense of the word, \"cancer\" is a clustering of different diseases that afflict individuals in different ways. Its burdens are equally broad and diverse, from the physical, financial, and psychological tolls it imposes on individuals to the costs it inflicts upon the nation's clinical care and public health systems, and despite decades of concerted efforts often referred to as the \"war on cancer\", those costs have only continued to grow over time. The causes and effects of cancer are complexâ€\"in part preventable and treatable, but also in part unknown, and perhaps even unknowable. Guiding Cancer Control defines the key principles, attributes, methods, and tools needed to achieve the goal of implementing an effective national cancer control plan. This report describes the current structure",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 2672,
+  "saved_at": "2026-03-12T11:35:11.056171"
+}

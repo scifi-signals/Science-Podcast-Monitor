@@ -1,0 +1,395 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "How Is AI Being Used In The Iran War?",
+  "host": "Ira Flatow",
+  "published": "2026-03-12T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 14.416666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode examines the use of AI, specifically Anthropic's Claude language model, in military operations during the Iran conflict. The discussion reveals tensions between AI companies and the Pentagon over autonomous weapon development, including allegations that Claude may have misidentified civilian targets as military ones, potentially contributing to bombing of schools. The episode explores the complications around Anthropic's ethical positioning, automation bias in human-AI decision-making, and emerging public resistance to AI industry expansion through grassroots movements against data centers.",
+  "science_topics": [
+    "Large language models (LLMs) - accuracy and hallucination problems",
+    "Automation bias in human-AI decision-making systems",
+    "Computer vision systems in autonomous weapons",
+    "AI target identification and classification errors"
+  ],
+  "claims_to_note": [
+    "Claude language model identified approximately 1,000 targets in Iran intelligence analysis",
+    "Large language models are described as 'very faulty technology' with accuracy problems",
+    "Speculation that Claude misidentified a civilian school as military target leading to bombing",
+    "80% of Americans now believe AI regulation is needed (polling data cited)",
+    "Data center expansion is described as a key bottleneck and critical supply chain component for AI development",
+    "Research shows 'extensive automation bias' where humans over-trust AI system recommendations"
+  ],
+  "policy_relevance": [
+    "Pentagon declared Anthropic a 'supply chain risk' after disputes over Claude's military use",
+    "Six-month phase-out period imposed on Anthropic by Pentagon while still using the technology",
+    "Anthropic granted first permission to be used on classified intelligence systems (9-month duration)",
+    "Ongoing dispute between Pentagon and Anthropic over autonomous weapons development and decision-support systems",
+    "Public resistance to AI data center expansion through town halls and voting out officials",
+    "Calls for regulation of AI industry deployment in military applications",
+    "NDA deals between AI companies and local governments regarding data center placement"
+  ],
+  "key_quotes": [
+    "I was not envisioning, you know, the fusion of this technology with the military and the alliance between Silicon Valley and Washington... Well, it's not a metaphor anymore. It's literal.",
+    "There is speculation that it's because Claude misidentified a civilian target as a military target... there just like so much uncertainty and there so little transparency so little accountability in just extraordinarily grotesque actions that are happening",
+    "The entire way that they develop and deploy their technologies is deeply problematic and very imperial... like the clean coal, it doesn't exist, right? Like you cannot have clean coal."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Large language models (LLMs) - accuracy and hallucination problems",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        },
+        {
+          "id": "23498",
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "health literacy cultural competency",
+            "make appropriate health decisions",
+            "health literate culturally competent",
+            "health care today impact",
+            "age race cultural background",
+            "profound demographic shift",
+            "dynamic forces operating",
+            "appropriate language",
+            "language skills",
+            "language access services"
+          ],
+          "description": "The aging and evolving racial and ethnic composition of the U.S. population has the United States in the midst of a profound demographic shift and health care organizations face many issues as they move to address and adapt to this change. In their drive to adequately serve increasingly diverse communities, health care organizations are searching for approaches that will enable them to provide information and service to all persons, regardless of age, race, cultural background, or language skills, in a manner that facilitates understanding and use of that information to make appropriate health decisions. To better understand how the dynamic forces operating in health care today impact the delivery of services in a way that is health literate, culturally competent, and in an appropriate language for patients and their families, the National Academies of Sciences, Engineering, and Medicine conducted a public workshop on the integration of health literacy, cultural competency, and languag",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Automation bias in human-AI decision-making systems",
+      "publications": [
+        {
+          "id": "6018",
+          "title": "The Future of Air Traffic Control: Human Operators and Automation",
+          "url": "https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "adequate human control",
+            "human vulnerabilities minimizing",
+            "air traffic control",
+            "risk examining procedures",
+            "book explores ways",
+            "automation within",
+            "human strengths",
+            "automated functions",
+            "automated systems",
+            "panel offers",
+            "human operators",
+            "automation"
+          ],
+          "description": "Automation in air traffic control may increase efficiency, but it also raises questions about adequate human control over automated systems. Following on the panel's first volume on air traffic control automation, Flight to the Future (NRC, 1997), this book focuses on the interaction of pilots and air traffic controllers, with a growing network of automated functions in the airspace system. The panel offers recommendations for development of human-centered automation, addressing key areas such as providing levels of automation that are appropriate to levels of risk, examining procedures for recovery from emergencies, free flight versus ground-based authority, and more. The book explores ways in which technology can build on human strengths and compensate for human vulnerabilities, minimizing both mistrust of automation and complacency about its abilities. The panel presents an overview of emerging technologies and trends toward automation within the national airspace systemâ€\"in areas ",
+          "year": 1998,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Human-Systems Integration"
+        },
+        {
+          "id": "25424",
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "threatened ocean ecosystems globally",
+            "however human induced stressors",
+            "bleaching events hindered growth",
+            "site specific interventions",
+            "protect coral reefs",
+            "coral reefs builds",
+            "ocean temperature acidity",
+            "overfishing sediment pollution",
+            "decision making process",
+            "human life because",
+            "coral reefs",
+            "interventions",
+            "persistence",
+            "resilience",
+            "decision",
+            "increase"
+          ],
+          "description": "Coral reefs are critical to ocean and human life because they provide food, living area, storm protection, tourism income, and more. However, human-induced stressors, such as overfishing, sediment, pollution, and habitat destruction have threatened ocean ecosystems globally for decades. In the face of climate change, these ecosystems now face an array of unfamiliar challenges due to destructive rises in ocean temperature, acidity and sea level. These factors lead to an increased frequency of bleaching events, hindered growth, and a decreasing rate of calcification. Research on interventions to combat these relatively new stressors and a reevaluation of longstanding interventions is necessary to understand and protect coral reefs in this changing climate. Previous research on these methods prompts further questions regarding the decision making process for site-specific interventions. A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs builds",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Computer vision systems in autonomous weapons",
+      "publications": [
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        },
+        {
+          "id": "23686",
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "cyber physical systems cps",
+            "widely deployed communication networks",
+            "increasingly capable adaptable",
+            "managing inter dependencies",
+            "regional energy grid",
+            "physical components",
+            "trustworthy systems",
+            "engineered systems",
+            "technical developments",
+            "appropriate education",
+            "cyber physical systems education"
+          ],
+          "description": "Cyber-physical systems (CPS) are \"engineered systems that are built from, and depend upon, the seamless integration of computational algorithms and physical components.\" CPS can be small and closed, such as an artificial pancreas, or very large, complex, and interconnected, such as a regional energy grid. CPS engineering focuses on managing inter- dependencies and impact of physical aspects on cyber aspects, and vice versa. With the development of low-cost sensing, powerful embedded system hardware, and widely deployed communication networks, the reliance on CPS for system functionality has dramatically increased. These technical developments in combination with the creation of a workforce skilled in engineering CPS will allow the deployment of increasingly capable, adaptable, and trustworthy systems. Engineers responsible for developing CPS but lacking the appropriate education or training may not fully understand at an appropriate depth, on the one hand, the technical issues associat",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "AI target identification and classification errors",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2142,
+  "saved_at": "2026-03-12T11:35:11.055729"
+}

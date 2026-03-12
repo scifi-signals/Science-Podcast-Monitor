@@ -1,7 +1,465 @@
 {
-  "updated": "2026-03-10T12:10:34.052336",
-  "episode_count": 75,
+  "updated": "2026-03-12T11:35:45.923031",
+  "episode_count": 80,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "How Is AI Being Used In The Iran War?",
+      "host": "Ira Flatow",
+      "published": "2026-03-12T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the use of AI, specifically Anthropic's Claude language model, in military operations during the Iran conflict. The discussion reveals tensions between AI companies and the Pentagon over autonomous weapon development, including allegations that Claude may have misidentified civilian targets as military ones, potentially contributing to bombing of schools. The episode explores the complications around Anthropic's ethical positioning, automation bias in human-AI decision-making, and emerging public resistance to AI industry expansion through grassroots movements against data centers.",
+      "science_topics": [
+        "Large language models (LLMs) - accuracy and hallucination problems",
+        "Automation bias in human-AI decision-making systems",
+        "Computer vision systems in autonomous weapons",
+        "AI target identification and classification errors"
+      ],
+      "claims_to_note": [
+        "Claude language model identified approximately 1,000 targets in Iran intelligence analysis",
+        "Large language models are described as 'very faulty technology' with accuracy problems",
+        "Speculation that Claude misidentified a civilian school as military target leading to bombing",
+        "80% of Americans now believe AI regulation is needed (polling data cited)",
+        "Data center expansion is described as a key bottleneck and critical supply chain component for AI development",
+        "Research shows 'extensive automation bias' where humans over-trust AI system recommendations"
+      ],
+      "policy_relevance": [
+        "Pentagon declared Anthropic a 'supply chain risk' after disputes over Claude's military use",
+        "Six-month phase-out period imposed on Anthropic by Pentagon while still using the technology",
+        "Anthropic granted first permission to be used on classified intelligence systems (9-month duration)",
+        "Ongoing dispute between Pentagon and Anthropic over autonomous weapons development and decision-support systems",
+        "Public resistance to AI data center expansion through town halls and voting out officials",
+        "Calls for regulation of AI industry deployment in military applications",
+        "NDA deals between AI companies and local governments regarding data center placement"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "The Future of Air Traffic Control: Human Operators and Automation",
+          "url": "https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation"
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#463 — Privatizing the Apocalypse",
+      "host": "Sam Harris",
+      "published": "2026-03-11T17:25:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "The episode discusses the Deep Vision Project, a USAID-funded biosecurity program that aimed to discover approximately 10,000 novel viruses from remote locations in developing countries, characterize their pandemic potential, and publish their genomes publicly. The guest argues this program posed catastrophic risks through potential laboratory leaks, weaponization by malicious actors, and democratization of bioweapon creation capabilities. Through coordinated efforts involving Congressional senators, think tanks, and policy advocates, the program was effectively defanged in 2022 and formally terminated in September 2023.",
+      "science_topics": [
+        "Synthetic biology and viral research",
+        "Virus hunting and discovery from wildlife reservoirs",
+        "Coronavirus research at the Wuhan Institute of Virology",
+        "Biosafety levels (BSL-2, BSL-3, BSL-4) and laboratory containment",
+        "Reverse genetics and viral rescue techniques",
+        "Pandemic pathogen characterization",
+        "Vaccine development for novel pathogens",
+        "Zoonotic disease surveillance and monitoring"
+      ],
+      "claims_to_note": [
+        "Laboratory biosafety containment at all levels 'demonstrably leaks' with no uniform reporting system to track leak rates",
+        "Approximately 30,000 people globally had the tools and knowledge to synthesize viruses from published genomes using reverse genetics techniques (as of the episode's timeframe)",
+        "Deep Vision could have discovered 6-8 pandemic-grade viruses based on conservative estimates",
+        "COVID-19 had 'remarkably benign' lethality compared to theoretical pandemic pathogens and spread at approximately 4.5 miles per hour",
+        "PREDICT program discovered approximately 1,200 novel mammalian viruses",
+        "No more than 10 entities globally could have conceived and implemented a program like Deep Vision in 2021"
+      ],
+      "policy_relevance": [
+        "USAID authorization and funding of Deep Vision Project ($125 million five-year budget)",
+        "White House biosecurity briefings and policy engagement",
+        "Congressional oversight: Senators Lindsey Graham and James Risch initiated at least three letters to USAID expressing concerns about Deep Vision",
+        "Senate hearing testimony by Kevin Esfeld (summer 2022) regarding Deep Vision risks",
+        "Senator Rand Paul's involvement in oversight hearings",
+        "Program defunding and formal termination (September 2023)",
+        "Bipartisan Congressional pressure from both Democratic and Republican legislators",
+        "Previous USAID PREDICT program for virus discovery",
+        "Involvement of multiple federal agencies and administration officials in policy response"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+      "host": "Springer Nature",
+      "published": "2026-03-11T16:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores two main scientific topics: the genetics of asexual reproduction in the Amazon molly fish, and the mechanisms powering superluminous supernovae. Researchers discovered that Amazon mollies, which have existed for ~100,000 years despite theoretical predictions they should die out after 10,000 years, use gene conversion to prevent accumulation of harmful mutations. In the supernovae segment, astronomers studying superluminous supernovae 2024AFAV found evidence supporting magnetar-powered models over competing theories, with novel observations of precessing accretion disks producing periodic brightness variations.",
+      "science_topics": [
+        "Asexual reproduction in vertebrates",
+        "Gene conversion as DNA repair mechanism",
+        "Amazon molly (Poecilia formosa) clonal genetics",
+        "Mutation accumulation in asexual genomes",
+        "Gynogenesis (sperm-dependent asexual reproduction)",
+        "Superluminous supernovae",
+        "Magnetars (highly magnetized neutron stars)",
+        "Accretion disk precession around magnetars",
+        "Gravitational wave chirps in supernovae",
+        "Four-star stellar systems",
+        "Microbiome-mediated peanut allergy tolerance",
+        "Bacterial degradation of peanut allergens"
+      ],
+      "claims_to_note": [
+        "Amazon mollies originated ~100,000 years ago from hybridization between Poecilia mexicana and Poecilia latipinna",
+        "Mathematical modeling predicted asexual species should go extinct after ~10,000 years due to mutation accumulation",
+        "Amazon mollies accumulate mutations faster than parent species but show no evidence of higher harmful mutation accumulation",
+        "Gene conversion is actively maintaining Amazon molly genomes by removing deleterious mutations",
+        "Superluminous supernovae are 10-100 times brighter than standard supernovae",
+        "Magnetar model can explain overall brightness of 2024AFAV but previously could not explain bumpy light curves",
+        "The bumps in 2024AFAV light curve followed a sinusoidal pattern with increasing frequency (chirp), never before observed in supernovae",
+        "Saliva and small intestine bacteria in humans can degrade peanut allergens and are more abundant in peanut-tolerant individuals"
+      ],
+      "policy_relevance": [
+        "No explicit federal legislation, regulation, or policy debates mentioned",
+        "No mention of federal agencies (NSF, NIH, NASA, etc.) or funding decisions",
+        "Research appears to be conducted at academic institutions (University of Missouri, Ludwig Maximilian University, University of West Florida, UC Santa Barbara) without specific funding agency attribution in transcript"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Heritable Human Genome Editing",
+          "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing"
+        },
+        {
+          "title": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18617/refining-processes-for-the-co-development-of-genome-based-therapeutics-and-companion-diagnostic-tests"
+        },
+        {
+          "title": "Review of the Draft Fifth National Climate Assessment",
+          "url": "https://nap.nationalacademies.org/catalog/26757/review-of-the-draft-fifth-national-climate-assessment"
+        },
+        {
+          "title": "Bringing Fusion to the U.S. Grid",
+          "url": "https://nap.nationalacademies.org/catalog/25991/bringing-fusion-to-the-us-grid"
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": "https://nap.nationalacademies.org/catalog/25303/reproducibility-and-replicability-in-science"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Is There Science Behind The ‘Nervous System Reset’?",
+      "host": "Ira Flatow",
+      "published": "2026-03-11T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the vagus nerve and its role in regulating inflammation and immune function, examining both scientifically-validated treatments and social media wellness trends. Host Flora Lichtman interviews Dr. Kevin Tracy, a neurosurgeon and pioneer in bioelectronic medicine, who explains his discovery in the 1990s that the vagus nerve controls inflammatory responses through cytokine regulation. The discussion covers FDA-approved vagus nerve stimulation devices for rheumatoid arthritis, the mechanisms of how electrical signals convert to chemical signals that suppress inflammation, and the distinction between rigorous clinical evidence and overhyped wellness claims about breathing techniques, gargling, and humming.",
+      "science_topics": [
+        "Vagus nerve anatomy and function",
+        "Cytokine regulation and cytokine storm",
+        "Vagal anti-inflammatory reflex",
+        "Bioelectronic medicine and electrical nerve stimulation",
+        "Neuroplasticity enhancement through vagus nerve stimulation",
+        "Autonomic dysfunction in long COVID",
+        "Vagus nerve damage in COVID-19 patients",
+        "Norepinephrine and acetylcholine signaling in immune regulation"
+      ],
+      "claims_to_note": [
+        "Vagus nerve stimulation is FDA-approved for treating rheumatoid arthritis (approved Summer 2024, device by Setpoint Medical)",
+        "Approximately 80% of rheumatoid arthritis patients not responding to drug therapy show significant improvement one year after implanted vagus nerve stimulation",
+        "Vagus nerve was previously FDA-approved for epilepsy treatment in the 1990s",
+        "About half of epilepsy patients benefit from vagus nerve stimulation, with unknown mechanism",
+        "There is evidence of vagus nerve damage in patients who died of COVID",
+        "Long COVID patients show evidence of autonomic dysfunction potentially related to vagus nerve dysfunction",
+        "Vagus nerve stimulation can enhance neuroplasticity in brain and improve outcomes when paired with psychological interventions for PTSD",
+        "The vagus nerve contains approximately 200,000 fibers total (100,000 per nerve)",
+        "Current biologic drugs for rheumatoid arthritis work in only 40-50% of cases"
+      ],
+      "policy_relevance": [
+        "FDA approval of vagus nerve stimulation device (Setpoint Medical) for rheumatoid arthritis treatment",
+        "FDA approval of vagus nerve stimulation for epilepsy treatment in the 1990s",
+        "Discussion of regulatory distinction between carefully controlled clinical trials versus unproven devices making limited claims",
+        "Mention of biologic drugs advertised during television (regulatory/marketing context)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Rising Above the Gathering Storm, Revisited: Rapidly Approaching Category 5",
+          "url": "https://nap.nationalacademies.org/catalog/12999/rising-above-the-gathering-storm-revisited-rapidly-approaching-category-5"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity",
+          "url": "https://nap.nationalacademies.org/catalog/25466/vibrant-and-healthy-kids-aligning-science-practice-and-policy-to"
+        },
+        {
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "We saved gray whales from extinction. Why are so many dying again?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-11T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Gray whales, once hunted to near extinction, were successfully recovered through international protection efforts and removed from the endangered species list in 1994. However, since 1999, scientists have documented recurring cycles of mass die-offs affecting 20-30% of the population, followed by recoveries. Research by Joshua Stewart and colleagues identified that these boom-bust cycles correlate with fluctuations in benthic crustacean biomass in Arctic feeding grounds, where whales consume their annual food supply. The study reveals that populations at carrying capacity are highly sensitive to environmental prey availability variations, and the current ongoing decline since 2019 appears driven by climate change impacts on Arctic ecosystems.",
+      "science_topics": [
+        "Gray whale population dynamics and recovery",
+        "Benthic crustacean biomass in Arctic ecosystems",
+        "Whale migration patterns and Arctic feeding ecology",
+        "Marine mammal mass mortality events",
+        "Climate change impacts on Arctic plankton availability",
+        "Population boom-bust cycles in marine megafauna",
+        "Carrying capacity and density-dependent population regulation"
+      ],
+      "claims_to_note": [
+        "Gray whale populations dropped to 5% of historic numbers due to whaling",
+        "Approximately 3 million whales killed over 70 years during commercial whaling",
+        "Gray whale population declined by approximately 25% during 1999-2000 mass mortality events",
+        "Gray whales undertake 10,000+ mile round-trip migrations to Arctic feeding grounds",
+        "Gray whales only feed during 3-5 month window in Arctic summer",
+        "Gray whale populations can experience 20-30% mortality and subsequent recovery within 2-4 year cycles",
+        "Current decline since 2019 is longer duration than previous cycles and driven by climate impacts to Arctic feeding areas",
+        "Birth rates have remained low during current decline despite some reduction in mortality rates"
+      ],
+      "policy_relevance": [
+        "Gray Whale removed from Endangered Species List in 1994",
+        "International moratorium on whaling implemented in 1980s",
+        "Federal laws protecting and recovering marine mammal populations triggered government response to 2019 mass mortality event",
+        "Multi-agency expert teams assembled to investigate marine mammal die-offs",
+        "Climate change impacts on Arctic ecosystems affecting federal marine mammal management decisions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Healthy, Resilient, and Sustainable Communities After Disasters: Strategies, Opportunities, and Planning for Recovery",
+          "url": "https://nap.nationalacademies.org/catalog/18996/healthy-resilient-and-sustainable-communities-after-disasters-strategies-opportunities-and"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research"
+        },
+        {
+          "title": "Linkages Between Arctic Warming and Mid-Latitude Weather Patterns: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18727/linkages-between-arctic-warming-and-mid-latitude-weather-patterns-summary"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning",
+          "url": "https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

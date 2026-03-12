@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 12, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 12, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">39</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">22</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">70</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's intelligence reveals three interconnected priority areas: (1) Climate-driven ecosystem disruption, exemplified by gray whale population cycles linked to Arctic benthic crustacean collapse, signals broader carrying-capacity vulnerabilities in marine megafauna; (2) AI safety and accuracy concerns are escalating across military applications and autonomous systems, with documented misidentification risks in target classification; (3) Biosecurity governance gaps persist despite policy wins—the Deep Vision termination demonstrates vulnerability to dual-use research proliferation, while recent focus on vagus nerve stimulation highlights NASEM's opportunity to referee clinical evidence versus wellness trend inflation. Gray whale and biosecurity topics extend a week-long pattern of climate vulnerability and biosafety governance scrutiny.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Climate change impacts on Arctic ecosystems and food web disruption (gray whales, benthic crustaceans)</li>
+<li>AI accuracy failures in high-stakes applications (target misidentification, hallucinations in LLMs)</li>
+<li>Biosafety and biosecurity governance (lab containment leaks, viral discovery democratization, pandemic pathogen characterization)</li>
+<li>Bioelectronic medicine and FDA-approved interventions (vagus nerve stimulation for rheumatoid arthritis)</li>
+<li>Population dynamics and evolutionary resilience mechanisms (gray whales, Amazon mollies, clonal vertebrate genetics)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Bioelectronic medicine validation: FDA approval of Setpoint Medical's vagus nerve stimulation (Summer 2024) for rheumatoid arthritis with 80% responder rate in treatment-resistant patients—distinguishing rigorous clinical evidence from social media wellness hype</li>
+<li>Arctic ecosystem collapse as driver of marine megafauna boom-bust cycles—recurring pattern since 1999 now attributed to climate-driven prey biomass fluctuations rather than single catastrophic events</li>
+<li>AI misidentification in military operations escalating as concern topic (follows 2026-03-12 AI safety discussion)—moves beyond abstract safety concerns to documented civilian casualty risks</li>
+<li>Gene conversion mechanisms in asexual reproduction as mutation-mitigation strategy—extends evolutionary biology discussion with practical genomic solutions to theoretical extinction predictions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment on gray whale recovery strategy: coordinate with NOAA and marine biology institutes on whether current Arctic productivity decline requires revised management thresholds or intervention protocols</div>
+<div class="opportunity">Establish AI accuracy standards task force: convene with DoD, Anthropic, and independent ML researchers to develop validation benchmarks for LLM performance in target classification and reduce automation bias in military decision-support systems</div>
+<div class="opportunity">Referee vagus nerve stimulation evidence base: synthesize clinical trial data on FDA-approved bioelectronic devices versus unvalidated wellness claims (breathing, gargling techniques) to provide authoritative guidance for healthcare providers and consumers</div>
+<div class="opportunity">Biosecurity governance follow-up: analyze Deep Vision termination as case study—convene government, academic, and industry stakeholders to develop transparent viral discovery protocols balancing surveillance needs with containment risk mitigation</div>
+<div class="opportunity">Host interdisciplinary workshop on carrying-capacity sensitivity: bring together marine ecologists, population modelers, and climate scientists to develop early-warning frameworks for density-dependent population crashes driven by environmental variability</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Vagus nerve stimulation effectiveness claims on social media: wellness influencers promote unvalidated breathing and gargling techniques as equivalent to FDA-approved implanted devices—episode explicitly distinguishes clinical evidence (rheumatoid arthritis, epilepsy) from overhyped claims</div>
+<div class="claim">Deep Vision biosecurity framing: episode presents program termination as successful risk mitigation, but some policy advocates cited argue the 30,000-person capable pool for reverse genetics synthesis represents ongoing democratization threat independent of USAID discovery efforts—requires nuanced framing that risk management succeeded without overstating original threat magnitude</div>
+<div class="claim">AI misidentification allegations lack independent verification: Science Friday episode speculates Claude may have misidentified a school as military target without direct evidence presented—Anthropic's actual role in Iran targeting decisions requires clarification before asserting causal contribution to civilian casualties</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Accuracy, Bias, and Real-World Decision-Making Failures</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">AI systems are surfacing reliability problems across multiple domains—from LLM hallucinations and automation bias in decision systems (Science Friday, 2026-03-12) to autonomous weapons target misidentification (Science Friday, 2026-03-12) and AI-generated audio quality discrimination challenges (Science Friday, 2026-03-10). The convergence suggests policymakers are wrestling with how to validate and regulate AI systems deployed in high-stakes contexts where human trust and legal accountability matter.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must advise on standards for AI validation, bias testing protocols, and governance frameworks for autonomous systems in defense and civilian applications.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biosafety, Viral Research, and Dual-Use Science Governance</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Making Sense (2026-03-11) examined synthetic biology, virus hunting, Wuhan Institute coronavirus research, and biosafety levels in detail—a comprehensive focus on laboratory containment and pathogen discovery that reflects renewed policy attention to gain-of-function research and laboratory safety standards. This episode stands alone in recent coverage but hits directly on institutional oversight questions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's Committee on International Security and Arms Control and life sciences committees need to address evolving biosafety guidance, research transparency, and international coordination on dual-use research of concern.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Health, Noise Pollution, and Community Participatory Research</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (2026-03-07) connected noise pollution epidemiology, water quality testing, and community-based participatory research as integrated environmental health challenges—framing public health not as individual behavior change but as infrastructural and exposure-driven. This echoes behavioral science policy framing (Science Friday, 2026-03-06) that emphasizes systemic over individual problem-solving.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can guide on translating community-engaged research methods into environmental health policy and linking noise/pollution exposure to health outcomes for regulatory action.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Lunar and Planetary Exploration Technology and In-Situ Resource Utilization</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">TechTank (2026-03-09), Skeptics' Guide (2026-03-07), and starTalk (2026-03-10) collectively covered Artemis missions, Mars rover operations, lunar regolith chemistry, and crop cultivation in simulated lunar soil—indicating sustained technical momentum on both human spaceflight and resource independence for sustained lunar presence.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTalk</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can evaluate readiness of life support, agricultural, and geotechnical systems for Artemis-era lunar surface operations and inform long-duration mission planning.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Viral Immunity, Monoclonal Antibodies, and Occupational Health in Healthcare Settings</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast (2026-03-06) focused on RSV and metapneumovirus antibody development, occupationally acquired immunity in healthcare workers, and monoclonal antibody cocktails—connecting basic immunology to healthcare worker protection and therapeutic development. This complements broader vaccine and therapeutic momentum but highlights workforce health as a specific gap.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advise on healthcare worker vaccination strategies, occupational exposure risk assessment for emerging respiratory viruses, and accelerated monoclonal antibody development pathways.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #463 — Privatizing the Apocalypse</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Mar 11 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode discusses the Deep Vision Project, a USAID-funded biosecurity program that aimed to discover approximately 10,000 novel viruses from remote locations in developing countries, characterize their pandemic potential, and publish their genomes publicly. The guest argues this program posed catastrophic risks through potential laboratory leaks, weaponization by malicious actors, and democratization of bioweapon creation capabilities. Through coordinated efforts involving Congressional senators, think tanks, and policy advocates, the program was effectively defanged in 2022 and formally terminated in September 2023.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Synthetic biology and viral research</span>
+  <span class="topic-tag">Virus hunting and discovery from wildlife reservoirs</span>
+  <span class="topic-tag">Coronavirus research at the Wuhan Institute of Virology</span>
+  <span class="topic-tag">Biosafety levels (BSL-2, BSL-3, BSL-4) and laboratory containment</span>
+  <span class="topic-tag">Reverse genetics and viral rescue techniques</span>
+  <span class="topic-tag">Pandemic pathogen characterization</span>
+  <span class="topic-tag">Vaccine development for novel pathogens</span>
+  <span class="topic-tag">Zoonotic disease surveillance and monitoring</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">Conserving Biodiversity: A Research Agenda for Development</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Laboratory biosafety containment at all levels 'demonstrably leaks' with no uniform reporting system to track leak rates</div>
+<div class="claim">Approximately 30,000 people globally had the tools and knowledge to synthesize viruses from published genomes using reverse genetics techniques (as of the episode's timeframe)</div>
+<div class="claim">Deep Vision could have discovered 6-8 pandemic-grade viruses based on conservative estimates</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"In the words of one very wise person in the field of biosecurity, it had in a worst case, the potential to cancel civilization."</div>
+<div class="quote">"An isolated bat cave that nobody is otherwise ever going to enter is a much safer place for a pandemic-grade pathogen than a lab that's staffed by imperfect humans."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: We saved gray whales from extinction. Why are so many dying again?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 11 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">Gray whales, once hunted to near extinction, were successfully recovered through international protection efforts and removed from the endangered species list in 1994. However, since 1999, scientists have documented recurring cycles of mass die-offs affecting 20-30% of the population, followed by recoveries. Research by Joshua Stewart and colleagues identified that these boom-bust cycles correlate with fluctuations in benthic crustacean biomass in Arctic feeding grounds, where whales consume their annual food supply. The study reveals that populations at carrying capacity are highly sensitive to environmental prey availability variations, and the current ongoing decline since 2019 appears driven by climate change impacts on Arctic ecosystems.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Gray whale population dynamics and recovery</span>
+  <span class="topic-tag">Benthic crustacean biomass in Arctic ecosystems</span>
+  <span class="topic-tag">Whale migration patterns and Arctic feeding ecology</span>
+  <span class="topic-tag">Marine mammal mass mortality events</span>
+  <span class="topic-tag">Climate change impacts on Arctic plankton availability</span>
+  <span class="topic-tag">Population boom-bust cycles in marine megafauna</span>
+  <span class="topic-tag">Carrying capacity and density-dependent population regulation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18727/linkages-between-arctic-warming-and-mid-latitude-weather-patterns-summary" target="_blank">Linkages Between Arctic Warming and Mid-Latitude Weather Patterns: Summary of a Workshop</a></div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning" target="_blank">Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states" target="_blank">Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Gray whale populations dropped to 5% of historic numbers due to whaling</div>
+<div class="claim">Approximately 3 million whales killed over 70 years during commercial whaling</div>
+<div class="claim">Gray whale population declined by approximately 25% during 1999-2000 mass mortality events</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"So this is the interesting thing and where the story continues because we're seeing this for the first time in gray whales...once you get to carrying capacity and you've run out of food and you're competing furiously with all of your...competitors, you're much more sensitive to those fluctuations in the environment."</div>
+<div class="quote">"Those are exactly the populations, because they've reached this point where they're competing with each other, that we're going to see these big responses to changes in the environment, natural variability in the environment, but especially climate impacts."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Is There Science Behind The ‘Nervous System Reset’?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 11 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the vagus nerve and its role in regulating inflammation and immune function, examining both scientifically-validated treatments and social media wellness trends. Host Flora Lichtman interviews Dr. Kevin Tracy, a neurosurgeon and pioneer in bioelectronic medicine, who explains his discovery in the 1990s that the vagus nerve controls inflammatory responses through cytokine regulation. The discussion covers FDA-approved vagus nerve stimulation devices for rheumatoid arthritis, the mechanisms of how electrical signals convert to chemical signals that suppress inflammation, and the distinction between rigorous clinical evidence and overhyped wellness claims about breathing techniques, gargling, and humming.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Vagus nerve anatomy and function</span>
+  <span class="topic-tag">Cytokine regulation and cytokine storm</span>
+  <span class="topic-tag">Vagal anti-inflammatory reflex</span>
+  <span class="topic-tag">Bioelectronic medicine and electrical nerve stimulation</span>
+  <span class="topic-tag">Neuroplasticity enhancement through vagus nerve stimulation</span>
+  <span class="topic-tag">Autonomic dysfunction in long COVID</span>
+  <span class="topic-tag">Vagus nerve damage in COVID-19 patients</span>
+  <span class="topic-tag">Norepinephrine and acetylcholine signaling in immune regulation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the" target="_blank">Call to Action for Science Education: Building Opportunity for the Future</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states" target="_blank">Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12999/rising-above-the-gathering-storm-revisited-rapidly-approaching-category-5" target="_blank">Rising Above the Gathering Storm, Revisited: Rapidly Approaching Category 5</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision" target="_blank">Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25466/vibrant-and-healthy-kids-aligning-science-practice-and-policy-to" target="_blank">Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Vagus nerve stimulation is FDA-approved for treating rheumatoid arthritis (approved Summer 2024, device by Setpoint Medical)</div>
+<div class="claim">Approximately 80% of rheumatoid arthritis patients not responding to drug therapy show significant improvement one year after implanted vagus nerve stimulation</div>
+<div class="claim">Vagus nerve was previously FDA-approved for epilepsy treatment in the 1990s</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The vagus nerve was like the brakes on your car. And when you're barreling down the hill, you turn the brakes on in order to slow down the car. In this case, when you turn on the vagus nerve, you can slow down inflammation."</div>
+<div class="quote">"There's a difference between carefully controlled scientific studies in large populations that are randomized and well-controlled and somebody who makes some new device and claims it works in five or 10 people and then starts advertising it."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: This fish shouldn’t exist — the weird genetics of clonal vertebrates</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 11 &middot; 23 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores two main scientific topics: the genetics of asexual reproduction in the Amazon molly fish, and the mechanisms powering superluminous supernovae. Researchers discovered that Amazon mollies, which have existed for ~100,000 years despite theoretical predictions they should die out after 10,000 years, use gene conversion to prevent accumulation of harmful mutations. In the supernovae segment, astronomers studying superluminous supernovae 2024AFAV found evidence supporting magnetar-powered models over competing theories, with novel observations of precessing accretion disks producing periodic brightness variations.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Asexual reproduction in vertebrates</span>
+  <span class="topic-tag">Gene conversion as DNA repair mechanism</span>
+  <span class="topic-tag">Amazon molly (Poecilia formosa) clonal genetics</span>
+  <span class="topic-tag">Mutation accumulation in asexual genomes</span>
+  <span class="topic-tag">Gynogenesis (sperm-dependent asexual reproduction)</span>
+  <span class="topic-tag">Superluminous supernovae</span>
+  <span class="topic-tag">Magnetars (highly magnetized neutron stars)</span>
+  <span class="topic-tag">Accretion disk precession around magnetars</span>
+  <span class="topic-tag">Gravitational wave chirps in supernovae</span>
+  <span class="topic-tag">Four-star stellar systems</span>
+  <span class="topic-tag">Microbiome-mediated peanut allergy tolerance</span>
+  <span class="topic-tag">Bacterial degradation of peanut allergens</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing" target="_blank">Heritable Human Genome Editing</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26757/review-of-the-draft-fifth-national-climate-assessment" target="_blank">Review of the Draft Fifth National Climate Assessment</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25991/bringing-fusion-to-the-us-grid" target="_blank">Bringing Fusion to the U.S. Grid</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Amazon mollies originated ~100,000 years ago from hybridization between Poecilia mexicana and Poecilia latipinna</div>
+<div class="claim">Mathematical modeling predicted asexual species should go extinct after ~10,000 years due to mutation accumulation</div>
+<div class="claim">Amazon mollies accumulate mutations faster than parent species but show no evidence of higher harmful mutation accumulation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The disadvantages of asexual reproduction are that it is much harder to get rid of a mutation that is harmful. Natural selection has to choose between taking the entire genome with the harmful mutation or taking none of the genome."</div>
+<div class="quote">"The key new thing is that we were able to show that gene conversion is actually playing a role in maintaining these genomes. So not just that it's happening, but that in essence natural selection has taken advantage of gene conversion to accomplish what it wants to accomplish."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: How Is AI Being Used In The Iran War?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 12 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the use of AI, specifically Anthropic's Claude language model, in military operations during the Iran conflict. The discussion reveals tensions between AI companies and the Pentagon over autonomous weapon development, including allegations that Claude may have misidentified civilian targets as military ones, potentially contributing to bombing of schools. The episode explores the complications around Anthropic's ethical positioning, automation bias in human-AI decision-making, and emerging public resistance to AI industry expansion through grassroots movements against data centers.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Large language models (LLMs) - accuracy and hallucination problems</span>
+  <span class="topic-tag">Automation bias in human-AI decision-making systems</span>
+  <span class="topic-tag">Computer vision systems in autonomous weapons</span>
+  <span class="topic-tag">AI target identification and classification errors</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation" target="_blank">The Future of Air Traffic Control: Human Operators and Automation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education" target="_blank">A 21st Century Cyber-Physical Systems Education</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claude language model identified approximately 1,000 targets in Iran intelligence analysis</div>
+<div class="claim">Large language models are described as 'very faulty technology' with accuracy problems</div>
+<div class="claim">Speculation that Claude misidentified a civilian school as military target leading to bombing</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I was not envisioning, you know, the fusion of this technology with the military and the alliance between Silicon Valley and Washington... Well, it's not a metaphor anymore. It's literal."</div>
+<div class="quote">"There is speculation that it's because Claude misidentified a civilian target as a military target... there just like so much uncertainty and there so little transparency so little accountability in just extraordinarily grotesque actions that are happening"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">70 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomy Observations (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts featuring telescopic observations, exoplanets, supernovae, and space missions including Webb telescope imagery and radio astronomy discoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biomedical Research and Medical Advances (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on organ atlases, cancer treatment innovations, vaccine trials, and neuroscience research including brain function and sensory systems.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">AI Safety and Capability Concerns (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions on chatbot safety vulnerabilities, AI research methodology flattening, and AI company regulatory interactions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Mars and Planetary Exploration (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Perseverance rover imagery, crater exploration, and VR documentation of Mars surface features.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental and Climate Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Deep ocean mining concerns, seaweed bloom impacts, biodiversity loss solutions, and dust storm tracking.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@d-macphee.bsky.social</div>
+  <div class="bluesky-stats">86 likes &middot; 33 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">“With the Human Organ Atlas (HOA), users can travel through the brain, heart, lungs, kidneys, and liver and better understand our anatomy and the diseases that threaten it. The platform is detailed in a paper published today in the journal Science Advances”
+🧪 #Scicomm
+www.popsci.com/health/human...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/d-macphee.bsky.social/post/3mgtg6eplyk2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">58 likes &middot; 57 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">In 2024, #NIH was 2.8% of the federal budget of HHS & less than 1% of total federal spending. 
+
+NIH research generated $94.15 BILLION in new economic activity in 2025 (390,863 jobs).
+
+The 250% ROI at a fraction of the total budget speaks for itself.
+🧪 www.unitedformedicalresearch.org/statements/u...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgsuubuzus2q" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rando.insalubrio.us</div>
+  <div class="bluesky-stats">92 likes &middot; 14 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Researchers have demonstrated that cryo-preserved slices of mouse hippocampus can recover electrophysiological function! Although "cryo-sleep" is still science fiction, this represents an exciting first step! 🧪
+
+www.pnas.org/doi/abs/10.1...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rando.insalubrio.us/post/3mgt47ucfps2o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jennanewman.bsky.social</div>
+  <div class="bluesky-stats">70 likes &middot; 20 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">“most [chatbots]failed to connect those warning signs [of violet intent] to the broader trajectory of the conversations. Instead, they went on to provide potentially sensitive info—incl the locations of political offices &schools, as well as advice on firearms &knives—w/in the same brief exchanges”🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jennanewman.bsky.social/post/3mgtc6gdclc2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@coreyspowell.bsky.social</div>
+  <div class="bluesky-stats">69 likes &middot; 19 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">A little dose of celestial beauty for you.
+
+This space tornado is a set of shockwaves created by high-speed gas flowing away from a newborn star. And the spooky lamp at its tip is a distant galaxy that (by coincidence) happens to appear right where the shock ends. 🧪🔭
+
+esawebb.org/news/weic2506/</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/coreyspowell.bsky.social/post/3mgsq3ktylk2g" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Funding and Economic Impact</strong>: NIH funding efficiency and return on investment data directly supports NASEM's work on science policy, research funding mechanisms, and economic impact assessment.</div>
+<div class="nasem-match"><strong>AI Safety and Responsible Development</strong>: Chatbot safety vulnerabilities and AI methodology concerns align with NASEM's mandate to provide guidance on artificial intelligence governance and risk assessment.</div>
+<div class="nasem-match"><strong>Research Ethics and International Collaborations</strong>: Ethical concerns surrounding international vaccine trials inform NASEM's work on responsible conduct of research and international scientific collaboration standards.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 12, 2026 at 11:35 AM | Internal use only
+    </div>
+</body>
+</html>
