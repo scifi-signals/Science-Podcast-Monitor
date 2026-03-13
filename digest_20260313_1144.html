@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 13, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 13, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">42</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">82</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reflects strengthening focus on climate science, conservation biology, and health equity. The most significant pattern involves cryospheric research: lake stars on Earth and their analogues on Europa (Short Wave) connect directly to paleoclimate findings from Alaska's eroding glacier (Science Magazine Podcast), both illustrating how thermal dynamics in frozen systems reveal planetary history and subsurface conditions. Cancer survivorship emerges as a major health equity challenge, with disparities in access and screening mirroring patterns seen in vaccine delivery infrastructure. Vaccine hesitancy and financial barriers to pediatric immunization remain contested topics, with one podcast explicitly debunking pharmaceutical incentive claims while highlighting real cost-coverage gaps. Bluesky discourse emphasizes science policy concerns regarding EPA and NIH leadership expertise and independence, suggesting growing institutional trust concerns among the scientific community.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Cryosphere physics and paleoclimate reconstruction (lake stars/Europa formations; glacial erosion revealing MIS-11 interglacial records)</li>
+<li>Conservation genetics and subspecies recovery (Galapagos tortoise reintroduction; DNA analysis informing breeding programs)</li>
+<li>Health equity and access disparities (cancer survivorship care gaps across geography and race; vaccine delivery infrastructure costs)</li>
+<li>Vaccine policy and hesitancy (financial viability of pediatric immunization; communication strategies around shared decision-making)</li>
+<li>Machine learning applications in behavioral biology and lifespan prediction (fish tracking; raven spatial cognition)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Europa subsurface water detection via thermal analogue studies—lake stars as direct Earth analog for Jovian moon exploration</li>
+<li>Cancer as chronic disease model requiring long-term survivorship infrastructure—shift from acute treatment focus to holistic post-treatment support</li>
+<li>Scientific independence concerns in government appointments—Bluesky discussions of EPA and NIH leadership lacking technical expertise</li>
+<li>Behavioral prediction using deep learning and computer vision—expanding from animal behavior to aging and longevity markers</li>
+<li>Paleoclimate records from extreme erosion events—350,000-year-old glacier exposure providing interglacial baseline data for climate analogs</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission study on cancer survivorship care infrastructure and equity: NASEM could convene oncologists, survivorship specialists, and health systems researchers to develop national standards addressing physical, psychological, and employment-related needs across demographic groups</div>
+<div class="opportunity">Convene working group on scientific workforce expertise in federal agencies: Address Bluesky concerns about EPA and NIH leadership by promoting standards for science advisory roles and technical competency requirements</div>
+<div class="opportunity">Pediatric vaccine delivery cost-benefit analysis: Partner with AAP and reimbursement experts to quantify actual costs (storage, administration, waste) versus insurance reimbursement and develop policy recommendations for sustainable primary care immunization</div>
+<div class="opportunity">Europa exploration advisory: Leverage published Short Wave research with Victor Tsai and JPL to inform habitability assessment protocols for future Clipper and JUICE missions</div>
+<div class="opportunity">Rural cancer care access initiative: Coordinate with state health departments and rural health networks to pilot telehealth survivorship programs addressing the 60-mile+ access gap for rural oncology patients</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">CORRECTED: 'Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children'—Unbiased Science episode explicitly debunked this as illegal and not occurring; presents actual data showing vaccine reimbursement barely covers costs</div>
+<div class="claim">UNVERIFIED: Five-year cancer survival rate increase from 50% (1970s) to 70% (today)—claim requires cross-reference with SEER database to determine if applicable to all cancer types or specific cohorts; potential conflation with all-cancer combined rates versus specific malignancies</div>
+<div class="claim">UNVERIFIED: Only 1% of breast cancers occur in men (2,800 annual U.S. diagnoses)—requires validation against current NCI epidemiological data; percentage may underestimate incidence in specific age/risk groups</div>
+<div class="claim">UNVERIFIED: 20% of rural Americans live 60+ miles from an oncologist—needs current sourcing and geographic specificity; statistic age and regional variation unclear</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Systems Accuracy and Human-Machine Decision Integration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are examining how AI systems fail in high-stakes contexts—hallucination in LLMs, misidentification in computer vision for autonomous weapons, and automation bias in human-AI decision-making. Science Friday and Science Magazine Podcast are covering these as distinct technical problems, but the underlying concern is convergent: AI deployment without human oversight produces cascading errors. This reflects growing policy pressure to understand AI reliability before systems are integrated into critical infrastructure.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track AI assurance standards and human-machine teaming recommendations as agencies require validation frameworks for autonomous systems in defense and civilian applications.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate and Ecosystem Disruption in Extreme Environments</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave, Science Magazine Podcast, and TechTank are independently documenting rapid changes in polar and marine ecosystems—Arctic benthic biomass shifts, permafrost coastal erosion, whale migration pattern disruptions, and atmospheric evolution on Mars as a climate case study. These episodes suggest a broader narrative about how cryospheric and marine systems are recalibrating faster than forecasted, with cascading effects on biodiversity and human Arctic infrastructure. The Mars parallel invokes long-timescale climate instability as a scientific analogue.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize research on early-warning indicators for ecosystem tipping points and indigenous Arctic adaptation strategies as federal agencies expand resource extraction and climate monitoring in sensitive regions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Viral Discovery and Biosafety Risk Governance</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Making Sense and Nature Podcast are both examining pathogen research—virus hunting from wildlife reservoirs, biosafety containment levels, and monoclonal antibody responses to emerging respiratory viruses (RSV, HMPV). The Making Sense episode specifically revisits Wuhan Institute virology and BSL containment, signaling renewed attention to laboratory pathogen research governance. Nature Podcast's immunology focus complements this by highlighting how natural viral immunity in healthcare workers differs from vaccine-induced protection, implying gaps in occupational risk models.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene expert panels on pathogen research governance, BSL-4 protocols for novel coronavirus variants, and occupational health frameworks for viral research personnel as dual-use research oversight frameworks mature.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Vaccination Strategy and Immunological Heterogeneity</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science and Nature Podcast are converging on vaccine design challenges—pneumococcal vaccines (PCV9 vs. PCV20), meningococcal coverage, and the immunological differences between healthcare worker occupational immunity and monoclonal antibody cocktails for RSV/HMPV. This signals a shift from one-size-fits-all vaccine rollout toward precision immunology, where population subgroups (occupationally exposed, elderly, immunocompromised) require differentiated strategies.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a standing committee on next-generation vaccine platforms and occupational immunology to guide CDC/FDA policy on booster stratification and viral surveillance in healthcare settings.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biological Reproduction Strategies and Genetic Stability</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast, Short Wave, and Radiolab are independently exploring asexual and unusual reproductive mechanisms—clonal genetics in Amazon mollies, fraternal birth order effects on development, and hermaphroditic reproduction with love darts in snails. Collectively, these episodes reveal how non-traditional reproductive pathways accumulate mutations, face developmental constraints, and depend on maternal/environmental cues. This is emerging as a window into how organisms persist under genomic stress, relevant to conservation genetics and evolutionary resilience.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should explore how evolutionary bottlenecks in clonal and asexual populations inform conservation breeding programs and genetic rescue for endangered species, particularly in light of climate-driven habitat compression.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: What Alaska’s eroding coastline says about Earth’s future, and how Yellowstone ravens use their smarts to find wolf kills</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Mar 12 &middot; 43 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Magazine podcast episode covers three main topics: (1) the discovery of a potentially 350,000-year-old glacier being exposed by coastal erosion in Alaska, which could provide insights into past warm climate periods similar to today; (2) a study using video analysis and machine learning to track African turquoise killifish throughout their entire lifespans, revealing distinct behavioral life stages and predictive markers of longevity; and (3) research in Yellowstone National Park showing that ravens locate wolf kill sites through memory and spatial learning rather than by following wolves, challenging long-held assumptions about scavenger behavior.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Glaciology and paleoclimate - buried glacier dating and ice core analysis</span>
+  <span class="topic-tag">Marine isotope stages (MIS-11) and interglacial climate cycles</span>
+  <span class="topic-tag">Permafrost melting and coastal erosion in the Arctic</span>
+  <span class="topic-tag">Methane in glacial ice and microbial activity in frozen sediments</span>
+  <span class="topic-tag">Radioactive isotope dating methods - Krypton-81 and Argon-40</span>
+  <span class="topic-tag">Water isotope analysis for paleoclimate reconstruction</span>
+  <span class="topic-tag">Lifespan prediction using behavioral analysis and machine learning</span>
+  <span class="topic-tag">Deep learning computer vision for animal tracking</span>
+  <span class="topic-tag">Fish transcriptomics - ribosome biogenesis, autophagy, and protein synthesis as aging markers</span>
+  <span class="topic-tag">Caloric restriction effects on aging and behavior</span>
+  <span class="topic-tag">Behavioral life stages in aging vertebrates</span>
+  <span class="topic-tag">Raven spatial memory and kill site recognition</span>
+  <span class="topic-tag">Predator-scavenger ecosystem interactions</span>
+  <span class="topic-tag">Animal tracking and GPS telemetry</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research" target="_blank">Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18711/opportunities-to-use-remote-sensing-in-understanding-permafrost-and-related-ecological-characteristics" target="_blank">Opportunities to Use Remote Sensing in Understanding Permafrost and Related Ecological Characteristics: Report of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24987/improving-characterization-of-anthropogenic-methane-emissions-in-the-united-states" target="_blank">Improving Characterization of Anthropogenic Methane Emissions in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25305/methods-to-foster-transparency-and-reproducibility-of-federal-statistics-proceedings" target="_blank">Methods to Foster Transparency and Reproducibility of Federal Statistics: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">MIS-11 (Marine Isotope Stage 11) was one of the longest and warmest interglacial periods, occurring approximately 400,000-500,000 years ago, with temperatures very similar to present day</div>
+<div class="claim">Antarctic ice cores provide continuous climate records spanning 800,000 years, with some ice potentially 6 million years old</div>
+<div class="claim">Greenland ice provides continuous records only back to approximately 123,000 years ago</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"This is kind of like a poorly rehearsed band. You know, one member of the band's playing one chord and the other playing another. So these ice sheets don't grow in sync throughout the world."</div>
+<div class="quote">"We're going to be getting these messier, complicated archives that we need to kind of retool to understand and glean information from."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: An icy mystery: What are lake stars?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 13 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores lake stars, star-shaped patterns that form in ice when warm water percolates through slushy snow layers on frozen lakes. Geophysicist Victor Tsai from Brown University recreated these formations in a laboratory using a blender to make slush and carefully dripping warm water through it. His research has broader implications for understanding similar formations on Europa, Jupiter's icy moon, which could indicate the presence of subsurface liquid water and inform future exploration missions. The episode also discusses ice safety implications for people walking on frozen lakes.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Lake stars formation (star-shaped ice patterns)</span>
+  <span class="topic-tag">Thermal physics of ice and water interaction</span>
+  <span class="topic-tag">Slushy ice layer dynamics</span>
+  <span class="topic-tag">Heat diffusion and water channelization in frozen substrates</span>
+  <span class="topic-tag">Europa surface features and subsurface water detection</span>
+  <span class="topic-tag">Cryosphere geophysics</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science" target="_blank">Understanding and Addressing Misinformation About Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25138/the-future-of-atmospheric-boundary-layer-observing-understanding-and-modeling" target="_blank">The Future of Atmospheric Boundary Layer Observing, Understanding, and Modeling: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Lake stars form when warm lake water seeps through holes in thin ice and melts through slushy snow layers, creating branching star patterns</div>
+<div class="claim">Earth lake stars typically reach maximum sizes of about 30 feet across</div>
+<div class="claim">Europa spider patterns (analogous formations) are 1-2 kilometers wide</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If a lake star had recently formed, then it would be very not safe. Because that means that the ice was very thin, and then there's mostly snow and slush on top of that, and it probably would not be able to support your weight."</div>
+<div class="quote">"If this star pattern really was formed by melted liquid water, then it really suggests that at least at some time in Europa's history, you had to have water close to the surface."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Slow Breaking News: A Giant Tortoise Revival</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 13 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">Science Friday episode highlights conservation success stories focused on turtles and tortoises. The primary narrative covers the reintroduction of 158 young Galapagos tortoises to Floriana Island, where the subspecies had been nearly extinct due to historical hunting and invasive species. The episode also discusses sea turtle nesting season in Florida and fossil evidence of an ancient sea turtle stampede from 80 million years ago discovered in Italy.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Galapagos tortoise subspecies conservation and genetics</span>
+  <span class="topic-tag">DNA analysis of tortoise remains from cave deposits</span>
+  <span class="topic-tag">Invasive species removal in island ecosystems</span>
+  <span class="topic-tag">Sea turtle nesting behavior and light pollution impacts</span>
+  <span class="topic-tag">Ancient sea turtle paleontology (Cretaceous period)</span>
+  <span class="topic-tag">Turtle and tortoise taxonomy and classification</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match">Sea Change: 2015-2025 Decadal Survey of Ocean Sciences</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Lonesome George's genetic line may not be completely lost based on 2020 genetics analysis - described as potentially good news for conservation</div>
+<div class="claim">Floriana tortoises were extinct on their native island but some individuals with Floriana genetics were found on another island and used in captive breeding</div>
+<div class="claim">Released tortoises are 8-13 years old (about 18 inches, 30-50 pounds) and not sexually mature until age 25 or so</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The reason that we have the genetics of the Floriana tortoises at all is because someone picked up these tortoises and put them on a ship. And then they took them off the ship and put them on another island."</div>
+<div class="quote">"These tortoises were never experienced on this island in any of our lifetimes and so I think it was really momentous for the community to understand that the things that they heard from their grandfathers and were just stories in the past was actually coming true."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Pediatricians: Not About The Benjamins, Baby</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Mar 11 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the financial relationship between pediatricians and vaccine administration, debunking the claim that pediatricians receive significant financial incentives to vaccinate children. The hosts present findings from a multi-month research report showing that vaccines are actually the second-highest cost in pediatric practices (after staff salaries), with reimbursement barely covering costs. Three practicing pediatricians share real-world experiences demonstrating the financial burden and regulatory complexity of vaccine delivery, while also discussing vaccine hesitancy trends and the importance of shared clinical decision-making in patient care.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Meningitis caused by Haemophilus influenzae type b and Streptococcus pneumoniae</span>
+  <span class="topic-tag">Pneumococcal conjugate vaccines (PCV9 and PCV20)</span>
+  <span class="topic-tag">Meningococcal vaccines</span>
+  <span class="topic-tag">MMR vaccine and congenital rubella syndrome</span>
+  <span class="topic-tag">Vaccine storage, handling, and cold chain management</span>
+  <span class="topic-tag">Immunization policy and vaccine delivery systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Countering the Pandemic Threat Through Global Coordination on Vaccines</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare" target="_blank">Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the" target="_blank">Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the" target="_blank">Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism" target="_blank">Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12654/prudent-practices-in-the-laboratory-handling-and-management-of-chemical" target="_blank">Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards, Updated Version</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claim: Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children - DEBUNKED by hosts as illegal and not occurring</div>
+<div class="claim">Claim: Vaccine reimbursement from insurance covers or exceeds the cost of vaccines - CONTRADICTED; hosts state reimbursement 'pretty much' covers cost or is slightly above, but does not account for storage, administration, or waste</div>
+<div class="claim">Claim: One in four pediatricians have considered stopping vaccine provision due to financial viability - requires verification against NASEM data</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Pediatricians go to extreme lengths to make sure that their patients can get vaccines to keep them healthy... if anything, the narrative is not true, and pediatricians are taking a loss and aren't able to sustain their practice while giving vaccines."</div>
+<div class="quote">"My job as a pediatrician is to encourage families to do the things that are going to keep their kids healthy... it does mean that every time you come in, we're going to talk about what the risks and the benefits are of the vaccine because that's my job."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Will Win: Living Longer with Cancer: Rethinking Survivorship</span>
+</div>
+<div class="episode-meta">Pfizer &middot; Mar 12 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines cancer survivorship as an evolving challenge in oncology, shifting from viewing cancer as a short-term emergency to understanding it as a chronic condition requiring long-term support. The five-year survival rate has improved from 50% in the 1970s to 70% today, meaning more people are living longer with cancer, but face new challenges including physical side effects, psychological impacts, employment complications, and unequal access to survivorship care. The episode explores how survivorship care plans, workplace accommodations, narrative control, and policy advocacy are essential to supporting patients beyond treatment, while highlighting persistent disparities in screening and care access across racial, geographic, and socioeconomic lines.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cancer survivorship and long-term side effects</span>
+  <span class="topic-tag">Five-year survival rate benchmarking</span>
+  <span class="topic-tag">Metastatic cancer (stage four)</span>
+  <span class="topic-tag">Breast cancer in men (1% of cases)</span>
+  <span class="topic-tag">Prostate cancer diagnosis and treatment</span>
+  <span class="topic-tag">Cancer-related cognitive impairment (cancer fog)</span>
+  <span class="topic-tag">Cancer treatment-induced fatigue</span>
+  <span class="topic-tag">Anxiety, depression, and post-traumatic stress in cancer survivors</span>
+  <span class="topic-tag">Radiation therapy for prostate cancer</span>
+  <span class="topic-tag">Early cancer screening and detection</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a" target="_blank">Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop</a></div>
+<div class="nasem-match">From Cancer Patient to Cancer Survivor: Lost in Transition</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23695/exploring-strategies-to-improve-cardiac-arrest-survival-proceedings-of-a" target="_blank">Exploring Strategies to Improve Cardiac Arrest Survival: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act" target="_blank">Strategies to Improve Cardiac Arrest Survival: A Time to Act</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match">From Cancer Patient to Cancer Survivor: Lost in Transition</div>
+<div class="nasem-match">Ovarian Cancers: Evolving Paradigms in Research and Care</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Five-year cancer survival rate increased from 50% in the 1970s to 70% today — verify accuracy and whether this represents all cancer types equally</div>
+<div class="claim">Only 1% of breast cancer cases occur in men; approximately 2,800 men diagnosed annually in the U.S. — cross-reference with current epidemiological data</div>
+<div class="claim">20% of rural Americans live more than 60 miles from an oncologist — verify this statistic and its currency</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It's not over when it's over. So the treatment is over, but cancer is not over. — Shelley Fold Nassau, Cancer Nation CEO"</div>
+<div class="quote">"One of the things you can control is your story, who you share that with, who gets to know that about you, what you want them to know, how you want to frame it. That's yours. — Rebecca Nellis, Cancer and Careers Executive Director"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">82 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Government Oversight (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of EPA leadership appointments lacking relevant expertise, NIH transparency concerns, and the Bethesda Declaration regarding scientific independence.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Exoplanet Discovery and Habitability (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Reports on newly discovered exoplanets around nearby stars, planet formation mechanisms, and assessments of potential habitability.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Marine Biology (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on ocean warming impacts on fish biomass, heatwave effects on greenhouse gas emissions, and long-term climate change consequences.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Developmental and Molecular Biology (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on neural crest cell migration, gut dysbiosis mechanisms, embryogenesis imaging techniques, and neurological disease pathways.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Exploration (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Updates on NASA's Artemis II mission, lunar habitat development, telescope construction progress, and astrophotography observations.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">216 likes &middot; 110 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Everybody should know who @jenna-m-norton.bsky.social is.
+In this day and age it is more risky to keep your head down than to be the whistleblower that we needs.
+
+Right now, being called "a radical leftist" is a badge of honor. And imperative.
+
+Read her story here.
+🧪 www.statnews.com/2026/03/12/n...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgvje76pzs24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">120 likes &middot; 97 reposts &middot; 15 replies</div>
+  <div class="bluesky-text">Paging The Onion
+
+The Trump administration has tapped an eye doctor with no background in air pollution science to advise the EPA on what levels of air pollutants are safe to breathe.
+
+Ideology over expertise.
+🧪 🎁 🔗 www.nytimes.com/2026/03/12/c...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mgv7zpnrgk2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@eso.org</div>
+  <div class="bluesky-stats">79 likes &middot; 24 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">Our Extremely Large Telescope is already 70% complete!
+
+But what would you see if you walked inside it today? The latest #ChasingStarlight episode takes you there: https://www.youtube.com/watch?v=4IUeLqC-xpo
+
+🔭 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/eso.org/post/3mgwdsu2yts2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@tinylongwing.bsky.social</div>
+  <div class="bluesky-stats">81 likes &middot; 13 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">White, blue and green. Rota (Luta), Bird Sanctuary overlook and Luta Sihek (Mariana Kingfisher)
+
+👩🏼‍⚕️🧪🪶🌏</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/tinylongwing.bsky.social/post/3mgvroutowc2w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">54 likes &middot; 21 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">So it begins. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mgvgpea2ts2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Scientific Integrity and Government Leadership</strong>: Appointments of unqualified personnel to science advisory positions directly challenge NASEM's mission to provide evidence-based advice to government and maintain scientific integrity in policy.</div>
+<div class="nasem-match"><strong>Climate Change and Ocean Health</strong>: Marine ecosystem impacts from climate change relate to NASEM's work on climate science, ocean acidification, and sustainable resource management.</div>
+<div class="nasem-match"><strong>Public Health and Cancer Prevention</strong>: Colorectal cancer screening disparities in younger populations align with NASEM's health equity and prevention research initiatives.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 13, 2026 at 11:44 AM | Internal use only
+    </div>
+</body>
+</html>
