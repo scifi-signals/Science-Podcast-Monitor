@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 16, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 16, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">43</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">86</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals convergence around biological and computational innovation, neuroscience mechanisms, and emerging public health challenges. The Nature Podcast and Radiolab episodes demonstrate how fundamental research—from cultured neurons playing Doom to sterile insect technique applications—addresses practical problems in computing and pest management. The Peter Attia Drive episode signals important developments in Alzheimer's prevention through lipid metabolism intervention, while Short Wave continues exploring reward system neuroscience, a recurring theme across the past week. Notably, the screwworm breach at the Panama-Colombia border represents an urgent biosecurity issue requiring immediate interdisciplinary coordination. Bluesky discourse shows sustained concern about vaccination policy, space program funding, and science communication effectiveness during periods of institutional transition.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Biological systems as alternative computing platforms—cultured neurons demonstrate energy efficiency and novel processing capabilities beyond traditional AI</li>
+<li>Neuroscience refinement of popular misconceptions—dopamine generates motivation, not pleasure; HDL cholesterol alone is not protective against cardiovascular disease</li>
+<li>Gene technology governance—both gene drives (screwworm elimination) and CETP inhibitors raise questions about intervention scale and clinical validation timelines</li>
+<li>Climate change impacts on traditional forecasting—farmer's almanacs losing predictive value; agricultural timing increasingly unreliable</li>
+<li>Individual variation and conformity dynamics—zebra finch preferences and social pressure mirror human behavioral economics patterns</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Biomarker-driven drug development without cognitive outcomes—obicetrapib shows P-tau-217 reduction in APOE4 carriers but requires validation; represents broader trend of intermediate endpoint reliance in Alzheimer's research</li>
+<li>Cultured neuron applications expanding beyond neuroscience—space software validation, drug screening, and biocomputing suggest neural tissue as multipurpose research infrastructure</li>
+<li>Screwworm resurgence as climate/biosecurity nexus—pest expansion driven by ecological factors now intersecting with gene drive ethics; no simple containment solution available</li>
+<li>Reward neuroscience refinement continuing—'wanting vs. liking' framework gaining traction in addiction and pleasure research, challenging dopamine-centric narratives</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene working group on screwworm gene drive governance—urgent need for binational coordination on gene drive implementation given Panama-Colombia breach; NASEM expertise in dual-use research and international science cooperation essential</div>
+<div class="opportunity">Develop framework for cultured neuron research standards—establish guidelines for biological computing platforms as they transition from proof-of-concept to practical applications in space/pharma; addresses biosafety, reproducibility, and standardization</div>
+<div class="opportunity">Commission rapid assessment on CETP inhibitor clinical trial design—work with neurology and cardiology communities to establish consensus on appropriate intermediate biomarker strategies before large cognitive outcomes trials; addresses translation gap</div>
+<div class="opportunity">Amplify nuanced messaging on dopamine and reward neuroscience—counter popular misconceptions through Science & Entertainment Exchange or direct engagement with media partners covering neuroscience</div>
+<div class="opportunity">Assess farmer advisory ecosystem in climate era—partner with USDA/extension services to evaluate adequacy of current agricultural forecasting for adaptation planning under climate change</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Farmer's Almanac accuracy claims ('right more than half the time')—vague baseline lacking quantitative comparison to meteorological standards; risk of false equivalence between traditional and scientific forecasting</div>
+<div class="claim">Screwworm 'not important pollinator' claim—ecology claim in Radiolab episode should be verified; risks underselling ecological significance if inaccurate, potentially biasing gene drive risk-benefit analysis</div>
+<div class="claim">Obicetrapib Alzheimer's benefit extrapolation risk—biomarker (P-tau-217) reduction in 12-month substudy easily misinterpreted as cognitive protection; media and patient communities may claim prevention without cognitive outcomes data</div>
+<div class="claim">Dopamine narrative oversimplification persists—despite Short Wave episode clarifying dopamine generates 'wanting' not 'liking,' TikTok/popular media continue conflating dopamine with pleasure; NASEM could support science communication infrastructure</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Systems and Brain Function Across Scales</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are examining how neural systems work from molecular (dopamine pathways in Short Wave) to organismal (vagus nerve bioelectronic medicine in Science Friday) to computational levels (cultured neurons as biological computers in Nature Podcast). This convergence reflects emerging interest in understanding neural mechanisms that could inform both therapeutic interventions and alternative computing architectures, moving beyond traditional neuropharmacology into integrated systems thinking.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track how neuroscience research is increasingly bridging basic neural biology, clinical applications (bioelectronic medicine), and computational innovation—areas where policy alignment across NIH, NSF, and DARPA funding priorities matters.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Genetic and Ecological Solutions to Human-Caused Problems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Shows are increasingly covering biological interventions—gene drives and Sterile Insect Technique for pest control (Radiolab), genetic analysis for species conservation (Science Friday on Galapagos tortoises), and asexual reproduction mechanisms (Nature Podcast)—as pragmatic alternatives to chemical or mechanical solutions. This reflects a broader shift toward viewing genomic tools as legitimate policy instruments for ecosystem management and public health.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's work on gene drives, invasive species management, and conservation genetics is increasingly relevant as these technologies move from basic research into implementation; regulatory and ethical frameworks will be critical.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Systems Reliability and Failure Modes in High-Stakes Contexts</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday has covered both LLM hallucinations and autonomous weapon target misidentification; these episodes reflect growing concern about AI accuracy in decision-critical systems rather than general-purpose performance. The focus is shifting from capability to reliability—what happens when AI gets it wrong in medical, military, or scientific contexts.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's standing committees on AI governance and autonomous systems need current intelligence on documented failure modes and automation bias risks, particularly for weapons and medical decision support systems.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Paleoclimate and Cryosphere as Biosignals for Current Risk</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Magazine Podcast, Science Friday, and Short Wave are collectively examining ice cores, permafrost melting, and Arctic ecosystem changes as indicators of both past climate cycles and current instability. The narrative is moving from 'what happened' (glaciology history) to 'what's happening now' (coastal erosion, methane release, whale population shifts tied to Arctic feeding ecology).</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> This cross-show attention to cryosphere dynamics and paleoclimate data should inform NASEM guidance on Arctic research priorities, methane monitoring, and climate adaptation in coastal regions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Circular Economy and Waste-to-Resource Bioconversion</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Shaping Science's recent coverage of anaerobic digestion, compost, and algae-based alternatives to synthetic materials represents an emerging narrative about biological conversion of waste streams into energy and materials. This differs from earlier sustainability discourse by emphasizing scalable biological processes rather than just reduction or recycling.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess whether bioconversion and anaerobic digestion technologies warrant increased research investment as climate mitigation and circular economy strategies, and identify regulatory barriers to scaling.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Radiolab: Return of the Flesh-Eaters</span>
+</div>
+<div class="episode-meta">Lulu Miller, Latif Nasser &middot; Mar 13 &middot; 42 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode traces the history of the New World screwworm, a flesh-eating parasitic fly that devastated livestock across North America. It chronicles Edward Nippling's mid-20th century innovation of using radiation-sterilized males to suppress screwworm populations—a technique called the Sterile Insect Technique (SIT)—which successfully eradicated the pest from the U.S. and Central America. However, the episode reveals that screwworms have recently breached the biological barrier maintained at the Panama-Colombia border and are advancing northward, raising urgent questions about whether humanity should use gene drives to permanently eliminate the species rather than perpetually manage it.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sterile Insect Technique (SIT) for pest control</span>
+  <span class="topic-tag">X-ray sterilization of insects</span>
+  <span class="topic-tag">New World screwworm (Cochliomyia hominivorax) biology and reproduction</span>
+  <span class="topic-tag">Gene drive technology for species elimination</span>
+  <span class="topic-tag">Mendelian genetics and inheritance</span>
+  <span class="topic-tag">Insect mass production and rearing</span>
+  <span class="topic-tag">DDT and synthetic insecticides</span>
+  <span class="topic-tag">Biological pest barrier maintenance</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation" target="_blank">Guiding Cancer Control: A Path to Transformation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11761/status-of-pollinators-in-north-america" target="_blank">Status of Pollinators in North America</a></div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states" target="_blank">The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Screwworms were completely eradicated from the United States and maintained absent through binational efforts at the Panama-Colombia border for decades—this is accurate and well-documented</div>
+<div class="claim">Over 1,000 human cases of screwworm infestation occurred during the 2023-2025 outbreak in Central America—this requires verification against current CDC data</div>
+<div class="claim">Screwworms are 'probably not a very important pollinator' and 'not really a key food source for any other animal'—these ecological claims should be verified against peer-reviewed literature</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Single most original thought of the 20th century—how the New York Times characterized Nippling's Sterile Insect Technique innovation in 1970"</div>
+<div class="quote">"We need to think about the value of species...aesthetic, educational, historical, scientific—Gregory Kaepnick describing the range of values considered when evaluating potential species extinction"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Peter Attia Drive: #384 - Special episode — Obicetrapib: The CETP inhibitor with cardiovascular benefits and potential Alzheimer's prevention</span>
+</div>
+<div class="episode-meta">Peter Attia, MD &middot; Mar 16 &middot; 53 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Peter Attia provides an in-depth analysis of obicetrapib, a CETP inhibitor being developed to lower LDL cholesterol and ApoB. The episode traces the history of failed CETP inhibitor drugs and explains why obicetrapib may succeed where predecessors failed. Notably, a biomarker substudy (Broadway) of obicetrapib showed significant attenuation of phosphorylated tau-217 (P-tau-217) progression in APOE4 carriers over 12 months, suggesting potential Alzheimer's disease prevention benefits through improved brain lipid trafficking. Attia emphasizes this is a biomarker study requiring validation through cognitive outcomes trials before clinical recommendations can be made.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">CETP (cholesterol ester transfer protein) inhibition mechanism</span>
+  <span class="topic-tag">Reverse cholesterol transport (direct and indirect pathways)</span>
+  <span class="topic-tag">Lipoprotein metabolism and particle remodeling (VLDL, LDL, HDL, ApoB)</span>
+  <span class="topic-tag">Apolipoprotein E (ApoE) genotypes (ApoE2, ApoE3, ApoE4) and brain lipid trafficking</span>
+  <span class="topic-tag">Lp(a) lipoprotein reduction and synthesis</span>
+  <span class="topic-tag">Alzheimer's disease biomarkers: phosphorylated tau-217 (P-tau-217), phosphorylated tau-181 (P-tau-181), neurofilament light chain (NFL), glial fibrillary acidic protein (GFAP), amyloid-beta ratios</span>
+  <span class="topic-tag">Blood-brain barrier lipid transport and CNS cholesterol homeostasis</span>
+  <span class="topic-tag">Mendelian randomization studies of HDL and LDL cholesterol causality</span>
+  <span class="topic-tag">Atherosclerotic cardiovascular disease and residual risk</span>
+  <span class="topic-tag">Type 2 diabetes risk associated with statins versus metabolic effects of CETP inhibitors</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match">SBIR at the National Science Foundation</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united" target="_blank">Pathways to Urban Sustainability: Challenges and Opportunities for the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s" target="_blank">Pathways to Discovery in Astronomy and Astrophysics for the 2020s</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25138/the-future-of-atmospheric-boundary-layer-observing-understanding-and-modeling" target="_blank">The Future of Atmospheric Boundary Layer Observing, Understanding, and Modeling: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary" target="_blank">Dietary Reference Intakes Research Synthesis: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation" target="_blank">AI Applications for Automatic Pavement Condition Evaluation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Mendelian randomization studies show LDL cholesterol is causally related to cardiovascular disease outcomes, while HDL cholesterol is NOT causally linked to favorable outcomes - contradicts historical 'HDL is good cholesterol' narrative</div>
+<div class="claim">Loss-of-function CETP mutations are associated with elevated HDL and lower cardiovascular disease risk, but benefit tracks with non-HDL reduction, not HDL increase</div>
+<div class="claim">Loss-of-function SRB1 mutations result in very high HDL cholesterol but increased coronary artery disease risk, demonstrating HDL cholesterol level alone is not protective</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If you have two copies of an APOE4 gene, your probability of developing clinically significant cognitive decline is going to be about two decades sooner than a person who's got two copies of an APOE3 gene."</div>
+<div class="quote">"The Mendelian randomizations would suggest to us that simply raising HDL cholesterol is not going to reduce cardiovascular events by itself."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Briefing chat: ‘Can it run Doom?’ — why scientists got brain cells and a satellite to play the classic game</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 13 &middot; 11 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the cultural phenomenon of getting the classic 1993 video game Doom to run on various devices, and how scientists are leveraging this challenge for legitimate research purposes. Researchers in Australia successfully trained biological neural networks (200,000 human neurons on a silicon chip) to play Doom, building on earlier work with rat neurons and Pong. The game's small size, freely available source code, and cultural cachet make it an ideal testing platform for diverse applications including biocomputing, drug development, and space software validation.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Biological computing with cultured neurons</span>
+  <span class="topic-tag">Neural networks trained via electrical signals</span>
+  <span class="topic-tag">Human stem cell-derived neurons</span>
+  <span class="topic-tag">Neuromorphic computing and alternative AI systems</span>
+  <span class="topic-tag">Energy efficiency in biological computation</span>
+  <span class="topic-tag">Rat neuron networks for gaming</span>
+  <span class="topic-tag">Genetic engineering of E. coli for fluorescent displays</span>
+  <span class="topic-tag">Radiation damage to satellite software</span>
+  <span class="topic-tag">Space-based software testing and validation</span>
+  <span class="topic-tag">Drug development and testing using biological models</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11832/assessing-the-medical-risks-of-human-oocyte-donation-for-stem-cell-research" target="_blank">Assessing the Medical Risks of Human Oocyte Donation for Stem Cell Research: Workshop Report</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12621/real-prospects-for-energy-efficiency-in-the-united-states" target="_blank">Real Prospects for Energy Efficiency in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Biological neural computers consume significantly less energy than traditional AI computing systems</div>
+<div class="claim">Human neurons cultured on chips can learn to respond to electrical signals and provide outputs within 1-2 weeks for complex games</div>
+<div class="claim">Cultured neurons act comparably to average human players in a first-person shooter game</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"This AI was the eyes and the hands of the computer controlling what was going on and seeing for the neurons because, I mean, they don't have eyes. They're a little bunch of cells inside a clear box on top of a chip."</div>
+<div class="quote">"They wanted to create a more realistic environment for the neurons to get them to learn how to adapt as things change... there's lots of applications for an alternative to AI computing that is a lot more energy efficient."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: This is your brain on pleasure (even the guilty kind)</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 16 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the neuroscience of pleasure, examining how the brain processes enjoyment through distinct 'wanting' and 'liking' cycles mediated by different neural systems. The hosts discuss why people feel guilty about innocent pleasures like romance novels, featuring insights from neuroscientists on how dopamine drives motivation rather than pleasure itself, and how social pressures can interfere with enjoying things we genuinely like. The episode concludes that healthy pleasure involves variation, meaningfulness, and sharing experiences rather than strict moderation or restraint.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dopamine and reward neurotransmitters</span>
+  <span class="topic-tag">Nucleus accumbens and ventral striatum function</span>
+  <span class="topic-tag">Hedonic hotspots in the brain</span>
+  <span class="topic-tag">Wanting versus liking distinction in reward processing</span>
+  <span class="topic-tag">Mesolimbic pathway activation</span>
+  <span class="topic-tag">Addiction neurobiology</span>
+  <span class="topic-tag">Behavioral conditioning and guilt-pleasure association</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13048/recapturing-a-future-for-space-exploration-life-and-physical-sciences" target="_blank">Recapturing a Future for Space Exploration: Life and Physical Sciences Research for a New Era</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the" target="_blank">Call to Action for Science Education: Building Opportunity for the Future</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration" target="_blank">Plasma Science: Enabling Technology, Sustainability, Security, and Exploration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26705/reducing-racial-inequality-in-crime-and-justice-science-practice-and" target="_blank">Reducing Racial Inequality in Crime and Justice: Science, Practice, and Policy</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25569/nasas-science-activation-program-achievements-and-opportunities" target="_blank">NASA's Science Activation Program: Achievements and Opportunities</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Dopamine generates intense wants and urges for pleasures but does not actually generate pleasure itself - contradicts popular 'dopamine=pleasure' narrative</div>
+<div class="claim">Lowering dopamine in rats and humans reduces motivation to work for rewards while preserving the ability to like things</div>
+<div class="claim">Liking is localized to 'hedonic hotspots' - discrete neural sites in reward structures that can be stimulated pharmacologically</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Pleasure is so important, and researchers like Morton have started to understand that it's really not just one thing in the brain. Pleasure happens in this cycle. We want something, we like something, and we learn that we like it."</div>
+<div class="quote">"It's not really about moderation. And it's not really about will. It's about variation. It's about realizing that there are many different pleasures out there."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Who uses Farmers’ Almanacs? + Zebra finch home design</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 16 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores two main topics: the historical and contemporary role of Farmers' Almanacs in modern agriculture, and a research study on color preferences and social conformity in zebra finches. The first segment examines whether farmers actually use these centuries-old publications, with guests noting they serve more as entertainment than practical guides, while climate change has made traditional planting calendars less reliable. The second segment discusses research showing that zebra finches have individual color preferences for nest-building materials, and that birds with weak preferences are more likely to conform to social pressures from their colony, while those with strong preferences maintain their individual choices.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Zebra finch color vision and perception (tetrachromacy vs human trichromacy)</span>
+  <span class="topic-tag">Individual behavioral variation in animal populations</span>
+  <span class="topic-tag">Social conformity and information filtering in animal behavior</span>
+  <span class="topic-tag">Nest-building material selection in zebra finches</span>
+  <span class="topic-tag">Animal culture and social learning in birds</span>
+  <span class="topic-tag">Climate change impacts on agricultural timing and crop management</span>
+  <span class="topic-tag">Agricultural forecasting and prediction accuracy</span>
+  <span class="topic-tag">Astronomy and meteor showers (mentioned by farmer's almanac contributor)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on" target="_blank">Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth" target="_blank">Guide for the Care and Use of Laboratory Animals: Eighth Edition</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26344/recommended-guidelines-for-the-selection-of-test-levels-2-through-5-bridge-railings" target="_blank">Recommended Guidelines for the Selection of Test Levels 2 Through 5 Bridge Railings</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Farmer's Almanac weather forecasts claim to be 'right more than half the time' - vague accuracy metric that should be compared to baseline meteorological forecasting standards</div>
+<div class="claim">Climate change has made traditional farmer's almanac planting guidance 'obsolete' - claim supported by farmer testimony but could benefit from quantitative analysis</div>
+<div class="claim">Birds have tetrachromatic vision allowing ultraviolet perception superior to human trichromatic vision - this is well-established in vision science literature</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"For me, like learning old wives tales, which I think are super fun and interesting. but yes, it's for entertainment... My old neighbors that I'm very close with, they read them, but these are 70 plus year old farmers that look at the world a little differently than I do."</div>
+<div class="quote">"Climate change has made them more obsolete... I need to depend on the crops that I grow... by putting the crops under cover you have just more control over the conditions."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">86 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Public Health & Vaccination (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing vaccination impacts, measles outbreaks, and health policy under current administration.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy & Space Observation (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Content about comets, telescopes, planetary alignment, and space missions including NASA program cancellations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Behavioral & Life Sciences Research (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on lifespan prediction, mental health interventions, and biological mechanisms in organisms.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental & Conservation Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on biodiversity, urban ecology, wildlife impacts, and environmental monitoring.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Communication & Misinformation (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions of pseudo-archaeology, expert rhetoric, and challenges in communicating research findings.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sailorrooscout.bsky.social</div>
+  <div class="bluesky-stats">170 likes &middot; 36 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Overall mortality in unvaccinated individuals was roughly 50% HIGHER. The advantage held EVEN AFTER removing coronavirus-related deaths from the mix. 
+
+The study has been published in JAMA. YES, it is PEER-REVIEWED. 
+• jamanetwork.com/journals/jam...
+
+🧪🧵⬇️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sailorrooscout.bsky.social/post/3mh4drmyem22x" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">102 likes &middot; 40 reposts &middot; 14 replies</div>
+  <div class="bluesky-text">Currently making rounds on 
+X since this morning:
+
+An AI video of Kennedy donned in denim, wrestling with a Twinkie. A message to eat real food.
+
+Meanwhile we’re at 1362 measles cases and counting, likely to surpass 2025’s totals.
+
+He should be promoting vaccination instead.
+
+🧪 x.com/SecKennedy/s...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mh4whytypk2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@astromikemerri.bsky.social</div>
+  <div class="bluesky-stats">96 likes &middot; 16 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">He is going to be in so much trouble for letting on. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/astromikemerri.bsky.social/post/3mh3ymyvi522d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">83 likes &middot; 10 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Although I've had no luck tonight, Wednesday I managed to capture a certain Jupiter/Castor/Pollux triangle. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mh4qr6fmec2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">62 likes &middot; 9 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Boy is first to trial 'life-changing' exoskeleton. 🧪 www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mh5wu6v3uc2e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Vaccine Effectiveness & Public Health Policy</strong>: NASEM conducts studies on vaccine safety and efficacy; current measles surge and vaccination communication challenges directly relate to NASEM's health policy advisory role.</div>
+<div class="nasem-match"><strong>Federal Science Agency Leadership & Mission Continuity</strong>: NASA mission cancellations and HHS leadership decisions affect research priorities and infrastructure; NASEM provides independent advice on federal science agency governance.</div>
+<div class="nasem-match"><strong>Science Communication & Combating Misinformation</strong>: Multiple posts address pseudo-science and anti-expert rhetoric in public discourse; NASEM engages in science communication and credibility of expert consensus.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 16, 2026 at 12:04 PM | Internal use only
+    </div>
+</body>
+</html>

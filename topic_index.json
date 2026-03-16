@@ -1,7 +1,472 @@
 {
-  "updated": "2026-03-13T11:44:18.226834",
-  "episode_count": 85,
+  "updated": "2026-03-16T12:04:14.959735",
+  "episode_count": 90,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Who uses Farmers’ Almanacs? + Zebra finch home design",
+      "host": "Ira Flatow",
+      "published": "2026-03-16T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores two main topics: the historical and contemporary role of Farmers' Almanacs in modern agriculture, and a research study on color preferences and social conformity in zebra finches. The first segment examines whether farmers actually use these centuries-old publications, with guests noting they serve more as entertainment than practical guides, while climate change has made traditional planting calendars less reliable. The second segment discusses research showing that zebra finches have individual color preferences for nest-building materials, and that birds with weak preferences are more likely to conform to social pressures from their colony, while those with strong preferences maintain their individual choices.",
+      "science_topics": [
+        "Zebra finch color vision and perception (tetrachromacy vs human trichromacy)",
+        "Individual behavioral variation in animal populations",
+        "Social conformity and information filtering in animal behavior",
+        "Nest-building material selection in zebra finches",
+        "Animal culture and social learning in birds",
+        "Climate change impacts on agricultural timing and crop management",
+        "Agricultural forecasting and prediction accuracy",
+        "Astronomy and meteor showers (mentioned by farmer's almanac contributor)"
+      ],
+      "claims_to_note": [
+        "Farmer's Almanac weather forecasts claim to be 'right more than half the time' - vague accuracy metric that should be compared to baseline meteorological forecasting standards",
+        "Climate change has made traditional farmer's almanac planting guidance 'obsolete' - claim supported by farmer testimony but could benefit from quantitative analysis",
+        "Birds have tetrachromatic vision allowing ultraviolet perception superior to human trichromatic vision - this is well-established in vision science literature",
+        "Female zebra finch preferences influence final nest composition despite males selecting materials - preliminary finding not yet fully analyzed, described by researcher as ongoing work"
+      ],
+      "policy_relevance": [
+        "NOAA weather data mentioned as resource used by modern farmers instead of almanacs",
+        "Discussion of how climate change is driving policy-level farming adaptations (high tunnel investments, agricultural infrastructure changes)",
+        "Implicit relevance to agricultural extension services and USDA guidance for planting decisions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization"
+        },
+        {
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on"
+        },
+        {
+          "title": "Guide for the Care and Use of Laboratory Animals: Eighth Edition",
+          "url": "https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth"
+        },
+        {
+          "title": "Community Interventions to Prevent Veteran Suicide: The Role of Social Determinants: Proceedings of a Virtual Symposium",
+          "url": "https://nap.nationalacademies.org/catalog/26638/community-interventions-to-prevent-veteran-suicide-the-role-of-social"
+        },
+        {
+          "title": "Recommended Guidelines for the Selection of Test Levels 2 Through 5 Bridge Railings",
+          "url": "https://nap.nationalacademies.org/catalog/26344/recommended-guidelines-for-the-selection-of-test-levels-2-through-5-bridge-railings"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "Building and Measuring Community Resilience: Actions for Communities and the Gulf Research Program",
+          "url": "https://nap.nationalacademies.org/catalog/25383/building-and-measuring-community-resilience-actions-for-communities-and-the"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "This is your brain on pleasure (even the guilty kind)",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-16T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the neuroscience of pleasure, examining how the brain processes enjoyment through distinct 'wanting' and 'liking' cycles mediated by different neural systems. The hosts discuss why people feel guilty about innocent pleasures like romance novels, featuring insights from neuroscientists on how dopamine drives motivation rather than pleasure itself, and how social pressures can interfere with enjoying things we genuinely like. The episode concludes that healthy pleasure involves variation, meaningfulness, and sharing experiences rather than strict moderation or restraint.",
+      "science_topics": [
+        "Dopamine and reward neurotransmitters",
+        "Nucleus accumbens and ventral striatum function",
+        "Hedonic hotspots in the brain",
+        "Wanting versus liking distinction in reward processing",
+        "Mesolimbic pathway activation",
+        "Addiction neurobiology",
+        "Behavioral conditioning and guilt-pleasure association"
+      ],
+      "claims_to_note": [
+        "Dopamine generates intense wants and urges for pleasures but does not actually generate pleasure itself - contradicts popular 'dopamine=pleasure' narrative",
+        "Lowering dopamine in rats and humans reduces motivation to work for rewards while preserving the ability to like things",
+        "Liking is localized to 'hedonic hotspots' - discrete neural sites in reward structures that can be stimulated pharmacologically",
+        "Guilt priming increases perceived enjoyment and willingness to pay for goods in behavioral studies",
+        "The pleasure cycle involves wanting, liking, and learning components that can become dissociated in addiction"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Recapturing a Future for Space Exploration: Life and Physical Sciences Research for a New Era",
+          "url": "https://nap.nationalacademies.org/catalog/13048/recapturing-a-future-for-space-exploration-life-and-physical-sciences"
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration"
+        },
+        {
+          "title": "Reducing Racial Inequality in Crime and Justice: Science, Practice, and Policy",
+          "url": "https://nap.nationalacademies.org/catalog/26705/reducing-racial-inequality-in-crime-and-justice-science-practice-and"
+        },
+        {
+          "title": "Initiating the Systems Engineering Process for Rural Connected Vehicle Corridors, Volume 1: Research Overview",
+          "url": "https://nap.nationalacademies.org/catalog/26389/initiating-the-systems-engineering-process-for-rural-connected-vehicle-corridors-volume-1-research-overview"
+        },
+        {
+          "title": "NASA's Science Activation Program: Achievements and Opportunities",
+          "url": "https://nap.nationalacademies.org/catalog/25569/nasas-science-activation-program-achievements-and-opportunities"
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters"
+        }
+      ]
+    },
+    {
+      "podcast_id": "peter-attia-drive",
+      "podcast_name": "The Peter Attia Drive",
+      "episode_title": "#384 - Special episode — Obicetrapib: The CETP inhibitor with cardiovascular benefits and potential Alzheimer's prevention",
+      "host": "Peter Attia, MD",
+      "published": "2026-03-16T04:15:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Dr. Peter Attia provides an in-depth analysis of obicetrapib, a CETP inhibitor being developed to lower LDL cholesterol and ApoB. The episode traces the history of failed CETP inhibitor drugs and explains why obicetrapib may succeed where predecessors failed. Notably, a biomarker substudy (Broadway) of obicetrapib showed significant attenuation of phosphorylated tau-217 (P-tau-217) progression in APOE4 carriers over 12 months, suggesting potential Alzheimer's disease prevention benefits through improved brain lipid trafficking. Attia emphasizes this is a biomarker study requiring validation through cognitive outcomes trials before clinical recommendations can be made.",
+      "science_topics": [
+        "CETP (cholesterol ester transfer protein) inhibition mechanism",
+        "Reverse cholesterol transport (direct and indirect pathways)",
+        "Lipoprotein metabolism and particle remodeling (VLDL, LDL, HDL, ApoB)",
+        "Apolipoprotein E (ApoE) genotypes (ApoE2, ApoE3, ApoE4) and brain lipid trafficking",
+        "Lp(a) lipoprotein reduction and synthesis",
+        "Alzheimer's disease biomarkers: phosphorylated tau-217 (P-tau-217), phosphorylated tau-181 (P-tau-181), neurofilament light chain (NFL), glial fibrillary acidic protein (GFAP), amyloid-beta ratios",
+        "Blood-brain barrier lipid transport and CNS cholesterol homeostasis",
+        "Mendelian randomization studies of HDL and LDL cholesterol causality",
+        "Atherosclerotic cardiovascular disease and residual risk",
+        "Type 2 diabetes risk associated with statins versus metabolic effects of CETP inhibitors"
+      ],
+      "claims_to_note": [
+        "Mendelian randomization studies show LDL cholesterol is causally related to cardiovascular disease outcomes, while HDL cholesterol is NOT causally linked to favorable outcomes - contradicts historical 'HDL is good cholesterol' narrative",
+        "Loss-of-function CETP mutations are associated with elevated HDL and lower cardiovascular disease risk, but benefit tracks with non-HDL reduction, not HDL increase",
+        "Loss-of-function SRB1 mutations result in very high HDL cholesterol but increased coronary artery disease risk, demonstrating HDL cholesterol level alone is not protective",
+        "Torcetrapib (first CETP inhibitor) was stopped in 2006 due to increased mortality from off-target blood pressure elevation",
+        "Obicetrapib reduced LDL cholesterol by 30% at 3 months in Broadway trial and ApoB by 16% versus placebo",
+        "Obicetrapib reduced Lp(a) by approximately one-third in Broadway trial",
+        "P-tau-217 increased 5% in placebo group versus 2% in obicetrapib group over 12 months in Broadway biomarker substudy (overall population)",
+        "In APOE4E4 carriers (n=29), P-tau-217 increased 12.7% in placebo but decreased 7.8% in obicetrapib group - a 20% difference",
+        "APOE4 carriers have approximately two decades earlier onset of clinically significant cognitive decline compared to APOE3 homozygotes on average",
+        "Statins are associated with small but real increased risk of type 2 diabetes, while obicetrapib shows metabolic neutrality or potential benefit"
+      ],
+      "policy_relevance": [
+        "European regulatory approval anticipated Q4 2026 based on well-understood biomarkers without waiting for clinical outcomes",
+        "US FDA will require cardiovascular outcomes data (mortality benefit or MACE reduction) before approval - will lag European approval by approximately 2 years",
+        "Phase 3 trials: Broadway (maximum lipid-lowering therapy background), Brooklyn (familial hypercholesterolemia patients), and Prevail (cardiovascular outcomes in established disease)",
+        "Discussion of regulatory decision-making regarding risk-benefit assessment (reference to Vioxx case and Merck's cautious approach to drug safety)",
+        "Mention of PCSK9 inhibitors coming to market as alternative cardiovascular risk reduction therapy during CETP inhibitor development period"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Pathways to Urban Sustainability: Challenges and Opportunities for the United States",
+          "url": "https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "The Future of Atmospheric Boundary Layer Observing, Understanding, and Modeling: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25138/the-future-of-atmospheric-boundary-layer-observing-understanding-and-modeling"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary"
+        },
+        {
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: ‘Can it run Doom?’ — why scientists got brain cells and a satellite to play the classic game",
+      "host": "Springer Nature",
+      "published": "2026-03-13T14:59:44",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the cultural phenomenon of getting the classic 1993 video game Doom to run on various devices, and how scientists are leveraging this challenge for legitimate research purposes. Researchers in Australia successfully trained biological neural networks (200,000 human neurons on a silicon chip) to play Doom, building on earlier work with rat neurons and Pong. The game's small size, freely available source code, and cultural cachet make it an ideal testing platform for diverse applications including biocomputing, drug development, and space software validation.",
+      "science_topics": [
+        "Biological computing with cultured neurons",
+        "Neural networks trained via electrical signals",
+        "Human stem cell-derived neurons",
+        "Neuromorphic computing and alternative AI systems",
+        "Energy efficiency in biological computation",
+        "Rat neuron networks for gaming",
+        "Genetic engineering of E. coli for fluorescent displays",
+        "Radiation damage to satellite software",
+        "Space-based software testing and validation",
+        "Drug development and testing using biological models"
+      ],
+      "claims_to_note": [
+        "Biological neural computers consume significantly less energy than traditional AI computing systems",
+        "Human neurons cultured on chips can learn to respond to electrical signals and provide outputs within 1-2 weeks for complex games",
+        "Cultured neurons act comparably to average human players in a first-person shooter game",
+        "Deterministic software like Doom can be used to detect radiation-induced damage to satellite systems",
+        "Biological neural systems may better model drug effects on human brains compared to traditional computational models"
+      ],
+      "policy_relevance": [
+        "European Space Agency satellite programs and experimental protocols",
+        "Space operations standards for software testing and validation",
+        "MIT doctoral research programs and institutional support for unconventional projects"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Assessing the Medical Risks of Human Oocyte Donation for Stem Cell Research: Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/11832/assessing-the-medical-risks-of-human-oocyte-donation-for-stem-cell-research"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design"
+        },
+        {
+          "title": "Real Prospects for Energy Efficiency in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/12621/real-prospects-for-energy-efficiency-in-the-united-states"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Return of the Flesh-Eaters",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-03-13T14:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This episode traces the history of the New World screwworm, a flesh-eating parasitic fly that devastated livestock across North America. It chronicles Edward Nippling's mid-20th century innovation of using radiation-sterilized males to suppress screwworm populations—a technique called the Sterile Insect Technique (SIT)—which successfully eradicated the pest from the U.S. and Central America. However, the episode reveals that screwworms have recently breached the biological barrier maintained at the Panama-Colombia border and are advancing northward, raising urgent questions about whether humanity should use gene drives to permanently eliminate the species rather than perpetually manage it.",
+      "science_topics": [
+        "Sterile Insect Technique (SIT) for pest control",
+        "X-ray sterilization of insects",
+        "New World screwworm (Cochliomyia hominivorax) biology and reproduction",
+        "Gene drive technology for species elimination",
+        "Mendelian genetics and inheritance",
+        "Insect mass production and rearing",
+        "DDT and synthetic insecticides",
+        "Biological pest barrier maintenance"
+      ],
+      "claims_to_note": [
+        "Screwworms were completely eradicated from the United States and maintained absent through binational efforts at the Panama-Colombia border for decades—this is accurate and well-documented",
+        "Over 1,000 human cases of screwworm infestation occurred during the 2023-2025 outbreak in Central America—this requires verification against current CDC data",
+        "Screwworms are 'probably not a very important pollinator' and 'not really a key food source for any other animal'—these ecological claims should be verified against peer-reviewed literature",
+        "The screwworm program saves over $1 billion per year compared to $15 million annual maintenance costs—economic impact figure should be verified",
+        "A Golden Goose Award panel of experts (ethicists, ecologists, conservation biologists, geneticists, entomologists) unanimously agreed screwworms are a 'pretty good candidate' for species extinction—this consensus on an irreversible intervention is noteworthy and should be examined for methodological rigor",
+        "Gene drives could theoretically achieve de-extinction of screwworms if ecological harm occurred—this technical claim about reversibility should be verified against genetic literature"
+      ],
+      "policy_relevance": [
+        "USDA coordinating massive new screwworm response with hundreds of millions in funding and production of 500 million sterile flies per week",
+        "CDC designated screwworm as a public health incident requiring incident management (Megan Nichols, CDC incident manager)",
+        "U.S.-Mexico border enforcement through 'tick rider' agents on horseback patrolling for infected livestock",
+        "International agreements coordinating Central American countries (seven nations) in multinational eradication program from 1970s-2006",
+        "Congressional criticism of screwworm research as 'frivolous pork' despite proven utility (mentioned as example in Golden Goose Award discussion)",
+        "Ongoing facility in Panama producing sterile screwworms at $15 million annual cost to maintain biological barrier",
+        "Hastings Center bioethics panel (May 2024, Arizona State University) evaluating potential use of gene drive technology for screwworm extinction",
+        "Screwworm response funding and policy discussions amid broader science funding cuts"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "The Future of Air Traffic Control: Human Operators and Automation",
+          "url": "https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation"
+        },
+        {
+          "title": "Status of Pollinators in North America",
+          "url": "https://nap.nationalacademies.org/catalog/11761/status-of-pollinators-in-north-america"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

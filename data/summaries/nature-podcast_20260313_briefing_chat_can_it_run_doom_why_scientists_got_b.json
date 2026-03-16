@@ -1,0 +1,537 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Briefing chat: ‘Can it run Doom?’ — why scientists got brain cells and a satellite to play the classic game",
+  "host": "Springer Nature",
+  "published": "2026-03-13T14:59:44",
+  "episode_url": "https://www.nature.com/articles/d41586-026-00845-w",
+  "duration_minutes": 10.566666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores the cultural phenomenon of getting the classic 1993 video game Doom to run on various devices, and how scientists are leveraging this challenge for legitimate research purposes. Researchers in Australia successfully trained biological neural networks (200,000 human neurons on a silicon chip) to play Doom, building on earlier work with rat neurons and Pong. The game's small size, freely available source code, and cultural cachet make it an ideal testing platform for diverse applications including biocomputing, drug development, and space software validation.",
+  "science_topics": [
+    "Biological computing with cultured neurons",
+    "Neural networks trained via electrical signals",
+    "Human stem cell-derived neurons",
+    "Neuromorphic computing and alternative AI systems",
+    "Energy efficiency in biological computation",
+    "Rat neuron networks for gaming",
+    "Genetic engineering of E. coli for fluorescent displays",
+    "Radiation damage to satellite software",
+    "Space-based software testing and validation",
+    "Drug development and testing using biological models"
+  ],
+  "claims_to_note": [
+    "Biological neural computers consume significantly less energy than traditional AI computing systems",
+    "Human neurons cultured on chips can learn to respond to electrical signals and provide outputs within 1-2 weeks for complex games",
+    "Cultured neurons act comparably to average human players in a first-person shooter game",
+    "Deterministic software like Doom can be used to detect radiation-induced damage to satellite systems",
+    "Biological neural systems may better model drug effects on human brains compared to traditional computational models"
+  ],
+  "policy_relevance": [
+    "European Space Agency satellite programs and experimental protocols",
+    "Space operations standards for software testing and validation",
+    "MIT doctoral research programs and institutional support for unconventional projects"
+  ],
+  "key_quotes": [
+    "This AI was the eyes and the hands of the computer controlling what was going on and seeing for the neurons because, I mean, they don't have eyes. They're a little bunch of cells inside a clear box on top of a chip.",
+    "They wanted to create a more realistic environment for the neurons to get them to learn how to adapt as things change... there's lots of applications for an alternative to AI computing that is a lot more energy efficient.",
+    "Even though things might seem really silly and random, I mean, getting Doom to run on a fridge, what's the benefit in that? But you actually still require some really technical skills to get that to happen."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Biological computing with cultured neurons",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25912",
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Computing in some form touches nearly every aspect of day to day life and is reflected in the ubiquitous use of cell phones, the expansion of automation into many industries, and the vast amounts of data that are routinely gathered about people's health, education, and buying habits. Computing is now a part of nearly every occupation, not only those in the technology industry. Given the ubiquity of computing in both personal and professional life, there are increasing calls for all learners to participate in learning experiences related to computing including more formal experiences offered in schools, opportunities in youth development programs and after-school clubs, or self-initiated hands-on experiences at home. At the same time, the lack of diversity in the computing workforce and in programs that engage learners in computing is well-documented. It is important to consider how to increase access and design experiences for a wide range of learners. Authentic experiences in STEM - t",
+          "year": 2021,
+          "committee": "Computer Science and Telecommunications Board",
+          "keywords": [
+            "formal experiences offered",
+            "youth development programs",
+            "form touches nearly",
+            "self initiated hands",
+            "computing workforce",
+            "authentic experiences",
+            "learning experiences",
+            "design experiences",
+            "engage learners",
+            "professional life",
+            "cultivating interest",
+            "design factors",
+            "competencies",
+            "computing"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Neural networks trained via electrical signals",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Human stem cell-derived neurons",
+      "publications": [
+        {
+          "id": "11832",
+          "title": "Assessing the Medical Risks of Human Oocyte Donation for Stem Cell Research: Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/11832/assessing-the-medical-risks-of-human-oocyte-donation-for-stem-cell-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "stem cells depends",
+            "california voters approved proposition",
+            "developing human embryos created",
+            "stem cell treatments",
+            "year billion program",
+            "move forward however",
+            "without risk however",
+            "oocyte donation process",
+            "california institute",
+            "oocytes harvested",
+            "human oocyte donation",
+            "stem cell",
+            "medical risks",
+            "assessing"
+          ],
+          "description": "It is widely understood that stem cell treatments have the potential to revolutionize medicine. Because of this potential, in 2004 California voters approved Proposition 71 to set up a 10-year, $3 billion program to fund research on stem cells. Under the direction of the California Institute for Regenerative Medicine, this program will pay to build facilities for stem cell research and will fund doctors and scientists to carry out research with the ultimate goal of helping to develop therapies based on stem cells. For this research to move forward, however, will require a steady supply of stem cells, particularly human embryonic stem cells. Those stem cells are collected from developing human embryos created from eggs-or oocytes-harvested from the ovaries of female donors. Thus much of the promise of stem cells depends on women choosing to donate oocytes to the research effort. The oocyte donation process is not without risk, however. Donors are given doses of hormones to trigger the p",
+          "year": 2007,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Neuromorphic computing and alternative AI systems",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25912",
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Computing in some form touches nearly every aspect of day to day life and is reflected in the ubiquitous use of cell phones, the expansion of automation into many industries, and the vast amounts of data that are routinely gathered about people's health, education, and buying habits. Computing is now a part of nearly every occupation, not only those in the technology industry. Given the ubiquity of computing in both personal and professional life, there are increasing calls for all learners to participate in learning experiences related to computing including more formal experiences offered in schools, opportunities in youth development programs and after-school clubs, or self-initiated hands-on experiences at home. At the same time, the lack of diversity in the computing workforce and in programs that engage learners in computing is well-documented. It is important to consider how to increase access and design experiences for a wide range of learners. Authentic experiences in STEM - t",
+          "year": 2021,
+          "committee": "Computer Science and Telecommunications Board",
+          "keywords": [
+            "formal experiences offered",
+            "youth development programs",
+            "form touches nearly",
+            "self initiated hands",
+            "computing workforce",
+            "authentic experiences",
+            "learning experiences",
+            "design experiences",
+            "engage learners",
+            "professional life",
+            "cultivating interest",
+            "design factors",
+            "competencies",
+            "computing"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Energy efficiency in biological computation",
+      "publications": [
+        {
+          "id": "12621",
+          "title": "Real Prospects for Energy Efficiency in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/12621/real-prospects-for-energy-efficiency-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "existing technologies technologies developed",
+            "achieve greater energy efficiency",
+            "increased dramatically leaving consumers",
+            "reducing energy demand",
+            "reduce energy use",
+            "book evaluates technologies",
+            "initial commercial deployment",
+            "service sectors looking",
+            "project real prospects",
+            "last decade however",
+            "energy efficiency",
+            "real prospects"
+          ],
+          "description": "America's economy and lifestyles have been shaped by the low prices and availability of energy. In the last decade, however, the prices of oil, natural gas, and coal have increased dramatically, leaving consumers and the industrial and service sectors looking for ways to reduce energy use. To achieve greater energy efficiency, we need technology, more informed consumers and producers, and investments in more energy-efficient industrial processes, businesses, residences, and transportation. As part of the America's Energy Future project, Real Prospects for Energy Efficiency in the United States examines the potential for reducing energy demand through improving efficiency by using existing technologies, technologies developed but not yet utilized widely, and prospective technologies. The book evaluates technologies based on their estimated times to initial commercial deployment, and provides an analysis of costs, barriers, and research needs. This quantitative characterization of techno",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "12091",
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "affordable energy supplies",
+            "impacts while providing sufficient",
+            "current energy prices",
+            "energy rises faster",
+            "important indirect impacts",
+            "energy production",
+            "energy portfolio",
+            "natural resources degradation",
+            "energy futur",
+            "geopolitically unstable regions",
+            "transformation",
+            "technology",
+            "america",
+            "energy"
+          ],
+          "description": "Energy production and use touch our lives in countless ways. We are reminded of the cost of energy every time we fill up at the gas pump, pay an electricity bill, or purchase an airline ticket. Energy use also has important indirect impacts, not all of which are reflected in current energy prices: depletion of natural resources, degradation of the environment, and threats to national security arising from a growing dependence on geopolitically unstable regions for some of our energy supplies. These indirect impacts could increase in the future if the demand for energy rises faster than available energy supplies. Our nation's challenge is to develop an energy portfolio that reduces these impacts while providing sufficient and affordable energy supplies to sustain our future economic prosperity. The United States has enormous economic and intellectual resources that can be brought to bear on these challenges through a sustained national effort in the decades ahead. America's Energy Futur",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on America's Energy Future"
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Exploring Opportunities for Energy Parks",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-P-723",
+          "status": "in_progress"
+        },
+        {
+          "title": "Understanding and Addressing Energy Affordability in the United States: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-02",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 2129,
+  "saved_at": "2026-03-16T12:03:38.108097"
+}
