@@ -1,0 +1,616 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Could a ‘digital twin’ help you get better health care?",
+  "host": "Ira Flatow",
+  "published": "2026-03-17T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 17.733333333333334,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "The episode explores digital twins—computational models that integrate personal health data (genetics, blood tests, imaging, family history) to predict treatment outcomes and personalize medical care. Dr. Caroline Chung, a radiation oncologist at MD Anderson Cancer Center, explains how the concept originated in aerospace engineering and is being adapted for oncology, cardiology, and other medical fields. The discussion emphasizes both the potential clinical applications and significant challenges, including data requirements, privacy concerns, liability questions, and the need to maintain human judgment in medical decision-making alongside algorithmic recommendations.",
+  "science_topics": [
+    "Digital twin modeling in personalized medicine",
+    "Physics-informed mechanistic models versus AI models in healthcare",
+    "Radiation oncology dose optimization using digital twins",
+    "Cardiac blood flow simulation and catheterization prediction",
+    "Chemotherapy scheduling optimization through simulation",
+    "Human-machine interface in clinical decision-making",
+    "Tumor heterogeneity and adaptive radiation therapy",
+    "Predictive screening test personalization"
+  ],
+  "claims_to_note": [
+    "Digital twins can anticipate locations of aggressive or radiation-resistant tumor cells to personalize radiation treatment",
+    "Same total dose of chemotherapy can yield different outcomes with different delivery schedules, potentially improving results without additional drug costs",
+    "Digital twins can predict need for cardiac catheterization before heart attack occurs",
+    "Digital twins can personalize cancer screening intervals (e.g., extending to every 3 years for low-risk patients rather than annual screening for all)",
+    "Physics-informed models include constraints to prevent 'wacky results' compared to pure AI approaches—this comparative claim about model reliability should be verified"
+  ],
+  "policy_relevance": [
+    "Regulatory frameworks needed for digital twin adoption in healthcare—mentioned as necessary 'hoops to jump through'",
+    "Legal and operational practices requiring standardization across medical practices",
+    "Data governance and flow in medical systems—how health data is generated and circulated",
+    "Privacy regulation and data protection concerns, particularly with integrated multi-system digital twins",
+    "Accessibility and equity issues—ensuring digital twins available across all practices, not just specialized centers",
+    "Liability and culpability frameworks for algorithmic medical recommendations—unclear legal standards for when predictions prove wrong"
+  ],
+  "key_quotes": [
+    "A digital twin is more than just a model that can actually predict what is going to happen to you. It really is an ongoing interaction between what the model will predict, your actions based on what information you receive, and continued data collection to update the information and predictions using that model.",
+    "We can embrace technology, but maintain the humanity of medicine... there are many things that get weighed in not just the pure measurements that are coming off systems that feed into a digital twin but there are other aspects around personal social pieces that will contribute to the overall decision.",
+    "The pause is probably the critical piece that will allow us to be discerning being able to think through what are the pros and cons of every decision that we make... there is less pause that happens [with AI acceleration]."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Digital twin modeling in personalized medicine",
+      "publications": [
+        {
+          "id": "13284",
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "keywords": [
+            "precision medicine",
+            "personalized",
+            "medical",
+            "genomic",
+            "health",
+            "treatment"
+          ]
+        },
+        {
+          "id": "26894",
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "individual patient level predictions",
+            "going beyond traditional simulation",
+            "digital twin technologies",
+            "modeling digital twins",
+            "bidirectional data flows",
+            "across multiple domains",
+            "climate conditions",
+            "conditions change",
+            "transform scientific",
+            "physical counterpart",
+            "digital twins",
+            "foundational",
+            "directions",
+            "gaps"
+          ],
+          "description": "Across multiple domains of science, engineering, and medicine, excitement is growing about the potential of digital twins to transform scientific research, industrial practices, and many aspects of daily life. A digital twin couples computational models with a physical counterpart to create a system that is dynamically updated through bidirectional data flows as conditions change. Going beyond traditional simulation and modeling, digital twins could enable improved medical decision-making at the individual patient level, predictions of future weather and climate conditions over longer timescales, and safer, more efficient engineering processes. However, many challenges remain before these applications can be realized. This report identifies the foundational research and resources needed to support the development of digital twin technologies. The report presents critical future research priorities and an interdisciplinary research agenda for the field, including how federal agencies an",
+          "year": 2024,
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "25138",
+          "title": "The Future of Atmospheric Boundary Layer Observing, Understanding, and Modeling: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25138/the-future-of-atmospheric-boundary-layer-observing-understanding-and-modeling",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "extended weather impact forecasts",
+            "advance earth system modeling",
+            "increased societal demands",
+            "atmospheric boundary layer",
+            "satellite remote sensing",
+            "trace gas emissions",
+            "improved observations",
+            "improving forecasts",
+            "constraining estimates",
+            "observing technologies",
+            "atmospheric boundary layer observing",
+            "modeling"
+          ],
+          "description": "Improved observations of the atmospheric boundary layer (BL) and its interactions with the ocean, land, and ice surfaces have great potential to advance science on a number of fronts, from improving forecasts of severe storms and air quality to constraining estimates of trace gas emissions and transport. Understanding the BL is a crucial component of model advancements, and increased societal demands for extended weather impact forecasts (from hours to months and beyond) highlight the need to advance Earth system modeling and prediction. New observing technologies and approaches (including in situ and ground-based, airborne, and satellite remote sensing) have the potential to radically increase the density of observations and allow new types of variables to be measured within the BL, which will have broad scientific and societal benefits. In October 2017, the National Academies of Sciences, Engineering, and Medicine convened a workshop to explore the future of BL observations and their",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Ocean Studies Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Medicine in Neuroscience: Tools, Translation, and Implementation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Physics-informed mechanistic models versus AI models in healthcare",
+      "publications": [
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Radiation oncology dose optimization using digital twins",
+      "publications": [
+        {
+          "id": "26894",
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "individual patient level predictions",
+            "going beyond traditional simulation",
+            "digital twin technologies",
+            "modeling digital twins",
+            "bidirectional data flows",
+            "across multiple domains",
+            "climate conditions",
+            "conditions change",
+            "transform scientific",
+            "physical counterpart",
+            "digital twins",
+            "foundational",
+            "directions",
+            "gaps"
+          ],
+          "description": "Across multiple domains of science, engineering, and medicine, excitement is growing about the potential of digital twins to transform scientific research, industrial practices, and many aspects of daily life. A digital twin couples computational models with a physical counterpart to create a system that is dynamically updated through bidirectional data flows as conditions change. Going beyond traditional simulation and modeling, digital twins could enable improved medical decision-making at the individual patient level, predictions of future weather and climate conditions over longer timescales, and safer, more efficient engineering processes. However, many challenges remain before these applications can be realized. This report identifies the foundational research and resources needed to support the development of digital twin technologies. The report presents critical future research priorities and an interdisciplinary research agenda for the field, including how federal agencies an",
+          "year": 2024,
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "11468",
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "keywords": [
+            "cancer",
+            "survivor",
+            "oncology",
+            "treatment",
+            "patient",
+            "tumor"
+          ]
+        },
+        {
+          "id": "21841",
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "keywords": [
+            "cancer",
+            "ovarian",
+            "oncology",
+            "tumor",
+            "treatment",
+            "women"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cardiac blood flow simulation and catheterization prediction",
+      "publications": [
+        {
+          "id": "12816",
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "identifies feasible applications",
+            "critical defense capabilities",
+            "book recommends priorities",
+            "modeling simulation",
+            "technology applications",
+            "intelligence community",
+            "associated vulnerabilities",
+            "appropriate departments",
+            "potential impacts",
+            "significant indicators",
+            "high performance computing",
+            "simulation",
+            "modeling",
+            "games",
+            "rise"
+          ],
+          "description": "The technical and cultural boundaries between modeling, simulation, and games are increasingly blurring, providing broader access to capabilities in modeling and simulation and further credibility to game-based applications. The purpose of this study is to provide a technical assessment of Modeling, Simulation, and Games (MS&G) research and development worldwide and to identify future applications of this technology and its potential impacts on government and society. Further, this study identifies feasible applications of gaming and simulation for military systems; associated vulnerabilities of, risks to, and impacts on critical defense capabilities; and other significant indicators and warnings that can help prevent or mitigate surprises related to technology applications by those with hostile intent. Finally, this book recommends priorities for future action by appropriate departments of the intelligence community, the Department of Defense research community, and other government e",
+          "year": 2010,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Standing Committee on Technology Insightâ¬\"Gauge, Evaluate, and Review"
+        },
+        {
+          "id": "25480",
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "presentations highlighted urban sustainability",
+            "discussed promising urban sustainability",
+            "sustainable urban communities",
+            "emerging interdisciplinary network",
+            "data science needs",
+            "addressed common challenges",
+            "big data modeling",
+            "community sustainability",
+            "environmental systems",
+            "computer science",
+            "enhancing urban sustainability",
+            "data modeling",
+            "simulation"
+          ],
+          "description": "On January 30-31, 2019 the Board on Mathematical Sciences and Analytics, in collaboration with the Board on Energy and Environmental Systems and the Computer Science and Telecommunications Board, convened a workshop in Washington, D.C. to explore the frontiers of mathematics and data science needs for sustainable urban communities. The workshop strengthened the emerging interdisciplinary network of practitioners, business leaders, government officials, nonprofit stakeholders, academics, and policy makers using data, modeling, and simulation for urban and community sustainability, and addressed common challenges that the community faces. Presentations highlighted urban sustainability research efforts and programs under way, including research into air quality, water management, waste disposal, and social equity and discussed promising urban sustainability research questions that improved use of big data, modeling, and simulation can help address. This publication summarizes the presenta",
+          "year": 2019,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "11269",
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cord blood program",
+            "umbilical cord blood",
+            "cord blood units",
+            "hematopoietic progenitor cell hpc",
+            "stem cell transplantation",
+            "stem cell transplants",
+            "stem cell technology",
+            "blood banks already",
+            "economics public heal",
+            "adult bone marrow",
+            "stem cell",
+            "cord blood",
+            "establishing"
+          ],
+          "description": "With the potential for self-renewal and differentiation, the possibilities for stem cells are enormous. One specific type of stem cell, the hematopoietic progenitor cell (HPC), which is derived from umbilical cord blood (as well as adult bone marrow and mobilized peripheral blood), holds particular promise. To make the most of these HPCs, the Institute of Medicine was asked to consider the optimal structure for a national cord blood program and to address pertinent issues related to maximizing the potential of stem cell technology. Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program examines: The role of cord blood in stem cell transplantation The current status of blood banks already in existence The optimal structure for the cord blood program The current use and utility of cord blood for stem cell transplants The best way to advance the use of cord blood units and make them available for research Expert advice from leaders in the fields of economics, public heal",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Chemotherapy scheduling optimization through simulation",
+      "publications": [
+        {
+          "id": "12816",
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "identifies feasible applications",
+            "critical defense capabilities",
+            "book recommends priorities",
+            "modeling simulation",
+            "technology applications",
+            "intelligence community",
+            "associated vulnerabilities",
+            "appropriate departments",
+            "potential impacts",
+            "significant indicators",
+            "high performance computing",
+            "simulation",
+            "modeling",
+            "games",
+            "rise"
+          ],
+          "description": "The technical and cultural boundaries between modeling, simulation, and games are increasingly blurring, providing broader access to capabilities in modeling and simulation and further credibility to game-based applications. The purpose of this study is to provide a technical assessment of Modeling, Simulation, and Games (MS&G) research and development worldwide and to identify future applications of this technology and its potential impacts on government and society. Further, this study identifies feasible applications of gaming and simulation for military systems; associated vulnerabilities of, risks to, and impacts on critical defense capabilities; and other significant indicators and warnings that can help prevent or mitigate surprises related to technology applications by those with hostile intent. Finally, this book recommends priorities for future action by appropriate departments of the intelligence community, the Department of Defense research community, and other government e",
+          "year": 2010,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Standing Committee on Technology Insightâ¬\"Gauge, Evaluate, and Review"
+        },
+        {
+          "id": "25480",
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "presentations highlighted urban sustainability",
+            "discussed promising urban sustainability",
+            "sustainable urban communities",
+            "emerging interdisciplinary network",
+            "data science needs",
+            "addressed common challenges",
+            "big data modeling",
+            "community sustainability",
+            "environmental systems",
+            "computer science",
+            "enhancing urban sustainability",
+            "data modeling",
+            "simulation"
+          ],
+          "description": "On January 30-31, 2019 the Board on Mathematical Sciences and Analytics, in collaboration with the Board on Energy and Environmental Systems and the Computer Science and Telecommunications Board, convened a workshop in Washington, D.C. to explore the frontiers of mathematics and data science needs for sustainable urban communities. The workshop strengthened the emerging interdisciplinary network of practitioners, business leaders, government officials, nonprofit stakeholders, academics, and policy makers using data, modeling, and simulation for urban and community sustainability, and addressed common challenges that the community faces. Presentations highlighted urban sustainability research efforts and programs under way, including research into air quality, water management, waste disposal, and social equity and discussed promising urban sustainability research questions that improved use of big data, modeling, and simulation can help address. This publication summarizes the presenta",
+          "year": 2019,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "27165",
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "gene thereby diversifying genetic",
+            "existing methods cannot discover",
+            "current technological limitations",
+            "pressing societal challenges",
+            "living systems hold",
+            "distinct rna molecules",
+            "rna modifications",
+            "biological processes",
+            "human diseases",
+            "concerted efforts",
+            "sequencing rna",
+            "modifications",
+            "charting",
+            "biology",
+            "era"
+          ],
+          "description": "Concerted efforts to deepen understanding of RNA modifications and their role in living systems hold the potential to advance human health, improve crop yields, and address other pressing societal challenges. RNA, which carries the information encoded by DNA to the places where it is needed, is amazingly diverse and dynamic. RNA is processed and modified through natural biological pathways, giving rise to hundreds, in some cases thousands, of distinct RNA molecules for each gene, thereby diversifying genetic information. RNA modifications are known to be pivotal players in nearly all biological processes, and their dysregulation has been implicated in a wide range of human diseases and disorders. Yet, our knowledge of RNA modifications remains incomplete, hindered by current technological limitations. Existing methods cannot discover all RNA modifications, let alone comprehensively sequence them on every RNA molecule. Nonetheless, what is known about RNA modifications has already been ",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 3111,
+  "saved_at": "2026-03-18T11:23:49.492255"
+}

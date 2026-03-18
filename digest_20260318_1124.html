@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 18, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 18, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">44</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">82</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reflects growing policy-practice tensions in nutrition science, emerging personalization opportunities in medicine via digital twins, and sustained concerns about environmental health hazards from geopolitical conflict. The RFK Jr. food pyramid episode highlights contradictions between visual and written dietary guidance that could confuse public health messaging and school nutrition programs. Concurrently, breakthrough treatments for lupus—particularly CAR-T cell therapy—represent a significant therapeutic inflection after 50 years of stagnation, while digital twin technologies promise personalized oncology and cardiology interventions pending resolution of privacy and liability frameworks. Environmental coverage underscores persistent toxicological risks from warfare (black rain in Iran) and ongoing biodiversity decline documented across ecosystems. Government science funding cuts tracked on Bluesky suggest structural headwinds for research continuity across NIH, NASA, and international astronomy programs.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Personalization in medicine—digital twins enabling prediction of treatment outcomes in oncology and cardiology; CAR-T immunotherapy tailored for lupus patient subsets</li>
+<li>Environmental and public health consequences of petroleum combustion—black rain chemistry and long-term soil/water contamination; insect population decline as biodiversity indicator</li>
+<li>Dietary science and federal guidance—contradictions between visual representations and written recommendations in food pyramid; protein metabolism and cardiovascular risk trade-offs</li>
+<li>Therapeutic innovation cycles—lupus treatment expansion after 50-year plateau parallels broader AI-enabled drug optimization and digital biomarker development</li>
+<li>Systemic funding pressures—NIH, NASA, and international astronomy/particle physics programs facing budget reductions that threaten research momentum</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Digital twins in clinical practice—physics-informed and AI-hybrid models for radiation oncology, cardiology, and chemotherapy optimization moving from theoretical to pilot implementation; privacy/liability frameworks lag behind clinical readiness</li>
+<li>CAR-T cell therapy for autoimmune disease reversal—lupus remission induction represents paradigm shift from symptom management to immune system 'reset'; may signal expansion beyond oncology into other systemic autoimmune conditions</li>
+<li>Federal dietary guidance and food policy implementation—RFK Jr. food pyramid visual-text inconsistencies raise questions about SNAP, school lunch, and labeling impacts; potential conflict with saturated fat/cardiovascular consensus</li>
+<li>War-related environmental toxicology—black rain in Iran episode exemplifies emerging research focus on multi-pathway petroleum pollution exposure (respiratory, dermal, aquatic) and decades-long recovery timelines</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene expert committee on digital twin validation and clinical governance—address liability, data privacy, and human-machine decision-making frameworks before widespread adoption in oncology/cardiology; coordinate with FDA and CMS on reimbursement standards</div>
+<div class="opportunity">Synthesize current evidence on RFK Jr. food pyramid claims—formal consensus report evaluating visual representation vs. written guidelines; recommend unified federal guidance to prevent public confusion and ensure consistency in school nutrition and SNAP implementation</div>
+<div class="opportunity">Commission rapid review of CAR-T immunotherapy efficacy and safety in lupus and related autoimmune conditions—assess translational pathways and clinical trial landscape; identify gaps in mechanistic understanding of immune reconstitution</div>
+<div class="opportunity">Publish assessment of petrochemical environmental toxicology following geopolitical conflict—black rain chemistry, soil/groundwater remediation timelines, and public health surveillance best practices for conflict zones</div>
+<div class="opportunity">Establish working group on government science funding sustainability—evaluate impact of NIH, NASA, and international astronomy cuts on research continuity and innovation pipelines; model workforce and infrastructure implications</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">RFK Jr. food pyramid visual representation emphasizing red meat conflicts with written 10% saturated fat cap and established cardiovascular risk evidence—visual prominence may mislead public despite unchanged written guidelines; monitor school lunch and SNAP policy adoption to detect implementation drift toward visual interpretation</div>
+<div class="claim">Insect population decline ubiquity claim ('just about everywhere people look')—speaker asserts widespread decline as established fact; verify geographic and taxonomic specificity against peer-reviewed biodiversity assessments and NASEM prior reports before accepting as consensus position</div>
+<div class="claim">Caterpillar energy transfer role in food webs described as 'tremendous amount'—qualitative claim without quantitative grounding; cross-check against ecosystem energy flow literature to distinguish established consensus from journalistic characterization</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Systems in High-Stakes Decision-Making: Reliability and Risk</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (2026-03-12) examined LLM hallucinations and automation bias in human-AI systems, while Science Friday (2026-03-17) explored physics-informed mechanistic models versus pure AI approaches in healthcare. This convergence reflects growing concern that AI deployment in medicine, autonomous systems, and diagnostics requires hybrid validation methods—neither pure algorithmic trust nor dismissal, but carefully bounded applications with human oversight.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene working groups on AI governance frameworks for clinical and defense applications, where misclassification carries life-or-death consequences.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Emerging Biotechnologies for Population-Level Interventions: Ethics and Containment</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab (2026-03-13) covered Sterile Insect Technique and gene drives for species elimination, while Making Sense (2026-03-11) discussed coronavirus research biosafety levels at Wuhan Institute. These episodes signal rising policy attention to dual-use biotechnologies—tools that can solve public health crises (disease vector control, pathogen research) but carry containment and ecological risks if misused or deployed without international coordination.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should strengthen guidance on biosafety governance, gain-of-function research thresholds, and international oversight mechanisms for gene drive and SIT technologies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex-Hormone and Sex-Biased Mechanisms in Disease: Lupus as Model System</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science (2026-03-18) provided deep mechanistic coverage of how estrogen and androgens drive lupus pathogenesis via B cell activation, complementing broader cardiovascular and metabolic discussions across Short Wave and The Peter Attia Drive. This reflects maturation in recognizing sex as a biological variable—not just epidemiological disparity, but molecular mechanism requiring sex-stratified research and precision medicine.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should advocate for mandatory sex-stratified analyses in all NIH-funded research and develop clinical trial design standards that capture sex-hormone modulation of disease.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Contamination Cascades: From Atmospheric Chemistry to Health Outcomes</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave (2026-03-17) traced petroleum fire combustion products (SOx, NOx, PAHs) through black rain formation and acid rain to PM2.5 health effects, while Science Friday (2026-03-13) linked invasive species removal and ecosystem resilience in islands, and Science Magazine Podcast (2026-03-12) examined permafrost melting, methane release, and microbial activity. These episodes collectively narrate how regional industrial/environmental disruptions propagate across atmospheric, hydrological, and biological systems—a systems toxicology view.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission integrated environmental health assessments linking air chemistry, water quality, soil carbon, and pathogen emergence in Arctic and post-industrial regions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Alternative Computing Architectures: Neuromorphic and Biological Systems as AI Complements</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast (2026-03-13) reported on biological computing using cultured neurons trained via electrical signals as an alternative to silicon-based AI, while earlier episodes on LLM limitations (Science Friday 2026-03-12) implicitly highlight demand for novel computational substrates. This emerging thread suggests the field is exploring whether biological or neuromorphic hardware can overcome current AI brittleness in pattern recognition and energy efficiency.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should investigate funding and commercialization barriers for neuromorphic and bio-computing, and assess their potential to address AI reliability gaps in defense and medical applications.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: ‘Black rain’ in Iran and the environmental cost of war</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 17 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the environmental and public health consequences of military strikes on oil infrastructure in Iran, specifically focusing on the phenomenon of "black rain"—precipitation contaminated with toxic chemicals from burning oil facilities. Toxicologist Peter Ross explains that the smoke and resulting rainfall contain hazardous compounds including sulfur oxides, nitrogen oxides, polycyclic aromatic hydrocarbons, benzene, and toluene, which pose immediate respiratory threats and long-term contamination risks to soil, groundwater, and drinking water supplies. The episode highlights how Tehran's geography may exacerbate the problem and compares the environmental disaster to the Exxon Valdez oil spill, emphasizing that recovery from such petroleum-related environmental damage takes decades.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Black rain formation and atmospheric chemistry</span>
+  <span class="topic-tag">Combustion products from petroleum fires (sulfur oxides, nitrogen oxides, polycyclic aromatic hydrocarbons, benzene, toluene)</span>
+  <span class="topic-tag">Acid rain formation</span>
+  <span class="topic-tag">PM2.5 particulate matter health effects</span>
+  <span class="topic-tag">Groundwater contamination pathways</span>
+  <span class="topic-tag">Urban topography effects on air circulation and pollution concentration</span>
+  <span class="topic-tag">Acute respiratory effects (asthma exacerbation, COPD, airway inflammation)</span>
+  <span class="topic-tag">Long-term health impacts of petroleum pollution</span>
+  <span class="topic-tag">Environmental recovery timelines from petroleum spills</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23573/the-future-of-atmospheric-chemistry-research-remembering-yesterday-understanding-today" target="_blank">The Future of Atmospheric Chemistry Research: Remembering Yesterday, Understanding Today, Anticipating Tomorrow</a></div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling" target="_blank">Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate" target="_blank">Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united" target="_blank">Pathways to Urban Sustainability: Challenges and Opportunities for the United States</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Black rain in Tehran left dark, oily residue and caused eye/throat burning and breathing difficulty in residents</div>
+<div class="claim">The chemical mixture includes sulfur oxides, nitrogen oxides, metals, carcinogens, and volatile chemicals that can cause dizziness, death, and contribute to cancer</div>
+<div class="claim">Volatile gases from petroleum combustion are explosive and toxic if inhaled</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We're seeing a soup of chemicals, including the sulfur oxides, the nitrogen oxides that form acid rain. We're seeing metals, we're seeing other carcinogens and volatile chemicals that can cause dizziness, death, and or contribute to cancer."</div>
+<div class="quote">"In the case of petroleum accidents and incidents, we've really learned that it takes a long, long time to recover. In the case of the Exxon Valdez oil spill, that was 1989, so we're talking 35 plus years ago, we can still find unweathered commercial oil from the tanker that ran aground under rocks and boulders."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Could a ‘digital twin’ help you get better health care?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 17 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode explores digital twins—computational models that integrate personal health data (genetics, blood tests, imaging, family history) to predict treatment outcomes and personalize medical care. Dr. Caroline Chung, a radiation oncologist at MD Anderson Cancer Center, explains how the concept originated in aerospace engineering and is being adapted for oncology, cardiology, and other medical fields. The discussion emphasizes both the potential clinical applications and significant challenges, including data requirements, privacy concerns, liability questions, and the need to maintain human judgment in medical decision-making alongside algorithmic recommendations.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Digital twin modeling in personalized medicine</span>
+  <span class="topic-tag">Physics-informed mechanistic models versus AI models in healthcare</span>
+  <span class="topic-tag">Radiation oncology dose optimization using digital twins</span>
+  <span class="topic-tag">Cardiac blood flow simulation and catheterization prediction</span>
+  <span class="topic-tag">Chemotherapy scheduling optimization through simulation</span>
+  <span class="topic-tag">Human-machine interface in clinical decision-making</span>
+  <span class="topic-tag">Tumor heterogeneity and adaptive radiation therapy</span>
+  <span class="topic-tag">Predictive screening test personalization</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins" target="_blank">Foundational Research Gaps and Future Directions for Digital Twins</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins" target="_blank">Foundational Research Gaps and Future Directions for Digital Twins</a></div>
+<div class="nasem-match">From Cancer Patient to Cancer Survivor: Lost in Transition</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation" target="_blank">The Rise of Games and High-Performance Computing for Modeling and Simulation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of" target="_blank">Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation" target="_blank">The Rise of Games and High-Performance Computing for Modeling and Simulation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of" target="_blank">Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Digital twins can anticipate locations of aggressive or radiation-resistant tumor cells to personalize radiation treatment</div>
+<div class="claim">Same total dose of chemotherapy can yield different outcomes with different delivery schedules, potentially improving results without additional drug costs</div>
+<div class="claim">Digital twins can predict need for cardiac catheterization before heart attack occurs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"A digital twin is more than just a model that can actually predict what is going to happen to you. It really is an ongoing interaction between what the model will predict, your actions based on what information you receive, and continued data collection to update the information and predictions using that model."</div>
+<div class="quote">"We can embrace technology, but maintain the humanity of medicine... there are many things that get weighed in not just the pure measurements that are coming off systems that feed into a digital twin but there are other aspects around personal social pieces that will contribute to the overall decision."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: A dietitian and doctor review RFK Jr's new food pyramid</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 18 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the new federal food pyramid released by HHS Secretary Robert F. Kennedy Jr. in 2026, which emphasizes protein, full-fat dairy, and 'healthy fats' at the top. A registered dietitian and a UCSF medicine professor discuss the scientific basis for the guidelines, noting contradictions between the visual representation (which prominently features red meat) and the written recommendations (which maintain the 10% saturated fat cap from 2011). The episode explores how these new guidelines could influence school lunches, SNAP programs, and food labeling, while raising concerns about environmental costs of increased protein consumption and the protein-marketing trend in processed foods.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dietary protein requirements and muscle synthesis</span>
+  <span class="topic-tag">Saturated fat and cardiovascular disease risk</span>
+  <span class="topic-tag">LDL cholesterol and heart disease etiology</span>
+  <span class="topic-tag">Monounsaturated and polyunsaturated fats</span>
+  <span class="topic-tag">Protein metabolism and energy storage</span>
+  <span class="topic-tag">Plant-based protein sources</span>
+  <span class="topic-tag">Dietary fiber</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary" target="_blank">Dietary Reference Intakes Research Synthesis: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13026/blue-water-navy-vietnam-veterans-and-agent-orange-exposure" target="_blank">Blue Water Navy Vietnam Veterans and Agent Orange Exposure</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings" target="_blank">Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">New pyramid prioritizes red meat consumption — visual representation shows steak prominently at top</div>
+<div class="claim">Written guidelines maintain 10% saturated fat calorie limit (unchanged from 2011)</div>
+<div class="claim">Extra protein consumed beyond daily needs is converted to sugar and fat, not stored as protein</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">""When you first look at the triangle, you're thinking, oh my gosh, I have to, instead of making half my plate fruits and vegetables, I need to be making half my plate meat. And then you have to look at an entirely different section to look at the actual written out recommendations. And then the recommendations haven't changed that much." — Shauna Spence, Registered Dietitian"</div>
+<div class="quote">""Extra protein that you take in a day that's more than you need in a day is then converted into sugar and fat. So eating tons of protein does not mean that you will make tons of muscle." — Dr. Sarah Kim, UCSF"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: The heaviness and (not) hope of climate change</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 18 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">Science Friday interviews environmental journalist Elizabeth Colbert about her career covering climate change and her latest essay collection. The discussion spans from detailed scientific fieldwork—such as studying caterpillars with entomologist Dave Wagner—to global environmental crises including insect population declines and coral reef bleaching. Colbert reflects on the tension between documenting hope-inspiring solutions (like Denmark's Samsø island achieving carbon neutrality) and the sobering reality of climate science, arguing that humans must move beyond clichéd hopeful narratives while recognizing that humanity's capacity for foresight and creativity may be essential to navigating the 21st century.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Caterpillar ecology and life cycles</span>
+  <span class="topic-tag">Insect population decline and biodiversity loss</span>
+  <span class="topic-tag">Coral bleaching and heat tolerance in symbiotic algae</span>
+  <span class="topic-tag">Wind energy technology and renewable energy cost reduction</span>
+  <span class="topic-tag">Solar and battery technology advancement</span>
+  <span class="topic-tag">Climate stabilization versus climate change reversal</span>
+  <span class="topic-tag">Paleoclimate history and Holocene climate conditions</span>
+  <span class="topic-tag">Coral reef functional extinction risk</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25279/a-research-review-of-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Research Review of Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology" target="_blank">Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales</a></div>
+<div class="nasem-match">Electricity from Renewable Resources: Status, Prospects, and Impediments</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states" target="_blank">The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Caterpillars transfer 'a tremendous amount of energy' from photosynthesis to animal kingdom as food source for birds—verify ecosystem energy transfer claims</div>
+<div class="claim">Insects make up the majority of species on Earth—verify against NASEM biodiversity assessments</div>
+<div class="claim">Serious insect population declines found 'just about everywhere people look'—note claim of ubiquity of decline data</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If you're starting to lose your insects, you are really doing something very serious to the planet."</div>
+<div class="quote">"The political situation and simply the numbers are very, very daunting right now...we're sort of doing our best, in the U.S. at least, to sort of try to strangle [renewable energy tools]."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: When The Diagnosis Is Thrown For A Lupus</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Mar 18 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Roberto Caricchio discusses systemic lupus erythematosus (SLE), a complex autoimmune disease affecting predominantly women that can involve multiple organ systems. The episode covers lupus pathogenesis, diagnostic challenges, genetic and environmental risk factors (including hormones, UV exposure, viral infections, and microbiome changes), and recent breakthrough treatments including CAR-T cell therapy that can induce long-term clinical remission. Dr. Caricchio emphasizes the unprecedented expansion of treatment options and clinical trials now available for lupus patients, representing a major shift from 50 years of therapeutic stagnation.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Systemic lupus erythematosus (SLE) pathogenesis and multi-organ involvement</span>
+  <span class="topic-tag">Autoimmune disease mechanisms and autoantibody production (anti-SM, anti-double-stranded DNA antibodies)</span>
+  <span class="topic-tag">Genetic predisposition in lupus (single nucleotide polymorphisms, monogenic lupus)</span>
+  <span class="topic-tag">Sex hormone influences on lupus disease severity (estrogen and androgen effects on B cell activation)</span>
+  <span class="topic-tag">Epstein-Barr virus (EBV) infection as lupus trigger</span>
+  <span class="topic-tag">Lupus microbiome composition and pro-inflammatory characteristics</span>
+  <span class="topic-tag">UV radiation as lupus disease trigger and flare inducer</span>
+  <span class="topic-tag">CAR-T cell therapy and cellular immunotherapy for lupus</span>
+  <span class="topic-tag">Immune system reset mechanisms and immune reconstitution</span>
+  <span class="topic-tag">Lupus nephritis (kidney involvement in lupus)</span>
+  <span class="topic-tag">Discoid lupus erythematosus (DLE) and cutaneous lupus subtypes</span>
+  <span class="topic-tag">Concordance studies in identical twins for genetic component estimation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects" target="_blank">Oil in the Sea IV: Inputs, Fates, and Effects</a></div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)</div>
+<div class="claim">30% concordance rate in identical twins indicates strong but incomplete genetic component</div>
+<div class="claim">Approximately 9 out of 10 lupus patients are women (90% female predominance)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Lupus is the quintessential systemic autoimmune disease... the same immune system that helps us defending ourselves from infections, mistakenly thinks that actually our own body is one of those entities and it attacks them."</div>
+<div class="quote">"What has happened and what's happening in lupus is truly unprecedented... we had nothing for 50 years. What was approved on those 50 years actually was really grandfathered into FDA because they were used before even the FDA was actually created."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">82 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Government Science Funding Cuts (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing major funding reductions affecting NIH, UK astronomy/particle physics, and NASA observatories, with concerns about impact on scientific innovation and research timelines.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary Science & Astronomy (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering Saturn's moons, supernova observations, exoplanet imaging, and solar corona research.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biology & Species Discovery (6 posts)</span> <span style="font-size:13px;color:#4a5568;">New species descriptions, biodiversity findings, and ecological research including leaf warblers, dinosaur redescriptions, and wildlife conservation updates.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">AI Ethics & Standards (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions about AI sentience claims, AI regulation in meteorology, and responsible AI development guidelines.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Public Health & Disease Outbreaks (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of meningitis outbreak in UK, vaccination strategies, and pandemic preparedness concerns.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">97 likes &middot; 61 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">DEFINITELY NOT GOOD
+
+In 2026, #NIH NOFOs (Notice of Funding Opportunities) dropped by 90%. Funneling applications to fewer broad grant pools + emphasis on WH priorities = more competition & fewer awarded grants (not based on merit).
+
+How is this supposed to boost innovation?
+   🧪 archive.today/EPdlS</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhbxup4zbc2h" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@astroroyalscot.bsky.social</div>
+  <div class="bluesky-stats">60 likes &middot; 41 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">The future of UK Astronomy & Particle Physics is at risk from proposed 30% funding cuts that, if implemented, will be "genuinely catastrophic".  
+
+Great to see this detailed BBC report on the issue by @pallabg.bsky.social 🔭🧪⚛️
+
+#STFCcuts #SaveUKAstronomy
+
+🗞️: www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/astroroyalscot.bsky.social/post/3mhcwvspmbs2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@ecologicalev.bsky.social</div>
+  <div class="bluesky-stats">63 likes &middot; 29 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">Two new reports, both released by WWF-Mexico and its partners, estimate a 64% increase in species population and a significant decrease in forest degradation within their critical winter habitat, respectively.
+
+🧪🌎 www.worldwildlife.org/news/stories...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/ecologicalev.bsky.social/post/3mhcib6lf7s2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">68 likes &middot; 18 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">Moment suspected meteor is spotted over Ohio and Pennsylvania. 🔭 🧪 www.bbc.co.uk/news/videos/...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mhbygdxnws2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drnereide.bsky.social</div>
+  <div class="bluesky-stats">52 likes &middot; 18 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">🧵 1/7
+Great! Saturn keeps collecting more moons.
+
+The Minor Planet Center quietly released MPEC 2026-F14 on March 16, 2026, confirming eleven additional small satellites. 
+
+That brings Saturn’s total to 285, leaving Jupiter well behind in the rankings.
+
+🔭 🧪 ⚛️ #planetsci #science #universe #astronom</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drnereide.bsky.social/post/3mhbr4iwb7s2u" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Federal Science Funding Crisis</strong>: NASEM advises on science policy; 90% NIH NOFO cuts and UK/US astronomy funding reductions represent major policy shifts affecting research ecosystem that warrant assessment of innovation capacity and research competitiveness.</div>
+<div class="nasem-match"><strong>AI Standards & Governance</strong>: NASEM conducts studies on AI governance; discussions on AI meteorology standards and responsible AI development directly relate to NASEM's role in recommending science policy frameworks.</div>
+<div class="nasem-match"><strong>Public Health Infrastructure & Vaccination</strong>: NASEM provides guidance on public health preparedness; meningitis outbreak coverage and vaccination strategy debates relate to pandemic preparedness and disease surveillance systems.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 18, 2026 at 11:24 AM | Internal use only
+    </div>
+</body>
+</html>

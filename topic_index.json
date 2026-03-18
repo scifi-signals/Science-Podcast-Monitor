@@ -1,7 +1,499 @@
 {
-  "updated": "2026-03-16T12:04:14.959735",
-  "episode_count": 90,
+  "updated": "2026-03-18T11:24:28.167446",
+  "episode_count": 95,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The heaviness and (not) hope of climate change",
+      "host": "Ira Flatow",
+      "published": "2026-03-18T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Science Friday interviews environmental journalist Elizabeth Colbert about her career covering climate change and her latest essay collection. The discussion spans from detailed scientific fieldwork—such as studying caterpillars with entomologist Dave Wagner—to global environmental crises including insect population declines and coral reef bleaching. Colbert reflects on the tension between documenting hope-inspiring solutions (like Denmark's Samsø island achieving carbon neutrality) and the sobering reality of climate science, arguing that humans must move beyond clichéd hopeful narratives while recognizing that humanity's capacity for foresight and creativity may be essential to navigating the 21st century.",
+      "science_topics": [
+        "Caterpillar ecology and life cycles",
+        "Insect population decline and biodiversity loss",
+        "Coral bleaching and heat tolerance in symbiotic algae",
+        "Wind energy technology and renewable energy cost reduction",
+        "Solar and battery technology advancement",
+        "Climate stabilization versus climate change reversal",
+        "Paleoclimate history and Holocene climate conditions",
+        "Coral reef functional extinction risk"
+      ],
+      "claims_to_note": [
+        "Caterpillars transfer 'a tremendous amount of energy' from photosynthesis to animal kingdom as food source for birds—verify ecosystem energy transfer claims",
+        "Insects make up the majority of species on Earth—verify against NASEM biodiversity assessments",
+        "Serious insect population declines found 'just about everywhere people look'—note claim of ubiquity of decline data",
+        "Climate scientists believe coral reefs 'could sort of be functionally extinct by the end of this century'—verify timeline and functional extinction definition",
+        "Modern humans have not experienced current climate conditions; ancestors lived in colder periods—verify paleoclimate claims",
+        "Samsø island achieved carbon neutrality through community effort and wind power—verify actual carbon neutral status and timeline",
+        "Solar, wind, and battery technologies have come down 'tremendously in price'—claim appears accurate but warrants verification against technology cost data"
+      ],
+      "policy_relevance": [
+        "Danish national energy policies that encouraged farmers to install wind turbines on private land",
+        "Wind energy subsidies and offshore wind development policy in Denmark",
+        "Current U.S. federal administration promoting fossil fuel use (stated concern that administration is working against renewable energy transition)",
+        "Mention of need for policies to make energy transition economically viable",
+        "Discussion of scaling climate adaptation efforts for ecosystems at national/regional scale"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "A Research Review of Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25279/a-research-review-of-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Electricity from Renewable Resources: Status, Prospects, and Impediments",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        }
+      ]
+    },
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "When The Diagnosis Is Thrown For A Lupus",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-03-18T10:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "Dr. Roberto Caricchio discusses systemic lupus erythematosus (SLE), a complex autoimmune disease affecting predominantly women that can involve multiple organ systems. The episode covers lupus pathogenesis, diagnostic challenges, genetic and environmental risk factors (including hormones, UV exposure, viral infections, and microbiome changes), and recent breakthrough treatments including CAR-T cell therapy that can induce long-term clinical remission. Dr. Caricchio emphasizes the unprecedented expansion of treatment options and clinical trials now available for lupus patients, representing a major shift from 50 years of therapeutic stagnation.",
+      "science_topics": [
+        "Systemic lupus erythematosus (SLE) pathogenesis and multi-organ involvement",
+        "Autoimmune disease mechanisms and autoantibody production (anti-SM, anti-double-stranded DNA antibodies)",
+        "Genetic predisposition in lupus (single nucleotide polymorphisms, monogenic lupus)",
+        "Sex hormone influences on lupus disease severity (estrogen and androgen effects on B cell activation)",
+        "Epstein-Barr virus (EBV) infection as lupus trigger",
+        "Lupus microbiome composition and pro-inflammatory characteristics",
+        "UV radiation as lupus disease trigger and flare inducer",
+        "CAR-T cell therapy and cellular immunotherapy for lupus",
+        "Immune system reset mechanisms and immune reconstitution",
+        "Lupus nephritis (kidney involvement in lupus)",
+        "Discoid lupus erythematosus (DLE) and cutaneous lupus subtypes",
+        "Concordance studies in identical twins for genetic component estimation"
+      ],
+      "claims_to_note": [
+        "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+        "30% concordance rate in identical twins indicates strong but incomplete genetic component",
+        "Approximately 9 out of 10 lupus patients are women (90% female predominance)",
+        "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+        "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+        "Three additional FDA-approved lupus interventions approved in recent years, with possibly two more in current year (2026)",
+        "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+        "First CAR-T cell therapy lupus patient in New England treated in 2023, still lupus-free and treatment-free after ~3 years",
+        "Approximately 150 ongoing clinical trials for lupus and lupus nephritis worldwide",
+        "40+ clinical trials currently underway testing cell therapy modalities for lupus",
+        "CAR-T therapy achieves 'clinical cure' (disease-free, drug-free remission) but not complete cure due to persistent genetic predisposition"
+      ],
+      "policy_relevance": [
+        "FDA approval process and regulatory pathway for lupus treatments",
+        "NIH funding for lupus research (Dr. Caricchio's lab is NIH-funded)",
+        "Lupus Clinical Investigators Network (LCIN) - clinical research program overseen by Lupus Therapeutics",
+        "Lupus Research Alliance sponsoring research and supporting clinical trial pathway development",
+        "ClinicalTrials.gov as government-run resource for identifying lupus clinical trials",
+        "Multi-center institutional collaboration pathway for establishing CAR-T cell therapy programs (published guidance for investigators)",
+        "Need for healthcare infrastructure to expand access to complex cell therapy treatments beyond specialized centers"
+      ],
+      "nasem_publications": [
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "The Influence of Global Environmental Change on Infectious Disease Dynamics: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18800/the-influence-of-global-environmental-change-on-infectious-disease-dynamics"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Genomic Epidemiology Data Infrastructure Needs for SARS-CoV-2: Modernizing Pandemic Response Strategies",
+          "url": "https://nap.nationalacademies.org/catalog/25879/genomic-epidemiology-data-infrastructure-needs-for-sars-cov-2-modernizing"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "A dietitian and doctor review RFK Jr's new food pyramid",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-18T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the new federal food pyramid released by HHS Secretary Robert F. Kennedy Jr. in 2026, which emphasizes protein, full-fat dairy, and 'healthy fats' at the top. A registered dietitian and a UCSF medicine professor discuss the scientific basis for the guidelines, noting contradictions between the visual representation (which prominently features red meat) and the written recommendations (which maintain the 10% saturated fat cap from 2011). The episode explores how these new guidelines could influence school lunches, SNAP programs, and food labeling, while raising concerns about environmental costs of increased protein consumption and the protein-marketing trend in processed foods.",
+      "science_topics": [
+        "Dietary protein requirements and muscle synthesis",
+        "Saturated fat and cardiovascular disease risk",
+        "LDL cholesterol and heart disease etiology",
+        "Monounsaturated and polyunsaturated fats",
+        "Protein metabolism and energy storage",
+        "Plant-based protein sources",
+        "Dietary fiber"
+      ],
+      "claims_to_note": [
+        "New pyramid prioritizes red meat consumption — visual representation shows steak prominently at top",
+        "Written guidelines maintain 10% saturated fat calorie limit (unchanged from 2011)",
+        "Extra protein consumed beyond daily needs is converted to sugar and fat, not stored as protein",
+        "Saturated fat intake is linked to elevated LDL cholesterol and cardiovascular disease",
+        "Plant-based proteins are equivalent alternatives mentioned in written guidelines",
+        "Protein-fortified processed foods (Pop-Tarts, cereals, coffee drinks) are increasingly prevalent in market"
+      ],
+      "policy_relevance": [
+        "New dietary guidelines released by HHS and RFK Jr. as Health Secretary in 2026",
+        "USDA has not yet released updated nutrition standards based on new pyramid; process could take years",
+        "Current federal school meal standards follow 2020 USDA/HHS guidelines; new standards must align with updated pyramid",
+        "Federal funding requirements: schools receiving federal meal funding must follow USDA nutrition standards",
+        "Potential changes to SNAP program guidelines",
+        "School breakfast protein recommendations may become mandatory requirements",
+        "Food labeling standards may be affected by new guidelines",
+        "Military food service standards also based on federal dietary guidelines"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Options for Improving the Safety of DUKW Type Amphibious Vessels",
+          "url": "https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels"
+        },
+        {
+          "title": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds",
+          "url": "https://nap.nationalacademies.org/catalog/6252/dietary-reference-intakes-proposed-definition-and-plan-for-review-of"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Blue Water Navy Vietnam Veterans and Agent Orange Exposure",
+          "url": "https://nap.nationalacademies.org/catalog/13026/blue-water-navy-vietnam-veterans-and-agent-orange-exposure"
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Could a ‘digital twin’ help you get better health care?",
+      "host": "Ira Flatow",
+      "published": "2026-03-17T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode explores digital twins—computational models that integrate personal health data (genetics, blood tests, imaging, family history) to predict treatment outcomes and personalize medical care. Dr. Caroline Chung, a radiation oncologist at MD Anderson Cancer Center, explains how the concept originated in aerospace engineering and is being adapted for oncology, cardiology, and other medical fields. The discussion emphasizes both the potential clinical applications and significant challenges, including data requirements, privacy concerns, liability questions, and the need to maintain human judgment in medical decision-making alongside algorithmic recommendations.",
+      "science_topics": [
+        "Digital twin modeling in personalized medicine",
+        "Physics-informed mechanistic models versus AI models in healthcare",
+        "Radiation oncology dose optimization using digital twins",
+        "Cardiac blood flow simulation and catheterization prediction",
+        "Chemotherapy scheduling optimization through simulation",
+        "Human-machine interface in clinical decision-making",
+        "Tumor heterogeneity and adaptive radiation therapy",
+        "Predictive screening test personalization"
+      ],
+      "claims_to_note": [
+        "Digital twins can anticipate locations of aggressive or radiation-resistant tumor cells to personalize radiation treatment",
+        "Same total dose of chemotherapy can yield different outcomes with different delivery schedules, potentially improving results without additional drug costs",
+        "Digital twins can predict need for cardiac catheterization before heart attack occurs",
+        "Digital twins can personalize cancer screening intervals (e.g., extending to every 3 years for low-risk patients rather than annual screening for all)",
+        "Physics-informed models include constraints to prevent 'wacky results' compared to pure AI approaches—this comparative claim about model reliability should be verified"
+      ],
+      "policy_relevance": [
+        "Regulatory frameworks needed for digital twin adoption in healthcare—mentioned as necessary 'hoops to jump through'",
+        "Legal and operational practices requiring standardization across medical practices",
+        "Data governance and flow in medical systems—how health data is generated and circulated",
+        "Privacy regulation and data protection concerns, particularly with integrated multi-system digital twins",
+        "Accessibility and equity issues—ensuring digital twins available across all practices, not just specialized centers",
+        "Liability and culpability frameworks for algorithmic medical recommendations—unclear legal standards for when predictions prove wrong"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
+        },
+        {
+          "title": "The Future of Atmospheric Boundary Layer Observing, Understanding, and Modeling: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25138/the-future-of-atmospheric-boundary-layer-observing-understanding-and-modeling"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "url": ""
+        },
+        {
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation"
+        },
+        {
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of"
+        },
+        {
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program"
+        },
+        {
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation"
+        },
+        {
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "‘Black rain’ in Iran and the environmental cost of war",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-17T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the environmental and public health consequences of military strikes on oil infrastructure in Iran, specifically focusing on the phenomenon of \"black rain\"—precipitation contaminated with toxic chemicals from burning oil facilities. Toxicologist Peter Ross explains that the smoke and resulting rainfall contain hazardous compounds including sulfur oxides, nitrogen oxides, polycyclic aromatic hydrocarbons, benzene, and toluene, which pose immediate respiratory threats and long-term contamination risks to soil, groundwater, and drinking water supplies. The episode highlights how Tehran's geography may exacerbate the problem and compares the environmental disaster to the Exxon Valdez oil spill, emphasizing that recovery from such petroleum-related environmental damage takes decades.",
+      "science_topics": [
+        "Black rain formation and atmospheric chemistry",
+        "Combustion products from petroleum fires (sulfur oxides, nitrogen oxides, polycyclic aromatic hydrocarbons, benzene, toluene)",
+        "Acid rain formation",
+        "PM2.5 particulate matter health effects",
+        "Groundwater contamination pathways",
+        "Urban topography effects on air circulation and pollution concentration",
+        "Acute respiratory effects (asthma exacerbation, COPD, airway inflammation)",
+        "Long-term health impacts of petroleum pollution",
+        "Environmental recovery timelines from petroleum spills"
+      ],
+      "claims_to_note": [
+        "Black rain in Tehran left dark, oily residue and caused eye/throat burning and breathing difficulty in residents",
+        "The chemical mixture includes sulfur oxides, nitrogen oxides, metals, carcinogens, and volatile chemicals that can cause dizziness, death, and contribute to cancer",
+        "Volatile gases from petroleum combustion are explosive and toxic if inhaled",
+        "Exposure to this pollution is expected to increase emergency room visits, asthma attacks, and mortality",
+        "PM2.5 particles can penetrate lungs and enter circulation, causing cardiac arrest and cancer",
+        "Without water, humans die within three to four days",
+        "The Exxon Valdez oil spill from 1989 still has unweathered oil detectable 35+ years later",
+        "Recovery from petroleum accidents takes decades if not longer"
+      ],
+      "policy_relevance": [
+        "U.S. and Israeli military strikes on Iranian oil refineries and depots",
+        "World Health Organization warning to Iranian residents about health risks from toxic pollutants",
+        "Iran's government urging residents to stay indoors",
+        "Iran's deputy health minister (Ali Jafarian) statement to Al Jazeera regarding soil and water contamination",
+        "Discussion of oil infrastructure as military targets in Middle East conflicts",
+        "Comparison to environmental impacts of Iraq and Afghanistan wars",
+        "Broader policy question about environmental costs of warfare and targeting of petroleum infrastructure"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "The Future of Atmospheric Chemistry Research: Remembering Yesterday, Understanding Today, Anticipating Tomorrow",
+          "url": "https://nap.nationalacademies.org/catalog/23573/the-future-of-atmospheric-chemistry-research-remembering-yesterday-understanding-today"
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Gulf War and Health: Volume 10: Update of Health Effects of Serving in the Gulf War, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/21840/gulf-war-and-health-volume-10-update-of-health-effects"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Pathways to Urban Sustainability: Challenges and Opportunities for the United States",
+          "url": "https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
