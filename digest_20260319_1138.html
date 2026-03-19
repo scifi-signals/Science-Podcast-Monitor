@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 19, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 19, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">45</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">22</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">78</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing highlights significant advances in biological imaging (AntScan's micro-CT technology), plant biochemistry (Cinchona alkaloid pathway breakthrough), and fundamental physics (dark matter detection innovation), alongside established communication challenges around vaccine hesitancy and science politicization. The AntScan and Cinchona research exemplify how high-resolution imaging and systems biology approaches unlock practical applications—from AI-assisted anatomy to improved malaria therapeutics. Simultaneously, Bluesky discourse reveals persistent engagement gaps on vaccine effectiveness messaging and climate science integration into policy, while dark matter research continues advancing detection methodologies. Notably, vision science research on goal achievement offers tools applicable to science communication strategies, and misinformation about Iran's nuclear capabilities and jihadism causation warrants NASEM attention for evidence-based policy dialogue.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>High-resolution biological imaging and its applications (synchrotron micro-CT, transcriptomics, heterologous expression enabling structural discovery)</li>
+<li>Plant secondary metabolism and natural product drug discovery pathways</li>
+<li>Dark matter and cosmology frontiers (detection methods, early universe observations via JWST)</li>
+<li>Vaccine effectiveness communication and addressing scientific hesitancy</li>
+<li>Science-policy integration and countering politicization of evidence</li>
+<li>Visual perception and attention as mechanisms influencing behavior and performance</li>
+<li>Nuclear proliferation and geopolitical risk assessment</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Paleo detectors for dark matter using billion-year-old mineral crystals (novel transition from theory to experimental validation)</li>
+<li>Dark stars as explanation for early supermassive black holes—increasingly supported by JWST 'little red dots' observations</li>
+<li>AI-assisted anatomical analysis leveraging large 3D imaging datasets (AntScan model potentially applicable to other taxa)</li>
+<li>Physiological markers (systolic blood pressure) as objective readiness indicators for goal-directed behavior—contrasts with popular motivation frameworks</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene interdisciplinary working group on integrating high-resolution imaging platforms (synchrotron, micro-CT) into biodiversity assessment and taxonomic research—leveraging AntScan as proof-of-concept for expanding to undersampled invertebrate groups</div>
+<div class="opportunity">Develop evidence-based vaccine communication framework addressing hesitancy: synthesize behavioral science (visual attention, goal psychology) with public health messaging on measles, transmission reduction</div>
+<div class="opportunity">Commission consensus report on science-policy translation mechanisms for contested domains (nuclear proliferation assessment, jihadism causation narratives, dark energy interpretation discordance) to strengthen policy-maker access to robust scientific evidence</div>
+<div class="opportunity">Partner with botanical institutes on plant secondary metabolism research infrastructure—natural product drug discovery pipeline could inform rare disease and antimalarial therapeutics prioritization</div>
+<div class="opportunity">Establish working group on dark matter detection methods and early-universe observations to support translating JWST/DESI findings into education and public understanding</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Iran nuclear claim: '400 kilograms of partially enriched uranium' requires verification against IAEA reporting; assess consistency with recent intelligence assessments</div>
+<div class="claim">Jihadism causation: Claim that jihadism spreads 'primarily through religious indoctrination and theological beliefs rather than as response to military intervention' oversimplifies multifactorial radicalization; literature indicates both recruitment narratives and geopolitical grievances interact—NASEM could clarify evidence on radicalization mechanisms</div>
+<div class="claim">Cinchona sourcing claim: 'Cinchona plants remain biggest source of cinchona alkaloids despite lab synthesis capability'—verify against current pharmaceutical supply chain data; if inaccurate, affects messaging on natural product versus synthetic production</div>
+<div class="claim">Battery degradation quantification: 'Lithium-ion batteries degrade three times faster in hot US climates than temperate ones' is specific claim requiring peer-reviewed verification before policy application</div>
+<div class="claim">Vision board efficacy reversal: Claim that vision boards paradoxically reduce physiological readiness (lowered systolic BP) contradicts widespread motivational advice; needs replication and mechanistic explanation before widespread dissemination</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Digital twins and physics-informed models transforming clinical practice</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday featured digital twin modeling in personalized medicine, radiation oncology, and cardiac simulation as emerging approaches that combine mechanistic physics with patient data. This represents a convergence of computational sophistication with clinical translation — moving beyond purely AI-driven models to hybrid systems that retain interpretability. The emphasis on physics-informed approaches over black-box AI suggests clinicians and researchers are seeking models that can explain their predictions, particularly in high-stakes domains like oncology and cardiology.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor how digital twins are validated and integrated into clinical workflows, as this touches on AI governance, medical device regulation, and workforce training needs.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biodiversity loss and ecological tipping points across taxa and ecosystems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows (Science Friday, Short Wave, Radiolab) are documenting cascading ecosystem stressors: insect population decline and caterpillar ecology, coral bleaching and heat tolerance, invasive species impacts on island conservation, and permafrost methane release. Rather than siloed coverage, these episodes reflect a broader narrative that biological systems are approaching simultaneous tipping points driven by climate, habitat loss, and human activity. The inclusion of intervention technologies (Sterile Insect Technique, gene drives) signals growing policy interest in active ecosystem management.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM leadership should expect increased requests for expert guidance on biodiversity monitoring, ecosystem tipping-point modeling, and the governance of ecological interventions like gene drives.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Autoimmune and metabolic disease mechanisms tied to sex hormones and genetic architecture</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Unbiased Science and Short Wave independently covered sex hormone influences on autoimmune disease (lupus, B cell activation) and lipid metabolism pathways (CETP inhibition, ApoE genotypes, cholesterol transport) discussed on The Peter Attia Drive. These episodes share a common theme: precision understanding of how sex-biased genetic and endocrine factors drive disease heterogeneity. This suggests mounting recognition that sex and gender differences are fundamental mechanistic features, not confounding variables, in chronic disease.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should expect policy inquiries on sex-stratified clinical trial design, precision medicine implementation, and workforce competency in sex-biology integration across medical research.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Alternative and neuromorphic computing substrates challenging traditional AI paradigms</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast's coverage of biological computing using cultured neurons trained via electrical signals and Huberman Lab's focus on neurobiological mechanisms of attention and motivation reflect a shift toward bio-inspired and substrate-diverse computing approaches. Rather than centralizing AI advancement around large language models, these shows highlight growing research interest in neuromorphic hardware, living neural networks, and closed-loop bio-electronic systems that mimic brain function more directly.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prepare for emerging questions about the scientific foundations, safety validation, and research infrastructure needed for biological and neuromorphic computing as alternative AI pathways.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Paleoclimate and cryosphere science revealing rapid climate volatility and methane cycles</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Magazine Podcast, Short Wave, and StarTalk Radio collectively addressed ice core paleoclimate reconstructions, permafrost methane release, glacial dating, and thermal physics of ice—converging on a narrative that Earth's climate has experienced rapid transitions historically and frozen systems are currently active sources of greenhouse gases. The coupling of paleoclimate data with modern cryosphere dynamics signals that historical climate instability is informing near-term climate projections and carbon cycle modeling.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM may receive requests for synthesis on cryosphere-carbon cycle feedbacks, paleoclimate analogs for future scenarios, and cross-disciplinary coordination between paleoclimatology and modern climate monitoring.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Dark Universe Decoded with Katherine Freese</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Mar 17 &middot; 50 min</div>
+<p style="margin:10px 0;font-size:14px;">In this StarTalk episode, astrophysicist Katherine Freese discusses dark matter and dark energy research, including her innovative paleo detector concept that uses billion-year-old rocks to detect dark matter tracks. The conversation covers James Webb Space Telescope discoveries of unexpectedly early and bright galaxies, the potential existence of dark stars powered by dark matter, the mystery of dark energy and its possible time variation, and various approaches to detecting dark matter particles including WIMPs, axions, and primordial black holes.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dark matter detection methods (xenon detectors, paleo detectors using olivine crystals)</span>
+  <span class="topic-tag">Dark stars (ordinary matter powered by dark matter accretion)</span>
+  <span class="topic-tag">Dark energy and cosmological constant</span>
+  <span class="topic-tag">James Webb Space Telescope observations of early universe galaxies</span>
+  <span class="topic-tag">Weakly Interacting Massive Particles (WIMPs) as dark matter candidates</span>
+  <span class="topic-tag">Axions as dark matter candidates</span>
+  <span class="topic-tag">Primordial black holes as dark matter candidates</span>
+  <span class="topic-tag">Cosmic Microwave Background (CMB) and early universe physics</span>
+  <span class="topic-tag">DESI (Dark Energy Spectroscopic Instrument) experiment</span>
+  <span class="topic-tag">Gravitational lensing and dark matter detection</span>
+  <span class="topic-tag">Neutrino detection and supernova studies</span>
+  <span class="topic-tag">Redshift measurements and Hubble expansion</span>
+  <span class="topic-tag">String theory and extra dimensions (branes)</span>
+  <span class="topic-tag">Casimir effect and vacuum energy</span>
+  <span class="topic-tag">Galaxy formation and dark matter halos</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding" target="_blank">Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23560/new-worlds-new-horizons-a-midterm-assessment" target="_blank">New Worlds, New Horizons: A Midterm Assessment</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches" target="_blank">Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings" target="_blank">Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26824/reflections-on-a-tool-of-observation-artwork-inspired-by-the" target="_blank">Reflections on a Tool of Observation: Artwork Inspired by the James Webb Space Telescope by Tim Makepeace</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches" target="_blank">Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Dark stars could explain supermassive black holes in the early universe, blue monsters, and little red dots observed by JWST - this is speculative but increasingly supported by observations</div>
+<div class="claim">Paleo detectors using olivine crystals from meteorites can detect dark matter tracks accumulated over billion years - this is a novel theoretical proposal transitioning to experimental reality</div>
+<div class="claim">DESI experiment claims dark energy is decreasing over time, but Freese and collaborator Yun Wang's reanalysis using simpler methodology does not find strong evidence for this effect - presents conflicting interpretations of same data</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We're replacing volume with time. Isn't that cool? Hence Paleo. [about paleo detectors using billion-year-old rocks instead of massive underground detectors]"</div>
+<div class="quote">"Dark energy is a complete mystery to all of us. We have no idea what's going on, to be honest. [Freese on the fundamental unknowns in cosmology]"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #465 — More From Sam: Iran, Jihadism, Conspiracism, AI Disruption, the Manosphere, and More</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Mar 18 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">Sam Harris discusses geopolitical and ideological topics including the Iran war, jihadism, progressive intellectual confusion about Islamic extremism, nuclear proliferation risks, and criticisms of Trump administration messaging and competence. He argues that jihadist regimes acquiring nuclear weapons represents an existential threat that may justify military intervention, while acknowledging the risks of mission creep and collateral damage. Harris expresses concern about what he views as moral relativism on the left regarding theocratic regimes and women's rights in Muslim-majority societies.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Nuclear weapons and mutually assured destruction doctrine</span>
+  <span class="topic-tag">Iran's uranium enrichment and nuclear program capabilities</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Iran possesses approximately 400 kilograms of partially enriched uranium - factual claim about Iranian nuclear material stockpiles requiring verification</div>
+<div class="claim">UAE has ceased funding jihadist-inspired mosques and modified student funding due to radicalization concerns - claim about Saudi Arabia and UAE counter-jihadism policies</div>
+<div class="claim">Jihadism primarily spreads through religious indoctrination and theological beliefs rather than as a response to military intervention - contested claim about radicalization mechanisms</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"You can boil down the core of a sane foreign policy on this topic to that sentence. Right. If it's a jihadist regime that is within reach of nukes, send in the troops."</div>
+<div class="quote">"The thing that really makes jihadists is the perception of jihadist success, right? The thing that really created a lot of jihadists was the rise of ISIS and the birth of the Islamic State."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Huberman Lab: Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Mar 19 &middot; 36 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Emily Balcetis discusses research on how vision and visual attention strategies can enhance goal achievement and motivation. The episode covers evidence that narrowed visual focus (concentrating on a specific target rather than peripheral information) improves physical task performance by 27% and reduces perceived effort by 17%. Balcetis also explains how physical states influence visual perception of distance and difficulty, why vision boards may undermine motivation, and how data collection rather than memory helps people accurately track progress toward goals.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Visual attention and goal-directed behavior</span>
+  <span class="topic-tag">Narrowed focus of attention as performance enhancement strategy</span>
+  <span class="topic-tag">Systolic blood pressure as physiological indicator of motivation readiness</span>
+  <span class="topic-tag">Vision boards and their paradoxical effects on goal motivation</span>
+  <span class="topic-tag">Visual perception of distance and hills as function of physical fatigue and body weight</span>
+  <span class="topic-tag">Blood glucose metabolism and perceived environmental constraints</span>
+  <span class="topic-tag">Placebo effects and expectancy in performance enhancement</span>
+  <span class="topic-tag">Memory distortion and metacognitive assessment of progress</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration" target="_blank">A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24960/environmental-chemicals-the-human-microbiome-and-health-risk-a-research" target="_blank">Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program" target="_blank">Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25391/exploring-lessons-learned-from-a-century-of-outbreaks-readiness-for" target="_blank">Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical" target="_blank">Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education" target="_blank">Educating the Student Body: Taking Physical Activity and Physical Education to School</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Narrowed visual focus improved exercise performance by 27% and reduced perceived pain by 17% compared to natural gaze condition</div>
+<div class="claim">Vision boards and dream boards decrease systolic blood pressure, indicating reduced physiological readiness to act (contradicts common motivation advice)</div>
+<div class="claim">Overweight, fatigued, and elderly individuals perceive distances as further and hills as steeper than fit individuals</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What a surprise that people burn out, right? It's exciting to work on a goal. When you first set it, you might make some initial progress. But then eventually we get, you know, not even to the halfway point, but before things get real, things are challenging and we fall by the wayside."</div>
+<div class="quote">"If I've just created this dream board, this vision board and put myself psychologically in that space of a goal satisfied, why is it bad that blood pressure goes down? Because it means your body is chilling out. It's like, all right, cool. I just accomplished something pretty major."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Botanical mystery solved: how plants make a crucial malaria drug</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 18 &middot; 16 min</div>
+<p style="margin:10px 0;font-size:14px;">Researchers at the Max Planck Institute have solved a longstanding biochemical mystery by identifying the complete enzymatic pathway through which Cinchona plants produce quinine and related alkaloids used to treat malaria. Using isotopic labeling experiments, single-cell transcriptomics, bioinformatics, and heterologous expression in Nicotiana benthamiana, the team mapped the biosynthetic intermediates and identified the genes encoding the enzymes responsible for each step. This breakthrough could enable the production of new quinine derivatives with improved medicinal properties and may reveal the plants' ecological function in pest defense.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cinchona alkaloid biosynthesis</span>
+  <span class="topic-tag">Quinine biosynthetic pathway</span>
+  <span class="topic-tag">Plant secondary metabolism</span>
+  <span class="topic-tag">Isotopic labeling in biochemistry</span>
+  <span class="topic-tag">Single-cell transcriptomics and leaf epidermal cell gene expression</span>
+  <span class="topic-tag">Heterologous gene expression in Nicotiana benthamiana</span>
+  <span class="topic-tag">Enzyme identification through bioinformatics</span>
+  <span class="topic-tag">Alkaloid function in plant-insect interactions</span>
+  <span class="topic-tag">Fluorinated drug derivatives</span>
+  <span class="topic-tag">Lithium-ion battery degradation in high temperatures</span>
+  <span class="topic-tag">Electric vehicle battery durability under climate change</span>
+  <span class="topic-tag">Pre-Inca parrot trade and long-distance transport</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary" target="_blank">Dietary Reference Intakes Research Synthesis: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters" target="_blank">Why Indoor Chemistry Matters</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26618/an-assessment-of-native-seed-needs-and-the-capacity-for-their-supply" target="_blank">An Assessment of Native Seed Needs and the Capacity for Their Supply: Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25859/an-assessment-of-the-need-for-native-seeds-and-the-capacity-for-their-supply" target="_blank">An Assessment of the Need for Native Seeds and the Capacity for Their Supply: Interim Report</a></div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10872/dietary-reference-intakes-guiding-principles-for-nutrition-labeling-and-fortification" target="_blank">Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings" target="_blank">Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft" target="_blank">Options for Reducing Lead Emissions from Piston-Engine Aircraft</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Quinine is described as 'the earliest known naturally occurring malaria treatment' — should verify against history of antimalarial compounds</div>
+<div class="claim">Cinchona plants remain 'the biggest source' of cinchona alkaloids despite lab synthesis capability — verify current production sources</div>
+<div class="claim">Lithium-ion batteries degrade three times faster in hot US climates than temperate ones — specific quantitative claim requiring verification</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Given how well known the molecule is, it was a little bit surprising how little was known about how it was made."</div>
+<div class="quote">"We could look at our sequence data and we have these amazing computer programs now that will look at the sequence of a gene and make a best guess as to what type of a gene it is... And when you sort of laid it all out in front of you then, what your evidence suggests is this full pathway."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Building a digital ant gallery, from the ground up</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 19 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">The AntScan project has created a digital library of high-resolution 3D X-ray images of over 2,000 ants from 700+ species using synchrotron radiation and micro-CT scanning technology. Dr. Julian Katska discusses how this data reveals extraordinary anatomical diversity in ant morphology, particularly mouthparts, with resolution down to individual muscle fibers and cellular structures. The project aims to make this data freely accessible for both scientific research on ant evolution and biodiversity, and public engagement with microscopic biological diversity, with potential applications in AI-assisted anatomical analysis and future expansion to other small invertebrate groups.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Synchrotron X-ray micro-CT scanning</span>
+  <span class="topic-tag">Ant morphological diversity and evolution</span>
+  <span class="topic-tag">Ant mandible structure and function</span>
+  <span class="topic-tag">Three-dimensional anatomical imaging at micrometer resolution</span>
+  <span class="topic-tag">Comparative anatomy of invertebrate mouthparts</span>
+  <span class="topic-tag">Insect muscle fiber anatomy</span>
+  <span class="topic-tag">Ant biomass relative to human biomass</span>
+  <span class="topic-tag">Phylogenetic analysis of morphological traits</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23647/microbiomes-of-the-built-environment-a-research-agenda-for-indoor" target="_blank">Microbiomes of the Built Environment: A Research Agenda for Indoor Microbiology, Human Health, and Buildings</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict" target="_blank">In the Light of Evolution: Volume V: Cooperation and Conflict</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs" target="_blank">Human-AI Teaming: State-of-the-Art and Research Needs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24988/the-integration-of-the-humanities-and-arts-with-sciences-engineering-and-medicine-in-higher-education" target="_blank">The Integration of the Humanities and Arts with Sciences, Engineering, and Medicine in Higher Education: Branches from the Same Tree</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">The total biomass of all ants equals or surpasses that of all humans - described as 'now pretty well-known fact'</div>
+<div class="claim">South American army ant soldiers have mandibles strong enough to staple a wound</div>
+<div class="claim">AntScan achieved 1 micrometer voxel resolution, capable of resolving individual muscle fibers and delicate body hairs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The total diversity of ant species is enormous. And that also extends into their forms and shapes, particularly in the mouth parts, because they are like sort of the first tool that ants use in their daily lives."</div>
+<div class="quote">"So much of the world out there is just so tiny, and for us to engage with it more, we need them at like the same scale or even at like larger scales than ourselves."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">78 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Astrophotography (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts featuring celestial observations including Pleiades, nebulae, and planetary imaging from amateur and professional astronomers.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Effectiveness and Public Health Communication (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing vaccination efficacy, measles transmission reduction, and addressing vaccine hesitancy through scientific evidence.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Science and Environmental Research (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on ocean temperatures' climate influence, wetland fires, Antarctic ice cores, and environmental impacts of conflict.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Aging, Health, and Longevity (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies examining thymus function, dietary restriction, fertility restoration, and cognitive decline in athletes.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Communication and Policy (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions on integrating scientific evidence into policy conversations and addressing politicization of science.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">176 likes &middot; 98 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Simple math illustration on how vaccination reduces measles transmission
+
+The MMR vaccine is 97% effective. Three kids are likely to get infected w/ limited spread of disease. Exposed non-vaccinated children will spread it faster w/ increased risk of complications.
+
+ 🧪Via @alokpatelmd.bsky.social</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhexazwqc22e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">124 likes &middot; 25 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">The Pleiades (M45). 18 March 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mhehf4cmhs22" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@whereisyvette.bsky.social</div>
+  <div class="bluesky-stats">93 likes &middot; 2 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">DONE 🥳🥳🥳
+
+🔭🧪🎢</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/whereisyvette.bsky.social/post/3mhegijasvc2a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sciencesocks.bsky.social</div>
+  <div class="bluesky-stats">75 likes &middot; 13 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">[On the bench today ⚒️ #BehindTheScenes]
+
+Small batch of #Voyager pendants nearly done in sterling silver. Final polish next 😎
+
+🔗 sciencesocks.co/prod...
+
+🔭🐡🧪🎨</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sciencesocks.bsky.social/post/3mhep4ps2wz2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drnereide.bsky.social</div>
+  <div class="bluesky-stats">58 likes &middot; 14 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">🧵 1/5
+This splendid image by Mike Selby highlights the feature which makes the Trifid Nebula (M20, NGC 6514) famous: its three-lobed appearance.
+
+The name 'Trifid' means in fact 'three-lobe'. It was first used by John Herschel.
+
+➡️ apod.nasa.gov/apod/ap21081...
+
+🔭 🧪 ⚛️ #galactic #universe #astronomy</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drnereide.bsky.social/post/3mhehkzcxds2i" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Science Communication and Policy Integration</strong>: Post 9 directly addresses NASEM's core mission of connecting science to policy by advocating for communication as foundational to scientific training.</div>
+<div class="nasem-match"><strong>Vaccine Effectiveness and Public Health</strong>: Posts 1 and 31 relate to NASEM work on infectious disease prevention and vaccine policy; addresses politicization of public health science.</div>
+<div class="nasem-match"><strong>Climate Science and Earth Observation</strong>: Posts 14, 39, and 49 reflect research on climate mechanisms, environmental monitoring, and polar science relevant to NASEM's climate and sustainability assessments.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 19, 2026 at 11:38 AM | Internal use only
+    </div>
+</body>
+</html>

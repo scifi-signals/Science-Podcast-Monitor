@@ -1,0 +1,653 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Botanical mystery solved: how plants make a crucial malaria drug",
+  "host": "Springer Nature",
+  "published": "2026-03-18T16:45:43",
+  "episode_url": "https://www.nature.com/articles/d41586-026-00891-4",
+  "duration_minutes": 15.916666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "Researchers at the Max Planck Institute have solved a longstanding biochemical mystery by identifying the complete enzymatic pathway through which Cinchona plants produce quinine and related alkaloids used to treat malaria. Using isotopic labeling experiments, single-cell transcriptomics, bioinformatics, and heterologous expression in Nicotiana benthamiana, the team mapped the biosynthetic intermediates and identified the genes encoding the enzymes responsible for each step. This breakthrough could enable the production of new quinine derivatives with improved medicinal properties and may reveal the plants' ecological function in pest defense.",
+  "science_topics": [
+    "Cinchona alkaloid biosynthesis",
+    "Quinine biosynthetic pathway",
+    "Plant secondary metabolism",
+    "Isotopic labeling in biochemistry",
+    "Single-cell transcriptomics and leaf epidermal cell gene expression",
+    "Heterologous gene expression in Nicotiana benthamiana",
+    "Enzyme identification through bioinformatics",
+    "Alkaloid function in plant-insect interactions",
+    "Fluorinated drug derivatives",
+    "Lithium-ion battery degradation in high temperatures",
+    "Electric vehicle battery durability under climate change",
+    "Pre-Inca parrot trade and long-distance transport"
+  ],
+  "claims_to_note": [
+    "Quinine is described as 'the earliest known naturally occurring malaria treatment' — should verify against history of antimalarial compounds",
+    "Cinchona plants remain 'the biggest source' of cinchona alkaloids despite lab synthesis capability — verify current production sources",
+    "Lithium-ion batteries degrade three times faster in hot US climates than temperate ones — specific quantitative claim requiring verification",
+    "Batteries produced 2019-2023 lose average of 3% life expectancy at higher temperatures vs. 8% for 2010-2018 batteries — specific comparative claim about battery technology improvements",
+    "Pre-Inca Ishma culture (1000-1470 CE) imported live macaw parrots from Amazon across Andes hundreds of kilometers away — verify feasibility and archaeological evidence",
+    "Parrot genetic diversity in Ishma feathers similar to wild populations, suggesting no captive breeding — verify genetic analysis methodology"
+  ],
+  "policy_relevance": [
+    "Potential applications for developing new medicinal compounds through bioengineering of natural biosynthetic pathways",
+    "Battery technology advances positioned as climate adaptation strategy relevant to electric vehicle policy and climate resilience planning",
+    "Research demonstrating long-distance pre-Incan trade networks may inform indigenous history and cultural heritage policy discussions"
+  ],
+  "key_quotes": [
+    "Given how well known the molecule is, it was a little bit surprising how little was known about how it was made.",
+    "We could look at our sequence data and we have these amazing computer programs now that will look at the sequence of a gene and make a best guess as to what type of a gene it is... And when you sort of laid it all out in front of you then, what your evidence suggests is this full pathway.",
+    "These are very valuable compounds, and they're not just valuable in and of themselves. They're valuable as what we call scaffolds... if you can take the scaffold of this molecule, but maybe make little changes to it, you can dramatically alter the pharmacological properties of these compounds."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Cinchona alkaloid biosynthesis",
+      "publications": [
+        {
+          "id": "11767",
+          "title": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "dietary reference intakes dris",
+            "tolerable upper intake levels",
+            "federal nutrition officials",
+            "quantitative reference values",
+            "synthesis project undertaken",
+            "recommended intakes",
+            "individual counseling",
+            "education communities",
+            "nutrients energy",
+            "food components",
+            "dietary reference intakes",
+            "synthesis"
+          ],
+          "description": "What information is available to inform the planning of a nutrition research agenda for the United States and Canada? This question provided the backdrop for the Dietary Reference Intakes Research Synthesis project undertaken by the Food and Nutrition Board of the Institute of Medicine (IOM) of the National Academies. The Dietary Reference Intakes (DRIs) are quantitative reference values for recommended intakes and tolerable upper intake levels for a range of nutrients. They are used widely by dietitians in individual counseling, by federal nutrition officials in program and policy development, and by the nutrition research and education communities in government, academia, and industry. Between 1997 and 2005, the IOM published a series of six DRI reports covering a total of 45 nutrients, energy, and other food components. The IOM also issued two reports describing ways to apply the DRIs in assessment and planning. Together, these eight reports contain more than 450 research recommenda",
+          "year": 2007,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Quinine biosynthetic pathway",
+      "publications": [
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26228",
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "indoor chemistry matters calls",
+            "indoor chemical exposure",
+            "pathways affect human health",
+            "manage chemicals indoors",
+            "limit chemical exposures",
+            "occur indoors pathways",
+            "increased public awareness",
+            "indoor environments",
+            "long term impacts",
+            "chemical transformations",
+            "indoor chemistry matters"
+          ],
+          "description": "People spend the vast majority of their time inside their homes and other indoor environments where they are exposed to a wide range of chemicals from building materials, furnishings, occupants, cooking, consumer products, and other sources. Despite research to date, very little is known about how exposures to indoor chemicals across complex chemical phases and pathways affect human health. The COVID-19 pandemic has only increased public awareness of indoor environments and shed light on the many outstanding questions about how best to manage chemicals indoors. This report identifies gaps in current research and understanding of indoor chemistry and new approaches that can be applied to measure, manage, and limit chemical exposures. Why Indoor Chemistry Matters calls for further research about the chemical transformations that can occur indoors, pathways and timing of indoor chemical exposure, and the cumulative and long-term impacts of exposure on human health. Research priorities sho",
+          "year": 2023,
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "29234",
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "early relational health erh",
+            "community leadership workforce supports",
+            "strengthen supportive relationships",
+            "lifelong health learning",
+            "social emotional growth",
+            "thriving children families",
+            "cross sector collaboration",
+            "help create pathways",
+            "early relationships",
+            "health care",
+            "early relational health",
+            "building foundations",
+            "child family",
+            "community"
+          ],
+          "description": "Early relationships are foundational for lifelong health, learning, and well-being. Mutual, meaningful, and affirming moments of connection in the youngest relationships support brain development, resilience, and social-emotional growth. These experiences, known as early relational health (ERH), can also buffer the impacts of adversity and help create pathways toward thriving children, families, and communities. Early Relational Health: Building Foundations for Child, Family, and Community Well-Being provides evidence-based opportunities for advancing ERH. Developed by a committee of experts, this report highlights opportunities for practice, policy, and research to strengthen supportive relationships. It emphasizes asset-based approaches, family and community leadership, workforce supports, and cross-sector collaboration to promote ERH across health care, education, and social systems.",
+          "year": 2026,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Children Youth and Families"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Plant secondary metabolism",
+      "publications": [
+        {
+          "id": "26618",
+          "title": "An Assessment of Native Seed Needs and the Capacity for Their Supply: Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/26618/an-assessment-of-native-seed-needs-and-the-capacity-for-their-supply",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "electronic books",
+            "diverse native plant seeds",
+            "native plant communities",
+            "native plant restoration",
+            "restoring impaired ecosystems requires",
+            "thriving ecosystems delivering goods",
+            "native seed supply",
+            "native seed needs",
+            "support life provide food",
+            "various challenges facing",
+            "native animals",
+            "capacity",
+            "supply",
+            "final"
+          ],
+          "description": "Extreme weather and wildfires, intensified by climate change, are damaging the native plant communities of landscapes across the United States. Native plant communities are foundational to thriving ecosystems, delivering goods and services that regulate the environment and support life, provide food and shelter for a wide range of native animals, and embody a wealth of genetic information with many beneficial applications. Restoring impaired ecosystems requires a supply of diverse native plant seeds that are well suited to the climates, soils, and other living species of the system.This report examines the needs for native plant restoration and other activities, provides recommendations for improving the reliability, predictability, and performance of the native seed supply, and presents an ambitious agenda for action. An Assessment of Native Seed Needs and the Capacity for Their Supply considers the various challenges facing our natural landscapes and calls for a coordinated public-pr",
+          "year": 2023,
+          "page_keywords": [
+            "Electronic books"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on an Assessment of Nati"
+        },
+        {
+          "id": "25859",
+          "title": "An Assessment of the Need for Native Seeds and the Capacity for Their Supply: Interim Report",
+          "url": "https://nap.nationalacademies.org/catalog/25859/an-assessment-of-the-need-for-native-seeds-and-the-capacity-for-their-supply",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "diverse native plant seeds",
+            "native plant species",
+            "native plant communities",
+            "restoring impaired ecosystems requires",
+            "severe climate events",
+            "native seeds",
+            "desired seed types",
+            "restorative activities",
+            "human activities",
+            "living species",
+            "capacity",
+            "interim",
+            "supply"
+          ],
+          "description": "Across the United States, millions of acres of land have been so disturbed by human activities or severe climate events that significant portions of their native plant communities have been lost and their ecosystems have been seriously compromised. Restoring impaired ecosystems requires a supply of diverse native plant seeds that are well suited to the climates, soils, and other living species of the system. Native seeds are also in demand for applications in urban land management, roadside maintenance, conservation agriculture, and other restorative activities that take into account the connection between native plant communities and the increasingly urgent need for resilient landscapes. Given the varied climatic and environmental niches of the more than 17,000 native plant species of the United States, supplying the desired seed types and species mixes for this wide range of activities is a challenge. As the first phase of a nationwide analysis of the full scope of needs for native p",
+          "year": 2020,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Committee on National Statistics"
+        },
+        {
+          "id": "26015",
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education: Supporting the Whole Student",
+          "url": "https://nap.nationalacademies.org/catalog/26015/mental-health-substance-use-and-wellbeing-in-higher-education-supporting",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Student wellbeing is foundational to academic success. One recent survey of postsecondary educators found that nearly 80 percent believed emotional wellbeing is a \"very\" or \"extremely\" important factor in student success. Studies have found the dropout rates for students with a diagnosed mental health problem range from 43 percent to as high as 86 percent. While dealing with stress is a normal part of life, for some students, stress can adversely affect their physical, emotional, and psychological health, particularly given that adolescence and early adulthood are when most mental illnesses are first manifested. In addition to students who may develop mental health challenges during their time in postsecondary education, many students arrive on campus with a mental health problem or having experienced significant trauma in their lives, which can also negatively affect physical, emotional, and psychological wellbeing. The nation's institutions of higher education are seeing increasing l",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy",
+          "keywords": [
+            "medical",
+            "psychological health particularly given",
+            "negatively affect physical emotional",
+            "having experienced significant trauma",
+            "mental health problem",
+            "postsecondary educators found",
+            "extremely important factor",
+            "psychological wellbeing",
+            "one recent survey",
+            "students stress",
+            "postsecondary education",
+            "mental health substance use",
+            "higher education",
+            "whole student",
+            "supporting",
+            "wellbeing"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Isotopic labeling in biochemistry",
+      "publications": [
+        {
+          "id": "26460",
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "keywords": [
+            "wildfire",
+            "fire",
+            "urban",
+            "chemistry",
+            "combustion",
+            "wui"
+          ]
+        },
+        {
+          "id": "10872",
+          "title": "Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification",
+          "url": "https://nap.nationalacademies.org/catalog/10872/dietary-reference-intakes-guiding-principles-for-nutrition-labeling-and-fortification",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "nutrition labeling current labeling",
+            "provide updated nutrition labeling",
+            "dris offer quantitative estimates",
+            "oversee food labeling",
+            "nutrient reference values",
+            "canada food fortification",
+            "appropriate reference values",
+            "dri series focuses",
+            "nutrient intakes",
+            "existing dris",
+            "dietary reference intakes",
+            "guiding principles",
+            "nutrition labeling",
+            "fortification"
+          ],
+          "description": "Since 1997, the Institute of Medicine has issued a series of nutrient reference values that are collectively termed Dietary Reference Intakes (DRIs). The DRIs offer quantitative estimates of nutrient intakes to be used for planning and assessing diets. Using the information from these reports, this newest volume in the DRI series focuses on how the DRIs, and the science for each nutrient in the DRI reports, can be used to develop current and appropriate reference values for nutrition labeling and food fortification. Focusing its analysis on the existing DRIs, the book examines the purpose of nutrition labeling, current labeling practices in the United States and Canada, food fortification practices and policies, and offers recommendations as a series of guiding principles to assist the regulatory agencies that oversee food labeling and fortification in the United States and Canada. The overarching goal of the information in this book is to provide updated nutrition labeling that consum",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        },
+        {
+          "id": "25523",
+          "title": "Innovations in the Food System: Exploring the Future of Food: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25523/innovations-in-the-food-system-exploring-the-future-of-food",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "modern food systems",
+            "sustainable diets hosted",
+            "food forum",
+            "addressed different",
+            "presentations",
+            "august",
+            "innovations",
+            "discussions",
+            "washington",
+            "topic",
+            "food system",
+            "exploring"
+          ],
+          "description": "On August 7â€\"8, 2019, the National Academies of Sciences, Engineering, and Medicine hosted a public workshop in Washington, DC, to review the status of current and emerging knowledge about innovations for modern food systems and strategies for meeting future needs. The workshop addressed different perspectives on the topic of food systems and would build on a workshop on the topic of sustainable diets hosted by the Food Forum in August 2018. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Single-cell transcriptomics and leaf epidermal cell gene expression",
+      "publications": [
+        {
+          "id": "27170",
+          "title": "Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned",
+          "url": "https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "mexico communities particularly vulnerable",
+            "individuals families communities",
+            "prolonged disaster recovery",
+            "increasing disaster risk",
+            "unprecedented public health",
+            "global covid pandemic",
+            "weather climate hazards",
+            "acute weather events",
+            "seven major hurricanes",
+            "single disaster",
+            "gulf coast communities",
+            "compounding disasters",
+            "lessons learned",
+            "impacts"
+          ],
+          "description": "Experiencing a single disaster - a hurricane, tornado, flood, severe winter storm, or a global pandemic - can wreak havoc on the lives and livelihoods of individuals, families, communities and entire regions. For many people who live in communities in the U.S. Gulf of Mexico region, the reality of disaster is starker. Endemic socioeconomic and health disparities have made many living in Gulf of Mexico communities particularly vulnerable to the effects of weather-climate hazards. Prolonged disaster recovery and increasing disaster risk is an enduring reality for many living in Gulf of Mexico communities. Between 2020 and 2021, seven major hurricanes and a severe winter storm affected communities across the region. As a backdrop to these acute weather events, the global COVID-19 pandemic was unfolding, producing a complex and unprecedented public health and socioeconomic crisis. Traditionally, the impacts of disasters are quantified individually and often in economic terms of property da",
+          "year": 2024,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Gulf Health and Resilience Board"
+        },
+        {
+          "id": "26050",
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "aircraft exhaust emissions",
+            "small gasoline powered aircraft",
+            "entire gasoline powered flee",
+            "significantly reducing lead emissions",
+            "federal aviation administration faa",
+            "aircraft manufacturers according",
+            "unleaded aviation fuel",
+            "aviation gasoline",
+            "negative health effects",
+            "single largest emitter",
+            "major emission sources",
+            "reducing lead emissions",
+            "piston engine aircraft",
+            "options"
+          ],
+          "description": "Small gasoline-powered aircraft are the single largest emitter of lead in the United States, as other major emission sources such as automobile gasoline have been previously addressed. A highly toxic substance that can result in an array of negative health effects in humans, lead is added to aviation gasoline to meet the performance and safety requirements of a sizable portion of the country’s gasoline-powered aircraft. Significantly reducing lead emissions from gasoline-powered aircraft will require the leadership and strategic guidance of the Federal Aviation Administration (FAA) and a broad-based and sustained commitment by other government agencies and the nation’s pilots, airport managers, aviation fuel and service suppliers, and aircraft manufacturers, according to a congressionally mandated report from the National Academies of Sciences, Engineering, and Medicine. While efforts are underway to develop an unleaded aviation fuel that can be used by the entire gasoline-powered flee",
+          "year": 2021,
+          "page_keywords": [
+            "Aircraft exhaust emissions"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Lead Emissions from P"
+        },
+        {
+          "id": "23490",
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "total global annual emissions",
+            "large commercial single aisle",
+            "although aviation emissions",
+            "reducing carbon emissions",
+            "commercial aircraft propulsion",
+            "twin aisle aircraft",
+            "release carbon dioxide",
+            "primary human activities",
+            "reducing emissions",
+            "global emissions",
+            "reducing global carbon emissions",
+            "energy systems"
+          ],
+          "description": "The primary human activities that release carbon dioxide (CO2) into the atmosphere are the combustion of fossil fuels (coal, natural gas, and oil) to generate electricity, the provision of energy for transportation, and as a consequence of some industrial processes. Although aviation CO2 emissions only make up approximately 2.0 to 2.5 percent of total global annual CO2 emissions, research to reduce CO2 emissions is urgent because (1) such reductions may be legislated even as commercial air travel grows, (2) because it takes new technology a long time to propagate into and through the aviation fleet, and (3) because of the ongoing impact of global CO2 emissions. Commercial Aircraft Propulsion and Energy Systems Research develops a national research agenda for reducing CO2 emissions from commercial aviation. This report focuses on propulsion and energy technologies for reducing carbon emissions from large, commercial aircraftâ€\" single-aisle and twin-aisle aircraft that carry 100 or more",
+          "year": 2016,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2512,
+  "saved_at": "2026-03-19T11:37:38.565616"
+}

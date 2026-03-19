@@ -1,7 +1,343 @@
 {
-  "updated": "2026-03-18T11:24:28.167446",
-  "episode_count": 95,
+  "updated": "2026-03-19T11:38:15.169302",
+  "episode_count": 100,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Building a digital ant gallery, from the ground up",
+      "host": "Ira Flatow",
+      "published": "2026-03-19T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The AntScan project has created a digital library of high-resolution 3D X-ray images of over 2,000 ants from 700+ species using synchrotron radiation and micro-CT scanning technology. Dr. Julian Katska discusses how this data reveals extraordinary anatomical diversity in ant morphology, particularly mouthparts, with resolution down to individual muscle fibers and cellular structures. The project aims to make this data freely accessible for both scientific research on ant evolution and biodiversity, and public engagement with microscopic biological diversity, with potential applications in AI-assisted anatomical analysis and future expansion to other small invertebrate groups.",
+      "science_topics": [
+        "Synchrotron X-ray micro-CT scanning",
+        "Ant morphological diversity and evolution",
+        "Ant mandible structure and function",
+        "Three-dimensional anatomical imaging at micrometer resolution",
+        "Comparative anatomy of invertebrate mouthparts",
+        "Insect muscle fiber anatomy",
+        "Ant biomass relative to human biomass",
+        "Phylogenetic analysis of morphological traits"
+      ],
+      "claims_to_note": [
+        "The total biomass of all ants equals or surpasses that of all humans - described as 'now pretty well-known fact'",
+        "South American army ant soldiers have mandibles strong enough to staple a wound",
+        "AntScan achieved 1 micrometer voxel resolution, capable of resolving individual muscle fibers and delicate body hairs",
+        "Synchrotron micro-CT scanning can image a single ant in ~30 seconds, compared to 8-12 hours with laboratory micro-CT",
+        "Over 2,000 ants from over 700 species have been scanned in this project"
+      ],
+      "policy_relevance": [
+        "Project conducted at Okinawa Institute of Science and Technology, a publicly-funded research institution",
+        "Data made freely accessible to scientific community and public",
+        "Researcher currently employed as postdoc at Smithsonian Museum of Natural History, a federally-supported institution",
+        "Synchrotron light source access required for this research, implying reliance on major federal research infrastructure"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Microbiomes of the Built Environment: A Research Agenda for Indoor Microbiology, Human Health, and Buildings",
+          "url": "https://nap.nationalacademies.org/catalog/23647/microbiomes-of-the-built-environment-a-research-agenda-for-indoor"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?",
+          "url": "https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "The Integration of the Humanities and Arts with Sciences, Engineering, and Medicine in Higher Education: Branches from the Same Tree",
+          "url": "https://nap.nationalacademies.org/catalog/24988/the-integration-of-the-humanities-and-arts-with-sciences-engineering-and-medicine-in-higher-education"
+        },
+        {
+          "title": "Pathways to Urban Sustainability: Challenges and Opportunities for the United States",
+          "url": "https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united"
+        }
+      ]
+    },
+    {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis",
+      "host": "Andrew Huberman",
+      "published": "2026-03-19T08:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Dr. Emily Balcetis discusses research on how vision and visual attention strategies can enhance goal achievement and motivation. The episode covers evidence that narrowed visual focus (concentrating on a specific target rather than peripheral information) improves physical task performance by 27% and reduces perceived effort by 17%. Balcetis also explains how physical states influence visual perception of distance and difficulty, why vision boards may undermine motivation, and how data collection rather than memory helps people accurately track progress toward goals.",
+      "science_topics": [
+        "Visual attention and goal-directed behavior",
+        "Narrowed focus of attention as performance enhancement strategy",
+        "Systolic blood pressure as physiological indicator of motivation readiness",
+        "Vision boards and their paradoxical effects on goal motivation",
+        "Visual perception of distance and hills as function of physical fatigue and body weight",
+        "Blood glucose metabolism and perceived environmental constraints",
+        "Placebo effects and expectancy in performance enhancement",
+        "Memory distortion and metacognitive assessment of progress"
+      ],
+      "claims_to_note": [
+        "Narrowed visual focus improved exercise performance by 27% and reduced perceived pain by 17% compared to natural gaze condition",
+        "Vision boards and dream boards decrease systolic blood pressure, indicating reduced physiological readiness to act (contradicts common motivation advice)",
+        "Overweight, fatigued, and elderly individuals perceive distances as further and hills as steeper than fit individuals",
+        "Consuming sugar-sweetened beverage (vs. artificial sweetener placebo) caused people to perceive distances as shorter",
+        "Narrowed visual attention strategy improves performance across physical and cognitive goals regardless of fitness level",
+        "Joan Benoit Samuelson is described as Canadian; she is actually American (born Maine)",
+        "Michael Phelps won 8 gold medals in 2008 Beijing Olympics in the 200m butterfly with leaked goggles and won 15 additional medals in career (actual career total is 28 Olympic medals)"
+      ],
+      "policy_relevance": [
+        "No direct policy, legislation, or regulatory content mentioned",
+        "Potential applications to public health exercise promotion programs",
+        "Implications for health intervention design and motivation-based health behavior change strategies"
+      ],
+      "nasem_publications": [
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Tactile Wayfinding in Transportation Settings for Travelers Who Are Blind or Visually Impaired: Volume 2: Guide",
+          "url": "https://nap.nationalacademies.org/catalog/28910/tactile-wayfinding-in-transportation-settings-for-travelers-who-are-blind-or-visually-impaired"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy",
+          "url": "https://nap.nationalacademies.org/catalog/24960/environmental-chemicals-the-human-microbiome-and-health-risk-a-research"
+        },
+        {
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program"
+        },
+        {
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program"
+        },
+        {
+          "title": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25391/exploring-lessons-learned-from-a-century-of-outbreaks-readiness-for"
+        },
+        {
+          "title": "Tracking Safety Leading Indicators to Improve DOT Employee Safety Performance",
+          "url": "https://nap.nationalacademies.org/catalog/28599/tracking-safety-leading-indicators-to-improve-dot-employee-safety-performance"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "Educating the Student Body: Taking Physical Activity and Physical Education to School",
+          "url": "https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education"
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#465 — More From Sam: Iran, Jihadism, Conspiracism, AI Disruption, the Manosphere, and More",
+      "host": "Sam Harris",
+      "published": "2026-03-18T20:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Sam Harris discusses geopolitical and ideological topics including the Iran war, jihadism, progressive intellectual confusion about Islamic extremism, nuclear proliferation risks, and criticisms of Trump administration messaging and competence. He argues that jihadist regimes acquiring nuclear weapons represents an existential threat that may justify military intervention, while acknowledging the risks of mission creep and collateral damage. Harris expresses concern about what he views as moral relativism on the left regarding theocratic regimes and women's rights in Muslim-majority societies.",
+      "science_topics": [
+        "Nuclear weapons and mutually assured destruction doctrine",
+        "Iran's uranium enrichment and nuclear program capabilities"
+      ],
+      "claims_to_note": [
+        "Iran possesses approximately 400 kilograms of partially enriched uranium - factual claim about Iranian nuclear material stockpiles requiring verification",
+        "UAE has ceased funding jihadist-inspired mosques and modified student funding due to radicalization concerns - claim about Saudi Arabia and UAE counter-jihadism policies",
+        "Jihadism primarily spreads through religious indoctrination and theological beliefs rather than as a response to military intervention - contested claim about radicalization mechanisms",
+        "Palestinian curricula in UN-funded schools teach children to aspire to martyrdom - specific allegation about educational content in Palestinian territories"
+      ],
+      "policy_relevance": [
+        "Congressional authorization and oversight of Iran military operations - Harris criticizes lack of Congressional preparation and authorization",
+        "NATO alliance coordination and burden-sharing in Middle East operations - discussion of tensions with allies over Strait of Hormuz security",
+        "US foreign policy toward Iran nuclear program and regime change - debate over military escalation without diplomatic clarity",
+        "Tariff and trade policy impacts on allied relationships - Trump administration's use of tariffs affecting NATO cooperation",
+        "White House communication and messaging strategy during wartime - criticism of administration messaging around military operations and civilian casualties",
+        "Nuclear nonproliferation policy regarding jihadist regimes - Harris argues jihadist-controlled nuclear weapons justify military intervention"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "Accomplishments of the U.S. Global Change Research Program",
+          "url": "https://nap.nationalacademies.org/catalog/24670/accomplishments-of-the-us-global-change-research-program"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Botanical mystery solved: how plants make a crucial malaria drug",
+      "host": "Springer Nature",
+      "published": "2026-03-18T16:45:43",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Researchers at the Max Planck Institute have solved a longstanding biochemical mystery by identifying the complete enzymatic pathway through which Cinchona plants produce quinine and related alkaloids used to treat malaria. Using isotopic labeling experiments, single-cell transcriptomics, bioinformatics, and heterologous expression in Nicotiana benthamiana, the team mapped the biosynthetic intermediates and identified the genes encoding the enzymes responsible for each step. This breakthrough could enable the production of new quinine derivatives with improved medicinal properties and may reveal the plants' ecological function in pest defense.",
+      "science_topics": [
+        "Cinchona alkaloid biosynthesis",
+        "Quinine biosynthetic pathway",
+        "Plant secondary metabolism",
+        "Isotopic labeling in biochemistry",
+        "Single-cell transcriptomics and leaf epidermal cell gene expression",
+        "Heterologous gene expression in Nicotiana benthamiana",
+        "Enzyme identification through bioinformatics",
+        "Alkaloid function in plant-insect interactions",
+        "Fluorinated drug derivatives",
+        "Lithium-ion battery degradation in high temperatures",
+        "Electric vehicle battery durability under climate change",
+        "Pre-Inca parrot trade and long-distance transport"
+      ],
+      "claims_to_note": [
+        "Quinine is described as 'the earliest known naturally occurring malaria treatment' — should verify against history of antimalarial compounds",
+        "Cinchona plants remain 'the biggest source' of cinchona alkaloids despite lab synthesis capability — verify current production sources",
+        "Lithium-ion batteries degrade three times faster in hot US climates than temperate ones — specific quantitative claim requiring verification",
+        "Batteries produced 2019-2023 lose average of 3% life expectancy at higher temperatures vs. 8% for 2010-2018 batteries — specific comparative claim about battery technology improvements",
+        "Pre-Inca Ishma culture (1000-1470 CE) imported live macaw parrots from Amazon across Andes hundreds of kilometers away — verify feasibility and archaeological evidence",
+        "Parrot genetic diversity in Ishma feathers similar to wild populations, suggesting no captive breeding — verify genetic analysis methodology"
+      ],
+      "policy_relevance": [
+        "Potential applications for developing new medicinal compounds through bioengineering of natural biosynthetic pathways",
+        "Battery technology advances positioned as climate adaptation strategy relevant to electric vehicle policy and climate resilience planning",
+        "Research demonstrating long-distance pre-Incan trade networks may inform indigenous history and cultural heritage policy discussions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary"
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "An Assessment of Native Seed Needs and the Capacity for Their Supply: Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/26618/an-assessment-of-native-seed-needs-and-the-capacity-for-their-supply"
+        },
+        {
+          "title": "An Assessment of the Need for Native Seeds and the Capacity for Their Supply: Interim Report",
+          "url": "https://nap.nationalacademies.org/catalog/25859/an-assessment-of-the-need-for-native-seeds-and-the-capacity-for-their-supply"
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education: Supporting the Whole Student",
+          "url": "https://nap.nationalacademies.org/catalog/26015/mental-health-substance-use-and-wellbeing-in-higher-education-supporting"
+        },
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification",
+          "url": "https://nap.nationalacademies.org/catalog/10872/dietary-reference-intakes-guiding-principles-for-nutrition-labeling-and-fortification"
+        },
+        {
+          "title": "Innovations in the Food System: Exploring the Future of Food: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25523/innovations-in-the-food-system-exploring-the-future-of-food"
+        },
+        {
+          "title": "Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned",
+          "url": "https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings"
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        },
+        {
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -491,6 +827,114 @@
         {
           "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
           "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Dark Universe Decoded with Katherine Freese",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-03-17T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "In this StarTalk episode, astrophysicist Katherine Freese discusses dark matter and dark energy research, including her innovative paleo detector concept that uses billion-year-old rocks to detect dark matter tracks. The conversation covers James Webb Space Telescope discoveries of unexpectedly early and bright galaxies, the potential existence of dark stars powered by dark matter, the mystery of dark energy and its possible time variation, and various approaches to detecting dark matter particles including WIMPs, axions, and primordial black holes.",
+      "science_topics": [
+        "Dark matter detection methods (xenon detectors, paleo detectors using olivine crystals)",
+        "Dark stars (ordinary matter powered by dark matter accretion)",
+        "Dark energy and cosmological constant",
+        "James Webb Space Telescope observations of early universe galaxies",
+        "Weakly Interacting Massive Particles (WIMPs) as dark matter candidates",
+        "Axions as dark matter candidates",
+        "Primordial black holes as dark matter candidates",
+        "Cosmic Microwave Background (CMB) and early universe physics",
+        "DESI (Dark Energy Spectroscopic Instrument) experiment",
+        "Gravitational lensing and dark matter detection",
+        "Neutrino detection and supernova studies",
+        "Redshift measurements and Hubble expansion",
+        "String theory and extra dimensions (branes)",
+        "Casimir effect and vacuum energy",
+        "Galaxy formation and dark matter halos"
+      ],
+      "claims_to_note": [
+        "Dark stars could explain supermassive black holes in the early universe, blue monsters, and little red dots observed by JWST - this is speculative but increasingly supported by observations",
+        "Paleo detectors using olivine crystals from meteorites can detect dark matter tracks accumulated over billion years - this is a novel theoretical proposal transitioning to experimental reality",
+        "DESI experiment claims dark energy is decreasing over time, but Freese and collaborator Yun Wang's reanalysis using simpler methodology does not find strong evidence for this effect - presents conflicting interpretations of same data",
+        "The vacuum energy calculation differs from measured dark energy by 10^120 in the exponent - described as one of the deepest unsolved problems in physics",
+        "Dark matter and dark energy are completely different phenomena, not variants of the same thing - important conceptual clarification",
+        "Xenon experiments have bought the entire world supply of xenon - stated as factual claim about market impact",
+        "Cosmic rays are million times more abundant than dark matter particles at Earth's surface - claim about relative abundances",
+        "Paleo detector proposal from 2018 has become a major experimental effort - tracks development of theoretical idea into research program"
+      ],
+      "policy_relevance": [
+        "Swedish government $15 million grant over 10 years to Stockholm University for cosmoparticle theory research (ending soon)",
+        "Large Hadron Collider (CERN) used for dark matter particle searches",
+        "James Webb Space Telescope observations informing dark matter and dark energy research",
+        "Ice Cube detector at South Pole for neutrino/dark matter studies",
+        "University of Texas at Austin Weinberg Institute for Theoretical Physics named after Nobel laureate Steven Weinberg",
+        "International collaboration on dark matter detection experiments (xenon detectors in Italy and elsewhere)",
+        "DESI (Dark Energy Spectroscopic Instrument) as major federally-funded cosmology survey"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding"
+        },
+        {
+          "title": "Guidebooks for Post-Award Contract Administration for Highway Projects Delivered Using Alternative Contracting Methods, Volume 2: Construction Manager–General Contractor Delivery",
+          "url": "https://nap.nationalacademies.org/catalog/25829/guidebooks-for-post-award-contract-administration-for-highway-projects-delivered-using-alternative-contracting-methods-volume-2-construction-manager-general-contractor-delivery"
+        },
+        {
+          "title": "New Worlds, New Horizons: A Midterm Assessment",
+          "url": "https://nap.nationalacademies.org/catalog/23560/new-worlds-new-horizons-a-midterm-assessment"
+        },
+        {
+          "title": "Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches"
+        },
+        {
+          "title": "Biodiversity at Risk: Today's Choices Matter",
+          "url": "https://nap.nationalacademies.org/catalog/26384/biodiversity-at-risk-todays-choices-matter"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Reflections on a Tool of Observation: Artwork Inspired by the James Webb Space Telescope by Tim Makepeace",
+          "url": "https://nap.nationalacademies.org/catalog/26824/reflections-on-a-tool-of-observation-artwork-inspired-by-the"
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches"
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
         }
       ]
     },
