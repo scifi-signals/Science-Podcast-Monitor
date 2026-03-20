@@ -1,7 +1,402 @@
 {
-  "updated": "2026-03-19T11:38:15.169302",
-  "episode_count": 100,
+  "updated": "2026-03-20T11:54:17.127982",
+  "episode_count": 105,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "‘Project Hail Mary’ brings a new kind of alien to the big screen",
+      "host": "Ira Flatow",
+      "published": "2026-03-20T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Science Friday discusses the film adaptation of Andy Weir's 'Project Hail Mary,' exploring the scientific concepts behind the story's alien life forms. Author Andy Weir and astrobiologist Mike Wong examine the creative development of the astrophage (sun-dimming microbes) and Rocky (an intelligent alien from planet Arid), discussing how speculative biology, evolutionary constraints, and alien morphology were incorporated into both the novel and film. The conversation addresses how the story portrays unconventional life forms and the trade-offs between scientific accuracy and narrative storytelling in hard science fiction.",
+      "science_topics": [
+        "Extremophile microbial life on stellar surfaces (astrophage)",
+        "Non-water-based and non-carbon-based life forms",
+        "Speculative evolution and alien morphology (Iridian pentasymmetrical body plans)",
+        "Mass-energy conversion in biological systems",
+        "Astrobiology and the search for extraterrestrial life",
+        "Evolutionary path dependency and genetic diversity",
+        "Biosynthesis of oxygen and carbon dioxide exchange systems in alien organisms",
+        "Relativity and time dilation in space travel",
+        "Comparative planetary habitability and environmental constraints on evolution"
+      ],
+      "claims_to_note": [
+        "Life not based on water or carbon is described as a 'commonly held theory by many astrobiologists' - Weir notes he initially portrayed this as radical but it is actually mainstream in the field",
+        "Claim that intelligence and civilization arose on a planet with completely different atmospheric composition and gravity than Earth (Arid), supporting convergent evolution of intelligence",
+        "Assertion that any alien life would be 'almost certainly not compatible' with Earth life and Earth organisms due to evolutionary divergence - presented as reasonable inference but speculative"
+      ],
+      "policy_relevance": [
+        "Discussion of astrobiology as a legitimate scientific field and funding area (Mike Wong directs a summer internship program in astrobiology at Carnegie Institution for Science)",
+        "Mention of how public perception influences support for scientific fields: Wong notes astrobiology faces skepticism with questions like 'is that a real science?'"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Science and Applications of Microbial Genomics: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18261/the-science-and-applications-of-microbial-genomics-workshop-summary"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Frontiers in Thermal Transport and Energy Conversion: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25549/frontiers-in-thermal-transport-and-energy-conversion-proceedings-of-a"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science"
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "How did these flowers evolve to survive a megadrought?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-20T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Shortwave episode features three science stories: scarlet monkey flowers in California and Oregon that rapidly evolved drought-resistant traits by reducing stomatal opening over a decade-long study; dust-bathing birds that use vibration at 4-5 Hz per second to remove parasitic mites from their feathers through a sandblasting mechanism; and bull sharks in Fiji that demonstrate social preferences and form stable associations with specific individuals, with middle-aged sharks occupying central roles in social networks.",
+      "science_topics": [
+        "Rapid evolution in Scarlet monkey flower (Mimulus cardinalis) populations",
+        "Plant stomatal adaptation to drought stress",
+        "Dust-bathing behavior mechanics in birds (chickens, ostriches, songbirds)",
+        "Feather mite parasitism and parasite removal mechanisms",
+        "Vibration frequency in animal grooming and water removal",
+        "Bull shark (Carcharhinus leucas) social behavior and network analysis",
+        "Animal behavioral recognition and preference studies"
+      ],
+      "claims_to_note": [
+        "Scarlet monkey flowers can die within days without water - claims survival through stomatal adaptation reducing water loss",
+        "Three wild populations showed rapid genetic changes enabling drought survival over one decade",
+        "Dust-bathing occurs at 4-5 vibrations per second in chickens, matching the frequency that removes mites",
+        "Dust-bathing removes parasites (feather mites) that can cause itching, scabbing, and anemia in birds",
+        "Bull sharks in the study showed individual preferences for specific social partners over 6-year observation period",
+        "Middle-aged bull sharks occupied more central positions in social networks than younger or older sharks"
+      ],
+      "policy_relevance": [
+        "Long-term ecological monitoring and research funding implications for multi-decade studies on species adaptation",
+        "Relevance to climate change adaptation in plant populations and conservation planning under drought conditions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "In the Light of Evolution: Volume I: Adaptation and Complex Design",
+          "url": "https://nap.nationalacademies.org/catalog/11790/in-the-light-of-evolution-volume-i-adaptation-and-complex"
+        },
+        {
+          "title": "Transportation Resilience: Adaptation to Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/24648/transportation-resilience-adaptation-to-climate-change"
+        },
+        {
+          "title": "An Assessment of Native Seed Needs and the Capacity for Their Supply: Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/26618/an-assessment-of-native-seed-needs-and-the-capacity-for-their-supply"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Our Burning Questions – Simulation Debate",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-03-20T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Neil deGrasse Tyson and his StarTalk team answer 'burning questions' from producers and staff covering diverse topics: the weight of Earth and trucks, Google's quantum computing capabilities and multiverse implications, AI consciousness versus biological substrates, education reform, and personal reflections on religion and death. The episode explores fundamental questions about physics, computation, consciousness, and how society should prepare future generations, with Tyson emphasizing the importance of teaching critical thinking over rote knowledge and maintaining curiosity throughout life.",
+      "science_topics": [
+        "Gravitational physics and weightlessness in orbital mechanics",
+        "Quantum computing computational capabilities",
+        "Multiverse theory and simulation hypothesis",
+        "Turing test and machine consciousness",
+        "Cosmic rays and high-energy physics",
+        "Neural computation and artificial intelligence",
+        "Astrophysics and stellar nucleosynthesis ('stardust')",
+        "Neuroscience and brain function in relation to consciousness and death",
+        "Genetic variation and human genetic diversity"
+      ],
+      "claims_to_note": [
+        "Google's quantum chip can complete computations in 5 minutes that would take modern supercomputers longer than the age of the universe - VERIFY: This references Google's quantum advantage claims; magnitude and specificity should be checked against peer-reviewed publications",
+        "Earth is weightless because it orbits the sun - ACCURATE: Gravitational orbits involve free-fall; phrasing is unconventional but scientifically defensible",
+        "Cosmic ray energy distribution shows a cutoff at high energies - VERIFY: The GZK cutoff does exist around 5×10^19 eV; discuss whether this supports simulation hypothesis interpretation",
+        "Human genetic variation capable of 10^30 possible genome combinations - VERIFY: Tyson cites this figure; should confirm against population genetics literature",
+        "Neurons in brain loss of function maps directly to loss of consciousness - ACCURATE: Supported by neuroscience consensus on consciousness and neural substrate dependence",
+        "Stephen Colbert characterized agnostics as 'atheists without balls' - ANECDOTAL: May be misremembered or taken out of context; requires verification",
+        "Whaling industry ceased primarily due to discovery of cheaper petroleum - PARTIALLY ACCURATE: Oil discovery was significant but legal protections and conservation movements also played major roles"
+      ],
+      "policy_relevance": [
+        "Education policy: Tyson advocates for teaching critical thinking over content memorization; recommends lower student-teacher ratios (15:1 vs. 32:1) to enable oral exams",
+        "Education policy: Discussion of calculator and AI tool adoption in classrooms; recommendation against using chatbots for homework substitution versus learning augmentation",
+        "Civil rights policy: Historical reference to lunch counter integration at F.W. Woolworth as example of behavioral change driven by economic incentives rather than moral argument",
+        "Environmental policy: Whale conservation history cited as example of policy success through economic alternatives (petroleum discovery) rather than moral persuasion",
+        "Technology policy: Implicit discussion of AI regulation, safety guardrails, and ethics in AI development",
+        "Calendar/historical dating policy: Tyson defends continued use of AD/BC notation against CE/BCE replacement as example of not erasing historical context",
+        "Media funding: Discussion of PBS vs. Fox vs. National Geographic funding and control over documentary content (Cosmos example)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": "https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects"
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25499/domestic-manufacturing-capabilities-for-critical-dod-applications-emerging-needs-in"
+        },
+        {
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation"
+        },
+        {
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of"
+        },
+        {
+          "title": "Practices for Operational Traffic Simulation Models",
+          "url": "https://nap.nationalacademies.org/catalog/29076/practices-for-operational-traffic-simulation-models"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "Rethinking the peopling of the Americas, and the best ways to get groundwater back",
+      "host": "Sarah Crespi",
+      "published": "2026-03-19T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode covers two major scientific topics: new archaeological dating of Chile's Monte Verde site suggesting human occupation is 6,000-10,000 years younger than previously established (8,200-4,200 years ago rather than 14,500 years ago), which challenges pre-Clovis settlement theories and reignites long-standing debates about when humans first arrived in the Americas; and a comprehensive review of successful groundwater recovery strategies globally, examining how 67 cases achieved aquifer recharge through alternative water sources, policy interventions, and artificial recharge methods.",
+      "science_topics": [
+        "Archaeological dating techniques: radiocarbon dating and optically stimulated luminescence (OSL) dating",
+        "Stratigraphy and geomorphology of river valley landscapes",
+        "Human migration and peopling of the Americas: pre-Clovis vs. Clovis-first hypotheses",
+        "Coastal migration theory for human settlement in the Americas",
+        "Population genetics and demographic estimation from ancient DNA",
+        "Groundwater depletion and aquifer recharge mechanisms",
+        "Land subsidence from groundwater extraction",
+        "Managed aquifer recharge techniques: leaky lakes and direct well injection",
+        "Soil salinization from waterlogging",
+        "Static electricity and surface charge transfer in materials",
+        "Acoustic preferences shared between humans and non-human animals"
+      ],
+      "claims_to_note": [
+        "New dating of Monte Verde suggests human occupation between 8,200-4,200 years ago, approximately 6,000-10,000 years younger than the previously accepted 14,500-year date",
+        "OSL dating of quartz grains can determine when they were last exposed to sunlight",
+        "A volcanic eruption approximately 11,000 years ago left ash deposits in the Monte Verde region",
+        "A river formation event approximately 8,600 years ago may have downcut and repositioned older wood deposits to appear more recent",
+        "Genetic evidence from Native American populations suggests population expansion around 16,000 years ago consistent with pre-Clovis peopling",
+        "Groundwater provides approximately 40% of water used in irrigated agriculture globally",
+        "Approximately half of humanity relies on groundwater for drinking water at some point annually",
+        "Global groundwater levels are declining in more locations than they are recovering",
+        "Land subsidence from groundwater depletion is largely irreversible even after aquifer recovery",
+        "Las Vegas increased total water use while decreasing groundwater pumping through diversions from Lake Mead"
+      ],
+      "policy_relevance": [
+        "Federal and international debate over human settlement chronology of the Americas, affecting interpretations of indigenous history and cultural narratives",
+        "Bangkok's groundwater fee implementation (late 1970s-early 1980s) with gradual increases to incentivize alternative water sources",
+        "Taiwan's prohibition on groundwater pumping in Taipei",
+        "Saudi Arabia's ban on alfalfa farming to reduce irrigated agriculture and groundwater withdrawals",
+        "California's infrastructure projects to move water from humid to arid regions to address groundwater depletion",
+        "Beijing Plain and North China Plain's 1,000+ kilometer canal systems for water diversion from south to north",
+        "Albuquerque's water diversion from Colorado River tributaries affecting broader Colorado River Basin water availability",
+        "Las Vegas's management of groundwater through diversions from Lake Mead and Hoover Dam reservoir",
+        "Infrastructure requirements for implementing alternative water supplies in groundwater-dependent regions",
+        "Climate variability considerations in water resource planning and groundwater as drought reserves"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Airport Parking Reservation Systems and Techniques",
+          "url": "https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques"
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Health Literacy and Older Adults: Reshaping the Landscape: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25188/health-literacy-and-older-adults-reshaping-the-landscape-proceedings-of"
+        },
+        {
+          "title": "Commercial Motor Vehicle Driver Fatigue, Long-Term Health, and Highway Safety: Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/21921/commercial-motor-vehicle-driver-fatigue-long-term-health-and-highway-safety"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Understanding the Connections Between Coastal Waters and Ocean Ecosystem Services and Human Health: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18552/understanding-the-connections-between-coastal-waters-and-ocean-ecosystem-services-and-human-health"
+        },
+        {
+          "title": "Reducing Coastal Risk on the East and Gulf Coasts",
+          "url": "https://nap.nationalacademies.org/catalog/18811/reducing-coastal-risk-on-the-east-and-gulf-coasts"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -246,6 +641,34 @@
           "url": "https://nap.nationalacademies.org/catalog/24670/accomplishments-of-the-us-global-change-research-program"
         }
       ]
+    },
+    {
+      "podcast_id": "science-of-politics",
+      "podcast_name": "The Science of Politics",
+      "episode_title": "The intellectual support for Trumpism",
+      "host": "Matt Grossmann",
+      "published": "2026-03-18T17:23:28",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Laura Field discusses her book 'Furious Minds,' which examines the intellectual infrastructure supporting Trumpism from 2016-2024. She traces how political theorists from institutions like the Claremont Institute, Hillsdale College, and the National Conservatism movement provided ideological frameworks for Trump's movement, including critiques of liberal democracy, promotion of nationalism, and educational interventions. Field argues these intellectuals consolidated significant power within Republican institutions like Heritage Foundation and Project 2025, though their ideas remain somewhat disconnected from Trump's own priorities and face internal tensions with tech-right factions.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Claims about 'coercive conformity' in academia and alleged liberal dominance of cultural institutions—this is a political assertion rather than empirical claim about academia",
+        "Discussion of critical race theory and pedagogical approaches in education—policy-relevant but not science-based claims",
+        "References to the '1619 Project' as containing 'unpatriotic' perspectives on American history—this is a contested political claim, not a scientific one"
+      ],
+      "policy_relevance": [
+        "Project 2025 and staffing of second Trump administration by intellectual MAGA movement figures",
+        "1776 Commission report on 'patriotic education' and curriculum development in federal education policy",
+        "Heritage Foundation's adoption of National Conservatism worldview and policy influence",
+        "Hillsdale College's charter school network and 1776 curriculum implementation across states",
+        "Economic nationalism, tariffs, and departure from free-trade policy positions",
+        "Administrative state reform proposals and use of executive power",
+        "Education policy debates including K-12 curricula, higher education institutional leadership, and federal funding",
+        "Supreme Court influence through Claremont Institute scholarship",
+        "J.D. Vance as vice president and connection between tech sector and MAGA intellectual movement"
+      ],
+      "nasem_publications": []
     },
     {
       "podcast_id": "nature-podcast",

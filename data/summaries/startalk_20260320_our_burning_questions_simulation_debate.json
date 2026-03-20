@@ -1,0 +1,640 @@
+{
+  "podcast_id": "startalk",
+  "podcast_name": "StarTalk Radio",
+  "episode_title": "Our Burning Questions – Simulation Debate",
+  "host": "Neil deGrasse Tyson",
+  "published": "2026-03-20T05:00:00",
+  "episode_url": "https://feeds.simplecast.com/siriusxm.com",
+  "duration_minutes": 63.833333333333336,
+  "influence_tier": "high",
+  "category": "science_communication",
+  "summary": "Neil deGrasse Tyson and his StarTalk team answer 'burning questions' from producers and staff covering diverse topics: the weight of Earth and trucks, Google's quantum computing capabilities and multiverse implications, AI consciousness versus biological substrates, education reform, and personal reflections on religion and death. The episode explores fundamental questions about physics, computation, consciousness, and how society should prepare future generations, with Tyson emphasizing the importance of teaching critical thinking over rote knowledge and maintaining curiosity throughout life.",
+  "science_topics": [
+    "Gravitational physics and weightlessness in orbital mechanics",
+    "Quantum computing computational capabilities",
+    "Multiverse theory and simulation hypothesis",
+    "Turing test and machine consciousness",
+    "Cosmic rays and high-energy physics",
+    "Neural computation and artificial intelligence",
+    "Astrophysics and stellar nucleosynthesis ('stardust')",
+    "Neuroscience and brain function in relation to consciousness and death",
+    "Genetic variation and human genetic diversity"
+  ],
+  "claims_to_note": [
+    "Google's quantum chip can complete computations in 5 minutes that would take modern supercomputers longer than the age of the universe - VERIFY: This references Google's quantum advantage claims; magnitude and specificity should be checked against peer-reviewed publications",
+    "Earth is weightless because it orbits the sun - ACCURATE: Gravitational orbits involve free-fall; phrasing is unconventional but scientifically defensible",
+    "Cosmic ray energy distribution shows a cutoff at high energies - VERIFY: The GZK cutoff does exist around 5×10^19 eV; discuss whether this supports simulation hypothesis interpretation",
+    "Human genetic variation capable of 10^30 possible genome combinations - VERIFY: Tyson cites this figure; should confirm against population genetics literature",
+    "Neurons in brain loss of function maps directly to loss of consciousness - ACCURATE: Supported by neuroscience consensus on consciousness and neural substrate dependence",
+    "Stephen Colbert characterized agnostics as 'atheists without balls' - ANECDOTAL: May be misremembered or taken out of context; requires verification",
+    "Whaling industry ceased primarily due to discovery of cheaper petroleum - PARTIALLY ACCURATE: Oil discovery was significant but legal protections and conservation movements also played major roles"
+  ],
+  "policy_relevance": [
+    "Education policy: Tyson advocates for teaching critical thinking over content memorization; recommends lower student-teacher ratios (15:1 vs. 32:1) to enable oral exams",
+    "Education policy: Discussion of calculator and AI tool adoption in classrooms; recommendation against using chatbots for homework substitution versus learning augmentation",
+    "Civil rights policy: Historical reference to lunch counter integration at F.W. Woolworth as example of behavioral change driven by economic incentives rather than moral argument",
+    "Environmental policy: Whale conservation history cited as example of policy success through economic alternatives (petroleum discovery) rather than moral persuasion",
+    "Technology policy: Implicit discussion of AI regulation, safety guardrails, and ethics in AI development",
+    "Calendar/historical dating policy: Tyson defends continued use of AD/BC notation against CE/BCE replacement as example of not erasing historical context",
+    "Media funding: Discussion of PBS vs. Fox vs. National Geographic funding and control over documentary content (Cosmos example)"
+  ],
+  "key_quotes": [
+    "Earth is weightless... the same way astronauts in the space station who are orbiting Earth are weightless. Earth orbiting the sun is weightless because the asteroids are falling around the earth we are falling around the sun.",
+    "We need to train people not what to know so much as how to think. Yes. How to see information and analyze it... because real solutions in this world come less from what you know and more than from what you can figure out when confronted with a problem that is yet to have been solved.",
+    "We are made, not figuratively, but literally of stardust. We are of the stars. We are the same ingredients the stars are made of... The universe is alive within us. And that's a gift of 20th century astrophysics to civilization that borders on the spiritual.",
+    "Being alive is the time to celebrate being alive, every waking moment. Along the way, why not strive to make a world a better place today than yesterday, simply for the privilege of having lived in it?"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Gravitational physics and weightlessness in orbital mechanics",
+      "publications": [
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Quantum computing computational capabilities",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": "https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "quantum devices benchmarks associated",
+            "functional quantum computer capable",
+            "small quantum particles",
+            "however significant technical advances",
+            "building small scale devices",
+            "quantum computing",
+            "addressing real world problems",
+            "quantum mechanics",
+            "quantum systems",
+            "improve computational modeling",
+            "prospects",
+            "progress"
+          ],
+          "description": "Quantum mechanics, the subfield of physics that describes the behavior of very small (quantum) particles, provides the basis for a new paradigm of computing. First proposed in the 1980s as a way to improve computational modeling of quantum systems, the field of quantum computing has recently garnered significant attention due to progress in building small-scale devices. However, significant technical advances will be required before a large-scale, practical quantum computer can be achieved. Quantum Computing: Progress and Prospects provides an introduction to the field, including the unique characteristics and constraints of the technology, and assesses the feasibility and implications of creating a functional quantum computer capable of addressing real-world problems. This report considers hardware and software requirements, quantum algorithms, drivers of advances in quantum computing and quantum devices, benchmarks associated with relevant use cases, the time and resources required, ",
+          "year": 2019,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Intelligence Community Studies Board"
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25499",
+          "title": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25499/domestic-manufacturing-capabilities-for-critical-dod-applications-emerging-needs-in",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "quantum enabled systems present",
+            "quantum computing communications",
+            "quantum sensing opportunities",
+            "materials manufacturing capabilities",
+            "assured domestic sources",
+            "networks opportunities",
+            "important developments",
+            "sensing applications",
+            "participants explored",
+            "recent advancements",
+            "domestic manufacturing capabilities",
+            "quantum enabled systems",
+            "critical dod applications",
+            "emerging needs"
+          ],
+          "description": "Recent advancements in quantum-enabled systems present a variety of new opportunities and challenges. These technologies are important developments for a variety of computing, communications, and sensing applications. However, many materials and components relevant to quantum-enabled systems exist outside of the United States, and it is important to promote the development of assured domestic sources of materials, manufacturing capabilities, and expertise. The National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop to explore implications and concerns related to the application of quantum-enabled systems in the United States. This workshop focused on quantum-enabled computing systems, quantum communications and networks, and quantum sensing opportunities. Participants explored the path to quantum computing, communications, and networks, opportunities for collaboration, as well as key gaps, supply chain concerns, and security issues. This publication summariz",
+          "year": 2019,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "National Materials and Manufacturing Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Multiverse theory and simulation hypothesis",
+      "publications": [
+        {
+          "id": "12816",
+          "title": "The Rise of Games and High-Performance Computing for Modeling and Simulation",
+          "url": "https://nap.nationalacademies.org/catalog/12816/the-rise-of-games-and-high-performance-computing-for-modeling-and-simulation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "identifies feasible applications",
+            "critical defense capabilities",
+            "book recommends priorities",
+            "modeling simulation",
+            "technology applications",
+            "intelligence community",
+            "associated vulnerabilities",
+            "appropriate departments",
+            "potential impacts",
+            "significant indicators",
+            "high performance computing",
+            "simulation",
+            "modeling",
+            "games",
+            "rise"
+          ],
+          "description": "The technical and cultural boundaries between modeling, simulation, and games are increasingly blurring, providing broader access to capabilities in modeling and simulation and further credibility to game-based applications. The purpose of this study is to provide a technical assessment of Modeling, Simulation, and Games (MS&G) research and development worldwide and to identify future applications of this technology and its potential impacts on government and society. Further, this study identifies feasible applications of gaming and simulation for military systems; associated vulnerabilities of, risks to, and impacts on critical defense capabilities; and other significant indicators and warnings that can help prevent or mitigate surprises related to technology applications by those with hostile intent. Finally, this book recommends priorities for future action by appropriate departments of the intelligence community, the Department of Defense research community, and other government e",
+          "year": 2010,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Standing Committee on Technology Insightâ¬\"Gauge, Evaluate, and Review"
+        },
+        {
+          "id": "25480",
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "presentations highlighted urban sustainability",
+            "discussed promising urban sustainability",
+            "sustainable urban communities",
+            "emerging interdisciplinary network",
+            "data science needs",
+            "addressed common challenges",
+            "big data modeling",
+            "community sustainability",
+            "environmental systems",
+            "computer science",
+            "enhancing urban sustainability",
+            "data modeling",
+            "simulation"
+          ],
+          "description": "On January 30-31, 2019 the Board on Mathematical Sciences and Analytics, in collaboration with the Board on Energy and Environmental Systems and the Computer Science and Telecommunications Board, convened a workshop in Washington, D.C. to explore the frontiers of mathematics and data science needs for sustainable urban communities. The workshop strengthened the emerging interdisciplinary network of practitioners, business leaders, government officials, nonprofit stakeholders, academics, and policy makers using data, modeling, and simulation for urban and community sustainability, and addressed common challenges that the community faces. Presentations highlighted urban sustainability research efforts and programs under way, including research into air quality, water management, waste disposal, and social equity and discussed promising urban sustainability research questions that improved use of big data, modeling, and simulation can help address. This publication summarizes the presenta",
+          "year": 2019,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "29076",
+          "title": "Practices for Operational Traffic Simulation Models",
+          "url": "https://nap.nationalacademies.org/catalog/29076/practices-for-operational-traffic-simulation-models",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "operational traffic simulation models"
+          ],
+          "year": 2025
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Turing test and machine consciousness",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "27880",
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "gained significant momentum across",
+            "implementing machine learning",
+            "data generation advancements",
+            "assist state dots",
+            "decision making tool",
+            "assessing costs ben",
+            "transportation dots",
+            "transportation agencies",
+            "state departments",
+            "deep learning",
+            "transportation",
+            "guide"
+          ],
+          "description": "Within the last two decades, Machine Learning (ML), the main subfield of Artificial Intelligence (AI), has gained significant momentum across all sectors, driven by a confluence of factors: exponential growth in data generation, advancements in data storage and computing, and innovations in algorithmic techniques. Most notably and recently, the proliferation of deep learning (DL) methods and generative AI tools (GATs) such as ChatGPT are revolutionizing the business landscape. In an era where data is pouring in from new sources, the pace of data growth is exceeding the pace at which state and local Departments of Transportation (DOTs) are able to use it. NCHRP Research Report 1122: Implementing Machine Learning at State Departments of Transportation: A Guide, from TRB's National Cooperative Highway Research Program, serves as both an education and a decision-making tool to assist state DOTs and other transportation agencies in identifying promising ML applications; assessing costs, ben",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cosmic rays and high-energy physics",
+      "publications": [
+        {
+          "id": "12091",
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "affordable energy supplies",
+            "impacts while providing sufficient",
+            "current energy prices",
+            "energy rises faster",
+            "important indirect impacts",
+            "energy production",
+            "energy portfolio",
+            "natural resources degradation",
+            "energy futur",
+            "geopolitically unstable regions",
+            "transformation",
+            "technology",
+            "america",
+            "energy"
+          ],
+          "description": "Energy production and use touch our lives in countless ways. We are reminded of the cost of energy every time we fill up at the gas pump, pay an electricity bill, or purchase an airline ticket. Energy use also has important indirect impacts, not all of which are reflected in current energy prices: depletion of natural resources, degradation of the environment, and threats to national security arising from a growing dependence on geopolitically unstable regions for some of our energy supplies. These indirect impacts could increase in the future if the demand for energy rises faster than available energy supplies. Our nation's challenge is to develop an energy portfolio that reduces these impacts while providing sufficient and affordable energy supplies to sustain our future economic prosperity. The United States has enormous economic and intellectual resources that can be brought to bear on these challenges through a sustained national effort in the decades ahead. America's Energy Futur",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on America's Energy Future"
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        },
+        {
+          "id": "25932",
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "keywords": [
+            "energy",
+            "decarbonization",
+            "renewable",
+            "clean energy",
+            "carbon",
+            "electricity"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "Exploring Opportunities for Energy Parks",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-P-723",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 10009,
+  "saved_at": "2026-03-20T11:53:42.828388"
+}
