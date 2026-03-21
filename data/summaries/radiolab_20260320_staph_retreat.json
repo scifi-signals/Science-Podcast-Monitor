@@ -1,0 +1,572 @@
+{
+  "podcast_id": "radiolab",
+  "podcast_name": "Radiolab",
+  "episode_title": "Staph Retreat",
+  "host": "Lulu Miller, Latif Nasser",
+  "published": "2026-03-20T14:00:00",
+  "episode_url": "https://radiolab.org/podcast/45573f6d87848f78d50c5efd",
+  "duration_minutes": 31.566666666666666,
+  "influence_tier": "high",
+  "category": "science_storytelling",
+  "summary": "This Radiolab episode explores the history of antibiotic resistance and the potential of ancient remedies as solutions. It traces the discovery of penicillin in 1928 and the subsequent arms race between antibiotics and resistant bacteria, including MRSA. The narrative then pivots to describe how two researchers—a microbiologist and a historian—recreated a 1,100-year-old Anglo-Saxon eye salve from Bald's Leech Book that unexpectedly proved highly effective against MRSA in laboratory tests, killing up to 99.99999% of bacteria, suggesting ancient medical knowledge may offer new avenues for combating modern superbugs.",
+  "science_topics": [
+    "Staphylococcus aureus (staph) bacterial infections",
+    "MRSA (methicillin-resistant Staphylococcus aureus) superbugs",
+    "Antibiotic resistance mechanisms and evolution",
+    "Penicillin discovery and pharmacology",
+    "Methicillin and successive antibiotic classes (streptomycin, clindamycin, ampicillin, carbenicillin, fluoroquinolone, linezolid)",
+    "Bacterial resistance decline over time without selective pressure",
+    "In vitro wound infection models using collagen plugs",
+    "Antimicrobial properties of garlic and onion compounds (allium species)",
+    "Bovine bile (ox gall) as antimicrobial agent",
+    "Phase one human safety trials for ancient medicinal compounds"
+  ],
+  "claims_to_note": [
+    "Penicillin-resistant staph was documented in 1944, virtually simultaneously with Fleming's Time magazine cover",
+    "Methicillin showed resistance within 11 months of introduction in 1960",
+    "Drug development costs approximately 10 years and 1 billion dollars to reach market",
+    "Antibiotic approvals fell dramatically after 2000 due to poor return on investment",
+    "An estimated 2,000 people die annually from community-based MRSA (per government data cited)",
+    "Bald's eye salve killed 99.99999% of staph bacteria in laboratory collagen wound models",
+    "The same formula killed 90% of MRSA bacteria when tested by collaborators",
+    "Bacterial resistance to antimicrobials can decline when drugs are removed from circulation for extended periods",
+    "Phase one safety trials for Bald's eye salve were completed successfully in 2022 on healthy humans"
+  ],
+  "policy_relevance": [
+    "CDC warnings and federal health alerts regarding multidrug-resistant bacteria and superbugs",
+    "Pharmaceutical industry incentive structures and lack of profitability for antibiotic development",
+    "Drug approval and clinical trial requirements (Phase one, subsequent clinical trial phases implied)",
+    "Intellectual property and patent ownership questions regarding ancient remedies and modern drug development",
+    "Regulatory pathway for translating historical remedies into approved pharmaceuticals"
+  ],
+  "key_quotes": [
+    "The era of penicillin was over before it began. Almost before it began. Before it's even released to the general public.",
+    "What the f**k? [Response from Texas collaborator upon seeing MRSA killing efficacy of Bald's brew]",
+    "We need to learn the language of the doctors of that time. We need to kind of be a little bit less dismissive and learn a little bit more, you know, from them."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Staphylococcus aureus (staph) bacterial infections",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "21810",
+          "title": "Indo-U.S. Workshop on Challenges of Emerging Infections and Global Health Safety: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21810/indo-us-workshop-on-challenges-of-emerging-infections-and-global-health-safety",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "space",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "global health safety held",
+            "november encouraged scientists",
+            "emerging infections",
+            "examine global",
+            "existing infections",
+            "improve relations",
+            "identify opportunities",
+            "specific actions",
+            "build confidence",
+            "share experience",
+            "global health safety",
+            "challenges",
+            "indo"
+          ],
+          "description": "The United States and India have pledged to deepen the linkages between their people, their businesses, and their governments for the mutual benefit of both countries and for the promotion of global peace, stability, economic growth and prosperity. Both nations are now inclined to improve relations and cooperation, but the nations need specific actions that will yield progress and build confidence and momentum for further cooperation. The Indo-U.S. Workshop on Challenges of Emerging Infections and Global Health Safety, held in November 2014, encouraged scientists from both countries to examine global issues related to emerging and existing infections and global health safety, to share experience and approaches, and to identify opportunities for cooperation to improve practice and research in these areas. This report summarizes the presentations and discussions from the workshop.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on India-United States Cooperation on Challenges of Emerging Infections and Global Health "
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "MRSA (methicillin-resistant Staphylococcus aureus) superbugs",
+      "publications": [
+        {
+          "id": "25221",
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "north american tree species",
+            "american chestnut whitebark pine",
+            "native tree species",
+            "nonnative pest species",
+            "underlie trees resistance",
+            "north american forests",
+            "pest resistant traits",
+            "however challenges remain",
+            "expanded human mobility",
+            "help mitigate threats",
+            "forest health",
+            "considerations",
+            "biotechnology",
+            "possibilities"
+          ],
+          "description": "The American chestnut, whitebark pine, and several species of ash in the eastern United States are just a few of the North American tree species that have been functionally lost or are in jeopardy of being lost due to outbreaks of pathogens and insect pests. New pressures in this century are putting even more trees at risk. Expanded human mobility and global trade are providing pathways for the introduction of nonnative pests for which native tree species may lack resistance. At the same time, climate change is extending the geographic range of both native and nonnative pest species. Biotechnology has the potential to help mitigate threats to North American forests from insects and pathogens through the introduction of pest-resistant traits to forest trees. However, challenges remain: the genetic mechanisms that underlie trees' resistance to pests are poorly understood; the complexity of tree genomes makes incorporating genetic changes a slow and difficult task; and there is a lack of ",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        },
+        {
+          "id": "25358",
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "bridges",
+            "construction ibrc program created",
+            "congress provided state departments",
+            "highway bridge construction",
+            "corrosion resistant reinforcing bar",
+            "repair approximately bridges",
+            "innovative bridge",
+            "construction program",
+            "innovative materials",
+            "life cycle costs",
+            "congress directed",
+            "received funding",
+            "performance"
+          ],
+          "description": "\"TRB Special Report 330: Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program, examines the results of a federal program to promote innovation in highway bridge construction. The report provides recommendations to Congress on how the installed and life-cycle costs of bridges could be reduced through the use of innovative materials and technologies. The Innovative Bridge Research and Construction (IBRC) program, created by act of Congress, provided state departments of transportation with a total of $128.7 million in grants as incentives for use of innovative materials and technology to construct or repair approximately 400 bridges from 1999 to 2005. Materials used included fiber-reinforced polymer composites, high-performance concrete, high-performance steel, and corrosion resistant reinforcing bar. Projects also demonstrated accelerated bridge construction (ABC) techniques. Congress directed the U.S. Department of Transportation to",
+          "year": 2019,
+          "page_keywords": [
+            "Bridges"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Antibiotic resistance mechanisms and evolution",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "12692",
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "book leading evolutionary biologists",
+            "selection natural artificial",
+            "term artificial selection",
+            "darwin addressed during",
+            "series explores evolutionary",
+            "science historians reflect",
+            "sackler colloquium sponsored",
+            "particular biological topic",
+            "current scientific thought",
+            "three main categories",
+            "two centuries",
+            "volume iii",
+            "evolution",
+            "darwin",
+            "light"
+          ],
+          "description": "Two Centuries of Darwin is the outgrowth of an Arthur M. Sackler Colloquium, sponsored by the National Academy of Sciences on January 16-17, 2009. In the chapters of this book, leading evolutionary biologists and science historians reflect on and commemorate the Darwinian Revolution. They canvass modern research approaches and current scientific thought on each of the three main categories of selection (natural, artificial, and sexual) that Darwin addressed during his career. Although Darwin's legacy is associated primarily with the illumination of natural selection in The Origin, he also contemplated and wrote extensively about what we now term artificial selection and sexual selection. In a concluding section of this book, several science historians comment on Darwin's seminal contributions. Two Centuries of Darwin is the third book of the In the Light of Evolution series. Each installment in the series explores evolutionary perspectives on a particular biological topic that is scien",
+          "year": 2009,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "11876",
+          "title": "Science, Evolution, and Creationism",
+          "keywords": [
+            "evolution",
+            "evolutionary",
+            "biology",
+            "science",
+            "origins",
+            "natural selection"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Penicillin discovery and pharmacology",
+      "publications": [
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27457",
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "scientific discovery seem endless",
+            "everyday conversational technologies capturing",
+            "performed without human oversight",
+            "reliable discovery whether",
+            "scientific investigation",
+            "scientific community",
+            "computational technology",
+            "created opportunities",
+            "computational theory",
+            "artificial intelligence",
+            "scientific discovery"
+          ],
+          "description": "Over the past century, artificial intelligence (AI) has evolved from computational theory to everyday conversational technologies, capturing the attention and interest of the public and the media. It has also caught the attention of the scientific community, where it has provided a new tool to support inquiry and exploration. While AI in the context of scientific investigation has existed for decades, advances in computational technology and sensing in the physical world have created opportunities to integrate AI into science in unexpected ways, with capabilities that are rapidly accelerating. As a result, AI has been leveraged by an expanding collection of disciplines in the physical and biological sciences, as well as engineering domains. While the opportunities for AI in scientific discovery seem endless, there are numerous questions about what makes for trustworthy and reliable discovery, whether such investigation should be performed without human oversight or intervention, and ho",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Methicillin and successive antibiotic classes (streptomycin, clindamycin, ampicillin, carbenicillin, fluoroquinolone, linezolid)",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "23548",
+          "title": "Seeing Students Learn Science: Integrating Assessment and Instruction in the Classroom",
+          "url": "https://nap.nationalacademies.org/catalog/23548/seeing-students-learn-science-integrating-assessment-and-instruction-in-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Science educators in the United States are adapting to a new vision of how students learn science. Children are natural explorers and their observations and intuitions about the world around them are the foundation for science learning. Unfortunately, the way science has been taught in the United States has not always taken advantage of those attributes. Some students who successfully complete their Kâ€\"12 science classes have not really had the chance to \"do\" science for themselves in ways that harness their natural curiosity and understanding of the world around them. The introduction of the Next Generation Science Standards led many states, schools, and districts to change curricula, instruction, and professional development to align with the standards. Therefore existing assessmentsâ€\"whatever their purposeâ€\"cannot be used to measure the full range of activities and interactions happening in science classrooms that have adapted to these ideas because they were not designed to do s",
+          "year": 2017,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Testing and Assessment",
+          "keywords": [
+            "education",
+            "students learn science",
+            "science classrooms",
+            "science educators",
+            "change curricula instruction",
+            "science learning",
+            "therefore existing whatever",
+            "science classes",
+            "always taken advantage",
+            "way science",
+            "professional development",
+            "seeing students learn science",
+            "integrating",
+            "instruction",
+            "classroom"
+          ]
+        },
+        {
+          "id": "13393",
+          "title": "Dam and Levee Safety and Community Resilience: A Vision for Future Practice",
+          "url": "https://nap.nationalacademies.org/catalog/13393/dam-and-levee-safety-and-community-resilience-a-vision-for",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "levee safety professionals",
+            "increase community resilience",
+            "levee safety programs",
+            "understand risks shared needs",
+            "direct risk members",
+            "levee infrastructure",
+            "regional level priorities",
+            "events cause impacts",
+            "levee failures",
+            "consider community",
+            "community resilience",
+            "levee safety",
+            "vision",
+            "dam"
+          ],
+          "description": "Although advances in engineering can reduce the risk of dam and levee failure, some failures will still occur. Such events cause impacts on social and physical infrastructure that extend far beyond the flood zone. Broadening dam and levee safety programs to consider community- and regional-level priorities in decision making can help reduce the risk of, and increase community resilience to, potential dam and levee failures. Collaboration between dam and levee safety professionals at all levels, persons and property owners at direct risk, members of the wider economy, and the social and environmental networks in a community would allow all stakeholders to understand risks, shared needs, and opportunities, and make more informed decisions related to dam and levee infrastructure and community resilience. Dam and Levee Safety and Community Resilience: A Vision for Future Practice explains that fundamental shifts in safety culture will be necessary to integrate the concepts of resilience in",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 5752,
+  "saved_at": "2026-03-21T11:31:28.861991"
+}

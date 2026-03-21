@@ -1,0 +1,431 @@
+{
+  "podcast_id": "ezra-klein",
+  "podcast_name": "The Ezra Klein Show",
+  "episode_title": "Naomi Klein on Trumpism and Our Age of ‘Unlikely Bedfellows’",
+  "host": "Ezra Klein",
+  "published": "2026-03-20T09:00:00",
+  "episode_url": "https://www.nytimes.com/2026/03/20/opinion/ezra-klein-podcast-naomi-klein.html",
+  "duration_minutes": 80.06666666666666,
+  "influence_tier": "high",
+  "category": "longform_interview",
+  "summary": "Naomi Klein discusses her book 'Doppelgänger' and the political realignment she observed during the pandemic, where unlikely coalitions formed between wellness influencers, far-right figures, and tech oligarchs. Klein traces how public shaming and institutional rejection created pathways for figures like Naomi Wolf to migrate into the MAGA ecosystem, and examines how this 'mirror world' has now become dominant in American politics. The conversation explores the contradictions within Trumpism, the role of conspiracy theories in distracting from real conspiracies (like Epstein), and potential left-wing responses centered on economic populism, climate action, and 'neighborism.'",
+  "science_topics": [
+    "COVID-19 vaccine misinformation and vaccine passport conspiracy theories",
+    "Cloud seeding conspiracy claims",
+    "Vaccine shedding claims and fertility concerns",
+    "Climate change and carbon markets",
+    "AI model training and capabilities",
+    "Artificial intelligence and labor displacement",
+    "Data center electricity consumption and environmental impact",
+    "Environmental regulation and the Endangered Species Act (peregrine falcons and DDT)",
+    "Surveillance technology and facial recognition",
+    "Water scarcity and resource management"
+  ],
+  "claims_to_note": [
+    "Claim: Vaccinated people shed particulates that endanger unvaccinated people and cause infertility - Klein identifies this as medical misinformation traced to Naomi Wolf; no scientific evidence supports this claim",
+    "Claim: COVID vaccines are 'deadly and sterilizing injections' - Klein quotes this from conspiracy circles; contradicts scientific consensus on vaccine safety",
+    "Claim: Vaccine passport apps are identical to Chinese social credit systems - Klein identifies as conspiracy theory without basis",
+    "Claim: Cloud seeding emissions are blocking the sun - Klein cites this as conspiracy claim from Naomi Wolf",
+    "Claim about peregrine falcon extinction: Klein/RFK Jr. discuss DDT-caused extinction in 1963 and environmental recovery - this aligns with established environmental history",
+    "Claim: Data centers for AI require unsustainable water consumption in desert regions - Klein presents this as fact; worth verifying specifics on Arizona/Tucson water impacts",
+    "Claim: AI companies knowingly building duplicative data centers without proven markets - Klein presents this as acknowledged by industry figures; factual status varies by company"
+  ],
+  "policy_relevance": [
+    "Trump administration's deregulation of AI (unwinding state-level AI regulation authority)",
+    "ICE enforcement and immigration policy impacts on coalition members",
+    "Environmental Protection Agency and endangerment findings (mentioned in ad)",
+    "Medicare Advantage payment decisions and federal funding (mentioned in ad)",
+    "FDA/federal regulation of vaccines and treatments",
+    "Data privacy and surveillance integration between Trump administration and tech companies (Palantir, Grok)",
+    "Department of Defense AI procurement and constraints",
+    "State-level environmental regulation of data centers",
+    "Federal funding for AI research and development",
+    "Labor organizing and tech worker contracts (ICE, military contracts)",
+    "Free public transit as climate policy",
+    "Universal healthcare and expanded child tax credits"
+  ],
+  "key_quotes": [
+    "We really could be our own brands, right? So I think it's important to understand that there's a kind of a desperation in the fact that we have all embraced this. Because I think we all feel really attacked if we point out that it's why online everyone's constantly accusing each other of being performative, which I think is today's version of selling out.",
+    "The reason why people are being drawn to conspiracy culture is that we all feel that this world is rigged against us and power has concentrated and wealth has concentrated so much over the past half century. And the impunity that follows from that is so extreme.",
+    "I think what is emerging in real time is that there are profiles of us and AI is superpowering this. People are deciding to touch grass both because they like grass and also because they're becoming afraid of these devices that have flipped into very dangerous surveillance devices."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "COVID-19 vaccine misinformation and vaccine passport conspiracy theories",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cloud seeding conspiracy claims",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Vaccine shedding claims and fertility concerns",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "10101",
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "measles mumps rubella vaccine",
+            "immunization safety",
+            "autism"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Climate change and carbon markets",
+      "publications": [
+        {
+          "id": "18373",
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "keywords": [
+            "climate",
+            "climate change",
+            "environment",
+            "abrupt",
+            "warming",
+            "global"
+          ]
+        },
+        {
+          "id": "25733",
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "keywords": [
+            "climate",
+            "climate change",
+            "evidence",
+            "global warming",
+            "environment",
+            "carbon"
+          ]
+        },
+        {
+          "id": "21852",
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "extreme event attribution seeks",
+            "individual weather events couldn",
+            "human cause climate change",
+            "broad trends scientists cautioned",
+            "climate models simulate",
+            "intense weather events",
+            "relatively young science",
+            "frequent heavy rainfall",
+            "extreme events",
+            "extremely hot days",
+            "extreme weather events",
+            "climate change",
+            "attribution",
+            "context"
+          ],
+          "description": "As climate has warmed over recent years, a new pattern of more frequent and more intense weather events has unfolded across the globe. Climate models simulate such changes in extreme events, and some of the reasons for the changes are well understood. Warming increases the likelihood of extremely hot days and nights, favors increased atmospheric moisture that may result in more frequent heavy rainfall and snowfall, and leads to evaporation that can exacerbate droughts. Even with evidence of these broad trends, scientists cautioned in the past that individual weather events couldn't be attributed to climate change. Now, with advances in understanding the climate science behind extreme events and the science of extreme event attribution, such blanket statements may not be accurate. The relatively young science of extreme event attribution seeks to tease out the influence of human-cause climate change from other factors, such as natural sources of variability like El NiÃ±o, as contributor",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI model training and capabilities",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 14373,
+  "saved_at": "2026-03-21T11:31:28.863420"
+}

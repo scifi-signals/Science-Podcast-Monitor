@@ -1,7 +1,191 @@
 {
-  "updated": "2026-03-20T11:54:17.127982",
-  "episode_count": 105,
+  "updated": "2026-03-21T11:32:01.136091",
+  "episode_count": 109,
   "episodes": [
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing Chat: Are scientists funny? The evidence is in — and it's no joke",
+      "host": "Springer Nature",
+      "published": "2026-03-20T14:54:11",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature Briefing podcast episode covers two distinct science stories: research demonstrating a causal link between gut microbiome composition and cognitive aging in mice through the bacterium Parabacteroides goldsteinii, and a study analyzing humor attempts at academic biology conferences, finding that two-thirds of jokes fell flat. The microbiome research suggests potential therapeutic targets for age-related cognitive decline, while the humor study provides evidence-based tips for scientists to effectively incorporate humor into presentations.",
+      "science_topics": [
+        "Gut microbiome and cognitive aging",
+        "Parabacteroides goldsteinii bacterium",
+        "Gut-brain axis and vagus nerve signaling",
+        "Medium-chain fatty acids and immune response",
+        "Phage therapy for targeted bacterial elimination",
+        "Object recognition memory testing in mice",
+        "Humor in academic communication and learning enhancement"
+      ],
+      "claims_to_note": [
+        "Gut microbiome shifts in young mice cohabiting with old mice resulted in cognitive decline comparable to aged mice - claimed as causal evidence rather than merely correlative",
+        "Implantation of P. goldsteinii bacterium in young mice worsened object recognition memory",
+        "Antibiotic elimination or phage-targeted therapy of P. goldsteinii improved cognitive performance in old mice to levels comparable with young mice",
+        "Medium-chain fatty acids produced by P. goldsteinii activate immune response that suppresses vagus nerve activity",
+        "Two-thirds of humor attempts in academic talks fell flat; only 9% achieved strong laughter from entire audience",
+        "Research papers with humorous titles show citation advantage",
+        "Laughter can enhance learning and boost audience attention"
+      ],
+      "policy_relevance": [
+        "Potential therapeutic applications of phage therapy targeting specific gut bacteria for age-related cognitive decline",
+        "Dietary interventions as preventive approach for cognitive aging"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Freight Transportation Resilience in Response to Supply Chain Disruptions",
+          "url": "https://nap.nationalacademies.org/catalog/25463/freight-transportation-resilience-in-response-to-supply-chain-disruptions"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Staph Retreat",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-03-20T14:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Radiolab episode explores the history of antibiotic resistance and the potential of ancient remedies as solutions. It traces the discovery of penicillin in 1928 and the subsequent arms race between antibiotics and resistant bacteria, including MRSA. The narrative then pivots to describe how two researchers—a microbiologist and a historian—recreated a 1,100-year-old Anglo-Saxon eye salve from Bald's Leech Book that unexpectedly proved highly effective against MRSA in laboratory tests, killing up to 99.99999% of bacteria, suggesting ancient medical knowledge may offer new avenues for combating modern superbugs.",
+      "science_topics": [
+        "Staphylococcus aureus (staph) bacterial infections",
+        "MRSA (methicillin-resistant Staphylococcus aureus) superbugs",
+        "Antibiotic resistance mechanisms and evolution",
+        "Penicillin discovery and pharmacology",
+        "Methicillin and successive antibiotic classes (streptomycin, clindamycin, ampicillin, carbenicillin, fluoroquinolone, linezolid)",
+        "Bacterial resistance decline over time without selective pressure",
+        "In vitro wound infection models using collagen plugs",
+        "Antimicrobial properties of garlic and onion compounds (allium species)",
+        "Bovine bile (ox gall) as antimicrobial agent",
+        "Phase one human safety trials for ancient medicinal compounds"
+      ],
+      "claims_to_note": [
+        "Penicillin-resistant staph was documented in 1944, virtually simultaneously with Fleming's Time magazine cover",
+        "Methicillin showed resistance within 11 months of introduction in 1960",
+        "Drug development costs approximately 10 years and 1 billion dollars to reach market",
+        "Antibiotic approvals fell dramatically after 2000 due to poor return on investment",
+        "An estimated 2,000 people die annually from community-based MRSA (per government data cited)",
+        "Bald's eye salve killed 99.99999% of staph bacteria in laboratory collagen wound models",
+        "The same formula killed 90% of MRSA bacteria when tested by collaborators",
+        "Bacterial resistance to antimicrobials can decline when drugs are removed from circulation for extended periods",
+        "Phase one safety trials for Bald's eye salve were completed successfully in 2022 on healthy humans"
+      ],
+      "policy_relevance": [
+        "CDC warnings and federal health alerts regarding multidrug-resistant bacteria and superbugs",
+        "Pharmaceutical industry incentive structures and lack of profitability for antibiotic development",
+        "Drug approval and clinical trial requirements (Phase one, subsequent clinical trial phases implied)",
+        "Intellectual property and patent ownership questions regarding ancient remedies and modern drug development",
+        "Regulatory pathway for translating historical remedies into approved pharmaceuticals"
+      ],
+      "nasem_publications": [
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Indo-U.S. Workshop on Challenges of Emerging Infections and Global Health Safety: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21810/indo-us-workshop-on-challenges-of-emerging-infections-and-global-health-safety"
+        },
+        {
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations"
+        },
+        {
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program"
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Seeing Students Learn Science: Integrating Assessment and Instruction in the Classroom",
+          "url": "https://nap.nationalacademies.org/catalog/23548/seeing-students-learn-science-integrating-assessment-and-instruction-in-the"
+        },
+        {
+          "title": "Dam and Levee Safety and Community Resilience: A Vision for Future Practice",
+          "url": "https://nap.nationalacademies.org/catalog/13393/dam-and-levee-safety-and-community-resilience-a-vision-for"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -91,6 +275,113 @@
         {
           "title": "A Science Strategy for the Human Exploration of Mars",
           "url": "https://nap.nationalacademies.org/catalog/28594"
+        }
+      ]
+    },
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "Naomi Klein on Trumpism and Our Age of ‘Unlikely Bedfellows’",
+      "host": "Ezra Klein",
+      "published": "2026-03-20T09:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Naomi Klein discusses her book 'Doppelgänger' and the political realignment she observed during the pandemic, where unlikely coalitions formed between wellness influencers, far-right figures, and tech oligarchs. Klein traces how public shaming and institutional rejection created pathways for figures like Naomi Wolf to migrate into the MAGA ecosystem, and examines how this 'mirror world' has now become dominant in American politics. The conversation explores the contradictions within Trumpism, the role of conspiracy theories in distracting from real conspiracies (like Epstein), and potential left-wing responses centered on economic populism, climate action, and 'neighborism.'",
+      "science_topics": [
+        "COVID-19 vaccine misinformation and vaccine passport conspiracy theories",
+        "Cloud seeding conspiracy claims",
+        "Vaccine shedding claims and fertility concerns",
+        "Climate change and carbon markets",
+        "AI model training and capabilities",
+        "Artificial intelligence and labor displacement",
+        "Data center electricity consumption and environmental impact",
+        "Environmental regulation and the Endangered Species Act (peregrine falcons and DDT)",
+        "Surveillance technology and facial recognition",
+        "Water scarcity and resource management"
+      ],
+      "claims_to_note": [
+        "Claim: Vaccinated people shed particulates that endanger unvaccinated people and cause infertility - Klein identifies this as medical misinformation traced to Naomi Wolf; no scientific evidence supports this claim",
+        "Claim: COVID vaccines are 'deadly and sterilizing injections' - Klein quotes this from conspiracy circles; contradicts scientific consensus on vaccine safety",
+        "Claim: Vaccine passport apps are identical to Chinese social credit systems - Klein identifies as conspiracy theory without basis",
+        "Claim: Cloud seeding emissions are blocking the sun - Klein cites this as conspiracy claim from Naomi Wolf",
+        "Claim about peregrine falcon extinction: Klein/RFK Jr. discuss DDT-caused extinction in 1963 and environmental recovery - this aligns with established environmental history",
+        "Claim: Data centers for AI require unsustainable water consumption in desert regions - Klein presents this as fact; worth verifying specifics on Arizona/Tucson water impacts",
+        "Claim: AI companies knowingly building duplicative data centers without proven markets - Klein presents this as acknowledged by industry figures; factual status varies by company"
+      ],
+      "policy_relevance": [
+        "Trump administration's deregulation of AI (unwinding state-level AI regulation authority)",
+        "ICE enforcement and immigration policy impacts on coalition members",
+        "Environmental Protection Agency and endangerment findings (mentioned in ad)",
+        "Medicare Advantage payment decisions and federal funding (mentioned in ad)",
+        "FDA/federal regulation of vaccines and treatments",
+        "Data privacy and surveillance integration between Trump administration and tech companies (Palantir, Grok)",
+        "Department of Defense AI procurement and constraints",
+        "State-level environmental regulation of data centers",
+        "Federal funding for AI research and development",
+        "Labor organizing and tech worker contracts (ICE, military contracts)",
+        "Free public transit as climate policy",
+        "Universal healthcare and expanded child tax credits"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
         }
       ]
     },
@@ -284,6 +575,103 @@
         },
         {
           "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "life-science-rundown",
+      "podcast_name": "The Life Science Rundown",
+      "episode_title": "Navigating Regulatory Leadership Across Large and Small Life Science with Tammy Sarnelli",
+      "host": "Nick Capman (The FDA Group)",
+      "published": "2026-03-19T18:42:43",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode explores the differences between regulatory leadership in large pharmaceutical organizations versus small biotech companies. While regulatory expectations remain consistent across organizational sizes, the day-to-day experiences differ significantly: large companies face challenges with organizational silos and communication barriers across departments, while small companies must manage resource constraints and multifunctional roles. The discussion emphasizes that success depends on intentional relationship building, open communication, appropriate risk tolerance, and the ability to adopt new technologies like AI in medical writing, rather than organizational size itself.",
+      "science_topics": [
+        "Regulatory strategy for clinical drug development",
+        "CMC (Chemistry, Manufacturing, and Controls) planning",
+        "Safety strategy design for pharmaceutical products",
+        "Protocol development and clinical study report generation",
+        "Rare disease drug development approaches",
+        "AI application in medical writing and clinical documentation",
+        "Expedited regulatory mechanisms (Fast Track designation, Breakthrough Therapy, PRIME designation)"
+      ],
+      "claims_to_note": [
+        "AI in medical writing can write structured clinical study reports but cannot interpret results - this represents appropriate understanding of current AI limitations",
+        "Smaller organizations may lag in regulatory intelligence due to reliance on public information sources like Pink Sheet and Endpoint, which publish information after regulatory landscape has already progressed",
+        "Large organizations typically employ dedicated regulatory intelligence teams and government affairs staff with direct health authority access",
+        "RIM (Regulatory Information Management) systems are now standard across large and small companies for electronic submissions to health authorities",
+        "Risk tolerance in smaller companies is described as an 'inherent element' due to resource constraints and single/dual product pipelines"
+      ],
+      "policy_relevance": [
+        "FDA Fast Track designation requirements and eligibility determination",
+        "FDA START program (Structured Approach to Therapeutic Review) pilot program eligibility",
+        "European Medicines Agency PRIME (PRIority MEdicines) designation",
+        "Health authority interaction strategies and pre-submission meeting dynamics",
+        "Regulatory submission processes and electronic documentation requirements with health authorities",
+        "Role of pharmaceutical trade associations (PhRMA, BIO) in advocating for policy and guidance development",
+        "Governance structures for regulatory decision-making in large pharmaceutical organizations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise in the United States: Establishing an Agenda for 2020: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/13345/envisioning-a-transformed-clinical-trials-enterprise-in-the-united-states"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of"
+        },
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Highway Safety Behavioral Strategies for Rural and Tribal Areas: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27197/highway-safety-behavioral-strategies-for-rural-and-tribal-areas-a-guide"
+        },
+        {
+          "title": "Highway Safety Behavioral Strategies for Rural Areas",
+          "url": "https://nap.nationalacademies.org/catalog/27196/highway-safety-behavioral-strategies-for-rural-areas"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of"
+        },
+        {
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
           "url": ""
         }
       ]

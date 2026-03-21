@@ -1,0 +1,326 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Briefing Chat: Are scientists funny? The evidence is in — and it's no joke",
+  "host": "Springer Nature",
+  "published": "2026-03-20T14:54:11",
+  "episode_url": "https://www.nature.com/articles/d41586-026-00937-7",
+  "duration_minutes": 9.866666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature Briefing podcast episode covers two distinct science stories: research demonstrating a causal link between gut microbiome composition and cognitive aging in mice through the bacterium Parabacteroides goldsteinii, and a study analyzing humor attempts at academic biology conferences, finding that two-thirds of jokes fell flat. The microbiome research suggests potential therapeutic targets for age-related cognitive decline, while the humor study provides evidence-based tips for scientists to effectively incorporate humor into presentations.",
+  "science_topics": [
+    "Gut microbiome and cognitive aging",
+    "Parabacteroides goldsteinii bacterium",
+    "Gut-brain axis and vagus nerve signaling",
+    "Medium-chain fatty acids and immune response",
+    "Phage therapy for targeted bacterial elimination",
+    "Object recognition memory testing in mice",
+    "Humor in academic communication and learning enhancement"
+  ],
+  "claims_to_note": [
+    "Gut microbiome shifts in young mice cohabiting with old mice resulted in cognitive decline comparable to aged mice - claimed as causal evidence rather than merely correlative",
+    "Implantation of P. goldsteinii bacterium in young mice worsened object recognition memory",
+    "Antibiotic elimination or phage-targeted therapy of P. goldsteinii improved cognitive performance in old mice to levels comparable with young mice",
+    "Medium-chain fatty acids produced by P. goldsteinii activate immune response that suppresses vagus nerve activity",
+    "Two-thirds of humor attempts in academic talks fell flat; only 9% achieved strong laughter from entire audience",
+    "Research papers with humorous titles show citation advantage",
+    "Laughter can enhance learning and boost audience attention"
+  ],
+  "policy_relevance": [
+    "Potential therapeutic applications of phage therapy targeting specific gut bacteria for age-related cognitive decline",
+    "Dietary interventions as preventive approach for cognitive aging"
+  ],
+  "key_quotes": [
+    "This is potential causal evidence... the researchers think it might be because of what this bacterium produces, which is lots and lots of medium chain fatty acids. This in turn activates an immune response, which seems to suppress activity along the vagus nerve, which is that big main nerve that sends signals back and forth between your gut and your brain.",
+    "Victoria Stout says that even subdued laughter shouldn't be considered a failure, saying that it can help people relax. And sometimes humor can be a welcome change to the energy in the room, help refocus the mind.",
+    "Scientists have had incredibly interesting lives and humour comes from the reality of our lived experience. Therefore, you are funny."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Gut microbiome and cognitive aging",
+      "publications": [
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Parabacteroides goldsteinii bacterium",
+      "publications": [
+        {
+          "id": "21723",
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "vaccines"
+          ],
+          "keywords": [
+            "medical",
+            "improve cardiac arrest survival",
+            "unknown conservative estimates suggest",
+            "approximately individuals experience",
+            "factors affecting resuscitation",
+            "almost instantaneous loss",
+            "third leading cause",
+            "cardiac arrests",
+            "age gender race",
+            "without regard",
+            "mechanical activity",
+            "time",
+            "act"
+          ],
+          "description": "Cardiac arrest often strikes seemingly healthy individuals without warning and without regard to age, gender, race, or health status. Representing the third leading cause of death in the United States, cardiac arrest is defined as \"a severe malfunction or cessation of the electrical and mechanical activity of the heart ... [which] results in almost instantaneous loss of consciousness and collapse\". Although the exact number of cardiac arrests is unknown, conservative estimates suggest that approximately 600,000 individuals experience a cardiac arrest in the United States each year. In June 2015, the Institute of Medicine (IOM) released its consensus report Strategies to Improve Cardiac Arrest Survival: A Time to Act, which evaluated the factors affecting resuscitation research and outcomes in the United States. Following the release of this report, the National Academies of Sciences, Engineering, and Medicine was asked to hold a workshop to explore the barriers and opportunities for ad",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Gut-brain axis and vagus nerve signaling",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Medium-chain fatty acids and immune response",
+      "publications": [
+        {
+          "id": "25463",
+          "title": "Freight Transportation Resilience in Response to Supply Chain Disruptions",
+          "url": "https://nap.nationalacademies.org/catalog/25463/freight-transportation-resilience-in-response-to-supply-chain-disruptions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "freight transportation resilience",
+            "supply chain disruptions",
+            "response"
+          ],
+          "year": 2019
+        },
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "25490",
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "social science",
+            "improve supply chain management",
+            "resilient supply chains",
+            "essential supply chains",
+            "regional supply chains",
+            "made supply chains",
+            "hurricanes harvey irma",
+            "continuity planning partnerships",
+            "lessons learned during",
+            "significant vulnerabilities",
+            "three hurricanes",
+            "observations",
+            "maria"
+          ],
+          "description": "Resilient supply chains are crucial to maintaining the consistent delivery of goods and services to the American people. The modern economy has made supply chains more interconnected than ever, while also expanding both their range and fragility. In the third quarter of 2017, Hurricanes Harvey, Irma and Maria revealed some significant vulnerabilities in the national and regional supply chains of Texas, Florida, the U.S. Virgin Islands, and Puerto Rico. The broad impacts and quick succession of these three hurricanes also shed light on the effectiveness of the nation's disaster logistics efforts during response through recovery. Drawing on lessons learned during the 2017 hurricanes, this report explores future strategies to improve supply chain management in disaster situations. This report makes recommendations to strengthen the roles of continuity planning, partnerships between civic leaders with small businesses, and infrastructure investment to ensure that essential supply chains wi",
+          "year": 2020,
+          "page_keywords": [
+            "Social Science"
+          ],
+          "committee": "Committee on Building Adaptable and Resilient Supply Chains After Hurricanes Harvey, Irma, and Maria"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Phage therapy for targeted bacterial elimination",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2425,
+  "saved_at": "2026-03-21T11:31:28.861300"
+}

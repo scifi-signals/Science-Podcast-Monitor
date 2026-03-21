@@ -1,0 +1,722 @@
+{
+  "podcast_id": "life-science-rundown",
+  "podcast_name": "The Life Science Rundown",
+  "episode_title": "Navigating Regulatory Leadership Across Large and Small Life Science with Tammy Sarnelli",
+  "host": "Nick Capman (The FDA Group)",
+  "published": "2026-03-19T18:42:43",
+  "episode_url": "https://podcasters.spotify.com/pod/show/the-fda-group/episodes/Navigating-Regulatory-Leadership-Across-Large-and-Small-Life-Science-with-Tammy-Sarnelli-e3gmtg3",
+  "duration_minutes": 32.766666666666666,
+  "influence_tier": "emerging",
+  "category": "science_policy",
+  "summary": "This episode explores the differences between regulatory leadership in large pharmaceutical organizations versus small biotech companies. While regulatory expectations remain consistent across organizational sizes, the day-to-day experiences differ significantly: large companies face challenges with organizational silos and communication barriers across departments, while small companies must manage resource constraints and multifunctional roles. The discussion emphasizes that success depends on intentional relationship building, open communication, appropriate risk tolerance, and the ability to adopt new technologies like AI in medical writing, rather than organizational size itself.",
+  "science_topics": [
+    "Regulatory strategy for clinical drug development",
+    "CMC (Chemistry, Manufacturing, and Controls) planning",
+    "Safety strategy design for pharmaceutical products",
+    "Protocol development and clinical study report generation",
+    "Rare disease drug development approaches",
+    "AI application in medical writing and clinical documentation",
+    "Expedited regulatory mechanisms (Fast Track designation, Breakthrough Therapy, PRIME designation)"
+  ],
+  "claims_to_note": [
+    "AI in medical writing can write structured clinical study reports but cannot interpret results - this represents appropriate understanding of current AI limitations",
+    "Smaller organizations may lag in regulatory intelligence due to reliance on public information sources like Pink Sheet and Endpoint, which publish information after regulatory landscape has already progressed",
+    "Large organizations typically employ dedicated regulatory intelligence teams and government affairs staff with direct health authority access",
+    "RIM (Regulatory Information Management) systems are now standard across large and small companies for electronic submissions to health authorities",
+    "Risk tolerance in smaller companies is described as an 'inherent element' due to resource constraints and single/dual product pipelines"
+  ],
+  "policy_relevance": [
+    "FDA Fast Track designation requirements and eligibility determination",
+    "FDA START program (Structured Approach to Therapeutic Review) pilot program eligibility",
+    "European Medicines Agency PRIME (PRIority MEdicines) designation",
+    "Health authority interaction strategies and pre-submission meeting dynamics",
+    "Regulatory submission processes and electronic documentation requirements with health authorities",
+    "Role of pharmaceutical trade associations (PhRMA, BIO) in advocating for policy and guidance development",
+    "Governance structures for regulatory decision-making in large pharmaceutical organizations"
+  ],
+  "key_quotes": [
+    "The regulatory expectations are the same, regardless of the organization... but the day-to-day experience is different.",
+    "When people know that they won't perhaps be punished for thoughtful, good faith decisions that involve risks, they make decisions faster. And I think this mindset catalyzes speed because employees aren't waiting for certainty. They're optimizing for informed movement.",
+    "I think what I'd love to leave the audience with is that there's actually really no right answer. You just have to be the right person for the right size."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Regulatory strategy for clinical drug development",
+      "publications": [
+        {
+          "id": "12219",
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "investment organizations developing drugs",
+            "although large pharmaceutical companies",
+            "drug discovery development",
+            "breakthrough business models",
+            "neglected diseases",
+            "drug development",
+            "development because",
+            "extraordinarily expensive",
+            "individualized therapies",
+            "treat rare",
+            "rare"
+          ],
+          "description": "The process for developing new drug and biologic products is extraordinarily expensive and time-consuming. Although large pharmaceutical companies may be able to afford the cost of development because they can expect a large return on investment, organizations developing drugs to treat rare and neglected diseases are unable to rely on such returns. On June 23, 2008, the Institute of Medicine's Forum on Drug Discovery, Development, and Translation held a public workshop, \"Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies,\" which sought to explore new and innovative strategies for developing drugs for rare and neglected diseases.",
+          "year": 2009,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "13345",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise in the United States: Establishing an Agenda for 2020: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/13345/envisioning-a-transformed-clinical-trials-enterprise-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "robust clinical trials workforce",
+            "support medical treatment decisions",
+            "november bringing together leaders",
+            "key issue areas addressed",
+            "drug discovery development",
+            "health care system",
+            "high quality evidence",
+            "drug development",
+            "medical care",
+            "practical evidence",
+            "transformed clinical trials enterprise",
+            "establishing",
+            "envisioning",
+            "agenda"
+          ],
+          "description": "There is growing recognition that the United States' clinical trials enterprise (CTE) faces great challenges. There is a gap between what is desired - where medical care is provided solely based on high quality evidence - and the reality - where there is limited capacity to generate timely and practical evidence for drug development and to support medical treatment decisions. With the need for transforming the CTE in the U.S. becoming more pressing, the IOM Forum on Drug Discovery, Development, and Translation held a two-day workshop in November 2011, bringing together leaders in research and health care. The workshop focused on how to transform the CTE and discussed a vision to make the enterprise more efficient, effective, and fully integrated into the health care system. Key issue areas addressed at the workshop included: the development of a robust clinical trials workforce, the alignment of cultural and financial incentives for clinical trials, and the creation of a sustainable in",
+          "year": 2012,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "26349",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "economic landscapes increasing complexity",
+            "clinical trials barriers",
+            "artificial intelligence applications",
+            "drug discovery development",
+            "digital health technologies",
+            "development life cycle",
+            "clinical care",
+            "real world settings",
+            "advance clinical",
+            "health care",
+            "transformed clinical trials enterprise",
+            "envisioning"
+          ],
+          "description": "The evolution of health care is expanding the possibilities for integration of clinical research into the continuum of clinical care; new approaches are enabling the collection of data in real-world settings; and new modalities, such as digital health technologies and artificial intelligence applications, are being leveraged to overcome challenges and advance clinical research. At the same time, the clinical research enterprise is strained by rising costs, varying global regulatory and economic landscapes, increasing complexity of clinical trials, barriers to recruitment and retention of research participants, and a clinical research workforce that is under tremendous demands. Looking ahead to 2030, the Forum on Drug Discovery, Development, and Translation of the National Academies of Sciences, Engineering, and Medicine convened a public workshop for stakeholders from across the drug research and development life cycle to reflect on the lessons learned over the past 10 years and consid",
+          "year": 2022,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Health Sciences Policy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CMC (Chemistry, Manufacturing, and Controls) planning",
+      "publications": [
+        {
+          "id": "26460",
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "keywords": [
+            "wildfire",
+            "fire",
+            "urban",
+            "chemistry",
+            "combustion",
+            "wui"
+          ]
+        },
+        {
+          "id": "21790",
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing effective communication activities",
+            "enhanced communication summarizes evidence",
+            "chemistry communication activities",
+            "daily life impacting areas",
+            "chemistry community lacks",
+            "communications informal learning",
+            "communicating chemistry",
+            "practical guide intended",
+            "chemistry education",
+            "identifies key areas",
+            "effective chemistry communication",
+            "informal environments"
+          ],
+          "description": "Chemistry plays a critical role in daily life, impacting areas such as medicine and health, consumer products, energy production, the ecosystem, and many other areas. Communicating about chemistry in informal environments has the potential to raise public interest and understanding of chemistry around the world. However, the chemistry community lacks a cohesive, evidence-based guide for designing effective communication activities. This report is organized into two sections. Part A: The Evidence Base for Enhanced Communication summarizes evidence from communications, informal learning, and chemistry education on effective practices to communicate with and engage publics outside of the classroom; presents a framework for the design of chemistry communication activities; and identifies key areas for future research. Part B: Communicating Chemistry: A Framework for Sharing Science is a practical guide intended for any chemists to use in the design, implementation, and evaluation of their ",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Issue Paper on Mid-Scale Manufacturing for Defense",
+          "url": "https://www.nationalacademies.org/projects/DEPS-NMMB-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Safety strategy design for pharmaceutical products",
+      "publications": [
+        {
+          "id": "23524",
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "health-care",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "industrial safety",
+            "assessing company safety culture",
+            "sustaining safety culture provided",
+            "robust safety culture methods",
+            "improving safety culture",
+            "defining safety culture",
+            "safety culture offered",
+            "gas industry offers",
+            "offshore industry",
+            "assessing improving",
+            "environmental enforcement",
+            "safety culture",
+            "offshore oil",
+            "gas industry",
+            "strengthening"
+          ],
+          "description": "\"TRB Special Report 321: Strengthening the Safety Culture of the Offshore Oil and Gas Industry offers recommendations to industry and regulators to strengthen and sustain the safety culture of the offshore oil and gas industry. The committee that prepared the report addresses conceptual challenges in defining safety culture and discusses the empirical support for the definition of safety culture offered by the Bureau of Safety and Environmental Enforcement, the nine characteristics or elements of a robust safety culture, methods for assessing company safety culture, and barriers to improving safety culture in the offshore industry. The committee's report also identifies topics on which further research is needed with respect to assessing, improving, and sustaining safety culture\"--Provided by publisher.",
+          "year": 2016,
+          "page_keywords": [
+            "Industrial safety"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on U.S. Offshore Oil and"
+        },
+        {
+          "id": "27197",
+          "title": "Highway Safety Behavioral Strategies for Rural and Tribal Areas: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27197/highway-safety-behavioral-strategies-for-rural-and-tribal-areas-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "rural roads",
+            "behavioral traffic safety countermeasures",
+            "state highway safety offices",
+            "highway safety partners focused",
+            "improving traffic safety",
+            "rural road safety",
+            "motor vehicle crashes",
+            "tribal authorities",
+            "local departments",
+            "rural areas",
+            "county departments",
+            "highway safety behavioral",
+            "tribal areas",
+            "rural",
+            "guide"
+          ],
+          "description": "\"This report presents results from a multidisciplinary research project that developed a toolkit of behavioral traffic safety countermeasures for highway safety partners focused on rural road safety (e.g., tribal authorities, local government, law enforcement, emergency responders, engineers) to reduce the frequency and severity of motor vehicle crashes on roads in rural areas. This publication will be of interest to state highway safety offices; state and local departments of transportation; county departments of public works; tribal authorities; and other stakeholders concerned with improving traffic safety in rural areas.\" -- publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "Rural roads"
+          ]
+        },
+        {
+          "id": "27196",
+          "title": "Highway Safety Behavioral Strategies for Rural Areas",
+          "url": "https://nap.nationalacademies.org/catalog/27196/highway-safety-behavioral-strategies-for-rural-areas",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "rural roads",
+            "behavioral traffic safety countermeasures",
+            "state highway safety offices",
+            "highway safety partners focused",
+            "improving traffic safety",
+            "rural road safety",
+            "motor vehicle crashes",
+            "tribal authorities",
+            "local departments",
+            "rural areas",
+            "county departments",
+            "highway safety behavioral"
+          ],
+          "description": "\"This report presents results from a multidisciplinary research project that developed a toolkit of behavioral traffic safety countermeasures for highway safety partners focused on rural road safety (e.g., tribal authorities, local government, law enforcement, emergency responders, engineers) to reduce the frequency and severity of motor vehicle crashes on roads in rural areas. This publication will be of interest to state highway safety offices; state and local departments of transportation; county departments of public works; tribal authorities; and other stakeholders concerned with improving traffic safety in rural areas.\" -- publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "Rural roads"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Strengthening Southeast Asian Academia and Industry Biotechnology and Biomanufacturing Safety and Security - A Workshop",
+          "url": "https://www.nationalacademies.org/projects/DELS-BLS-24-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Protocol development and clinical study report generation",
+      "publications": [
+        {
+          "id": "27732",
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "carbon utilization infrastructure markets",
+            "eliminate net carbon emissions",
+            "aviation fuel chemicals plastics",
+            "reversing climate change focus",
+            "carbon dioxide released",
+            "contribute additional emissions",
+            "fossil emitting processes",
+            "fossil fuel combustion",
+            "greenhouse gas emissions",
+            "systems carbon",
+            "development",
+            "final"
+          ],
+          "description": "National and international plans for halting and reversing climate change focus on reducing and eventually ending the largest source of greenhouse gas emissions: carbon dioxide (CO2) released by fossil fuel combustion. However, as the nation moves towards replacing many fossil CO2-emitting processes with zero- or low-carbon-emission alternatives, special attention is needed to eliminate net carbon emissions from the systems that cannot be fully \"decarbonized\", such as the production of aviation fuel, chemicals, plastics, and construction materials. For these systems, carbon will need to be managed and utilized effectively, in a way that either prevents CO2 from entering the atmosphere or reuses it through circular processes that do not contribute additional emissions. Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report is the second report of a two-part study. The study's first report assessed the state of infrastructure for CO2 transportation, use,",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "18400",
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "randomized clinical trials rcts",
+            "large simple trials lsts",
+            "inform medical decision making",
+            "implemented clinical trials",
+            "clinical trials support",
+            "continuously learning health system",
+            "medical product development",
+            "provide robust evidence",
+            "post marketing settings",
+            "medical products",
+            "learning health system",
+            "large simple trials",
+            "generation"
+          ],
+          "description": "Randomized clinical trials (RCTs) are often referred to as the \"gold standard\" of clinical research. However, in its current state, the U.S. clinical trials enterprise faces substantial challenges to the efficient and effective conduct of research. Streamlined approaches to RCTs, such as large simple trials (LSTs), may provide opportunities for progress on these challenges. Clinical trials support the development of new medical products and the evaluation of existing products by generating knowledge about safety and efficacy in pre- and post-marketing settings and serve to inform medical decision making and medical product development. Although well-designed and -implemented clinical trials can provide robust evidence, a gap exists between the evidence needs of a continuously learning health system, in which all medical decisions are based on the best available evidence, and the reality, in which the generation of timely and practical evidence faces significant barriers. Large Simple T",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "26349",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "economic landscapes increasing complexity",
+            "clinical trials barriers",
+            "artificial intelligence applications",
+            "drug discovery development",
+            "digital health technologies",
+            "development life cycle",
+            "clinical care",
+            "real world settings",
+            "advance clinical",
+            "health care",
+            "transformed clinical trials enterprise",
+            "envisioning"
+          ],
+          "description": "The evolution of health care is expanding the possibilities for integration of clinical research into the continuum of clinical care; new approaches are enabling the collection of data in real-world settings; and new modalities, such as digital health technologies and artificial intelligence applications, are being leveraged to overcome challenges and advance clinical research. At the same time, the clinical research enterprise is strained by rising costs, varying global regulatory and economic landscapes, increasing complexity of clinical trials, barriers to recruitment and retention of research participants, and a clinical research workforce that is under tremendous demands. Looking ahead to 2030, the Forum on Drug Discovery, Development, and Translation of the National Academies of Sciences, Engineering, and Medicine convened a public workshop for stakeholders from across the drug research and development life cycle to reflect on the lessons learned over the past 10 years and consid",
+          "year": 2022,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Health Sciences Policy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Rare disease drug development approaches",
+      "publications": [
+        {
+          "id": "12219",
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "investment organizations developing drugs",
+            "although large pharmaceutical companies",
+            "drug discovery development",
+            "breakthrough business models",
+            "neglected diseases",
+            "drug development",
+            "development because",
+            "extraordinarily expensive",
+            "individualized therapies",
+            "treat rare",
+            "rare"
+          ],
+          "description": "The process for developing new drug and biologic products is extraordinarily expensive and time-consuming. Although large pharmaceutical companies may be able to afford the cost of development because they can expect a large return on investment, organizations developing drugs to treat rare and neglected diseases are unable to rely on such returns. On June 23, 2008, the Institute of Medicine's Forum on Drug Discovery, Development, and Translation held a public workshop, \"Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies,\" which sought to explore new and innovative strategies for developing drugs for rare and neglected diseases.",
+          "year": 2009,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "27732",
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "carbon utilization infrastructure markets",
+            "eliminate net carbon emissions",
+            "aviation fuel chemicals plastics",
+            "reversing climate change focus",
+            "carbon dioxide released",
+            "contribute additional emissions",
+            "fossil emitting processes",
+            "fossil fuel combustion",
+            "greenhouse gas emissions",
+            "systems carbon",
+            "development",
+            "final"
+          ],
+          "description": "National and international plans for halting and reversing climate change focus on reducing and eventually ending the largest source of greenhouse gas emissions: carbon dioxide (CO2) released by fossil fuel combustion. However, as the nation moves towards replacing many fossil CO2-emitting processes with zero- or low-carbon-emission alternatives, special attention is needed to eliminate net carbon emissions from the systems that cannot be fully \"decarbonized\", such as the production of aviation fuel, chemicals, plastics, and construction materials. For these systems, carbon will need to be managed and utilized effectively, in a way that either prevents CO2 from entering the atmosphere or reuses it through circular processes that do not contribute additional emissions. Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report is the second report of a two-part study. The study's first report assessed the state of infrastructure for CO2 transportation, use,",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 4339,
+  "saved_at": "2026-03-21T11:31:28.862644"
+}
