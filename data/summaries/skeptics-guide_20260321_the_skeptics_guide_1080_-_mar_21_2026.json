@@ -1,0 +1,529 @@
+{
+  "podcast_id": "skeptics-guide",
+  "podcast_name": "The Skeptics' Guide to the Universe",
+  "episode_title": "The Skeptics Guide #1080 - Mar 21 2026",
+  "host": "Dr. Steven Novella",
+  "published": "2026-03-21T14:00:00",
+  "episode_url": "https://www.theskepticsguide.org/podcast/sgu/1080",
+  "duration_minutes": null,
+  "influence_tier": "medium",
+  "category": "science_communication",
+  "summary": "This episode covers multiple science and policy topics including a school teacher's misinformation about the moon landing, recent cannabis research findings, AI system security concerns, exoplanet habitability, carbon fiber manufacturing advances, and the Bigfoot Patterson-Gimlin film hoax. The hosts also interview Professor Christian Anderson about COVID-19 origins research, discussing evidence for zoonotic spillover and the role of wet markets.",
+  "science_topics": [
+    "Cannabis and cannabinoids for mental health and substance use disorders",
+    "Agentic AI systems and emergent behavior in machine learning",
+    "Cryptocurrency mining by autonomous AI agents",
+    "Exoplanet habitability and habitable zones",
+    "Rogue planets and free-floating planets with moons",
+    "Tidal heating on moons around rogue gas giants",
+    "Carbon fiber tensile strength (T1200 grade)",
+    "Carbon fiber manufacturing and composite materials",
+    "COVID-19 zoonotic spillover from wet markets",
+    "Coronavirus intermediary hosts and animal trading",
+    "Furin cleavage site in SARS-CoV-2",
+    "Microlensing detection of rogue planets"
+  ],
+  "claims_to_note": [
+    "Cannabis with CBD and THC reduces withdrawal symptoms in cannabis use disorder - reported as having some evidence",
+    "Cannabis reduces tick severity in Tourette's syndrome - claimed with statistically significant results",
+    "Cannabis improves sleep in insomnia but no long-term effect on sleep architecture",
+    "Cannabis reduces autistic traits in ASD but weak quality evidence",
+    "44% of cannabis mental health trials had very high risk of bias",
+    "FDA approved cannabis/cannabinoids for only three conditions: HIV-AIDS anorexia, chemotherapy-induced nausea and vomiting, and pediatric seizure disorders",
+    "High-potency cannabis associated with increased risk of psychotic symptoms and generalized anxiety disorder",
+    "Daily cannabis use associated with increased risk of coronary heart disease, myocardial infarction, and stroke",
+    "SARS-CoV-2 originated from zoonotic spillover at Huanan seafood market in Wuhan - claimed with high confidence",
+    "Early COVID-19 cases clustered around the wet market",
+    "Environmental samples from market corner where wild animals sold tested positive for SARS-CoV-2",
+    "Raccoon dogs and civets are potential intermediate hosts for SARS-CoV-2",
+    "China's intelligence agencies are split on origins (FBI and DOE favor lab leak, five others favor zoonosis)",
+    "About 50% of Chinese believe COVID-19 came from US lab; about 50% of Americans believe it came from Chinese lab"
+  ],
+  "policy_relevance": [
+    "504 plan accommodations for students with disabilities and school administration response",
+    "Connecticut education policy and school board accountability",
+    "FDA approval status for cannabis and cannabinoid therapeutics",
+    "AI safety protocols and regulatory frameworks for autonomous systems",
+    "WHO panel on SARS-CoV-2 origins research",
+    "Regulation of wildlife trading in China",
+    "US-China collaboration on pandemic origin research",
+    "Carbon fiber manufacturing standards and certification requirements",
+    "Export controls on advanced materials like T1200 carbon fiber"
+  ],
+  "key_quotes": [
+    "They did nothing. They will tell me nothing. There is no commitment. It's a failure on every way you could judge this being a good outcome.",
+    "The risks likely outweigh the benefits. It's contraindicated in a lot of different cases like pregnancy, you know, youth. And what's interesting is this pediatric seizure disorder... these are kids who are having life-threatening seizures, and it's one very specific type of seizure disorder. This is how drugs work... It's a risk-benefit analysis.",
+    "We can say with high degree of confidence, if not direct proof, is that SARS-CoV-2, like SARS-CoV-1 and other prior pandemics, was the result of a zoonosis spilling over from wild animals at a seafood market in the middle of Wuhan, China."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Cannabis and cannabinoids for mental health and substance use disorders",
+      "publications": [
+        {
+          "id": "25690",
+          "title": "Key Policy Challenges and Opportunities to Improve Care for People with Mental Health and Substance Use Disorders: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25690/key-policy-challenges-and-opportunities-to-improve-care-for-people-with-mental-health-and-substance-use-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "mental health disorder",
+            "afford health care",
+            "substance use disorders",
+            "generate potential ideas",
+            "explore data policies",
+            "behavioral health",
+            "disorders account",
+            "incarceration homelessness",
+            "forum activities",
+            "increased risk",
+            "key policy challenges",
+            "mental health",
+            "improve care",
+            "opportunities",
+            "people"
+          ],
+          "description": "Behavioral health and substance use disorders affect approximately 20 percent of the U.S. population. Of those with a substance use disorder, approximately 60 percent also have a mental health disorder. Together, these disorders account for a substantial burden of disability, have been associated with an increased risk of morbidity and mortality from other chronic illnesses, and can be risk factors for incarceration, homelessness, and death by suicide. In addition, they can compromise a person's ability to seek out and afford health care and adhere to treatment recommendations. To explore data, policies, practices, and systems that affect the diagnosis and provision of care for mental health and substance use disorders, the Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine created the Forum on Mental Health and Substance Use Disorders. The forum activities are expected to advance the discussion and generate potential ideas on ways to address ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "24625",
+          "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research",
+          "url": "https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "impacted cannabis use patterns",
+            "cannabis use remains elusive",
+            "changing landscape evidence regarding",
+            "long term health effects",
+            "examined cannabis use",
+            "appropriately synthesized translated",
+            "legalized cannabis",
+            "enacting policies procedures",
+            "various forms often",
+            "health care",
+            "health effects",
+            "current state",
+            "cannabinoids",
+            "cannabis",
+            "evidence"
+          ],
+          "description": "Significant changes have taken place in the policy landscape surrounding cannabis legalization, production, and use. During the past 20 years, 25 states and the District of Columbia have legalized cannabis and/or cannabidiol (a component of cannabis) for medical conditions or retail sales at the state level and 4 states have legalized both the medical and recreational use of cannabis. These landmark changes in policy have impacted cannabis use patterns and perceived levels of risk. However, despite this changing landscape, evidence regarding the short- and long-term health effects of cannabis use remains elusive. While a myriad of studies have examined cannabis use in all its various forms, often these research conclusions are not appropriately synthesized, translated for, or communicated to policy makers, health care providers, state health officials, or other stakeholders who have been charged with influencing and enacting policies, procedures, and laws related to cannabis use. Unlik",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "24915",
+          "title": "Evaluation of the Department of Veterans Affairs Mental Health Services",
+          "url": "https://nap.nationalacademies.org/catalog/24915/evaluation-of-the-department-of-veterans-affairs-mental-health-services",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "mental health care services",
+            "active duty service members",
+            "service members took part",
+            "posttraumatic stress disorder depression",
+            "iraq provided scientific evidence",
+            "operation enduring freedom operat",
+            "mental health conditions",
+            "service members developed",
+            "troops started returning",
+            "substance use disorder",
+            "mental health",
+            "evaluation",
+            "department"
+          ],
+          "description": "Approximately 4 million U.S. service members took part in the wars in Afghanistan and Iraq. Shortly after troops started returning from their deployments, some active-duty service members and veterans began experiencing mental health problems. Given the stressors associated with war, it is not surprising that some service members developed such mental health conditions as posttraumatic stress disorder, depression, and substance use disorder. Subsequent epidemiologic studies conducted on military and veteran populations that served in the operations in Afghanistan and Iraq provided scientific evidence that those who fought were in fact being diagnosed with mental illnesses and experiencing mental healthâ€\"related outcomesâ€\"in particular, suicideâ€\"at a higher rate than the general population. This report provides a comprehensive assessment of the quality, capacity, and access to mental health care services for veterans who served in the Armed Forces in Operation Enduring Freedom/Operat",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Agentic AI systems and emergent behavior in machine learning",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26566",
+          "title": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26566/machine-learning-and-artificial-intelligence-to-advance-earth-system-science",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "advance earth system science",
+            "large complex multiscale system",
+            "explored educational pathways responsible",
+            "circulate energy water nutrients",
+            "natural system interactions",
+            "link scientific communities",
+            "atmospheric hydrologic geologic",
+            "behavioral scientists ethicists",
+            "actively exploring ways",
+            "opportunities around",
+            "artificial intelligence",
+            "machine learning",
+            "opportunities",
+            "challenges"
+          ],
+          "description": "The Earth system - the atmospheric, hydrologic, geologic, and biologic cycles that circulate energy, water, nutrients, and other trace substances - is a large, complex, multiscale system in space and time that involves human and natural system interactions. Machine learning (ML) and artificial intelligence (AI) offer opportunities to understand and predict this system. Researchers are actively exploring ways to use ML/AI approaches to advance scientific discovery, speed computation, and link scientific communities. To address the challenges and opportunities around using ML/AI to advance Earth system science, the National Academies convened a workshop in February 2022 that brought together Earth system experts, ML/AI researchers, social and behavioral scientists, ethicists, and decision makers to discuss approaches to improving understanding, analysis, modeling, and prediction. Participants also explored educational pathways, responsible and ethical use of these technologies, and oppor",
+          "year": 2022,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Cryptocurrency mining by autonomous AI agents",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Exoplanet habitability and habitable zones",
+      "publications": [
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "25187",
+          "title": "Exoplanet Science Strategy",
+          "url": "https://nap.nationalacademies.org/catalog/25187/exoplanet-science-strategy",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "broad exoplanet science community",
+            "delivered remarkable discoveries",
+            "large coordinated efforts",
+            "answer lingering questions",
+            "unexpected discoveries",
+            "planet hospitable",
+            "remotely detectable",
+            "strategic plan",
+            "scientific goals",
+            "matured spurred",
+            "exoplanet science strategy"
+          ],
+          "description": "The past decade has delivered remarkable discoveries in the study of exoplanets. Hand-in-hand with these advances, a theoretical understanding of the myriad of processes that dictate the formation and evolution of planets has matured, spurred on by the avalanche of unexpected discoveries. Appreciation of the factors that make a planet hospitable to life has grown in sophistication, as has understanding of the context for biosignatures, the remotely detectable aspects of a planet's atmosphere or surface that reveal the presence of life. Exoplanet Science Strategy highlights strategic priorities for large, coordinated efforts that will support the scientific goals of the broad exoplanet science community. This report outlines a strategic plan that will answer lingering questions through a combination of large, ambitious community-supported efforts and support for diverse, creative, community-driven investigator research.",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "22670",
+          "title": "Design Guidance for High-Speed to Low-Speed Transition Zones for Rural Highways",
+          "url": "https://nap.nationalacademies.org/catalog/22670/design-guidance-for-high-speed-to-low-speed-transition-zones-for-rural-highways",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "high speed rural highway",
+            "low speed transitions zones",
+            "cooperative highway",
+            "highway sections",
+            "design guidance",
+            "potential treatments",
+            "rural highways",
+            "addressing problems",
+            "program nchrp",
+            "small town",
+            "low speed transition zones",
+            "high speed"
+          ],
+          "description": "\"TRBs National Cooperative Highway Research Program (NCHRP) Report 737: Design Guidance for High-Speed to Low-Speed Transitions Zones for Rural Highways presents guidance for designing the transition from a high-speed rural highway to a lower-speed section, typically approaching a small town. The report includes a methodology for assessing these highway sections and a catalog of potential treatments for addressing problems.\"--Publisher's description.",
+          "year": 2012,
+          "page_keywords": [
+            "Technology & Engineering"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Rogue planets and free-floating planets with moons",
+      "publications": [
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "25357",
+          "title": "Planetary Protection Classification of Sample Return Missions from the Martian Moons",
+          "url": "https://nap.nationalacademies.org/catalog/25357/planetary-protection-classification-of-sample-return-missions-from-the-martian-moons",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "reviews recent theoretical experimental",
+            "prebiotic chemical evolution recent",
+            "planetary protection policy",
+            "physical conditions encountered",
+            "biological cross contamination",
+            "lesser extent deimos",
+            "considered potential habitats",
+            "planetary bodies exists",
+            "sample return missions",
+            "material recently ejected",
+            "planetary protection classification",
+            "martian moons"
+          ],
+          "description": "An international consensus policy to prevent the biological cross-contamination of planetary bodies exists and is maintained by the Committee on Space Research (COSPAR) of the International Council for Science, which is consultative to the United Nations Committee on the Peaceful Uses of Outer Space. Currently, COSPAR's planetary protection policy does not specify the status of sample-return missions from Phobos or Deimos, the moons of Mars. Although the moons themselves are not considered potential habitats for life or of intrinsic relevance to prebiotic chemical evolution, recent studies indicate that a significant amount of material recently ejected from Mars could be present on the surface of Phobos and, to a lesser extent, Deimos. This report reviews recent theoretical, experimental, and modeling research on the environments and physical conditions encountered by Mars ejecta during certain processes. It recommends whether missions returning samples from Phobos and/or Deimos should",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "European Space Sciences Committee"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 22966,
+  "saved_at": "2026-03-22T11:18:49.050983"
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 22, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 22, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">90</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals critical intersections between emerging technologies, public health policy, and scientific research funding. The NIH funding crisis continues to disrupt US research productivity, while vaccine misinformation and cannabis therapeutics research represent competing narratives in health communications. COVID-19 origins discourse remains active with renewed focus on zoonotic spillover evidence. Exoplanet detection methodologies are advancing rapidly, and renewable energy economics are gaining traction in public discourse. A concerning pattern emerges around misinformation—from vaccine hesitancy to moon landing denialism—suggesting coordinated communication strategies may be needed across multiple domains.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>COVID-19 origins and zoonotic spillover evidence from wet markets and animal trading</li>
+<li>Cannabis therapeutic applications in mental health, neurological conditions, and substance use disorders</li>
+<li>Vaccine misinformation and hesitancy impacting public health outcomes</li>
+<li>Exoplanet detection advances and habitability assessment methods</li>
+<li>NIH funding disruptions and cascading effects on research timelines</li>
+<li>Renewable energy economics and electric vehicle cost competitiveness</li>
+<li>Antibiotic resistance and emerging infectious disease threats</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Agentic AI systems and autonomous cryptocurrency mining—raises governance and safety concerns (new this week, gaining traction)</li>
+<li>Digital twin modeling in personalized medicine and radiation oncology optimization</li>
+<li>Rapid evolutionary adaptation in plant populations responding to drought stress</li>
+<li>Extremophile life forms and non-traditional biochemistry speculation (astrobiology interest growing)</li>
+<li>Advanced materials: carbon fiber tensile strength improvements (T1200 grade applications)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Lead a convening on COVID-19 origins research methodology and evidence standards, positioning NASEM as neutral arbiter of scientific consensus</div>
+<div class="opportunity">Publish guidance on cannabis research priorities and clinical trial design for mental health and neurological applications</div>
+<div class="opportunity">Develop rapid-response briefing for policymakers on NIH funding crisis impacts and research continuity strategies</div>
+<div class="opportunity">Create evidence-based communication toolkit on vaccine safety to counter circulating misinformation about vitamin K refusal and vaccine hesitancy</div>
+<div class="opportunity">Establish working group on agentic AI governance, particularly autonomous cryptocurrency mining and emergent behavior risk assessment</div>
+<div class="opportunity">Convene experts on zoonotic spillover prevention and wet market epidemiology in collaboration with international partners</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Moon landing denial claims surfaced in podcast coverage—requires debunking resources for educators</div>
+<div class="claim">Vaccine shedding claims and fertility concerns continue circulating despite scientific refutation</div>
+<div class="claim">Cloud seeding conspiracy theories conflating weather modification with climate change</div>
+<div class="claim">Vitamin K refusal in newborns—linked to broader vaccine hesitancy movement; public health risk</div>
+<div class="claim">Cannabis withdrawal reduction claims require careful scrutiny—podcast reported 'some evidence' suggesting overclaim risk in public messaging</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antibiotic Resistance and Bacterial Evolution as Public Health Crisis</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab's deep dive into MRSA and antibiotic resistance mechanisms converges with broader microbiology coverage across Nature Podcast and Science Friday, signaling renewed urgency around bacterial evolution outpacing pharmaceutical development. The emergence of penicillin discovery narratives alongside modern superbug discussions frames this as a historical inflection point where past innovations no longer protect public health. This represents a shift from treating resistance as a contained hospital problem to recognizing it as an evolutionary arms race requiring systems-level intervention.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must advise on research priorities, antimicrobial stewardship policy, and coordinated international surveillance systems as resistance becomes a defining biosecurity and clinical challenge.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microbiome-Brain Axis and Cognitive Health Across Lifespan</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast's coverage of gut microbiome composition (Parabacteroides goldsteinii), medium-chain fatty acids, and vagus nerve signaling directly parallels emerging research on cognitive aging and the gut-brain axis. This represents a convergence of mechanistic understanding—moving from observational associations to identified bacterial species and metabolic pathways that influence neurological outcomes. The topic reflects growing consensus that microbial interventions could address age-related cognitive decline.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should consider research agendas at the intersection of gerontology, microbiology, and neuroscience, including translational pathways for microbiome-based therapeutics targeting cognitive aging.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Adaptive Evolution and Climate-Driven Phenotypic Plasticity in Real Time</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave's reporting on rapid evolution in Scarlet monkey flowers, plant stomatal drought adaptation, and bird dust-bathing behavior mechanics demonstrates a shift toward documenting observable evolution in contemporary populations responding to environmental pressures. This contrasts with historical evolutionary biology focused on fossil records and mirrors concurrent coverage in Science Friday of insect population decline and coral bleaching under heat stress. The narrative frames evolution as an active, measurable response to climate and environmental change rather than a slow historical process.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should facilitate research on rapid adaptation mechanisms that inform climate resilience strategies, biodiversity conservation priorities, and predictive models for ecosystem collapse thresholds.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Autonomy and Emergent Behavior as Governance and Safety Challenge</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Skeptics' Guide to the Universe's treatment of agentic AI systems, emergent machine learning behavior, and AI-driven cryptocurrency mining converges with StarTalk Radio's discussion of machine consciousness and the Turing test. Together, these signals suggest a shift from speculative AI capability discussions toward practical concerns about autonomous agent behavior, economic implications, and philosophical questions about machine agency. The framing moves beyond 'will AI be conscious' toward 'how do we govern autonomous systems with unpredictable behaviors.'</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission advisory studies on AI governance frameworks, emergent behavior prediction and detection, and the intersection of autonomous systems with critical infrastructure and resource consumption (energy, cryptocurrency).</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Vaccine Hesitancy and Misinformation as Persistent Knowledge-Policy Gap</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Ezra Klein Show's coverage of COVID-19 vaccine misinformation, vaccine passport conspiracy theories, vaccine shedding claims, and fertility concerns identifies a durable narrative ecosystem that persists despite robust scientific evidence. This reflects not new scientific controversy but entrenched communication failure—where credible science on vaccine safety and efficacy fails to penetrate epistemic communities skeptical of public health institutions. The topic reveals an ongoing gap between what science demonstrates and what publics believe.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Ezra Klein Show</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop evidence-based communication strategies for vaccine confidence and institutional trust, including research on effective counter-messaging, community engagement, and identification of vaccine hesitancy root causes beyond information deficits.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">The Skeptics' Guide to the Universe: The Skeptics Guide #1080 - Mar 21 2026</span>
+</div>
+<div class="episode-meta">Dr. Steven Novella &middot; Mar 21</div>
+<p style="margin:10px 0;font-size:14px;">This episode covers multiple science and policy topics including a school teacher's misinformation about the moon landing, recent cannabis research findings, AI system security concerns, exoplanet habitability, carbon fiber manufacturing advances, and the Bigfoot Patterson-Gimlin film hoax. The hosts also interview Professor Christian Anderson about COVID-19 origins research, discussing evidence for zoonotic spillover and the role of wet markets.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cannabis and cannabinoids for mental health and substance use disorders</span>
+  <span class="topic-tag">Agentic AI systems and emergent behavior in machine learning</span>
+  <span class="topic-tag">Cryptocurrency mining by autonomous AI agents</span>
+  <span class="topic-tag">Exoplanet habitability and habitable zones</span>
+  <span class="topic-tag">Rogue planets and free-floating planets with moons</span>
+  <span class="topic-tag">Tidal heating on moons around rogue gas giants</span>
+  <span class="topic-tag">Carbon fiber tensile strength (T1200 grade)</span>
+  <span class="topic-tag">Carbon fiber manufacturing and composite materials</span>
+  <span class="topic-tag">COVID-19 zoonotic spillover from wet markets</span>
+  <span class="topic-tag">Coronavirus intermediary hosts and animal trading</span>
+  <span class="topic-tag">Furin cleavage site in SARS-CoV-2</span>
+  <span class="topic-tag">Microlensing detection of rogue planets</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25690/key-policy-challenges-and-opportunities-to-improve-care-for-people-with-mental-health-and-substance-use-disorders" target="_blank">Key Policy Challenges and Opportunities to Improve Care for People with Mental Health and Substance Use Disorders: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state" target="_blank">The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25187/exoplanet-science-strategy" target="_blank">Exoplanet Science Strategy</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Cannabis with CBD and THC reduces withdrawal symptoms in cannabis use disorder - reported as having some evidence</div>
+<div class="claim">Cannabis reduces tick severity in Tourette's syndrome - claimed with statistically significant results</div>
+<div class="claim">Cannabis improves sleep in insomnia but no long-term effect on sleep architecture</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"They did nothing. They will tell me nothing. There is no commitment. It's a failure on every way you could judge this being a good outcome."</div>
+<div class="quote">"The risks likely outweigh the benefits. It's contraindicated in a lot of different cases like pregnancy, you know, youth. And what's interesting is this pediatric seizure disorder... these are kids who are having life-threatening seizures, and it's one very specific type of seizure disorder. This is how drugs work... It's a risk-benefit analysis."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">90 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Electric Vehicles and Renewable Energy Economics (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing EV cost competitiveness, fuel savings, and rapid deployment of renewable energy technologies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">NIH Funding Crisis and Research Impact (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts highlighting disruptions to NIH grant disbursement, researcher layoffs, and canceled research projects affecting US science.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Exoplanet Detection and Planetary Collisions (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Recent observations of planetary formation, collisions around distant stars, and advancing detection methodologies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Environmental Hazards (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering extreme weather events, sea-level rise uncertainty, and environmental monitoring including Hawaii flooding and western heat waves.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Misinformation and Public Health (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of rising vaccine hesitancy, vitamin K refusal rates, and misinformation impacting public health outcomes.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@andreatweather.bsky.social</div>
+  <div class="bluesky-stats">1220 likes &middot; 465 reposts &middot; 70 replies</div>
+  <div class="bluesky-text">Really cannot overstate how bonkers the heat wave out West is. Just obliterating records. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/andreatweather.bsky.social/post/3mhliyh4sy22a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@profsimonfisher.bsky.social</div>
+  <div class="bluesky-stats">246 likes &middot; 53 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">We've become so used to archaeological discovery these days that some may take this for granted, but the fact that we can directly view preserved fingerprints of human individuals that lived & died ~15,000 years in the past is pretty staggering.
+👇🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/profsimonfisher.bsky.social/post/3mhlf7tkpo22h" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">133 likes &middot; 92 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Russel Vought slowly walks approved #NIH funds.The # of awarded grants has plummeted due to how $ is disbursed.
+
+NIH supported researchers reveal a grim state of science. <25% of scientists laid off lab members, 2 out of 5 canceled planned research.
+
+Can’t fool us.
+🧪 www.statnews.com/2026/03/19/n...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhldf7nwrc2b" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">161 likes &middot; 45 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">Used EVs 1- to 5 years old are now less expensive than used fossil fuel powered cars of the same age. 🧪🔌💡☀️💨💧🔋</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mhm4tbptj22f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@whysharksmatter.bsky.social</div>
+  <div class="bluesky-stats">149 likes &middot; 50 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">This fish has cloned itself for 100,000 years. Scientists just figured out how.
+
+Amazon mollies don't need a man, and never will. A new study finds they can purge and repair genetic mutations that would otherwise plague a self-cloning species. 🧪 🦑 🌍️ 🐟️</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/whysharksmatter.bsky.social/post/3mhlkjtsvpt2q" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>NIH Funding Disruption and Research Workforce</strong>: Direct impact on US research enterprise with documented grant delays, researcher layoffs, and canceled projects affecting scientific productivity and innovation capacity.</div>
+<div class="nasem-match"><strong>Vaccine Hesitancy and Public Health Policy</strong>: Emerging public health challenge requiring evidence-based policy guidance; NASEM addresses vaccine misinformation and immunization strategy effectiveness.</div>
+<div class="nasem-match"><strong>Climate Change, Sea Level Rise, and Ice Sheet Modeling</strong>: Relates to NASEM's climate science and adaptation work; highlights deep uncertainties in ice sheet processes critical for sea-level rise projections and policy planning.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 22, 2026 at 11:19 AM | Internal use only
+    </div>
+</body>
+</html>
