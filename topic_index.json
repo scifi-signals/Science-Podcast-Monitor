@@ -1,7 +1,393 @@
 {
-  "updated": "2026-03-22T11:19:27.279225",
-  "episode_count": 110,
+  "updated": "2026-03-23T11:23:18.812328",
+  "episode_count": 114,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Apple: trying to think different for 50 years",
+      "host": "Ira Flatow",
+      "published": "2026-03-23T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode features tech journalist David Pogue discussing Apple's 50-year history and innovation trajectory. The conversation covers Apple's founding by Steve Jobs and Steve Wozniak, their philosophy of bringing advanced technology to mass markets, key innovations like the graphical user interface and iPhone, and the company's evolution under Tim Cook's leadership. Pogue emphasizes that Apple's success has primarily stemmed from perfecting and marketing existing technologies rather than pure invention, while noting the shift from Jobs' focus on revolutionary hardware platforms to Cook's emphasis on services and software.",
+      "science_topics": [
+        "Multi-touch screen technology development",
+        "Self-driving vehicle technology (Project Titan)",
+        "Circuit design and computer hardware engineering",
+        "Graphical user interface design",
+        "Smart glasses and augmented reality displays"
+      ],
+      "claims_to_note": [
+        "Apple invented the computer mouse (stated as false by Pogue - Apple refined Xerox Park's design)",
+        "Apple did not invent Wi-Fi, CD burning, laser printing, or networking - only perfected them",
+        "Project Titan spent $10 billion over 10 years with 1,200 engineers and failed to achieve fully self-driving capability",
+        "Apple Music is now larger in revenue than Spotify (claim about relative business sizes)"
+      ],
+      "policy_relevance": [
+        "Discussion of Apple's approach to intellectual property and technology refinement versus invention",
+        "Reference to corporate poaching of engineering talent from Tesla, Ford, and Mercedes for Project Titan",
+        "Mention of iTunes Store's role in reshaping the music industry licensing model",
+        "Contrasts between proprietary Apple model and open licensing approaches (Spotify vs. Apple Music services)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Science and Engineering for Grades 6-12: Investigation and Design at the Center",
+          "url": "https://nap.nationalacademies.org/catalog/25216/science-and-engineering-for-grades-6-12-investigation-and-design"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design"
+        },
+        {
+          "title": "Bus Operator Barrier Design: Guidelines and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/27877/bus-operator-barrier-design-guidelines-and-considerations"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "The Role of Transit, Shared Modes, and Public Policy in the New Mobility Landscape",
+          "url": "https://nap.nationalacademies.org/catalog/26053/the-role-of-transit-shared-modes-and-public-policy-in-the-new-mobility-landscape"
+        }
+      ]
+    },
+    {
+      "podcast_id": "techtank",
+      "podcast_name": "TechTank",
+      "episode_title": "Does the Anthropic–Pentagon feud mean the end of responsible AI?",
+      "host": "Brookings Institution",
+      "published": "2026-03-23T08:00:00",
+      "influence_tier": "medium",
+      "category": "tech_policy",
+      "summary": "This episode discusses the conflict between the Pentagon and AI company Anthropic over restrictions on AI model use in military and surveillance applications. After Defense Secretary Pete Hegseth demanded unrestricted access to Anthropic's Claude AI model, the company refused and was designated a supply chain risk—a designation never before applied to a U.S. company. The episode examines the broader implications for AI policy, government adoption of AI systems, and the need for Congressional oversight of AI use in sensitive national security contexts.",
+      "science_topics": [
+        "Large language model (LLM) deployment in classified government systems",
+        "AI reliability assessment for autonomous weapons systems",
+        "De-anonymization techniques for commercially available data",
+        "Pattern-of-life analysis using AI and location data",
+        "AI-assisted intelligence analysis and operations planning",
+        "Political bias detection in large language models"
+      ],
+      "claims_to_note": [
+        "Claude reportedly used for intelligence analysis in the raid capturing Nicolás Maduro in January 2026",
+        "Claude reportedly used or being used in current conflict in Iran",
+        "Anthropic's Claude model is the most widely deployed frontier AI model in the Department of Defense and the only one currently used on classified systems",
+        "50% of the public is more concerned than excited about AI usage as of 2026, an increase since 2021 ChatGPT launch",
+        "Claude performs better than some competitor models at deflecting from politically biased questions",
+        "Claude excels at coding tasks compared to competitor models",
+        "Commercially available information can be de-anonymized to identify individuals including U.S. persons"
+      ],
+      "policy_relevance": [
+        "10 U.S.C. Section 3252 authority used to designate Anthropic as supply chain risk—first use against a U.S. company",
+        "Department of Defense memo issued January 2026 requiring 'all lawful use of relevant technology' in new contracts, eliminating previous restrictions on lethal autonomous weapons and mass domestic surveillance",
+        "Executive Order 12333 and Foreign Intelligence Surveillance Act (FISA) governing intelligence community collection authorities",
+        "Fourth Amendment limitations on intelligence collection",
+        "Defense Production Act threatened as coercive measure against Anthropic",
+        "Anthropic lawsuit against Department of Defense, Secretary Hegseth, and federal agencies seeking declaratory and injunctive relief",
+        "Congressional need for national AI framework and regulation of AI in surveillance and weapons systems",
+        "Trump administration AI action plan prioritizing AI diffusion and federal government adoption",
+        "Civil service access to AI tools restricted by supply chain designation affecting government efficiency goals"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Deployment of Deep Decarbonization Technologies: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25656/deployment-of-deep-decarbonization-technologies-proceedings-of-a-workshop"
+        },
+        {
+          "title": "The Power of Change: Innovation for Development and Deployment of Increasingly Clean Electric Power Technologies",
+          "url": "https://nap.nationalacademies.org/catalog/21712/the-power-of-change-innovation-for-development-and-deployment-of"
+        },
+        {
+          "title": "Opportunities to Improve Representation of Clouds and Aerosols in Climate Models with Classified Observing Systems: Proceedings of a Workshop: Abbreviated Version",
+          "url": "https://nap.nationalacademies.org/catalog/23527/opportunities-to-improve-representation-of-clouds-and-aerosols-in-climate-models-with-classified-observing-systems"
+        },
+        {
+          "title": "Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Airport Parking Reservation Systems and Techniques",
+          "url": "https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques"
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Day Zero: When the wells run dry",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-23T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the global water crisis, focusing on the concept of 'Day Zero'—when cities run out of water. Through interviews with UN water expert Kaveh Madani and journalist Erin Baker's firsthand account of Cape Town's 2018 water crisis, the episode examines how cities reach critical water shortages due to factors including leaky infrastructure, mismanagement, population growth, depleting aquifers, and climate change. The episode emphasizes that water scarcity is no longer a temporary crisis but a chronic systemic problem requiring fundamental shifts in how societies value and manage water resources, with particular attention to equity issues affecting lower-income communities.",
+      "science_topics": [
+        "Urban water scarcity and Day Zero events",
+        "Aquifer depletion",
+        "Climate change impacts on water availability",
+        "Desalination as emergency water supply",
+        "Water infrastructure leakage and loss",
+        "Drought and precipitation patterns in arid regions"
+      ],
+      "claims_to_note": [
+        "UN declared 'global water bankruptcy' in January 2026",
+        "Tehran approaching Day Zero earlier than darkest projections",
+        "Cape Town limited residents to 50 liters (13 gallons) per person per day in February 2018",
+        "EPA states average U.S. person uses 82 gallons of water per day",
+        "30-35% of available water lost in Mexico City public distribution system leaks",
+        "Additional 10% of Mexico City water stolen from the system",
+        "Wealthiest households in Cape Town used over 50 times more water than lowest income households",
+        "EPA estimates one trillion gallons of water wasted annually from household leaks in U.S.",
+        "Lower income groups in water-scarce areas spend up to 20% of family income on water"
+      ],
+      "policy_relevance": [
+        "UN University Institute for Water, Environment, and Health declaration of global water bankruptcy",
+        "Cape Town's emergency desalination plant construction as response to water crisis",
+        "Water rationing and restrictions imposed on Cape Town residents",
+        "Water theft by cartels indicating failure of water management and enforcement",
+        "Inequitable application of water restrictions affecting already vulnerable populations",
+        "Need for fundamental policy shifts in global water management and conservation approaches"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Urban Stormwater Management in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/12465/urban-stormwater-management-in-the-united-states"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan"
+        },
+        {
+          "title": "Regional Issues in Aquifer Storage and Recovery for Everglades Restoration: A Review of the ASR Regional Study Project Management Plan of the Comprehensive Everglades Restoration Plan",
+          "url": "https://nap.nationalacademies.org/catalog/10521/regional-issues-in-aquifer-storage-and-recovery-for-everglades-restoration"
+        },
+        {
+          "title": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/21787/review-of-the-draft-interagency-report-on-the-impacts-of-climate-change-on-human-health-in-the-united-states"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Sustaining Ocean Observations to Understand Future Changes in Earth's Climate",
+          "url": "https://nap.nationalacademies.org/catalog/24919/sustaining-ocean-observations-to-understand-future-changes-in-earths-climate"
+        },
+        {
+          "title": "Desalination: A National Perspective",
+          "url": "https://nap.nationalacademies.org/catalog/12184/desalination-a-national-perspective"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Understanding Water Reuse: Potential for Expanding the Nation's Water Supply Through Reuse of Municipal Wastewater",
+          "url": "https://nap.nationalacademies.org/catalog/13514/understanding-water-reuse-potential-for-expanding-the-nations-water-supply"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report",
+          "url": "https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a"
+        }
+      ]
+    },
+    {
+      "podcast_id": "peter-attia-drive",
+      "podcast_name": "The Peter Attia Drive",
+      "episode_title": "#385 - AMA #82: Applying the tools of longevity in the real world: disease prevention, DEXA scans, artificial sweeteners, injury recovery, stability training, habit formation, protein intake and mTOR activation, and more",
+      "host": "Peter Attia, MD",
+      "published": "2026-03-23T04:15:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Peter Attia discusses practical approaches to disease prevention and health optimization across different life stages in this AMA episode. He emphasizes that health priorities shift significantly from the 20s through 60s and beyond, with 40s-50s representing a critical window for implementing prevention strategies. Attia categorizes chronic diseases into the \"four horsemen\" (cardiovascular disease, cancer, neurodegenerative disease, and metabolic disease) and explains which are most manageable based on current scientific understanding and available interventions. The episode covers multiple practical health topics including screening protocols, exercise-based interventions, dietary considerations, and wearable metrics.",
+      "science_topics": [
+        "VO2 max development and aging",
+        "Atherosclerotic cardiovascular and cerebrovascular disease prevention",
+        "Type 2 diabetes prevention and management",
+        "Cancer risk factors including smoking and obesity",
+        "Insulin resistance and hyperinsulinemia as disease drivers",
+        "Dementia prevention and APOE4 genetic risk",
+        "Parkinson's disease and ALS (neurodegenerative disease mechanisms)",
+        "Metabolic health and dyslipidemia",
+        "Movement reserve and neurodegenerative disease resilience",
+        "Cognitive reserve in dementia prevention",
+        "DNA mutation repair and carcinogenesis"
+      ],
+      "claims_to_note": [
+        "Obesity functions as a proxy for insulin resistance and associated inflammation driving cancer risk",
+        "Approximately 50% of cancer cases arise without observable environmental risk factors, attributed to random genetic mutations (citing Bert Vogelstein)",
+        "APOE4 gene is modifiable for dementia risk (stated as modifiable, though mechanism not detailed in transcript)",
+        "Recent advances in dementia prevention tools represent significant improvement over understanding from 5-10 years ago",
+        "Most MI cases in 40-year-olds are rare, suggesting low cardiovascular disease burden in this age group",
+        "Exercise is positioned as one of the best evidence-based interventions for dementia prevention",
+        "Movement reserve provides resilience against movement-related neurodegenerative diseases analogous to cognitive reserve"
+      ],
+      "policy_relevance": [
+        "No explicit mentions of legislation, regulation, or federal policy initiatives",
+        "No discussion of FDA approvals, healthcare funding decisions, or regulatory agencies",
+        "No references to specific public health directives or government programs",
+        "Content focuses on clinical practice and individual health strategy rather than policy domain"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation",
+          "url": "https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation"
+        },
+        {
+          "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
+          "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap"
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "skeptics-guide",
       "podcast_name": "The Skeptics' Guide to the Universe",

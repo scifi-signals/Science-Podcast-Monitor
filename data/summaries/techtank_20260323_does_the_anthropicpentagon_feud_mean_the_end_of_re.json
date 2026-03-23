@@ -1,0 +1,593 @@
+{
+  "podcast_id": "techtank",
+  "podcast_name": "TechTank",
+  "episode_title": "Does the Anthropic–Pentagon feud mean the end of responsible AI?",
+  "host": "Brookings Institution",
+  "published": "2026-03-23T08:00:00",
+  "episode_url": "https://shows.acast.com/tech-tank/episodes/what-the-anthropic-pentagon-feud-means-for-the-future-of-ai",
+  "duration_minutes": 28.366666666666667,
+  "influence_tier": "medium",
+  "category": "tech_policy",
+  "summary": "This episode discusses the conflict between the Pentagon and AI company Anthropic over restrictions on AI model use in military and surveillance applications. After Defense Secretary Pete Hegseth demanded unrestricted access to Anthropic's Claude AI model, the company refused and was designated a supply chain risk—a designation never before applied to a U.S. company. The episode examines the broader implications for AI policy, government adoption of AI systems, and the need for Congressional oversight of AI use in sensitive national security contexts.",
+  "science_topics": [
+    "Large language model (LLM) deployment in classified government systems",
+    "AI reliability assessment for autonomous weapons systems",
+    "De-anonymization techniques for commercially available data",
+    "Pattern-of-life analysis using AI and location data",
+    "AI-assisted intelligence analysis and operations planning",
+    "Political bias detection in large language models"
+  ],
+  "claims_to_note": [
+    "Claude reportedly used for intelligence analysis in the raid capturing Nicolás Maduro in January 2026",
+    "Claude reportedly used or being used in current conflict in Iran",
+    "Anthropic's Claude model is the most widely deployed frontier AI model in the Department of Defense and the only one currently used on classified systems",
+    "50% of the public is more concerned than excited about AI usage as of 2026, an increase since 2021 ChatGPT launch",
+    "Claude performs better than some competitor models at deflecting from politically biased questions",
+    "Claude excels at coding tasks compared to competitor models",
+    "Commercially available information can be de-anonymized to identify individuals including U.S. persons"
+  ],
+  "policy_relevance": [
+    "10 U.S.C. Section 3252 authority used to designate Anthropic as supply chain risk—first use against a U.S. company",
+    "Department of Defense memo issued January 2026 requiring 'all lawful use of relevant technology' in new contracts, eliminating previous restrictions on lethal autonomous weapons and mass domestic surveillance",
+    "Executive Order 12333 and Foreign Intelligence Surveillance Act (FISA) governing intelligence community collection authorities",
+    "Fourth Amendment limitations on intelligence collection",
+    "Defense Production Act threatened as coercive measure against Anthropic",
+    "Anthropic lawsuit against Department of Defense, Secretary Hegseth, and federal agencies seeking declaratory and injunctive relief",
+    "Congressional need for national AI framework and regulation of AI in surveillance and weapons systems",
+    "Trump administration AI action plan prioritizing AI diffusion and federal government adoption",
+    "Civil service access to AI tools restricted by supply chain designation affecting government efficiency goals"
+  ],
+  "key_quotes": [
+    "This is a terrible way to make public policy. You have two significant issues, the use of AI in domestic surveillance and in autonomous weapons systems that are developing and potentially being decided, at least in the short run, through a fight between Dario Amade, the CEO of Anthropic, and the Department of War.",
+    "Claude was not reliable enough to operate to make decisions about who to target without human involvement—this was Anthropic's core concern with lethal autonomous weapons use.",
+    "We don't want these issues decided when two powerful entities get into a fight. For many reasons, that is a lose-lose situation. It circumvents a necessary deliberative process by a branch of government, Congress that should be weighing in on these policy decisions."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Large language model (LLM) deployment in classified government systems",
+      "publications": [
+        {
+          "id": "25656",
+          "title": "Deployment of Deep Decarbonization Technologies: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25656/deployment-of-deep-decarbonization-technologies-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "automobile driving",
+            "scale across major sectors",
+            "carbon dioxide emissions reductions",
+            "deploying decarbonization technologies",
+            "societal transformations required",
+            "potential policy drivers",
+            "technology specific",
+            "environmental systems",
+            "sector specific",
+            "primary challenges",
+            "while progress",
+            "deep decarbonization technologies",
+            "deployment"
+          ],
+          "description": "\"While progress has been made in the development of decarbonization technologies, much work remains in scale-up and deployment. For decarbonization technologies to reach meaningful scale, real-world constraints, societal, economic, and political, must be considered. To identify the primary challenges and opportunities to deploying decarbonization technologies at scale across major sectors of the U.S. economy, the Board on Energy and Environmental Systems of the National Academies of Sciences, Engineering, and Medicine convened a workshop on July 22-23, 2019. In addition to technology-specific and sector-specific studies, the workshop considered the types of societal transformations required, as well as potential policy drivers for carbon dioxide emissions reductions. This publication summarizes the presentations and discussion of the workshop\"--Publisher's description",
+          "year": 2019,
+          "page_keywords": [
+            "Automobile driving"
+          ]
+        },
+        {
+          "id": "21712",
+          "title": "The Power of Change: Innovation for Development and Deployment of Increasingly Clean Electric Power Technologies",
+          "url": "https://nap.nationalacademies.org/catalog/21712/the-power-of-change-innovation-for-development-and-deployment-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advanced cleaner energy technologies",
+            "significant negative economic security",
+            "cleaner power generation",
+            "electricity supplied reliably",
+            "however emissions resulting",
+            "human health consequences",
+            "large scale installation",
+            "technologies while",
+            "clean energy",
+            "currently produce",
+            "development",
+            "power",
+            "innovation",
+            "deployment",
+            "change"
+          ],
+          "description": "Electricity, supplied reliably and affordably, is foundational to the U.S. economy and is utterly indispensable to modern society. However, emissions resulting from many forms of electricity generation create environmental risks that could have significant negative economic, security, and human health consequences. Large-scale installation of cleaner power generation has been generally hampered because greener technologies are more expensive than the technologies that currently produce most of our power. Rather than trade affordability and reliability for low emissions, is there a way to balance all three? The Power of Change: Innovation for Development and Deployment of Increasingly Clean Energy Technologies considers how to speed up innovations that would dramatically improve the performance and lower the cost of currently available technologies while also developing new advanced cleaner energy technologies. According to this report, there is an opportunity for the United States to c",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "23527",
+          "title": "Opportunities to Improve Representation of Clouds and Aerosols in Climate Models with Classified Observing Systems: Proceedings of a Workshop: Abbreviated Version",
+          "url": "https://nap.nationalacademies.org/catalog/23527/opportunities-to-improve-representation-of-clouds-and-aerosols-in-climate-models-with-classified-observing-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "climate change projections",
+            "atmospheric interactions involved",
+            "classified observing systems",
+            "nearby clouds leading",
+            "cloud cover thickness",
+            "significantly affect earth",
+            "primary mission objective",
+            "find creative ways",
+            "climate indirectly",
+            "climate modeling",
+            "improve representation",
+            "abbreviated version",
+            "climate models",
+            "opportunities",
+            "aerosols",
+            "clouds"
+          ],
+          "description": "One of the most significant and uncertain aspects of climate change projections is the impact of aerosols on the climate system. Aerosols influence the climate indirectly by interacting with nearby clouds leading to small changes in cloud cover, thickness, and altitude, which significantly affect Earth's radiative balance. Advancements have been made in recent years on understanding the complex processes and atmospheric interactions involved when aerosols interact with surrounding clouds, but further progress has been hindered by limited observations. The National Academies of Sciences, Engineering, and Medicine organized a workshop to discuss the usefulness of the classified observing systems in advancing understanding of cloud and aerosol interactions. Because these systems were not developed with weather and climate modeling as a primary mission objective, many participants said it is necessary for scientists to find creative ways to utilize the data. The data from these systems hav",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI reliability assessment for autonomous weapons systems",
+      "publications": [
+        {
+          "id": "28541",
+          "title": "Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "distributed energy resources ders",
+            "integrates complex distributed elements",
+            "needs operational standards regulatory",
+            "electricity system known collectively",
+            "small scale energy generators",
+            "often generating energy close",
+            "emerging critical issue particularly",
+            "operational integrity",
+            "electricity generation",
+            "electricity enters",
+            "electricity system operability",
+            "increasing complexity",
+            "reliability"
+          ],
+          "description": "The U.S. electricity system, known collectively as \"the grid,\" is increasingly integrating a complex array of distributed energy resources (DERs) such as solar panels, wind turbines, batteries, and small-scale energy generators. By harnessing a diverse range of power sources and often generating energy close to the point of use rather than only in central power plants, DERs offer unprecedented flexibility in electricity generation and management. However, the imperative to maintain and improve the operational integrity of the grid as it takes on increasing quantities of DERs represents an emerging critical issue, particularly as demand for electricity enters a period of significant growth in many places across the United States. To consider the research needs, operational standards, regulatory approaches, market incentives, and other facets relevant to ensuring the operational integrity of the grid as it integrates complex distributed elements, the National Academies of Sciences, Engin",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "De-anonymization techniques for commercially available data",
+      "publications": [
+        {
+          "id": "29030",
+          "title": "Airport Parking Reservation Systems and Techniques",
+          "url": "https://nap.nationalacademies.org/catalog/29030/airport-parking-reservation-systems-and-techniques",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "airport parking facilities",
+            "airport parking reservation systems",
+            "recent years growing volumes",
+            "airport access providers",
+            "attract airport parkers",
+            "online booking systems",
+            "important customer amenity",
+            "airport cooperative",
+            "encouraged airports",
+            "implementation challenges",
+            "increasing competition",
+            "techniques"
+          ],
+          "description": "\"Airport parking is an important customer amenity and a principal source of revenue that helps fund the operation and development of airports. In recent years, growing volumes of passenger traffic and increasing competition from a variety of airport access providers have encouraged airports to seek new ways to attract airport parkers and enhance revenues, which may include implementing an online booking system. ACRP Synthesis 140: Airport Parking Reservation Systems and Techniques, from TRB's Airport Cooperative Research Program, documents the use of online booking systems at U.S. airports, including their benefits, costs, and implementation challenges.\" --",
+          "year": 2025,
+          "page_keywords": [
+            "Airport parking facilities"
+          ]
+        },
+        {
+          "id": "27130",
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "state transportation agencies",
+            "risks quantify risks",
+            "extreme weather risks",
+            "increasingly becoming important",
+            "transportation agencies",
+            "assess risks",
+            "appropriate tools",
+            "use tools",
+            "implemented",
+            "demonstrate",
+            "measurement",
+            "transportation asset management",
+            "techniques",
+            "conduct",
+            "risk"
+          ],
+          "description": "\"The assessment of climatic and extreme weather risks is increasingly becoming important to the operation of transportation agencies. There are easy-to-use tools and techniques that can be implemented by agencies. [This report] discusses how to assess risks and summarizes 12 studies that demonstrate how to enhance the measurement of risks, quantify risks, and better link risk management processes with the appropriate tools.\"--Publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "State transportation agencies"
+          ]
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Pattern-of-life analysis using AI and location data",
+      "publications": [
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "AI-assisted intelligence analysis and operations planning",
+      "publications": [
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "26128",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "present space weather monitoring",
+            "space weather operations",
+            "space weather program",
+            "space administration",
+            "two part virtual",
+            "observational infrastructure",
+            "atmospheric administration",
+            "forecasting capabilities",
+            "consider options",
+            "effective resilient",
+            "infrastructure",
+            "planning"
+          ],
+          "description": "In response to a request from the National Oceanic and Atmospheric Administration - and with the support of the National Aeronautics and Space Administration and the National Science Foundation - the National Academies of Sciences, Engineering, and Medicine conducted a two-part virtual workshop, Space Weather Operations and Research Infrastructure, on June 16-17 and September 9-11, 2020. The overall goals of the workshop were to review present space weather monitoring and forecasting capabilities, to consider future observational infrastructure and research needs, and to consider options toward the further development of an effective, resilient, and achievable national space weather program. This publication summarizes the presentation and discussion of the workshop.",
+          "year": 2021,
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 4192,
+  "saved_at": "2026-03-23T11:22:42.524545"
+}

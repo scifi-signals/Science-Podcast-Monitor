@@ -1,0 +1,713 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Apple: trying to think different for 50 years",
+  "host": "Ira Flatow",
+  "published": "2026-03-23T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 17.966666666666665,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode features tech journalist David Pogue discussing Apple's 50-year history and innovation trajectory. The conversation covers Apple's founding by Steve Jobs and Steve Wozniak, their philosophy of bringing advanced technology to mass markets, key innovations like the graphical user interface and iPhone, and the company's evolution under Tim Cook's leadership. Pogue emphasizes that Apple's success has primarily stemmed from perfecting and marketing existing technologies rather than pure invention, while noting the shift from Jobs' focus on revolutionary hardware platforms to Cook's emphasis on services and software.",
+  "science_topics": [
+    "Multi-touch screen technology development",
+    "Self-driving vehicle technology (Project Titan)",
+    "Circuit design and computer hardware engineering",
+    "Graphical user interface design",
+    "Smart glasses and augmented reality displays"
+  ],
+  "claims_to_note": [
+    "Apple invented the computer mouse (stated as false by Pogue - Apple refined Xerox Park's design)",
+    "Apple did not invent Wi-Fi, CD burning, laser printing, or networking - only perfected them",
+    "Project Titan spent $10 billion over 10 years with 1,200 engineers and failed to achieve fully self-driving capability",
+    "Apple Music is now larger in revenue than Spotify (claim about relative business sizes)"
+  ],
+  "policy_relevance": [
+    "Discussion of Apple's approach to intellectual property and technology refinement versus invention",
+    "Reference to corporate poaching of engineering talent from Tesla, Ford, and Mercedes for Project Titan",
+    "Mention of iTunes Store's role in reshaping the music industry licensing model",
+    "Contrasts between proprietary Apple model and open licensing approaches (Spotify vs. Apple Music services)"
+  ],
+  "key_quotes": [
+    "Their mission, love them or hate them, has never changed...their goal was to take advanced technology and bring it to the masses. And that's still kind of what they do.",
+    "Apple's genius is identifying fledgling new technologies that could be perfected and polished and made palatable to the masses. And then yes, marketing the hell out of it.",
+    "You don't ask what would Steve do. Just do what's right. But in fact, they really do stick to the principles that Jobs believed in."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Multi-touch screen technology development",
+      "publications": [
+        {
+          "id": "27830",
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "high magnetic field science",
+            "high magnetic field technologies",
+            "magnetic resonance imaging enables",
+            "while nuclear magnetic resonance",
+            "critical materials access necessary",
+            "workforce facilities magnet development",
+            "high magnetic fields",
+            "proposed fusion energy reactors",
+            "identify scientific opportunities",
+            "science foundation",
+            "current status",
+            "technology",
+            "direction"
+          ],
+          "description": "High magnetic fields are a vital tool in many areas of science and technology that impact our everyday lives. Magnetic resonance imaging enables a wide range of medical diagnostics and research, while nuclear magnetic resonance is critical for drug discovery research and more. High magnetic fields are an essential component to many proposed fusion energy reactors and are necessary to push the boundaries towards the development of new quantum technologies and semiconductors. At the request of the National Science Foundation, the National Academies organized a study to identify scientific opportunities and key applications for high-magnetic-field science and technology for the next decade and beyond. This report explores the current state and future prospects for high-magnetic-field technologies and recommends actions to support the workforce, facilities, magnet development, and critical materials access necessary to promote U.S. innovation.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "13354",
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "restoring nasa",
+            "technological edge",
+            "priorities",
+            "paving",
+            "way",
+            "era"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        },
+        {
+          "id": "23582",
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "priorities revisited"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Self-driving vehicle technology (Project Titan)",
+      "publications": [
+        {
+          "id": "13354",
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "restoring nasa",
+            "technological edge",
+            "priorities",
+            "paving",
+            "way",
+            "era"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        },
+        {
+          "id": "27830",
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "high magnetic field science",
+            "high magnetic field technologies",
+            "magnetic resonance imaging enables",
+            "while nuclear magnetic resonance",
+            "critical materials access necessary",
+            "workforce facilities magnet development",
+            "high magnetic fields",
+            "proposed fusion energy reactors",
+            "identify scientific opportunities",
+            "science foundation",
+            "current status",
+            "technology",
+            "direction"
+          ],
+          "description": "High magnetic fields are a vital tool in many areas of science and technology that impact our everyday lives. Magnetic resonance imaging enables a wide range of medical diagnostics and research, while nuclear magnetic resonance is critical for drug discovery research and more. High magnetic fields are an essential component to many proposed fusion energy reactors and are necessary to push the boundaries towards the development of new quantum technologies and semiconductors. At the request of the National Science Foundation, the National Academies organized a study to identify scientific opportunities and key applications for high-magnetic-field science and technology for the next decade and beyond. This report explores the current state and future prospects for high-magnetic-field technologies and recommends actions to support the workforce, facilities, magnet development, and critical materials access necessary to promote U.S. innovation.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "23582",
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "technology development portfolio",
+            "space technology programs",
+            "draft technology roadmaps",
+            "identify technology needs",
+            "operations mission directorate",
+            "science mission directorate",
+            "achieve progress nasa",
+            "space technologies",
+            "nasa space",
+            "advanced technology",
+            "nasa space technology roadmaps",
+            "priorities revisited"
+          ],
+          "description": "Historically, the United States has been a world leader in aerospace endeavors in both the government and commercial sectors. A key factor in aerospace leadership is continuous development of advanced technology, which is critical to U.S. ambitions in space, including a human mission to Mars. To continue to achieve progress, NASA is currently executing a series of aeronautics and space technology programs using a roadmapping process to identify technology needs and improve the management of its technology development portfolio. NASA created a set of 14 draft technology roadmaps in 2010 to guide the development of space technologies. In 2015, NASA issued a revised set of roadmaps. A significant new aspect of the update has been the effort to assess the relevance of the technologies by listing the enabling and enhancing technologies for specific design reference missions (DRMs) from the Human Exploration and Operations Mission Directorate and the Science Mission Directorate. NASA Space T",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Circuit design and computer hardware engineering",
+      "publications": [
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        },
+        {
+          "id": "25216",
+          "title": "Science and Engineering for Grades 6-12: Investigation and Design at the Center",
+          "url": "https://nap.nationalacademies.org/catalog/25216/science-and-engineering-for-grades-6-12-investigation-and-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "It is essential for today's students to learn about science and engineering in order to make sense of the world around them and participate as informed members of a democratic society. The skills and ways of thinking that are developed and honed through engaging in scientific and engineering endeavors can be used to engage with evidence in making personal decisions, to participate responsibly in civic life, and to improve and maintain the health of the environment, as well as to prepare for careers that use science and technology. The majority of Americans learn most of what they know about science and engineering as middle and high school students. During these years of rapid change for students' knowledge, attitudes, and interests, they can be engaged in learning science and engineering through schoolwork that piques their curiosity about the phenomena around them in ways that are relevant to their local surroundings and to their culture. Many decades of education research provide st",
+          "year": 2019,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "high school students",
+            "making personal decisions",
+            "learning science",
+            "participate responsibly",
+            "use science",
+            "phenomena around",
+            "americans learn",
+            "democratic society",
+            "local surroundings",
+            "world around",
+            "investigation",
+            "science",
+            "grades",
+            "design",
+            "center"
+          ]
+        },
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Graphical user interface design",
+      "publications": [
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        },
+        {
+          "id": "25912",
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Computing in some form touches nearly every aspect of day to day life and is reflected in the ubiquitous use of cell phones, the expansion of automation into many industries, and the vast amounts of data that are routinely gathered about people's health, education, and buying habits. Computing is now a part of nearly every occupation, not only those in the technology industry. Given the ubiquity of computing in both personal and professional life, there are increasing calls for all learners to participate in learning experiences related to computing including more formal experiences offered in schools, opportunities in youth development programs and after-school clubs, or self-initiated hands-on experiences at home. At the same time, the lack of diversity in the computing workforce and in programs that engage learners in computing is well-documented. It is important to consider how to increase access and design experiences for a wide range of learners. Authentic experiences in STEM - t",
+          "year": 2021,
+          "committee": "Computer Science and Telecommunications Board",
+          "keywords": [
+            "formal experiences offered",
+            "youth development programs",
+            "form touches nearly",
+            "self initiated hands",
+            "computing workforce",
+            "authentic experiences",
+            "learning experiences",
+            "design experiences",
+            "engage learners",
+            "professional life",
+            "cultivating interest",
+            "design factors",
+            "competencies",
+            "computing"
+          ]
+        },
+        {
+          "id": "27877",
+          "title": "Bus Operator Barrier Design: Guidelines and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/27877/bus-operator-barrier-design-guidelines-and-considerations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "installing bus operator barriers",
+            "assaults against transit workers",
+            "bus operator barrier design",
+            "tampa florida bus operator",
+            "non government policymaking organizations",
+            "bus operator health",
+            "transit bus operators",
+            "another operator",
+            "two extreme examples",
+            "security barriers",
+            "considerations",
+            "guidelines"
+          ],
+          "description": "The nation was reminded of the importance of security barriers for transit bus operators by the fatal attack on a Tampa, Florida bus operator in 2019. The need for security barriers was reinforced by a serious attack on another operator for that same system later that year. While these are two extreme examples, they are likely not unique, as many assaults against transit workers have been underreported in the past. Another important but more pernicious risk to bus operator health is viral and bacterial infection.TCRP Research Report 249: Bus Operator Barrier Design: Guidelines and Considerations, from TRB's Transit Cooperative Research Program, provides information and guidance for North American public transportation agencies, standards committees, and government and non-government policymaking organizations on designing, procuring, and installing bus operator barriers to prioritize the health and safety of essential operators and the public they serve.",
+          "year": 2024,
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Smart glasses and augmented reality displays",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "complex real world environments",
+            "achieving optimal performance",
+            "although artificial intelligence",
+            "human operations",
+            "successful performance",
+            "military operations",
+            "limitations mean",
+            "causation important",
+            "potential benefits",
+            "remain inadequate",
+            "teaming",
+            "human",
+            "state",
+            "needs",
+            "art"
+          ],
+          "description": "\"Although artificial intelligence (AI) has many potential benefits, it has also been shown to suffer from a number of challenges for successful performance in complex real-world environments such as military operations, including brittleness, perceptual limitations, hidden biases, and lack of a model of causation important for understanding and predicting future events. These limitations mean that AI will remain inadequate for operating on its own in many complex and novel situations for the foreseeable future, and that AI will need to be carefully managed by humans to achieve their desired utility. Human-AI Teaming: State-of-the-Art and Research Needs examines the factors that are relevant to the design and implementation of AI systems with respect to human operations. This report provides an overview of the state of research on human-AI teaming to determine gaps and future research priorities and explores critical human-systems integration issues for achieving optimal performance.\"--",
+          "year": 2021,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        },
+        {
+          "id": "26053",
+          "title": "The Role of Transit, Shared Modes, and Public Policy in the New Mobility Landscape",
+          "url": "https://nap.nationalacademies.org/catalog/26053/the-role-of-transit-shared-modes-and-public-policy-in-the-new-mobility-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "local transit",
+            "measures include providing travelers",
+            "service offerings smartphone applications",
+            "goal setting experimentation testing",
+            "ride hailing scooter sharing",
+            "transit shared modes",
+            "shared mobility providers",
+            "multiple transportation modes",
+            "scale shared modes",
+            "potentially transformative benefits",
+            "enhance mobility equity",
+            "mobility landscape",
+            "public policy"
+          ],
+          "description": "If combined with public transit and increased in scale, shared modes of transportation, such as ride-hailing, scooter sharing, and bike sharing can enhance mobility, equity, and sustainability in metropolitan areas. Cities, transit agencies, and shared mobility providers should collaborate in goal-setting, experimentation, testing, and implementation. These are among the findings in TRB Special Report 337: The Role of Transit, Shared Modes, and Public Policy in the New Mobility Landscape, from TRB and The National Academy of Sciences, Engineering, and Medicine. The report's authors recommend deliberate and strategic measures in order to realize the full and potentially transformative benefits of shared services. These measures include providing travelers with real- or near real-time information on combinations of available price and service offerings, smartphone applications that simplify the process of arranging and paying for the use of multiple transportation modes for a single trip",
+          "year": 2021,
+          "page_keywords": [
+            "Local transit"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3054,
+  "saved_at": "2026-03-23T11:22:42.523281"
+}
