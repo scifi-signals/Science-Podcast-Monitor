@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 24, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 24, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">61</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">73</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals convergence across three critical infrastructure and scientific challenges: groundwater depletion (one-third of aquifers globally declining 4-20+ inches/year), climate-driven cryosphere collapse (Thwaites Glacier melting at unexpectedly high rates due to feedback mechanisms), and biosecurity policy realignment (need to balance biotechnology innovation against bioeconomic risks from China's competitive advantage). Recurring themes across the week include water security (aquifer depletion, urban scarcity, desalination), climate impacts on natural systems (ice loss, pollinator extinction threats affecting two-thirds of human caloric intake), and national competitiveness in strategic technologies (biotech, CAR-T therapies, biomanufacturing). Notably, flowering plant evolution and climate-related biodiversity loss appeared twice in recent days, signaling sustained media attention to ecosystem fragility.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Climate change acceleration and measurement challenges (groundwater depletion, ice shelf collapse, biodiversity threats)</li>
+<li>National security and technological competitiveness (China's biotech leadership in CAR-T trials, antibiotic manufacturing outsourcing, bioeconomic security)</li>
+<li>Critical infrastructure vulnerability (aquifer depletion in agricultural regions, ice shelf feedback mechanisms driving unpredictable collapse)</li>
+<li>Data and monitoring gaps limiting policy response (international groundwater data unreliability, need for continued Antarctic ice-ocean measurements)</li>
+<li>Evolutionary biology and ecosystem services (flowering plants providing two-thirds of calories, pollinator specificity at extinction risk)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Bioeconomic security framing—shift from WMD-focused biosecurity to supply-chain and AI-enabled biotechnology risks (Edward Yu episode, emerging biosecurity discourse)</li>
+<li>Robotic science platforms for extreme-environment monitoring—Icefin submersibles for subglacial and potentially extraterrestrial ocean exploration (builds on week-long Earth systems monitoring emphasis)</li>
+<li>Feedback loop dynamics in climate systems—crevasse melting and ice-shelf collapse mechanisms exceed temperature-only models, paralleling aquifer depletion complexity (new mechanistic detail on climate tipping points)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or host convening on groundwater governance—synthesize 1,700-aquifer dataset findings with policy barriers to cross-border water agreements; NASEM could facilitate international data standardization and best-practice documentation from recovery success stories</div>
+<div class="opportunity">Biosecurity policy brief aligning innovation enablement with national security—leverage NASEM's bridge role between science and policy to reframe biotech oversight as competitive advantage strategy rather than restriction-based approach</div>
+<div class="opportunity">Interdisciplinary assessment of climate feedback mechanisms—partner with cryosphere scientists (Schmidt) and hydrologists to model coupled ice-ocean-aquifer destabilization scenarios informing long-term infrastructure planning</div>
+<div class="opportunity">Biodiversity and food security nexus study—examine extinction threats to orchids, magnolias, and pollinator-dependent crops in context of climate adaptation strategies</div>
+<div class="opportunity">Robotics and instrumentation for critical monitoring—highlight NASEM's role in identifying funding gaps for submersible platforms and monitoring networks essential for real-time climate and water-systems data</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Sonic boom episode contains minor accuracy flag: Speed of sound stated as 700 mph is slightly low (actual ~761 mph at sea level), though not materially misleading for public understanding</div>
+<div class="claim">Mars dust storm capability claims debunked correctly by Tyson—media portrayal exaggerates thin-atmosphere dynamics; this represents good science communication rather than misinformation to track</div>
+<div class="claim">No significant misinformation detected in climate, water, or biosecurity coverage; all claims align with peer-reviewed literature (aquifer decline, ice-melt mechanics, CAR-T competitiveness)</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Water Security and Climate-Driven Resource Depletion</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on aquifer depletion and water scarcity as urgent infrastructure and climate challenges. Short Wave covered both groundwater depletion (Ogallala Aquifer sustainability, land subsidence) and urban water crises (Day Zero events, desalination responses) within 24 hours, signaling this is accelerating from regional to systemic concern. The narrative is shifting from theoretical climate impacts to immediate policy and engineering solutions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize convening expertise on aquifer recharge innovation, desalination technology scalability, and integrated water-land management policy to inform federal and state adaptation strategies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI System Reliability and Dual-Use Governance</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL and TechTank are identifying overlapping concerns about deploying AI in high-stakes contexts—synthetic biology's dual-use risks, LLM reliability in classified systems, autonomous weapons assessment, and de-anonymization via commercial data. These discussions suggest policymakers are moving beyond capability debates toward governance of *operational* AI systems where errors have cascading consequences.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop a cross-disciplinary assessment of AI reliability standards for government and defense applications, including red-teaming protocols and failure mode documentation.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antimicrobial Resistance and Evolutionary Adaptation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab's deep dive into MRSA and antibiotic resistance mechanisms, combined with broader microbial evolution coverage across shows, reveals antimicrobial resistance moving from clinical concern to evolutionary biology narrative. The focus on how bacteria *adapt* to pharmaceutical pressure suggests a reframing from treatment failure to evolutionary inevitability, which may shift policy from individual drug development to system-level stewardship.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission an assessment of antibiotic stewardship policies and incentive structures for developing non-traditional antimicrobials or alternative infection control strategies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biotechnology Manufacturing and Clinical Translation Pipelines</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL, The Life Science Rundown, and Nature Podcast are converging on the infrastructure between discovery and deployment: mRNA vaccine manufacturing bottlenecks, CAR-T clinical trial logistics, pharmaceutical CMC (Chemistry, Manufacturing, Controls) planning, and plant alkaloid biosynthesis scaling. Shows are moving beyond celebrating innovations toward examining whether production systems can meet demand.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess domestic biomanufacturing capacity and supply chain resilience for novel therapeutics, including recommendations for surge capacity and workforce development.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Rapid Evolutionary Adaptation to Environmental Stressors</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave, Science Friday, and Shaping Science are documenting evolution happening on observable timescales—Scarlet monkey flower drought adaptation, glacier ice-shelf stress feedback loops, coral heat tolerance, orchid-pollinator coevolution—moving beyond theoretical models to real-time ecological responses. This signals emerging research on how quickly biological systems adjust to anthropogenic pressure, with implications for conservation feasibility.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene ecosystem ecologists and evolutionary biologists to assess whether observed adaptation rates can sustain biodiversity under projected climate change scenarios and inform conservation prioritization.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Things You Thought You Knew – Sonic BOOM!</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Mar 24 &middot; 40 min</div>
+<p style="margin:10px 0;font-size:14px;">Neil deGrasse Tyson explains three "things you thought you knew" topics: sonic booms, daily temperature cycles, and wind. He covers how sonic booms form when objects exceed the speed of sound, why the hottest part of the day occurs hours after solar noon due to atmospheric heat absorption lag, and how wind results from unequal heating of Earth's surface creating pressure differences. The episode debunks common misconceptions including why desert temperatures have extreme ranges, how humidity affects temperature stability, and why Mars dust storms cannot actually topple spacecraft despite their visual drama in popular media.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sonic booms and supersonic flight physics</span>
+  <span class="topic-tag">Speed of sound in air (approximately 700 mph at sea level)</span>
+  <span class="topic-tag">Mach numbers and transonic flight</span>
+  <span class="topic-tag">Shock waves and compression waves</span>
+  <span class="topic-tag">Whip cracking as mini sonic booms</span>
+  <span class="topic-tag">Cherenkov radiation (light booms in transparent media)</span>
+  <span class="topic-tag">Solar radiation and atmospheric heating mechanisms</span>
+  <span class="topic-tag">Infrared radiation and heat absorption</span>
+  <span class="topic-tag">Greenhouse gases and water vapor in atmosphere</span>
+  <span class="topic-tag">Daily temperature cycles and diurnal temperature variation</span>
+  <span class="topic-tag">Thermal lag between solar input and atmospheric response</span>
+  <span class="topic-tag">Desert temperature extremes (40+ degree daily ranges)</span>
+  <span class="topic-tag">Temperature inversion and tropospheric structure</span>
+  <span class="topic-tag">Atmospheric pressure and wind generation</span>
+  <span class="topic-tag">Coriolis effect on moving air masses</span>
+  <span class="topic-tag">Hurricane formation and low-pressure systems</span>
+  <span class="topic-tag">Trade winds and doldrums (ITCZ regions)</span>
+  <span class="topic-tag">Martian dust storms and thin atmosphere dynamics</span>
+  <span class="topic-tag">Unequal planetary heating and convection</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington" target="_blank">Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings" target="_blank">Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning" target="_blank">Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans" target="_blank">Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Speed of sound in typical sea-level air is approximately 700 mph - this is accurate (actual value ~761 mph or 343 m/s)</div>
+<div class="claim">Concorde was a collaboration between France and England - partially accurate, though it was officially a joint Anglo-French program</div>
+<div class="claim">Concorde flights primarily went to New York, London, and Paris - accurate for transatlantic routes</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It's like your plane made a wake of nothing that is being filled with the sound that you left behind...the sonic boom hits you. It's a wall of sound. It's compressed because the plane left it behind and all the sound that it would have made that you would have heard ahead of it is now all behind it in a wall."</div>
+<div class="quote">"The ground absorbs the sunlight...That heats the molecules on Earth's surface. Then the molecules re-radiate that same energy, but in a different part of the spectrum...as infrared. And the infrared gets absorbed by the atmosphere. So there is a time delay between when the sun is slamming us with visible light and when Earth's surface responds back with infrared heating the air."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The world has a groundwater problem. Can we solve it?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 24 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the global groundwater crisis, focusing on how aquifers—underground layers that hold water used for half of humanity's water consumption—are being depleted at alarming rates. A 2024 scientific study analyzing 1,700 aquifers worldwide found that approximately one-third are losing groundwater, with some declining over 20 inches per year, particularly in dry regions with intensive agriculture like India, the U.S., China, Mexico, and Saudi Arabia. The episode examines the complex challenges of addressing this problem, including the difficulty of obtaining reliable international data, the interconnected economic impacts on farming communities, and the political barriers to cross-border water-sharing agreements, while also highlighting some success stories where aquifers have begun to recover through active water management.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Groundwater depletion and aquifer decline</span>
+  <span class="topic-tag">Ogallala/High Plains Aquifer</span>
+  <span class="topic-tag">Aquifer recharge rates and sustainability</span>
+  <span class="topic-tag">Land subsidence from aquifer depletion</span>
+  <span class="topic-tag">Saltwater intrusion in coastal aquifers</span>
+  <span class="topic-tag">GRACE satellite gravity measurements for groundwater monitoring</span>
+  <span class="topic-tag">Monitoring well data collection and analysis</span>
+  <span class="topic-tag">Guarani Aquifer management</span>
+  <span class="topic-tag">Precipitation decline and groundwater recharge</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan" target="_blank">Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23533/transitioning-toward-sustainability-advancing-the-scientific-foundation-proceedings-of-a" target="_blank">Transitioning Toward Sustainability: Advancing the Scientific Foundation: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25821/strengthening-sustainability-programs-and-curricula-at-the-undergraduate-and-graduate-levels" target="_blank">Strengthening Sustainability Programs and Curricula at the Undergraduate and Graduate Levels</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan" target="_blank">Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10521/regional-issues-in-aquifer-storage-and-recovery-for-everglades-restoration" target="_blank">Regional Issues in Aquifer Storage and Recovery for Everglades Restoration: A Review of the ASR Regional Study Project Management Plan of the Comprehensive Everglades Restoration Plan</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18811/reducing-coastal-risk-on-the-east-and-gulf-coasts" target="_blank">Reducing Coastal Risk on the East and Gulf Coasts</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research" target="_blank">Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Groundwater is responsible for about half of the water people use globally</div>
+<div class="claim">Approximately one-third of aquifer systems studied are experiencing declining groundwater levels</div>
+<div class="claim">On average, aquifers with declining water are losing more than 4 inches per year; some are losing more than 20 inches per year</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Groundwater is responsible for about half of the water people use globally."</div>
+<div class="quote">"When you have declines in precipitation, you're getting hit twice. You're getting hit with supply because you no longer have that recharge... And then you're also getting hit with demand because now people don't have other sources of water."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: The secret powers of flowers</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 24 &middot; 17 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. David George Haskell discusses how flowering plants, which evolved approximately 130 million years ago, represent a major revolution in Earth's evolutionary history comparable to the rise of dinosaurs. Rather than being merely ornamental, flowers fundamentally transformed planetary ecosystems by establishing cooperative relationships with pollinators through beauty and aroma, and enabled the emergence of rainforests, prairies, and grasslands. The episode highlights how grasses—a type of flowering plant—provide two-thirds of human global caloric intake and were instrumental in human evolution, while also exploring the remarkable specificity of flower-pollinator relationships exemplified by orchids. The discussion concludes by noting that approximately 50% of orchids and magnolias face extinction threats from climate change and human activity, though some flowering plants demonstrate adaptive capacity.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Flowering plant evolution and radiation (130 million years ago)</span>
+  <span class="topic-tag">Flower-pollinator coevolution and specificity</span>
+  <span class="topic-tag">Orchid pollination mechanisms and deception strategies</span>
+  <span class="topic-tag">Grass evolution and grass-pollinator relationships</span>
+  <span class="topic-tag">Seagrass biology and carbon storage</span>
+  <span class="topic-tag">Plant reproductive innovation (enclosed seeds, fruits, efficient pollination)</span>
+  <span class="topic-tag">Speciation through pollinator-flower specificity</span>
+  <span class="topic-tag">Plant genetic diversity and rapid diversification</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25232/gaseous-carbon-waste-streams-utilization-status-and-research-needs" target="_blank">Gaseous Carbon Waste Streams Utilization: Status and Research Needs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Flowering plants evolved approximately 130 million years ago and dominated most planetary habitats within a handful of million years—flagged as Darwin's 'abominable mystery,' now explained by genetic flexibility</div>
+<div class="claim">Two-thirds of human dietary calories derive from three grass species: wheat, maize, and rice</div>
+<div class="claim">Approximately 50% of orchid species and 50% of magnolia species are threatened with extinction</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Flowers are not just beautiful. They are critical to the diversity of life as we know it and to food and agriculture."</div>
+<div class="quote">"Flowers offer an alternative view of how the world can be changed and transformed. And that is through interconnection, often mediated by interspecies experiences of beauty."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Shaping Science: #14 Britney Schmidt on Robotic Submersibles, Rising Sea Levels, and the Potential of Extraterrestrial Life</span>
+</div>
+<div class="episode-meta">Nick Dirks (New York Academy of Sciences) &middot; Mar 23 &middot; 56 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Britney Schmidt discusses her development of Icefin, a remotely operated robotic submersible designed to explore beneath ice shelves in Antarctica and eventually on Europa. The conversation covers how Icefin has provided unprecedented direct measurements of ice-ocean interactions at glacier grounding lines, revealing complex melting dynamics and feedback mechanisms driving ice shelf collapse. Schmidt emphasizes that while climate change is accelerating ice loss, continued scientific measurement and monitoring are essential for accurate forecasting and adaptive planning, alongside necessary emissions reductions.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Subglacial lake exploration using remotely operated vehicles (ROVs)</span>
+  <span class="topic-tag">Glacier grounding line dynamics and ice-ocean interactions</span>
+  <span class="topic-tag">Tidewater glacier melting rates and mechanisms</span>
+  <span class="topic-tag">Crevasse formation and stress feedback loops in ice shelves</span>
+  <span class="topic-tag">Thwaites Glacier acceleration and instability</span>
+  <span class="topic-tag">Ross Ice Shelf oceanography and temperature gradients</span>
+  <span class="topic-tag">Europa's subsurface ocean habitability and hydrothermal activity</span>
+  <span class="topic-tag">Tidal heating of icy ocean moons</span>
+  <span class="topic-tag">Radar imaging of ice shell structure on ocean moons</span>
+  <span class="topic-tag">Benthic ecology of Antarctic seafloor</span>
+  <span class="topic-tag">Freshwater plume dynamics at ice-ocean interface</span>
+  <span class="topic-tag">Mass spectrometry for detecting ocean chemistry</span>
+  <span class="topic-tag">Multi-instrument platform design for extreme environments</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration" target="_blank">Plasma Science: Enabling Technology, Sustainability, Security, and Exploration</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match">Sea Change: 2015-2025 Decadal Survey of Ocean Sciences</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science" target="_blank">Understanding and Addressing Misinformation About Science</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Thwaites Glacier is 'the fastest changing glacier in Antarctica'</div>
+<div class="claim">Observed melt rates in crevasses at Thwaites are 'at least an order of magnitude higher' than expected from temperature models alone</div>
+<div class="claim">The ice shelf observed was melting 'about what you'd expect maybe even a little less' in vertical melting, but feedback mechanisms explain faster overall ice loss</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What it's showing us is that it's, the melting really matters because it kicks this whole thing off, right? It changes how fast the ice is flowing. But how fast the ice is flowing also changes how fast it's cracking. And then it changes the stress... And that is this feedback that we never saw before."</div>
+<div class="quote">"At this point in time, right, anyone I think who's a credible scientist that studies any of these systems understands that they're changing, understands that they're changing because of human-caused problems, understands that they're changing quickly, and that the rate of that change is also increasing. None of this changes that. What it changes is our ability to forecast when we have to move people."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Policy IRL (The Ongoing Transformation): Edward You Protected America From Bioterror</span>
+</div>
+<div class="episode-meta">Issues in Science & Technology &middot; Mar 24 &middot; 44 min</div>
+<p style="margin:10px 0;font-size:14px;">Edward Yu, a biochemist-turned-FBI agent who spent 20 years in law enforcement before recently retiring, discusses how biosecurity policy must evolve beyond traditional WMD concerns to address "bioeconomic" security challenges. He argues that biotechnology's convergence with AI, data acquisition, and global supply chains creates national security risks that require reframing security as enabling innovation rather than restricting it. Yu emphasizes that the U.S. risks losing leadership in biotechnology to competitors like China if it doesn't make strategic investments in education, biomanufacturing capacity, and community engagement while simultaneously protecting critical data and supply chains.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">CRISPR gene editing and its data dependencies</span>
+  <span class="topic-tag">Synthetic biology and its dual-use applications</span>
+  <span class="topic-tag">CAR-T cell immunotherapy development and clinical trials</span>
+  <span class="topic-tag">mRNA vaccine development and manufacturing</span>
+  <span class="topic-tag">Retroviral gene therapy delivery systems</span>
+  <span class="topic-tag">Human gene therapy in autoimmune diseases</span>
+  <span class="topic-tag">Cancer research and therapeutics</span>
+  <span class="topic-tag">Genetic sequence acquisition and analysis</span>
+  <span class="topic-tag">Engineered microorganisms for pharmaceutical precursor production</span>
+  <span class="topic-tag">Biofuel production from agricultural feedstocks (biodiesel, ethanol)</span>
+  <span class="topic-tag">Artificial intelligence applications in biotechnology</span>
+  <span class="topic-tag">Genomic data security and privacy implications</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing" target="_blank">Heritable Human Genome Editing</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance" target="_blank">Human Genome Editing: Science, Ethics, and Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation" target="_blank">AI Applications for Automatic Pavement Condition Evaluation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of" target="_blank">Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Graduate STEM Education for the 21st Century</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">China is sponsoring more CAR-T cell clinical trials than any other country, including internationally</div>
+<div class="claim">China has taken significant market share from the EU and U.S. in innovative drug development</div>
+<div class="claim">The U.S. completely outsources antibiotic manufacturing to China</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Biosecurity is not just worrying about the pathogens and toxins in high containment labs. It is now bioeconomic, meaning that biotechnology is going to impact in multiple critical sectors like health, food, agriculture, manufacturing, energy production. And we are just not positioned to look at security in the way that's commensurate with how biotech is being deployed in those areas."</div>
+<div class="quote">"The nightmare scenario for me today...is as we speak, companies like OpenAI, Anthropic, Meta, they're looking at the convergence of AI and biotech...we're going to wake up one day and realize, well, hell, we just became healthcare crack addicts and China's become our pusher."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">73 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Space and Astronomy (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts about Mars exploration, lunar impacts, exoplanets, space missions, and astronomical observations dominate the feed.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Seismology and Earthquake Monitoring (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts document the M7.5 Tonga Islands earthquake with citizen science seismometer observations across global locations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Science (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts address carbon emissions, renewable energy, record-breaking temperatures, and ecosystem impacts of climate change.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Funding and Career Opportunities (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Announcements of fellowship programs, job postings, and funding opportunities for early-career scientists.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Communication and Research Quality (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Critical discussions about defining scientific terms, bullshit receptivity in organizations, and evidence standards in health research.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@rebeccarhelm.bsky.social</div>
+  <div class="bluesky-stats">389 likes &middot; 166 reposts &middot; 10 replies</div>
+  <div class="bluesky-text">Semi-regular reminder: 
+Baby open-ocean octopuses sometimes ride on jellyfish like little hats.
+📸 Songda Cai bit.ly/2ZmNZZH 🧪🪼🐙🦑🌿</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/rebeccarhelm.bsky.social/post/3mhrmdphmnc23" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">189 likes &middot; 111 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">As we self-destruct, China moves ahead.
+
+Fewer grants were awarded this year. A recent survey of #NIH funded scientists revealed that they had to close their labs, reduce work.
+
+Fewer grants = fewer grad students = slow innovation 
+
+This is on Jay Bhattacharya et al.
+🧪 www.nature.com/articles/d41...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhrbjnvlk22o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">233 likes &middot; 38 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">Heat pumps for all new homes and plug-in solar in green tech drive. 🧪 www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mhrz3466lc2q" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drnereide.bsky.social</div>
+  <div class="bluesky-stats">105 likes &middot; 14 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">🧵1/3
+This fascinating image, showing the Chryse Planitia region of #Mars, was taken by Viking Lander 1 about 15 min before sunset on 21 Aug. 1976, just a month after the lander touched down.
+
+The camera is pointed southwest.🔭 🧪 ⚛️
+
+➡️ photojournal.jpl.nasa.gov/catalog/PIA0...
+
+Credit: NASA/JPL
+
+#spa</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drnereide.bsky.social/post/3mhra4i3gws2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidho.bsky.social</div>
+  <div class="bluesky-stats">88 likes &middot; 27 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">I had a time series of mangrove carbon export for many years, and then it was hit by Hurricane Irma. The result is some pretty interesting science.
+
+People want mangroves to take up more CO₂ from the atmosphere, but with climate change and more extreme storms, they're probably going to do less. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidho.bsky.social/post/3mhqzor3hq22g" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Funding and Scientific Capacity</strong>: Post #2 raises concerns about declining NIH grant awards and lab closures affecting research capacity and graduate training, directly relevant to NASEM's role in advising on research policy and scientific workforce development.</div>
+<div class="nasem-match"><strong>Science Communication and Public Understanding</strong>: Posts #28 and #17 address research definition standards and organizational communication quality, relevant to NASEM's interest in improving science communication and establishing evidence-based scientific practices.</div>
+<div class="nasem-match"><strong>Climate Change and Environmental Resilience</strong>: Posts #5, #30, and #34 document climate impacts on ecosystems and carbon emissions, aligning with NASEM's work on climate adaptation, environmental sustainability, and climate science assessment.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 24, 2026 at 11:51 AM | Internal use only
+    </div>
+</body>
+</html>

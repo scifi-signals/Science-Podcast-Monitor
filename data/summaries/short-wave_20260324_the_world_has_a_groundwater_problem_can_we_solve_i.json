@@ -1,0 +1,568 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "The world has a groundwater problem. Can we solve it?",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-03-24T07:00:00",
+  "episode_url": "https://www.npr.org/2026/03/24/nx-s1-5670447/water-farmer-groundwater-aquifer",
+  "duration_minutes": 12.733333333333333,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores the global groundwater crisis, focusing on how aquifers—underground layers that hold water used for half of humanity's water consumption—are being depleted at alarming rates. A 2024 scientific study analyzing 1,700 aquifers worldwide found that approximately one-third are losing groundwater, with some declining over 20 inches per year, particularly in dry regions with intensive agriculture like India, the U.S., China, Mexico, and Saudi Arabia. The episode examines the complex challenges of addressing this problem, including the difficulty of obtaining reliable international data, the interconnected economic impacts on farming communities, and the political barriers to cross-border water-sharing agreements, while also highlighting some success stories where aquifers have begun to recover through active water management.",
+  "science_topics": [
+    "Groundwater depletion and aquifer decline",
+    "Ogallala/High Plains Aquifer",
+    "Aquifer recharge rates and sustainability",
+    "Land subsidence from aquifer depletion",
+    "Saltwater intrusion in coastal aquifers",
+    "GRACE satellite gravity measurements for groundwater monitoring",
+    "Monitoring well data collection and analysis",
+    "Guarani Aquifer management",
+    "Precipitation decline and groundwater recharge"
+  ],
+  "claims_to_note": [
+    "Groundwater is responsible for about half of the water people use globally",
+    "Approximately one-third of aquifer systems studied are experiencing declining groundwater levels",
+    "On average, aquifers with declining water are losing more than 4 inches per year; some are losing more than 20 inches per year",
+    "The 2024 scientific paper analyzed close to 1,700 aquifers representing about three-fourths of all land being tapped for groundwater",
+    "16% of aquifer systems studied showed recovery after losing water in the 1980s and 1990s",
+    "GRACE satellites can measure changes in Earth's gravitational field caused by water movement but cannot measure total water amounts or fine-scale details",
+    "There are hundreds to thousands of aquifers worldwide",
+    "Water withdrawals globally have grown much faster than global population"
+  ],
+  "policy_relevance": [
+    "2010 Guarani Aquifer agreement between Argentina, Brazil, Paraguay, and Uruguay on water sharing and data transparency",
+    "Guarani Aquifer agreement included commitments to share data, avoid transboundary harm, and ensure sustainable and equitable water use, though implementation has been slow",
+    "Cross-border aquifer management challenges where multiple countries must agree on water usage",
+    "International water governance and data reporting standards",
+    "Agricultural water policy and irrigation regulation in water-stressed regions"
+  ],
+  "key_quotes": [
+    "Groundwater is responsible for about half of the water people use globally.",
+    "When you have declines in precipitation, you're getting hit twice. You're getting hit with supply because you no longer have that recharge... And then you're also getting hit with demand because now people don't have other sources of water.",
+    "Everything we do is for our kids and for the future. But he admits it's going to be hard... Everything flows from water. And he knows something needs to change but it's going to take a lot of time and a lot of agreement."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Groundwater depletion and aquifer decline",
+      "publications": [
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "10061",
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "infectious-disease",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "comprehensive everglades restoration plan",
+            "major water storage component",
+            "upper floridan aquifer ufa",
+            "longer term dry periods",
+            "recovery during seasonal",
+            "excess surface water",
+            "total estimated cost",
+            "aquifer storage",
+            "pilot projects",
+            "recovery asr",
+            "western hillsboro areas",
+            "lake okeechobee",
+            "recovery",
+            "critique",
+            "plans"
+          ],
+          "description": "Aquifer storage and recovery (ASR) is a process by which water is recharged through wells to an aquifer and extracted for beneficial use at some later time from the same wells. ASR is proposed as a major water storage component in the Comprehensive Everglades Restoration Plan (CERP), developed jointly by the U.S. Army Corps of Engineers (USACE) and the South Florida Water Management District (SFWMD). The plan would use the Upper Floridan aquifer (UFA) to store as much as 1.7 billion gallons per day (gpd) (6.3 million m3/day) of excess surface water and shallow groundwater during wet periods for recovery during seasonal or longer-term dry periods, using about 333 wells. ASR represents about one-fifth of the total estimated cost of the CERP. Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan examines pilot project from the perspective of adaptive assessment, i.e., the extent to which the pilot projects will contribute to process understanding that can improve d",
+          "year": 2001,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25253",
+          "title": "Advancing Sustainability of U.S.-Mexico Transboundary Drylands: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25253/advancing-sustainability-of-us-mexico-transboundary-drylands-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "policy conditions increased exposure",
+            "groundwater availability disrupt land",
+            "dynamic population volatile economic",
+            "mexico transboundary drylands",
+            "drylands region shared",
+            "marginal vulnerable lands",
+            "advancing sustainability",
+            "biophysical challenges",
+            "challenges facing",
+            "livelihood systems"
+          ],
+          "description": "The drylands region shared by the United States and Mexico currently faces multiple sustainability challenges at the intersection of the human and natural systems. Warming and drying conditions threaten surface water and groundwater availability, disrupt land- and marine-based livelihood systems, and challenge the sustainability of human settlements. These biophysical challenges are exacerbated by a highly mobile and dynamic population, volatile economic and policy conditions, increased exposure to extreme events, and urbanization on marginal, vulnerable lands. The U.S. National Academies of Sciences, Engineering, and Medicine collaborated with the Mexican Academy of Sciences, Academy of Engineering, and the National Academy of Medicine to plan a 2-day binational workshop, Advancing Sustainability of U.S.-Mexico Transboundary Drylands. The workshop goals were to highlight the challenges facing the region, assess the scientific and technical capacity that each nation can bring to bear i",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Ogallala/High Plains Aquifer",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Aquifer recharge rates and sustainability",
+      "publications": [
+        {
+          "id": "23533",
+          "title": "Transitioning Toward Sustainability: Advancing the Scientific Foundation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23533/transitioning-toward-sustainability-advancing-the-scientific-foundation-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "achieve environmentally sustainable improvements",
+            "essential strategic connections",
+            "environmental decision making",
+            "brought significant advances",
+            "sustainability proposed",
+            "sustainability planning",
+            "technological development",
+            "predictive capabilities",
+            "social systems",
+            "societies efforts",
+            "scientific foundation",
+            "sustainability",
+            "transitioning",
+            "advancing"
+          ],
+          "description": "In 1999 the National Academies of Sciences, Engineering, and Medicine released a landmark report, Our Common Journey: A Transition toward Sustainability, which attempted to \"reinvigorate the essential strategic connections between scientific research, technological development, and societies' efforts to achieve environmentally sustainable improvements in human well-being.\"1 The report emphasized the need for place-based and systems approaches to sustainability, proposed a research strategy for using scientific and technical knowledge to better inform the field, and highlighted a number of priorities for actions that could contribute to a sustainable future. The past 15 years have brought significant advances in observational and predictive capabilities for a range of natural and social systems, as well as development of other tools and approaches useful for sustainability planning. In addition, other frameworks for environmental decision making, such as those that focus on climate adap",
+          "year": 2016,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "25821",
+          "title": "Strengthening Sustainability Programs and Curricula at the Undergraduate and Graduate Levels",
+          "url": "https://nap.nationalacademies.org/catalog/25821/strengthening-sustainability-programs-and-curricula-at-the-undergraduate-and-graduate-levels",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "qualified sustainability professionals within",
+            "interdisciplinary sustainability programs",
+            "select academic programs",
+            "potential specialized accreditation",
+            "graduate degree programs",
+            "developing core competencies",
+            "potential career options",
+            "strengthening sustainability",
+            "sustainability education",
+            "provide suitable guidance",
+            "strengthening sustainability programs",
+            "graduate levels",
+            "undergraduate",
+            "curricula"
+          ],
+          "description": "Over the past decade there has been a growing interest in sustainability education in colleges and universities across the United States, with a marked increase in the number of undergraduate and graduate degree programs, research institutes, and centers focused on sustainability. Evidence-based core competencies for interdisciplinary sustainability programs can provide suitable guidance for curricular and program development, research, policy, communication, and pedagogical approaches at academic institutions. They can also serve as a guide for students to select academic programs and potential career options, a reference for employers to understand qualifications of graduates, and the foundation for a potential specialized accreditation for interdisciplinary sustainability programs. The growing demand for well-qualified sustainability professionals within the public, private, and nonprofit sectors also points to the value of developing core competencies. Strengthening Sustainability ",
+          "year": 2020,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Higher Education and Workforce"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Land subsidence from aquifer depletion",
+      "publications": [
+        {
+          "id": "10061",
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "infectious-disease",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "comprehensive everglades restoration plan",
+            "major water storage component",
+            "upper floridan aquifer ufa",
+            "longer term dry periods",
+            "recovery during seasonal",
+            "excess surface water",
+            "total estimated cost",
+            "aquifer storage",
+            "pilot projects",
+            "recovery asr",
+            "western hillsboro areas",
+            "lake okeechobee",
+            "recovery",
+            "critique",
+            "plans"
+          ],
+          "description": "Aquifer storage and recovery (ASR) is a process by which water is recharged through wells to an aquifer and extracted for beneficial use at some later time from the same wells. ASR is proposed as a major water storage component in the Comprehensive Everglades Restoration Plan (CERP), developed jointly by the U.S. Army Corps of Engineers (USACE) and the South Florida Water Management District (SFWMD). The plan would use the Upper Floridan aquifer (UFA) to store as much as 1.7 billion gallons per day (gpd) (6.3 million m3/day) of excess surface water and shallow groundwater during wet periods for recovery during seasonal or longer-term dry periods, using about 333 wells. ASR represents about one-fifth of the total estimated cost of the CERP. Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan examines pilot project from the perspective of adaptive assessment, i.e., the extent to which the pilot projects will contribute to process understanding that can improve d",
+          "year": 2001,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "10521",
+          "title": "Regional Issues in Aquifer Storage and Recovery for Everglades Restoration: A Review of the ASR Regional Study Project Management Plan of the Comprehensive Everglades Restoration Plan",
+          "url": "https://nap.nationalacademies.org/catalog/10521/regional-issues-in-aquifer-storage-and-recovery-for-everglades-restoration",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "infectious-disease",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "comprehensive everglades restoration plan",
+            "project management plan",
+            "aquifer storage",
+            "asr regional",
+            "recovery"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Saltwater intrusion in coastal aquifers",
+      "publications": [
+        {
+          "id": "18811",
+          "title": "Reducing Coastal Risk on the East and Gulf Coasts",
+          "url": "https://nap.nationalacademies.org/catalog/18811/reducing-coastal-risk-on-the-east-and-gulf-coasts",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "coastal zone management",
+            "coastal risk reduction",
+            "reducing coastal risk",
+            "susceptible coastal areas",
+            "coastal flooding associated",
+            "coastal storms along",
+            "increased substantially during",
+            "countless smaller cities",
+            "gulf coasts reviews",
+            "sea level rise",
+            "coastal communities",
+            "gulf coasts",
+            "east"
+          ],
+          "description": "\"Hurricane- and coastal-storm-related losses have increased substantially during the past century, largely due to increases in population and development in the most susceptible coastal areas. Climate change poses additional threats to coastal communities from sea level rise and possible increases in strength of the largest hurricanes. Several large cities in the United States have extensive assets at risk to coastal storms, along with countless smaller cities and developed areas. The devastation from Superstorm Sandy has heightened the nation's awareness of these vulnerabilities. What can we do to better prepare for and respond to the increasing risks of loss? Reducing Coastal Risk on the East and Gulf Coasts reviews the coastal risk-reduction strategies and levels of protection that have been used along the United States East and Gulf Coasts to reduce the impacts of coastal flooding associated with storm surges. This report evaluates their effectiveness in terms of economic return, p",
+          "year": 2014,
+          "page_keywords": [
+            "Coastal zone management"
+          ]
+        },
+        {
+          "id": "27160",
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "carbon cycle ecosystem structure",
+            "climate warms data gathered",
+            "important earth processes",
+            "sea level rise",
+            "potential social economic",
+            "offer unique insights",
+            "rising sea level",
+            "coastal antarctica",
+            "antarctica hosts",
+            "changing ecosystems",
+            "antarctic nearshore",
+            "southern ocean",
+            "directions",
+            "coastal"
+          ],
+          "description": "Antarctica hosts some of the harshest and most remote environments on Earth - and it is a region of vital importance for scientific research. The environment and position of Antarctica on the globe mean that research conducted there can offer unique insights on important Earth processes, including rising sea level, the carbon cycle, ecosystem structure. As the climate warms, data gathered from Antarctic research will be essential to understanding how Earth processes are changing and the potential social, economic, and health impacts on both U.S. and global populations. This report identifies the highest priorities for research in the Southern Ocean and nearshore and coastal Antarctica, as well as gaps in current capabilities to support this research. Global sea level rise, heat and carbon budgets, and changing ecosystems are the three highest-priority science drivers for research in the region. To address those drivers and maintain a robust U.S. research presence in this vitally import",
+          "year": 2024,
+          "committee": "Polar Research Board"
+        },
+        {
+          "id": "27846",
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "keywords": [
+            "ocean",
+            "marine",
+            "sea",
+            "oceanography",
+            "coastal",
+            "marine science"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2405,
+  "saved_at": "2026-03-24T11:50:56.756695"
+}

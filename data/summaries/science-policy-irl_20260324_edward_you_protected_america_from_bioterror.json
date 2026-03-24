@@ -1,0 +1,680 @@
+{
+  "podcast_id": "science-policy-irl",
+  "podcast_name": "Science Policy IRL (The Ongoing Transformation)",
+  "episode_title": "Edward You Protected America From Bioterror",
+  "host": "Issues in Science & Technology",
+  "published": "2026-03-24T09:00:00",
+  "episode_url": "https://podcasters.spotify.com/pod/show/issuesinscienceandtech/episodes/Edward-You-Protected-America-From-Bioterror-e3gscdp",
+  "duration_minutes": 43.78333333333333,
+  "influence_tier": "emerging",
+  "category": "science_policy",
+  "summary": "Edward Yu, a biochemist-turned-FBI agent who spent 20 years in law enforcement before recently retiring, discusses how biosecurity policy must evolve beyond traditional WMD concerns to address \"bioeconomic\" security challenges. He argues that biotechnology's convergence with AI, data acquisition, and global supply chains creates national security risks that require reframing security as enabling innovation rather than restricting it. Yu emphasizes that the U.S. risks losing leadership in biotechnology to competitors like China if it doesn't make strategic investments in education, biomanufacturing capacity, and community engagement while simultaneously protecting critical data and supply chains.",
+  "science_topics": [
+    "CRISPR gene editing and its data dependencies",
+    "Synthetic biology and its dual-use applications",
+    "CAR-T cell immunotherapy development and clinical trials",
+    "mRNA vaccine development and manufacturing",
+    "Retroviral gene therapy delivery systems",
+    "Human gene therapy in autoimmune diseases",
+    "Cancer research and therapeutics",
+    "Genetic sequence acquisition and analysis",
+    "Engineered microorganisms for pharmaceutical precursor production",
+    "Biofuel production from agricultural feedstocks (biodiesel, ethanol)",
+    "Artificial intelligence applications in biotechnology",
+    "Genomic data security and privacy implications"
+  ],
+  "claims_to_note": [
+    "China is sponsoring more CAR-T cell clinical trials than any other country, including internationally",
+    "China has taken significant market share from the EU and U.S. in innovative drug development",
+    "The U.S. completely outsources antibiotic manufacturing to China",
+    "Almost all generic pharmaceuticals in the U.S. come from China or India",
+    "Active pharmaceutical ingredients for frontline drugs are sourced from China or India",
+    "Schmidt Foundation attributed future bioeconomy value at approximately $30 trillion in the next decade",
+    "CRISPR reliability is heavily dependent on access to large-scale genomic data",
+    "Students are not taught about the Biological Weapons Convention in standard biology curricula"
+  ],
+  "policy_relevance": [
+    "FBI's post-9/11 shift toward proactive and preventative security approaches versus reactive law enforcement",
+    "National Defense Education Act (mentioned as historical precedent for investment in STEM education)",
+    "Select Agent Program and personnel vetting protocols",
+    "Emergency Use Authorization (EUA) processes for vaccine development",
+    "Operation Warp Speed coordination across HHS and Department of Defense",
+    "Weapons of Mass Destruction (WMD) Directorate within FBI",
+    "Office of the Director of National Intelligence (ODNI) coordination on emerging technologies",
+    "Joint Duty Assignment Program within intelligence community",
+    "National Counterintelligence Task Force focusing on emerging technology protection",
+    "Biological Weapons Convention (international treaty)",
+    "Export controls and security regimes for biotechnology",
+    "Congressional engagement on biotech policy (Yu recently briefed Hill staff)",
+    "Coordination with Department of Homeland Security on community awareness programs",
+    "Need for strategic investment in domestic biomanufacturing capacity",
+    "Council on Strategic Risk and Emerging Biotechnology Research Consortium"
+  ],
+  "key_quotes": [
+    "Biosecurity is not just worrying about the pathogens and toxins in high containment labs. It is now bioeconomic, meaning that biotechnology is going to impact in multiple critical sectors like health, food, agriculture, manufacturing, energy production. And we are just not positioned to look at security in the way that's commensurate with how biotech is being deployed in those areas.",
+    "The nightmare scenario for me today...is as we speak, companies like OpenAI, Anthropic, Meta, they're looking at the convergence of AI and biotech...we're going to wake up one day and realize, well, hell, we just became healthcare crack addicts and China's become our pusher.",
+    "I firmly believe we in the midst of a global biotechnology space race. It not an arms race. It not a counter perspective...It a race. And I afraid of what happens if we come in in second place."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "CRISPR gene editing and its data dependencies",
+      "publications": [
+        {
+          "id": "25665",
+          "title": "Heritable Human Genome Editing",
+          "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "human embryos whose genomes",
+            "considers potential benefits harms",
+            "genome editing technologies",
+            "precise genomic changes",
+            "initial clinical uses",
+            "international commission",
+            "uncertainties associated",
+            "medical considerations",
+            "pregnancy raises",
+            "translational pathway",
+            "heritable human genome editing"
+          ],
+          "description": "Heritable human genome editing - making changes to the genetic material of eggs, sperm, or any cells that lead to their development, including the cells of early embryos, and establishing a pregnancy - raises not only scientific and medical considerations but also a host of ethical, moral, and societal issues. Human embryos whose genomes have been edited should not be used to create a pregnancy until it is established that precise genomic changes can be made reliably and without introducing undesired changes - criteria that have not yet been met, says Heritable Human Genome Editing. From an international commission of the U.S. National Academy of Medicine, U.S. National Academy of Sciences, and the U.K.'s Royal Society, the report considers potential benefits, harms, and uncertainties associated with genome editing technologies and defines a translational pathway from rigorous preclinical research to initial clinical uses, should a country decide to permit such uses. The report specifi",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ]
+        },
+        {
+          "id": "24623",
+          "title": "Human Genome Editing: Science, Ethics, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "made genome editing",
+            "inevitable differences across nations",
+            "making precise alterations",
+            "recent scientific advances",
+            "improve human health",
+            "balancing potential benefits",
+            "whether appropriate systems",
+            "unintended risks governing",
+            "human application",
+            "efficient precise",
+            "human genome editing",
+            "science ethics",
+            "governance"
+          ],
+          "description": "Genome editing is a powerful new tool for making precise alterations to an organism's genetic material. Recent scientific advances have made genome editing more efficient, precise, and flexible than ever before. These advances have spurred an explosion of interest from around the globe in the possible ways in which genome editing can improve human health. The speed at which these technologies are being developed and applied has led many policymakers and stakeholders to express concern about whether appropriate systems are in place to govern these technologies and how and when the public should be engaged in these decisions. Human Genome Editing considers important questions about the human application of genome editing including: balancing potential benefits with unintended risks, governing the use of genome editing, incorporating societal values into clinical applications and policy decisions, and respecting the inevitable differences across nations and cultures that will shape how an",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Human Gene Editing: Scientific, Medical, and Ethical Considerations"
+        },
+        {
+          "id": "26428",
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "early childhood education",
+            "special education",
+            "education programs",
+            "improve academic achievement",
+            "educational opportunities",
+            "federal government",
+            "evaluation statistics",
+            "expanding fundamental",
+            "esra authorizing",
+            "support learning",
+            "equity oriented science",
+            "advancing",
+            "ies"
+          ],
+          "description": "In 2002 Congress passed the Education Sciences Reform Act of 2002 (ESRA), authorizing the creation of the Institute of Education Sciences (IES) as the research, evaluation, statistics, and assessment arm of the Department of Education, and crystallizing the federal government's commitment to providing national leadership in expanding fundamental knowledge and understanding of education from early childhood through postsecondary study. IES shares information on the condition and progress of education in the United States, including early childhood education and special education; educational practices that support learning and improve academic achievement and access to educational opportunities for all students; and the effectiveness of federal and other education programs. In response to a request from the Institute of Education Sciences, this report provides guidance on the future of education research at the National Center for Education Research and the National Center for Special E",
+          "year": 2022,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Synthetic biology and its dual-use applications",
+      "publications": [
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "27993",
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "automatic pavement condition evaluation",
+            "assess current pavement conditions",
+            "refine pavement performance models",
+            "evaluate pavement conditions",
+            "artificial intelligence technologies",
+            "rehabilitation treatments",
+            "cooperative highway",
+            "nchrp synthesis",
+            "budget needs",
+            "semiautomated",
+            "applications"
+          ],
+          "description": "Departments of transportation (DOTs) use pavement condition surveys to assess current pavement conditions and predict future pavement conditions to determine the type and timing of maintenance and rehabilitation treatments; define future budget needs; and develop, or refine, pavement performance models. Over the last two decades, pavement condition assessment has transitioned from manual to semiautomated to fully automated pavement condition surveys.NCHRP Synthesis 636: AI Applications for Automatic Pavement Condition Evaluation, from TRB's National Cooperative Highway Research Program, documents state DOT automated pavement distress identification and the use of artificial intelligence technologies to evaluate pavement conditions.",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "27903",
+          "title": "Automated Applications for Infrastructure Owner-Operator Fleets",
+          "url": "https://nap.nationalacademies.org/catalog/27903/automated-applications-for-infrastructure-owner-operator-fleets",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "automated vehicles",
+            "automated technologies",
+            "potentially supplement",
+            "autonomous vehicles",
+            "current status",
+            "implementation",
+            "application",
+            "barriers",
+            "infrastructure owner operator fleets",
+            "automated applications"
+          ],
+          "description": "\"Provides the current status of and barriers to the implementation and application of autonomous vehicles (AV) and other automated technologies that may potentially supplement or replace infrastructure owner-operator (IOO) fleets\"--Foreword",
+          "year": 2024,
+          "page_keywords": [
+            "Automated vehicles"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CAR-T cell immunotherapy development and clinical trials",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "26349",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "economic landscapes increasing complexity",
+            "clinical trials barriers",
+            "artificial intelligence applications",
+            "drug discovery development",
+            "digital health technologies",
+            "development life cycle",
+            "clinical care",
+            "real world settings",
+            "advance clinical",
+            "health care",
+            "transformed clinical trials enterprise",
+            "envisioning"
+          ],
+          "description": "The evolution of health care is expanding the possibilities for integration of clinical research into the continuum of clinical care; new approaches are enabling the collection of data in real-world settings; and new modalities, such as digital health technologies and artificial intelligence applications, are being leveraged to overcome challenges and advance clinical research. At the same time, the clinical research enterprise is strained by rising costs, varying global regulatory and economic landscapes, increasing complexity of clinical trials, barriers to recruitment and retention of research participants, and a clinical research workforce that is under tremendous demands. Looking ahead to 2030, the Forum on Drug Discovery, Development, and Translation of the National Academies of Sciences, Engineering, and Medicine convened a public workshop for stakeholders from across the drug research and development life cycle to reflect on the lessons learned over the past 10 years and consid",
+          "year": 2022,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Health Sciences Policy"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "mRNA vaccine development and manufacturing",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        },
+        {
+          "id": "13382",
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "next iteration smart vaccines",
+            "prioritization software tool phase",
+            "prioritization software tool developed",
+            "multi attribute utility theory",
+            "ranking vaccines",
+            "utilizes decision science",
+            "development validation",
+            "vaccine development",
+            "concept presented",
+            "model developed",
+            "software blueprint",
+            "prioritization",
+            "demonstration",
+            "concept",
+            "phase"
+          ],
+          "description": "SMART Vaccines--Strategic Multi-Attribute Ranking Tool for Vaccines--is a prioritization software tool developed by the Institute of Medicine that utilizes decision science and modeling to help inform choices among candidates for new vaccine development. A blueprint for this computer-based guide was presented in the 2012 report Ranking Vaccines: A Prioritization Framework: Phase I. Ranking Vaccines: A Prioritization Software Tool,Phase II extends the proof-of-concept presented in the Phase I report, which was based on multi-attribute utility theory. This report refines a beta version of the model developed in the Phase I report and presents its next iteration, SMART Vaccines 1.0. Ranking Vaccines: Phase II discusses the methods underlying the development, validation, and evaluation of SMART Vaccines 1.0. It also discusses how SMART Vaccines should--and, just as importantly, should not--be used. The report also offers ideas for future enhancements for SMART Vaccines as well as for ideas",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Identifying and Prioritizing New Preventive Vaccines for Development, Phase II"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Issue Paper on Mid-Scale Manufacturing for Defense",
+          "url": "https://www.nationalacademies.org/projects/DEPS-NMMB-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Retroviral gene therapy delivery systems",
+      "publications": [
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "25038",
+          "title": "Graduate STEM Education for the 21st Century",
+          "keywords": [
+            "education",
+            "stem",
+            "graduate",
+            "phd",
+            "academic",
+            "university",
+            "students"
+          ]
+        },
+        {
+          "id": "27930",
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "earth systems science perspective",
+            "earth systems science aims",
+            "address climate change impacts",
+            "crossing international borders",
+            "interactions among natural",
+            "human migration",
+            "presentations focused",
+            "cultural socioeconomic",
+            "geopolitical processes",
+            "consequent influence",
+            "climate change"
+          ],
+          "description": "Earth systems science aims to discover and integrate knowledge on the structure, nature, and scales of interactions among natural (e.g., physical, chemical, and biological) and social (e.g., cultural, socioeconomic, and geopolitical) processes. Climate-related migration can be temporary or permanent, can involve internal displacement within countries or crossing international borders, and can involve a broad array of other direct and indirect drivers. To explore how an Earth systems science approach may be used to address climate change impacts and the consequent influence on human migration, the National Academies hosted a workshop, Climate Change and Human Migration: An Earth Systems Science Perspective, on March 18-19, 2024. Workshop presentations focused on the data, methods, and research strategies relevant to understanding climate-related migration. This publication summarizes the presentations and discussion of the workshop.",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 7563,
+  "saved_at": "2026-03-24T11:50:56.758694"
+}

@@ -1,0 +1,507 @@
+{
+  "podcast_id": "startalk",
+  "podcast_name": "StarTalk Radio",
+  "episode_title": "Things You Thought You Knew – Sonic BOOM!",
+  "host": "Neil deGrasse Tyson",
+  "published": "2026-03-24T05:00:00",
+  "episode_url": "https://feeds.simplecast.com/siriusxm.com",
+  "duration_minutes": 40.46666666666667,
+  "influence_tier": "high",
+  "category": "science_communication",
+  "summary": "Neil deGrasse Tyson explains three \"things you thought you knew\" topics: sonic booms, daily temperature cycles, and wind. He covers how sonic booms form when objects exceed the speed of sound, why the hottest part of the day occurs hours after solar noon due to atmospheric heat absorption lag, and how wind results from unequal heating of Earth's surface creating pressure differences. The episode debunks common misconceptions including why desert temperatures have extreme ranges, how humidity affects temperature stability, and why Mars dust storms cannot actually topple spacecraft despite their visual drama in popular media.",
+  "science_topics": [
+    "Sonic booms and supersonic flight physics",
+    "Speed of sound in air (approximately 700 mph at sea level)",
+    "Mach numbers and transonic flight",
+    "Shock waves and compression waves",
+    "Whip cracking as mini sonic booms",
+    "Cherenkov radiation (light booms in transparent media)",
+    "Solar radiation and atmospheric heating mechanisms",
+    "Infrared radiation and heat absorption",
+    "Greenhouse gases and water vapor in atmosphere",
+    "Daily temperature cycles and diurnal temperature variation",
+    "Thermal lag between solar input and atmospheric response",
+    "Desert temperature extremes (40+ degree daily ranges)",
+    "Temperature inversion and tropospheric structure",
+    "Atmospheric pressure and wind generation",
+    "Coriolis effect on moving air masses",
+    "Hurricane formation and low-pressure systems",
+    "Trade winds and doldrums (ITCZ regions)",
+    "Martian dust storms and thin atmosphere dynamics",
+    "Unequal planetary heating and convection"
+  ],
+  "claims_to_note": [
+    "Speed of sound in typical sea-level air is approximately 700 mph - this is accurate (actual value ~761 mph or 343 m/s)",
+    "Concorde was a collaboration between France and England - partially accurate, though it was officially a joint Anglo-French program",
+    "Concorde flights primarily went to New York, London, and Paris - accurate for transatlantic routes",
+    "Commercial supersonic flight was prohibited over continental United States due to sonic boom concerns - accurate regulatory history",
+    "The hottest time of day is typically 3 PM, not at solar noon - accurate observation about thermal lag",
+    "The coldest time of day is just before sunrise - accurate for daily temperature cycle",
+    "Fahrenheit and Celsius scales intersect at -40 degrees - accurate mathematical fact",
+    "Hawaii and Iceland have narrow daily temperature ranges due to ocean humidity - accurate environmental observation",
+    "Mars atmosphere is one one-hundredth the thickness of Earth's atmosphere - approximately accurate (Mars atmosphere is ~0.6% of Earth's)",
+    "Wind in The Martian could not realistically topple a spacecraft - this contradicts the plot; accurately noted by Tyson but he grants 'poetic license'",
+    "Venus has uniform surface temperatures around 900 degrees Fahrenheit with minimal winds - temperatures accurate (900°F ≈ 475°C), claim about winds needs verification",
+    "William Herschel discovered infrared radiation - accurate historical attribution"
+  ],
+  "policy_relevance": [
+    "Federal prohibition on supersonic flight over continental United States airspace mentioned as regulatory response to sonic boom concerns",
+    "Royal Air Force maneuvers over Salisbury Plains and potential damage to cathedral (illustrative example of regulatory conflicts)",
+    "Meteorological standards for thermometer placement to ensure consistent temperature readings across monitoring stations"
+  ],
+  "key_quotes": [
+    "It's like your plane made a wake of nothing that is being filled with the sound that you left behind...the sonic boom hits you. It's a wall of sound. It's compressed because the plane left it behind and all the sound that it would have made that you would have heard ahead of it is now all behind it in a wall.",
+    "The ground absorbs the sunlight...That heats the molecules on Earth's surface. Then the molecules re-radiate that same energy, but in a different part of the spectrum...as infrared. And the infrared gets absorbed by the atmosphere. So there is a time delay between when the sun is slamming us with visible light and when Earth's surface responds back with infrared heating the air.",
+    "Wind is caused by trees waving their branches...That guy was stupid...Wind is a readjustment of air pressure. That's all it is...If air rises, you create a partial vacuum...It gets filled from the sides."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Sonic booms and supersonic flight physics",
+      "publications": [
+        {
+          "id": "26403",
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "biological physics",
+            "physics alongside",
+            "plasma physics",
+            "living systems phenomena",
+            "broader decadal survey",
+            "first decadal survey",
+            "cosmology atomic molecular",
+            "exceptionally broad even",
+            "inanimate world means",
+            "phenomena encountered",
+            "physics",
+            "life"
+          ],
+          "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics. Physics of Life is the first decadal survey of this field, as part of a broader decadal survey of physics. This report communicates the importance of biological physics research; addresses what must be done to realize the promise of this new field; and provides guidance for informed decisions about funding, workforce, and research directions.",
+          "year": 2022,
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "25613",
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "amo physics combines fundamental",
+            "wide reaching intellectual societal",
+            "optical amo science underpins",
+            "fundamental building blocks",
+            "manipulating quantum systems",
+            "foundational discipline within",
+            "optical physics",
+            "technological innovations",
+            "scientific discoveries",
+            "assesses opportunities",
+            "atomic molecular"
+          ],
+          "description": "The field of atomic, molecular, and optical (AMO) science underpins many technologies and continues to progress at an exciting pace for both scientific discoveries and technological innovations. AMO physics studies the fundamental building blocks of functioning matter to help advance the understanding of the universe. It is a foundational discipline within the physical sciences, relating to atoms and their constituents, to molecules, and to light at the quantum level. AMO physics combines fundamental research with practical application, coupling fundamental scientific discovery to rapidly evolving technological advances, innovation and commercialization. Due to the wide-reaching intellectual, societal, and economical impact of AMO, it is important to review recent advances and future opportunities in AMO physics. Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States assesses opportunities in AMO science and technology over the coming",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Speed of sound in air (approximately 700 mph at sea level)",
+      "publications": [
+        {
+          "id": "13389",
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sea level rise along",
+            "recent satellite data show",
+            "sea level along",
+            "global sea level",
+            "earth warms sea levels",
+            "affect sea level",
+            "valuable infrastructure development",
+            "make independent projections",
+            "account regional factors",
+            "tide gauges show",
+            "sea level rise",
+            "california oregon",
+            "past present",
+            "washington",
+            "coasts"
+          ],
+          "description": "Tide gauges show that global sea level has risen about 7 inches during the 20th century, and recent satellite data show that the rate of sea-level rise is accelerating. As Earth warms, sea levels are rising mainly because ocean water expands as it warms; and water from melting glaciers and ice sheets is flowing into the ocean. Sea-level rise poses enormous risks to the valuable infrastructure, development, and wetlands that line much of the 1,600 mile shoreline of California, Oregon, and Washington. As those states seek to incorporate projections of sea-level rise into coastal planning, they asked the National Research Council to make independent projections of sea-level rise along their coasts for the years 2030, 2050, and 2100, taking into account regional factors that affect sea level. Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future explains that sea level along the U.S. west coast is affected by a number of factors. These include: clim",
+          "year": 2012,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Mach numbers and transonic flight",
+      "publications": [
+        {
+          "id": "28594",
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594",
+          "topics": [
+            "space"
+          ],
+          "keywords": [
+            "mars",
+            "human exploration",
+            "space exploration",
+            "mars exploration",
+            "planetary science",
+            "astrobiology",
+            "nasa",
+            "human spaceflight",
+            "science strategy",
+            "search for life",
+            "mars mission"
+          ],
+          "year": 2025,
+          "description": "Identifies the highest-priority science objectives for the first human missions to Mars, with searching for evidence of existing or past life as the top priority."
+        },
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "5493",
+          "title": "Flight to the Future: Human Factors in Air Traffic Control",
+          "url": "https://nap.nationalacademies.org/catalog/5493/flight-to-the-future-human-factors-in-air-traffic-control",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "transportation",
+            "air traffic identifying lessons",
+            "circumstances safety relies",
+            "strong safety record",
+            "air traffic control",
+            "past air accide",
+            "powerful equipment",
+            "failed equipment",
+            "balancing safety",
+            "functions performed",
+            "human controllers",
+            "human factors",
+            "flight"
+          ],
+          "description": "Despite the strong safety record of the national airspace system, serious disruptions occasionally occur, often as a result of outdated or failed equipment. Under these circumstances, safety relies on the skills of the controllers and pilots and on reducing the number of aircraft in the air. The current and growing pressures to increase the capacity to handle a greater number of flights has led to a call for faster and more powerful equipment and for equipment that can take over some of the tasks now being performed by humans. Increasing the role of automation in air traffic control may provide a more efficient system, but will human controllers be able to effectively take over when problems occur? This comprehensive volume provides a baseline of knowledge about the capabilities and limitations of humans relative to the variety of functions performed in air traffic control. It focuses on balancing safety with the expeditious flow of air traffic, identifying lessons from past air accide",
+          "year": 1997,
+          "page_keywords": [
+            "Transportation"
+          ],
+          "committee": "Board on Human-Systems Integration"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Shock waves and compression waves",
+      "publications": [
+        {
+          "id": "27987",
+          "title": "Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning",
+          "url": "https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "airports",
+            "describing relevant shock events",
+            "incorporating shock events",
+            "previous shock events",
+            "aviation demand forecasting",
+            "exerted profound impacts",
+            "largest events",
+            "aviation industry",
+            "airport cooperative",
+            "airport planning",
+            "airport business"
+          ],
+          "description": "The COVID-19 pandemic has made clear the vulnerability of aviation and other industries to shock events. While the pandemic is one of the largest events to impact the aviation industry, other previous shock events have also exerted profound impacts on the aviation industry. ACRP Research Report 272: Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning, from TRB's Airport Cooperative Research Program, provides a methodology to assist airports in identifying and describing relevant shock events, understanding their potential impact on various aspects of the airport business, and developing approaches and strategies to enable the airport to better withstand and respond to shock events if they occur.",
+          "year": 2024,
+          "page_keywords": [
+            "Airports"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "21870",
+          "title": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans",
+          "url": "https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "central nervous system abnormalities",
+            "post global operations theaters",
+            "developing multiple sclerosis",
+            "neurologic diseases",
+            "considered include",
+            "precisely diagnose",
+            "data collection",
+            "brain cancers",
+            "persian gulf",
+            "prevalence",
+            "post gulf war veterans",
+            "neurologic disorders",
+            "multiple sclerosis",
+            "considerations",
+            "epidemiologic",
+            "designing",
+            "pre"
+          ],
+          "description": "In January 2015, the Institute of Medicine conducted a study to determine the incidence and prevalence, as well as the risk of developing multiple sclerosis (MS) and other neurologic diseases as a result of service in the 1990-1991 Persian Gulf and post 9/11 Global Operations theaters. The other neurologic diseases to be considered include: Parkinson's disease, and brain cancers, as well as central nervous system abnormalities that are difficult to precisely diagnose. This report presents the committee's data collection and findings.",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on the Health of Select Populations"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 6949,
+  "saved_at": "2026-03-24T11:50:56.758155"
+}

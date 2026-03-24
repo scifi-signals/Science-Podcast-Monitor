@@ -1,7 +1,515 @@
 {
-  "updated": "2026-03-23T11:23:18.812328",
-  "episode_count": 114,
+  "updated": "2026-03-24T11:51:33.409818",
+  "episode_count": 119,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The secret powers of flowers",
+      "host": "Ira Flatow",
+      "published": "2026-03-24T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. David George Haskell discusses how flowering plants, which evolved approximately 130 million years ago, represent a major revolution in Earth's evolutionary history comparable to the rise of dinosaurs. Rather than being merely ornamental, flowers fundamentally transformed planetary ecosystems by establishing cooperative relationships with pollinators through beauty and aroma, and enabled the emergence of rainforests, prairies, and grasslands. The episode highlights how grasses—a type of flowering plant—provide two-thirds of human global caloric intake and were instrumental in human evolution, while also exploring the remarkable specificity of flower-pollinator relationships exemplified by orchids. The discussion concludes by noting that approximately 50% of orchids and magnolias face extinction threats from climate change and human activity, though some flowering plants demonstrate adaptive capacity.",
+      "science_topics": [
+        "Flowering plant evolution and radiation (130 million years ago)",
+        "Flower-pollinator coevolution and specificity",
+        "Orchid pollination mechanisms and deception strategies",
+        "Grass evolution and grass-pollinator relationships",
+        "Seagrass biology and carbon storage",
+        "Plant reproductive innovation (enclosed seeds, fruits, efficient pollination)",
+        "Speciation through pollinator-flower specificity",
+        "Plant genetic diversity and rapid diversification"
+      ],
+      "claims_to_note": [
+        "Flowering plants evolved approximately 130 million years ago and dominated most planetary habitats within a handful of million years—flagged as Darwin's 'abominable mystery,' now explained by genetic flexibility",
+        "Two-thirds of human dietary calories derive from three grass species: wheat, maize, and rice",
+        "Approximately 50% of orchid species and 50% of magnolia species are threatened with extinction",
+        "Seagrasses are flowering plants that flower underwater in saltwater environments",
+        "Orchids include species with extreme pollinator specificity, such as bee orchids that mimic female wasps",
+        "Darwin's orchid (from Madagascar) was predicted to have a specific moth pollinator before the moth was discovered, vindicating evolutionary predictions"
+      ],
+      "policy_relevance": [
+        "Implicit discussion of conservation policy regarding threatened plant species (50% of orchids and magnolias endangered)",
+        "Reference to seagrass restoration efforts and habitat protection initiatives",
+        "No explicit mention of legislation, federal agencies, or funding decisions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity"
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Gaseous Carbon Waste Streams Utilization: Status and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/25232/gaseous-carbon-waste-streams-utilization-status-and-research-needs"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-policy-irl",
+      "podcast_name": "Science Policy IRL (The Ongoing Transformation)",
+      "episode_title": "Edward You Protected America From Bioterror",
+      "host": "Issues in Science & Technology",
+      "published": "2026-03-24T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Edward Yu, a biochemist-turned-FBI agent who spent 20 years in law enforcement before recently retiring, discusses how biosecurity policy must evolve beyond traditional WMD concerns to address \"bioeconomic\" security challenges. He argues that biotechnology's convergence with AI, data acquisition, and global supply chains creates national security risks that require reframing security as enabling innovation rather than restricting it. Yu emphasizes that the U.S. risks losing leadership in biotechnology to competitors like China if it doesn't make strategic investments in education, biomanufacturing capacity, and community engagement while simultaneously protecting critical data and supply chains.",
+      "science_topics": [
+        "CRISPR gene editing and its data dependencies",
+        "Synthetic biology and its dual-use applications",
+        "CAR-T cell immunotherapy development and clinical trials",
+        "mRNA vaccine development and manufacturing",
+        "Retroviral gene therapy delivery systems",
+        "Human gene therapy in autoimmune diseases",
+        "Cancer research and therapeutics",
+        "Genetic sequence acquisition and analysis",
+        "Engineered microorganisms for pharmaceutical precursor production",
+        "Biofuel production from agricultural feedstocks (biodiesel, ethanol)",
+        "Artificial intelligence applications in biotechnology",
+        "Genomic data security and privacy implications"
+      ],
+      "claims_to_note": [
+        "China is sponsoring more CAR-T cell clinical trials than any other country, including internationally",
+        "China has taken significant market share from the EU and U.S. in innovative drug development",
+        "The U.S. completely outsources antibiotic manufacturing to China",
+        "Almost all generic pharmaceuticals in the U.S. come from China or India",
+        "Active pharmaceutical ingredients for frontline drugs are sourced from China or India",
+        "Schmidt Foundation attributed future bioeconomy value at approximately $30 trillion in the next decade",
+        "CRISPR reliability is heavily dependent on access to large-scale genomic data",
+        "Students are not taught about the Biological Weapons Convention in standard biology curricula"
+      ],
+      "policy_relevance": [
+        "FBI's post-9/11 shift toward proactive and preventative security approaches versus reactive law enforcement",
+        "National Defense Education Act (mentioned as historical precedent for investment in STEM education)",
+        "Select Agent Program and personnel vetting protocols",
+        "Emergency Use Authorization (EUA) processes for vaccine development",
+        "Operation Warp Speed coordination across HHS and Department of Defense",
+        "Weapons of Mass Destruction (WMD) Directorate within FBI",
+        "Office of the Director of National Intelligence (ODNI) coordination on emerging technologies",
+        "Joint Duty Assignment Program within intelligence community",
+        "National Counterintelligence Task Force focusing on emerging technology protection",
+        "Biological Weapons Convention (international treaty)",
+        "Export controls and security regimes for biotechnology",
+        "Congressional engagement on biotech policy (Yu recently briefed Hill staff)",
+        "Coordination with Department of Homeland Security on community awareness programs",
+        "Need for strategic investment in domestic biomanufacturing capacity",
+        "Council on Strategic Risk and Emerging Biotechnology Research Consortium"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Heritable Human Genome Editing",
+          "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing"
+        },
+        {
+          "title": "Human Genome Editing: Science, Ethics, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance"
+        },
+        {
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity"
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation"
+        },
+        {
+          "title": "Automated Applications for Infrastructure Owner-Operator Fleets",
+          "url": "https://nap.nationalacademies.org/catalog/27903/automated-applications-for-infrastructure-owner-operator-fleets"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The world has a groundwater problem. Can we solve it?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-24T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the global groundwater crisis, focusing on how aquifers—underground layers that hold water used for half of humanity's water consumption—are being depleted at alarming rates. A 2024 scientific study analyzing 1,700 aquifers worldwide found that approximately one-third are losing groundwater, with some declining over 20 inches per year, particularly in dry regions with intensive agriculture like India, the U.S., China, Mexico, and Saudi Arabia. The episode examines the complex challenges of addressing this problem, including the difficulty of obtaining reliable international data, the interconnected economic impacts on farming communities, and the political barriers to cross-border water-sharing agreements, while also highlighting some success stories where aquifers have begun to recover through active water management.",
+      "science_topics": [
+        "Groundwater depletion and aquifer decline",
+        "Ogallala/High Plains Aquifer",
+        "Aquifer recharge rates and sustainability",
+        "Land subsidence from aquifer depletion",
+        "Saltwater intrusion in coastal aquifers",
+        "GRACE satellite gravity measurements for groundwater monitoring",
+        "Monitoring well data collection and analysis",
+        "Guarani Aquifer management",
+        "Precipitation decline and groundwater recharge"
+      ],
+      "claims_to_note": [
+        "Groundwater is responsible for about half of the water people use globally",
+        "Approximately one-third of aquifer systems studied are experiencing declining groundwater levels",
+        "On average, aquifers with declining water are losing more than 4 inches per year; some are losing more than 20 inches per year",
+        "The 2024 scientific paper analyzed close to 1,700 aquifers representing about three-fourths of all land being tapped for groundwater",
+        "16% of aquifer systems studied showed recovery after losing water in the 1980s and 1990s",
+        "GRACE satellites can measure changes in Earth's gravitational field caused by water movement but cannot measure total water amounts or fine-scale details",
+        "There are hundreds to thousands of aquifers worldwide",
+        "Water withdrawals globally have grown much faster than global population"
+      ],
+      "policy_relevance": [
+        "2010 Guarani Aquifer agreement between Argentina, Brazil, Paraguay, and Uruguay on water sharing and data transparency",
+        "Guarani Aquifer agreement included commitments to share data, avoid transboundary harm, and ensure sustainable and equitable water use, though implementation has been slow",
+        "Cross-border aquifer management challenges where multiple countries must agree on water usage",
+        "International water governance and data reporting standards",
+        "Agricultural water policy and irrigation regulation in water-stressed regions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan"
+        },
+        {
+          "title": "Advancing Sustainability of U.S.-Mexico Transboundary Drylands: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25253/advancing-sustainability-of-us-mexico-transboundary-drylands-proceedings-of-a"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Transitioning Toward Sustainability: Advancing the Scientific Foundation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23533/transitioning-toward-sustainability-advancing-the-scientific-foundation-proceedings-of-a"
+        },
+        {
+          "title": "Strengthening Sustainability Programs and Curricula at the Undergraduate and Graduate Levels",
+          "url": "https://nap.nationalacademies.org/catalog/25821/strengthening-sustainability-programs-and-curricula-at-the-undergraduate-and-graduate-levels"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan"
+        },
+        {
+          "title": "Regional Issues in Aquifer Storage and Recovery for Everglades Restoration: A Review of the ASR Regional Study Project Management Plan of the Comprehensive Everglades Restoration Plan",
+          "url": "https://nap.nationalacademies.org/catalog/10521/regional-issues-in-aquifer-storage-and-recovery-for-everglades-restoration"
+        },
+        {
+          "title": "Reducing Coastal Risk on the East and Gulf Coasts",
+          "url": "https://nap.nationalacademies.org/catalog/18811/reducing-coastal-risk-on-the-east-and-gulf-coasts"
+        },
+        {
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Things You Thought You Knew – Sonic BOOM!",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-03-24T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Neil deGrasse Tyson explains three \"things you thought you knew\" topics: sonic booms, daily temperature cycles, and wind. He covers how sonic booms form when objects exceed the speed of sound, why the hottest part of the day occurs hours after solar noon due to atmospheric heat absorption lag, and how wind results from unequal heating of Earth's surface creating pressure differences. The episode debunks common misconceptions including why desert temperatures have extreme ranges, how humidity affects temperature stability, and why Mars dust storms cannot actually topple spacecraft despite their visual drama in popular media.",
+      "science_topics": [
+        "Sonic booms and supersonic flight physics",
+        "Speed of sound in air (approximately 700 mph at sea level)",
+        "Mach numbers and transonic flight",
+        "Shock waves and compression waves",
+        "Whip cracking as mini sonic booms",
+        "Cherenkov radiation (light booms in transparent media)",
+        "Solar radiation and atmospheric heating mechanisms",
+        "Infrared radiation and heat absorption",
+        "Greenhouse gases and water vapor in atmosphere",
+        "Daily temperature cycles and diurnal temperature variation",
+        "Thermal lag between solar input and atmospheric response",
+        "Desert temperature extremes (40+ degree daily ranges)",
+        "Temperature inversion and tropospheric structure",
+        "Atmospheric pressure and wind generation",
+        "Coriolis effect on moving air masses",
+        "Hurricane formation and low-pressure systems",
+        "Trade winds and doldrums (ITCZ regions)",
+        "Martian dust storms and thin atmosphere dynamics",
+        "Unequal planetary heating and convection"
+      ],
+      "claims_to_note": [
+        "Speed of sound in typical sea-level air is approximately 700 mph - this is accurate (actual value ~761 mph or 343 m/s)",
+        "Concorde was a collaboration between France and England - partially accurate, though it was officially a joint Anglo-French program",
+        "Concorde flights primarily went to New York, London, and Paris - accurate for transatlantic routes",
+        "Commercial supersonic flight was prohibited over continental United States due to sonic boom concerns - accurate regulatory history",
+        "The hottest time of day is typically 3 PM, not at solar noon - accurate observation about thermal lag",
+        "The coldest time of day is just before sunrise - accurate for daily temperature cycle",
+        "Fahrenheit and Celsius scales intersect at -40 degrees - accurate mathematical fact",
+        "Hawaii and Iceland have narrow daily temperature ranges due to ocean humidity - accurate environmental observation",
+        "Mars atmosphere is one one-hundredth the thickness of Earth's atmosphere - approximately accurate (Mars atmosphere is ~0.6% of Earth's)",
+        "Wind in The Martian could not realistically topple a spacecraft - this contradicts the plot; accurately noted by Tyson but he grants 'poetic license'",
+        "Venus has uniform surface temperatures around 900 degrees Fahrenheit with minimal winds - temperatures accurate (900°F ≈ 475°C), claim about winds needs verification",
+        "William Herschel discovered infrared radiation - accurate historical attribution"
+      ],
+      "policy_relevance": [
+        "Federal prohibition on supersonic flight over continental United States airspace mentioned as regulatory response to sonic boom concerns",
+        "Royal Air Force maneuvers over Salisbury Plains and potential damage to cathedral (illustrative example of regulatory conflicts)",
+        "Meteorological standards for thermometer placement to ensure consistent temperature readings across monitoring stations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical"
+        },
+        {
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Flight to the Future: Human Factors in Air Traffic Control",
+          "url": "https://nap.nationalacademies.org/catalog/5493/flight-to-the-future-human-factors-in-air-traffic-control"
+        },
+        {
+          "title": "Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning",
+          "url": "https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning"
+        },
+        {
+          "title": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans",
+          "url": "https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans"
+        }
+      ]
+    },
+    {
+      "podcast_id": "shaping-science",
+      "podcast_name": "Shaping Science",
+      "episode_title": "#14 Britney Schmidt on Robotic Submersibles, Rising Sea Levels, and the Potential of Extraterrestrial Life",
+      "host": "Nick Dirks (New York Academy of Sciences)",
+      "published": "2026-03-23T13:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Dr. Britney Schmidt discusses her development of Icefin, a remotely operated robotic submersible designed to explore beneath ice shelves in Antarctica and eventually on Europa. The conversation covers how Icefin has provided unprecedented direct measurements of ice-ocean interactions at glacier grounding lines, revealing complex melting dynamics and feedback mechanisms driving ice shelf collapse. Schmidt emphasizes that while climate change is accelerating ice loss, continued scientific measurement and monitoring are essential for accurate forecasting and adaptive planning, alongside necessary emissions reductions.",
+      "science_topics": [
+        "Subglacial lake exploration using remotely operated vehicles (ROVs)",
+        "Glacier grounding line dynamics and ice-ocean interactions",
+        "Tidewater glacier melting rates and mechanisms",
+        "Crevasse formation and stress feedback loops in ice shelves",
+        "Thwaites Glacier acceleration and instability",
+        "Ross Ice Shelf oceanography and temperature gradients",
+        "Europa's subsurface ocean habitability and hydrothermal activity",
+        "Tidal heating of icy ocean moons",
+        "Radar imaging of ice shell structure on ocean moons",
+        "Benthic ecology of Antarctic seafloor",
+        "Freshwater plume dynamics at ice-ocean interface",
+        "Mass spectrometry for detecting ocean chemistry",
+        "Multi-instrument platform design for extreme environments"
+      ],
+      "claims_to_note": [
+        "Thwaites Glacier is 'the fastest changing glacier in Antarctica'",
+        "Observed melt rates in crevasses at Thwaites are 'at least an order of magnitude higher' than expected from temperature models alone",
+        "The ice shelf observed was melting 'about what you'd expect maybe even a little less' in vertical melting, but feedback mechanisms explain faster overall ice loss",
+        "Water temperature at Thwaites grounding line measured at 'more than two degrees warmer than it should be'",
+        "Ross Ice Shelf is 'the size of the country of France'",
+        "Europa's ice shell estimated between '10 and maybe 30 or 40 kilometers thick' with ocean '140 kilometers or so thick'",
+        "Europa Clipper mission will reach Jupiter orbit by 2030",
+        "Claims that cutting NASA Earth observing satellites wastes already-made investments and requires rebuilding if relaunched",
+        "The melting rate observations suggest ice loss is 'faster than any of our melting models really can physically explain very well'"
+      ],
+      "policy_relevance": [
+        "NASA funding cuts to postdoctoral fellows and graduate fellowships affecting pipeline of climate scientists",
+        "Announced decision not to renew lease on USSN Nathaniel Palmer, the only U.S. icebreaker, impacting Antarctic research infrastructure",
+        "NASA announced plan to shut down climate and Earth observing satellites",
+        "Discussion of geoengineering as potential policy response to climate change, with caveats about limitations",
+        "Organized advocacy efforts: 100-hour climate science livestream, October 6th day of action in D.C. with 16+ partner organizations addressing Congress on NASA and NSF funding",
+        "International collaboration on Thwaites Glacier research involving U.S., U.K., Korea, New Zealand",
+        "Planetary Science and Technology for Analog Research (PSTAR) program from NASA as enabling mechanism for interdisciplinary funding",
+        "NSF and NASA as primary funding sources for Antarctic research and Earth observation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Plasma Science: Enabling Technology, Sustainability, Security, and Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25802/plasma-science-enabling-technology-sustainability-security-and-exploration"
+        },
+        {
+          "title": "An Astrobiology Strategy for the Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/11937/an-astrobiology-strategy-for-the-exploration-of-mars"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise"
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Gulf War and Health: Volume 6: Physiologic, Psychologic, and Psychosocial Effects of Deployment-Related Stress",
+          "url": "https://nap.nationalacademies.org/catalog/11922/gulf-war-and-health-volume-6-physiologic-psychologic-and-psychosocial"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
