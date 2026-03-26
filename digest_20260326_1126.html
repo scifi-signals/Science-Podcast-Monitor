@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 26, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 26, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">41</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">77</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals three critical convergence points for NASEM engagement: (1) institutional science leadership disruption affecting research funding and early-career scientists, visible across Bluesky posts on NASA/NIH/CDC leadership gaps; (2) continued H5N1 pandemic risk with documented aerosol transmission and farm-level gaps in federal-state coordination, requiring urgent policy intervention; and (3) fundamental shifts in how science communication operates, from anthropomorphism debates in primatology to technology's erosion of scientific discourse through polarization and surveillance. Additionally, freshwater salinization emerges as an underreported infrastructure crisis affecting drinking water and aquatic ecosystems across the northern U.S., while advances in CAR-T immunotherapy signal both breakthrough potential and governance needs around in vivo genetic engineering.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Pandemic preparedness gaps: H5N1 circulation in multiple reservoir species (wild birds, poultry, dairy cattle) with documented aerosol and fecal-oral transmission routes; current containment relies on reactive rather than proactive measures</li>
+<li>Water security crisis: Freshwater salinization from road salt, seawater intrusion, and climate-driven evaporation affecting 50%+ of lakes in northern U.S./Canada; drinking water quality and ecosystem toxicity now measurable at Madison case-study levels</li>
+<li>Science communication under pressure: Anthropomorphism debates in primate research reflect broader question of how scientific communities engage with public interest; social media polarization mechanisms documented as degrading quality of scientific discourse</li>
+<li>Research leadership continuity: Bluesky-documented resignations and budget challenges at NASA, NIH, CDC creating funding uncertainty and early-career scientist attrition</li>
+<li>Translational biotechnology governance: CAR-T advances using in vivo CRISPR-Cas9 engineering signal clinical breakthrough but require regulatory clarity on genome editing thresholds and manufacturing oversight</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Freshwater salinization as measurable environmental crisis: Short Wave episode provides quantitative baseline (Lake Wingra 100+ mg/L salt; 50%+ of northern lakes saltier). This represents shift from speculative to documented phenomenon requiring infrastructure and policy response. No prior mentions in 7-day context.</li>
+<li>In vivo genetic engineering clinical translation: Nature Podcast CAR-T work using CRISPR-Cas9 inside the body represents methodological inflection point. Related to prior context on CRISPR data dependencies and synthetic biology dual-use concerns, but now at clinical validation stage.</li>
+<li>H5N1 as persistent endemic threat rather than acute pandemic risk: Shift in framing from seasonal concern to chronic surveillance challenge. Manure lagoon contamination and aerosol detection suggest agricultural production systems themselves are amplification vectors.</li>
+<li>Rethinking animal cognition frameworks in science: Science Friday primate episode challenges human-exceptionalism bias in research methodology. Recurring pattern from 7-day context (2026-03-26) on same topic suggests institutional reassessment underway.</li>
+<li>Technology-induced polarization of scientific communities: Making Sense episode documents how AI systems and algorithmic curation actively degrade scientific discourse quality, overlaps with Bluesky leadership disruption concerns.</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission on H5N1 farm-level transmission: Federal-state coordination gaps documented in dairy farm manure lagoon research. NASEM could convene rapid assessment on surveillance protocols, worker protection standards, and vaccine deployment logistics for farm-based populations.</div>
+<div class="opportunity">Water Infrastructure and Salinity Report: Freshwater salinization now measurable at ecosystem-impact levels. NASEM could author policy brief on integrated management (road salt reduction, groundwater monitoring, reverse osmosis readiness) with state water authority engagement.</div>
+<div class="opportunity">In Vivo Genome Editing Governance Framework: CAR-T CRISPR-Cas9 advances require pre-emptive clarity on manufacturing standards, off-target effect monitoring, and clinical trial oversight. NASEM could develop guidelines before regulatory bottlenecks emerge.</div>
+<div class="opportunity">Science Communication and Polarization Workshop: Convene stakeholders on how to protect scientific discourse quality against algorithmic degradation and anonymity-enabled disinhibition. Coordinate with platform governance research and journal communication practices.</div>
+<div class="opportunity">Research Leadership Continuity Study: Document early-career scientist attrition and funding uncertainty from recent leadership transitions at NASA, NIH, CDC. Produce recommendations for institutional resilience and succession planning.</div>
+<div class="opportunity">Anthropomorphism Standards in Primate Research: Engage comparative cognition community on methodological rigor around animal cognition attribution. Could result in clearer standards for emotion/cognition recognition in non-human animals across behavioral biology.</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Surveillance state claim (Making Sense #466): Host asserts 'quasi-totalitarian surveillance in the US' without specification. Claim conflates commercial data tracking, platform surveillance, and government monitoring into single threat category. Requires precision: government surveillance programs are subject to statutory limits; commercial de-anonymization risks are real but not 'totalitarian.' NASEM opportunity to commission clarifying assessment on surveillance architectures.</div>
+<div class="claim">Anonymity-causes-disinhibition claim (Making Sense #466): Episode presents well-established psychological principle (disinhibition effect) as direct causation without acknowledging context-dependency. Research shows anonymity effects vary by community norms, task type, and enforcement visibility. Framing needs nuance.</div>
+<div class="claim">H5N1 pandemic risk framing: Current media silence noted but risk legitimately moderate (not high/not low) per Dr. Lakdawalla. Claims about 'repeated opportunities to evolve' are scientifically sound but require baseline transmission rate context—current human cases remain rare. Avoid both dismissal and catastrophism.</div>
+<div class="claim">Oxygen limitation hypothesis for insect size (Nature Podcast): New research challenges 70-year orthodoxy on atmospheric oxygen constraining insect body size. Claims appear sound (tracheole investment 0.5%-0.8% across 10,000-fold mass range) but represent active scientific dispute, not established fact. Monitor for overcitation as 'settled' before peer review cycle completes.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Zoonotic Disease Spillover and Agricultural Pathways</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">H5N1 transmission from dairy farms through viral contamination of manure lagoons is emerging as a critical junction between animal agriculture, environmental health, and pandemic risk. Science Friday (2026-03-25) documented asymptomatic viral shedding in cattle and airborne pathogen transmission, revealing gaps in surveillance and containment at the farm-to-environment interface. This differs from traditional pandemic response frameworks that focus on human-to-human transmission, demanding new cross-sector monitoring protocols.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must advise on coordinated surveillance systems between USDA, EPA, and HHS to detect and manage pathogenic spillover at agricultural-environmental boundaries before human infection clusters emerge.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Water Scarcity as Critical Infrastructure and Systemic Risk</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows (Short Wave on 2026-03-25, 2026-03-24, 2026-03-23) converge on freshwater depletion as an immediate crisis: salinization, aquifer decline (Ogallala), land subsidence, and urban water emergencies (Day Zero events). The narrative is shifting from gradual depletion to tipping-point language—desalination and recharge sustainability are inadequate solutions alone. This represents a transition from resource management to existential infrastructure vulnerability.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission rapid assessments on aquifer recovery timelines, desalination scalability, and regional water security dependencies to inform federal and state adaptation strategies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Dual-Use Risk in Autonomous Systems and Data Privacy</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Three distinct but interconnected concerns are surfacing: TechTank (2026-03-23) raised AI deployment in classified weapons systems and de-anonymization of commercial data; Making Sense (2026-03-24) explored AI-driven behavioral modification and polarization amplification; The Skeptics' Guide (2026-03-21) discussed autonomous AI agents optimizing cryptocurrency mining. These episodes reflect convergence on AI systems operating without adequate governance frameworks, particularly in weapons, surveillance, and economic domains.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish a working group on AI governance gaps, particularly for autonomous systems in national security, digital platforms, and autonomous economic agents operating outside regulatory oversight.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microbial-Host Communication and Disease Prevention</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The gut-brain axis is consolidating from niche neuroscience into mainstream health discourse. Nature Podcast (2026-03-20) highlighted Parabacteroides goldsteinii and medium-chain fatty acids' role in immune response and cognitive aging; this complements The Peter Attia Drive's (2026-03-23) focus on preventive health strategies (cardiovascular, metabolic, cancer risk). The narrative thread suggests microbiota engineering could be a primary prevention lever, distinct from traditional pharmaceutical intervention.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should fund research on microbiota-targeted therapeutics and prevention strategies, and clarify regulatory pathways for microbiota modulators as preventive health interventions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Gene Editing and Synthetic Biology Governance Complexity</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL (2026-03-24) and Nature Podcast (2026-03-25) both addressed CRISPR and CAR-T cell development, but with complementary concerns: synthetic biology's data dependencies and dual-use applications (Policy IRL) versus CAR-T clinical efficacy and translation barriers (Nature). The convergence suggests governance frameworks must address supply-chain transparency, manufacturing scale-up, and security simultaneously—not sequentially.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop integrated recommendations for synthetic biology oversight, bridging biosecurity, manufacturing standards, and equitable clinical access to emerging cell therapies.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #466 — What Is Technology Doing to Us?</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Mar 24 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines technology's negative effects on society over the past decade, focusing on social media's role in polarization, mental health crises, and surveillance. The guests discuss remedies including the importance of non-anonymity in online spaces, potential return to trusted news sources, and the broader implications of AI systems on human behavior and social interaction. They explore how AI-mediated interactions might change human social dynamics, from children learning rudeness through interactions with voice assistants to potential psychological effects of interacting with humanoid robots.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Mental health impacts of social media on teenagers</span>
+  <span class="topic-tag">Polarization mechanisms in digital communication systems</span>
+  <span class="topic-tag">Human-machine interaction and behavioral modification</span>
+  <span class="topic-tag">AI systems as catalysts for optimizing human collective performance</span>
+  <span class="topic-tag">Uncanny valley in humanoid robotics</span>
+  <span class="topic-tag">Anonymity's psychological effects on human behavior (disinhibition)</span>
+  <span class="topic-tag">AI-generated synthetic content ('AI slop') and information reliability</span>
+  <span class="topic-tag">Algorithm design and content curation effects on user behavior</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27396/social-media-and-adolescent-health" target="_blank">Social Media and Adolescent Health</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education" target="_blank">A 21st Century Cyber-Physical Systems Education</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective" target="_blank">Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Social media technology has contributed to polarization, anomie, and mental health crises — supported by general research consensus but specific causal mechanisms debated</div>
+<div class="claim">Current communication technologies enable quasi-totalitarian surveillance in the US — sweeping claim about surveillance state requiring specification</div>
+<div class="claim">Anonymity directly causes behavioral disinhibition and worse social behavior — well-established psychological principle but context-dependent</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I think they've contributed to this polarization. They've contributed to Anomi. They've contributed to some of the mental health crises we've had. I think they've also led to a surveillance state, not just abroad, but shockingly in our own country where these technologies are being used in ways that I would regard as, you know, quasi-totalitarian or at least pose the threat of that."</div>
+<div class="quote">"I think people will learn. And I think, ironically, we may have a kind of return to a privileging of reputable sources... we migrated so far away from you know the evening news with Dan Rather kind of you know thing to everyone is an expert... but I think we may ironically people may be willing to pay a bit more for reliability."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The world’s freshwater is getting saltier. Why?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 25 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the global phenomenon of freshwater becoming saltier due to multiple sources including road salt, seawater intrusion, mining runoff, fertilizer runoff, and climate change-driven evaporation. Using Madison, Wisconsin as a case study, the episode explores how 70+ years of road salt application has steadily increased salinity in lakes and groundwater, affecting aquatic ecosystems and drinking water quality. The episode highlights both the environmental and health impacts of salinization and showcases community-based solutions like liquid brine application and equipment calibration that have helped Madison reduce salt use by 40%.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Freshwater salinization</span>
+  <span class="topic-tag">Road salt contamination of aquatic systems</span>
+  <span class="topic-tag">Seawater intrusion into aquifers</span>
+  <span class="topic-tag">Chloride persistence in groundwater</span>
+  <span class="topic-tag">Salt toxicity to fish, snails, and zooplankton</span>
+  <span class="topic-tag">Climate change-driven freshwater evaporation</span>
+  <span class="topic-tag">Reverse osmosis desalination</span>
+  <span class="topic-tag">Invasive species adaptation to saline conditions</span>
+  <span class="topic-tag">Groundwater contamination from salt</span>
+  <span class="topic-tag">Sodium chloride health effects</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25381/framing-the-challenge-of-urban-flooding-in-the-united-states" target="_blank">Framing the Challenge of Urban Flooding in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems" target="_blank">Management of Legionella in Water Systems</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10534/immunization-safety-review-sv40-contamination-of-polio-vaccine-and-cancer" target="_blank">Immunization Safety Review: SV40 Contamination of Polio Vaccine and Cancer</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match">Sea Change: 2015-2025 Decadal Survey of Ocean Sciences</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs" target="_blank">A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Lake Wingra in Madison now measures over 100 milligrams per liter of salt, approaching levels where humans can taste it</div>
+<div class="claim">Around half of hundreds of lakes studied in northern U.S. and Canada (2017 study by Hilary Dugan) had gotten saltier</div>
+<div class="claim">Salt at current Madison lake levels have been shown to be toxic to fish, snails, and zooplankton</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We're now talking 70 plus years of road salt use. And what we've seen in the lakes is the salinity kind of steadily increasing year after year as more and more salt is put down."</div>
+<div class="quote">"If I was going to tell people we need to stop using salt, I would be laughed out of the room... But from an environmental perspective, yes, we should stop using salt today."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Could bird flu still spark a pandemic?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 25 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode examines the current status of H5N1 bird flu in the United States, which remains prevalent despite reduced media coverage. Dr. Seema Lakdawalla reports that the virus continues circulating in wild bird populations, poultry farms, and dairy cattle, with new concerns about transmission routes including aerosol spread and contamination of manure lagoons on farms. While human cases remain rare and mostly mild, the expert maintains moderate pandemic concern because insufficient containment measures allow the virus repeated opportunities to evolve and adapt to human infection. The discussion highlights gaps in federal-state regulatory coordination and advocates for proactive interventions including vaccination programs, enhanced surveillance, and protective measures for farm workers and backyard poultry owners.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">H5N1 avian influenza epidemiology and transmission</span>
+  <span class="topic-tag">Airborne pathogen transmission from dairy farms</span>
+  <span class="topic-tag">Viral RNA and infectious virus detection in manure lagoons</span>
+  <span class="topic-tag">Asymptomatic viral shedding in dairy cattle</span>
+  <span class="topic-tag">Fecal-oral transmission routes in migratory birds</span>
+  <span class="topic-tag">Zoonotic spillover at human-animal interfaces</span>
+  <span class="topic-tag">Influenza vaccination strategies for poultry and livestock</span>
+  <span class="topic-tag">Viral evolution and adaptation to human hosts</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication" target="_blank">Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12799/the-domestic-and-international-impacts-of-the-2009-h1n1-influenza-a-pandemic" target="_blank">The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary</a></div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match">Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25806/nutrient-requirements-of-dairy-cattle-eighth-revised-edition" target="_blank">Nutrient Requirements of Dairy Cattle: Eighth Revised Edition</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/9825/nutrient-requirements-of-dairy-cattle-seventh-revised-edition-2001" target="_blank">Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29085/microtransit-solutions-in-rural-communities-on-demand-alternatives-to-dial" target="_blank">Microtransit Solutions in Rural Communities: On-Demand Alternatives to Dial-a-Ride Services and Unproductive Coverage Routes</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25367/airport-roles-in-reducing-transmission-of-communicable-diseases" target="_blank">Airport Roles in Reducing Transmission of Communicable Diseases</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Most human H5N1 cases have presented with mild symptoms including conjunctivitis and respiratory symptoms, with very few confirmed deaths</div>
+<div class="claim">Deaths in humans have primarily resulted from direct contact with infected backyard poultry or sick birds</div>
+<div class="claim">Infectious virus was detected in both air samples and manure lagoons on California dairy farms</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We are letting this virus have a thousand shots on goal every day. And so maybe it takes one in a billion to finally make it a pandemic, but we're letting it have that opportunity."</div>
+<div class="quote">"The virus is continuing to circulate in the U.S. It has not gone away... The frequency of detections may be lower unless it's in poultry markets. That doesn't necessarily mean it's not there."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Why insects aren't huge: a new challenge to a decades-old idea</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Mar 25 &middot; 23 min</div>
+<p style="margin:10px 0;font-size:14px;">This Nature Podcast episode challenges a decades-old hypothesis about insect size limitations. Researchers led by comparative physiologist Ned Snelling question the prevailing theory that atmospheric oxygen levels constrain insect body size, arguing instead that insects are remarkably efficient at oxygen delivery through their tracheal systems. The episode also covers advances in CAR-T cancer therapy, including a breakthrough in engineering immune cells inside the body using CRISPR-Cas9 genome editing, and research highlights on biological aging clocks and ultra-powerful portable magnets.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Insect respiratory physiology and tracheal systems</span>
+  <span class="topic-tag">Atmospheric oxygen concentration and evolutionary constraints on body size</span>
+  <span class="topic-tag">Griffinflies and Paleozoic gigantism in insects</span>
+  <span class="topic-tag">CAR-T cell immunotherapy and in vivo genetic engineering</span>
+  <span class="topic-tag">CRISPR-Cas9 genome editing for T-cell engineering</span>
+  <span class="topic-tag">Lentiviral and adeno-viral vector delivery systems</span>
+  <span class="topic-tag">T-cell alpha constant (TRAC) locus genetic targeting</span>
+  <span class="topic-tag">Biological aging and DNA methylation clocks</span>
+  <span class="topic-tag">High-temperature superconducting magnets for nuclear magnetic resonance</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems" target="_blank">Management of Legionella in Water Systems</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity" target="_blank">The Future of Education Research at IES: Advancing an Equity-Oriented Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11761/status-of-pollinators-in-north-america" target="_blank">Status of Pollinators in North America</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing" target="_blank">Heritable Human Genome Editing</a></div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Griffinflies had wingspans up to 70 centimeters approximately 300 million years ago - factual claim about paleontology that could be verified</div>
+<div class="claim">Atmospheric oxygen levels were significantly higher 300 million years ago than today - widely accepted paleoclimatology claim</div>
+<div class="claim">Tracheole investment in flight muscle increases only from 0.5% to 0.8% across a 10,000-fold body mass range in insects - specific quantitative claim challenging oxygen limitation hypothesis</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I did it because I didn't believe it... when I examined locust flight muscle under a transmission electron microscope, I noticed that the tracheoles occupied a very small fraction of the locust flight muscle. So despite this being a tissue that needs a lot of oxygen, you weren't seeing a lot of the final oxygen delivery system."</div>
+<div class="quote">"The investment does increase with body size. But despite that increase, it remains trivial... So there isn't a one-to-one ratio between size and tracheal need then there is an increase but relatively slight."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Is Punch the monkey really just like us?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 26 &middot; 12 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the viral phenomenon of Punch, a young macaque living in a Japanese zoo, through the lens of primate research and human bias in science. Dr. Christine Webb discusses how humans anthropomorphize primates and argues that the scientific taboo against attributing emotions and cognition to animals stems from historical Western ideas about human exceptionalism. The episode explores how research methodologies often unfairly measure primate cognition against human-centric standards, and how recognizing the continuity of emotional and cognitive capacities across species—rather than assuming human uniqueness—could improve both science and our understanding of other animals.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Primate cognition and social behavior</span>
+  <span class="topic-tag">Comparative cognition between humans and non-human primates</span>
+  <span class="topic-tag">Maternal rejection and surrogate nurturing in macaques</span>
+  <span class="topic-tag">Anthropomorphism in primatology</span>
+  <span class="topic-tag">Evolution of emotional and cognitive capacities across species</span>
+  <span class="topic-tag">Sensory abilities in non-human animals</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on" target="_blank">Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26638/community-interventions-to-prevent-veteran-suicide-the-role-of-social" target="_blank">Community Interventions to Prevent Veteran Suicide: The Role of Social Determinants: Proceedings of a Virtual Symposium</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications" target="_blank">Immunization Safety Review: Influenza Vaccines and Neurological Complications</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders" target="_blank">Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Dr. Webb argues that assuming continuity of mental and emotional characteristics among species (including primates) is more parsimonious than assuming other animals lack rich internal worlds</div>
+<div class="claim">Captive primate cognitive studies use human-designed tasks (plastic puzzle boxes, computer touchscreens) that may bias results against non-human animals</div>
+<div class="claim">Complex emotions like joy, grief, empathy, and jealousy may not be uniquely human traits but rather shared across primate species</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"In the cases of our closest living primate relatives, it's often more straightforward, and we could use a term like parsimonious, right, to assume that there are shared mental characteristics and experiences between humans and other primates."</div>
+<div class="quote">"The difference between human uniqueness and something like human exceptionalism is that human exceptionalism suggests that what is distinctive about humans, what is unique about humans, is somehow more worthy than the distinctive features of other forms of life."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">77 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Scientific Leadership and Research Funding Disruption (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing NASA director resignations, NIH budget challenges, CDC leadership gaps, and impacts on early-career scientists under current administration.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomy and Space Exploration (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Observations and discoveries including galactic center imaging, Mars missions, lunar bases, Saturn imagery, and gravitational wave research.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">COVID-19 and Pandemic Science (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering excess COVID mortality estimates, vaccine policy disputes, new variants, and vaccine development controversies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Molecular Biology and Disease Research (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on epigenetic cancer mechanisms, acne vaccine development, brain lateralization of language, and cellular biology discoveries.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Women in STEM and Science Culture (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions on gender equity in science, women's curiosity in research careers, and recognition of female scientists' contributions.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">254 likes &middot; 147 reposts &middot; 14 replies</div>
+  <div class="bluesky-text">🧪This is sad. 
+
+A study identified between about 150,000 and 160,000 potential unrecognized COVID deaths on top of the 840,251 that were officially reported.
+
+2020-2021 were such chaotic years with so much confusion.
+
+archive.today/5HezA</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhvrhffol22b" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">116 likes &middot; 70 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">This is important.
+
+1. Congress approved higher #NIH budget. But # of awarded grants is low.
+
+2. 94% fewer funding announcements released.
+
+3. Majority of terminated grants have NOT been reinstated.
+
+4. Early career scientists are in limbo.
+
+Impeach Russel Vought.
+🧪 actionnetwork.org/forms/civil-...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mhwhtj3xgc2v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">120 likes &middot; 12 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">First Quarter Moon. 25 March 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mhvumilnms2j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@coreyspowell.bsky.social</div>
+  <div class="bluesky-stats">84 likes &middot; 17 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Monsters do not always reveal themselves. 
+
+This deep new image of the center of our galaxy notably does not show the supermassive black hole at the center of the frame, as massive as 4 million Suns. You have to look more closely to see it & what it's doing. 🔭🧪
+
+www.eso.org/public/image...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/coreyspowell.bsky.social/post/3mhwpezqxxc2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@mhshapiro2.bsky.social</div>
+  <div class="bluesky-stats">65 likes &middot; 29 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">🧪 Arghhh! They can force the scientists out, but they can't change the science. #ClimateChange is not a hoax! Prominent Climate Scientist Resigns From NASA, Citing Trump’s Attack on Science www.nytimes.com/2026/03/25/c...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/mhshapiro2.bsky.social/post/3mhw677f3ac2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>NIH Funding and Early-Career Scientist Support</strong>: Posts document concerning trends in reduced grant announcements, unterminated grants, and early-career scientist uncertainty—directly relevant to NASEM's roles in advising on research funding policy and science workforce development.</div>
+<div class="nasem-match"><strong>COVID-19 Mortality Data and Public Health Response</strong>: Discussion of excess mortality estimates and vaccine policy disputes connects to NASEM's involvement in pandemic response advisory and public health guidance development.</div>
+<div class="nasem-match"><strong>Women in STEM and Research Culture</strong>: Posts addressing gender equity in scientific curiosity and career development align with NASEM's work on diversity, equity, and inclusion in science and engineering.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 26, 2026 at 11:26 AM | Internal use only
+    </div>
+</body>
+</html>

@@ -1,0 +1,416 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Why insects aren't huge: a new challenge to a decades-old idea",
+  "host": "Springer Nature",
+  "published": "2026-03-25T16:00:00",
+  "episode_url": "https://shows.acast.com/nature/episodes/why-insects-arent-huge-a-new-challenge-to-a-decades-old-idea",
+  "duration_minutes": 22.7,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature Podcast episode challenges a decades-old hypothesis about insect size limitations. Researchers led by comparative physiologist Ned Snelling question the prevailing theory that atmospheric oxygen levels constrain insect body size, arguing instead that insects are remarkably efficient at oxygen delivery through their tracheal systems. The episode also covers advances in CAR-T cancer therapy, including a breakthrough in engineering immune cells inside the body using CRISPR-Cas9 genome editing, and research highlights on biological aging clocks and ultra-powerful portable magnets.",
+  "science_topics": [
+    "Insect respiratory physiology and tracheal systems",
+    "Atmospheric oxygen concentration and evolutionary constraints on body size",
+    "Griffinflies and Paleozoic gigantism in insects",
+    "CAR-T cell immunotherapy and in vivo genetic engineering",
+    "CRISPR-Cas9 genome editing for T-cell engineering",
+    "Lentiviral and adeno-viral vector delivery systems",
+    "T-cell alpha constant (TRAC) locus genetic targeting",
+    "Biological aging and DNA methylation clocks",
+    "High-temperature superconducting magnets for nuclear magnetic resonance"
+  ],
+  "claims_to_note": [
+    "Griffinflies had wingspans up to 70 centimeters approximately 300 million years ago - factual claim about paleontology that could be verified",
+    "Atmospheric oxygen levels were significantly higher 300 million years ago than today - widely accepted paleoclimatology claim",
+    "Tracheole investment in flight muscle increases only from 0.5% to 0.8% across a 10,000-fold body mass range in insects - specific quantitative claim challenging oxygen limitation hypothesis",
+    "CAR-T cells engineered at the TRAC locus are more potent than those with randomly integrated viral vectors - empirical claim about immunotherapy efficacy",
+    "Humanized mice with engineered CAR-T cells completely depleted B-cells after single injection - specific therapeutic efficacy claim in animal models",
+    "Biological aging acceleration speed independently predicts mortality risk beyond initial biological age - epidemiological claim from DNA methylation research"
+  ],
+  "policy_relevance": [
+    "FDA requirements for gene therapy clinical trials, including non-primate studies in monkeys before human trials",
+    "Regulatory classification shift from CAR-T as cell therapy to gene therapy affecting trial requirements",
+    "Manufacturing complexity and cost considerations for dual-vector viral delivery systems in clinical translation",
+    "Discussion of potential secondary cancer risks from random DNA insertion in earlier viral vector approaches"
+  ],
+  "key_quotes": [
+    "I did it because I didn't believe it... when I examined locust flight muscle under a transmission electron microscope, I noticed that the tracheoles occupied a very small fraction of the locust flight muscle. So despite this being a tissue that needs a lot of oxygen, you weren't seeing a lot of the final oxygen delivery system.",
+    "The investment does increase with body size. But despite that increase, it remains trivial... So there isn't a one-to-one ratio between size and tracheal need then there is an increase but relatively slight.",
+    "Probably the one that I think might have most support is the observation that large insects are very easy to catch... predation pressure which didn't occur 300 million years ago would stop insects evolving into large body size because they would be easy to catch and eat."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Insect respiratory physiology and tracheal systems",
+      "publications": [
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        },
+        {
+          "id": "25038",
+          "title": "Graduate STEM Education for the 21st Century",
+          "keywords": [
+            "education",
+            "stem",
+            "graduate",
+            "phd",
+            "academic",
+            "university",
+            "students"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Atmospheric oxygen concentration and evolutionary constraints on body size",
+      "publications": [
+        {
+          "id": "11876",
+          "title": "Science, Evolution, and Creationism",
+          "keywords": [
+            "evolution",
+            "evolutionary",
+            "biology",
+            "science",
+            "origins",
+            "natural selection"
+          ]
+        },
+        {
+          "id": "12161",
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "keywords": [
+            "evolution",
+            "earth",
+            "geology",
+            "planet",
+            "origins",
+            "geological"
+          ]
+        },
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Griffinflies and Paleozoic gigantism in insects",
+      "publications": [
+        {
+          "id": "26428",
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "early childhood education",
+            "special education",
+            "education programs",
+            "improve academic achievement",
+            "educational opportunities",
+            "federal government",
+            "evaluation statistics",
+            "expanding fundamental",
+            "esra authorizing",
+            "support learning",
+            "equity oriented science",
+            "advancing",
+            "ies"
+          ],
+          "description": "In 2002 Congress passed the Education Sciences Reform Act of 2002 (ESRA), authorizing the creation of the Institute of Education Sciences (IES) as the research, evaluation, statistics, and assessment arm of the Department of Education, and crystallizing the federal government's commitment to providing national leadership in expanding fundamental knowledge and understanding of education from early childhood through postsecondary study. IES shares information on the condition and progress of education in the United States, including early childhood education and special education; educational practices that support learning and improve academic achievement and access to educational opportunities for all students; and the effectiveness of federal and other education programs. In response to a request from the Institute of Education Sciences, this report provides guidance on the future of education research at the National Center for Education Research and the National Center for Special E",
+          "year": 2022,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "11761",
+          "title": "Status of Pollinators in North America",
+          "url": "https://nap.nationalacademies.org/catalog/11761/status-of-pollinators-in-north-america",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "pollinators insects birds bats",
+            "important managed pollinator",
+            "assessed because populations",
+            "provide fiber drugs",
+            "pollinator species",
+            "north america",
+            "wild species",
+            "butterflies bats",
+            "demonstrated declines",
+            "outlines priorities",
+            "pollinators",
+            "status"
+          ],
+          "description": "Pollinators-insects, birds, bats, and other animals that carry pollen from the male to the female parts of flowers for plant reproduction-are an essential part of natural and agricultural ecosystems throughout North America. For example, most fruit, vegetable, and seed crops and some crops that provide fiber, drugs, and fuel depend on animals for pollination. This report provides evidence for the decline of some pollinator species in North America, including America's most important managed pollinator, the honey bee, as well as some butterflies, bats, and hummingbirds. For most managed and wild pollinator species, however, population trends have not been assessed because populations have not been monitored over time. In addition, for wild species with demonstrated declines, it is often difficult to determine the causes or consequences of their decline. This report outlines priorities for research and monitoring that are needed to improve information on the status of pollinators and est",
+          "year": 2007,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CAR-T cell immunotherapy and in vivo genetic engineering",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CRISPR-Cas9 genome editing for T-cell engineering",
+      "publications": [
+        {
+          "id": "25665",
+          "title": "Heritable Human Genome Editing",
+          "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "human embryos whose genomes",
+            "considers potential benefits harms",
+            "genome editing technologies",
+            "precise genomic changes",
+            "initial clinical uses",
+            "international commission",
+            "uncertainties associated",
+            "medical considerations",
+            "pregnancy raises",
+            "translational pathway",
+            "heritable human genome editing"
+          ],
+          "description": "Heritable human genome editing - making changes to the genetic material of eggs, sperm, or any cells that lead to their development, including the cells of early embryos, and establishing a pregnancy - raises not only scientific and medical considerations but also a host of ethical, moral, and societal issues. Human embryos whose genomes have been edited should not be used to create a pregnancy until it is established that precise genomic changes can be made reliably and without introducing undesired changes - criteria that have not yet been met, says Heritable Human Genome Editing. From an international commission of the U.S. National Academy of Medicine, U.S. National Academy of Sciences, and the U.K.'s Royal Society, the report considers potential benefits, harms, and uncertainties associated with genome editing technologies and defines a translational pathway from rigorous preclinical research to initial clinical uses, should a country decide to permit such uses. The report specifi",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "24623",
+          "title": "Human Genome Editing: Science, Ethics, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "made genome editing",
+            "inevitable differences across nations",
+            "making precise alterations",
+            "recent scientific advances",
+            "improve human health",
+            "balancing potential benefits",
+            "whether appropriate systems",
+            "unintended risks governing",
+            "human application",
+            "efficient precise",
+            "human genome editing",
+            "science ethics",
+            "governance"
+          ],
+          "description": "Genome editing is a powerful new tool for making precise alterations to an organism's genetic material. Recent scientific advances have made genome editing more efficient, precise, and flexible than ever before. These advances have spurred an explosion of interest from around the globe in the possible ways in which genome editing can improve human health. The speed at which these technologies are being developed and applied has led many policymakers and stakeholders to express concern about whether appropriate systems are in place to govern these technologies and how and when the public should be engaged in these decisions. Human Genome Editing considers important questions about the human application of genome editing including: balancing potential benefits with unintended risks, governing the use of genome editing, incorporating societal values into clinical applications and policy decisions, and respecting the inevitable differences across nations and cultures that will shape how an",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Human Gene Editing: Scientific, Medical, and Ethical Considerations"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3395,
+  "saved_at": "2026-03-26T11:26:13.390634"
+}

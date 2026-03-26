@@ -1,0 +1,534 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Could bird flu still spark a pandemic?",
+  "host": "Ira Flatow",
+  "published": "2026-03-25T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 18.7,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "The episode examines the current status of H5N1 bird flu in the United States, which remains prevalent despite reduced media coverage. Dr. Seema Lakdawalla reports that the virus continues circulating in wild bird populations, poultry farms, and dairy cattle, with new concerns about transmission routes including aerosol spread and contamination of manure lagoons on farms. While human cases remain rare and mostly mild, the expert maintains moderate pandemic concern because insufficient containment measures allow the virus repeated opportunities to evolve and adapt to human infection. The discussion highlights gaps in federal-state regulatory coordination and advocates for proactive interventions including vaccination programs, enhanced surveillance, and protective measures for farm workers and backyard poultry owners.",
+  "science_topics": [
+    "H5N1 avian influenza epidemiology and transmission",
+    "Airborne pathogen transmission from dairy farms",
+    "Viral RNA and infectious virus detection in manure lagoons",
+    "Asymptomatic viral shedding in dairy cattle",
+    "Fecal-oral transmission routes in migratory birds",
+    "Zoonotic spillover at human-animal interfaces",
+    "Influenza vaccination strategies for poultry and livestock",
+    "Viral evolution and adaptation to human hosts"
+  ],
+  "claims_to_note": [
+    "Most human H5N1 cases have presented with mild symptoms including conjunctivitis and respiratory symptoms, with very few confirmed deaths",
+    "Deaths in humans have primarily resulted from direct contact with infected backyard poultry or sick birds",
+    "Infectious virus was detected in both air samples and manure lagoons on California dairy farms",
+    "Dairy cattle currently showing fewer symptomatic infections despite continued viral presence, with some farms testing positive via milk testing without visible illness signs",
+    "The virus is now detected across multiple migratory flyways in the U.S. (Pacific and Atlantic), representing an unprecedented level of circulation compared to historical bird flu patterns",
+    "USDA and CDC lack direct regulatory authority over commercial farms; only state departments of agriculture can mandate compliance"
+  ],
+  "policy_relevance": [
+    "USDA milk testing programs for H5N1 detection in dairy cattle",
+    "USDA reimbursement to poultry farmers for culling infected birds",
+    "State-level regulatory authority over commercial agricultural operations versus federal agency limitations",
+    "Need for implementation of bird flu vaccines in poultry and cattle industries",
+    "Federal-state coordination gaps in outbreak response and containment",
+    "Lack of comprehensive surveillance and testing protocols for migratory bird populations",
+    "Pandemic preparedness and preprint research conducted with California Department of Food and Agriculture"
+  ],
+  "key_quotes": [
+    "We are letting this virus have a thousand shots on goal every day. And so maybe it takes one in a billion to finally make it a pandemic, but we're letting it have that opportunity.",
+    "The virus is continuing to circulate in the U.S. It has not gone away... The frequency of detections may be lower unless it's in poultry markets. That doesn't necessarily mean it's not there.",
+    "We found infectious virus in the manure lagoons... It is feasible [for wild birds to get infected] because in migratory birds, H5, most bird flu viruses are fecal-oral."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "H5N1 avian influenza epidemiology and transmission",
+      "publications": [
+        {
+          "id": "18255",
+          "title": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "recent scientific activity subject",
+            "lethal avian influenza strain",
+            "microbial threats convened",
+            "infectious diseases niaid",
+            "widespread attention due",
+            "one day public",
+            "scientific publications",
+            "mammalian transmissibility",
+            "researchers work",
+            "work partial",
+            "scientific inquiry communication controversy",
+            "avian influenza"
+          ],
+          "description": "When, in late 2011, it became public knowledge that two research groups had submitted for publication manuscripts that reported on their work on mammalian transmissibility of a lethal H5N1 avian influenza strain, the information caused an international debate about the appropriateness and communication of the researchers' work, the risks associated with the work, partial or complete censorship of scientific publications, and dual-use research of concern in general. Recognizing that the H5N1 research is only the most recent scientific activity subject to widespread attention due to safety and security concerns, on May 1, 2012, the National Research Council's Committee on Science, Technology and Law, in conjunction with the Board on Life Sciences and the Institute of Medicine's Forum on Microbial Threats, convened a one-day public workshop for the purposes of 1) discussing the H5N1 controversy; 2) considering responses by the National Institute of Allergy and Infectious Diseases (NIAID),",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "12799",
+          "title": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12799/the-domestic-and-international-impacts-of-the-2009-h1n1-influenza-a-pandemic",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "influenza virus spread out",
+            "worldwide pandemic alert level",
+            "percent effectiveness rate against",
+            "swine flu joined sars",
+            "swine origin influenza",
+            "ongoing global spread",
+            "human transmission worldwide",
+            "pacific rim countries",
+            "world health organization",
+            "virus emerged",
+            "global challenges global solutions",
+            "international impacts",
+            "influenza",
+            "domestic",
+            "pandemic"
+          ],
+          "description": "In March and early April 2009, a new, swine-origin 2009-H1N1 influenza A virus emerged in Mexico and the United States. During the first few weeks of surveillance, the virus spread by human-to-human transmission worldwide to over 30 countries. On June 11, 2009, the World Health Organization (WHO) raised the worldwide pandemic alert level to Phase 6 in response to the ongoing global spread of the novel influenza A (H1N1) virus. By October 30, 2009, the H1N1 influenza A had spread to 191 countries and resulted in 5,700 fatalities. A national emergency was declared in the United States and the swine flu joined SARS and the avian flu as pandemics of the 21st century. Vaccination is currently available, but in limited supply, and with a 60 percent effectiveness rate against the virus. The story of how this new influenza virus spread out of Mexico to other parts of North America and then on to Europe, the Far East, and now Australia and the Pacific Rim countries has its origins in the global",
+          "year": 2010,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        },
+        {
+          "id": "26284",
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "keywords": [
+            "pandemic",
+            "vaccine",
+            "global",
+            "coordination",
+            "influenza",
+            "preparedness"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Airborne pathogen transmission from dairy farms",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Viral RNA and infectious virus detection in manure lagoons",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "25391",
+          "title": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030",
+          "keywords": [
+            "pandemic",
+            "outbreak",
+            "epidemic",
+            "preparedness",
+            "infectious",
+            "disease"
+          ]
+        },
+        {
+          "id": "21891",
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "keywords": [
+            "pandemic",
+            "infectious disease",
+            "outbreak",
+            "epidemic",
+            "preparedness",
+            "global health"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Asymptomatic viral shedding in dairy cattle",
+      "publications": [
+        {
+          "id": "25806",
+          "title": "Nutrient Requirements of Dairy Cattle: Eighth Revised Edition",
+          "url": "https://nap.nationalacademies.org/catalog/25806/nutrient-requirements-of-dairy-cattle-eighth-revised-edition",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "neuroscience",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "dairy cattle builds",
+            "eighth revised edition",
+            "nutrient requirements",
+            "implementing nutritional",
+            "previous editions",
+            "ingredient composition",
+            "guided nutritionists",
+            "efficient profitable",
+            "seven editions",
+            "feeding programs",
+            "dairy cattle"
+          ],
+          "description": "Since 1944, the National Research Council (NRC) has published seven editions of the Nutrient Requirements of Dairy Cattle. This reference has guided nutritionists and other professionals in academia and the dairy and feed industries in developing and implementing nutritional and feeding programs for dairy cattle. The eighth revised edition of the Nutrient Requirements of Dairy Cattle builds on the previous editions. A great deal of new research has been published and there is a large amount of new information for many nutrients. This book represents a comprehensive review of the most recent information available on efficient, profitable, and environmentally conscious dairy cattle nutrition and ingredient composition.",
+          "year": 2021,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        },
+        {
+          "id": "9825",
+          "title": "Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001",
+          "url": "https://nap.nationalacademies.org/catalog/9825/nutrient-requirements-of-dairy-cattle-seventh-revised-edition-2001",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "neuroscience",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "lactating dairy cows utilization",
+            "user friendly computer program",
+            "pinpoint nutrient requirements",
+            "productive management decisions",
+            "feed ingredients insights",
+            "predict feed intake",
+            "reduce environmental impacts",
+            "heifer replacement nutritio",
+            "compact disk accompanied",
+            "widely used reference",
+            "seventh revised edition",
+            "nutrient requirements",
+            "dairy cattle"
+          ],
+          "description": "This widely used reference has been updated and revamped to reflect the changing face of the dairy industry. New features allow users to pinpoint nutrient requirements more accurately for individual animals. The committee also provides guidance on how nutrient analysis of feed ingredients, insights into nutrient utilization by the animal, and formulation of diets to reduce environmental impacts can be applied to productive management decisions. The book includes a user-friendly computer program on a compact disk, accompanied by extensive context-sensitive \"Help\" options, to simulate the dynamic state of animals. The committee addresses important issues unique to dairy science-the dry or transition cow, udder edema, milk fever, low-fat milk, calf dehydration, and more. The also volume covers dry matter intake, including how to predict feed intake. It addresses the management of lactating dairy cows, utilization of fat in calf and lactation diets, and calf and heifer replacement nutritio",
+          "year": 2001,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        },
+        {
+          "id": "9791",
+          "title": "Nutrient Requirements of Beef Cattle: Seventh Revised Edition: Update 2000",
+          "url": "https://nap.nationalacademies.org/catalog/9791/nutrient-requirements-of-beef-cattle-seventh-revised-edition-update-2000",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "neuroscience",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "beef cattle nutrient requirements",
+            "beef cattle body condition",
+            "nutritional requirements taking management",
+            "beef cattle explores",
+            "beef cattle expounds",
+            "updated seventh edition",
+            "book clearly communicates",
+            "compensatory growth takes",
+            "content higher standards",
+            "cattle type",
+            "seventh revised edition",
+            "nutrient requirements",
+            "beef cattle"
+          ],
+          "description": "As members of the public becomes more concious of the food they consume and its content, higher standards are expected in the preparation of such food. The updated seventh edition of Nutrient Requirements of Beef Cattle explores the impact of cattle's biological, production, and environmental diversities, as well as variations on nutrient utilization and requirements. More enhanced than previous editions, this edition expands on the descriptions of cattle and their nutritional requirements taking management and environmental conditions into consideration. The book clearly communicates the current state of beef cattle nutrient requirements and animal variation by visually presenting related data via computer-generated models. Nutrient Requirements of Beef Cattle expounds on the effects of beef cattle body condition on the state of compensatory growth, takes an in-depth look at the variations in cattle type, and documents the important effects of the environment and stress on food intake",
+          "year": 2000,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Committee on Animal Nutrition"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Fecal-oral transmission routes in migratory birds",
+      "publications": [
+        {
+          "id": "29085",
+          "title": "Microtransit Solutions in Rural Communities: On-Demand Alternatives to Dial-a-Ride Services and Unproductive Coverage Routes",
+          "url": "https://nap.nationalacademies.org/catalog/29085/microtransit-solutions-in-rural-communities-on-demand-alternatives-to-dial",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "newer offerings transit agencies",
+            "fixed route transit options",
+            "rural microtransit operations",
+            "unproductive coverage routes",
+            "provide greater flexibility",
+            "improved service efficiency",
+            "high customer satisfaction",
+            "microtransit solutions",
+            "microtransit services",
+            "transit cooperative",
+            "demand alternatives",
+            "rural communities",
+            "ride services",
+            "dial"
+          ],
+          "description": "Dial-a-ride and fixed-route transit options are some of the ways that microtransit services have traditionally been implemented in rural areas. App-based booking and dynamic routing are among the newer offerings transit agencies are exploring to provide greater flexibility and more spontaneous options for users.TCRP Synthesis 178: Microtransit Solutions in Rural Communities: On-Demand Alternatives to Dial-a-Ride Services and Unproductive Coverage Routes, from TRB's Transit Cooperative Research Program, provides a comprehensive overview of rural microtransit operations through a literature review, surveys of 19 transit providers, and case examples of seven agencies. High customer satisfaction and improved service efficiency were frequently cited as benefits of microtransit solutions.",
+          "year": 2025,
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "25367",
+          "title": "Airport Roles in Reducing Transmission of Communicable Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/25367/airport-roles-in-reducing-transmission-of-communicable-diseases",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "airports",
+            "reducing transmission",
+            "communicable diseases",
+            "airport roles"
+          ],
+          "year": 2019,
+          "page_keywords": [
+            "Airports"
+          ]
+        },
+        {
+          "id": "21740",
+          "title": "Identifying and Supporting Productive STEM Programs in Out-of-School Settings",
+          "url": "https://nap.nationalacademies.org/catalog/21740/identifying-and-supporting-productive-stem-programs-in-out-of-school-settings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "transportation"
+          ],
+          "description": "More and more young people are learning about science, technology, engineering, and mathematics (STEM) in a wide variety of afterschool, summer, and informal programs. At the same time, there has been increasing awareness of the value of such programs in sparking, sustaining, and extending interest in and understanding of STEM. To help policy makers, funders and education leaders in both school and out-of-school settings make informed decisions about how to best leverage the educational and learning resources in their community, this report identifies features of productive STEM programs in out-of-school settings. Identifying and Supporting Productive STEM Programs in Out-of-School Settings draws from a wide range of research traditions to illustrate that interest in STEM and deep STEM learning develop across time and settings. The report provides guidance on how to evaluate and sustain programs. This report is a resource for local, state, and federal policy makers seeking to broaden a",
+          "year": 2015,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "supporting productive stem programs",
+            "federal policy makers seeking",
+            "help policy makers funders",
+            "school settings draws",
+            "mathematics stem",
+            "informal programs",
+            "sustain programs",
+            "learning resources",
+            "extending interest",
+            "increasing awareness",
+            "school settings",
+            "identifying",
+            "out"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3052,
+  "saved_at": "2026-03-26T11:26:13.389404"
+}

@@ -1,7 +1,472 @@
 {
-  "updated": "2026-03-24T11:51:33.409818",
-  "episode_count": 119,
+  "updated": "2026-03-26T11:26:58.922549",
+  "episode_count": 124,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Is Punch the monkey really just like us?",
+      "host": "Ira Flatow",
+      "published": "2026-03-26T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the viral phenomenon of Punch, a young macaque living in a Japanese zoo, through the lens of primate research and human bias in science. Dr. Christine Webb discusses how humans anthropomorphize primates and argues that the scientific taboo against attributing emotions and cognition to animals stems from historical Western ideas about human exceptionalism. The episode explores how research methodologies often unfairly measure primate cognition against human-centric standards, and how recognizing the continuity of emotional and cognitive capacities across species—rather than assuming human uniqueness—could improve both science and our understanding of other animals.",
+      "science_topics": [
+        "Primate cognition and social behavior",
+        "Comparative cognition between humans and non-human primates",
+        "Maternal rejection and surrogate nurturing in macaques",
+        "Anthropomorphism in primatology",
+        "Evolution of emotional and cognitive capacities across species",
+        "Sensory abilities in non-human animals"
+      ],
+      "claims_to_note": [
+        "Dr. Webb argues that assuming continuity of mental and emotional characteristics among species (including primates) is more parsimonious than assuming other animals lack rich internal worlds",
+        "Captive primate cognitive studies use human-designed tasks (plastic puzzle boxes, computer touchscreens) that may bias results against non-human animals",
+        "Complex emotions like joy, grief, empathy, and jealousy may not be uniquely human traits but rather shared across primate species",
+        "Historical exclusion of certain human populations from 'human exceptionalism' arguments suggests the concept has been used ideologically beyond science"
+      ],
+      "policy_relevance": [
+        "Potential implications for zoo management and animal welfare standards given discussion of captive primate environments",
+        "Discussion of how scientific bias affects research methodology and funding priorities",
+        "Questions about how Western philosophical traditions embedded in science policy shape research agendas"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on"
+        },
+        {
+          "title": "Community Interventions to Prevent Veteran Suicide: The Role of Social Determinants: Proceedings of a Virtual Symposium",
+          "url": "https://nap.nationalacademies.org/catalog/26638/community-interventions-to-prevent-veteran-suicide-the-role-of-social"
+        },
+        {
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy",
+          "url": "https://nap.nationalacademies.org/catalog/24960/environmental-chemicals-the-human-microbiome-and-health-risk-a-research"
+        },
+        {
+          "title": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+          "url": "https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications"
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+          "url": "https://nap.nationalacademies.org/catalog/10101/immunization-safety-review-measles-mumps-rubella-vaccine-and-autism"
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Why insects aren't huge: a new challenge to a decades-old idea",
+      "host": "Springer Nature",
+      "published": "2026-03-25T16:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature Podcast episode challenges a decades-old hypothesis about insect size limitations. Researchers led by comparative physiologist Ned Snelling question the prevailing theory that atmospheric oxygen levels constrain insect body size, arguing instead that insects are remarkably efficient at oxygen delivery through their tracheal systems. The episode also covers advances in CAR-T cancer therapy, including a breakthrough in engineering immune cells inside the body using CRISPR-Cas9 genome editing, and research highlights on biological aging clocks and ultra-powerful portable magnets.",
+      "science_topics": [
+        "Insect respiratory physiology and tracheal systems",
+        "Atmospheric oxygen concentration and evolutionary constraints on body size",
+        "Griffinflies and Paleozoic gigantism in insects",
+        "CAR-T cell immunotherapy and in vivo genetic engineering",
+        "CRISPR-Cas9 genome editing for T-cell engineering",
+        "Lentiviral and adeno-viral vector delivery systems",
+        "T-cell alpha constant (TRAC) locus genetic targeting",
+        "Biological aging and DNA methylation clocks",
+        "High-temperature superconducting magnets for nuclear magnetic resonance"
+      ],
+      "claims_to_note": [
+        "Griffinflies had wingspans up to 70 centimeters approximately 300 million years ago - factual claim about paleontology that could be verified",
+        "Atmospheric oxygen levels were significantly higher 300 million years ago than today - widely accepted paleoclimatology claim",
+        "Tracheole investment in flight muscle increases only from 0.5% to 0.8% across a 10,000-fold body mass range in insects - specific quantitative claim challenging oxygen limitation hypothesis",
+        "CAR-T cells engineered at the TRAC locus are more potent than those with randomly integrated viral vectors - empirical claim about immunotherapy efficacy",
+        "Humanized mice with engineered CAR-T cells completely depleted B-cells after single injection - specific therapeutic efficacy claim in animal models",
+        "Biological aging acceleration speed independently predicts mortality risk beyond initial biological age - epidemiological claim from DNA methylation research"
+      ],
+      "policy_relevance": [
+        "FDA requirements for gene therapy clinical trials, including non-primate studies in monkeys before human trials",
+        "Regulatory classification shift from CAR-T as cell therapy to gene therapy affecting trial requirements",
+        "Manufacturing complexity and cost considerations for dual-vector viral delivery systems in clinical translation",
+        "Discussion of potential secondary cancer risks from random DNA insertion in earlier viral vector approaches"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity"
+        },
+        {
+          "title": "Status of Pollinators in North America",
+          "url": "https://nap.nationalacademies.org/catalog/11761/status-of-pollinators-in-north-america"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Heritable Human Genome Editing",
+          "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing"
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Human Genome Editing: Science, Ethics, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Could bird flu still spark a pandemic?",
+      "host": "Ira Flatow",
+      "published": "2026-03-25T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode examines the current status of H5N1 bird flu in the United States, which remains prevalent despite reduced media coverage. Dr. Seema Lakdawalla reports that the virus continues circulating in wild bird populations, poultry farms, and dairy cattle, with new concerns about transmission routes including aerosol spread and contamination of manure lagoons on farms. While human cases remain rare and mostly mild, the expert maintains moderate pandemic concern because insufficient containment measures allow the virus repeated opportunities to evolve and adapt to human infection. The discussion highlights gaps in federal-state regulatory coordination and advocates for proactive interventions including vaccination programs, enhanced surveillance, and protective measures for farm workers and backyard poultry owners.",
+      "science_topics": [
+        "H5N1 avian influenza epidemiology and transmission",
+        "Airborne pathogen transmission from dairy farms",
+        "Viral RNA and infectious virus detection in manure lagoons",
+        "Asymptomatic viral shedding in dairy cattle",
+        "Fecal-oral transmission routes in migratory birds",
+        "Zoonotic spillover at human-animal interfaces",
+        "Influenza vaccination strategies for poultry and livestock",
+        "Viral evolution and adaptation to human hosts"
+      ],
+      "claims_to_note": [
+        "Most human H5N1 cases have presented with mild symptoms including conjunctivitis and respiratory symptoms, with very few confirmed deaths",
+        "Deaths in humans have primarily resulted from direct contact with infected backyard poultry or sick birds",
+        "Infectious virus was detected in both air samples and manure lagoons on California dairy farms",
+        "Dairy cattle currently showing fewer symptomatic infections despite continued viral presence, with some farms testing positive via milk testing without visible illness signs",
+        "The virus is now detected across multiple migratory flyways in the U.S. (Pacific and Atlantic), representing an unprecedented level of circulation compared to historical bird flu patterns",
+        "USDA and CDC lack direct regulatory authority over commercial farms; only state departments of agriculture can mandate compliance"
+      ],
+      "policy_relevance": [
+        "USDA milk testing programs for H5N1 detection in dairy cattle",
+        "USDA reimbursement to poultry farmers for culling infected birds",
+        "State-level regulatory authority over commercial agricultural operations versus federal agency limitations",
+        "Need for implementation of bird flu vaccines in poultry and cattle industries",
+        "Federal-state coordination gaps in outbreak response and containment",
+        "Lack of comprehensive surveillance and testing protocols for migratory bird populations",
+        "Pandemic preparedness and preprint research conducted with California Department of Food and Agriculture"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication"
+        },
+        {
+          "title": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12799/the-domestic-and-international-impacts-of-the-2009-h1n1-influenza-a-pandemic"
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030",
+          "url": ""
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "Nutrient Requirements of Dairy Cattle: Eighth Revised Edition",
+          "url": "https://nap.nationalacademies.org/catalog/25806/nutrient-requirements-of-dairy-cattle-eighth-revised-edition"
+        },
+        {
+          "title": "Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001",
+          "url": "https://nap.nationalacademies.org/catalog/9825/nutrient-requirements-of-dairy-cattle-seventh-revised-edition-2001"
+        },
+        {
+          "title": "Nutrient Requirements of Beef Cattle: Seventh Revised Edition: Update 2000",
+          "url": "https://nap.nationalacademies.org/catalog/9791/nutrient-requirements-of-beef-cattle-seventh-revised-edition-update-2000"
+        },
+        {
+          "title": "Microtransit Solutions in Rural Communities: On-Demand Alternatives to Dial-a-Ride Services and Unproductive Coverage Routes",
+          "url": "https://nap.nationalacademies.org/catalog/29085/microtransit-solutions-in-rural-communities-on-demand-alternatives-to-dial"
+        },
+        {
+          "title": "Airport Roles in Reducing Transmission of Communicable Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/25367/airport-roles-in-reducing-transmission-of-communicable-diseases"
+        },
+        {
+          "title": "Identifying and Supporting Productive STEM Programs in Out-of-School Settings",
+          "url": "https://nap.nationalacademies.org/catalog/21740/identifying-and-supporting-productive-stem-programs-in-out-of-school-settings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The world’s freshwater is getting saltier. Why?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-25T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the global phenomenon of freshwater becoming saltier due to multiple sources including road salt, seawater intrusion, mining runoff, fertilizer runoff, and climate change-driven evaporation. Using Madison, Wisconsin as a case study, the episode explores how 70+ years of road salt application has steadily increased salinity in lakes and groundwater, affecting aquatic ecosystems and drinking water quality. The episode highlights both the environmental and health impacts of salinization and showcases community-based solutions like liquid brine application and equipment calibration that have helped Madison reduce salt use by 40%.",
+      "science_topics": [
+        "Freshwater salinization",
+        "Road salt contamination of aquatic systems",
+        "Seawater intrusion into aquifers",
+        "Chloride persistence in groundwater",
+        "Salt toxicity to fish, snails, and zooplankton",
+        "Climate change-driven freshwater evaporation",
+        "Reverse osmosis desalination",
+        "Invasive species adaptation to saline conditions",
+        "Groundwater contamination from salt",
+        "Sodium chloride health effects"
+      ],
+      "claims_to_note": [
+        "Lake Wingra in Madison now measures over 100 milligrams per liter of salt, approaching levels where humans can taste it",
+        "Around half of hundreds of lakes studied in northern U.S. and Canada (2017 study by Hilary Dugan) had gotten saltier",
+        "Salt at current Madison lake levels have been shown to be toxic to fish, snails, and zooplankton",
+        "American Heart Association recommends maximum 2,300 mg sodium per day, ideally under 1,500 mg per day",
+        "One Madison well (well 14) passed 120 mg/L chloride in 2014",
+        "Rising chloride levels documented in wells across Michigan, New Jersey, Idaho, and Arizona",
+        "Chloride is a persistent chemical that does not go away easily",
+        "30% of road salt can be lost off roads as truck drives by without brine pre-treatment",
+        "Madison city has reduced salt use by approximately 40%",
+        "Liquid brine allows snow removal with significantly less total salt"
+      ],
+      "policy_relevance": [
+        "City and county level water quality monitoring in Madison detecting rising salt levels in drinking water and wastewater",
+        "SaltWise nonprofit advocacy for reduced salt use and training programs for salt application equipment",
+        "Equipment calibration standards for salt truck application based on pavement temperature",
+        "Municipal adoption of liquid brine pre-treatment before snow events",
+        "Drinking water safety concerns in rural and urban areas across multiple U.S. states",
+        "Water treatment infrastructure challenges and costs for salt removal (reverse osmosis, distillation)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Framing the Challenge of Urban Flooding in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25381/framing-the-challenge-of-urban-flooding-in-the-united-states"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Immunization Safety Review: SV40 Contamination of Polio Vaccine and Cancer",
+          "url": "https://nap.nationalacademies.org/catalog/10534/immunization-safety-review-sv40-contamination-of-polio-vaccine-and-cancer"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "A Research Review of Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25279/a-research-review-of-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#466 — What Is Technology Doing to Us?",
+      "host": "Sam Harris",
+      "published": "2026-03-24T18:10:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "This episode examines technology's negative effects on society over the past decade, focusing on social media's role in polarization, mental health crises, and surveillance. The guests discuss remedies including the importance of non-anonymity in online spaces, potential return to trusted news sources, and the broader implications of AI systems on human behavior and social interaction. They explore how AI-mediated interactions might change human social dynamics, from children learning rudeness through interactions with voice assistants to potential psychological effects of interacting with humanoid robots.",
+      "science_topics": [
+        "Mental health impacts of social media on teenagers",
+        "Polarization mechanisms in digital communication systems",
+        "Human-machine interaction and behavioral modification",
+        "AI systems as catalysts for optimizing human collective performance",
+        "Uncanny valley in humanoid robotics",
+        "Anonymity's psychological effects on human behavior (disinhibition)",
+        "AI-generated synthetic content ('AI slop') and information reliability",
+        "Algorithm design and content curation effects on user behavior"
+      ],
+      "claims_to_note": [
+        "Social media technology has contributed to polarization, anomie, and mental health crises — supported by general research consensus but specific causal mechanisms debated",
+        "Current communication technologies enable quasi-totalitarian surveillance in the US — sweeping claim about surveillance state requiring specification",
+        "Anonymity directly causes behavioral disinhibition and worse social behavior — well-established psychological principle but context-dependent",
+        "AI can improve human collective and individual performance through injection into social systems — presented as experimentally validated but limited evidence provided",
+        "Sam Altman estimated 2-20% human extinction risk from AI — factual claim about specific statement; guest disputes the figure",
+        "Children exposed to voice assistants learn rudeness that transfers to peer interactions — presented as intuitive but specific empirical evidence not provided",
+        "Blue checkmark verification on Twitter reduced toxicity — presented as 'good idea' but causality not established in transcript"
+      ],
+      "policy_relevance": [
+        "Potential lawsuits against social media companies in California regarding harm to teenagers",
+        "Discussion of Section 230 liability protections and their effects on platform accountability",
+        "Debate over regulation versus platform self-regulation of toxic content",
+        "Implications for privacy regulation and personal data use for AI training",
+        "Questions about verification systems and platform governance structures"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Social Media and Adolescent Health",
+          "url": "https://nap.nationalacademies.org/catalog/27396/social-media-and-adolescent-health"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a"
+        },
+        {
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education"
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Monitoring Climate Change Impacts: Metrics at the Intersection of the Human and Earth Systems",
+          "url": "https://nap.nationalacademies.org/catalog/12965/monitoring-climate-change-impacts-metrics-at-the-intersection-of-the"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

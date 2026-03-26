@@ -1,0 +1,603 @@
+{
+  "podcast_id": "making-sense",
+  "podcast_name": "Making Sense",
+  "episode_title": "#466 — What Is Technology Doing to Us?",
+  "host": "Sam Harris",
+  "published": "2026-03-24T18:10:00",
+  "episode_url": "https://wakingup.libsyn.com/466-what-is-technology-doing-to-us",
+  "duration_minutes": 19.066666666666666,
+  "influence_tier": "high",
+  "category": "longform_interview",
+  "summary": "This episode examines technology's negative effects on society over the past decade, focusing on social media's role in polarization, mental health crises, and surveillance. The guests discuss remedies including the importance of non-anonymity in online spaces, potential return to trusted news sources, and the broader implications of AI systems on human behavior and social interaction. They explore how AI-mediated interactions might change human social dynamics, from children learning rudeness through interactions with voice assistants to potential psychological effects of interacting with humanoid robots.",
+  "science_topics": [
+    "Mental health impacts of social media on teenagers",
+    "Polarization mechanisms in digital communication systems",
+    "Human-machine interaction and behavioral modification",
+    "AI systems as catalysts for optimizing human collective performance",
+    "Uncanny valley in humanoid robotics",
+    "Anonymity's psychological effects on human behavior (disinhibition)",
+    "AI-generated synthetic content ('AI slop') and information reliability",
+    "Algorithm design and content curation effects on user behavior"
+  ],
+  "claims_to_note": [
+    "Social media technology has contributed to polarization, anomie, and mental health crises — supported by general research consensus but specific causal mechanisms debated",
+    "Current communication technologies enable quasi-totalitarian surveillance in the US — sweeping claim about surveillance state requiring specification",
+    "Anonymity directly causes behavioral disinhibition and worse social behavior — well-established psychological principle but context-dependent",
+    "AI can improve human collective and individual performance through injection into social systems — presented as experimentally validated but limited evidence provided",
+    "Sam Altman estimated 2-20% human extinction risk from AI — factual claim about specific statement; guest disputes the figure",
+    "Children exposed to voice assistants learn rudeness that transfers to peer interactions — presented as intuitive but specific empirical evidence not provided",
+    "Blue checkmark verification on Twitter reduced toxicity — presented as 'good idea' but causality not established in transcript"
+  ],
+  "policy_relevance": [
+    "Potential lawsuits against social media companies in California regarding harm to teenagers",
+    "Discussion of Section 230 liability protections and their effects on platform accountability",
+    "Debate over regulation versus platform self-regulation of toxic content",
+    "Implications for privacy regulation and personal data use for AI training",
+    "Questions about verification systems and platform governance structures"
+  ],
+  "key_quotes": [
+    "I think they've contributed to this polarization. They've contributed to Anomi. They've contributed to some of the mental health crises we've had. I think they've also led to a surveillance state, not just abroad, but shockingly in our own country where these technologies are being used in ways that I would regard as, you know, quasi-totalitarian or at least pose the threat of that.",
+    "I think people will learn. And I think, ironically, we may have a kind of return to a privileging of reputable sources... we migrated so far away from you know the evening news with Dan Rather kind of you know thing to everyone is an expert... but I think we may ironically people may be willing to pay a bit more for reliability.",
+    "what we're working on is not so much super smart AI to replace human cognition, but dumb AI to supplement human interaction... you can think of the AI as a kind of catalyst like platinum in an organic chemistry reaction that just facilitates the interaction of humans and helps optimize them."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Mental health impacts of social media on teenagers",
+      "publications": [
+        {
+          "id": "27396",
+          "title": "Social Media and Adolescent Health",
+          "url": "https://nap.nationalacademies.org/catalog/27396/social-media-and-adolescent-health",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Social media has been fully integrated into the lives of most adolescents in the U.S., raising concerns among parents, physicians, public health officials, and others about its effect on mental and physical health. Over the past year, an ad hoc committee of the National Academies of Sciences, Engineering, and Medicine examined the research and produced this detailed report exploring that effect and laying out recommendations for policymakers, regulators, industry, and others in an effort to maximize the good and minimize the bad. Focus areas include platform design, transparency and accountability, digital media literacy among young people and adults, online harassment, and supporting researchers.",
+          "year": 2024,
+          "committee": "Board on Population Health and Public Health Practice",
+          "keywords": [
+            "policymakers regulators industry",
+            "adults online harassment",
+            "public health",
+            "supporting researchers",
+            "physical health",
+            "social media",
+            "fully integrated",
+            "past year",
+            "laying out",
+            "adolescents",
+            "adolescent health"
+          ]
+        },
+        {
+          "id": "26623",
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Involvement with the juvenile justice system can impact young people's physical and mental health and well-being throughout their lives, as well as the health and well-being of their families and communities. Youth of color are more likely to become involved with the juvenile justice system, and suffer worse outcomes in sentencing, during incarceration, and after release. The National Academies of Sciences, Engineering, and Medicine's Roundtable on the Promotion of Health Equity convened a workshop to discuss the impact that juvenile justice system involvement has on the health and well-being of adolescents, families, and communities of color; examine policies that are successful in improving outcomes; and explore what needs to be done to improve all aspects of encounters with the juvenile justice system. The workshop suggested pursuing alternatives to traditional juvenile justice systems that would allow adolescents to stay in their communities rather than in detention, responding to ",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Population Health And Public He",
+          "keywords": [
+            "medical",
+            "juvenile justice system involvement",
+            "traditional juvenile justice systems",
+            "health equity convened",
+            "sentencing during incarceration",
+            "suggested pursuing alternatives",
+            "suffer worse outcomes",
+            "impact young people",
+            "mental health",
+            "adolescents families",
+            "communities rather",
+            "youth families",
+            "communities",
+            "impact",
+            "health",
+            "color"
+          ]
+        },
+        {
+          "id": "25616",
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "trial altogether confusing investigators",
+            "titled clinical trials",
+            "diverse populations participation",
+            "health literacy convened",
+            "broad patient base",
+            "become confused mistrustful",
+            "discussion centered around",
+            "early trials",
+            "individualized nature",
+            "possibly affecting",
+            "health literacy",
+            "clinical",
+            "impact"
+          ],
+          "description": "Because of the individualized nature of drug and therapeutic treatments, clinical trials require participants who represent the diversity of the patient base. If early trials do not have a broad patient base, it can be difficult to know who may or may not benefit from or respond to a treatment later. In addition to diversity in recruitment, informed consent during participation is also crucial. If participants do not fully understand what they are signing up for, they may become confused, mistrustful, or drop out of a trial altogether, confusing investigators and possibly affecting the generalizability of a study. To explore the incorporation of health literacy practices into clinical trials, the Roundtable on Health Literacy convened a workshop titled Clinical Trials: Practice and Impact on April 11, 2019, in Washington, DC. The workshop presentations and discussion centered around issues related to the challenges or barriers for diverse populations' participation in clinical trials, ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Polarization mechanisms in digital communication systems",
+      "publications": [
+        {
+          "id": "25664",
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "improve health outcomes across",
+            "cancer policy forum collaborated",
+            "low health literacy",
+            "cancer care continuum",
+            "improve communication across",
+            "treatment higher rates",
+            "reduce disease risk",
+            "however estimates suggest",
+            "poor health",
+            "treatment outcomes",
+            "health literacy",
+            "communication",
+            "oncology"
+          ],
+          "description": "Health literacy is a critical skill for engaging in healthy behaviors to reduce disease risk and improve health outcomes across the continuum of cancer care. However, estimates suggest that more than one-third of the U.S. adult population has low health literacy, and nearly half of all patients with cancer have difficulty understanding information about their disease or treatment. Low health literacy among patients with cancer is associated with poor health and treatment outcomes, including lower adherence to treatment, higher rates of missed appointments, and an increased risk of hospitalization. Low health literacy can also impede informed decision making, especially as cancer care becomes increasingly complex and as patients and their families take more active roles in treatment decisions. To examine opportunities to improve communication across the cancer care continuum, the National Cancer Policy Forum collaborated with the Roundtable on Health Literacy to host a workshop, Health ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "23686",
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "cyber physical systems cps",
+            "widely deployed communication networks",
+            "increasingly capable adaptable",
+            "managing inter dependencies",
+            "regional energy grid",
+            "physical components",
+            "trustworthy systems",
+            "engineered systems",
+            "technical developments",
+            "appropriate education",
+            "cyber physical systems education"
+          ],
+          "description": "Cyber-physical systems (CPS) are \"engineered systems that are built from, and depend upon, the seamless integration of computational algorithms and physical components.\" CPS can be small and closed, such as an artificial pancreas, or very large, complex, and interconnected, such as a regional energy grid. CPS engineering focuses on managing inter- dependencies and impact of physical aspects on cyber aspects, and vice versa. With the development of low-cost sensing, powerful embedded system hardware, and widely deployed communication networks, the reliance on CPS for system functionality has dramatically increased. These technical developments in combination with the creation of a workforce skilled in engineering CPS will allow the deployment of increasingly capable, adaptable, and trustworthy systems. Engineers responsible for developing CPS but lacking the appropriate education or training may not fully understand at an appropriate depth, on the one hand, the technical issues associat",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26894",
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "individual patient level predictions",
+            "going beyond traditional simulation",
+            "digital twin technologies",
+            "modeling digital twins",
+            "bidirectional data flows",
+            "across multiple domains",
+            "climate conditions",
+            "conditions change",
+            "transform scientific",
+            "physical counterpart",
+            "digital twins",
+            "foundational",
+            "directions",
+            "gaps"
+          ],
+          "description": "Across multiple domains of science, engineering, and medicine, excitement is growing about the potential of digital twins to transform scientific research, industrial practices, and many aspects of daily life. A digital twin couples computational models with a physical counterpart to create a system that is dynamically updated through bidirectional data flows as conditions change. Going beyond traditional simulation and modeling, digital twins could enable improved medical decision-making at the individual patient level, predictions of future weather and climate conditions over longer timescales, and safer, more efficient engineering processes. However, many challenges remain before these applications can be realized. This report identifies the foundational research and resources needed to support the development of digital twin technologies. The report presents critical future research priorities and an interdisciplinary research agenda for the field, including how federal agencies an",
+          "year": 2024,
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Human-machine interaction and behavioral modification",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "27815",
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "equitable industrial decarbonization",
+            "assessing ideas",
+            "speed efficient",
+            "developing",
+            "behavioral",
+            "social"
+          ],
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI systems as catalysts for optimizing human collective performance",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "27930",
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "earth systems science perspective",
+            "earth systems science aims",
+            "address climate change impacts",
+            "crossing international borders",
+            "interactions among natural",
+            "human migration",
+            "presentations focused",
+            "cultural socioeconomic",
+            "geopolitical processes",
+            "consequent influence",
+            "climate change"
+          ],
+          "description": "Earth systems science aims to discover and integrate knowledge on the structure, nature, and scales of interactions among natural (e.g., physical, chemical, and biological) and social (e.g., cultural, socioeconomic, and geopolitical) processes. Climate-related migration can be temporary or permanent, can involve internal displacement within countries or crossing international borders, and can involve a broad array of other direct and indirect drivers. To explore how an Earth systems science approach may be used to address climate change impacts and the consequent influence on human migration, the National Academies hosted a workshop, Climate Change and Human Migration: An Earth Systems Science Perspective, on March 18-19, 2024. Workshop presentations focused on the data, methods, and research strategies relevant to understanding climate-related migration. This publication summarizes the presentations and discussion of the workshop.",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "12965",
+          "title": "Monitoring Climate Change Impacts: Metrics at the Intersection of the Human and Earth Systems",
+          "url": "https://nap.nationalacademies.org/catalog/12965/monitoring-climate-change-impacts-metrics-at-the-intersection-of-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "climate change",
+            "example direct measurements",
+            "human population grows",
+            "indicators measurements",
+            "supporting infrastructure",
+            "assess vulnerabilities",
+            "observing systems",
+            "investments designed",
+            "stresses associated",
+            "increase resilience",
+            "monitoring climate change impacts",
+            "earth systems",
+            "intersection",
+            "metrics",
+            "human"
+          ],
+          "description": "The stresses associated with climate change are expected to be felt keenly as human population grows to a projected 9 billion by the middle of this century, increasing the demand for resources and supporting infrastructure. Therefore, information to assess vulnerabilities to climate change is needed to support policies and investments designed to increase resilience in human and Earth systems. There are currently many observing systems that capture elements of how climate is changing, for example, direct measurements of atmospheric and ocean temperature. Although those measurements are essential for understanding the scale and nature of climate change, they do not necessarily provide information about the impacts of climate change on humans that are especially relevant for political and economic planning and decision making. Monitoring Climate Change Impacts tackles the challenge of developing an illustrative suite of indicators, measurements (and the locations around the globe where t",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Uncanny valley in humanoid robotics",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "27129",
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "attitudes behaviors social cohesion",
+            "built infrastructure reshaping mandates",
+            "entail massive socio emotional",
+            "adaptive societal responses",
+            "enhanced human responses",
+            "scale societal responses",
+            "translating policies investments",
+            "environmental change",
+            "climate change",
+            "sustained local impact",
+            "integrating",
+            "human"
+          ],
+          "description": "Responding to climate change will entail massive socio-emotional and behavioral changes. Translating policies, investments, or built infrastructure-reshaping mandates into real and sustained local impact that incorporates accountability and culture change will require hands-on work. Adaptive societal responses to climate change will succeed or fail based on the attitudes, behaviors, social cohesion and capital, organizational and emotional strengths, and collective impact and input of all stakeholders. To consider how to integrate, align, and converge the broad mix of social, behavioral, and cognitive sciences to produce new insights and inform efforts for enhanced human responses to environmental change, Board on Environmental Change and Society of the National Academies of Sciences, Engineering and Medicine convened this 2023 workshop, entitled Committee on Integrating the Human Sciences to Scale Societal Responses to Environmental Change: A Workshop. The workshop was intended to inv",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Environmental Change And Societ"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3387,
+  "saved_at": "2026-03-26T11:26:13.389979"
+}
