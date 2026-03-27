@@ -1,0 +1,555 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Move over, vibe-coding. Vibe-proving is here for math",
+  "host": "Ira Flatow",
+  "published": "2026-03-27T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 18.616666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "The episode explores how artificial intelligence is advancing in mathematical problem-solving, from basic arithmetic to research-level mathematics, with AI systems winning gold medals at the International Mathematical Olympiad. While some claim AI poses an existential threat to mathematics, experts Emily Reel and Daniel Litt argue that true revolution in the field has not yet occurred, emphasizing that AI's greatest challenge is problem formulation rather than problem-solving. The discussion highlights both opportunities and risks of AI in mathematics, including the potential for \"vibe-proving\"—using AI without fully understanding results—and the importance of formal proof verification. Ultimately, they argue that mathematics requires human creativity, intuition, and collaboration that AI has not yet matched.",
+  "science_topics": [
+    "Artificial intelligence performance on mathematical problem-solving and theorem proving",
+    "International Mathematical Olympiad AI performance",
+    "Research-level mathematics and AI applications",
+    "Formal proof verification and computer proof assistants",
+    "Erdős problems and autonomous mathematical problem solving",
+    "Hodge conjecture and Millennium Prize Problems",
+    "AI hallucinations in mathematical proofs",
+    "Natural language versus formalized mathematical proofs",
+    "Hyperbolic geometry"
+  ],
+  "claims_to_note": [
+    "Google and OpenAI models won gold medals at the International Mathematical Olympiad, competing with top high school mathematicians—verify specific competition results and medal achievements",
+    "Three Erdős problems have been solved fully autonomously by AI, and 6-7 additional previously unsolved problems were solved by humans with AI assistance—verify against Erdős problem database records",
+    "In September of the previous year, approximately 11 out of 12 papers submitted to the mathematics archive claiming proofs of the Hodge conjecture were AI-generated hallucinations—verify submission dates and retraction records",
+    "Claim that AI has not yet demonstrated revolutionary impact on mathematical research despite solving contest-level problems—this represents expert consensus but should be monitored as AI capabilities evolve",
+    "Assertion that mathematics is not primarily about problem-solving but about problem formulation and theory development—represents a specific view of mathematical practice that could be examined against broader mathematical philosophy"
+  ],
+  "policy_relevance": [
+    "Mathematics preprint server (arXiv) submission norms and standards for AI-generated content",
+    "Potential need for updated peer review and publication standards for AI-assisted mathematical proofs",
+    "Millennium Prize Problems funding and verification mechanisms in context of AI-generated proofs",
+    "Academic credentialing and skill requirements for mathematicians in an era of AI mathematical tools",
+    "Training and curriculum considerations for mathematics education given AI capabilities"
+  ],
+  "key_quotes": [
+    "Mathematics is not just about solving problems. Even research mathematics is not just about solving problems. I mean, solving problems can be beautiful, but actually stating the problems, figuring out what is an interesting theorem to try and prove is equally important, really what drives the field forward.",
+    "We do like it when a proof tells us something new... If the proof doesn't also explain something deep to sort of justify the new conclusion, then mathematicians will go and search for a different proof that does.",
+    "The most important parts of mathematics are actually closer to philosophy I think than science... Like you're trying to develop a theory or figure out why something is true. Often that involves discovering a new structure... you spread a philosophy to a community of other mathematicians and give them a way of understanding new mathematical objects."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Artificial intelligence performance on mathematical problem-solving and theorem proving",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "complex real world environments",
+            "achieving optimal performance",
+            "although artificial intelligence",
+            "human operations",
+            "successful performance",
+            "military operations",
+            "limitations mean",
+            "causation important",
+            "potential benefits",
+            "remain inadequate",
+            "teaming",
+            "human",
+            "state",
+            "needs",
+            "art"
+          ],
+          "description": "\"Although artificial intelligence (AI) has many potential benefits, it has also been shown to suffer from a number of challenges for successful performance in complex real-world environments such as military operations, including brittleness, perceptual limitations, hidden biases, and lack of a model of causation important for understanding and predicting future events. These limitations mean that AI will remain inadequate for operating on its own in many complex and novel situations for the foreseeable future, and that AI will need to be carefully managed by humans to achieve their desired utility. Human-AI Teaming: State-of-the-Art and Research Needs examines the factors that are relevant to the design and implementation of AI systems with respect to human operations. This report provides an overview of the state of research on human-AI teaming to determine gaps and future research priorities and explores critical human-systems integration issues for achieving optimal performance.\"--",
+          "year": 2021,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "International Mathematical Olympiad AI performance",
+      "publications": [
+        {
+          "id": "26905",
+          "title": "Enhancing Urban Sustainability Infrastructure: Mathematical Approaches for Optimizing Investments: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26905/enhancing-urban-sustainability-infrastructure-mathematical-approaches-for-optimizing-investments-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "enhancing urban sustainability infrastructure",
+            "optimizing investments",
+            "mathematical"
+          ],
+          "year": 2023,
+          "committee": "Board on Infrastructure and the Constructed Environment"
+        },
+        {
+          "id": "15269",
+          "title": "The Mathematical Sciences in 2025",
+          "url": "https://nap.nationalacademies.org/catalog/15269/the-mathematical-sciences-in-2025",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The mathematical sciences are part of nearly all aspects of everyday life-the discipline has underpinned such beneficial modern capabilities as Internet search, medical imaging, computer animation, numerical weather predictions, and all types of digital communications. The Mathematical Sciences in 2025 examines the current state of the mathematical sciences and explores the changes needed for the discipline to be in a strong position and able to maximize its contribution to the nation in 2025. It finds the vitality of the discipline excellent and that it contributes in expanding ways to most areas of science and engineering, as well as to the nation as a whole, and recommends that training for future generations of mathematical scientists should be re-assessed in light of the increasingly cross-disciplinary nature of the mathematical sciences. In addition, because of the valuable interplay between ideas and people from all parts of the mathematical sciences, the report emphasizes that ",
+          "year": 2013,
+          "page_keywords": [
+            "Mathematics"
+          ],
+          "committee": "Board on Mathematical Sciences and Their Applications",
+          "keywords": [
+            "mathematics",
+            "increasingly cross disciplinary nature",
+            "beneficial modern capabilities",
+            "mathematical scientists",
+            "discipline excellent",
+            "digital communications",
+            "valuable interplay",
+            "addition because",
+            "strong position",
+            "changes needed",
+            "expanding ways",
+            "mathematical"
+          ]
+        },
+        {
+          "id": "13373",
+          "title": "Fueling Innovation and Discovery: The Mathematical Sciences in the 21st Century",
+          "url": "https://nap.nationalacademies.org/catalog/13373/fueling-innovation-and-discovery-the-mathematical-sciences-in-the-21st",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "genetics",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "mathematics",
+            "discovery describes recent advances",
+            "modern communication transportation science",
+            "often invoked without",
+            "advances enabled",
+            "ongoing advances",
+            "mathematical",
+            "fueling innovation",
+            "transforming industries",
+            "manufacturing security",
+            "explicit awareness",
+            "discovery"
+          ],
+          "description": "The mathematical sciences are part of everyday life. Modern communication, transportation, science, engineering, technology, medicine, manufacturing, security, and finance all depend on the mathematical sciences. Fueling Innovation and Discovery describes recent advances in the mathematical sciences and advances enabled by mathematical sciences research. It is geared toward general readers who would like to know more about ongoing advances in the mathematical sciences and how these advances are changing our understanding of the world, creating new technologies, and transforming industries. Although the mathematical sciences are pervasive, they are often invoked without an explicit awareness of their presence. Prepared as part of the study on the Mathematical Sciences in 2025, a broad assessment of the current state of the mathematical sciences in the United States, Fueling Innovation and Discovery presents mathematical sciences advances in an engaging way. The report describes the cont",
+          "year": 2012,
+          "page_keywords": [
+            "Mathematics"
+          ],
+          "committee": "Board on Mathematical Sciences and Their Applications"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Research-level mathematics and AI applications",
+      "publications": [
+        {
+          "id": "27993",
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "automatic pavement condition evaluation",
+            "assess current pavement conditions",
+            "refine pavement performance models",
+            "evaluate pavement conditions",
+            "artificial intelligence technologies",
+            "rehabilitation treatments",
+            "cooperative highway",
+            "nchrp synthesis",
+            "budget needs",
+            "semiautomated",
+            "applications"
+          ],
+          "description": "Departments of transportation (DOTs) use pavement condition surveys to assess current pavement conditions and predict future pavement conditions to determine the type and timing of maintenance and rehabilitation treatments; define future budget needs; and develop, or refine, pavement performance models. Over the last two decades, pavement condition assessment has transitioned from manual to semiautomated to fully automated pavement condition surveys.NCHRP Synthesis 636: AI Applications for Automatic Pavement Condition Evaluation, from TRB's National Cooperative Highway Research Program, documents state DOT automated pavement distress identification and the use of artificial intelligence technologies to evaluate pavement conditions.",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Formal proof verification and computer proof assistants",
+      "publications": [
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        },
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "11925",
+          "title": "Toward a Safer and More Secure Cyberspace",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "security",
+            "hacking",
+            "computer security",
+            "digital"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Erdős problems and autonomous mathematical problem solving",
+      "publications": [
+        {
+          "id": "26905",
+          "title": "Enhancing Urban Sustainability Infrastructure: Mathematical Approaches for Optimizing Investments: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26905/enhancing-urban-sustainability-infrastructure-mathematical-approaches-for-optimizing-investments-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "enhancing urban sustainability infrastructure",
+            "optimizing investments",
+            "mathematical"
+          ],
+          "year": 2023,
+          "committee": "Board on Infrastructure and the Constructed Environment"
+        },
+        {
+          "id": "15269",
+          "title": "The Mathematical Sciences in 2025",
+          "url": "https://nap.nationalacademies.org/catalog/15269/the-mathematical-sciences-in-2025",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The mathematical sciences are part of nearly all aspects of everyday life-the discipline has underpinned such beneficial modern capabilities as Internet search, medical imaging, computer animation, numerical weather predictions, and all types of digital communications. The Mathematical Sciences in 2025 examines the current state of the mathematical sciences and explores the changes needed for the discipline to be in a strong position and able to maximize its contribution to the nation in 2025. It finds the vitality of the discipline excellent and that it contributes in expanding ways to most areas of science and engineering, as well as to the nation as a whole, and recommends that training for future generations of mathematical scientists should be re-assessed in light of the increasingly cross-disciplinary nature of the mathematical sciences. In addition, because of the valuable interplay between ideas and people from all parts of the mathematical sciences, the report emphasizes that ",
+          "year": 2013,
+          "page_keywords": [
+            "Mathematics"
+          ],
+          "committee": "Board on Mathematical Sciences and Their Applications",
+          "keywords": [
+            "mathematics",
+            "increasingly cross disciplinary nature",
+            "beneficial modern capabilities",
+            "mathematical scientists",
+            "discipline excellent",
+            "digital communications",
+            "valuable interplay",
+            "addition because",
+            "strong position",
+            "changes needed",
+            "expanding ways",
+            "mathematical"
+          ]
+        },
+        {
+          "id": "13373",
+          "title": "Fueling Innovation and Discovery: The Mathematical Sciences in the 21st Century",
+          "url": "https://nap.nationalacademies.org/catalog/13373/fueling-innovation-and-discovery-the-mathematical-sciences-in-the-21st",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "genetics",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "mathematics",
+            "discovery describes recent advances",
+            "modern communication transportation science",
+            "often invoked without",
+            "advances enabled",
+            "ongoing advances",
+            "mathematical",
+            "fueling innovation",
+            "transforming industries",
+            "manufacturing security",
+            "explicit awareness",
+            "discovery"
+          ],
+          "description": "The mathematical sciences are part of everyday life. Modern communication, transportation, science, engineering, technology, medicine, manufacturing, security, and finance all depend on the mathematical sciences. Fueling Innovation and Discovery describes recent advances in the mathematical sciences and advances enabled by mathematical sciences research. It is geared toward general readers who would like to know more about ongoing advances in the mathematical sciences and how these advances are changing our understanding of the world, creating new technologies, and transforming industries. Although the mathematical sciences are pervasive, they are often invoked without an explicit awareness of their presence. Prepared as part of the study on the Mathematical Sciences in 2025, a broad assessment of the current state of the mathematical sciences in the United States, Fueling Innovation and Discovery presents mathematical sciences advances in an engaging way. The report describes the cont",
+          "year": 2012,
+          "page_keywords": [
+            "Mathematics"
+          ],
+          "committee": "Board on Mathematical Sciences and Their Applications"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3683,
+  "saved_at": "2026-03-27T11:40:43.166581"
+}

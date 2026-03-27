@@ -1,0 +1,713 @@
+{
+  "podcast_id": "huberman-lab",
+  "podcast_name": "Huberman Lab",
+  "episode_title": "Essentials: Using Salt to Optimize Mental & Physical Performance",
+  "host": "Andrew Huberman",
+  "published": "2026-03-26T08:00:00",
+  "episode_url": "https://www.hubermanlab.com/episode/essentials-using-salt-to-optimize-mental-and-physical-performance",
+  "duration_minutes": 38.733333333333334,
+  "influence_tier": "high",
+  "category": "science_health_influencer",
+  "summary": "This episode explores sodium's critical roles in regulating fluid balance, blood pressure, and neurological function. Huberman explains how the brain monitors salt concentration through specialized regions like the OVLT, discusses two types of thirst (osmotic and hypovolemic), and addresses sodium recommendations across different health contexts. The episode emphasizes that optimal salt intake varies by individual health status, activity level, and dietary approach, with recommendations ranging from 2.3g daily for general health to 6-10g for those with orthostatic disorders. Huberman also discusses interactions between salt and sweet taste perception in driving food consumption patterns.",
+  "science_topics": [
+    "Organum vasculosum of the lateral terminalis (OVLT) and osmolarity sensing",
+    "Vasopressin/antidiuretic hormone (ADH) regulation",
+    "Osmotic thirst vs. hypovolemic thirst mechanisms",
+    "Kidney function and sodium-fluid reabsorption",
+    "Blood-brain barrier permeability",
+    "Baroreceptor and mechanoreceptor function",
+    "Sodium-potassium balance and cellular function",
+    "Action potentials and neuronal sodium dependence",
+    "Hypernatremia and hyponatremia effects on brain function",
+    "Taste pathway interactions for salt and sweet perception",
+    "Parallel neural pathways for taste processing",
+    "Adrenal glucocorticoids and aldosterone in salt regulation",
+    "Low-carbohydrate diet effects on electrolyte excretion",
+    "Orthostatic hypotension and postural tachycardia syndrome (POTS)",
+    "Exercise-induced dehydration and electrolyte loss"
+  ],
+  "claims_to_note": [
+    "Sodium intake of 2.3 grams per day is associated with low incidence of cardiovascular events and stroke - this aligns with current public health guidelines (e.g., WHO, AHA recommendations)",
+    "Higher salt intake of 6-10 grams per day recommended for orthostatic disorders by American Society of Hypertension - this is accurate per ASH guidelines for POTS and orthostatic hypotension patients",
+    "Water loss during exercise is 1-5 pounds per hour - this range is consistent with exercise physiology literature",
+    "At very low sodium levels (~2g/day) risks decline until 4-5g/day, then risks increase dramatically - the actual relationship is more nuanced; linear dose-response associations with cardiovascular risk are well-documented but the 'dramatic increase' language may overstate the steepness",
+    "Drinking excessive water in short periods can cause hypernatremia and death - note: this is actually hyponatremia (low sodium), not hypernatremia (high sodium), which is a significant terminology error",
+    "Salt masks perception of sweetness and vice versa, reducing satiety - supported by taste pathway research on neural pathway interactions",
+    "Sodium is essential for action potential generation - well-established neuroscience (accurate)",
+    "Low sodium impairs stress response capacity - supported by adrenal endocrinology research"
+  ],
+  "policy_relevance": [
+    "American Society of Hypertension recommendations for salt intake in orthostatic disorders (6,000-10,000 mg/day)",
+    "WHO and public health agency sodium intake guidelines (2.3g/day recommendation)",
+    "FDA and food labeling regulations regarding sodium content in processed foods (mentioned in context of hidden sugars and salt in food manufacturing)",
+    "Discussion of processed food industry practices in sodium and sugar addition, relevant to FDA food policy oversight"
+  ],
+  "key_quotes": [
+    "Without knowing what your blood pressure is, I can't give a one-size-fits-all recommendation...you need to know your blood pressure. It's an absolutely crucial measurement that has a lot of impact on your immediate and long-term health outcomes.",
+    "Context is vital, right? People with high blood pressure are going to need certain amounts of salt intake. People with lower blood pressure are going to need higher amounts of salt.",
+    "Sodium is one of the key elements that allows neurons to function at all...and that's by way of engaging what we call the action potential. The action potential is the fundamental way in which neurons communicate with one another."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Organum vasculosum of the lateral terminalis (OVLT) and osmolarity sensing",
+      "publications": [
+        {
+          "id": "27165",
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "gene thereby diversifying genetic",
+            "existing methods cannot discover",
+            "current technological limitations",
+            "pressing societal challenges",
+            "living systems hold",
+            "distinct rna molecules",
+            "rna modifications",
+            "biological processes",
+            "human diseases",
+            "concerted efforts",
+            "sequencing rna",
+            "modifications",
+            "charting",
+            "biology",
+            "era"
+          ],
+          "description": "Concerted efforts to deepen understanding of RNA modifications and their role in living systems hold the potential to advance human health, improve crop yields, and address other pressing societal challenges. RNA, which carries the information encoded by DNA to the places where it is needed, is amazingly diverse and dynamic. RNA is processed and modified through natural biological pathways, giving rise to hundreds, in some cases thousands, of distinct RNA molecules for each gene, thereby diversifying genetic information. RNA modifications are known to be pivotal players in nearly all biological processes, and their dysregulation has been implicated in a wide range of human diseases and disorders. Yet, our knowledge of RNA modifications remains incomplete, hindered by current technological limitations. Existing methods cannot discover all RNA modifications, let alone comprehensively sequence them on every RNA molecule. Nonetheless, what is known about RNA modifications has already been ",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "26850",
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The field of quantum information science (QIS) has witnessed a dramatic rise in scientific research activities in the 21st century as excitement has grown about its potential to revolutionize communications and computing, strengthen encryption, and enhance quantum sensing, among other applications. While, historically, QIS research has been dominated by the field of physics and computer engineering, this report explores how chemistry - in particular the use of molecular qubits - could advance QIS. In turn, researchers are also examining how QIS could be used to solve problems in chemistry, for example, to facilitate new drug and material designs, health and environmental monitoring tools, and more sustainable energy production. Recognizing that QIS could be a disruptive technology with the potential to create groundbreaking products and new industries, Advancing Chemistry and Quantum Information Science calls for U.S. leadership to build a robust enterprise to facilitate and support re",
+          "year": 2023,
+          "committee": "Board on Life Sciences",
+          "keywords": [
+            "enhance quantum sensing among",
+            "industries advancing chemistry",
+            "computing strengthen encryption",
+            "environmental monitoring tools",
+            "create groundbreaking products",
+            "sustainable energy production",
+            "material designs health",
+            "while historically qis",
+            "revolutionize communications",
+            "disruptive technology",
+            "advancing chemistry",
+            "opportunities",
+            "quantum",
+            "science",
+            "interface"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Vasopressin/antidiuretic hormone (ADH) regulation",
+      "publications": [
+        {
+          "id": "27765",
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "vulnerabilities identifies remaining gaps",
+            "additional risk management planning",
+            "supply chain disruptions",
+            "supply market competition",
+            "relevant stakeholders addressed",
+            "drug administration contracted",
+            "infant formula",
+            "marketplace vulnerabilities",
+            "consequently disruptions",
+            "protect infants",
+            "challenges",
+            "regulation"
+          ],
+          "description": "Infant formula is a primary or supplementary source of nutrition for many infants in the U.S. Consequently, disruptions to the supply of infant formula can have a severe impact on infants' health and well-being. In late 2021 and early 2022, a recall of specific infant formula products, followed by a pause in production, resulted in a widespread, national shortage. The incident demonstrated that additional risk management planning is needed to protect infants from the consequences of potential future supply chain disruptions. In 2023, the U.S. Food and Drug Administration contracted with the National Academies to convene an expert committee to examine and report on challenges in supply, market competition, and regulation of infant formula. The resulting consensus study report explains policy and marketplace vulnerabilities that were exposed during the shortage, describes the extent to which actions taken by relevant stakeholders addressed these vulnerabilities, identifies remaining gaps",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food And Nutrition Board"
+        },
+        {
+          "id": "27397",
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "facial recognition technology",
+            "identifying potential security threats",
+            "regulations raising significant concerns",
+            "aiding law enforcement investigations",
+            "mitigate potential harms",
+            "comprehensive safeguards",
+            "identity verification",
+            "current capabilities",
+            "necessary governance",
+            "increasingly used",
+            "governance",
+            "prospects"
+          ],
+          "description": "Facial recognition technology is increasingly used for identity verification and identification, from aiding law enforcement investigations to identifying potential security threats at large venues. However, advances in this technology have outpaced laws and regulations, raising significant concerns related to equity, privacy, and civil liberties. This report explores the current capabilities, future possibilities, and necessary governance for facial recognition technology. Facial Recognition Technology discusses legal, societal, and ethical implications of the technology, and recommends ways that federal agencies and others developing and deploying the technology can mitigate potential harms and enact more comprehensive safeguards.",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Committee on Law and Justice"
+        },
+        {
+          "id": "19018",
+          "title": "Assessing the Use of Agent-Based Models for Tobacco Regulation",
+          "url": "https://nap.nationalacademies.org/catalog/19018/assessing-the-use-of-agent-based-models-for-tobacco-regulation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "tobacco use onset cessation",
+            "tobacco regulation describes",
+            "tobacco consumption continues",
+            "complex tobacco environment",
+            "inform tobacco policy",
+            "reduce tobacco use",
+            "strong social component inherent",
+            "drug administration fda regulates",
+            "social interactions agent",
+            "policy relevant agent",
+            "tobacco regulation",
+            "assessing",
+            "models",
+            "agent",
+            "use"
+          ],
+          "description": "Tobacco consumption continues to be the leading cause of preventable disease and death in the United States. The Food and Drug Administration (FDA) regulates the manufacture, distribution, and marketing of tobacco products - specifically cigarettes, cigarette tobacco, roll-your-own tobacco, and smokeless tobacco - to protect public health and reduce tobacco use in the United States. Given the strong social component inherent to tobacco use onset, cessation, and relapse, and given the heterogeneity of those social interactions, agent-based models have the potential to be an essential tool in assessing the effects of policies to control tobacco. Assessing the Use of Agent-Based Models for Tobacco Regulation describes the complex tobacco environment; discusses the usefulness of agent-based models to inform tobacco policy and regulation; presents an evaluation framework for policy-relevant agent-based models; examines the role and type of data needed to develop agent-based models for tobac",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Osmotic thirst vs. hypovolemic thirst mechanisms",
+      "publications": [
+        {
+          "id": "25762",
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "cool earth nrc reviewed",
+            "provided high level",
+            "climate intervention",
+            "reflecting sunlight",
+            "state",
+            "mechanisms",
+            "regarding",
+            "establish",
+            "encompass",
+            "governing",
+            "solar geoengineering",
+            "governance"
+          ],
+          "description": "The National Research Council report Climate Intervention: Reflecting Sunlight to Cool Earth (NRC, 2015) reviewed the state of the science and provided high-level findings and recommendations regarding SG methods. This current study was tasked to update the 2015 assessment of the state of understanding and to provide recommendations for how to establish a research program, what to encompass in the research agenda, and what mechanisms to employ for governing this research.",
+          "year": 2021,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "24833",
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "seemingly simple concept encompasses",
+            "featuring invited speakers",
+            "cyber resilience hosted",
+            "important mechanism",
+            "mechanisms policies",
+            "security changes",
+            "private sector",
+            "wide variety",
+            "software",
+            "presentations",
+            "resilience",
+            "mechanism",
+            "security"
+          ],
+          "description": "Software update is an important mechanism by which security changes and improvements are made in software, and this seemingly simple concept encompasses a wide variety of practices, mechanisms, policies, and technologies. To explore the landscape further, the Forum on Cyber Resilience hosted a workshop featuring invited speakers from government, the private sector, and academia. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26284",
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+          "url": "https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "global pandemic preparedness",
+            "urgent influenza threat",
+            "global coordination",
+            "vaccines identifies ways",
+            "pandemic threat",
+            "strengthen pandemic",
+            "covid pandemic",
+            "global system",
+            "coordination mechanisms",
+            "development ecosystem",
+            "influenza imperative",
+            "countering",
+            "vaccines"
+          ],
+          "description": "The COVID-19 pandemic has laid bare the fragility of the global system of preparedness and response to pandemics and the fragmentation of our research and development ecosystem. The pandemic has provided a disruptive moment to advance new norms and frameworks for influenza. It also has demonstrated how innovative global public-private partnerships and coordination mechanisms can lead to rapid successes in viral vaccine research, manufacturing, and risk pooling. Countering the Pandemic Threat Through Global Coordination on Vaccines identifies ways to strengthen pandemic and seasonal influenza global coordination, partnerships, and financing. This report presents seven overarching recommendations for how the urgent influenza threat should be conceptualized and prioritized within the global pandemic preparedness and response agenda in the future.",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Kidney function and sodium-fluid reabsorption",
+      "publications": [
+        {
+          "id": "23484",
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ensure effective federal oversight",
+            "second symposium focused",
+            "first symposium held",
+            "government deliberative process",
+            "second meeting held",
+            "technical questions surrounding",
+            "ideas identified during",
+            "public symposium",
+            "government policies",
+            "pandemic potential",
+            "second symposium march",
+            "function",
+            "gain"
+          ],
+          "description": "On March 10-11, 2016, the National Academies of Sciences, Engineering, and Medicine held a public symposium on potential U.S. government policies for the oversight of gain-of- function (GOF) research. This was the Academies' second meeting held at the request of the U.S. government to provide a mechanism to engage the life sciences community and the broader public and solicit feedback on optimal approaches to ensure effective federal oversight of GOF research as part of a broader U.S. government deliberative process. The first symposium, held in December 2014, examined the underlying scientific and technical questions surrounding the potential risks and benefits of GOF research involving pathogens with pandemic potential. The second symposium focused on discussion of the draft recommendations regarding GOF research of a Working Group of the National Science Advisory Board for Biosecurity. This report summarizes the key issues and ideas identified during the second symposium.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "25353",
+          "title": "Dietary Reference Intakes for Sodium and Potassium",
+          "url": "https://nap.nationalacademies.org/catalog/25353/dietary-reference-intakes-for-sodium-and-potassium",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "yet blood electrolyte concentrations",
+            "years increasing evidence suggests",
+            "two important blood electrolytes",
+            "potassium intake patterns",
+            "public health importance",
+            "essential nutrients sodium",
+            "influence care decisions",
+            "cardiovascular health",
+            "potassium contribute",
+            "dietary intake",
+            "dietary reference intakes",
+            "potassium",
+            "sodium"
+          ],
+          "description": "As essential nutrients, sodium and potassium contribute to the fundamentals of physiology and pathology of human health and disease. In clinical settings, these are two important blood electrolytes, are frequently measured and influence care decisions. Yet, blood electrolyte concentrations are usually not influenced by dietary intake, as kidney and hormone systems carefully regulate blood values. Over the years, increasing evidence suggests that sodium and potassium intake patterns of children and adults influence long-term population health mostly through complex relationships among dietary intake, blood pressure and cardiovascular health. The public health importance of understanding these relationships, based upon the best available evidence and establishing recommendations to support the development of population clinical practice guidelines and medical care of patients is clear. This report reviews evidence on the relationship between sodium and potassium intakes and indicators of",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        },
+        {
+          "id": "10925",
+          "title": "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate",
+          "url": "https://nap.nationalacademies.org/catalog/10925/dietary-reference-intakes-for-water-potassium-sodium-chloride-and-sulfate",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "water potassium sodium chloride",
+            "water potassium salt chloride",
+            "dietary reference intakes dris",
+            "presenting dietary reference values",
+            "food potassium sodium",
+            "tolerable upper intake levels",
+            "canadians establishes nutrient",
+            "nutrient intakes",
+            "chronic disease risk",
+            "adequate intakes",
+            "dietary reference intakes",
+            "sulfate"
+          ],
+          "description": "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate The Dietary Reference Intakes (DRIs) are quantitative estimates of nutrient intakes to be used for planning and assessing diets for healthy people. This new report, the sixth in a series of reports presenting dietary reference values for the intakes of nutrients by Americans and Canadians, establishes nutrient recommendations on water, potassium, and salt for health maintenance and the reduction of chronic disease risk. Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate discusses in detail the role of water, potassium, salt, chloride, and sulfate in human physiology and health. The major findings in this book include the establishment of Adequate Intakes for total water (drinking water, beverages, and food), potassium, sodium, and chloride and the establishment of Tolerable Upper Intake levels for sodium and chloride. The book makes research recommendations for information needed to",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food and Nutrition Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Blood-brain barrier permeability",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "27877",
+          "title": "Bus Operator Barrier Design: Guidelines and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/27877/bus-operator-barrier-design-guidelines-and-considerations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "installing bus operator barriers",
+            "assaults against transit workers",
+            "bus operator barrier design",
+            "tampa florida bus operator",
+            "non government policymaking organizations",
+            "bus operator health",
+            "transit bus operators",
+            "another operator",
+            "two extreme examples",
+            "security barriers",
+            "considerations",
+            "guidelines"
+          ],
+          "description": "The nation was reminded of the importance of security barriers for transit bus operators by the fatal attack on a Tampa, Florida bus operator in 2019. The need for security barriers was reinforced by a serious attack on another operator for that same system later that year. While these are two extreme examples, they are likely not unique, as many assaults against transit workers have been underreported in the past. Another important but more pernicious risk to bus operator health is viral and bacterial infection.TCRP Research Report 249: Bus Operator Barrier Design: Guidelines and Considerations, from TRB's Transit Cooperative Research Program, provides information and guidance for North American public transportation agencies, standards committees, and government and non-government policymaking organizations on designing, procuring, and installing bus operator barriers to prioritize the health and safety of essential operators and the public they serve.",
+          "year": 2024,
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 6673,
+  "saved_at": "2026-03-27T11:40:43.167962"
+}

@@ -1,0 +1,652 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "What's up with recycled wastewater's PR problem?",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-03-27T07:00:00",
+  "episode_url": "https://www.npr.org/2026/03/27/nx-s1-5758081/water-waste-recycling-solution",
+  "duration_minutes": 13.8,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores recycled wastewater as a solution to global water scarcity, examining both the technical feasibility and psychological barriers to public acceptance. Journalist Peter Annen discusses how wastewater recycling technology has been successfully implemented for decades in places like Orange County, California (since 1971) and Windhoek, Namibia (since the 1960s), with multi-stage treatment processes including microfiltration, reverse osmosis, and real-time monitoring. The primary challenge is not technological failure but the 'yuck factor'—psychological resistance based on the perception of contamination rather than actual health risks. The episode presents wastewater recycling as a cost-effective, drought-resistant alternative to desalination and water diversion, though success requires aggressive public education and community buy-in.",
+  "science_topics": [
+    "Wastewater recycling and potable water reclamation",
+    "Microfiltration for pathogen removal (cryptosporidium, giardia, bacteria, viruses, protozoa)",
+    "Reverse osmosis desalination and chemical/pharmaceutical removal",
+    "PFAS (per- and polyfluoroalkyl substances) removal from drinking water",
+    "Ultraviolet disinfection with hydrogen peroxide",
+    "Real-time water quality contaminant monitoring",
+    "Indirect potable reuse via groundwater aquifer buffering",
+    "Psychological perception of water contamination and risk tolerance"
+  ],
+  "claims_to_note": [
+    "Orange County California has been operating Water Factory 21 since 1971 and now recycles 100% of its sewage into drinking water—verify current percentage and operational timeline",
+    "Windhoek, Namibia has been recycling wastewater since the 1960s—verify start date",
+    "A 2013 acetone spill in Orange County's wastewater was detected by real-time monitoring and diluted to safe levels below permit thresholds—verify incident details and outcomes",
+    "Wastewater recycling is generally cheaper than desalination—verify cost comparisons across different regions and technologies",
+    "Claim that there have been no technology failures in wastewater recycling systems, only public acceptance failures—verify against documented treatment failures",
+    "Agriculture accounts for significant portion of water use and conservation debate focuses on agricultural vs. urban conservation—verify percentage breakdowns"
+  ],
+  "policy_relevance": [
+    "State of California permit standards for recycled water systems and contaminant thresholds",
+    "Water scarcity policy in the Sunbelt region (Southern California to Florida)",
+    "Federal and state conservation programs in the Southwest",
+    "Public acceptance and regulatory barriers to potable wastewater reuse implementation",
+    "Water supply portfolio planning at municipal and state levels",
+    "Environmental buffer/indirect potable reuse regulatory frameworks",
+    "Agricultural water use policy and conservation mandates"
+  ],
+  "key_quotes": [
+    "Sewage is too precious to waste anymore. I never thought about sewage being precious.",
+    "What's failed in some of these systems is public acceptance because of rushed or inadequate public relations to help people understand that this is safe. It's mind over matter.",
+    "There's always sewage. People always got to go. They always got to go. That's absolutely right. So it's really over time the big factor has been psychological, but what we're seeing is that the water crisis is getting so bad in so many parts of the country and the world that people are in some places just already over the psychology of it and they're like, bring it on."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Wastewater recycling and potable water reclamation",
+      "publications": [
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Microfiltration for pathogen removal (cryptosporidium, giardia, bacteria, viruses, protozoa)",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "27157",
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "2023 shattered global climate records as the warmest year in the modern record, bringing with it devastating impacts on human and natural systems. Methane emissions, about 60% of which come from human activities, are a major contributor to global warming, second only to carbon dioxide (CO2). Methane is relatively short-lived in the atmosphere but is 80 times more potent than CO2 at trapping heat over a 20-year period. Together with reducing CO2 emissions, rapid and sustained reductions in methane emissions are critical to limit both near- and long-term warming in future decades. But given the many barriers to achieving needed emissions reductions at scale, researchers are exploring the potential of technologies to remove methane from the atmosphere. A Research Agenda Toward Atmospheric Methane Removal is the first report of a two-phase study to assess the need and potential for atmospheric methane removal. This report identifies priority research that should be addressed within 3-5 yea",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Energy and Environmental Systems",
+          "keywords": [
+            "nature",
+            "achieving needed emissions reductions",
+            "atmospheric methane removal",
+            "shattered global climate records",
+            "reducing emissions rapid",
+            "methane emissions",
+            "global warming second",
+            "modern record bringing",
+            "relatively short lived",
+            "long term warming",
+            "remove methane",
+            "agenda"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Reverse osmosis desalination and chemical/pharmaceutical removal",
+      "publications": [
+        {
+          "id": "12184",
+          "title": "Desalination: A National Perspective",
+          "url": "https://nap.nationalacademies.org/catalog/12184/desalination-a-national-perspective",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advancing desalination technology posits",
+            "substantially reduce water scarcity",
+            "desalination technology offers",
+            "relevant desalination technologies",
+            "increasingly expensive unavailable",
+            "almost inexhaustible supply",
+            "local water scarcity",
+            "identifies appropriate roles",
+            "apparently vast quantities",
+            "major federal investment",
+            "desalination",
+            "perspective"
+          ],
+          "description": "There has been an exponential increase in desalination capacity both globally and nationally since 1960, fueled in part by growing concern for local water scarcity and made possible to a great extent by a major federal investment for desalination research and development. Traditional sources of supply are increasingly expensive, unavailable, or controversial, but desalination technology offers the potential to substantially reduce water scarcity by converting the almost inexhaustible supply of seawater and the apparently vast quantities of brackish groundwater into new sources of freshwater. Desalination assesses the state of the art in relevant desalination technologies, and factors such as cost and implementation challenges. It also describes reasonable long-term goals for advancing desalination technology, posits recommendations for action and research, estimates the funding necessary to support the proposed research agenda, and identifies appropriate roles for governmental and nong",
+          "year": 2008,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "26342",
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "sustainable developing medical advances",
+            "manufacturing scales uniquely positions",
+            "fuels electronics medical devices",
+            "apply systems level thinking",
+            "chemical engineers ability",
+            "helped transform societies",
+            "novel materials used",
+            "guide chemical",
+            "climate change",
+            "synthetic fertilizers",
+            "directions",
+            "chemical"
+          ],
+          "description": "Over the past century, the work of chemical engineers has helped transform societies and the lives of individuals, from the synthetic fertilizers that helped feed the world to the development of novel materials used in fuels, electronics, medical devices, and other products. Chemical engineers' ability to apply systems-level thinking from molecular to manufacturing scales uniquely positions them to address today's most pressing problems, including climate change and the overuse of resources by a growing population. New Directions in Chemical Engineering details a vision to guide chemical engineering research, innovation, and education over the next few decades. This report calls for new investments in U.S. chemical engineering and the interdisciplinary, cross-sector collaborations necessary to advance the societal goals of transitioning to a low-carbon energy system, ensuring our production and use of food and water is sustainable, developing medical advances and engineering solutions ",
+          "year": 2022,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "26228",
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "indoor chemistry matters calls",
+            "indoor chemical exposure",
+            "pathways affect human health",
+            "manage chemicals indoors",
+            "limit chemical exposures",
+            "occur indoors pathways",
+            "increased public awareness",
+            "indoor environments",
+            "long term impacts",
+            "chemical transformations",
+            "indoor chemistry matters"
+          ],
+          "description": "People spend the vast majority of their time inside their homes and other indoor environments where they are exposed to a wide range of chemicals from building materials, furnishings, occupants, cooking, consumer products, and other sources. Despite research to date, very little is known about how exposures to indoor chemicals across complex chemical phases and pathways affect human health. The COVID-19 pandemic has only increased public awareness of indoor environments and shed light on the many outstanding questions about how best to manage chemicals indoors. This report identifies gaps in current research and understanding of indoor chemistry and new approaches that can be applied to measure, manage, and limit chemical exposures. Why Indoor Chemistry Matters calls for further research about the chemical transformations that can occur indoors, pathways and timing of indoor chemical exposure, and the cumulative and long-term impacts of exposure on human health. Research priorities sho",
+          "year": 2023,
+          "committee": "Board on Chemical Sciences and Technology"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "PFAS (per- and polyfluoroalkyl substances) removal from drinking water",
+      "publications": [
+        {
+          "id": "21866",
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "increasingly alternative water sources",
+            "water scarce regions",
+            "irrigation toilet flushing washing",
+            "episodic water shortages",
+            "generally includes water",
+            "local water supply",
+            "stormwater water",
+            "graywater untreated wastewater",
+            "providing additional sources",
+            "cooling although treatment",
+            "enhance local water supplies",
+            "risks costs",
+            "stormwater",
+            "graywater",
+            "benefits"
+          ],
+          "description": "Chronic and episodic water shortages are becoming common in many regions of the United States, and population growth in water-scarce regions further compounds the challenges. Increasingly, alternative water sources such as graywater-untreated wastewater that does not include water from the toilet but generally includes water from bathroom sinks, showers, bathtubs, clothes washers, and laundry sinks- and stormwater-water from rainfall or snow that can be measured downstream in a pipe, culvert, or stream shortly after the precipitation event-are being viewed as resources to supplement scarce water supplies rather than as waste to be discharged as rapidly as possible. Graywater and stormwater can serve a range of non-potable uses, including irrigation, toilet flushing, washing, and cooling, although treatment may be needed. Stormwater may also be used to recharge groundwater, which may ultimately be tapped for potable use. In addition to providing additional sources of local water supply,",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "26156",
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "offer pfas blood testing",
+            "non stick cookware water",
+            "polyfluoroalkyl substances pfas",
+            "fire fighting foam because",
+            "water reduce friction",
+            "resist temperature changes",
+            "stain repellent fabrics",
+            "made used disposed",
+            "adverse health effects",
+            "pfas exposure",
+            "pfas exposure testing",
+            "clinical follow",
+            "guidance"
+          ],
+          "description": "In thousands of communities across the United States, drinking water is contaminated with chemicals known as perfluoroalkyl and polyfluoroalkyl substances (PFAS). PFAS are used in a wide range of products, such as non-stick cookware, water and stain repellent fabrics, and fire-fighting foam, because they have properties that repel oil and water, reduce friction, and resist temperature changes. PFAS can leak into the environment where they are made, used, disposed of, or spilled. PFAS exposure has been linked to a number of adverse health effects including certain cancers, thyroid dysfunction, changes in cholesterol, and small reductions in birth weight. This report recommends that the Centers for Disease Control and Prevention (CDC) update its clinical guidance to advise clinicians to offer PFAS blood testing to patients who are likely to have a history of elevated exposure, such as those with occupational exposures or those who live in areas known to be contaminated. If testing reveal",
+          "year": 2022,
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on the Guidance on PFAS "
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Ultraviolet disinfection with hydrogen peroxide",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "12222",
+          "title": "Transitions to Alternative Transportation Technologies: A Focus on Hydrogen",
+          "url": "https://nap.nationalacademies.org/catalog/12222/transitions-to-alternative-transportation-technologies-a-focus-on-hydrogen",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "hybrid electric vehicles builds",
+            "alternative transportation technologies plug",
+            "hydrogen fuel cell vehicles",
+            "however while battery technology",
+            "maximum practical penetration rate",
+            "projected technology status",
+            "recent years batteries",
+            "internal combustion engine",
+            "present volume reviews",
+            "made great strides",
+            "alternative transportation technologies",
+            "transitions",
+            "hydrogen",
+            "focus"
+          ],
+          "description": "The nation has compelling reasons to reduce its consumption of oil and emissions of carbon dioxide. Plug-in hybrid electric vehicles (PHEVs) promise to contribute to both goals by allowing some miles to be driven on electricity drawn from the grid, with an internal combustion engine that kicks in when the batteries are discharged. However, while battery technology has made great strides in recent years, batteries are still very expensive. Transitions to Alternative Transportation Technologies-Plug-in Hybrid Electric Vehicles builds on a 2008 National Research Council report on hydrogen fuel cell vehicles. The present volume reviews the current and projected technology status of PHEVs; considers the factors that will affect how rapidly PHEVs could enter the marketplace, including the interface with the electric transmission and distribution system; determines a maximum practical penetration rate for PHEVs consistent with the time frame and factors considered in the 2008 Hydrogen report;",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2458,
+  "saved_at": "2026-03-27T11:40:43.165646"
+}
