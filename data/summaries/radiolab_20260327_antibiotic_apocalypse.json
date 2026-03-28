@@ -1,0 +1,469 @@
+{
+  "podcast_id": "radiolab",
+  "podcast_name": "Radiolab",
+  "episode_title": "Antibiotic Apocalypse",
+  "host": "Lulu Miller, Latif Nasser",
+  "published": "2026-03-27T14:00:00",
+  "episode_url": "https://radiolab.org/podcast/antibiotic-apocalypse",
+  "duration_minutes": 61.11666666666667,
+  "influence_tier": "high",
+  "category": "science_storytelling",
+  "summary": "This Radiolab live episode explores the growing crisis of antibiotic resistance through the personal experiences of ER doctor Avir Mitra and infectious disease epidemiologist Stephanie Strathdee. The episode traces the evolution of bacterial resistance to antibiotics, explains the mechanisms of horizontal gene transfer that allow bacteria to spread resistance rapidly, examines the role of agricultural antibiotic use in accelerating resistance, and highlights emerging phage therapy as a potential alternative treatment. The narrative moves from the frightening reality of untreatable infections to cautious optimism about new therapeutic approaches and systemic changes in agriculture.",
+  "science_topics": [
+    "Antibiotic resistance and MRSA (methicillin-resistant Staphylococcus aureus)",
+    "Acinetobacter baumannii (multidrug-resistant gram-negative bacterium)",
+    "Vancomycin-resistant bacteria",
+    "Carbapenem-resistant bacteria",
+    "Gentamicin-resistant E. coli",
+    "Horizontal gene transfer and bacterial conjugation (sex pilus)",
+    "Vertical gene transfer in bacteria",
+    "Bacteriophage therapy (phage therapy)",
+    "Bacterial biofilm formation and resistance mechanisms",
+    "Synergistic effects of phages and antibiotics",
+    "Probiotics and gut microbiota health",
+    "Bacterial culture and isolation techniques"
+  ],
+  "claims_to_note": [
+    "70% of all antibiotics given in the U.S. are given to animals (vs. 30% to humans)",
+    "Farm animals receive 30 million pounds of antibiotics per year in the U.S., compared to ~7 pounds for humans",
+    "No significant new antibiotic classes have been developed since 1980",
+    "Chicken catchers had 32 times higher risk of carrying gentamicin-resistant E. coli compared to general population",
+    "Currently, 1 in 6 infections is resistant to the antibiotic that used to work for it (WHO data cited)",
+    "1 million people per year are dying from antibiotic-resistant infections",
+    "There are 30 trillion bacteria per human being",
+    "Development of a new antibiotic costs approximately $1 billion and takes 10-15 years",
+    "Bacteriophages are 'the oldest, most populous organism on the planet'",
+    "Phage therapy was used in the former Soviet Union before falling out of favor in the West"
+  ],
+  "policy_relevance": [
+    "FDA approval process for compassionate-use experimental treatments (phage therapy case)",
+    "WHO surveillance and reporting on antimicrobial resistance",
+    "Antibiotic stewardship committees in hospitals",
+    "Agricultural regulation and use of antibiotics in livestock feed and animal care",
+    "Purdue Chicken's 2002 decision to eliminate routine antibiotic use in chickens by 2016",
+    "Clinical trials for phage therapy development and regulation",
+    "University of California San Diego's Center for Innovative Phage Applications and Therapeutics (IPATH) - first dedicated phage therapy center",
+    "Mention of needing 'political will' to accelerate phage therapy development and approval"
+  ],
+  "key_quotes": [
+    "If we don't have antibiotics, we're not really doctors. You can't get a surgery if you don't have antibiotics. You can't get a C-section. You're basically useless without these drugs.",
+    "What you just witnessed is actually horizontal gene transfer...You could just pass them to each other. Meanwhile, Danielle is still trying to find that date...for every single human being on earth, there are 30 trillion bacteria per person. All it takes is for like one mutation to happen in one of those bacteria and then that trait is going to spread like wildfire.",
+    "I'm like, okay, so at least we have a class of antibiotics called carbapenems...But then another year goes by, and then I'm starting to see patients that are resistant to the carbapenems. That's not working anymore. And at that point, I have to go to this drug, Colistin...I feel like I'm being backed into a corner."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Antibiotic resistance and MRSA (methicillin-resistant Staphylococcus aureus)",
+      "publications": [
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "25221",
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "north american tree species",
+            "american chestnut whitebark pine",
+            "native tree species",
+            "nonnative pest species",
+            "underlie trees resistance",
+            "north american forests",
+            "pest resistant traits",
+            "however challenges remain",
+            "expanded human mobility",
+            "help mitigate threats",
+            "forest health",
+            "considerations",
+            "biotechnology",
+            "possibilities"
+          ],
+          "description": "The American chestnut, whitebark pine, and several species of ash in the eastern United States are just a few of the North American tree species that have been functionally lost or are in jeopardy of being lost due to outbreaks of pathogens and insect pests. New pressures in this century are putting even more trees at risk. Expanded human mobility and global trade are providing pathways for the introduction of nonnative pests for which native tree species may lack resistance. At the same time, climate change is extending the geographic range of both native and nonnative pest species. Biotechnology has the potential to help mitigate threats to North American forests from insects and pathogens through the introduction of pest-resistant traits to forest trees. However, challenges remain: the genetic mechanisms that underlie trees' resistance to pests are poorly understood; the complexity of tree genomes makes incorporating genetic changes a slow and difficult task; and there is a lack of ",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        },
+        {
+          "id": "25358",
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "bridges",
+            "construction ibrc program created",
+            "congress provided state departments",
+            "highway bridge construction",
+            "corrosion resistant reinforcing bar",
+            "repair approximately bridges",
+            "innovative bridge",
+            "construction program",
+            "innovative materials",
+            "life cycle costs",
+            "congress directed",
+            "received funding",
+            "performance"
+          ],
+          "description": "\"TRB Special Report 330: Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program, examines the results of a federal program to promote innovation in highway bridge construction. The report provides recommendations to Congress on how the installed and life-cycle costs of bridges could be reduced through the use of innovative materials and technologies. The Innovative Bridge Research and Construction (IBRC) program, created by act of Congress, provided state departments of transportation with a total of $128.7 million in grants as incentives for use of innovative materials and technology to construct or repair approximately 400 bridges from 1999 to 2005. Materials used included fiber-reinforced polymer composites, high-performance concrete, high-performance steel, and corrosion resistant reinforcing bar. Projects also demonstrated accelerated bridge construction (ABC) techniques. Congress directed the U.S. Department of Transportation to",
+          "year": 2019,
+          "page_keywords": [
+            "Bridges"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Acinetobacter baumannii (multidrug-resistant gram-negative bacterium)",
+      "publications": [
+        {
+          "id": "25259",
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "keywords": [
+            "carbon",
+            "emissions",
+            "sequestration",
+            "climate",
+            "carbon capture",
+            "negative emissions"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "25310",
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "keywords": [
+            "opioid",
+            "addiction",
+            "medication",
+            "treatment",
+            "drug",
+            "overdose"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Vancomycin-resistant bacteria",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "21723",
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "vaccines"
+          ],
+          "keywords": [
+            "medical",
+            "improve cardiac arrest survival",
+            "unknown conservative estimates suggest",
+            "approximately individuals experience",
+            "factors affecting resuscitation",
+            "almost instantaneous loss",
+            "third leading cause",
+            "cardiac arrests",
+            "age gender race",
+            "without regard",
+            "mechanical activity",
+            "time",
+            "act"
+          ],
+          "description": "Cardiac arrest often strikes seemingly healthy individuals without warning and without regard to age, gender, race, or health status. Representing the third leading cause of death in the United States, cardiac arrest is defined as \"a severe malfunction or cessation of the electrical and mechanical activity of the heart ... [which] results in almost instantaneous loss of consciousness and collapse\". Although the exact number of cardiac arrests is unknown, conservative estimates suggest that approximately 600,000 individuals experience a cardiac arrest in the United States each year. In June 2015, the Institute of Medicine (IOM) released its consensus report Strategies to Improve Cardiac Arrest Survival: A Time to Act, which evaluated the factors affecting resuscitation research and outcomes in the United States. Following the release of this report, the National Academies of Sciences, Engineering, and Medicine was asked to hold a workshop to explore the barriers and opportunities for ad",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Carbapenem-resistant bacteria",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "21723",
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "vaccines"
+          ],
+          "keywords": [
+            "medical",
+            "improve cardiac arrest survival",
+            "unknown conservative estimates suggest",
+            "approximately individuals experience",
+            "factors affecting resuscitation",
+            "almost instantaneous loss",
+            "third leading cause",
+            "cardiac arrests",
+            "age gender race",
+            "without regard",
+            "mechanical activity",
+            "time",
+            "act"
+          ],
+          "description": "Cardiac arrest often strikes seemingly healthy individuals without warning and without regard to age, gender, race, or health status. Representing the third leading cause of death in the United States, cardiac arrest is defined as \"a severe malfunction or cessation of the electrical and mechanical activity of the heart ... [which] results in almost instantaneous loss of consciousness and collapse\". Although the exact number of cardiac arrests is unknown, conservative estimates suggest that approximately 600,000 individuals experience a cardiac arrest in the United States each year. In June 2015, the Institute of Medicine (IOM) released its consensus report Strategies to Improve Cardiac Arrest Survival: A Time to Act, which evaluated the factors affecting resuscitation research and outcomes in the United States. Following the release of this report, the National Academies of Sciences, Engineering, and Medicine was asked to hold a workshop to explore the barriers and opportunities for ad",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Gentamicin-resistant E. coli",
+      "publications": [
+        {
+          "id": "25221",
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "north american tree species",
+            "american chestnut whitebark pine",
+            "native tree species",
+            "nonnative pest species",
+            "underlie trees resistance",
+            "north american forests",
+            "pest resistant traits",
+            "however challenges remain",
+            "expanded human mobility",
+            "help mitigate threats",
+            "forest health",
+            "considerations",
+            "biotechnology",
+            "possibilities"
+          ],
+          "description": "The American chestnut, whitebark pine, and several species of ash in the eastern United States are just a few of the North American tree species that have been functionally lost or are in jeopardy of being lost due to outbreaks of pathogens and insect pests. New pressures in this century are putting even more trees at risk. Expanded human mobility and global trade are providing pathways for the introduction of nonnative pests for which native tree species may lack resistance. At the same time, climate change is extending the geographic range of both native and nonnative pest species. Biotechnology has the potential to help mitigate threats to North American forests from insects and pathogens through the introduction of pest-resistant traits to forest trees. However, challenges remain: the genetic mechanisms that underlie trees' resistance to pests are poorly understood; the complexity of tree genomes makes incorporating genetic changes a slow and difficult task; and there is a lack of ",
+          "year": 2019,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Agriculture and Natural Resources"
+        },
+        {
+          "id": "25358",
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "bridges",
+            "construction ibrc program created",
+            "congress provided state departments",
+            "highway bridge construction",
+            "corrosion resistant reinforcing bar",
+            "repair approximately bridges",
+            "innovative bridge",
+            "construction program",
+            "innovative materials",
+            "life cycle costs",
+            "congress directed",
+            "received funding",
+            "performance"
+          ],
+          "description": "\"TRB Special Report 330: Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program, examines the results of a federal program to promote innovation in highway bridge construction. The report provides recommendations to Congress on how the installed and life-cycle costs of bridges could be reduced through the use of innovative materials and technologies. The Innovative Bridge Research and Construction (IBRC) program, created by act of Congress, provided state departments of transportation with a total of $128.7 million in grants as incentives for use of innovative materials and technology to construct or repair approximately 400 bridges from 1999 to 2005. Materials used included fiber-reinforced polymer composites, high-performance concrete, high-performance steel, and corrosion resistant reinforcing bar. Projects also demonstrated accelerated bridge construction (ABC) techniques. Congress directed the U.S. Department of Transportation to",
+          "year": 2019,
+          "page_keywords": [
+            "Bridges"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 11049,
+  "saved_at": "2026-03-28T11:23:36.323828"
+}

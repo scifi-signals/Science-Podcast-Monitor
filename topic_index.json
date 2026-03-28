@@ -1,7 +1,200 @@
 {
-  "updated": "2026-03-27T11:41:24.549292",
-  "episode_count": 129,
+  "updated": "2026-03-28T11:24:12.682260",
+  "episode_count": 132,
   "episodes": [
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "Antibiotic Apocalypse",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-03-27T14:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Radiolab live episode explores the growing crisis of antibiotic resistance through the personal experiences of ER doctor Avir Mitra and infectious disease epidemiologist Stephanie Strathdee. The episode traces the evolution of bacterial resistance to antibiotics, explains the mechanisms of horizontal gene transfer that allow bacteria to spread resistance rapidly, examines the role of agricultural antibiotic use in accelerating resistance, and highlights emerging phage therapy as a potential alternative treatment. The narrative moves from the frightening reality of untreatable infections to cautious optimism about new therapeutic approaches and systemic changes in agriculture.",
+      "science_topics": [
+        "Antibiotic resistance and MRSA (methicillin-resistant Staphylococcus aureus)",
+        "Acinetobacter baumannii (multidrug-resistant gram-negative bacterium)",
+        "Vancomycin-resistant bacteria",
+        "Carbapenem-resistant bacteria",
+        "Gentamicin-resistant E. coli",
+        "Horizontal gene transfer and bacterial conjugation (sex pilus)",
+        "Vertical gene transfer in bacteria",
+        "Bacteriophage therapy (phage therapy)",
+        "Bacterial biofilm formation and resistance mechanisms",
+        "Synergistic effects of phages and antibiotics",
+        "Probiotics and gut microbiota health",
+        "Bacterial culture and isolation techniques"
+      ],
+      "claims_to_note": [
+        "70% of all antibiotics given in the U.S. are given to animals (vs. 30% to humans)",
+        "Farm animals receive 30 million pounds of antibiotics per year in the U.S., compared to ~7 pounds for humans",
+        "No significant new antibiotic classes have been developed since 1980",
+        "Chicken catchers had 32 times higher risk of carrying gentamicin-resistant E. coli compared to general population",
+        "Currently, 1 in 6 infections is resistant to the antibiotic that used to work for it (WHO data cited)",
+        "1 million people per year are dying from antibiotic-resistant infections",
+        "There are 30 trillion bacteria per human being",
+        "Development of a new antibiotic costs approximately $1 billion and takes 10-15 years",
+        "Bacteriophages are 'the oldest, most populous organism on the planet'",
+        "Phage therapy was used in the former Soviet Union before falling out of favor in the West"
+      ],
+      "policy_relevance": [
+        "FDA approval process for compassionate-use experimental treatments (phage therapy case)",
+        "WHO surveillance and reporting on antimicrobial resistance",
+        "Antibiotic stewardship committees in hospitals",
+        "Agricultural regulation and use of antibiotics in livestock feed and animal care",
+        "Purdue Chicken's 2002 decision to eliminate routine antibiotic use in chickens by 2016",
+        "Clinical trials for phage therapy development and regulation",
+        "University of California San Diego's Center for Innovative Phage Applications and Therapeutics (IPATH) - first dedicated phage therapy center",
+        "Mention of needing 'political will' to accelerate phage therapy development and approval"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations"
+        },
+        {
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act"
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Strategies to Improve Cardiac Arrest Survival: A Time to Act",
+          "url": "https://nap.nationalacademies.org/catalog/21723/strategies-to-improve-cardiac-arrest-survival-a-time-to-act"
+        },
+        {
+          "title": "Forest Health and Biotechnology: Possibilities and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/25221/forest-health-and-biotechnology-possibilities-and-considerations"
+        },
+        {
+          "title": "Performance of Bridges That Received Funding Under the Innovative Bridge Research and Construction Program",
+          "url": "https://nap.nationalacademies.org/catalog/25358/performance-of-bridges-that-received-funding-under-the-innovative-bridge-research-and-construction-program"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+      "host": "Springer Nature",
+      "published": "2026-03-27T13:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode discusses two major advances in cellular and genetic engineering. The first story covers research on 'zombie cells'—bacteria that have been killed and then revived with transplanted genomes from related species, offering a more reliable method for testing successful genome transfer without false positives from homologous recombination. The second story examines the limits of mammalian cloning, with researchers finding that successive rounds of mouse cloning accumulate mutations at three times the normal rate, becoming impossible after approximately 58 generations due to chromosomal instability and DNA rearrangements. Both stories highlight methodological innovations in synthetic biology and their potential applications in biotechnology and animal breeding.",
+      "science_topics": [
+        "Synthetic genome transplantation in mycoplasma bacteria",
+        "Homologous recombination in bacterial genetic engineering",
+        "Somatic cell nuclear transfer (CRISPR-assisted genome insertion)",
+        "Mutation accumulation in sequential cloning",
+        "Chromosomal instability in cloned organisms",
+        "Asexual reproduction in fish without mutation accumulation",
+        "DNA damage and rearrangement mechanisms"
+      ],
+      "claims_to_note": [
+        "Mutation rate in cloned mice is approximately three times higher than in normal mice—verify against current literature on cloning-associated mutagenesis",
+        "The limit for viable mouse cloning is 58 generations before genetic viability is lost—specific finding requiring verification in peer review",
+        "Some organisms (example given: certain fish species) can reproduce asexually without accumulating harmful mutations—claim about natural circumvention of cloning limits should be cross-referenced with evolutionary biology literature",
+        "Mycoplasma capriculum lacks homologous recombination ability—verify bacterial genetics literature"
+      ],
+      "policy_relevance": [
+        "Animal cloning is currently practiced in the United States for agricultural purposes (breeding prized animals)",
+        "Private pet cloning services exist and are accessible to consumers",
+        "Future regulatory considerations for synthetic biology and genome transplantation methodologies",
+        "Potential implications for animal breeding regulations and germplasm preservation policies"
+      ],
+      "nasem_publications": [
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "Scientific and Medical Aspects of Human Reproductive Cloning",
+          "url": "https://nap.nationalacademies.org/catalog/10285/scientific-and-medical-aspects-of-human-reproductive-cloning"
+        },
+        {
+          "title": "Consequential Damages Provisions in Construction Contracts: Legal Issues",
+          "url": "https://nap.nationalacademies.org/catalog/26828/consequential-damages-provisions-in-construction-contracts-legal-issues"
+        },
+        {
+          "title": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions",
+          "url": "https://nap.nationalacademies.org/catalog/26336/report-series-committee-on-planetary-protection-evaluation-of-bioburden-requirements"
+        },
+        {
+          "title": "Public Engagement on Genetically Modified Organisms: When Science and Citizens Connect: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21750/public-engagement-on-genetically-modified-organisms-when-science-and-citizens"
+        },
+        {
+          "title": "Preventing the Forward Contamination of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/11381/preventing-the-forward-contamination-of-mars"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -98,6 +291,33 @@
           "url": "https://nap.nationalacademies.org/catalog/13373/fueling-innovation-and-discovery-the-mathematical-sciences-in-the-21st"
         }
       ]
+    },
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "Will Iran Break Trumpism?",
+      "host": "Ezra Klein",
+      "published": "2026-03-27T09:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Christopher Caldwell argues that Trump's decision to launch a war against Iran represents a fundamental rupture with Trumpism as a political project, despite Trump's base remaining largely supportive in polls. The episode explores tensions between populism and proceduralism, examining whether Trump represents democratic restoration or authoritarian impulses. Caldwell contends that Trumpism was built on opposition to wars and institutional overreach, and that sustained economic costs from the Iran conflict could eventually erode support. The discussion situates Trump within broader right-wing populist movements in Europe and debates whether Trump's appeal is fundamentally about policy outcomes or about a transgressive leadership style.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Claim about inflation and economy: Caldwell states 'inflation went up and people were furious and they remembered the Trump economy' under Biden, implying Trump's pre-pandemic economy performed well - this relates to economic data claims that could be verified",
+        "Implicit claim about labor market effects: discussion of 'tight labor market' and 'dramatic wage growth in lower quintiles' as indicators of successful policy - economic outcome claims",
+        "Claim about tariff economic effects: assertions about tariff regimes creating manufacturing preferences 'without distorting international trade unduly' - this is contested in economic literature"
+      ],
+      "policy_relevance": [
+        "Iran war/military intervention - Trump administration decision to attack Iran",
+        "DEI/affirmative action executive orders - Trump dismantled diversity initiatives through executive action",
+        "DOGE (Department of Government Efficiency) - effort to restructure federal bureaucracy and civil service",
+        "Tariff policy - Trump's use of tariffs as governing mechanism outside traditional legislative process",
+        "University funding/Title IX policy - Trump administration pressure on universities regarding DEI programs",
+        "Administrative state reform - broader discussion of executive vs. bureaucratic authority",
+        "Immigration policy - mentioned as core issue in Trump and European right-wing populism",
+        "War powers/declaration of war - discussion of Trump bypassing Congressional declaration process"
+      ],
+      "nasem_publications": []
     },
     {
       "podcast_id": "short-wave",

@@ -1,0 +1,468 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+  "host": "Springer Nature",
+  "published": "2026-03-27T13:00:00",
+  "episode_url": "https://www.nature.com/articles/d41586-026-00996-w",
+  "duration_minutes": 11.016666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode discusses two major advances in cellular and genetic engineering. The first story covers research on 'zombie cells'—bacteria that have been killed and then revived with transplanted genomes from related species, offering a more reliable method for testing successful genome transfer without false positives from homologous recombination. The second story examines the limits of mammalian cloning, with researchers finding that successive rounds of mouse cloning accumulate mutations at three times the normal rate, becoming impossible after approximately 58 generations due to chromosomal instability and DNA rearrangements. Both stories highlight methodological innovations in synthetic biology and their potential applications in biotechnology and animal breeding.",
+  "science_topics": [
+    "Synthetic genome transplantation in mycoplasma bacteria",
+    "Homologous recombination in bacterial genetic engineering",
+    "Somatic cell nuclear transfer (CRISPR-assisted genome insertion)",
+    "Mutation accumulation in sequential cloning",
+    "Chromosomal instability in cloned organisms",
+    "Asexual reproduction in fish without mutation accumulation",
+    "DNA damage and rearrangement mechanisms"
+  ],
+  "claims_to_note": [
+    "Mutation rate in cloned mice is approximately three times higher than in normal mice—verify against current literature on cloning-associated mutagenesis",
+    "The limit for viable mouse cloning is 58 generations before genetic viability is lost—specific finding requiring verification in peer review",
+    "Some organisms (example given: certain fish species) can reproduce asexually without accumulating harmful mutations—claim about natural circumvention of cloning limits should be cross-referenced with evolutionary biology literature",
+    "Mycoplasma capriculum lacks homologous recombination ability—verify bacterial genetics literature"
+  ],
+  "policy_relevance": [
+    "Animal cloning is currently practiced in the United States for agricultural purposes (breeding prized animals)",
+    "Private pet cloning services exist and are accessible to consumers",
+    "Future regulatory considerations for synthetic biology and genome transplantation methodologies",
+    "Potential implications for animal breeding regulations and germplasm preservation policies"
+  ],
+  "key_quotes": [
+    "The cell is destined to die but we give it life—one of the authors describing the approach of reviving dead bacteria with transplanted genomes",
+    "Ultimately this genetic mayhem made it impossible to continue creating new clones—describing the chromosomal chaos that limits successive rounds of cloning",
+    "Don't clone the clones—recommendation from researchers that to preserve animals via cloning, multiple cells from the original should be stored rather than iteratively cloning clones"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Synthetic genome transplantation in mycoplasma bacteria",
+      "publications": [
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        },
+        {
+          "id": "25331",
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "keywords": [
+            "fusion",
+            "nuclear fusion",
+            "plasma",
+            "energy",
+            "iter",
+            "tokamak"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Homologous recombination in bacterial genetic engineering",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "13006",
+          "title": "What You Need to Know About Infectious Disease",
+          "keywords": [
+            "infectious",
+            "disease",
+            "infection",
+            "virus",
+            "bacteria",
+            "pathogen",
+            "epidemic"
+          ]
+        },
+        {
+          "id": "26350",
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "keywords": [
+            "antimicrobial",
+            "antibiotic",
+            "resistance",
+            "bacteria",
+            "infection",
+            "drug"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Somatic cell nuclear transfer (CRISPR-assisted genome insertion)",
+      "publications": [
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "26630",
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "wants advanced nuclear reactors",
+            "advanced nuclear technologies",
+            "smaller safer less expensive",
+            "reduce greenhouse gas emissions",
+            "worlds low carbon electricity",
+            "climate change resulting",
+            "near term policies",
+            "nuclear power",
+            "successful commercialization",
+            "existential challenge",
+            "advanced nuclear reactors",
+            "foundation",
+            "laying"
+          ],
+          "description": "The world confronts an existential challenge in responding to climate change, resulting in an urgent need to reduce greenhouse gas emissions from all sectors of the economy. What will it take for new and advanced nuclear reactors to play a role in decarbonization? Nuclear power provides a significant portion of the worlds low-carbon electricity, and advanced nuclear technologies have the potential to be smaller, safer, less expensive to build, and better integrated with the modern grid. However, if the United States wants advanced nuclear reactors to play a role in its plans for decarbonization, there are many key challenges that must be overcome at the technical, economic, and regulatory levels. Laying the Foundation for New and Advanced Nuclear Reactors in the United States discusses how the United States could support the successful commercialization of advanced nuclear reactors with a set of near-term policies and practices. The recommendations of this report address the need to cl",
+          "year": 2024,
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "18289",
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "keywords": [
+            "fusion",
+            "inertial fusion",
+            "energy",
+            "nuclear",
+            "laser",
+            "ignition"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Mutation accumulation in sequential cloning",
+      "publications": [
+        {
+          "id": "10285",
+          "title": "Scientific and Medical Aspects of Human Reproductive Cloning",
+          "url": "https://nap.nationalacademies.org/catalog/10285/scientific-and-medical-aspects-of-human-reproductive-cloning",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "human reproductive cloning considers",
+            "ethical religious societal scientific",
+            "assisted reproductive technology",
+            "newborn genetically identical",
+            "issue plus ethical",
+            "human subjects",
+            "another human",
+            "medical sides",
+            "world involving",
+            "medically safe",
+            "human reproductive cloning",
+            "scientific",
+            "medical"
+          ],
+          "description": "Human reproductive cloning is an assisted reproductive technology that would be carried out with the goal of creating a newborn genetically identical to another human being. It is currently the subject of much debate around the world, involving a variety of ethical, religious, societal, scientific, and medical issues. Scientific and Medical Aspects of Human Reproductive Cloning considers the scientific and medical sides of this issue, plus ethical issues that pertain to human-subjects research. Based on experience with reproductive cloning in animals, the report concludes that human reproductive cloning would be dangerous for the woman, fetus, and newborn, and is likely to fail. The study panel did not address the issue of whether human reproductive cloning, even if it were found to be medically safe, would beâ€\"or would not beâ€\"acceptable to individuals or society.",
+          "year": 2002,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "26828",
+          "title": "Consequential Damages Provisions in Construction Contracts: Legal Issues",
+          "url": "https://nap.nationalacademies.org/catalog/26828/consequential-damages-provisions-in-construction-contracts-legal-issues",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "consequential damages provisions",
+            "construction contracts",
+            "legal"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Chromosomal instability in cloned organisms",
+      "publications": [
+        {
+          "id": "26336",
+          "title": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions",
+          "url": "https://nap.nationalacademies.org/catalog/26336/report-series-committee-on-planetary-protection-evaluation-of-bioburden-requirements",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "international planetary protection policies",
+            "scientific discovery commercial activity",
+            "space agencies planning participating",
+            "enable commercial missions",
+            "private sector enterprises",
+            "undertaking missions",
+            "mars increase",
+            "international processes",
+            "terrestrial organisms",
+            "terrestrial life",
+            "bioburden requirements",
+            "planetary protection",
+            "mars missions",
+            "evaluation",
+            "series"
+          ],
+          "description": "Since the 1980s, national and international planetary protection policies have sought to avoid contamination by terrestrial organisms that could compromise future investigations regarding the origin or presence of Martian life. Over the last decade, the number of national space agencies planning, participating in, and undertaking missions to Mars has increased, and private-sector enterprises are engaged in activities designed to enable commercial missions to Mars. The nature of missions to Mars is also evolving to feature more diversity in purposes and technologies. As missions to Mars increase and diversify, national and international processes for developing planetary protection measures recognize the need to consider the interests of scientific discovery, commercial activity, and human exploration. The implications of these changes for planetary protection should be considered in the context of how much science has learned about Mars, and about terrestrial life, in recent years. At ",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "21750",
+          "title": "Public Engagement on Genetically Modified Organisms: When Science and Citizens Connect: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21750/public-engagement-on-genetically-modified-organisms-when-science-and-citizens",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "genetically engineered plants",
+            "improve public conversation",
+            "animals commonly known",
+            "heavily debated among",
+            "public interfaces",
+            "public perceptions",
+            "social science",
+            "political dispositions",
+            "scientific engagement",
+            "controversial topics",
+            "genetically modified organisms",
+            "public engagement",
+            "citizens connect",
+            "science"
+          ],
+          "description": "The National Research Council's Roundtable on Public Interfaces of the Life Sciences held a 2-day workshop on January 15-16, 2015, in Washington, DC to explore the public interfaces between scientists and citizens in the context of genetically engineered (GE) organisms. The workshop presentations and discussions dealt with perspectives on scientific engagement in a world where science is interpreted through a variety of lenses, including cultural values and political dispositions, and with strategies based on evidence in social science to improve public conversation about controversial topics in science. The workshop focused on public perceptions and debates about genetically engineered plants and animals, commonly known as genetically modified organisms (GMOs), because the development and application of GMOs are heavily debated among some stakeholders, including scientists. For some applications of GMOs, the societal debate is so contentious that it can be difficult for members of the",
+          "year": 2015,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "11381",
+          "title": "Preventing the Forward Contamination of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/11381/preventing-the-forward-contamination-of-mars",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "mars bound spacecraft methods",
+            "developments place increasing importance",
+            "preventing forward contamination",
+            "life detection techniques",
+            "earth borne organisms",
+            "biological burden levels",
+            "effort nasa requested",
+            "protect mars",
+            "organisms originating",
+            "scientific investigations",
+            "forward contamination",
+            "preventing",
+            "mars"
+          ],
+          "description": "Recent spacecraft and robotic probes to Mars have yielded data that are changing our understanding significantly about the possibility of existing or past life on that planet. Coupled with advances in biology and life-detection techniques, these developments place increasing importance on the need to protect Mars from contamination by Earth-borne organisms. To help with this effort, NASA requested that the NRC examine existing planetary protection measures for Mars and recommend changes and further research to improve such measures. This report discusses policies, requirements, and techniques to protect Mars from organisms originating on Earth that could interfere with scientific investigations. It provides recommendations on cleanliness and biological burden levels of Mars-bound spacecraft, methods to reach those levels, and research to reduce uncertainties in preventing forward contamination of Mars.",
+          "year": 2006,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2030,
+  "saved_at": "2026-03-28T11:23:36.323038"
+}
