@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 29, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 29, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">16</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">100</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals converging themes around critical infrastructure resilience and emerging biotechnology applications. Nuclear propulsion for lunar missions continues advancing alongside sustained focus on antimicrobial resistance—a multi-day pattern spanning infectious disease epidemiology to environmental contamination pathways. Bluesky conversations emphasize federal agency capacity concerns amid institutional transitions, while scientific discourse increasingly addresses dual-use biotechnology governance (synthetic genomes, CAR-T engineering) and environmental contamination vectors (glyphosate-resistant bacteria, PFAS removal). NASEM opportunities exist across space policy vetting, antimicrobial stewardship coordination, and emerging biotechnology risk assessment frameworks.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Antimicrobial resistance as multi-pathway crisis: hospital settings, environmental contamination (glyphosate exposure), and bacterial genetics engineering</li>
+<li>Genetic engineering and cloning technologies: somatic cell nuclear transfer limits, synthetic genome applications, and mutation accumulation risks</li>
+<li>Federal science workforce and institutional capacity: whistleblower protections, employee morale, and agency operational continuity</li>
+<li>Space exploration infrastructure: nuclear propulsion systems, lunar base robotics, and long-duration mission sustainability</li>
+<li>Environmental chemistry and water systems: PFAS remediation, agricultural chemical runoff, and pathogen removal technologies</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Glyphosate-herbicide linkage to multidrug-resistant bacteria in hospital environments—novel environmental contamination vector not previously prominent in briefings</li>
+<li>Engineered yeast for pollinator nutrition supplementation—intersection of synthetic biology and agricultural resilience</li>
+<li>Federal agency operational resilience concerns—increasing Bluesky discourse on institutional capacity under current administration</li>
+<li>AI performance validation for high-stakes applications (mathematical proof-solving, autonomous weapons reliability assessment)—governance implications emerging</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene working group on glyphosate-antimicrobial resistance nexus: coordinate EPA, USDA, NIH on environmental contamination pathways affecting clinical outcomes</div>
+<div class="opportunity">Space exploration policy review: validate NASA nuclear propulsion safety protocols and lunar base construction risk assessments before large-scale deployment</div>
+<div class="opportunity">Antimicrobial stewardship framework: synthesize week-long pattern on resistance mechanisms (MRSA, Acinetobacter, vancomycin-resistant strains) into coordinated national guidance</div>
+<div class="opportunity">Federal science workforce resilience assessment: address Bluesky-flagged concerns about whistleblower protections and institutional morale through advisory report</div>
+<div class="opportunity">Dual-use biotechnology governance: establish review mechanisms for synthetic genome transplantation, CAR-T engineering, and mRNA manufacturing given advancing capabilities</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Avi Loeb's 'Oumuamua interstellar object claims: episode correctly identifies misidentification and confirmation bias; scientific consensus (deuterium isotopes, cometary composition) contradicts extraterrestrial artifact hypothesis—monitoring for continued public amplification</div>
+<div class="claim">No major consensus-contradicting claims detected in Bluesky sample; scientific discourse remains grounded in peer-reviewed findings</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antimicrobial Resistance and Pathogen Engineering</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab and Nature Podcast are converging on bacterial resistance mechanisms (MRSA, vancomycin-resistant bacteria, carbapenem-resistant strains) alongside synthetic genome engineering capabilities. This dual coverage reveals an emerging concern: as biotechnology enables precise bacterial genetic manipulation, naturally occurring multidrug resistance is simultaneously outpacing clinical interventions. The shows frame this as both a therapeutic opportunity (synthetic biology tools) and an urgent public health crisis.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must advise on dual-use biosecurity implications of synthetic biology tools in the context of real-world resistance crises, and coordinate policy between clinical microbiology and gain-of-function research oversight.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Water Systems Under Stress: Scarcity, Contamination, and Innovation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave dominates this narrative across three episodes (aquifer depletion, freshwater salinization, wastewater recycling) while Huberman Lab adds physiological context on osmolarity sensing and kidney function. The converging message is urgent: groundwater depletion (Ogallala Aquifer, Day Zero events) is driving innovation in reclamation and desalination, yet PFAS and salinization contamination complicate treatment. This represents a shift from water abundance assumptions to integrated water-stress management.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize infrastructure resilience and contaminant removal R&D roadmaps, especially for emerging threats (PFAS) in water reuse and desalination at scale.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Performance in Complex Problem-Solving and Autonomous Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (mathematical theorem proving), TechTank (LLM deployment in classified systems, autonomous weapons reliability), and Making Sense (AI as behavioral modifier) reveal convergent interest in AI capabilities but divergent risk framings. Science Friday emphasizes pure capability (IMO performance), while TechTank and Making Sense flag governance gaps—de-anonymization, pattern-of-life analysis, and optimization of human behavior without transparent mechanisms. This suggests emerging tension between capability hype and deployment safety.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish AI reliability and transparency standards for high-stakes domains (weapons, social systems) and convene experts on autonomous systems governance before deployment accelerates.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">CRISPR and Synthetic Biology: From Crop Resilience to Therapeutic Translation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Magazine Podcast, Science Policy IRL, and Nature Podcast collectively frame CRISPR as both agricultural solution (drought-resistant crops via gene editing) and clinical frontier (CAR-T immunotherapy, genome transplantation). Emerging tension: data dependencies and manufacturing scalability challenges are acknowledged in Science Policy IRL, while bench-to-clinic applications in CAR-T and mRNA vaccines show rapid translation. This suggests policy must address infrastructure gaps alongside biosecurity.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop coordinated guidance on data governance, manufacturing readiness, and equitable access frameworks for CRISPR therapeutics and gene-edited crops in climate adaptation.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Zoonotic Disease Transmission and Agricultural-Environmental Spillover</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday covers H5N1 epidemiology, airborne transmission from dairy farms, and asymptomatic viral shedding in livestock, while Short Wave addresses freshwater contamination pathways. These show a fading siloed view of disease as purely medical—instead, emerging narrative emphasizes agricultural practices and environmental routes as epidemiological drivers. Wastewater and manure lagoons are now framed as surveillance and transmission points.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should integrate agricultural, environmental, and clinical expertise into pandemic preparedness policy, emphasizing wastewater surveillance and farm-to-food-chain transmission prevention.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">The Skeptics' Guide to the Universe: The Skeptics Guide #1081 - Mar 28 2026</span>
+</div>
+<div class="episode-meta">Dr. Steven Novella &middot; Mar 28</div>
+<p style="margin:10px 0;font-size:14px;">This episode of The Skeptics' Guide to the Universe covers multiple science and policy topics including NASA's new lunar base plans with nuclear propulsion, the limits of cloning in mammals, giant prehistoric insects and oxygen levels, exorcisms in the Catholic Church, and the misidentification of interstellar object 'Oumuamua by Avi Loeb. The hosts discuss confirmation bias as a cognitive phenomenon, review global nutrition statistics, and explore how misinformation and motivated reasoning shape scientific discourse.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Nuclear electric propulsion for spacecraft (Space Reactor 1 Freedom)</span>
+  <span class="topic-tag">Lunar base construction and robotic missions</span>
+  <span class="topic-tag">Somatic cell nuclear transfer (reproductive cloning)</span>
+  <span class="topic-tag">Cloning limits and Müller's ratchet theory</span>
+  <span class="topic-tag">Epigenetic reprogramming and nuclear reprogramming</span>
+  <span class="topic-tag">Giant prehistoric insects (griffonflies) and atmospheric oxygen levels</span>
+  <span class="topic-tag">Insect tracheal systems and oxygen diffusion</span>
+  <span class="topic-tag">Interstellar objects and comet composition (3i Atlas)</span>
+  <span class="topic-tag">Deuterium isotope ratios in comets</span>
+  <span class="topic-tag">Exorcism and possession as medical misinterpretation</span>
+  <span class="topic-tag">Psychiatric conditions misdiagnosed as demonic possession (schizophrenia, dissociative disorders, epilepsy)</span>
+  <span class="topic-tag">Malnutrition in children under five</span>
+  <span class="topic-tag">Micronutrient deficiencies (iron, iodine, vitamin A)</span>
+  <span class="topic-tag">Food fortification programs</span>
+  <span class="topic-tag">Confirmation bias and motivated reasoning</span>
+  <span class="topic-tag">Epigenome vs. genome biology</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions" target="_blank">Powering Science: NASA's Large Strategic Science Missions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26459/the-limits-of-recidivism-measuring-success-after-prison" target="_blank">The Limits of Recidivism: Measuring Success After Prison</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern" target="_blank">A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Half of all deaths in children under five are linked to malnutrition - VERIFIED as accurate according to the hosts</div>
+<div class="claim">Japanese researchers successfully cloned mice through 58 generations using somatic cell nuclear transfer - VERIFIED as recent research finding</div>
+<div class="claim">Griffonflies (extinct giant insects) had wingspans of 75 centimeters (2.5 feet) - stated as factual but based on fossil records</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Medieval beliefs yield medieval results - this is why we keep talking about exorcisms on the show because the results are rarely good"</div>
+<div class="quote">"Confirmation bias is the mother of all cognitive biases... it basically means that we tend to process information in such a way that it confirms what we already believe or what we want to believe"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">100 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Clean Energy and Electric Vehicles (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of EV economics, charging costs, and comparisons with fossil fuel vehicles, including IRA tax credit implications.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astrophysics and Space Observations (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts featuring moon photography, Saturn observations via Hubble and JWST, and solar physics research.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Federal Science Agency Operations and Policy (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Concerns about whistleblower protections, employee morale, and institutional capacity within federal agencies under current administration.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Antimicrobial Resistance and Environmental Chemistry (2 posts)</span> <span style="font-size:13px;color:#4a5568;">Research linking glyphosate herbicide exposure to multidrug-resistant bacteria proliferation in hospital settings.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Pollinator Health and Agricultural Innovation (2 posts)</span> <span style="font-size:13px;color:#4a5568;">Engineering yeast to replicate missing nutrients from pollen to support honeybees in pollination-deficient regions.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">1505 likes &middot; 340 reposts &middot; 25 replies</div>
+  <div class="bluesky-text">This is the way... 🧪🔌💡☀️💨💧🔋 cleantechnica.com/2026/03/26/u...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mi5kxturt22s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@minouette.bsky.social</div>
+  <div class="bluesky-stats">168 likes &middot; 48 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">This is one of a series of prints of Opabinia, 🧪🐡 an extinct prehistoric creatures which lived during the Cambrian geological time period, carved by hand in linoleum, printed onto lovely white paper with bark inclusions and collaged with Japanese papers in different colours and patterns, 🧵</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/minouette.bsky.social/post/3mi4mlchugs2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">164 likes &middot; 18 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Waxing Gibbous Moon. 1932UT 28 March 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mi5h7lqnh22d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">169 likes &middot; 9 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Afternoon Moon. 1611UT 28 March 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mi52qdrftk2k" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@fishsqueezer.bsky.social</div>
+  <div class="bluesky-stats">115 likes &middot; 40 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">I don't love that livestock forage in my yard & compete with the native bees I'm trying to support.
+
+HOWEVER since we depend on honeybees for many crops but live in pollination deserts, this is a big time breakthrough. They engineered YEAST to replicate missing nutrients from pollen.
+
+#Inverts 🧪🌎🌱</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/fishsqueezer.bsky.social/post/3mi4tpciy3k2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Federal Science Agency Workforce and Morale</strong>: NASEM advises on science policy and federal research capacity; posts document declining whistleblower protections and employee confidence affecting institutional integrity and research output.</div>
+<div class="nasem-match"><strong>Antimicrobial Resistance and Environmental Health</strong>: NASEM produces reports on antimicrobial resistance; research linking herbicide exposure to drug-resistant bacteria raises questions about chemical regulation and public health policy coordination.</div>
+<div class="nasem-match"><strong>AI Standards in Climate and Weather Prediction</strong>: NASEM advises on AI applications in science; Nature comment highlights need for agreed data sets and standards for testing AI-generated extreme-event predictions in meteorology.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 29, 2026 at 11:15 AM | Internal use only
+    </div>
+</body>
+</html>

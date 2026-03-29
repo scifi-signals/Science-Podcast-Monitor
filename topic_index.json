@@ -1,7 +1,120 @@
 {
-  "updated": "2026-03-28T11:24:12.682260",
-  "episode_count": 132,
+  "updated": "2026-03-29T11:15:39.812563",
+  "episode_count": 133,
   "episodes": [
+    {
+      "podcast_id": "skeptics-guide",
+      "podcast_name": "The Skeptics' Guide to the Universe",
+      "episode_title": "The Skeptics Guide #1081 - Mar 28 2026",
+      "host": "Dr. Steven Novella",
+      "published": "2026-03-28T14:00:00",
+      "influence_tier": "medium",
+      "category": "science_communication",
+      "summary": "This episode of The Skeptics' Guide to the Universe covers multiple science and policy topics including NASA's new lunar base plans with nuclear propulsion, the limits of cloning in mammals, giant prehistoric insects and oxygen levels, exorcisms in the Catholic Church, and the misidentification of interstellar object 'Oumuamua by Avi Loeb. The hosts discuss confirmation bias as a cognitive phenomenon, review global nutrition statistics, and explore how misinformation and motivated reasoning shape scientific discourse.",
+      "science_topics": [
+        "Nuclear electric propulsion for spacecraft (Space Reactor 1 Freedom)",
+        "Lunar base construction and robotic missions",
+        "Somatic cell nuclear transfer (reproductive cloning)",
+        "Cloning limits and Müller's ratchet theory",
+        "Epigenetic reprogramming and nuclear reprogramming",
+        "Giant prehistoric insects (griffonflies) and atmospheric oxygen levels",
+        "Insect tracheal systems and oxygen diffusion",
+        "Interstellar objects and comet composition (3i Atlas)",
+        "Deuterium isotope ratios in comets",
+        "Exorcism and possession as medical misinterpretation",
+        "Psychiatric conditions misdiagnosed as demonic possession (schizophrenia, dissociative disorders, epilepsy)",
+        "Malnutrition in children under five",
+        "Micronutrient deficiencies (iron, iodine, vitamin A)",
+        "Food fortification programs",
+        "Confirmation bias and motivated reasoning",
+        "Epigenome vs. genome biology"
+      ],
+      "claims_to_note": [
+        "Half of all deaths in children under five are linked to malnutrition - VERIFIED as accurate according to the hosts",
+        "Japanese researchers successfully cloned mice through 58 generations using somatic cell nuclear transfer - VERIFIED as recent research finding",
+        "Griffonflies (extinct giant insects) had wingspans of 75 centimeters (2.5 feet) - stated as factual but based on fossil records",
+        "Atmospheric oxygen was approximately 45% during Carboniferous/Permian periods vs. current ~21% - consistent with scientific literature",
+        "Iron and iodine are the most prevalent micronutrient deficiencies globally, not vitamin A - VERIFIED as correct answer to science fiction segment",
+        "Current food fortification programs prevent 7 billion nutritional deficiencies per year - presented as accurate claim",
+        "Father Gabriel Amorth performed between 60,000 to 170,000 exorcisms - hosts note the extreme range and variation in counting methodology",
+        "Three-year-old girl died from asphyxiation during attempted exorcism in California - cited as factual case of harm from exorcism practices",
+        "Avi Loeb claimed 3i Atlas has 'nuclear fuel' (deuterium) - hosts strongly criticize this as misleading framing of naturally occurring isotope"
+      ],
+      "policy_relevance": [
+        "NASA's shift from lunar Gateway space station to permanent lunar base on surface",
+        "NASA's goal to deploy nuclear reactor on lunar surface by 2030",
+        "Space Reactor 1 Freedom mission planned for 2028 with nuclear electric propulsion",
+        "$20 billion estimated cost for NASA moon base program (hosts skeptical of accuracy)",
+        "NASA Office of Inspector General reports on delays and technical difficulties for human landing systems (SpaceX, Blue Origin)",
+        "Lack of rescue capability for stranded Artemis crew on lunar surface",
+        "Vatican summit on exorcisms convened by Pope Leo XIV",
+        "Catholic Church's International Association of Exorcists (AIE) requesting trained exorcist in every diocese worldwide",
+        "Federal/institutional regulation of exorcism practices",
+        "Distinction between formal and informal exorcism practices and their regulatory status"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Space Nuclear Propulsion for Human Mars Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25977/space-nuclear-propulsion-for-human-mars-exploration"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
+        },
+        {
+          "title": "Independent Cost Estimates for Design and Construction of Transit Facilities in Rural and Small Urban Areas",
+          "url": "https://nap.nationalacademies.org/catalog/22086/independent-cost-estimates-for-design-and-construction-of-transit-facilities-in-rural-and-small-urban-areas"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "The Limits of Recidivism: Measuring Success After Prison",
+          "url": "https://nap.nationalacademies.org/catalog/26459/the-limits-of-recidivism-measuring-success-after-prison"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "radiolab",
       "podcast_name": "Radiolab",
