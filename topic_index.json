@@ -1,7 +1,202 @@
 {
-  "updated": "2026-03-29T11:15:39.812563",
-  "episode_count": 133,
+  "updated": "2026-03-30T12:05:23.809819",
+  "episode_count": 135,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "CERN finds a new particle + News alerts for the cosmos",
+      "host": "Ira Flatow",
+      "published": "2026-03-30T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode covers two major astronomical topics: CERN's discovery of a new composite particle at the Large Hadron Collider containing two charm quarks and a down quark (a proton-like particle four times heavier than an ordinary proton), and the Rubin Observatory's recently tested alert system that detects changes in the night sky, generating approximately 800,000 alerts per night with an expected 7 million alerts nightly at full operation. The heavy quark particle discovery validates theoretical predictions about how quarks interact and provides insights into fundamental physics, while the Rubin alert system aims to enable rapid astronomical follow-up observations of transient phenomena including supernovae, asteroids, and variable stars.",
+      "science_topics": [
+        "Charm quarks and composite baryon particles (two charm quarks and one down quark)",
+        "Heavy quark physics and particle mass predictions",
+        "Proton structure and quark composition",
+        "CP violation and matter-antimatter asymmetry",
+        "Large Hadron Collider experimental physics",
+        "Real-time transient detection in astronomy",
+        "Supernovae observations",
+        "Variable star photometry",
+        "Asteroid detection and characterization",
+        "Machine learning applications in astronomical data filtering"
+      ],
+      "claims_to_note": [
+        "The newly discovered particle has a mass approximately four times heavier than an ordinary proton",
+        "The ordinary proton contains two up quarks and one down quark",
+        "The new particle has a lifetime of a few trillionths of a second (less than a few trillion milliseconds)",
+        "An ordinary proton has a known lifetime exceeding 10^31 years",
+        "Heavy charm quarks are only produced in high-energy particle collisions and were present in the early universe after the Big Bang",
+        "The Rubin Observatory alert system generated 800,000 alerts on its first test night",
+        "The system is expected to generate approximately 7 million alerts per night at full operational capacity",
+        "Alerts are transmitted within a couple of minutes after image capture"
+      ],
+      "policy_relevance": [
+        "Large Hadron Collider (CERN) operations and international particle physics collaboration",
+        "Rubin Observatory operations in Chile and international astronomy infrastructure",
+        "Data processing facilities at Stanford Linear Accelerator Center for real-time astronomical data analysis",
+        "Allocation of telescope time resources (Hubble Space Telescope and James Webb Space Telescope follow-up observations)",
+        "Education and public outreach programs for amateur astronomers through Rubin Observatory"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Evaluation of Bridge Scour Research: Geomorphic Processes and Predictions",
+          "url": "https://nap.nationalacademies.org/catalog/22884/evaluation-of-bridge-scour-research-geomorphic-processes-and-predictions"
+        },
+        {
+          "title": "Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?",
+          "url": "https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Shaping Summertime Experiences: Opportunities to Promote Healthy Development and Well-Being for Children and Youth",
+          "url": "https://nap.nationalacademies.org/catalog/25546/shaping-summertime-experiences-opportunities-to-promote-healthy-development-and-well"
+        },
+        {
+          "title": "Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches"
+        },
+        {
+          "title": "Biodiversity at Risk: Today's Choices Matter",
+          "url": "https://nap.nationalacademies.org/catalog/26384/biodiversity-at-risk-todays-choices-matter"
+        },
+        {
+          "title": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
+          "url": "https://nap.nationalacademies.org/catalog/29102/newborn-screening-in-the-united-states-a-vision-for-sustaining"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Deriving Drug Discovery Value from Large-Scale Genetic Bioresources: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23601/deriving-drug-discovery-value-from-large-scale-genetic-bioresources-proceedings"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Space news: Project Hail Mary, Artemis, data centers",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-30T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Shortwave episode features NPR science correspondents discussing three major space news topics: the film adaptation of Andy Weir's 'Project Hail Mary' about a mission to stop alien microbes from destroying the sun, SpaceX and Elon Musk's plans to deploy AI data centers in space to leverage solar power, and updates on the upcoming Artemis II lunar mission. While the hosts found the movie scientifically engaging and mostly accurate regarding relativity, they highlighted significant skepticism from aerospace experts about space data centers, noting that powering such facilities would require solar arrays 1,000 times larger than the International Space Station and facing insurmountable heat dissipation challenges in the vacuum of space.",
+      "science_topics": [
+        "Special relativity and time dilation effects on astronauts traveling near light speed",
+        "Astrobiology and habitability of alien microbes in space environments",
+        "Exoplanet discovery and characterization",
+        "Space-based solar power generation and photovoltaic arrays",
+        "Thermal management and radiator systems for electronics in vacuum",
+        "AI computing infrastructure and power consumption of data centers",
+        "International Space Station power generation (100 kilowatts from solar panels)"
+      ],
+      "claims_to_note": [
+        "Project Hail Mary depicts water-based alien microbes living on the sun's surface—astrobiologist Michael Wong noted this takes creative liberties with biology fundamentals",
+        "Elon Musk claims space-based AI data centers could become cost-competitive with terrestrial systems in 2-3 years",
+        "MIT aerospace professor Olivier Dweck calculated that space data centers would require solar arrays 1,000 times the size of the ISS just for power generation",
+        "XAI's Colossus facility in Memphis consumes 150 megawatts of power compared to ISS solar panels generating 100 kilowatts",
+        "Two exoplanets depicted in Project Hail Mary were thought to exist when the book was written but recent discoveries suggest they may not actually exist"
+      ],
+      "policy_relevance": [
+        "NASA's Artemis II mission launch window opening April 1st to return humans to lunar orbit for first time since early 1970s",
+        "Technical delays in Artemis II due to hydrogen leak in the mission's rocket",
+        "SpaceX merger with Elon Musk's AI company XAI, with space-based data centers as central mission objective",
+        "Federal space exploration priorities reflected in Artemis program continuation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling"
+        },
+        {
+          "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
+          "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap"
+        }
+      ]
+    },
     {
       "podcast_id": "skeptics-guide",
       "podcast_name": "The Skeptics' Guide to the Universe",

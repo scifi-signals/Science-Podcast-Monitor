@@ -1,0 +1,634 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "Space news: Project Hail Mary, Artemis, data centers",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-03-30T07:00:00",
+  "episode_url": "https://www.npr.org/2026/03/30/nx-s1-5763814/science-space-project-hail-mary",
+  "duration_minutes": 11.483333333333333,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Shortwave episode features NPR science correspondents discussing three major space news topics: the film adaptation of Andy Weir's 'Project Hail Mary' about a mission to stop alien microbes from destroying the sun, SpaceX and Elon Musk's plans to deploy AI data centers in space to leverage solar power, and updates on the upcoming Artemis II lunar mission. While the hosts found the movie scientifically engaging and mostly accurate regarding relativity, they highlighted significant skepticism from aerospace experts about space data centers, noting that powering such facilities would require solar arrays 1,000 times larger than the International Space Station and facing insurmountable heat dissipation challenges in the vacuum of space.",
+  "science_topics": [
+    "Special relativity and time dilation effects on astronauts traveling near light speed",
+    "Astrobiology and habitability of alien microbes in space environments",
+    "Exoplanet discovery and characterization",
+    "Space-based solar power generation and photovoltaic arrays",
+    "Thermal management and radiator systems for electronics in vacuum",
+    "AI computing infrastructure and power consumption of data centers",
+    "International Space Station power generation (100 kilowatts from solar panels)"
+  ],
+  "claims_to_note": [
+    "Project Hail Mary depicts water-based alien microbes living on the sun's surface—astrobiologist Michael Wong noted this takes creative liberties with biology fundamentals",
+    "Elon Musk claims space-based AI data centers could become cost-competitive with terrestrial systems in 2-3 years",
+    "MIT aerospace professor Olivier Dweck calculated that space data centers would require solar arrays 1,000 times the size of the ISS just for power generation",
+    "XAI's Colossus facility in Memphis consumes 150 megawatts of power compared to ISS solar panels generating 100 kilowatts",
+    "Two exoplanets depicted in Project Hail Mary were thought to exist when the book was written but recent discoveries suggest they may not actually exist"
+  ],
+  "policy_relevance": [
+    "NASA's Artemis II mission launch window opening April 1st to return humans to lunar orbit for first time since early 1970s",
+    "Technical delays in Artemis II due to hydrogen leak in the mission's rocket",
+    "SpaceX merger with Elon Musk's AI company XAI, with space-based data centers as central mission objective",
+    "Federal space exploration priorities reflected in Artemis program continuation"
+  ],
+  "key_quotes": [
+    "I think there's a way to sort of parse this, which is there will be more computing in space for sure. And it'll probably, at least for now, be on smaller satellites, smaller amounts of computing that can be distributed. Whether we end up with giant data centers with kilometer-long solar arrays, I think that's going to be a lot more than two or three years off.",
+    "You would have to build, just for the power in photovoltaically, a facility that's 1,000 times the size of the ISS. That seems hard to do. It's not easy.",
+    "Space is so vast and so infinite. Sometimes I will think about it to the point of personal paralysis...it is so overwhelming to think about that you just can't move."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Special relativity and time dilation effects on astronauts traveling near light speed",
+      "publications": [
+        {
+          "id": "27892",
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "carrier sizes operational structures",
+            "long distance truck",
+            "hire truck drivers",
+            "help regulators researchers",
+            "house private carriers",
+            "freight markets served",
+            "safe driving behavior",
+            "heterogeneous industry",
+            "work conditions",
+            "considerable variability",
+            "working conditions",
+            "driver safety",
+            "bus industries",
+            "assessing",
+            "retention",
+            "effects",
+            "pay"
+          ],
+          "description": "For-hire trucking--as opposed to in-house private carriers that transport the goods of their parent company--is a large and heterogeneous industry with considerable variability in carrier sizes, operational structures, and freight markets served. For this sector, the Federal Motor Carrier Safety Administration should explore opportunities for leveraging research and data collection that may be planned and programmed for other purposes to help regulators, researchers, and industry examine the potential effects of driver compensation and work conditions on the safe driving behavior and performance of long-distance for-hire truck drivers.This is among the recommendations in TRB Special Report 355: Pay and Work Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention, from the Transportation Research Board of the National Academies of Sciences, Engineering, and Medicine. The report examines--in response to a request from the U.S. Congre",
+          "year": 2024,
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26809",
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic has had an unprecedented impact on the lives of children and their families, who have faced innumerable challenges such as illness and death; school closures; social isolation; financial hardship; food insecurity; deleterious mental health effects; and difficulties accessing health care. In almost every outcome related to social, emotional, behavioral, educational, mental, physical, and economic health and well-being, families identifying as Black, Latino, and Native American, and those with low incomes, have disproportionately borne the brunt of the negative effects of the pandemic. The effects of the COVID-19 pandemic on children and families will be felt for years to come. While these long-term effects are unknown, they are likely to have particularly significant implications for children and families from racially and ethnically minoritized communities and with low incomes. Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families iden",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "deleterious mental health effects",
+            "difficulties accessing health care",
+            "long term effects",
+            "ethnically minoritized communities",
+            "faced innumerable challenges",
+            "families identifying",
+            "covid pandemic",
+            "negative effects",
+            "economic health",
+            "disproportionately borne",
+            "addressing",
+            "children",
+            "families"
+          ]
+        },
+        {
+          "id": "26410",
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "deepwater horizon oil spill",
+            "high energy demand driven",
+            "consumption exploration transportation",
+            "prevent chronic land",
+            "long term effects",
+            "worldwide energy supply",
+            "despite significant progress",
+            "production risks remain",
+            "oil spill science",
+            "decade long boom",
+            "inputs fates",
+            "effects",
+            "oil",
+            "sea"
+          ],
+          "description": "Oil and natural gas represent more than 50 percent of the worldwide energy supply, with high energy demand driven by population growth and improving standards of living. Despite significant progress in reducing the amount of oil in the sea from consumption, exploration, transportation, and production, risks remain. This report, the fourth in a series, documents the current state-of-knowledge on inputs, fates and effects of oil in the sea, reflecting almost 20 additional years of research, including long-term effects from spills such as the Exxon Valdez and a decade-long boom in oil spill science research following the Deepwater Horizon oil spill. The report finds that land-based sources of oil are the biggest input of oil to the sea, far outweighing other sources, and it also notes that the effects of chronic inputs on the marine environment, such as land-based runoff, are very different than that from an acute input, such as a spill. Steps to prevent chronic land-based oil inputs incl",
+          "year": 2023,
+          "committee": "Ocean Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Astrobiology and habitability of alien microbes in space environments",
+      "publications": [
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        },
+        {
+          "id": "28594",
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594",
+          "topics": [
+            "space"
+          ],
+          "keywords": [
+            "mars",
+            "human exploration",
+            "space exploration",
+            "mars exploration",
+            "planetary science",
+            "astrobiology",
+            "nasa",
+            "human spaceflight",
+            "science strategy",
+            "search for life",
+            "mars mission"
+          ],
+          "year": 2025,
+          "description": "Identifies the highest-priority science objectives for the first human missions to Mars, with searching for evidence of existing or past life as the top priority."
+        },
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Exoplanet discovery and characterization",
+      "publications": [
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27457",
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "scientific discovery seem endless",
+            "everyday conversational technologies capturing",
+            "performed without human oversight",
+            "reliable discovery whether",
+            "scientific investigation",
+            "scientific community",
+            "computational technology",
+            "created opportunities",
+            "computational theory",
+            "artificial intelligence",
+            "scientific discovery"
+          ],
+          "description": "Over the past century, artificial intelligence (AI) has evolved from computational theory to everyday conversational technologies, capturing the attention and interest of the public and the media. It has also caught the attention of the scientific community, where it has provided a new tool to support inquiry and exploration. While AI in the context of scientific investigation has existed for decades, advances in computational technology and sensing in the physical world have created opportunities to integrate AI into science in unexpected ways, with capabilities that are rapidly accelerating. As a result, AI has been leveraged by an expanding collection of disciplines in the physical and biological sciences, as well as engineering domains. While the opportunities for AI in scientific discovery seem endless, there are numerous questions about what makes for trustworthy and reliable discovery, whether such investigation should be performed without human oversight or intervention, and ho",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Space-based solar power generation and photovoltaic arrays",
+      "publications": [
+        {
+          "id": "26522",
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "keywords": [
+            "planetary",
+            "space",
+            "astrobiology",
+            "planets",
+            "solar system",
+            "nasa",
+            "exploration",
+            "astronomy",
+            "mars",
+            "moon",
+            "asteroid",
+            "telescope"
+          ]
+        },
+        {
+          "id": "28594",
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594",
+          "topics": [
+            "space"
+          ],
+          "keywords": [
+            "mars",
+            "human exploration",
+            "space exploration",
+            "mars exploration",
+            "planetary science",
+            "astrobiology",
+            "nasa",
+            "human spaceflight",
+            "science strategy",
+            "search for life",
+            "mars mission"
+          ],
+          "year": 2025,
+          "description": "Identifies the highest-priority science objectives for the first human missions to Mars, with searching for evidence of existing or past life as the top priority."
+        },
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Thermal management and radiator systems for electronics in vacuum",
+      "publications": [
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "27473",
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "wildland fires transfer carbon",
+            "address wildland fires",
+            "greenhouse gases ghgs along",
+            "wildland fire regimes",
+            "fundamentally changing ecosystems",
+            "fire season highlighted",
+            "increase ghg emissions",
+            "human health communities",
+            "human driven changes",
+            "inhibit global efforts",
+            "improved monitoring modeling",
+            "greenhouse gas emissions",
+            "wildland fires",
+            "management"
+          ],
+          "description": "Climate change is fundamentally changing ecosystems and their fire conditions, and the 2023 fire season highlighted the urgency of developing and implementing solutions to address wildland fires. Wildland fires transfer carbon between the land and the atmosphere through emissions of greenhouse gases (GHGs), along with other gasses and particles. Though fires can be a natural part of healthy, evolving ecosystems, large, uncontrolled wildland fires can have devastating consequences to human health, communities, and biodiversity. Human-driven changes in wildland fire regimes have the potential to increase GHG emissions at a scale that could inhibit global efforts to achieve net-zero GHG emissions in the coming decades. The National Academies of Sciences, Engineering, and Medicine convened a workshop on September 13-15, 2023, to identify opportunities to improve measurements and model projections of GHG emissions from wildland fires and discuss management practices that could be incorporat",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Polar Research Board"
+        },
+        {
+          "id": "28598",
+          "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
+          "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "knowledge management",
+            "cognitive science learning cultures",
+            "among state dots",
+            "support continuous learning",
+            "problem statements covering",
+            "help identify capture",
+            "transportation dots",
+            "transportation agencies",
+            "state departments",
+            "transfer institutional",
+            "roadmap consists",
+            "transportation",
+            "management",
+            "roadmap"
+          ],
+          "description": "\"In most state departments of transportation (DOTs), a significant portion of the workforce continues to be eligible for retirement, which could lead to a loss of institutional knowledge. Collaboration and interdisciplinary work are also increasing the need for effective, efficient, and timely knowledge transfer. State DOTs and other transportation agencies could benefit from knowledge management (KM) techniques and practices to help identify, capture, and transfer institutional knowledge and support continuous learning. KM continues to evolve, particularly in the understanding of factors such as cognitive science, learning cultures, and knowledge risk. NCHRP Research Report 1134: Knowledge Management at State Departments of Transportation: Research Roadmap, from TRB's National Cooperative Highway Research Program, presents a research roadmap for promoting KM among state DOTs and other transportation agencies. The roadmap consists of 11 research problem statements covering a broad set ",
+          "year": 2025,
+          "page_keywords": [
+            "Knowledge management"
+          ],
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2610,
+  "saved_at": "2026-03-30T12:04:52.668558"
+}

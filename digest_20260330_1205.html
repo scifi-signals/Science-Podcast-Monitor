@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 30, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 30, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">17</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">10</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">77</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefings highlight significant developments in fundamental physics, space exploration, and astronomical infrastructure. CERN's discovery of a heavy composite baryon particle validates theoretical predictions and advances quark physics understanding, while the Rubin Observatory's alert system represents a transformative capability for real-time transient detection, generating 800,000 alerts nightly at current testing levels. Space-based infrastructure receives mixed assessments: Artemis II preparations continue with crew confidence high, but aerospace experts express skepticism about SpaceX's proposed space data centers due to insurmountable thermal and power generation challenges. Bluesky discourse reflects persistent concerns about NIH funding reductions affecting early-career researchers, a pattern consistent with broader science workforce sustainability issues. These developments underscore growing capability gaps between ambitious space technology proposals and realistic engineering constraints, alongside institutional pressures on research infrastructure.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Space-based infrastructure challenges: thermal management, power generation, and cost-competitiveness barriers</li>
+<li>Artemis II mission readiness and lunar exploration trajectory</li>
+<li>Real-time astronomical detection and transient phenomenon monitoring</li>
+<li>Early-career researcher funding constraints and NIH support erosion</li>
+<li>Fundamental physics discoveries validating theoretical predictions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Space data center feasibility skepticism gaining traction among aerospace experts—contradicts industry optimism about terrestrial-space cost parity within 2-3 years</li>
+<li>Real-time astronomical alert systems transitioning from research to operational scale (Rubin Observatory 7M alerts/night expected)</li>
+<li>Heavy quark physics and composite particle characterization advancing—validates CP violation and matter-antimatter asymmetry theories</li>
+<li>NIH funding pressures on K99 postdoctoral positions emerging as recurring concern across Bluesky (continuation of multi-day pattern)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene aerospace engineering and space systems experts to assess feasibility of space-based computational infrastructure and publish peer-reviewed assessment of thermal dissipation and power generation constraints</div>
+<div class="opportunity">Engage with Rubin Observatory leadership on data management, real-time alert infrastructure, and computational capacity planning for 7M nightly alerts</div>
+<div class="opportunity">Develop policy brief on NIH early-career researcher funding sustainability and competitiveness impacts, particularly K99 reductions affecting postdoctoral training pipeline</div>
+<div class="opportunity">Partner with CERN and LHC collaborations on heavy quark physics discoveries to communicate fundamental physics advances to policymakers</div>
+<div class="opportunity">Establish working group on space exploration risk assessment related to thermal engineering limits in vacuum environments</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Claim: Elon Musk asserts space-based AI data centers could achieve cost-competitiveness with terrestrial systems in 2-3 years—MIT aerospace analysis directly contradicts, showing solar arrays would need to be 1,000× larger than ISS just for power; thermal dissipation in vacuum remains physically intractable. Recommend NASEM technical briefing document.</div>
+<div class="claim">Implicit overstatement in space exploration media: 'Project Hail Mary' film depicts water-based alien microbes surviving solar surface conditions—astrobiologist Michael Wong flagged as creative liberty violating fundamental biology; reinforces unrealistic expectations about astrobiology.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antimicrobial Resistance as Existential Health Threat</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab, Nature Podcast, and Science Policy IRL are converging on multidrug-resistant bacteria (MRSA, Acinetobacter baumannii, carbapenem-resistant strains) as an urgent clinical and research challenge, with Nature Podcast linking synthetic genome engineering and CRISPR to potential therapeutic interventions. This represents a shift from passive surveillance to active molecular countermeasures, driven by mounting treatment failures in hospital settings.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene an expert committee on synthetic biology applications to antimicrobial resistance, bridging clinical microbiology with genome engineering to establish dual-use research safeguards and therapeutic pathways.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Water Security and Infrastructure Resilience</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave dominates this narrative across three episodes (wastewater recycling, freshwater salinization, groundwater depletion), establishing potable water reclamation and aquifer sustainability as critical infrastructure challenges. The Ogallala Aquifer depletion story signals policy-level urgency around agricultural water demand and regional subsidence, while PFAS contamination introduces emerging contaminant concerns beyond traditional filtration.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's water security assessments should integrate climate adaptation, contaminant removal technologies (reverse osmosis, microfiltration), and regional aquifer management into coherent national water infrastructure strategy.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">CRISPR and Synthetic Biology Dual-Use Governance</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL explicitly frames CRISPR, synthetic genome transplantation (Nature Podcast), and CAR-T cell engineering as data-dependent, dual-use technologies requiring governance frameworks. This complements somatic cell nuclear transfer coverage across multiple shows (Skeptics' Guide, Nature Podcast), indicating policy makers are beginning to reconcile therapeutic promise with biosecurity risk.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish a standing biosecurity panel integrating synthetic biology, genome engineering, and immunotherapy oversight—critical as clinical deployment accelerates ahead of international governance consensus.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI and Mathematical Problem-Solving at Research Frontier</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday reports AI systems achieving International Mathematical Olympiad-level performance and formal proof verification, signaling a transition from narrow task automation to research-level theorem proving. This reflects broader AI capability expansion but remains narrowly technical—no shows yet discuss policy, workforce, or resource allocation implications.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a study on AI's impact on mathematical sciences workforce and research infrastructure investment, particularly as AI begins to substitute for human-intensive proof discovery.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Zoonotic Disease Transmission and Agricultural Interface</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's H5N1 avian influenza coverage emphasizes airborne pathogen shedding from dairy farms and viral detection in manure lagoons, revealing agricultural systems as pandemic-risk infrastructure. This represents an emerging recognition that livestock operations, not just wildlife interfaces, are critical surveillance points for respiratory pathogen spillover.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should coordinate with USDA and CDC on integrated surveillance systems for agricultural facilities as early-warning mechanisms for zoonotic respiratory threats, particularly as H5N1 establishes in mammalian herds.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Space news: Project Hail Mary, Artemis, data centers</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 30 &middot; 11 min</div>
+<p style="margin:10px 0;font-size:14px;">This Shortwave episode features NPR science correspondents discussing three major space news topics: the film adaptation of Andy Weir's 'Project Hail Mary' about a mission to stop alien microbes from destroying the sun, SpaceX and Elon Musk's plans to deploy AI data centers in space to leverage solar power, and updates on the upcoming Artemis II lunar mission. While the hosts found the movie scientifically engaging and mostly accurate regarding relativity, they highlighted significant skepticism from aerospace experts about space data centers, noting that powering such facilities would require solar arrays 1,000 times larger than the International Space Station and facing insurmountable heat dissipation challenges in the vacuum of space.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Special relativity and time dilation effects on astronauts traveling near light speed</span>
+  <span class="topic-tag">Astrobiology and habitability of alien microbes in space environments</span>
+  <span class="topic-tag">Exoplanet discovery and characterization</span>
+  <span class="topic-tag">Space-based solar power generation and photovoltaic arrays</span>
+  <span class="topic-tag">Thermal management and radiator systems for electronics in vacuum</span>
+  <span class="topic-tag">AI computing infrastructure and power consumption of data centers</span>
+  <span class="topic-tag">International Space Station power generation (100 kilowatts from solar panels)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop" target="_blank">AI for Scientific Discovery: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems" target="_blank">Management of Legionella in Water Systems</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling" target="_blank">Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Project Hail Mary depicts water-based alien microbes living on the sun's surface—astrobiologist Michael Wong noted this takes creative liberties with biology fundamentals</div>
+<div class="claim">Elon Musk claims space-based AI data centers could become cost-competitive with terrestrial systems in 2-3 years</div>
+<div class="claim">MIT aerospace professor Olivier Dweck calculated that space data centers would require solar arrays 1,000 times the size of the ISS just for power generation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I think there's a way to sort of parse this, which is there will be more computing in space for sure. And it'll probably, at least for now, be on smaller satellites, smaller amounts of computing that can be distributed. Whether we end up with giant data centers with kilometer-long solar arrays, I think that's going to be a lot more than two or three years off."</div>
+<div class="quote">"You would have to build, just for the power in photovoltaically, a facility that's 1,000 times the size of the ISS. That seems hard to do. It's not easy."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: CERN finds a new particle + News alerts for the cosmos</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 30 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode covers two major astronomical topics: CERN's discovery of a new composite particle at the Large Hadron Collider containing two charm quarks and a down quark (a proton-like particle four times heavier than an ordinary proton), and the Rubin Observatory's recently tested alert system that detects changes in the night sky, generating approximately 800,000 alerts per night with an expected 7 million alerts nightly at full operation. The heavy quark particle discovery validates theoretical predictions about how quarks interact and provides insights into fundamental physics, while the Rubin alert system aims to enable rapid astronomical follow-up observations of transient phenomena including supernovae, asteroids, and variable stars.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Charm quarks and composite baryon particles (two charm quarks and one down quark)</span>
+  <span class="topic-tag">Heavy quark physics and particle mass predictions</span>
+  <span class="topic-tag">Proton structure and quark composition</span>
+  <span class="topic-tag">CP violation and matter-antimatter asymmetry</span>
+  <span class="topic-tag">Large Hadron Collider experimental physics</span>
+  <span class="topic-tag">Real-time transient detection in astronomy</span>
+  <span class="topic-tag">Supernovae observations</span>
+  <span class="topic-tag">Variable star photometry</span>
+  <span class="topic-tag">Asteroid detection and characterization</span>
+  <span class="topic-tag">Machine learning applications in astronomical data filtering</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs" target="_blank">Human-AI Teaming: State-of-the-Art and Research Needs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation" target="_blank">Modernizing Probable Maximum Precipitation Estimation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26331/indoor-exposure-to-fine-particulate-matter-and-practical-mitigation-approaches" target="_blank">Indoor Exposure to Fine Particulate Matter and Practical Mitigation Approaches: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26384/biodiversity-at-risk-todays-choices-matter" target="_blank">Biodiversity at Risk: Today's Choices Matter</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">The newly discovered particle has a mass approximately four times heavier than an ordinary proton</div>
+<div class="claim">The ordinary proton contains two up quarks and one down quark</div>
+<div class="claim">The new particle has a lifetime of a few trillionths of a second (less than a few trillion milliseconds)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The laws that we discovered about these constituents the way they interact with each other suggest that there should be a proton object made up of these quarks. The fact that we see the properties corresponding to the predictions based on our theory is very important because it gives us insight into how accurate these theoretical foundations are."</div>
+<div class="quote">"The biggest mission of LHCB is to uncover the reason behind that [matter-antimatter asymmetry]: why, even though the universe seemed to have been produced symmetric between matter and antimatter at the very early time, yet the universe is all made up of matter rather than antimatter."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">77 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">NIH Funding and Early Career Scientists (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of dramatic reductions in NIH funding opportunities and impacts on K99 postdoctoral researchers and ongoing studies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Artemis II (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of NASA's Artemis II lunar mission preparations, including crew confidence and mission significance.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental and Climate Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on renewable energy transitions, ocean health, climate vulnerabilities, and environmental monitoring.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Health and Longevity Research (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on exercise benefits, diet impacts on mental health, and disease surveillance including measles and polio alerts.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Marine Biology and Ocean Science (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on baleen whales, nanoplastics in oceans, comb jellies, and ecosystem recovery including Boston Harbor shellfishing.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">307 likes &middot; 182 reposts &middot; 38 replies</div>
+  <div class="bluesky-text">Not an single academic biology scientist on this council.
+The tech bros have a combined wealth in excess of $900 billion. There is no priority on human health.
+
+But Trump may add more academics to the council. I expect them to be unqualified wellness influencers- on brand.
+
+  🧪 archive.today/7OtCC</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mia2j4i6uk2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">124 likes &middot; 60 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">BEV trucking in Australia is now delivering loads faster and for less cost. Not a bad combination, particularly when all your diesel needs to be imported. We can shift from fossil fuels. 🧪🔌💡☀️💨💧🔋 thedriven.io/2026/03/30/f...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3mia7q3ebcs2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">161 likes &middot; 17 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Evening Moon. 1829UT 29 March 2026. 🔭 🧪 🎨 #astrophotography #SciArt #photography #StormHour #ThePhotoHour</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mi7t5x5rbk2j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">104 likes &middot; 74 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">#NIH awards K99 to post doctoral researchers to help them become independent scientists. These are the next gen scientists that propel research forward.  Early career scientists feel the brunt. 
+
+For ongoing studies, data goes unanalyzed when funding was terminated abruptly.
+🧪 archive.today/hr4uJ</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mi7n7azzvc22" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pjmccann3.bsky.social</div>
+  <div class="bluesky-stats">133 likes &middot; 36 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">For you scientists out there this goes without saying
+
+But for the non-scientists: once you slam the break on Science, like Trump is doing, you can't just restart from where you were
+
+There are literature searches to help determine whether some other lab is now ahead of you. 1/4
+
+#MedSky #GreenSky 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pjmccann3.bsky.social/post/3mi7y6mgdi22j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Workforce and Funding Policy</strong>: NIH funding cuts and K99 early-career support directly impact scientific workforce development and research continuity; NASEM advises on federal research policy and talent pipeline.</div>
+<div class="nasem-match"><strong>Public Health Surveillance</strong>: Emerging disease alerts (measles, polio resurgence) and outbreak monitoring require evidence-based public health policy guidance that NASEM provides through health committees.</div>
+<div class="nasem-match"><strong>Space Exploration Policy and Sustainability</strong>: Artemis II mission oversight and lunar environmental integrity considerations align with NASEM's role advising on space policy, planetary science, and sustainable exploration practices.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 30, 2026 at 12:05 PM | Internal use only
+    </div>
+</body>
+</html>
