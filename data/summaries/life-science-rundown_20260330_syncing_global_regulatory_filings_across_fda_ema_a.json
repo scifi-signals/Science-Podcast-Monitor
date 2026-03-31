@@ -1,0 +1,805 @@
+{
+  "podcast_id": "life-science-rundown",
+  "podcast_name": "The Life Science Rundown",
+  "episode_title": "Syncing Global Regulatory Filings Across FDA, EMA, and PMDA with AJ Acker",
+  "host": "Nick Capman (The FDA Group)",
+  "published": "2026-03-30T14:54:52",
+  "episode_url": "https://podcasters.spotify.com/pod/show/the-fda-group/episodes/Syncing-Global-Regulatory-Filings-Across-FDA--EMA--and-PMDA-with-AJ-Acker-e3h65bg",
+  "duration_minutes": 28.883333333333333,
+  "influence_tier": "emerging",
+  "category": "science_policy",
+  "summary": "This episode discusses strategies for navigating global regulatory submissions across the FDA, EMA, and PMDA. AJ Acker, a 30-year industry veteran in rare disease development, explains that while these three major regulators share ICH harmonization standards, they interpret data through different regulatory lenses. The FDA prioritizes flexibility and speed, the EMA requires demonstrated meaningful benefit over existing therapies, and the PMDA traditionally demands Japanese data and feasibility evidence, though this is evolving. Key success factors include early regulatory engagement, alignment on clinical endpoints before Phase 3, use of local regulatory experts, and preparation for resource-intensive simultaneous filings.",
+  "science_topics": [
+    "Rare disease drug development and orphan designation pathways",
+    "Gene therapy regulatory pathways (Zolgensma example)",
+    "Surrogate endpoints and clinical meaningfulness assessment",
+    "Multi-regional clinical trial design for global submissions",
+    "Safety database requirements across regions",
+    "Bridging studies and regional data requirements"
+  ],
+  "claims_to_note": [
+    "PMDA has historically required Japanese clinical data or bridging data even for rare diseases, though new guidelines provide flexibility (speaker claims only two products have successfully obtained approval without Japanese data under new pathway)",
+    "Conditional approval pathways are new in Japan with only two known products having used this route",
+    "FDA approval timelines described as faster than EMA and PMDA",
+    "Drug lag in Japan described as patients receiving medicines years after FDA/EMA approvals; speaker asserts PMDA has been intentionally changing guidance over last 10 years to address this",
+    "Himbrella achieved approval across all three regions within 6 months of initial filing",
+    "Zolgensma (gene therapy) achieved filings across three regions within approximately one year"
+  ],
+  "policy_relevance": [
+    "FDA orphan designation program and accelerated approval pathways",
+    "EMA orphan designation requirements and comparative benefit assessment during approval",
+    "PMDA orphan designation credible development plan requirement",
+    "ICH (International Council for Harmonisation) harmonized standards and their limitations in regulatory interpretation",
+    "FDA, EMA, and PMDA conditional approval and accelerated approval pathways",
+    "Post-marketing surveillance commitments and obligations varying by region",
+    "FDA, EMA, and PMDA pre-submission meeting programs for early regulatory engagement"
+  ],
+  "key_quotes": [
+    "The FDA asks, does this work and can patients get it quickly? The EMA asks, is this meaningful better than what we already have? PMDA asks, can this truly be developed and sustained for Japanese patients?",
+    "ICH enables a common scientific foundation that EMA, FDA, and PMDA can apply, but they look at that science through different regulatory lenses.",
+    "The most common pitfalls align from misaligned assumptions, late development strategy, and inconsistent storytelling across the regions. Treating ICH compliance as alignment in the regulatory strategy is not correct."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Rare disease drug development and orphan designation pathways",
+      "publications": [
+        {
+          "id": "12219",
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "investment organizations developing drugs",
+            "although large pharmaceutical companies",
+            "drug discovery development",
+            "breakthrough business models",
+            "neglected diseases",
+            "drug development",
+            "development because",
+            "extraordinarily expensive",
+            "individualized therapies",
+            "treat rare",
+            "rare"
+          ],
+          "description": "The process for developing new drug and biologic products is extraordinarily expensive and time-consuming. Although large pharmaceutical companies may be able to afford the cost of development because they can expect a large return on investment, organizations developing drugs to treat rare and neglected diseases are unable to rely on such returns. On June 23, 2008, the Institute of Medicine's Forum on Drug Discovery, Development, and Translation held a public workshop, \"Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies,\" which sought to explore new and innovative strategies for developing drugs for rare and neglected diseases.",
+          "year": 2009,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "12969",
+          "title": "Pathways to Urban Sustainability: Research and Development on Urban Systems: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/12969/pathways-to-urban-sustainability-research-and-development-on-urban-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "metropolitan atlanta georgia region",
+            "atlanta metropolitan region",
+            "exploring urban sustainability",
+            "atlanta region provided",
+            "roundtable members selected",
+            "federal government agencies",
+            "differences among regions",
+            "rapid growth rate",
+            "water land use",
+            "percent urban",
+            "urban sustainability",
+            "urban systems",
+            "development",
+            "pathways"
+          ],
+          "description": "The U.S. population is more than 80 percent urban. Recognizing that many metropolitan areas in the United States have been experimenting with various approaches to sustainability, and that despite the differences among regions, there are likely some core similarities and transferable knowledge, Roundtable members selected the metropolitan Atlanta, Georgia region as a case study. The Atlanta region provided a compelling example for exploring urban sustainability issues because of the region's rapid growth rate, well-documented challenges with water, land use, and transportation; and its level of engagement with federal government agencies on matters related to sustainability. Pathways to Urban Sustainability: Lessons from the Atlanta Metropolitan Region: Summary of a Workshop explores the Atlanta region's approach to urban sustainability, with an emphasis on building evidence based foundation upon which policies and programs might be developed. The two day workshop held on September 30 ",
+          "year": 2011,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Committee on Regional Approaches to Urban Sustainability"
+        },
+        {
+          "id": "27732",
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "carbon utilization infrastructure markets",
+            "eliminate net carbon emissions",
+            "aviation fuel chemicals plastics",
+            "reversing climate change focus",
+            "carbon dioxide released",
+            "contribute additional emissions",
+            "fossil emitting processes",
+            "fossil fuel combustion",
+            "greenhouse gas emissions",
+            "systems carbon",
+            "development",
+            "final"
+          ],
+          "description": "National and international plans for halting and reversing climate change focus on reducing and eventually ending the largest source of greenhouse gas emissions: carbon dioxide (CO2) released by fossil fuel combustion. However, as the nation moves towards replacing many fossil CO2-emitting processes with zero- or low-carbon-emission alternatives, special attention is needed to eliminate net carbon emissions from the systems that cannot be fully \"decarbonized\", such as the production of aviation fuel, chemicals, plastics, and construction materials. For these systems, carbon will need to be managed and utilized effectively, in a way that either prevents CO2 from entering the atmosphere or reuses it through circular processes that do not contribute additional emissions. Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report is the second report of a two-part study. The study's first report assessed the state of infrastructure for CO2 transportation, use,",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Meeting the Moment: Practical Solutions for Arboviral Disease Prevention and Response - A Webinar Series",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-P-724",
+          "status": "in_progress"
+        },
+        {
+          "title": "Future pathways for the BGC Argo program:  A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-ESR-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Gene therapy regulatory pathways (Zolgensma example)",
+      "publications": [
+        {
+          "id": "23551",
+          "title": "Pathways to Urban Sustainability: Challenges and Opportunities for the United States",
+          "url": "https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "cities cannot adequately address",
+            "poverty hunger resource consumption",
+            "subsequent lessons learned existing",
+            "urban sustainability pathways",
+            "clustering creative innovative",
+            "clustering populations however",
+            "offered social mobility",
+            "urban areas",
+            "environmental degradation",
+            "comparative illustration",
+            "urban sustainability",
+            "opportunities",
+            "challenges",
+            "pathways"
+          ],
+          "description": "Cities have experienced an unprecedented rate of growth in the last decade. More than half the world's population lives in urban areas, with the U.S. percentage at 80 percent. Cities have captured more than 80 percent of the globe's economic activity and offered social mobility and economic prosperity to millions by clustering creative, innovative, and educated individuals and organizations. Clustering populations, however, can compound both positive and negative conditions, with many modern urban areas experiencing growing inequality, debility, and environmental degradation. The spread and continued growth of urban areas presents a number of concerns for a sustainable future, particularly if cities cannot adequately address the rise of poverty, hunger, resource consumption, and biodiversity loss in their borders. Intended as a comparative illustration of the types of urban sustainability pathways and subsequent lessons learned existing in urban areas, this study examines specific exam",
+          "year": 2016,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Committee on Pathways to Urban Sustainability: Challenges and Opportunities"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26635",
+          "title": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "examining federal regulations",
+            "barriers impede access",
+            "opioid use disorder",
+            "drug control policy",
+            "chronic brain disease",
+            "methadone treatment",
+            "executive office",
+            "million people",
+            "saving lives",
+            "effectiveness",
+            "improving access",
+            "legal change",
+            "regulatory"
+          ],
+          "description": "Methadone is a Food and Drug Administration- (FDA-) approved medication for treating opioid use disorder (OUD), a chronic brain disease that affects more than 2.7 million people in the United States aged 12 and older. Despite its effectiveness in saving lives, many barriers impede access to, initiation of, and retention in methadone treatment for OUD. To address these barriers, on March 3 and 4, 2022, the National Academies of Sciences, Engineering, and Medicine hosted a workshop on \"Methadone Treatment for Opioid Use Disorder: Examining Federal Regulations and Laws,\" at the request of the Office of National Drug Control Policy in the Executive Office of the President. This publication summarizes the presentation and discussion of the workshop.",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Future pathways for the BGC Argo program:  A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-ESR-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Surrogate endpoints and clinical meaningfulness assessment",
+      "publications": [
+        {
+          "id": "26349",
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "economic landscapes increasing complexity",
+            "clinical trials barriers",
+            "artificial intelligence applications",
+            "drug discovery development",
+            "digital health technologies",
+            "development life cycle",
+            "clinical care",
+            "real world settings",
+            "advance clinical",
+            "health care",
+            "transformed clinical trials enterprise",
+            "envisioning"
+          ],
+          "description": "The evolution of health care is expanding the possibilities for integration of clinical research into the continuum of clinical care; new approaches are enabling the collection of data in real-world settings; and new modalities, such as digital health technologies and artificial intelligence applications, are being leveraged to overcome challenges and advance clinical research. At the same time, the clinical research enterprise is strained by rising costs, varying global regulatory and economic landscapes, increasing complexity of clinical trials, barriers to recruitment and retention of research participants, and a clinical research workforce that is under tremendous demands. Looking ahead to 2030, the Forum on Drug Discovery, Development, and Translation of the National Academies of Sciences, Engineering, and Medicine convened a public workshop for stakeholders from across the drug research and development life cycle to reflect on the lessons learned over the past 10 years and consid",
+          "year": 2022,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Health Sciences Policy"
+        },
+        {
+          "id": "25616",
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "trial altogether confusing investigators",
+            "titled clinical trials",
+            "diverse populations participation",
+            "health literacy convened",
+            "broad patient base",
+            "become confused mistrustful",
+            "discussion centered around",
+            "early trials",
+            "individualized nature",
+            "possibly affecting",
+            "health literacy",
+            "clinical",
+            "impact"
+          ],
+          "description": "Because of the individualized nature of drug and therapeutic treatments, clinical trials require participants who represent the diversity of the patient base. If early trials do not have a broad patient base, it can be difficult to know who may or may not benefit from or respond to a treatment later. In addition to diversity in recruitment, informed consent during participation is also crucial. If participants do not fully understand what they are signing up for, they may become confused, mistrustful, or drop out of a trial altogether, confusing investigators and possibly affecting the generalizability of a study. To explore the incorporation of health literacy practices into clinical trials, the Roundtable on Health Literacy convened a workshop titled Clinical Trials: Practice and Impact on April 11, 2019, in Washington, DC. The workshop presentations and discussion centered around issues related to the challenges or barriers for diverse populations' participation in clinical trials, ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Multi-regional clinical trial design for global submissions",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "25616",
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "trial altogether confusing investigators",
+            "titled clinical trials",
+            "diverse populations participation",
+            "health literacy convened",
+            "broad patient base",
+            "become confused mistrustful",
+            "discussion centered around",
+            "early trials",
+            "individualized nature",
+            "possibly affecting",
+            "health literacy",
+            "clinical",
+            "impact"
+          ],
+          "description": "Because of the individualized nature of drug and therapeutic treatments, clinical trials require participants who represent the diversity of the patient base. If early trials do not have a broad patient base, it can be difficult to know who may or may not benefit from or respond to a treatment later. In addition to diversity in recruitment, informed consent during participation is also crucial. If participants do not fully understand what they are signing up for, they may become confused, mistrustful, or drop out of a trial altogether, confusing investigators and possibly affecting the generalizability of a study. To explore the incorporation of health literacy practices into clinical trials, the Roundtable on Health Literacy convened a workshop titled Clinical Trials: Practice and Impact on April 11, 2019, in Washington, DC. The workshop presentations and discussion centered around issues related to the challenges or barriers for diverse populations' participation in clinical trials, ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Safety database requirements across regions",
+      "publications": [
+        {
+          "id": "26447",
+          "title": "Options for Improving the Safety of DUKW Type Amphibious Vessels",
+          "url": "https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "excursion boats",
+            "dukws amphibious vehicles",
+            "coast guard uscg",
+            "consistent risk",
+            "variable levels",
+            "duck boats",
+            "uscg use",
+            "passengers",
+            "requirements",
+            "safety",
+            "methodology",
+            "dukw type amphibious vessels",
+            "improving",
+            "options"
+          ],
+          "description": "To ensure the safety of passengers and crew on DUKWs -- amphibious vehicles also referred to as duck boats -- the United States Coast Guard (USCG) should issue a range of new guidelines and requirements. TRB's Special Report 342: Options for Improving the Safety of DUKW Type Amphibious Vessels recommends that the USCG use a consistent risk-assessment methodology and update its regulations and enforcement practices in a way that reflects the variable levels of risk to passengers and crew.",
+          "year": 2022,
+          "page_keywords": [
+            "Excursion boats"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Options for Improving"
+        },
+        {
+          "id": "23524",
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "health-care",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "industrial safety",
+            "assessing company safety culture",
+            "sustaining safety culture provided",
+            "robust safety culture methods",
+            "improving safety culture",
+            "defining safety culture",
+            "safety culture offered",
+            "gas industry offers",
+            "offshore industry",
+            "assessing improving",
+            "environmental enforcement",
+            "safety culture",
+            "offshore oil",
+            "gas industry",
+            "strengthening"
+          ],
+          "description": "\"TRB Special Report 321: Strengthening the Safety Culture of the Offshore Oil and Gas Industry offers recommendations to industry and regulators to strengthen and sustain the safety culture of the offshore oil and gas industry. The committee that prepared the report addresses conceptual challenges in defining safety culture and discusses the empirical support for the definition of safety culture offered by the Bureau of Safety and Environmental Enforcement, the nine characteristics or elements of a robust safety culture, methods for assessing company safety culture, and barriers to improving safety culture in the offshore industry. The committee's report also identifies topics on which further research is needed with respect to assessing, improving, and sustaining safety culture\"--Provided by publisher.",
+          "year": 2016,
+          "page_keywords": [
+            "Industrial safety"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on U.S. Offshore Oil and"
+        },
+        {
+          "id": "27197",
+          "title": "Highway Safety Behavioral Strategies for Rural and Tribal Areas: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27197/highway-safety-behavioral-strategies-for-rural-and-tribal-areas-a-guide",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "rural roads",
+            "behavioral traffic safety countermeasures",
+            "state highway safety offices",
+            "highway safety partners focused",
+            "improving traffic safety",
+            "rural road safety",
+            "motor vehicle crashes",
+            "tribal authorities",
+            "local departments",
+            "rural areas",
+            "county departments",
+            "highway safety behavioral",
+            "tribal areas",
+            "rural",
+            "guide"
+          ],
+          "description": "\"This report presents results from a multidisciplinary research project that developed a toolkit of behavioral traffic safety countermeasures for highway safety partners focused on rural road safety (e.g., tribal authorities, local government, law enforcement, emergency responders, engineers) to reduce the frequency and severity of motor vehicle crashes on roads in rural areas. This publication will be of interest to state highway safety offices; state and local departments of transportation; county departments of public works; tribal authorities; and other stakeholders concerned with improving traffic safety in rural areas.\" -- publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "Rural roads"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Strengthening Southeast Asian Academia and Industry Biotechnology and Biomanufacturing Safety and Security - A Workshop",
+          "url": "https://www.nationalacademies.org/projects/DELS-BLS-24-02",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 4260,
+  "saved_at": "2026-03-31T11:40:09.559138"
+}

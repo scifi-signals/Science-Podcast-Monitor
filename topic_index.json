@@ -1,7 +1,495 @@
 {
-  "updated": "2026-03-30T12:05:23.809819",
-  "episode_count": 135,
+  "updated": "2026-03-31T11:40:48.625945",
+  "episode_count": 140,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Harnessing the superpowers of silk",
+      "host": "Ira Flatow",
+      "published": "2026-03-31T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the remarkable properties of spider and silkworm silk, examining why this natural material has inspired scientific research and technological applications. Host Flora Lichtman interviews Dr. Cheryl Hayashi about the diversity of spider silk types and their uses in nature, then discusses with Dr. Fiorenzo Omeneto how scientists are harnessing silkworm silk for biomedical applications including biosensors, food preservation, vaccine stabilization, and tissue engineering. The episode highlights both the biological mechanisms spiders use to produce specialized silks and the emerging industrial-scale applications of silk-based materials.",
+      "science_topics": [
+        "Spider silk protein composition and structure",
+        "Silk gland biology and spinneret mechanics",
+        "Silk mechanical properties (tensile strength, toughness, elasticity)",
+        "Spider web architecture and material differentiation",
+        "Ballooning behavior in spiders using silk drag lines",
+        "Bola spider hunting mechanism using silk",
+        "Underwater spider silk applications and air bubble trapping",
+        "Silkworm silk deconstruction and reformation",
+        "Silk-based biosensors and enzyme stabilization",
+        "Protein preservation in silk matrices",
+        "Silk applications in vaccine stabilization and food preservation"
+      ],
+      "claims_to_note": [
+        "Spider silk is stronger than steel and tougher than Kevlar for some silk types - expert confirms this is true for specific silks",
+        "There are over 53,000 described spider species, most making multiple silk types, suggesting tens of thousands of different silk varieties - presented as established fact",
+        "Blood samples preserved in silk can maintain analytical quality for several months at room temperature - specific claim about preservation capability",
+        "Some spiders live underwater and create waterproof silk doors and air chambers - expert confirms existence of aquatic spider species",
+        "Spiders use ballooning (silk parachutes) to disperse globally, including to high altitudes - presented as established behavior",
+        "Silk is being used at industrial scale for food preservation and vaccine stabilization - claimed as current commercial application"
+      ],
+      "policy_relevance": [
+        "No specific legislation, regulations, or federal agency decisions are discussed in this episode",
+        "No funding decisions or policy debates are mentioned",
+        "No discussion of regulatory approval pathways for silk-based medical devices or food applications"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?",
+          "url": "https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Strengthening Equitable Community Resilience: Criteria and Guiding Principles for the Gulf Research Program's Enhancing Community Resilience (EnCoRe) Initiative",
+          "url": "https://nap.nationalacademies.org/catalog/26880/strengthening-equitable-community-resilience-criteria-and-guiding-principles-for-the"
+        },
+        {
+          "title": "Progress Toward Restoring the Everglades: The Tenth Biennial Review - 2024",
+          "url": "https://nap.nationalacademies.org/catalog/27875/progress-toward-restoring-the-everglades-the-tenth-biennial-review-2024"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Frontiers of Materials Research: A Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/25244/frontiers-of-materials-research-a-decadal-survey"
+        },
+        {
+          "title": "Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report",
+          "url": "https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+          "url": "https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Predicting spring bloom is an art and a science",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-03-31T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the science and challenges of predicting peak bloom for Washington D.C.'s famous cherry blossoms. The hosts explain the six developmental stages of cherry tree blossoming and discuss how temperature, winter chilling, spring warmth, and daylight hours all trigger blooming. Scientists use historical records spanning over 1,000 years to study how climate change has shifted bloom times earlier by 2-4 weeks globally, and researchers are running forecasting competitions to improve prediction models.",
+      "science_topics": [
+        "Cherry tree phenology and the six stages of blossom development (green bud, florets visible, florets extended, peduncle elongation, puffy flower, full bloom)",
+        "Winter chilling requirement in woody plants and dormancy",
+        "Spring warming threshold and accumulated growing degree days (metaphorically described as 'bucket of spring warmth')",
+        "Photoperiodism and role of daylight hours in flowering",
+        "Climate change effects on spring phenology and earlier bloom timing",
+        "Phenophylaxis (the study of periodic natural events timing) and historical records in Kyoto and China"
+      ],
+      "claims_to_note": [
+        "Cherry blossoms across the world are blooming 2-4 weeks earlier than in the past due to warming temperatures",
+        "This represents 'by far, the best evidence of anthropogenic climate change shifting our springs earlier' according to Elizabeth Wolkovich",
+        "Winter chilling requirement is something scientists are still studying and do not fully understand the mechanism",
+        "DC peak bloom has historically ranged from March 15th to April 18th",
+        "Cherry blossom records extend over 1,000 years in Asia, providing long-term phenological data"
+      ],
+      "policy_relevance": [
+        "National Park Service (NPS) responsibility for cherry blossom management at National Mall and Memorial Parks",
+        "Annual Cherry Blossom Festival planning depends on peak bloom predictions",
+        "University of British Columbia researchers running forecasting competition involving predictions from multiple countries (U.S., Japan, Switzerland, Canada) to improve models",
+        "Implies need for better climate adaptation strategies for urban forestry management"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Lessons Learned from the Fukushima Nuclear Accident for Improving Safety of U.S. Nuclear Plants",
+          "url": "https://nap.nationalacademies.org/catalog/18294/lessons-learned-from-the-fukushima-nuclear-accident-for-improving-safety-of-us-nuclear-plants"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change"
+        }
+      ]
+    },
+    {
+      "podcast_id": "hidden-brain",
+      "podcast_name": "Hidden Brain",
+      "episode_title": "When It's Okay to Lie",
+      "host": "Shankar Vedantam",
+      "published": "2026-03-30T19:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This episode explores the psychology of deception and challenges the universal moral principle that honesty is always the best policy. Host Shankar Vedantam and guest psychologist Emma Levine discuss research showing that people commonly accept lying in specific circumstances—when it spares vulnerable individuals unnecessary harm, involves subjective information, or protects sacred moments. The episode reveals an apparent paradox: while cultures and institutions emphasize absolute honesty, people actually follow unwritten rules about when deception is acceptable and even morally preferable. Levine's research identifies that benevolent lies increase trust in benevolence while undermining integrity-based trust, creating complex ethical trade-offs.",
+      "science_topics": [
+        "Psychology of deception and truth-telling",
+        "Benevolent lying and pro-social deception",
+        "Trust dynamics in interpersonal relationships",
+        "Cross-cultural differences in attitudes toward honesty (US vs China)",
+        "Cognitive impairment and end-of-life communication (dementia care)",
+        "Therapeutic fibbing in healthcare settings",
+        "Individual differences in preferences for honest feedback",
+        "Vulnerability and fragility as factors in moral judgment of deception"
+      ],
+      "claims_to_note": [
+        "Research finding that people lie in approximately 20% of social interactions",
+        "Study results showing 97% of participants support telling truth to competent employee vs. only 80% when employee is experiencing personal crisis",
+        "Dementia care research showing approximately one-third of participants endorse deception about death of family member when target has severe cognitive impairment",
+        "Chinese cultural preference for 'false hope' over honesty at end of life, with Chinese physicians more accurately predicting patient preferences than US physicians",
+        "Chinese patients show greater preference for critical feedback than US patients, attributed to collectivist responsibility rather than individualism",
+        "Claim that therapeutic fibbing is 'commonly used in dementia care'—verify evidence base for this claim"
+      ],
+      "policy_relevance": [
+        "Healthcare ethics and informed consent policies regarding end-of-life communication",
+        "Medical decision-making protocols for patients with cognitive impairment (dementia care)",
+        "Cross-cultural healthcare policy implications for international medical practice",
+        "Corporate codes of conduct emphasis on integrity and honesty",
+        "Discussion of Kennedy administration's decision to withhold information about Cuban Missile Crisis from public for one week before announcement",
+        "No direct mention of current federal legislation or regulatory bodies, though healthcare ethics guidelines implicitly referenced"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Ground Truth: Corona Landmarks",
+          "url": "https://nap.nationalacademies.org/catalog/27945/ground-truth-corona-landmarks"
+        },
+        {
+          "title": "Public Health Implications of Raising the Minimum Age of Legal Access to Tobacco Products",
+          "url": "https://nap.nationalacademies.org/catalog/18997/public-health-implications-of-raising-the-minimum-age-of-legal-access-to-tobacco-products"
+        },
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": ""
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital"
+        },
+        {
+          "title": "Measuring and Understanding the Relationship Between Air Service and Regional Economic Development",
+          "url": "https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development"
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Health Literacy and Palliative Care: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21839/health-literacy-and-palliative-care-workshop-summary"
+        },
+        {
+          "title": "A Survey of Attitudes and Actions on Dual Use Research in the Life Sciences: A Collaborative Effort of the National Research Council and the American Association for the Advancement of Science",
+          "url": "https://nap.nationalacademies.org/catalog/12460/a-survey-of-attitudes-and-actions-on-dual-use-research-in-the-life-sciences"
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#467 — EA, AI, and the End of Work",
+      "host": "Sam Harris",
+      "published": "2026-03-30T17:40:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Sam Harris and Will MacAskill discuss effective altruism (EA) ten years after MacAskill's book 'Doing Good Better,' examining how EA has recovered from the FTX scandal and continues to grow. They explore canonical EA cause areas including global health, animal welfare, pandemic preparedness, and AI risk, while debating the proper scope of EA's moral circle and the challenge of quantifying impact for harder-to-measure problems. Harris raises concerns about EA's potential blindness to high-impact interventions that resist quantification, particularly around political polarization and the role of media figures in normalizing harmful political movements.",
+      "science_topics": [
+        "Randomized controlled trials for global health interventions",
+        "Factory farming and farm animal welfare",
+        "Pandemic preparedness and novel pathogen creation",
+        "Biosecurity and laboratory biosafety protocols",
+        "Artificial intelligence capabilities scaling and exponential progress",
+        "AI reasoning capabilities in mathematics and coding",
+        "AI systems behavior and risk assessment",
+        "Recursive self-improvement in AI systems"
+      ],
+      "claims_to_note": [
+        "Lancet study claiming USAID dismantling will cause 14 million deaths from infectious disease in next 5 years (4 million under age 5) — this is a policy-relevant epidemiological claim requiring verification",
+        "Cost-effectiveness: GiveWell donations have saved ~340,000 lives at ~$5,000 per life, versus ~$50,000 per year of life in US — specific quantitative claim about intervention effectiveness",
+        "Factory farming impact: 92% fulfillment rate of cage-free commitments affecting 3 billion chickens annually in US — specific impact metric",
+        "Laboratory biosafety: lab leaks occur at rate of 1 per 100 person-years in highest-security labs — specific safety statistic",
+        "Foot-and-mouth disease UK outbreak caused by lab leak — historical biosafety incident",
+        "AI progress claim: AI software engineering capabilities doubling every 4-6 months for tasks taking humans hours — specific technical scaling metric",
+        "AI researchers in 2022 projected only 2-5% probability of AI solving Math Olympiad by 2025 — retrospective claim about forecast accuracy",
+        "Estimate of 1 in 3 probability of waves of pandemics from deliberate viral tinkering — speculative risk assessment"
+      ],
+      "policy_relevance": [
+        "USAID dismantling and elimination of foreign aid programs",
+        "Trump administration policy reversals on international engagement",
+        "US retreat from climate change commitments",
+        "US nuclear nonproliferation policy",
+        "AI regulation and governance (implicit discussion of need for policy frameworks)",
+        "Biosecurity policy and laboratory oversight",
+        "FDA/health agency policy on pharmaceutical effectiveness and cost",
+        "Pandemic preparedness funding and policy priorities"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Investing in Interventions That Address Non-Medical, Health-Related Social Needs: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25544/investing-in-interventions-that-address-non-medical-health-related-social-needs"
+        },
+        {
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system"
+        },
+        {
+          "title": "Global Health and the Future Role of the United States",
+          "url": "https://nap.nationalacademies.org/catalog/24737/global-health-and-the-future-role-of-the-united-states"
+        },
+        {
+          "title": "Guide for the Care and Use of Laboratory Animals: Eighth Edition",
+          "url": "https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth"
+        },
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Transportation of Laboratory Animals: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21734/transportation-of-laboratory-animals-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Systematizing the One Health Approach in Preparedness and Response",
+          "url": ""
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "url": ""
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "Toward a Safer and More Secure Cyberspace",
+          "url": ""
+        },
+        {
+          "title": "At the Nexus of Cybersecurity and Public Policy",
+          "url": ""
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        }
+      ]
+    },
+    {
+      "podcast_id": "life-science-rundown",
+      "podcast_name": "The Life Science Rundown",
+      "episode_title": "Syncing Global Regulatory Filings Across FDA, EMA, and PMDA with AJ Acker",
+      "host": "Nick Capman (The FDA Group)",
+      "published": "2026-03-30T14:54:52",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode discusses strategies for navigating global regulatory submissions across the FDA, EMA, and PMDA. AJ Acker, a 30-year industry veteran in rare disease development, explains that while these three major regulators share ICH harmonization standards, they interpret data through different regulatory lenses. The FDA prioritizes flexibility and speed, the EMA requires demonstrated meaningful benefit over existing therapies, and the PMDA traditionally demands Japanese data and feasibility evidence, though this is evolving. Key success factors include early regulatory engagement, alignment on clinical endpoints before Phase 3, use of local regulatory experts, and preparation for resource-intensive simultaneous filings.",
+      "science_topics": [
+        "Rare disease drug development and orphan designation pathways",
+        "Gene therapy regulatory pathways (Zolgensma example)",
+        "Surrogate endpoints and clinical meaningfulness assessment",
+        "Multi-regional clinical trial design for global submissions",
+        "Safety database requirements across regions",
+        "Bridging studies and regional data requirements"
+      ],
+      "claims_to_note": [
+        "PMDA has historically required Japanese clinical data or bridging data even for rare diseases, though new guidelines provide flexibility (speaker claims only two products have successfully obtained approval without Japanese data under new pathway)",
+        "Conditional approval pathways are new in Japan with only two known products having used this route",
+        "FDA approval timelines described as faster than EMA and PMDA",
+        "Drug lag in Japan described as patients receiving medicines years after FDA/EMA approvals; speaker asserts PMDA has been intentionally changing guidance over last 10 years to address this",
+        "Himbrella achieved approval across all three regions within 6 months of initial filing",
+        "Zolgensma (gene therapy) achieved filings across three regions within approximately one year"
+      ],
+      "policy_relevance": [
+        "FDA orphan designation program and accelerated approval pathways",
+        "EMA orphan designation requirements and comparative benefit assessment during approval",
+        "PMDA orphan designation credible development plan requirement",
+        "ICH (International Council for Harmonisation) harmonized standards and their limitations in regulatory interpretation",
+        "FDA, EMA, and PMDA conditional approval and accelerated approval pathways",
+        "Post-marketing surveillance commitments and obligations varying by region",
+        "FDA, EMA, and PMDA pre-submission meeting programs for early regulatory engagement"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases"
+        },
+        {
+          "title": "Pathways to Urban Sustainability: Research and Development on Urban Systems: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/12969/pathways-to-urban-sustainability-research-and-development-on-urban-systems"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Pathways to Urban Sustainability: Challenges and Opportunities for the United States",
+          "url": "https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united"
+        },
+        {
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s"
+        },
+        {
+          "title": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory"
+        },
+        {
+          "title": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "Options for Improving the Safety of DUKW Type Amphibious Vessels",
+          "url": "https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Highway Safety Behavioral Strategies for Rural and Tribal Areas: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27197/highway-safety-behavioral-strategies-for-rural-and-tribal-areas-a-guide"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

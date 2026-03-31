@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - March 31, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">March 31, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">39</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">80</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals three critical domains for NASEM engagement: climate science communication (cherry blossom phenology as climate change indicator), biomedical materials innovation (silk-based diagnostics and preservation), and governance of high-impact but difficult-to-quantify interventions (EA's challenge with pandemic preparedness, biosecurity, and AI risk). Concurrent Bluesky discussion emphasizes NIH funding impacts on early-career researchers and women scientists—a policy vulnerability during current budget uncertainty. The cherry blossom phenology story provides exceptionally strong public communication material on anthropogenic climate change, while silk biomaterials represent near-term commercialization opportunities. Notably, recent podcasts (past 7 days) show sustained coverage of biosecurity, pandemic preparedness, and AI safety—topics NASEM has positioned itself to address—but public discourse lacks clear guidance on measurement frameworks for these interventions.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Climate change impacts on biological systems: cherry blossom phenology shift (2-4 weeks earlier) as measurable climate indicator; phenology used as 'best evidence of anthropogenic climate change'</li>
+<li>Biosecurity and pandemic preparedness: novel pathogen creation risks, laboratory biosafety, and USAID/NIH funding implications for infectious disease surveillance</li>
+<li>AI capabilities and risk assessment: scaling reasoning abilities, self-improvement potential, and safety evaluation frameworks</li>
+<li>Global regulatory harmonization: ICH standards vs. regional interpretation differences (FDA, EMA, PMDA) affecting rare disease and gene therapy approval pathways</li>
+<li>Quantification challenges in impact assessment: EA's struggle to measure benefits in pandemic preparedness, biosecurity, and political polarization vs. well-measured global health interventions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Silk biomaterials scaling for medical applications: vaccine stabilization, food preservation, and biosensors now moving toward industrial implementation (NEW: not detected in past week)</li>
+<li>NIH funding crisis narrative: Bluesky shows concentrated discussion of 2025 grant terminations disproportionately affecting women and early-career researchers—represents emerging policy vulnerability (RECURRING: funding sustainability continues as theme)</li>
+<li>AI sycophancy and chatbot safety: research on validation of harmful user behaviors gaining traction in research communities (NEW: emerged this week, distinct from general AI safety discourse)</li>
+<li>PMDA regulatory flexibility: Japanese approval pathways evolving to reduce requirement for Japanese clinical data, enabling faster rare disease approvals (EMERGING: regulatory modernization narrative)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or host convening on cherry blossom phenology as climate communication tool: NASEM could partner with climate scientists, horticulturists, and science communicators to formalize phenology as public climate indicator for annual state-of-climate reporting</div>
+<div class="opportunity">Develop measurement frameworks for 'hard-to-quantify' interventions: EA discussion exposes gap in guidance on pandemic preparedness, biosecurity, and AI safety impact assessment—NASEM could lead interdisciplinary committee establishing metrics for these domains</div>
+<div class="opportunity">Convene on silk biomaterials commercialization pathway: identify regulatory barriers and opportunities for vaccine stabilization and diagnostic applications, particularly for low-resource settings</div>
+<div class="opportunity">Respond to NIH funding narrative: NASEM could issue rapid assessment or brief on impacts of 2025 funding freezes on early-career researchers and women scientists, positioning itself as neutral arbiter of consequences</div>
+<div class="opportunity">Formalize AI safety assessment protocols: coordinate with government agencies on standardized approaches to evaluating AI reasoning capabilities, self-improvement potential, and sycophancy risks before deployment</div>
+<div class="opportunity">Address regulatory harmonization challenges: convene FDA, EMA, PMDA stakeholders on accelerating rare disease approval without duplicative clinical trials, building on ICH framework</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Lancet study claim (Making Sense): USAID dismantling causing 14 million deaths from infectious disease over 5 years (4 million under age 5)—specific epidemiological projection requires verification; check Lancet publication date, methodology, and peer review status. This is policy-relevant claim with potential for misuse if methodology is flawed.</div>
+<div class="claim">Spider silk tensile strength claims (Science Friday): assertion that 'spider silk is stronger than steel and tougher than Kevlar' requires qualification—expert confirmed this is true for 'specific silks.' Risk of overgeneralization in public communication.</div>
+<div class="claim">Cherry blossom phenology attribution (Short Wave): while 2-4 week earlier bloom is well-documented, the framing as 'by far the best evidence of anthropogenic climate change' may overstate relative evidentiary weight compared to glacial retreat, sea-level rise, and atmospheric CO2 measurements. Accurate but potentially hyperbolic framing.</div>
+<div class="claim">Dementia care deception rates (Hidden Brain): claim that 'approximately one-third of participants endorse deception about death of family member' is context-dependent finding that could be misinterpreted as endorsement of routine deception in elder care without discussing informed consent frameworks.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antimicrobial Resistance as Existential Health Threat</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab (3/27) and Nature Podcast (3/27) both foregrounded multidrug-resistant pathogens—MRSA, Acinetobacter baumannii, vancomycin-resistant bacteria, and carbapenem-resistant strains—signaling escalating clinical urgency. Making Sense (3/30) contextually linked biosecurity and laboratory protocols to pandemic preparedness, framing resistance within broader pathogen-creation risks. The convergence suggests resistance is moving from epidemiological concern to biosecurity and research governance issue.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene on resistance-surveillance integration, research ethics in gain-of-function studies, and translational barriers to novel therapeutic development.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Water Stress and Technological Remediation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave addressed wastewater recycling and PFAS removal (3/27), freshwater salinization and chloride persistence (3/25), while Science Magazine Podcast discussed desiccation tolerance in plants via CRISPR (3/26). These episodes reflect dual-track adaptation: engineered water infrastructure solutions and biological engineering for drought resilience. The pattern indicates water security is being tackled simultaneously through hard technology and genetic intervention.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM convening should address scalability of potable reclamation, crop-adaptation timelines, and equitable access to both technologies in water-stressed regions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Gene Therapy and Synthetic Biology Regulatory Maturation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast (3/27) detailed synthetic genome transplantation and CRISPR-assisted genome insertion in mycoplasma; The Life Science Rundown (3/30) mapped orphan drug pathways and surrogate endpoints for gene therapy (Zolgensma case study); The Skeptics' Guide (3/28) discussed somatic cell nuclear transfer limits. Shows are transitioning from 'breakthrough' framing to regulatory-pathway and clinical-validation specificity, suggesting the field is entering post-hype consolidation and standardization.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should clarify regulatory harmonization for multi-regional gene therapy trials and establish benchmarks for surrogate endpoint acceptance across agencies.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Capability Expansion in Knowledge-Domain Problem Solving</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (3/27) highlighted AI breakthroughs on mathematical theorem-proving and International Mathematical Olympiad performance. This follows on Making Sense (3/24) discussion of AI as behavioral-modification catalyst and human collective-performance optimizer. Together, shows frame AI as transitioning from narrow task-automation to hypothesis-generation and formal reasoning, with implicit societal coordination challenges.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM leadership should assess implications for peer review, research integrity, and the role of formal verification in AI-generated scientific claims.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Zoonotic Spillover and Agricultural Interface Risk</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (3/25) detailed H5N1 transmission from dairy farms, including asymptomatic shedding and airborne pathogen detection in manure lagoons. Making Sense (3/30) framed pandemic preparedness and biosecurity around novel pathogen creation. These episodes expose the agricultural-pathogen nexus as a critical preparedness blind spot, with emphasis on detection infrastructure and farm-level biosafety.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should recommend standardized surveillance protocols for agricultural pathogen reservoirs and establish cross-agency coordination between food-safety and infectious-disease preparedness.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #467 — EA, AI, and the End of Work</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Mar 30 &middot; 30 min</div>
+<p style="margin:10px 0;font-size:14px;">Sam Harris and Will MacAskill discuss effective altruism (EA) ten years after MacAskill's book 'Doing Good Better,' examining how EA has recovered from the FTX scandal and continues to grow. They explore canonical EA cause areas including global health, animal welfare, pandemic preparedness, and AI risk, while debating the proper scope of EA's moral circle and the challenge of quantifying impact for harder-to-measure problems. Harris raises concerns about EA's potential blindness to high-impact interventions that resist quantification, particularly around political polarization and the role of media figures in normalizing harmful political movements.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Randomized controlled trials for global health interventions</span>
+  <span class="topic-tag">Factory farming and farm animal welfare</span>
+  <span class="topic-tag">Pandemic preparedness and novel pathogen creation</span>
+  <span class="topic-tag">Biosecurity and laboratory biosafety protocols</span>
+  <span class="topic-tag">Artificial intelligence capabilities scaling and exponential progress</span>
+  <span class="topic-tag">AI reasoning capabilities in mathematics and coding</span>
+  <span class="topic-tag">AI systems behavior and risk assessment</span>
+  <span class="topic-tag">Recursive self-improvement in AI systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25544/investing-in-interventions-that-address-non-medical-health-related-social-needs" target="_blank">Investing in Interventions That Address Non-Medical, Health-Related Social Needs: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system" target="_blank">Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth" target="_blank">Guide for the Care and Use of Laboratory Animals: Eighth Edition</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare" target="_blank">Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare</a></div>
+<div class="nasem-match">Systematizing the One Health Approach in Preparedness and Response</div>
+<div class="nasem-match">Countering the Pandemic Threat Through Global Coordination on Vaccines</div>
+<div class="nasem-match">Toward a Safer and More Secure Cyberspace</div>
+<div class="nasem-match">At the Nexus of Cybersecurity and Public Policy</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Lancet study claiming USAID dismantling will cause 14 million deaths from infectious disease in next 5 years (4 million under age 5) — this is a policy-relevant epidemiological claim requiring verification</div>
+<div class="claim">Cost-effectiveness: GiveWell donations have saved ~340,000 lives at ~$5,000 per life, versus ~$50,000 per year of life in US — specific quantitative claim about intervention effectiveness</div>
+<div class="claim">Factory farming impact: 92% fulfillment rate of cage-free commitments affecting 3 billion chickens annually in US — specific impact metric</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The donations that have gone via GiveWell have saved hundreds of thousands, best guess, over 340,000 lives now. This is at a cost of about $5,000 per life, whereas in the United States, a typical good cost, low cost to give someone one year of life is about $50,000."</div>
+<div class="quote">"The really scary point in time is when the AI loop feeds back on itself and you are able to automate via AI the process of doing AI research itself... there are good arguments for thinking that you get this big leap forward in capability at that point in time."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Hidden Brain: When It's Okay to Lie</span>
+</div>
+<div class="episode-meta">Shankar Vedantam &middot; Mar 30 &middot; 52 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the psychology of deception and challenges the universal moral principle that honesty is always the best policy. Host Shankar Vedantam and guest psychologist Emma Levine discuss research showing that people commonly accept lying in specific circumstances—when it spares vulnerable individuals unnecessary harm, involves subjective information, or protects sacred moments. The episode reveals an apparent paradox: while cultures and institutions emphasize absolute honesty, people actually follow unwritten rules about when deception is acceptable and even morally preferable. Levine's research identifies that benevolent lies increase trust in benevolence while undermining integrity-based trust, creating complex ethical trade-offs.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Psychology of deception and truth-telling</span>
+  <span class="topic-tag">Benevolent lying and pro-social deception</span>
+  <span class="topic-tag">Trust dynamics in interpersonal relationships</span>
+  <span class="topic-tag">Cross-cultural differences in attitudes toward honesty (US vs China)</span>
+  <span class="topic-tag">Cognitive impairment and end-of-life communication (dementia care)</span>
+  <span class="topic-tag">Therapeutic fibbing in healthcare settings</span>
+  <span class="topic-tag">Individual differences in preferences for honest feedback</span>
+  <span class="topic-tag">Vulnerability and fragility as factors in moral judgment of deception</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27945/ground-truth-corona-landmarks" target="_blank">Ground Truth: Corona Landmarks</a></div>
+<div class="nasem-match">Communities in Action: Pathways to Health Equity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development" target="_blank">Measuring and Understanding the Relationship Between Air Service and Regional Economic Development</a></div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12460/a-survey-of-attitudes-and-actions-on-dual-use-research-in-the-life-sciences" target="_blank">A Survey of Attitudes and Actions on Dual Use Research in the Life Sciences: A Collaborative Effort of the National Research Council and the American Association for the Advancement of Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop" target="_blank">Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary</a></div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Research finding that people lie in approximately 20% of social interactions</div>
+<div class="claim">Study results showing 97% of participants support telling truth to competent employee vs. only 80% when employee is experiencing personal crisis</div>
+<div class="claim">Dementia care research showing approximately one-third of participants endorse deception about death of family member when target has severe cognitive impairment</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Bad truths are truths that cause unnecessary harm. So they might cause emotional pain and suffering and not lead to learning and growth and understanding."</div>
+<div class="quote">"We certainly mean don't tell selfish lies. I think it's still quite complicated... we'd rather live in a world where people tell truths in the wrong circumstances instead of lies in the wrong circumstances."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Predicting spring bloom is an art and a science</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Mar 31 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the science and challenges of predicting peak bloom for Washington D.C.'s famous cherry blossoms. The hosts explain the six developmental stages of cherry tree blossoming and discuss how temperature, winter chilling, spring warmth, and daylight hours all trigger blooming. Scientists use historical records spanning over 1,000 years to study how climate change has shifted bloom times earlier by 2-4 weeks globally, and researchers are running forecasting competitions to improve prediction models.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cherry tree phenology and the six stages of blossom development (green bud, florets visible, florets extended, peduncle elongation, puffy flower, full bloom)</span>
+  <span class="topic-tag">Winter chilling requirement in woody plants and dormancy</span>
+  <span class="topic-tag">Spring warming threshold and accumulated growing degree days (metaphorically described as 'bucket of spring warmth')</span>
+  <span class="topic-tag">Photoperiodism and role of daylight hours in flowering</span>
+  <span class="topic-tag">Climate change effects on spring phenology and earlier bloom timing</span>
+  <span class="topic-tag">Phenophylaxis (the study of periodic natural events timing) and historical records in Kyoto and China</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications" target="_blank">Quantitative Safety Analyses for Highway Applications</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18294/lessons-learned-from-the-fukushima-nuclear-accident-for-improving-safety-of-us-nuclear-plants" target="_blank">Lessons Learned from the Fukushima Nuclear Accident for Improving Safety of U.S. Nuclear Plants</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation" target="_blank">Modernizing Probable Maximum Precipitation Estimation</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Cherry blossoms across the world are blooming 2-4 weeks earlier than in the past due to warming temperatures</div>
+<div class="claim">This represents 'by far, the best evidence of anthropogenic climate change shifting our springs earlier' according to Elizabeth Wolkovich</div>
+<div class="claim">Winter chilling requirement is something scientists are still studying and do not fully understand the mechanism</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Cherry blossoms are effectively like our longest written record on Earth. They go back over a thousand years in Asia."</div>
+<div class="quote">"Think of it more like a threshold of warmth that the trees need to reach in order to bloom... Cherry trees have smaller buckets, which is why they come out so early in the spring."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Harnessing the superpowers of silk</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Mar 31 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the remarkable properties of spider and silkworm silk, examining why this natural material has inspired scientific research and technological applications. Host Flora Lichtman interviews Dr. Cheryl Hayashi about the diversity of spider silk types and their uses in nature, then discusses with Dr. Fiorenzo Omeneto how scientists are harnessing silkworm silk for biomedical applications including biosensors, food preservation, vaccine stabilization, and tissue engineering. The episode highlights both the biological mechanisms spiders use to produce specialized silks and the emerging industrial-scale applications of silk-based materials.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Spider silk protein composition and structure</span>
+  <span class="topic-tag">Silk gland biology and spinneret mechanics</span>
+  <span class="topic-tag">Silk mechanical properties (tensile strength, toughness, elasticity)</span>
+  <span class="topic-tag">Spider web architecture and material differentiation</span>
+  <span class="topic-tag">Ballooning behavior in spiders using silk drag lines</span>
+  <span class="topic-tag">Bola spider hunting mechanism using silk</span>
+  <span class="topic-tag">Underwater spider silk applications and air bubble trapping</span>
+  <span class="topic-tag">Silkworm silk deconstruction and reformation</span>
+  <span class="topic-tag">Silk-based biosensors and enzyme stabilization</span>
+  <span class="topic-tag">Protein preservation in silk matrices</span>
+  <span class="topic-tag">Silk applications in vaccine stabilization and food preservation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26880/strengthening-equitable-community-resilience-criteria-and-guiding-principles-for-the" target="_blank">Strengthening Equitable Community Resilience: Criteria and Guiding Principles for the Gulf Research Program's Enhancing Community Resilience (EnCoRe) Initiative</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27875/progress-toward-restoring-the-everglades-the-tenth-biennial-review-2024" target="_blank">Progress Toward Restoring the Everglades: The Tenth Biennial Review - 2024</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25244/frontiers-of-materials-research-a-decadal-survey" target="_blank">Frontiers of Materials Research: A Decadal Survey</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26703/carbon-dioxide-utilization-markets-and-infrastructure-status-and-opportunities-a" target="_blank">Carbon Dioxide Utilization Markets and Infrastructure: Status and Opportunities: A First Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Spider silk is stronger than steel and tougher than Kevlar for some silk types - expert confirms this is true for specific silks</div>
+<div class="claim">There are over 53,000 described spider species, most making multiple silk types, suggesting tens of thousands of different silk varieties - presented as established fact</div>
+<div class="claim">Blood samples preserved in silk can maintain analytical quality for several months at room temperature - specific claim about preservation capability</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"In order to make a web, a spider has to be able to make the silk, and they make that silk in their body. So in their abdomen they have little tiny glands that pump out silk protein... And that's just really hard to do. It's just an amazing, amazing feat of engineering and design."</div>
+<div class="quote">"You can take a glass of silk and you add some blood inside of it, and then you pour it on the table and you let it dry. Once you lift up a sheet of material that looks like plastic, like a red transparent film of plastic, and you can leave it on the table for several months and then cut a little piece and send it to the hospital. And they'll take the blood out and your analysis, your labs from that blood are just as good as a fresh blood draw."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">The Life Science Rundown: Syncing Global Regulatory Filings Across FDA, EMA, and PMDA with AJ Acker</span>
+</div>
+<div class="episode-meta">Nick Capman (The FDA Group) &middot; Mar 30 &middot; 29 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses strategies for navigating global regulatory submissions across the FDA, EMA, and PMDA. AJ Acker, a 30-year industry veteran in rare disease development, explains that while these three major regulators share ICH harmonization standards, they interpret data through different regulatory lenses. The FDA prioritizes flexibility and speed, the EMA requires demonstrated meaningful benefit over existing therapies, and the PMDA traditionally demands Japanese data and feasibility evidence, though this is evolving. Key success factors include early regulatory engagement, alignment on clinical endpoints before Phase 3, use of local regulatory experts, and preparation for resource-intensive simultaneous filings.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Rare disease drug development and orphan designation pathways</span>
+  <span class="topic-tag">Gene therapy regulatory pathways (Zolgensma example)</span>
+  <span class="topic-tag">Surrogate endpoints and clinical meaningfulness assessment</span>
+  <span class="topic-tag">Multi-regional clinical trial design for global submissions</span>
+  <span class="topic-tag">Safety database requirements across regions</span>
+  <span class="topic-tag">Bridging studies and regional data requirements</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12219/breakthrough-business-models-drug-development-for-rare-and-neglected-diseases" target="_blank">Breakthrough Business Models: Drug Development for Rare and Neglected Diseases and Individualized Therapies: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12969/pathways-to-urban-sustainability-research-and-development-on-urban-systems" target="_blank">Pathways to Urban Sustainability: Research and Development on Urban Systems: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united" target="_blank">Pathways to Urban Sustainability: Challenges and Opportunities for the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s" target="_blank">Pathways to Discovery in Astronomy and Astrophysics for the 2020s</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of" target="_blank">Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of" target="_blank">Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of" target="_blank">Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels" target="_blank">Options for Improving the Safety of DUKW Type Amphibious Vessels</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">PMDA has historically required Japanese clinical data or bridging data even for rare diseases, though new guidelines provide flexibility (speaker claims only two products have successfully obtained approval without Japanese data under new pathway)</div>
+<div class="claim">Conditional approval pathways are new in Japan with only two known products having used this route</div>
+<div class="claim">FDA approval timelines described as faster than EMA and PMDA</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The FDA asks, does this work and can patients get it quickly? The EMA asks, is this meaningful better than what we already have? PMDA asks, can this truly be developed and sustained for Japanese patients?"</div>
+<div class="quote">"ICH enables a common scientific foundation that EMA, FDA, and PMDA can apply, but they look at that science through different regulatory lenses."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">80 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Moon Mission (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Significant discussion around NASA's Artemis II launch with focus on diversity in space exploration, astronaut training, and lunar mission preparations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Clean Energy and Battery Technology (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts highlighting record low costs for grid-scale batteries, offshore wind, and renewable energy as economically competitive alternatives to fossil fuels.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">AI Chatbot Safety and Sycophancy (2 posts)</span> <span style="font-size:13px;color:#4a5568;">Research findings on chatbots' tendency to validate harmful user behaviors and engage in sycophantic responses, raising concerns about AI safety.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">NIH Funding Cuts Impact (2 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of 2025 NIH grant terminations and freezes disproportionately affecting women and early-career researchers.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Ocean Resources and Marine Science (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of deep-sea polymetallic nodules, marine life communication studies, and marine ecosystem discoveries.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@earthsciinfo.bsky.social</div>
+  <div class="bluesky-stats">216 likes &middot; 97 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">We don't need to fight over fossil fuels. BloombergNEF reports grid-scale batteries are as cheap as coal per MWh. Offshore wind is comparable in price to combined cycle gas turbine power, & onshore wind & PVs (fixed & tracking) are both significantly cheaper than fossil fuels. 🧪🔌💡☀️💨💧🔋</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/earthsciinfo.bsky.social/post/3micuumnau22v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jennanewman.bsky.social</div>
+  <div class="bluesky-stats">191 likes &middot; 110 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">“Sycophancy was present across all the chatbots they tested, & the bots frequently told users that their actions or beliefs were justified in cases where the user was acting deceptively, doing something illegal, or engaging in otherwise harmful or abusive behavior.”🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jennanewman.bsky.social/post/3micpfmbhj22q" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">115 likes &middot; 76 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Women & early career scientists were affected by cuts.
+The #NIH terminated 2,291 active grants & froze funding of 1,534 projects between February & August 2025. 
+
+ 57.9% of the terminated projects were led by women, 48.2% led by men.    
+
+🧪 www.fiercebiotech.com/research/nih...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3micer7hcfc22" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@nikihubbard.bsky.social</div>
+  <div class="bluesky-stats">125 likes &middot; 25 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Once upon a time I just admired nudis and sea slugs. 
+
+But it was not enough. Now apparently I'm creating an R package to celebrate their colour palettes? 😅
+
+First up, my Sydney fave, Hypselodoris bennetti. 
+
+#rstats #nudibranch #dataviz 🦑🐙🧪 #marinelife #invertebrates</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/nikihubbard.bsky.social/post/3micmgldaqs2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drspacejunk.bsky.social</div>
+  <div class="bluesky-stats">74 likes &middot; 11 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">For the first time, a person who is not a white, American man will see the Moon close-up* with their own eyes. I'm eager to see with their vision. Will it be the same or different? Which cultural influences will be uppermost? #ArtemisII
+
+*From 8, 000 km 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drspacejunk.bsky.social/post/3micnhqrpj22d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>NIH Funding Disruptions and Gender Equity</strong>: Directly relevant to NASEM's work on research workforce equity and policy analysis; data shows differential impacts on women scientists during funding crises.</div>
+<div class="nasem-match"><strong>AI Safety and Chatbot Governance</strong>: Aligns with NASEM's role in advising on emerging technology governance and societal implications of AI systems, particularly regarding safety standards.</div>
+<div class="nasem-match"><strong>Clean Energy Technology Economics</strong>: Supports NASEM's energy policy analysis work; cost-competitiveness data informs recommendations on energy transition and climate mitigation strategies.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated March 31, 2026 at 11:40 AM | Internal use only
+    </div>
+</body>
+</html>

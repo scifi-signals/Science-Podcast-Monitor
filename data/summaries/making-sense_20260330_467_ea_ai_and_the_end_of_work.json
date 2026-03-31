@@ -1,0 +1,519 @@
+{
+  "podcast_id": "making-sense",
+  "podcast_name": "Making Sense",
+  "episode_title": "#467 — EA, AI, and the End of Work",
+  "host": "Sam Harris",
+  "published": "2026-03-30T17:40:00",
+  "episode_url": "https://wakingup.libsyn.com/467-ea-ai-and-the-end-of-work",
+  "duration_minutes": 29.733333333333334,
+  "influence_tier": "high",
+  "category": "longform_interview",
+  "summary": "Sam Harris and Will MacAskill discuss effective altruism (EA) ten years after MacAskill's book 'Doing Good Better,' examining how EA has recovered from the FTX scandal and continues to grow. They explore canonical EA cause areas including global health, animal welfare, pandemic preparedness, and AI risk, while debating the proper scope of EA's moral circle and the challenge of quantifying impact for harder-to-measure problems. Harris raises concerns about EA's potential blindness to high-impact interventions that resist quantification, particularly around political polarization and the role of media figures in normalizing harmful political movements.",
+  "science_topics": [
+    "Randomized controlled trials for global health interventions",
+    "Factory farming and farm animal welfare",
+    "Pandemic preparedness and novel pathogen creation",
+    "Biosecurity and laboratory biosafety protocols",
+    "Artificial intelligence capabilities scaling and exponential progress",
+    "AI reasoning capabilities in mathematics and coding",
+    "AI systems behavior and risk assessment",
+    "Recursive self-improvement in AI systems"
+  ],
+  "claims_to_note": [
+    "Lancet study claiming USAID dismantling will cause 14 million deaths from infectious disease in next 5 years (4 million under age 5) — this is a policy-relevant epidemiological claim requiring verification",
+    "Cost-effectiveness: GiveWell donations have saved ~340,000 lives at ~$5,000 per life, versus ~$50,000 per year of life in US — specific quantitative claim about intervention effectiveness",
+    "Factory farming impact: 92% fulfillment rate of cage-free commitments affecting 3 billion chickens annually in US — specific impact metric",
+    "Laboratory biosafety: lab leaks occur at rate of 1 per 100 person-years in highest-security labs — specific safety statistic",
+    "Foot-and-mouth disease UK outbreak caused by lab leak — historical biosafety incident",
+    "AI progress claim: AI software engineering capabilities doubling every 4-6 months for tasks taking humans hours — specific technical scaling metric",
+    "AI researchers in 2022 projected only 2-5% probability of AI solving Math Olympiad by 2025 — retrospective claim about forecast accuracy",
+    "Estimate of 1 in 3 probability of waves of pandemics from deliberate viral tinkering — speculative risk assessment"
+  ],
+  "policy_relevance": [
+    "USAID dismantling and elimination of foreign aid programs",
+    "Trump administration policy reversals on international engagement",
+    "US retreat from climate change commitments",
+    "US nuclear nonproliferation policy",
+    "AI regulation and governance (implicit discussion of need for policy frameworks)",
+    "Biosecurity policy and laboratory oversight",
+    "FDA/health agency policy on pharmaceutical effectiveness and cost",
+    "Pandemic preparedness funding and policy priorities"
+  ],
+  "key_quotes": [
+    "The donations that have gone via GiveWell have saved hundreds of thousands, best guess, over 340,000 lives now. This is at a cost of about $5,000 per life, whereas in the United States, a typical good cost, low cost to give someone one year of life is about $50,000.",
+    "The really scary point in time is when the AI loop feeds back on itself and you are able to automate via AI the process of doing AI research itself... there are good arguments for thinking that you get this big leap forward in capability at that point in time.",
+    "We have this long track record of humanity getting morality along really quite badly. Those people who pushed early on, looking like weirdos. Those changes being what I call model weirdo positions — and I think at least some groups need to be in the business of really trying to figure this out."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Randomized controlled trials for global health interventions",
+      "publications": [
+        {
+          "id": "25544",
+          "title": "Investing in Interventions That Address Non-Medical, Health-Related Social Needs: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25544/investing-in-interventions-that-address-non-medical-health-related-social-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "electronic books",
+            "while health care services",
+            "while health care accounts",
+            "health care costs projected",
+            "health socioeconomic factors",
+            "keep health expenditures",
+            "population health",
+            "percent per year",
+            "percentage points faster",
+            "poor housing qualit",
+            "gross domestic product",
+            "address non medical health",
+            "social needs",
+            "interventions",
+            "investing"
+          ],
+          "description": "\"With U.S. health care costs projected to grow at an average rate of 5.5 percent per year from 2018 to 2027, or 0.8 percentage points faster than the gross domestic product, and reach nearly $6.0 trillion per year by 2027, policy makers and a wide range of stakeholders are searching for plausible actions the nation can take to slow this rise and keep health expenditures from consuming an ever greater portion of U.S. economic output. While health care services are essential to heath, there is growing recognition that social determinants of health are important influences on population health. Supporting this idea are estimates that while health care accounts for some 10 to 20 percent of the determinants of health, socioeconomic factors and factors related to the physical environment are estimated to account for up to 50 percent of the determinants of health. Challenges related to the social determinants of health at the individual level include housing insecurity and poor housing qualit",
+          "year": 2019,
+          "page_keywords": [
+            "Electronic books"
+          ]
+        },
+        {
+          "id": "18400",
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "randomized clinical trials rcts",
+            "large simple trials lsts",
+            "inform medical decision making",
+            "implemented clinical trials",
+            "clinical trials support",
+            "continuously learning health system",
+            "medical product development",
+            "provide robust evidence",
+            "post marketing settings",
+            "medical products",
+            "learning health system",
+            "large simple trials",
+            "generation"
+          ],
+          "description": "Randomized clinical trials (RCTs) are often referred to as the \"gold standard\" of clinical research. However, in its current state, the U.S. clinical trials enterprise faces substantial challenges to the efficient and effective conduct of research. Streamlined approaches to RCTs, such as large simple trials (LSTs), may provide opportunities for progress on these challenges. Clinical trials support the development of new medical products and the evaluation of existing products by generating knowledge about safety and efficacy in pre- and post-marketing settings and serve to inform medical decision making and medical product development. Although well-designed and -implemented clinical trials can provide robust evidence, a gap exists between the evidence needs of a continuously learning health system, in which all medical decisions are based on the best available evidence, and the reality, in which the generation of timely and practical evidence faces significant barriers. Large Simple T",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "24737",
+          "title": "Global Health and the Future Role of the United States",
+          "url": "https://nap.nationalacademies.org/catalog/24737/global-health-and-the-future-role-of-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "vaccines"
+          ],
+          "keywords": [
+            "medical",
+            "current global health landscape",
+            "identifies global health priorities",
+            "global health challenges",
+            "increase responsiveness coordination",
+            "last decade across",
+            "emerging world threats",
+            "infectious disease outbreaks",
+            "millenium development goals",
+            "ever present threats",
+            "brought improved access",
+            "global health"
+          ],
+          "description": "While much progress has been made on achieving the Millenium Development Goals over the last decade, the number and complexity of global health challenges has persisted. Growing forces for globalization have increased the interconnectedness of the world and our interdependency on other countries, economies, and cultures. Monumental growth in international travel and trade have brought improved access to goods and services for many, but also carry ongoing and ever-present threats of zoonotic spillover and infectious disease outbreaks that threaten all. Global Health and the Future Role of the United States identifies global health priorities in light of current and emerging world threats. This report assesses the current global health landscape and how challenges, actions, and players have evolved over the last decade across a wide range of issues, and provides recommendations on how to increase responsiveness, coordination, and efficiency â€\" both within the U.S. government and across ",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Factory farming and farm animal welfare",
+      "publications": [
+        {
+          "id": "12910",
+          "title": "Guide for the Care and Use of Laboratory Animals: Eighth Edition",
+          "url": "https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "space",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "institutional animal care",
+            "laboratory animal communities",
+            "institutional official attending veterinarian",
+            "animal environment husbandry",
+            "organized around major components",
+            "common laboratory animals",
+            "includes extensive references",
+            "humane care",
+            "animal use",
+            "aquatic animals",
+            "laboratory animals",
+            "eighth edition",
+            "guide",
+            "care",
+            "use"
+          ],
+          "description": "A respected resource for decades, the Guide for the Care and Use of Laboratory Animals has been updated by a committee of experts, taking into consideration input from the scientific and laboratory animal communities and the public at large. The Guide incorporates new scientific information on common laboratory animals, including aquatic species, and includes extensive references. It is organized around major components of animal use: Key concepts of animal care and use. The Guide sets the framework for the humane care and use of laboratory animals. Animal care and use program. The Guide discusses the concept of a broad Program of Animal Care and Use, including roles and responsibilities of the Institutional Official, Attending Veterinarian and the Institutional Animal Care and Use Committee. Animal environment, husbandry, and management. A chapter on this topic is now divided into sections on terrestrial and aquatic animals and provides recommendations for housing and environment, hus",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee for the Update of the Guide for the Care and Use of Laboratory Animals"
+        },
+        {
+          "id": "29239",
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "human caused emissions",
+            "proposed rulemaking issued",
+            "technical support document",
+            "known today drawing",
+            "scientific evidence",
+            "greenhouse gases",
+            "clean air act",
+            "scientific community",
+            "latest evidence",
+            "public health",
+            "greenhouse gas",
+            "climate health",
+            "effects",
+            "welfare"
+          ],
+          "description": "The scientific community has been studying the question of how human-caused emissions of greenhouse gases are affecting the climate for well over a century. Much is known today, drawing on decades of direct observations of the Earth system and detailed research. This report summarizes the latest evidence on whether greenhouse gas emissions threaten public health and welfare in the United States. The impetus for this report was a notice of proposed rulemaking issued in August 2025 by the U.S. Environmental Protection Agency (EPA) indicating its intention to rescind the 2009 Finding of Endangerment and Cause or Contribute Findings for Greenhouse Gases Under Section 202(a) of the Clean Air Act. Recognizing that significantly more evidence is available today, the National Academies of Sciences, Engineering, and Medicine launched this study to review newly available scientific evidence on the topics included in a Technical Support Document that EPA prepared to inform its decision-making on ",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "21734",
+          "title": "Transportation of Laboratory Animals: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21734/transportation-of-laboratory-animals-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "space",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "advocacy groups professional associations",
+            "laboratory animal use held",
+            "yet transporting animals",
+            "treat animals used",
+            "humanely extends beyond",
+            "laboratory animals",
+            "institutions pharmaceutical",
+            "people participated",
+            "highly regulated",
+            "complex process",
+            "transportation"
+          ],
+          "description": "The obligation to treat animals used in research ethically and humanely extends beyond their lives in the laboratory to include their transportation from place to place. Yet transporting animals is a highly regulated and complex process that raises many difficult issues. To examine these issues, the Roundtable on Science and Welfare in Laboratory Animal Use held a workshop on September 3-4, 2014, in Washington, DC. More than 200 people participated in the workshop in person and online, including representatives of academic research institutions, pharmaceutical and consumer product companies, government agencies, research advocacy groups, professional associations, and the public. The workshop was designed to draw attention to the essential thoughtful journey planning behind each transport of laboratory animals.",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Pandemic preparedness and novel pathogen creation",
+      "publications": [
+        {
+          "id": "26301",
+          "title": "Systematizing the One Health Approach in Preparedness and Response",
+          "keywords": [
+            "pandemic",
+            "one health",
+            "preparedness",
+            "outbreak",
+            "zoonotic",
+            "disease"
+          ]
+        },
+        {
+          "id": "26284",
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "keywords": [
+            "pandemic",
+            "vaccine",
+            "global",
+            "coordination",
+            "influenza",
+            "preparedness"
+          ]
+        },
+        {
+          "id": "21891",
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "keywords": [
+            "pandemic",
+            "infectious disease",
+            "outbreak",
+            "epidemic",
+            "preparedness",
+            "global health"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Biosecurity and laboratory biosafety protocols",
+      "publications": [
+        {
+          "id": "11925",
+          "title": "Toward a Safer and More Secure Cyberspace",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "security",
+            "hacking",
+            "computer security",
+            "digital"
+          ]
+        },
+        {
+          "id": "18749",
+          "title": "At the Nexus of Cybersecurity and Public Policy",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "policy",
+            "security",
+            "digital",
+            "internet"
+          ]
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Artificial intelligence capabilities scaling and exponential progress",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "complex real world environments",
+            "achieving optimal performance",
+            "although artificial intelligence",
+            "human operations",
+            "successful performance",
+            "military operations",
+            "limitations mean",
+            "causation important",
+            "potential benefits",
+            "remain inadequate",
+            "teaming",
+            "human",
+            "state",
+            "needs",
+            "art"
+          ],
+          "description": "\"Although artificial intelligence (AI) has many potential benefits, it has also been shown to suffer from a number of challenges for successful performance in complex real-world environments such as military operations, including brittleness, perceptual limitations, hidden biases, and lack of a model of causation important for understanding and predicting future events. These limitations mean that AI will remain inadequate for operating on its own in many complex and novel situations for the foreseeable future, and that AI will need to be carefully managed by humans to achieve their desired utility. Human-AI Teaming: State-of-the-Art and Research Needs examines the factors that are relevant to the design and implementation of AI systems with respect to human operations. This report provides an overview of the state of research on human-AI teaming to determine gaps and future research priorities and explores critical human-systems integration issues for achieving optimal performance.\"--",
+          "year": 2021,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 5084,
+  "saved_at": "2026-03-31T11:40:09.559928"
+}
