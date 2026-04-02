@@ -1,0 +1,515 @@
+{
+  "podcast_id": "science-will-win",
+  "podcast_name": "Science Will Win",
+  "episode_title": "The Pace of Science: AI in Cancer Care",
+  "host": "Pfizer",
+  "published": "2026-04-02T08:00:00",
+  "episode_url": "https://science-will-win.simplecast.com/episodes/the-pace-of-science-ai-in-cancer-care-_sIzlerR",
+  "duration_minutes": 32.06666666666667,
+  "influence_tier": "emerging",
+  "category": "science_health",
+  "summary": "This episode examines the growing role of artificial intelligence in accelerating oncology research, clinical trial design, and patient care. The discussion covers how AI is being used to analyze genomic data at scale, identify drug targets faster, optimize clinical trial enrollment and design, and help patients navigate treatment options. The episode emphasizes that while AI offers significant potential to speed discovery and improve outcomes, success requires thoughtful implementation with clinical oversight, explainability, and attention to equity and patient agency rather than treating AI as a standalone solution.",
+  "science_topics": [
+    "Precision medicine and targeted cancer therapies",
+    "Genomic data analysis and biomarker testing",
+    "AI-assisted early cancer detection",
+    "Natural language processing for scientific literature review",
+    "Generative AI for drug target identification",
+    "AI-assisted medical imaging analysis for tumor response assessment",
+    "Wearable device health monitoring in clinical trials",
+    "Clinical trial matching algorithms using large language models",
+    "Explainable AI systems in medical decision-making",
+    "Bias detection and mitigation in AI health tools",
+    "Decentralized clinical trial design"
+  ],
+  "claims_to_note": [
+    "Drug development costs $1-2 billion per drug on average; oncology trials may cost more — verify against current NIH/NBER studies",
+    "Nearly 90% of drugs entering clinical testing in oncology ultimately fail — verify against FDA/NCI data",
+    "Only 2-4% of eligible cancer patients participate in clinical trials — verify against recent NCI enrollment statistics",
+    "20-40% of cancer trials are terminated early due to insufficient patient recruitment — verify against clinical trial database analysis",
+    "AI assistance has accelerated trial timelines by 30-50% and reduced costs by at least 40% — specific data attribution needed",
+    "Average drug development takes 12-15 years from discovery to approval — verify against FDA guidance",
+    "FDA review process alone takes 6-7 years — verify against current FDA timelines",
+    "80% of cancer patients live more than 2 hours from academic medical centers where most trials occur — verify against geographic analysis",
+    "70% of potential clinical trial participants live more than 2 hours away from study sites — verify source and recency"
+  ],
+  "policy_relevance": [
+    "FDA approval process and regulatory oversight of cancer treatments",
+    "Clinical trial design and patient enrollment regulations",
+    "Joint Commission and Coalition for Health AI released guidance on evaluating and governing AI tools in health systems",
+    "Electronic health records (EHR) infrastructure and data accessibility in medicine",
+    "Healthcare equity and access to clinical trials across geographic regions",
+    "Regulatory framework needed for AI tools used in clinical decision-making",
+    "Patient participation in clinical trials and informed consent processes"
+  ],
+  "key_quotes": [
+    "If people can be diagnosed much earlier, if they can be treated faster, if they can be treated better with more precise therapies that are truly tailored for them as individuals, this can result in dramatic changes of how they are treated and the outcomes that they may have.",
+    "AI isn't just reducing the administrative burden of research. It's increasing the likelihood of a potential treatment and making it into the hands of patients.",
+    "We shouldn't treat AI in healthcare as a magic wand, nor fear it as a looming threat. We should evaluate it the same way we evaluate any new technology or clinical intervention, rigorously, continuously, and transparently."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Precision medicine and targeted cancer therapies",
+      "publications": [
+        {
+          "id": "21860",
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "molecularly targeted therapies represent",
+            "identify molecular variations specific",
+            "right patient",
+            "individual patient",
+            "right treatment",
+            "biomarker tests",
+            "beneficial treatment",
+            "complex tests",
+            "molecular underpinnings",
+            "precision medicine",
+            "molecularly targeted therapies",
+            "unlocking precision",
+            "key"
+          ],
+          "description": "Every patient is unique, and the evolving field of precision medicine aims to ensure the delivery of the right treatment to the right patient at the right time. In an era of rapid advances in biomedicine and enhanced understanding of the genetic basis of disease, health care providers increasingly have access to advanced technologies that may identify molecular variations specific to an individual patient, which subsequently can be targeted for treatment. Known as biomarker tests for molecularly targeted therapies, these complex tests have the potential to enable the selection of the most beneficial treatment (and also to identify treatments that may be harmful or ineffective) for the molecular underpinnings of an individual patient's disease. Such tests are key to unlocking the promise of precision medicine. Biomarker tests for molecularly targeted therapies represent a crucial area of focus for developing methods that could later be applicable to other areas of precision medicine. Th",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "13284",
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "keywords": [
+            "precision medicine",
+            "personalized",
+            "medical",
+            "genomic",
+            "health",
+            "treatment"
+          ]
+        },
+        {
+          "id": "24742",
+          "title": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cancer drug development evaluation",
+            "promising cancer treatments",
+            "destroy cancer cells",
+            "drug development pipeline",
+            "molecular mechanisms underpinning",
+            "immune system responds",
+            "cancer therapies",
+            "associated biomarker tests",
+            "targeted therapies",
+            "standard chemotherapies",
+            "drug development paradigm",
+            "oncology"
+          ],
+          "description": "Advances in cancer research have led to an improved understanding of the molecular mechanisms underpinning the development of cancer and how the immune system responds to cancer. This influx of research has led to an increasing number and variety of therapies in the drug development pipeline, including targeted therapies and associated biomarker tests that can select which patients are most likely to respond, and immunotherapies that harness the body's immune system to destroy cancer cells. Compared with standard chemotherapies, these new cancer therapies may demonstrate evidence of benefit and clearer distinctions between efficacy and toxicity at an earlier stage of development. However, there is a concern that the traditional processes for cancer drug development, evaluation, and regulatory approval could impede or delay the use of these promising cancer treatments in clinical practice. This has led to a number of effortsâ€\"by patient advocates, the pharmaceutical industry, and the F",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Medicine in Neuroscience: Tools, Translation, and Implementation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Genomic data analysis and biomarker testing",
+      "publications": [
+        {
+          "id": "26917",
+          "title": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26917/realizing-the-potential-of-genomics-across-the-continuum-of-precision-health-care",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "precision health care delivery",
+            "cancer policy forum hosted",
+            "health care outside",
+            "genomic applications",
+            "genomic screening",
+            "identified opportunities",
+            "genomic data",
+            "traditional settings",
+            "patients clinicians",
+            "discussions focused",
+            "precision health care",
+            "genomics across",
+            "realizing",
+            "potential",
+            "continuum"
+          ],
+          "description": "The National Academies Roundtable on Genomics and Precision Health, in collaboration with the National Cancer Policy Forum, hosted a public workshop that examined how genomic data are used in health care, outside of the traditional settings for clinical genetics. The workshop identified opportunities for advancement of precision health care delivery. The event also explored how patients, clinicians, and payers assess and act upon the risks and benefits of genomic screening and diagnostic testing. Discussions focused on strategies to ensure that genomic applications are responsibly and equitably adopted to benefit populations as well as individuals over time. This Proceedings of a Workshop summarizes content from the event.",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "AI-assisted early cancer detection",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "21754",
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "pediatric cancers little progress",
+            "significant acute side effects",
+            "american cancer society",
+            "pediatric cancers present",
+            "cancer policy forum",
+            "substantial continuing challenges",
+            "examine specific opportunities",
+            "while survival rates",
+            "cancer treatment",
+            "childhood cancer",
+            "comprehensive cancer care",
+            "institute",
+            "children",
+            "families",
+            "joint"
+          ],
+          "description": "Childhood cancer is an area of oncology that has seen both remarkable progress as well as substantial continuing challenges. While survival rates for some pediatric cancers present a story of success, for many types of pediatric cancers, little progress has been made. Many cancer treatments are known to cause not only significant acute side effects, but also lead to numerous long-term health risks and reduced quality of life. Even in cases where the cancer is considered curable, the consequences of treatment present substantial long-term health and psychosocial concerns for children, their families, their communities, and our health system. To examine specific opportunities and suggestions for driving optimal care delivery supporting survival with high quality of life, the National Cancer Policy Forum of the Institute of Medicine and the American Cancer Society co-hosted a workshop which convened experts and members of the public on March 9 and 10, 2015. At this workshop, clinicians an",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "11468",
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "keywords": [
+            "cancer",
+            "survivor",
+            "oncology",
+            "treatment",
+            "patient",
+            "tumor"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Natural language processing for scientific literature review",
+      "publications": [
+        {
+          "id": "24712",
+          "title": "Review of the Draft Climate Science Special Report",
+          "url": "https://nap.nationalacademies.org/catalog/24712/review-of-the-draft-climate-science-special-report",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "draft climate science special",
+            "draft cssr accurately",
+            "cssr authors handled",
+            "climate change",
+            "science relating",
+            "scientific literature",
+            "understandable transparent",
+            "usgcrp products",
+            "program usgcrp",
+            "global change"
+          ],
+          "description": "The United States Global Change Research Program (USGCRP) is moving towards a sustained assessment process that allows for more fluid and consistent integration of scientific knowledge into the mandated quadrennial National Climate Assessment. As part of this process, the USGCRP is developing the Climate Science Special Report (CSSR), a technical report that details the current state-of-science relating to climate change and its physical impacts. The CSSR is intended to focus on climate change in the United States and to inform future USGCRP products. Review of the Draft Climate Science Special Report assesses whether the draft CSSR accurately presents the scientific literature in an understandable, transparent and traceable way; whether the CSSR authors handled the data, analyses, and statistical approaches in an appropriate manner; and the effectiveness of the report in conveying the information clearly for the intended audience. This report provides recommendations for how the draft",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "24972",
+          "title": "Improving the Resilience of Transit Systems Threatened by Natural Disasters, Volume 3: Literature Review and Case Studies",
+          "url": "https://nap.nationalacademies.org/catalog/24972/improving-the-resilience-of-transit-systems-threatened-by-natural-disasters-volume-3-literature-review-and-case-studies",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "transit systems threatened",
+            "natural disasters volume",
+            "resilience",
+            "literature",
+            "improving",
+            "case"
+          ]
+        },
+        {
+          "id": "25303",
+          "title": "Reproducibility and Replicability in Science",
+          "keywords": [
+            "science",
+            "research",
+            "reproducibility",
+            "replicability",
+            "methodology",
+            "scientific"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "AI Infrastructure to Accelerate AI Convergence and Catalyze U.S. Scientific Innovation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-GUIPRR-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Generative AI for drug target identification",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 4744,
+  "saved_at": "2026-04-02T11:24:58.014154"
+}

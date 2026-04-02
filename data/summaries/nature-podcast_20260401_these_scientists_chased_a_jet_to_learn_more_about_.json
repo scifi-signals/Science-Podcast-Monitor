@@ -1,0 +1,593 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "These scientists chased a jet to learn more about ‘lean-burn’ contrails",
+  "host": "Springer Nature",
+  "published": "2026-04-01T15:00:00",
+  "episode_url": "https://www.nature.com/articles/d41586-026-01052-3",
+  "duration_minutes": 24.8,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode covers two main topics: an experimental study on aircraft contrails at high altitude, where researchers chased commercial aircraft to measure how lean-burn engines and fuel composition affect ice crystal formation in contrails, and a discussion of 'April Fakes Day,' an initiative examining fakery in science and what society can learn from understanding the boundaries between real and fake in scientific contexts.",
+  "science_topics": [
+    "Contrail formation and climate impact",
+    "Lean-burn vs. rich-burn aircraft engines",
+    "Soot particle emissions from aircraft",
+    "Volatile sulfate aerosol particles and ice nucleation",
+    "Aircraft fuel sulfur content effects on contrails",
+    "Aromatic compounds in jet fuel",
+    "Contrail climate modeling",
+    "Radioactive strontium and cesium leakage from sunken Soviet submarine",
+    "Per- and polyfluoroalkyl substances (PFAS) in Antarctic ice",
+    "Scientific fraud and research misconduct",
+    "Artificial intelligence-generated scientific images",
+    "Pseudoscience vs. legitimate science"
+  ],
+  "claims_to_note": [
+    "Contrails' climate effects almost equal those of CO2 emissions from aviation industry - requires verification against IPCC and aviation climate impact assessments",
+    "About 20% of commercial flight kilometers currently use lean-burn engines",
+    "Lean-burn engines reduce soot particle emissions significantly but still produce comparable numbers of ice crystals due to volatile sulfate aerosol formation",
+    "Reducing fuel sulfur content by significant amounts led to order-of-magnitude reduction in contrail ice crystals",
+    "Climate models currently do not account for volatile particle ice nucleation in contrails, potentially underestimating aviation's climate impact",
+    "Case study: Unqualified doctor in Western Kenya successfully performed surgeries before lack of qualifications was discovered",
+    "Claims about public receptiveness to scientific uncertainty based on COVID-19 experience"
+  ],
+  "policy_relevance": [
+    "Aviation industry engine improvements and fuel composition changes to reduce climate impact",
+    "Climate modeling updates needed to account for volatile aerosol particles in contrail formation",
+    "Potential fuel standards or regulations regarding sulfur and aromatic content in jet fuel",
+    "International scientific integrity and research misconduct oversight",
+    "Transparency in scientific uncertainty communication as public health/science communication policy"
+  ],
+  "key_quotes": [
+    "Estimates suggest that the climate effects of contrails almost equal those of the carbon dioxide emissions produced by the aviation industry.",
+    "So the combination of the engine, the combustor technology and the fuel with a reduced sulfur content, but also reduced aromatic content... could pave a way for future cleaner aviation or contrails with a lower climate impact.",
+    "I really want to understand the relationship that power has in deciding what truth is and that actually if we make this process more transparent we could all have much greater say in what truth is."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Contrail formation and climate impact",
+      "publications": [
+        {
+          "id": "25259",
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "keywords": [
+            "carbon",
+            "emissions",
+            "sequestration",
+            "climate",
+            "carbon capture",
+            "negative emissions"
+          ]
+        },
+        {
+          "id": "26641",
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "total global ghg emissions",
+            "achieving net zero emissions",
+            "human produced greenhouse gases",
+            "evaluating ghg emissions",
+            "evaluate ghg emissions",
+            "trusted ghg emissions",
+            "climate change driven",
+            "particles collectively referred",
+            "providing decision makers",
+            "cities regional governments",
+            "greenhouse gas emissions",
+            "decision making",
+            "going forward"
+          ],
+          "description": "Climate change, driven by increases in human-produced greenhouse gases and particles (collectively referred to as GHGs), is the most serious environmental issue facing society. The need to reduce GHGs has become urgent as heat waves, heavy rain events, and other impacts of climate change have become more frequent and severe. Since the Paris Agreement was adopted in 2015, more than 136 countries, accounting for about 80% of total global GHG emissions, have committed to achieving net-zero emissions by 2050. A growing number of cities, regional governments, and industries have also made pledges to reduce emissions. Providing decision makers with useful, accurate, and trusted GHG emissions information is a crucial part of this effort. This report examines existing and emerging approaches used to generate and evaluate GHG emissions information at global to local scales. The report develops a framework for evaluating GHG emissions information to support and guide policy makers about its use ",
+          "year": 2023,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "12877",
+          "title": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia",
+          "url": "https://nap.nationalacademies.org/catalog/12877/climate-stabilization-targets-emissions-concentrations-and-impacts-over-decades-to",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "millennia important policy decisions",
+            "determining impacts experienced",
+            "climate stabilization targets",
+            "because carbon dioxide",
+            "sea level rise",
+            "climate changes",
+            "emissions concentrations",
+            "resulting impacts",
+            "climate science",
+            "global warming",
+            "millennia",
+            "impacts",
+            "decades"
+          ],
+          "description": "Emissions of carbon dioxide from the burning of fossil fuels have ushered in a new epoch where human activities will largely determine the evolution of Earth's climate. Because carbon dioxide in the atmosphere is long lived, it can effectively lock the Earth and future generations into a range of impacts, some of which could become very severe. Emissions reductions decisions made today matter in determining impacts experienced not just over the next few decades, but in the coming centuries and millennia. According to Climate Stabilization Targets: Emissions, Concentrations, and Impacts Over Decades to Millennia, important policy decisions can be informed by recent advances in climate science that quantify the relationships between increases in carbon dioxide and global warming, related climate changes, and resulting impacts, such as changes in streamflow, wildfires, crop productivity, extreme hot summers, and sea level rise. One way to inform these choices is to consider the projected ",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Lean-burn vs. rich-burn aircraft engines",
+      "publications": [
+        {
+          "id": "26050",
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "aircraft exhaust emissions",
+            "small gasoline powered aircraft",
+            "entire gasoline powered flee",
+            "significantly reducing lead emissions",
+            "federal aviation administration faa",
+            "aircraft manufacturers according",
+            "unleaded aviation fuel",
+            "aviation gasoline",
+            "negative health effects",
+            "single largest emitter",
+            "major emission sources",
+            "reducing lead emissions",
+            "piston engine aircraft",
+            "options"
+          ],
+          "description": "Small gasoline-powered aircraft are the single largest emitter of lead in the United States, as other major emission sources such as automobile gasoline have been previously addressed. A highly toxic substance that can result in an array of negative health effects in humans, lead is added to aviation gasoline to meet the performance and safety requirements of a sizable portion of the country’s gasoline-powered aircraft. Significantly reducing lead emissions from gasoline-powered aircraft will require the leadership and strategic guidance of the Federal Aviation Administration (FAA) and a broad-based and sustained commitment by other government agencies and the nation’s pilots, airport managers, aviation fuel and service suppliers, and aircraft manufacturers, according to a congressionally mandated report from the National Academies of Sciences, Engineering, and Medicine. While efforts are underway to develop an unleaded aviation fuel that can be used by the entire gasoline-powered flee",
+          "year": 2021,
+          "page_keywords": [
+            "Aircraft exhaust emissions"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Lead Emissions from P"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Soot particle emissions from aircraft",
+      "publications": [
+        {
+          "id": "26050",
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "aircraft exhaust emissions",
+            "small gasoline powered aircraft",
+            "entire gasoline powered flee",
+            "significantly reducing lead emissions",
+            "federal aviation administration faa",
+            "aircraft manufacturers according",
+            "unleaded aviation fuel",
+            "aviation gasoline",
+            "negative health effects",
+            "single largest emitter",
+            "major emission sources",
+            "reducing lead emissions",
+            "piston engine aircraft",
+            "options"
+          ],
+          "description": "Small gasoline-powered aircraft are the single largest emitter of lead in the United States, as other major emission sources such as automobile gasoline have been previously addressed. A highly toxic substance that can result in an array of negative health effects in humans, lead is added to aviation gasoline to meet the performance and safety requirements of a sizable portion of the country’s gasoline-powered aircraft. Significantly reducing lead emissions from gasoline-powered aircraft will require the leadership and strategic guidance of the Federal Aviation Administration (FAA) and a broad-based and sustained commitment by other government agencies and the nation’s pilots, airport managers, aviation fuel and service suppliers, and aircraft manufacturers, according to a congressionally mandated report from the National Academies of Sciences, Engineering, and Medicine. While efforts are underway to develop an unleaded aviation fuel that can be used by the entire gasoline-powered flee",
+          "year": 2021,
+          "page_keywords": [
+            "Aircraft exhaust emissions"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Lead Emissions from P"
+        },
+        {
+          "id": "23490",
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "total global annual emissions",
+            "large commercial single aisle",
+            "although aviation emissions",
+            "reducing carbon emissions",
+            "commercial aircraft propulsion",
+            "twin aisle aircraft",
+            "release carbon dioxide",
+            "primary human activities",
+            "reducing emissions",
+            "global emissions",
+            "reducing global carbon emissions",
+            "energy systems"
+          ],
+          "description": "The primary human activities that release carbon dioxide (CO2) into the atmosphere are the combustion of fossil fuels (coal, natural gas, and oil) to generate electricity, the provision of energy for transportation, and as a consequence of some industrial processes. Although aviation CO2 emissions only make up approximately 2.0 to 2.5 percent of total global annual CO2 emissions, research to reduce CO2 emissions is urgent because (1) such reductions may be legislated even as commercial air travel grows, (2) because it takes new technology a long time to propagate into and through the aviation fleet, and (3) because of the ongoing impact of global CO2 emissions. Commercial Aircraft Propulsion and Energy Systems Research develops a national research agenda for reducing CO2 emissions from commercial aviation. This report focuses on propulsion and energy technologies for reducing carbon emissions from large, commercial aircraftâ€\" single-aisle and twin-aisle aircraft that carry 100 or more",
+          "year": 2016,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Aeronautics and Space Engineering Board"
+        },
+        {
+          "id": "25259",
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "keywords": [
+            "carbon",
+            "emissions",
+            "sequestration",
+            "climate",
+            "carbon capture",
+            "negative emissions"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Volatile sulfate aerosol particles and ice nucleation",
+      "publications": [
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        },
+        {
+          "id": "23531",
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ambient air pollutant standards",
+            "date indoor exposure",
+            "various indoor sources",
+            "extremely small particles",
+            "adverse health effects",
+            "liquid droplets comprising",
+            "outdoor particles",
+            "outdoor exposure",
+            "indoor exposures",
+            "dust particles",
+            "particulate matter",
+            "indoor exposure",
+            "health risks"
+          ],
+          "description": "The U.S. Environmental Protection Agency (EPA) defines PM as a mixture of extremely small particles and liquid droplets comprising a number of components, including \"acids (such as nitrates and sulfates), organic chemicals, metals, soil or dust particles, and allergens (such as fragments of pollen and mold spores)\". The health effects of outdoor exposure to particulate matter (PM) are the subject of both research attention and regulatory action. Although much less studied to date, indoor exposure to PM is gaining attention as a potential source of adverse health effects. Indoor PM can originate from outdoor particles and also from various indoor sources, including heating, cooking, and smoking. Levels of indoor PM have the potential to exceed outdoor PM levels. Understanding the major features and subtleties of indoor exposures to particles of outdoor origin can improve our understanding of the exposureâ€\"response relationship on which ambient air pollutant standards are based. The EPA",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "complex real world environments",
+            "achieving optimal performance",
+            "although artificial intelligence",
+            "human operations",
+            "successful performance",
+            "military operations",
+            "limitations mean",
+            "causation important",
+            "potential benefits",
+            "remain inadequate",
+            "teaming",
+            "human",
+            "state",
+            "needs",
+            "art"
+          ],
+          "description": "\"Although artificial intelligence (AI) has many potential benefits, it has also been shown to suffer from a number of challenges for successful performance in complex real-world environments such as military operations, including brittleness, perceptual limitations, hidden biases, and lack of a model of causation important for understanding and predicting future events. These limitations mean that AI will remain inadequate for operating on its own in many complex and novel situations for the foreseeable future, and that AI will need to be carefully managed by humans to achieve their desired utility. Human-AI Teaming: State-of-the-Art and Research Needs examines the factors that are relevant to the design and implementation of AI systems with respect to human operations. This report provides an overview of the state of research on human-AI teaming to determine gaps and future research priorities and explores critical human-systems integration issues for achieving optimal performance.\"--",
+          "year": 2021,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Aircraft fuel sulfur content effects on contrails",
+      "publications": [
+        {
+          "id": "29073",
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "contrails dissipate within",
+            "aviation induced cloudiness",
+            "global climate impact",
+            "global economic competitiveness",
+            "civil aviation industry",
+            "persistent contrails",
+            "better understand quantify",
+            "carbon dioxide emissions",
+            "early nasa requested",
+            "sky behind aircraft",
+            "climate impacts",
+            "developing",
+            "contrails",
+            "agenda"
+          ],
+          "description": "Contrails are visible lines in the sky behind aircraft that occur when warm jet engine exhaust meets the colder surrounding atmosphere, forming small ice crystals. Most contrails dissipate within about 10 minutes, but they can last for hours under certain conditions. Persistent contrails can contribute to atmospheric warming and are estimated to have a climate impact on par with carbon dioxide emissions from aviation. In early 2024, NASA requested that the National Academies develop a national research agenda to better understand, quantify, and develop technical and operational solutions to reduce the global climate impact of aviation-induced cloudiness and persistent contrails. This report presents priorities for a national contrails research strategy and provides a vision for how this research could eventually support operational contrails mitigation. This research would support the global economic competitiveness of the U.S. civil aviation industry in the context of emerging interna",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "26050",
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "aircraft exhaust emissions",
+            "small gasoline powered aircraft",
+            "entire gasoline powered flee",
+            "significantly reducing lead emissions",
+            "federal aviation administration faa",
+            "aircraft manufacturers according",
+            "unleaded aviation fuel",
+            "aviation gasoline",
+            "negative health effects",
+            "single largest emitter",
+            "major emission sources",
+            "reducing lead emissions",
+            "piston engine aircraft",
+            "options"
+          ],
+          "description": "Small gasoline-powered aircraft are the single largest emitter of lead in the United States, as other major emission sources such as automobile gasoline have been previously addressed. A highly toxic substance that can result in an array of negative health effects in humans, lead is added to aviation gasoline to meet the performance and safety requirements of a sizable portion of the country’s gasoline-powered aircraft. Significantly reducing lead emissions from gasoline-powered aircraft will require the leadership and strategic guidance of the Federal Aviation Administration (FAA) and a broad-based and sustained commitment by other government agencies and the nation’s pilots, airport managers, aviation fuel and service suppliers, and aircraft manufacturers, according to a congressionally mandated report from the National Academies of Sciences, Engineering, and Medicine. While efforts are underway to develop an unleaded aviation fuel that can be used by the entire gasoline-powered flee",
+          "year": 2021,
+          "page_keywords": [
+            "Aircraft exhaust emissions"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Lead Emissions from P"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 4294,
+  "saved_at": "2026-04-02T11:24:58.013046"
+}

@@ -1,7 +1,510 @@
 {
-  "updated": "2026-03-31T11:40:48.625945",
-  "episode_count": 140,
+  "updated": "2026-04-02T11:25:32.822435",
+  "episode_count": 145,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Should Pluto be a planet again?",
+      "host": "Ira Flatow",
+      "published": "2026-04-02T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode revisits the 2006 International Astronomical Union decision that demoted Pluto from planet status to dwarf planet, examining why planetary scientists largely reject this classification and whether recent calls by NASA administrators to reinstate Pluto's planetary status have merit. Planetary scientists Dr. Alan Stern and Dr. Amanda Bosch argue that the IAU's definition—which excludes objects that haven't cleared their orbital neighborhoods—is scientifically arbitrary and that most planetary scientists now classify Pluto as a planet based on a simpler definition: objects large enough to be rounded by self-gravity but not massive enough to ignite fusion. The episode explores the controversy surrounding voting on scientific definitions and how discoveries from the New Horizons mission in 2015 revealed Pluto to be a geologically complex world with mountains, glaciers, an atmosphere, and moons.",
+      "science_topics": [
+        "Pluto's planetary classification and reclassification",
+        "IAU definition of planetary bodies and clearing of orbital neighborhoods",
+        "Kuiper Belt objects and small planets in the outer solar system",
+        "Pluto's atmosphere and its variability with distance from the sun",
+        "New Horizons spacecraft mission findings on Pluto's geology and composition",
+        "Exoplanet discoveries and comparison with Solar System planets",
+        "Self-gravity and hydrostatic equilibrium in planetary bodies",
+        "Planetary diversity across the Solar System and universe"
+      ],
+      "claims_to_note": [
+        "Claim: The 2006 IAU meeting had only about 5% of their membership present when the vote occurred—verify exact attendance percentage from IAU records",
+        "Claim: The IAU definition excludes Pluto specifically because it hasn't cleared its orbital neighborhood, which is partly due to resonance with Neptune—confirm resonance mechanism and its relevance to planetary classification",
+        "Claim: Alan Stern coined the term 'dwarf planet' in 1991 in scientific literature before the IAU adopted it—verify publication date and original usage",
+        "Claim: Pluto was discovered at Lowell Observatory in 1938 (transcript says '1938' but this contradicts well-established history; Pluto was discovered in 1930)—FACTUAL ERROR IDENTIFIED",
+        "Claim: Thousands of exoplanets have been discovered and essentially all stars have planets—verify current exoplanet count as of 2026",
+        "Claim: Pluto's atmosphere is changing based on its distance from the sun—confirm atmospheric observations and volatility studies"
+      ],
+      "policy_relevance": [
+        "NASA Administrator Jared Isaacman's campaign to declare Pluto a planet again",
+        "Previous NASA Administrator Jim Bridenstine made similar arguments six years prior to this episode",
+        "Discussion of whether President Trump has executive authority to declare Pluto a planet (answer: no, the International Astronomical Union has official naming authority)",
+        "International Astronomical Union's role as the official body governing celestial nomenclature and planetary definitions",
+        "Debate over scientific decision-making processes: voting versus consensus-building in science policy",
+        "Arizona's designation of Pluto as the state planet in 2024"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Planetary Protection Classification of Sample Return Missions from the Martian Moons",
+          "url": "https://nap.nationalacademies.org/catalog/25357/planetary-protection-classification-of-sample-return-missions-from-the-martian-moons"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "From Neurons to Neighborhoods: An Update: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/13119/from-neurons-to-neighborhoods-an-update-workshop-summary"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Assessment of Planetary Protection Requirements for Spacecraft Missions to Icy Solar System Bodies",
+          "url": "https://nap.nationalacademies.org/catalog/13401/assessment-of-planetary-protection-requirements-for-spacecraft-missions-to-icy-solar-system-bodies"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Frontiers in Decadal Climate Variability: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23552/frontiers-in-decadal-climate-variability-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-will-win",
+      "podcast_name": "Science Will Win",
+      "episode_title": "The Pace of Science: AI in Cancer Care",
+      "host": "Pfizer",
+      "published": "2026-04-02T08:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode examines the growing role of artificial intelligence in accelerating oncology research, clinical trial design, and patient care. The discussion covers how AI is being used to analyze genomic data at scale, identify drug targets faster, optimize clinical trial enrollment and design, and help patients navigate treatment options. The episode emphasizes that while AI offers significant potential to speed discovery and improve outcomes, success requires thoughtful implementation with clinical oversight, explainability, and attention to equity and patient agency rather than treating AI as a standalone solution.",
+      "science_topics": [
+        "Precision medicine and targeted cancer therapies",
+        "Genomic data analysis and biomarker testing",
+        "AI-assisted early cancer detection",
+        "Natural language processing for scientific literature review",
+        "Generative AI for drug target identification",
+        "AI-assisted medical imaging analysis for tumor response assessment",
+        "Wearable device health monitoring in clinical trials",
+        "Clinical trial matching algorithms using large language models",
+        "Explainable AI systems in medical decision-making",
+        "Bias detection and mitigation in AI health tools",
+        "Decentralized clinical trial design"
+      ],
+      "claims_to_note": [
+        "Drug development costs $1-2 billion per drug on average; oncology trials may cost more — verify against current NIH/NBER studies",
+        "Nearly 90% of drugs entering clinical testing in oncology ultimately fail — verify against FDA/NCI data",
+        "Only 2-4% of eligible cancer patients participate in clinical trials — verify against recent NCI enrollment statistics",
+        "20-40% of cancer trials are terminated early due to insufficient patient recruitment — verify against clinical trial database analysis",
+        "AI assistance has accelerated trial timelines by 30-50% and reduced costs by at least 40% — specific data attribution needed",
+        "Average drug development takes 12-15 years from discovery to approval — verify against FDA guidance",
+        "FDA review process alone takes 6-7 years — verify against current FDA timelines",
+        "80% of cancer patients live more than 2 hours from academic medical centers where most trials occur — verify against geographic analysis",
+        "70% of potential clinical trial participants live more than 2 hours away from study sites — verify source and recency"
+      ],
+      "policy_relevance": [
+        "FDA approval process and regulatory oversight of cancer treatments",
+        "Clinical trial design and patient enrollment regulations",
+        "Joint Commission and Coalition for Health AI released guidance on evaluating and governing AI tools in health systems",
+        "Electronic health records (EHR) infrastructure and data accessibility in medicine",
+        "Healthcare equity and access to clinical trials across geographic regions",
+        "Regulatory framework needed for AI tools used in clinical decision-making",
+        "Patient participation in clinical trials and informed consent processes"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26917/realizing-the-potential-of-genomics-across-the-continuum-of-precision-health-care"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Review of the Draft Climate Science Special Report",
+          "url": "https://nap.nationalacademies.org/catalog/24712/review-of-the-draft-climate-science-special-report"
+        },
+        {
+          "title": "Improving the Resilience of Transit Systems Threatened by Natural Disasters, Volume 3: Literature Review and Case Studies",
+          "url": "https://nap.nationalacademies.org/catalog/24972/improving-the-resilience-of-transit-systems-threatened-by-natural-disasters-volume-3-literature-review-and-case-studies"
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "These scientists chased a jet to learn more about ‘lean-burn’ contrails",
+      "host": "Springer Nature",
+      "published": "2026-04-01T15:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode covers two main topics: an experimental study on aircraft contrails at high altitude, where researchers chased commercial aircraft to measure how lean-burn engines and fuel composition affect ice crystal formation in contrails, and a discussion of 'April Fakes Day,' an initiative examining fakery in science and what society can learn from understanding the boundaries between real and fake in scientific contexts.",
+      "science_topics": [
+        "Contrail formation and climate impact",
+        "Lean-burn vs. rich-burn aircraft engines",
+        "Soot particle emissions from aircraft",
+        "Volatile sulfate aerosol particles and ice nucleation",
+        "Aircraft fuel sulfur content effects on contrails",
+        "Aromatic compounds in jet fuel",
+        "Contrail climate modeling",
+        "Radioactive strontium and cesium leakage from sunken Soviet submarine",
+        "Per- and polyfluoroalkyl substances (PFAS) in Antarctic ice",
+        "Scientific fraud and research misconduct",
+        "Artificial intelligence-generated scientific images",
+        "Pseudoscience vs. legitimate science"
+      ],
+      "claims_to_note": [
+        "Contrails' climate effects almost equal those of CO2 emissions from aviation industry - requires verification against IPCC and aviation climate impact assessments",
+        "About 20% of commercial flight kilometers currently use lean-burn engines",
+        "Lean-burn engines reduce soot particle emissions significantly but still produce comparable numbers of ice crystals due to volatile sulfate aerosol formation",
+        "Reducing fuel sulfur content by significant amounts led to order-of-magnitude reduction in contrail ice crystals",
+        "Climate models currently do not account for volatile particle ice nucleation in contrails, potentially underestimating aviation's climate impact",
+        "Case study: Unqualified doctor in Western Kenya successfully performed surgeries before lack of qualifications was discovered",
+        "Claims about public receptiveness to scientific uncertainty based on COVID-19 experience"
+      ],
+      "policy_relevance": [
+        "Aviation industry engine improvements and fuel composition changes to reduce climate impact",
+        "Climate modeling updates needed to account for volatile aerosol particles in contrail formation",
+        "Potential fuel standards or regulations regarding sulfur and aromatic content in jet fuel",
+        "International scientific integrity and research misconduct oversight",
+        "Transparency in scientific uncertainty communication as public health/science communication policy"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia",
+          "url": "https://nap.nationalacademies.org/catalog/12877/climate-stabilization-targets-emissions-concentrations-and-impacts-over-decades-to"
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        },
+        {
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "How to poop better, according to a gastroenterologist",
+      "host": "Ira Flatow",
+      "published": "2026-04-01T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Dr. Tricia Pasricha, a neurogastroenterologist at Harvard University, discusses proper bowel health and defecates common misconceptions about pooping. The episode covers how modern habits like smartphone use in bathrooms increase hemorrhoid risk, the biomechanics of squatting versus sitting, the gut-brain connection particularly regarding Parkinson's disease, and the rising incidence of early-onset colorectal cancer in adults under 50. Pasricha emphasizes reducing stigma around discussing bowel health and advocates for fiber-rich diets, post-meal walks, and early consultation with doctors about GI symptoms.",
+      "science_topics": [
+        "Pelvic floor anatomy and puborectalis muscle function",
+        "Hemorrhoid formation and smartphone use correlation",
+        "Bile pigmentation and bilirubin's role in stool color",
+        "TRPV1 receptor signaling and capsaicin sensitivity",
+        "Microbiome fermentation of dietary fiber",
+        "Vagus nerve signaling between gut and brain",
+        "Alpha-synuclein protein misfolding in Parkinson's disease",
+        "Gut dysbiosis and inflammatory bowel markers",
+        "Early-onset colorectal cancer epidemiology",
+        "Ultra-processed food effects on intestinal integrity"
+      ],
+      "claims_to_note": [
+        "Study finding 46% increased hemorrhoid risk in smartphone bathroom users - specific statistical claim requiring verification",
+        "90% of vagus nerve signaling travels gut-to-brain rather than brain-to-gut - major neurophysiological claim",
+        "80% of Parkinson's disease patients have GI issues - epidemiological claim requiring verification",
+        "Constipation onset predictive of later Parkinson's diagnosis - causality claim needing validation",
+        "Alpha-synuclein protein found in guts of Parkinson's patients at autopsy - pathological claim",
+        "95% of Americans not meeting fiber goals - population-level claim",
+        "Colorectal cancer became #1 cancer-related death cause in adults under 50 - recent epidemiological claim",
+        "Post-meal walks reduce bloating through faster gastric transit - mechanistic claim",
+        "Sitting upright increases intestinal gas movement 33% compared to lying down - specific quantitative claim",
+        "Sugar-sweetened beverages in adolescence linked to early-onset colorectal cancer - epidemiological association"
+      ],
+      "policy_relevance": [
+        "Age 45 recommendation for colorectal cancer screening coverage by insurance",
+        "Insurance coverage gaps for colonoscopy screening in adults under 45 despite concerning symptoms",
+        "NIH grant funding for gastroenterology research on Parkinson's disease",
+        "Healthcare access disparity: only ~25% of eligible people age 45-50 receiving colorectal cancer screening",
+        "Regulatory discussion about screening age thresholds and risk stratification for early-onset colorectal cancer"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Florida Bay Research Programs and Their Relation to the Comprehensive Everglades Restoration Plan",
+          "url": "https://nap.nationalacademies.org/catalog/10479/florida-bay-research-programs-and-their-relation-to-the-comprehensive-everglades-restoration-plan"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Reflections on a Tool of Observation: Artwork Inspired by the James Webb Space Telescope by Tim Makepeace",
+          "url": "https://nap.nationalacademies.org/catalog/26824/reflections-on-a-tool-of-observation-artwork-inspired-by-the"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
+          "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber"
+        },
+        {
+          "title": "Using Systematic Reviews to Support Future Dietary Reference Intakes: A Letter Report",
+          "url": "https://nap.nationalacademies.org/catalog/27031/using-systematic-reviews-to-support-future-dietary-reference-intakes-a"
+        },
+        {
+          "title": "Dietary Reference Intakes: Applications in Dietary Assessment",
+          "url": "https://nap.nationalacademies.org/catalog/9956/dietary-reference-intakes-applications-in-dietary-assessment"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Why is NASA going to the moon again?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-01T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "NASA is preparing to launch the Artemis II mission, which will send four astronauts around the moon for the first time in over 50 years. The mission serves as a test flight for the Orion capsule and its life support systems, with astronauts making a decision one day into the mission whether to proceed with translunar injection to reach the moon. NASA's long-term goal is to establish sustained human presence on the moon through a multi-phase program expected to cost approximately $93 billion, with potential moon landings beginning as early as 2028, ultimately serving as a stepping stone toward Mars exploration.",
+      "science_topics": [
+        "Orion capsule design and life support systems testing",
+        "Translunar injection orbital mechanics",
+        "Lunar dust composition and hazards",
+        "Lunar water ice extraction and resource utilization",
+        "Long-duration human spaceflight in deep space",
+        "Communications blackout during far-side lunar transit"
+      ],
+      "claims_to_note": [
+        "Last human moon landing was Apollo 17 in December 1972 - verifiable historical fact",
+        "Artemis II astronauts will reach 4,000-6,000 miles from the moon surface - specific orbital parameter",
+        "Moon will appear basketball-sized at arm's length from crew perspective - visual comparison claim",
+        "Total projected cost through 2025 was $93 billion according to NASA Inspector General - budgetary claim requiring verification",
+        "NASA spending is now less than 1% of federal budget vs. 4% during Apollo era - historical comparison claim",
+        "Recent polling shows majority American support for Artemis with higher support than Apollo program had - polling data to verify",
+        "Potential moon landing as soon as 2028 - acknowledged as 'optimistic' by reporter"
+      ],
+      "policy_relevance": [
+        "Artemis program mandated by President George W. Bush in 2004 speech directing NASA to retire Space Shuttles and develop moon-capable vehicle",
+        "NASA contracted with SpaceX and Blue Origin for lunar lander development",
+        "New NASA Administrator Jared Isaacman (private entrepreneur/astronaut) accelerating lander development timelines",
+        "Congressional bipartisan support for Artemis program across multiple administrations",
+        "International partnerships including Canadian Space Agency and European Space Agency participation",
+        "Phase one of three-phase plan estimated at $10 billion",
+        "Chinese lunar exploration program mentioned as geopolitical consideration",
+        "Plans for monthly lunar landings proposed by NASA leadership"
+      ],
+      "nasem_publications": [
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25153/integrating-responses-at-the-intersection-of-opioid-use-disorder-and-infectious-disease-epidemics"
+        },
+        {
+          "title": "Disasters by Design: A Reassessment of Natural Hazards in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/5782/disasters-by-design-a-reassessment-of-natural-hazards-in-the"
+        },
+        {
+          "title": "Reassessment of the Department of Veterans Affairs Airborne Hazards and Open Burn Pit Registry",
+          "url": "https://nap.nationalacademies.org/catalog/26729/reassessment-of-the-department-of-veterans-affairs-airborne-hazards-and-open-burn-pit-registry"
+        },
+        {
+          "title": "Frameworks for Protecting Workers and the Public from Inhalation Hazards",
+          "url": "https://nap.nationalacademies.org/catalog/26372/frameworks-for-protecting-workers-and-the-public-from-inhalation-hazards"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Space Nuclear Propulsion for Human Mars Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25977/space-nuclear-propulsion-for-human-mars-exploration"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
