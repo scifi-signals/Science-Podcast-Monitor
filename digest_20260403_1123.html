@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 03, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 03, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">45</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">86</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">```json
+{
+  "executive_summary": "Today's briefing reveals three convergent priority areas for NASEM: (1) Artemis II lunar mission dominates science communication across podcasts and social platforms, with implications for deep space human physiology, radiation exposure, and commercial space partnerships that warrant NASEM input on safety standards and crew health protocols; (2) fundamental physics tensions persist—the Hubble constant discrepancy (73 vs. 67 km/s/Mpc) remains unresolved and repre</p>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Human Spaceflight Physiology and Deep Space Hazards</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on the biological challenges of sustained human spaceflight beyond Earth's magnetic protection. Science Friday, Short Wave, and Nature Podcast all addressed radiation exposure, life support systems, and physiological adaptation (bone marrow changes, visual system effects) within the same week, reflecting growing urgency as lunar and deep space missions advance. This represents a shift from theoretical to applied health research as NASA accelerates Artemis timelines.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must convene experts on human factors engineering and space medicine to establish evidence-based standards for long-duration missions beyond LEO.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Precision Medicine and AI-Driven Biomarker Discovery</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win and The Life Science Rundown both highlighted genomic data analysis, biomarker testing, and AI-assisted clinical decision-making in cancer detection and rare disease drug development. The convergence signals that regulatory frameworks and clinical trial design are evolving to accommodate computational approaches, particularly for early detection and surrogate endpoint validation.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess gaps in regulatory guidance for AI-assisted diagnostics and establish best practices for data validation in precision medicine trials.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Antimicrobial Resistance as Existential Threat</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab's deep dive into MRSA, Acinetobacter baumannii, vancomycin-resistant and carbapenem-resistant bacteria reflects an intensifying focus on multidrug-resistant pathogens without adequate treatment alternatives. This represents an emerging consensus that antimicrobial resistance is reaching critical thresholds in clinical settings, distinct from pandemic preparedness concerns.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a comprehensive assessment of antimicrobial stewardship, alternative therapeutics (phage therapy, immunotherapies), and global surveillance infrastructure gaps.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Climate Impact of Aviation and Aviation Engineering</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast isolated contrail formation, soot emissions, and engine combustion efficiency as distinct climate forcing mechanisms. This represents emerging specificity in aviation climate research—moving beyond carbon accounting to aerosol physics and ice nucleation, with policy implications for engine design standards.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should evaluate the technical feasibility and timeline for lean-burn engine adoption and establish emissions standards that account for non-CO2 climate forcing.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Synthetic Biology and Genome Engineering Governance</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast and The Skeptics' Guide to the Universe both addressed advanced biotechnology (synthetic genome transplantation, somatic cell nuclear transfer, CRISPR-assisted insertion) with implicit governance questions. Making Sense explicitly raised biosecurity and laboratory biosafety protocols in parallel, indicating that the field recognizes dual-use risks are outpacing regulatory clarity.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Skeptics' Guide to the Universe</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish a standing committee on synthetic biology governance, including thresholds for gain-of-function research and international coordination mechanisms.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Artemis II is go: humans head to the Moon after half-century absence</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Apr 02 &middot; 15 min</div>
+<p style="margin:10px 0;font-size:14px;">The Nature Podcast episode covers the successful launch of NASA's Artemis II mission, which carries a crew of four astronauts on a nearly 10-day journey around the Moon for the first time in half a century. The mission serves as a critical test of the Orion spacecraft's ability to support humans in deep space, while conducting scientific research on radiation exposure and lunar observations. The episode discusses the diverse crew composition, the mission's scientific objectives including 'organs on a chip' experiments, and public perception challenges similar to those faced by the Apollo program in the 1960s.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Radiation exposure in deep space beyond Earth's magnetic shield</span>
+  <span class="topic-tag">Organs-on-a-chip technology using astronaut bone marrow cells</span>
+  <span class="topic-tag">Human visual observation of lunar far side and color discrimination in lunar geology</span>
+  <span class="topic-tag">Earthrise imagery and environmental movement symbolism</span>
+  <span class="topic-tag">Orion spacecraft systems testing for deep space human spaceflight</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10477/the-sun-to-the-earth-and-beyond-a-decadal-research" target="_blank">The Sun to the Earth -- and Beyond: A Decadal Research Strategy in Solar and Space Physics</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited" target="_blank">NASA Space Technology Roadmaps and Priorities Revisited</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges" target="_blank">Environmental Engineering for the 21st Century: Addressing Grand Challenges</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Apollo 17 astronaut Harrison Smith (identified as geologist) discovered orange soil deposits through visual observation that was 'an interesting discovery' - claim about discovery mechanism and significance should be verified</div>
+<div class="claim">Apollo program cost was 'more than $250 billion in inflation adjusted dollars' - verify specific cost figures against NASA historical records</div>
+<div class="claim">Claim that 'all the Apollo astronauts were American white men' - verify demographic composition of Apollo crews</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We have not had anyone in deep space [since Apollo] so there's all sorts of experiments and all sorts of stuff that's getting tested on this flight."</div>
+<div class="quote">"The point of Apollo was to land a human on the moon from the US before the Soviets did. And there wasn't really clear what was going to happen after that...NASA has a plan for a longer term return to the lunar surface to build a moon base."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: Resolving the dispute over the speed of the expanding universe, and seeking new drug targets for cognitive dysfunction</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Apr 02 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode covers two major scientific topics: the Hubble tension regarding the universe's expansion rate and the integrated stress response (ISR) pathway in cognitive dysfunction. Researchers are using gravitational lensing as a third independent method to measure the Hubble constant, which has yielded inconsistent results between astronomical methods (73 km/s/Mpc) and cosmological methods (67 km/s/Mpc). In the second segment, researchers at Altos Labs demonstrate that hyperactivation of the integrated stress response causes cognitive impairment in mice with genetic variants associated with intellectual disability, and that inhibiting this pathway using a viral protein can reverse cognitive decline in models of Alzheimer's disease, Down syndrome, and normal aging.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Hubble constant measurement and Hubble tension</span>
+  <span class="topic-tag">Gravitational lensing of supernovae</span>
+  <span class="topic-tag">Cosmic microwave background radiation</span>
+  <span class="topic-tag">Type Ia supernovae as standard candles</span>
+  <span class="topic-tag">Cepheid variable stars for distance measurement</span>
+  <span class="topic-tag">Dark energy and cosmic acceleration</span>
+  <span class="topic-tag">Integrated stress response (ISR) pathway</span>
+  <span class="topic-tag">Protein synthesis regulation under cellular stress</span>
+  <span class="topic-tag">Synaptic plasticity and long-term memory formation</span>
+  <span class="topic-tag">Genetic models of intellectual disability</span>
+  <span class="topic-tag">Down syndrome (trisomy 21) cognitive dysfunction</span>
+  <span class="topic-tag">Alzheimer's disease pathology</span>
+  <span class="topic-tag">African swine fever virus protein inhibitors</span>
+  <span class="topic-tag">Gene therapy delivery via AAV vectors</span>
+  <span class="topic-tag">Microcephaly associated with cognitive disorders</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research" target="_blank">Risk Assessment Techniques for Transportation Asset Management: Conduct of Research</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2" target="_blank">Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10656/who-goes-there-authentication-through-the-lens-of-privacy" target="_blank">Who Goes There?: Authentication Through the Lens of Privacy</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27068/background-and-summary-of-a-guide-for-roundabouts" target="_blank">Background and Summary of a Guide for Roundabouts</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation" target="_blank">Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10863/patient-safety-achieving-a-new-standard-for-care" target="_blank">Patient Safety: Achieving a New Standard for Care</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research" target="_blank">Risk Assessment Techniques for Transportation Asset Management: Conduct of Research</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Hubble constant value of 73 km/s/Mpc from astronomical methods using standard candles (Cepheid variables and Type Ia supernovae)</div>
+<div class="claim">Hubble constant value of 67 km/s/Mpc from cosmological methods using cosmic microwave background</div>
+<div class="claim">Error bars in Hubble measurements have decreased over time but the two methods' results have not converged, indicating a systematic discrepancy rather than measurement uncertainty</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"What you can do then is if you have a supernova that does that, where it appears at different times, different places, you can use that to sort of triangulate back to where the supernova came from and calculate its distance. So the different time delays between the different images give you a handle on the distance to that distant object combined with their distribution on the sky."</div>
+<div class="quote">"If it very obviously favors one or the other, that will suggest where the problem lies. There's something wrong with the other guys...so where the problem that creates this Hubble tension lies. And then you can start looking for that problem and figure out which is right."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Never had the flu? Scientists may know why</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 03 &middot; 10 min</div>
+<p style="margin:10px 0;font-size:14px;">This Shortwave episode presents three health-focused science stories: research identifying a nasal protein called dermcidin that appears to protect some people from flu infection, a study suggesting that brief bursts of vigorous exercise (15-20 minutes weekly) may be as effective as longer workout durations for preventing serious diseases, and evidence that global food fortification programs prevent approximately 7 billion nutrient gaps annually. The hosts discuss how these findings could influence personal health decisions around disease prevention, exercise routines, and dietary fortification policies.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dermcidin protein as antiviral agent against influenza</span>
+  <span class="topic-tag">Flu-resistant individuals and innate immunity mechanisms</span>
+  <span class="topic-tag">High-intensity interval exercise and cardiovascular disease prevention</span>
+  <span class="topic-tag">Vigorous exercise intensity thresholds (70-85% max heart rate)</span>
+  <span class="topic-tag">Food fortification with micronutrients (iodine, folic acid, iron)</span>
+  <span class="topic-tag">Neural tube defects prevention through folic acid supplementation</span>
+  <span class="topic-tag">Micronutrient deficiency and global health burden</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12799/the-domestic-and-international-impacts-of-the-2009-h1n1-influenza-a-pandemic" target="_blank">The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary</a></div>
+<div class="nasem-match">Countering the Pandemic Threat Through Global Coordination on Vaccines</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23559/data-breach-aftermath-and-recovery-for-individuals-and-institutions-proceedings" target="_blank">Data Breach Aftermath and Recovery for Individuals and Institutions: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match">Preventing and Treating Dementia: Research Priorities to Accelerate Progress</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs" target="_blank">Human-AI Teaming: State-of-the-Art and Research Needs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25045/review-of-the-draft-second-state-of-the-carbon-cycle-report-soccr2" target="_blank">Review of the Draft Second State of the Carbon Cycle Report (SOCCR2)</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10872/dietary-reference-intakes-guiding-principles-for-nutrition-labeling-and-fortification" target="_blank">Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/6432/dietary-reference-intakes-a-risk-assessment-model-for-establishing-upper" target="_blank">Dietary Reference Intakes: A Risk Assessment Model for Establishing Upper Intake Levels for Nutrients</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Dermcidin in saliva and nasal passages blocks multiple flu strains including antivirals-resistant strains - claims blocking measles and common cold viruses</div>
+<div class="claim">15-20 minutes of vigorous exercise weekly is sufficient to reduce risk of heart disease, kidney disease, type 2 diabetes, and dementia</div>
+<div class="claim">Study based on survey data from over 96 people in the UK (note: transcript says '96 people' which seems unusually small for such broad health claims)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">""Scientists found a lot of this one small protein in the noses and mouths of people who reported never getting flu symptoms. And that seems likely to protect them from the flu virus.""</div>
+<div class="quote">""We are very surprised. We expected the higher intensity activity could be beneficial, but we were struck by how much more important intensity was than total volume.""</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Artemis II test flight heads toward the moon</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 03 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode covers NASA's Artemis II mission, which successfully launched four astronauts on a lunar flyby mission in April 2026. The episode discusses the mission objectives, including testing the Orion capsule and its manual controls, conducting medical tests on deep space effects, and observing the lunar far side. It also explores NASA's shift in strategy under new Administrator Jared Isaacman toward building a permanent lunar surface base rather than an orbital gateway, relying on commercial partners for lander development. The second segment examines what would happen if Earth lost its moon, concluding that such an event would eventually render the planet barren through disrupted tides, altered climate patterns, and confused biological rhythms.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Human spaceflight and lunar missions</span>
+  <span class="topic-tag">Orion spacecraft testing and capabilities</span>
+  <span class="topic-tag">Lunar geology and far-side observation</span>
+  <span class="topic-tag">Deep space effects on human physiology</span>
+  <span class="topic-tag">Tidal mechanics and lunar gravitational effects</span>
+  <span class="topic-tag">Earth's axial tilt and climate stability</span>
+  <span class="topic-tag">Circadian and circalunary biological rhythms</span>
+  <span class="topic-tag">Planetary habitability and atmospheric dynamics</span>
+  <span class="topic-tag">Commercial spacecraft docking procedures</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26824/reflections-on-a-tool-of-observation-artwork-inspired-by-the" target="_blank">Reflections on a Tool of Observation: Artwork Inspired by the James Webb Space Telescope by Tim Makepeace</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects" target="_blank">Oil in the Sea IV: Inputs, Fates, and Effects</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Artemis II successfully launched on April 1, 2026 with four astronauts (should verify actual launch date)</div>
+<div class="claim">SLS rocket produces 8.8 million pounds of thrust</div>
+<div class="claim">Artemis II will flyby the moon at approximately 5,000 miles above the far side surface</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"You don't see a launch, you don't hear a launch, you feel a launch. And that was certainly the case with SLS."</div>
+<div class="quote">"He wants to go to the moon to stay. The gateway...was really only meant to transfer astronauts from the Orion space capsule to their lunar landers. Now with a permanent science base, they'll be able to keep astronauts there for four weeks at a time."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Apr 01 &middot; 33 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Unbiased Science discusses pediatric nutrition and feeding practices, featuring pediatric dietitian and nutrition PhD Dr. Taylor Arnold. The main topics include the 2026 dietary guidelines and their implementation challenges, the concept of intuitive eating and responsive feeding in children, strategies for addressing picky eating without forcing, and nutrition misinformation on social media. The hosts and guest emphasize evidence-based approaches to supporting children's healthy relationships with food while addressing medical factors, sensory needs, and neurodivergence.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Pediatric responsive feeding practices</span>
+  <span class="topic-tag">Intuitive eating and diet culture in children</span>
+  <span class="topic-tag">Eosinophilic esophagitis as cause of selective eating</span>
+  <span class="topic-tag">ADHD and sensory processing in feeding behavior</span>
+  <span class="topic-tag">Pediatric feeding disorders and ARFID (Avoidant/Restrictive Food Intake Disorder)</span>
+  <span class="topic-tag">Iron deficiency anemia in picky eaters</span>
+  <span class="topic-tag">Pesticide residues on conventional vs. organic produce</span>
+  <span class="topic-tag">Sensory domains in food acceptance (taste, smell, tactile, auditory, proprioceptive, vestibular)</span>
+  <span class="topic-tag">Oral allergy immunotherapy in children</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2" target="_blank">Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing" target="_blank">Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance" target="_blank">Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare" target="_blank">Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2" target="_blank">Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2" target="_blank">Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence" target="_blank">Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety</div>
+<div class="claim">Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports</div>
+<div class="claim">Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"I like to say, you know, I'm into the produce, not the label... it doesn't matter if it conventionally grown or organically grown... at the end of the day, eat fruits and veggies, whatever kind, whatever, however they're grown."</div>
+<div class="quote">"The mere presence of a substance does not equate to harm. So just because there's a trace, trace, trace amounts of a pesticide detected on a fruit or a vegetable does not mean that it is harmful to us."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">86 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Mission (15 posts)</span> <span style="font-size:13px;color:#4a5568;">Extensive coverage of NASA's Artemis II lunar mission including engine burns, crew health experiments, Moon orbit operations, and scientific observations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Astronomical Observations and Space Telescopes (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts about Vera C. Rubin Observatory asteroid discoveries, Webb space telescope protoplanetary disc observations, and lunar imaging using LRO and SDO data.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Law and Commercial Space Activities (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of regulatory concerns regarding commercial space programs and the need for proper space law controls.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Life Sciences and Health Research (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Studies on ancient dog genomes, CTE in sports, GLP-1 weight loss medications, sarbecovirus immunity, and octopus neurobiology.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Marine Biology and Ocean Research (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on shark genetics, marine life conservation, illegal fishing detection, and deep-sea organism studies.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@coreyspowell.bsky.social</div>
+  <div class="bluesky-stats">181 likes &middot; 60 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">So beautiful and humbling to see Earth from this perspective.
+
+41,800 miles (67,200 km) from our planet--the view from Artemis II.  🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/coreyspowell.bsky.social/post/3mijvjm6ik22w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drspacejunk.bsky.social</div>
+  <div class="bluesky-stats">127 likes &middot; 31 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">The Artemis II crew are using their own bodies as scientific experiments. One of these is ARCHeR: Artemis Research for Crew Health and Readiness. Wristband devices collect date to provide deeper insights into cognition, behavior, sleep quality, and teamwork. 🧪 #ArtemisII</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drspacejunk.bsky.social/post/3mikyavixek2a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@jennanewman.bsky.social</div>
+  <div class="bluesky-stats">97 likes &middot; 49 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">“Of course, in the real world, LLMs aren’t trained on a relatively ⁠limited set of words but effectively on the whole internet, which means hallucinations are likely an even bigger problem in reality than in this experiment.”🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/jennanewman.bsky.social/post/3mike4w5jrk2i" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@alexwitze.bsky.social</div>
+  <div class="bluesky-stats">107 likes &middot; 29 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">The #ArtemisII astronauts have fired the engines on their spacecraft and set course for the Moon. The Earth is falling away behind them. Watch live views of this extraordinary moment: x37b.nl/artemis/ 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/alexwitze.bsky.social/post/3mikfz7x23c2o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">111 likes &middot; 22 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Artemis II blasts ever closer to the far side of the Moon. 🔭 🧪 www.bbc.co.uk/news/article...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mikylwuaes2v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Human Spaceflight and Crew Health Research</strong>: Artemis II experiments (ARCHeR, Immune Biomarkers) directly address NASEM's ongoing work on human factors in long-duration spaceflight and crew health monitoring during deep space missions.</div>
+<div class="nasem-match"><strong>Space Law and Commercial Space Regulation</strong>: Posts discussing commercial space program oversight and regulatory gaps relate to NASEM's policy work on space governance and the need for updated international space law frameworks.</div>
+<div class="nasem-match"><strong>Large-Scale Scientific Infrastructure and Discovery</strong>: Vera C. Rubin Observatory's rapid discovery of 12,700+ asteroids exemplifies transformative scientific infrastructure outcomes that NASEM evaluates in context of research funding and facilities assessment.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 03, 2026 at 11:23 AM | Internal use only
+    </div>
+</body>
+</html>

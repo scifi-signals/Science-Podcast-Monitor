@@ -1,7 +1,393 @@
 {
-  "updated": "2026-04-02T11:25:32.822435",
-  "episode_count": 145,
+  "updated": "2026-04-03T11:23:56.299892",
+  "episode_count": 150,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Artemis II test flight heads toward the moon",
+      "host": "Ira Flatow",
+      "published": "2026-04-03T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode covers NASA's Artemis II mission, which successfully launched four astronauts on a lunar flyby mission in April 2026. The episode discusses the mission objectives, including testing the Orion capsule and its manual controls, conducting medical tests on deep space effects, and observing the lunar far side. It also explores NASA's shift in strategy under new Administrator Jared Isaacman toward building a permanent lunar surface base rather than an orbital gateway, relying on commercial partners for lander development. The second segment examines what would happen if Earth lost its moon, concluding that such an event would eventually render the planet barren through disrupted tides, altered climate patterns, and confused biological rhythms.",
+      "science_topics": [
+        "Human spaceflight and lunar missions",
+        "Orion spacecraft testing and capabilities",
+        "Lunar geology and far-side observation",
+        "Deep space effects on human physiology",
+        "Tidal mechanics and lunar gravitational effects",
+        "Earth's axial tilt and climate stability",
+        "Circadian and circalunary biological rhythms",
+        "Planetary habitability and atmospheric dynamics",
+        "Commercial spacecraft docking procedures"
+      ],
+      "claims_to_note": [
+        "Artemis II successfully launched on April 1, 2026 with four astronauts (should verify actual launch date)",
+        "SLS rocket produces 8.8 million pounds of thrust",
+        "Artemis II will flyby the moon at approximately 5,000 miles above the far side surface",
+        "Earth's axial tilt is 23.5 degrees relative to orbital plane",
+        "Without the moon, Earth would spin faster with dramatically increased wind speeds",
+        "Marine animals and plants possess circalunary (lunar) biological clocks",
+        "Moon's presence prevents Earth's axial tilt from wobbling significantly over geological timescales",
+        "Without the moon, life may never have emerged on Earth due to lack of tidal nutrient mixing"
+      ],
+      "policy_relevance": [
+        "NASA Administrator Jared Isaacman announced shift from orbital Gateway station to permanent lunar surface base",
+        "Change in Artemis program focus requires partnership with commercial companies (SpaceX, Blue Origin) for lander development",
+        "Congressional Space and Aeronautics Subcommittee chairman Mike Herodopoulos expressed support for new lunar base direction",
+        "Artemis II success cited as critical factor in determining Congressional continued funding support",
+        "NASA modifying SLS rocket design to increase launch cadence and reduce mission complexity",
+        "Commercial lunar payload missions planned to support surface base construction"
+      ],
+      "nasem_publications": [
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Reflections on a Tool of Observation: Artwork Inspired by the James Webb Space Telescope by Tim Makepeace",
+          "url": "https://nap.nationalacademies.org/catalog/26824/reflections-on-a-tool-of-observation-artwork-inspired-by-the"
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Never had the flu? Scientists may know why",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-03T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Shortwave episode presents three health-focused science stories: research identifying a nasal protein called dermcidin that appears to protect some people from flu infection, a study suggesting that brief bursts of vigorous exercise (15-20 minutes weekly) may be as effective as longer workout durations for preventing serious diseases, and evidence that global food fortification programs prevent approximately 7 billion nutrient gaps annually. The hosts discuss how these findings could influence personal health decisions around disease prevention, exercise routines, and dietary fortification policies.",
+      "science_topics": [
+        "Dermcidin protein as antiviral agent against influenza",
+        "Flu-resistant individuals and innate immunity mechanisms",
+        "High-intensity interval exercise and cardiovascular disease prevention",
+        "Vigorous exercise intensity thresholds (70-85% max heart rate)",
+        "Food fortification with micronutrients (iodine, folic acid, iron)",
+        "Neural tube defects prevention through folic acid supplementation",
+        "Micronutrient deficiency and global health burden"
+      ],
+      "claims_to_note": [
+        "Dermcidin in saliva and nasal passages blocks multiple flu strains including antivirals-resistant strains - claims blocking measles and common cold viruses",
+        "15-20 minutes of vigorous exercise weekly is sufficient to reduce risk of heart disease, kidney disease, type 2 diabetes, and dementia",
+        "Study based on survey data from over 96 people in the UK (note: transcript says '96 people' which seems unusually small for such broad health claims)",
+        "Food fortification programs globally prevent 7 billion nutrient gaps annually",
+        "Folic acid fortification of corn masa flour reduces neural tube defects in infants",
+        "American Heart Association recommends 75 minutes vigorous exercise weekly or 150 minutes moderate exercise - study suggests less vigorous exercise may suffice"
+      ],
+      "policy_relevance": [
+        "California law requiring folic acid fortification of corn masa flour for tortilla production",
+        "Alabama implementing similar folic acid fortification law scheduled for June (2026)",
+        "American Heart Association exercise guidelines referenced as policy standard",
+        "Global food fortification programs compliance and national standards for micronutrient levels",
+        "Study measured food fortification policy impact across 185 countries"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/12799/the-domestic-and-international-impacts-of-the-2009-h1n1-influenza-a-pandemic"
+        },
+        {
+          "title": "Countering the Pandemic Threat Through Global Coordination on Vaccines",
+          "url": ""
+        },
+        {
+          "title": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+          "url": "https://nap.nationalacademies.org/catalog/26285/globally-resilient-supply-chains-for-seasonal-and-pandemic-influenza-vaccines"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Data Breach Aftermath and Recovery for Individuals and Institutions: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23559/data-breach-aftermath-and-recovery-for-individuals-and-institutions-proceedings"
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation",
+          "url": "https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Review of the Draft Second State of the Carbon Cycle Report (SOCCR2)",
+          "url": "https://nap.nationalacademies.org/catalog/25045/review-of-the-draft-second-state-of-the-carbon-cycle-report-soccr2"
+        },
+        {
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
+        },
+        {
+          "title": "Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification",
+          "url": "https://nap.nationalacademies.org/catalog/10872/dietary-reference-intakes-guiding-principles-for-nutrition-labeling-and-fortification"
+        },
+        {
+          "title": "Dietary Reference Intakes: A Risk Assessment Model for Establishing Upper Intake Levels for Nutrients",
+          "url": "https://nap.nationalacademies.org/catalog/6432/dietary-reference-intakes-a-risk-assessment-model-for-establishing-upper"
+        },
+        {
+          "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+          "url": "https://nap.nationalacademies.org/catalog/10026/dietary-reference-intakes-for-vitamin-a-vitamin-k-arsenic-boron-chromium-copper-iodine-iron-manganese-molybdenum-nickel-silicon-vanadium-and-zinc"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "Resolving the dispute over the speed of the expanding universe, and seeking new drug targets for cognitive dysfunction",
+      "host": "Sarah Crespi",
+      "published": "2026-04-02T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode covers two major scientific topics: the Hubble tension regarding the universe's expansion rate and the integrated stress response (ISR) pathway in cognitive dysfunction. Researchers are using gravitational lensing as a third independent method to measure the Hubble constant, which has yielded inconsistent results between astronomical methods (73 km/s/Mpc) and cosmological methods (67 km/s/Mpc). In the second segment, researchers at Altos Labs demonstrate that hyperactivation of the integrated stress response causes cognitive impairment in mice with genetic variants associated with intellectual disability, and that inhibiting this pathway using a viral protein can reverse cognitive decline in models of Alzheimer's disease, Down syndrome, and normal aging.",
+      "science_topics": [
+        "Hubble constant measurement and Hubble tension",
+        "Gravitational lensing of supernovae",
+        "Cosmic microwave background radiation",
+        "Type Ia supernovae as standard candles",
+        "Cepheid variable stars for distance measurement",
+        "Dark energy and cosmic acceleration",
+        "Integrated stress response (ISR) pathway",
+        "Protein synthesis regulation under cellular stress",
+        "Synaptic plasticity and long-term memory formation",
+        "Genetic models of intellectual disability",
+        "Down syndrome (trisomy 21) cognitive dysfunction",
+        "Alzheimer's disease pathology",
+        "African swine fever virus protein inhibitors",
+        "Gene therapy delivery via AAV vectors",
+        "Microcephaly associated with cognitive disorders"
+      ],
+      "claims_to_note": [
+        "Hubble constant value of 73 km/s/Mpc from astronomical methods using standard candles (Cepheid variables and Type Ia supernovae)",
+        "Hubble constant value of 67 km/s/Mpc from cosmological methods using cosmic microwave background",
+        "Error bars in Hubble measurements have decreased over time but the two methods' results have not converged, indicating a systematic discrepancy rather than measurement uncertainty",
+        "Gravitational lensing method is currently producing highly variable results with wide error bars, some below 67 and some near 73 km/s/Mpc",
+        "PPP1R15B genetic variant in humans is associated with hyperactive integrated stress response and cognitive impairment",
+        "Hyperactivation of ISR in mice models causes microcephaly and impaired memory formation",
+        "Single injection of African swine fever virus-derived protein (approximately 60 amino acids) into mouse brains reversed cognitive decline in Alzheimer's, Down syndrome, and aging models",
+        "The integrated stress response may be a common denominator across genetically distinct cognitive disorders (Down syndrome, chromosome 2 deletion, Alzheimer's disease)"
+      ],
+      "policy_relevance": [
+        "NSF-funded Vera Rubin Observatory (LSST) coming online in Chile to identify lensed supernovae for Hubble constant measurements",
+        "Gene therapy development and FDA approval pathways for ISR inhibitors mentioned as in-clinic development",
+        "NIH research on viral protein mechanisms (Tom Deaver, NIH) contributing to therapeutic strategy development",
+        "AAV vector capacity limitations affecting gene therapy design for therapeutic applications",
+        "Altos Labs (founded 2022) as private research institute pursuing cellular rejuvenation therapies with potential clinical applications"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Improving Measurement of Productivity in Higher Education",
+          "url": "https://nap.nationalacademies.org/catalog/13417/improving-measurement-of-productivity-in-higher-education"
+        },
+        {
+          "title": "Who Goes There?: Authentication Through the Lens of Privacy",
+          "url": "https://nap.nationalacademies.org/catalog/10656/who-goes-there-authentication-through-the-lens-of-privacy"
+        },
+        {
+          "title": "Background and Summary of a Guide for Roundabouts",
+          "url": "https://nap.nationalacademies.org/catalog/27068/background-and-summary-of-a-guide-for-roundabouts"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+          "url": "https://nap.nationalacademies.org/catalog/26338/mid-term-assessment-of-progress-on-the-2015-strategic-vision-for-antarctic-and-southern-ocean-research"
+        },
+        {
+          "title": "Literacy for Science: Exploring the Intersection of the Next Generation Science Standards and Common Core for ELA Standards: A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18803/literacy-for-science-exploring-the-intersection-of-the-next-generation"
+        },
+        {
+          "title": "Patient Safety: Achieving a New Standard for Care",
+          "url": "https://nap.nationalacademies.org/catalog/10863/patient-safety-achieving-a-new-standard-for-care"
+        },
+        {
+          "title": "Chemical Laboratory Safety and Security: A Guide to Developing Standard Operating Procedures",
+          "url": "https://nap.nationalacademies.org/catalog/21918/chemical-laboratory-safety-and-security-a-guide-to-developing-standard"
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Behavioral Traffic Safety Messaging on Variable Message Signs",
+          "url": "https://nap.nationalacademies.org/catalog/26656/behavioral-traffic-safety-messaging-on-variable-message-signs"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Artemis II is go: humans head to the Moon after half-century absence",
+      "host": "Springer Nature",
+      "published": "2026-04-02T14:26:34",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The Nature Podcast episode covers the successful launch of NASA's Artemis II mission, which carries a crew of four astronauts on a nearly 10-day journey around the Moon for the first time in half a century. The mission serves as a critical test of the Orion spacecraft's ability to support humans in deep space, while conducting scientific research on radiation exposure and lunar observations. The episode discusses the diverse crew composition, the mission's scientific objectives including 'organs on a chip' experiments, and public perception challenges similar to those faced by the Apollo program in the 1960s.",
+      "science_topics": [
+        "Radiation exposure in deep space beyond Earth's magnetic shield",
+        "Organs-on-a-chip technology using astronaut bone marrow cells",
+        "Human visual observation of lunar far side and color discrimination in lunar geology",
+        "Earthrise imagery and environmental movement symbolism",
+        "Orion spacecraft systems testing for deep space human spaceflight"
+      ],
+      "claims_to_note": [
+        "Apollo 17 astronaut Harrison Smith (identified as geologist) discovered orange soil deposits through visual observation that was 'an interesting discovery' - claim about discovery mechanism and significance should be verified",
+        "Apollo program cost was 'more than $250 billion in inflation adjusted dollars' - verify specific cost figures against NASA historical records",
+        "Claim that 'all the Apollo astronauts were American white men' - verify demographic composition of Apollo crews",
+        "Assertion that Artemis II crew will have 'wider field of view' seeing 'full disk of the moon' compared to Apollo astronauts at 60-100 km altitude - verify orbital mechanics and viewing angles"
+      ],
+      "policy_relevance": [
+        "NASA's longer-term plan for lunar base establishment mentioned as distinction from Apollo program",
+        "Multiple mentions of planned robot and human missions to lunar surface as part of sustained lunar exploration strategy",
+        "Discussion of public criticism regarding government spending on space missions versus domestic social issues and climate crisis",
+        "Reference to international participation: Canadian astronaut Jeremy Hansen as first non-American beyond low Earth orbit"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "The Sun to the Earth -- and Beyond: A Decadal Research Strategy in Solar and Space Physics",
+          "url": "https://nap.nationalacademies.org/catalog/10477/the-sun-to-the-earth-and-beyond-a-decadal-research"
+        },
+        {
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Environmental Engineering for the 21st Century: Addressing Grand Challenges",
+          "url": "https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -304,6 +690,106 @@
         {
           "title": "Artificial Intelligence and the Future of Work",
           "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-04-01T10:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode of Unbiased Science discusses pediatric nutrition and feeding practices, featuring pediatric dietitian and nutrition PhD Dr. Taylor Arnold. The main topics include the 2026 dietary guidelines and their implementation challenges, the concept of intuitive eating and responsive feeding in children, strategies for addressing picky eating without forcing, and nutrition misinformation on social media. The hosts and guest emphasize evidence-based approaches to supporting children's healthy relationships with food while addressing medical factors, sensory needs, and neurodivergence.",
+      "science_topics": [
+        "Pediatric responsive feeding practices",
+        "Intuitive eating and diet culture in children",
+        "Eosinophilic esophagitis as cause of selective eating",
+        "ADHD and sensory processing in feeding behavior",
+        "Pediatric feeding disorders and ARFID (Avoidant/Restrictive Food Intake Disorder)",
+        "Iron deficiency anemia in picky eaters",
+        "Pesticide residues on conventional vs. organic produce",
+        "Sensory domains in food acceptance (taste, smell, tactile, auditory, proprioceptive, vestibular)",
+        "Oral allergy immunotherapy in children"
+      ],
+      "claims_to_note": [
+        "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+        "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+        "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+        "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+        "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+        "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+        "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature"
+      ],
+      "policy_relevance": [
+        "2026 U.S. Dietary Guidelines for Americans - discussed as lacking implementation detail for pediatric populations compared to previous versions",
+        "New dietary guidelines influence WIC (Women, Infants, and Children) and SNAP program policies affecting child nutrition",
+        "No federal policy on food marketing to children (advertising sugary cereals on kids' TV/podcasts) despite dietary guideline recommendations",
+        "School nutrition policies and accommodations for children with ADHD and feeding disorders",
+        "New food pyramid visual representation in dietary guidelines - criticized as confusing and not adhering to overall guideline structure",
+        "COVID-era expansion of telehealth options for feeding therapy services"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators",
+          "url": "https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
         }
       ]
     },
