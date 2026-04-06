@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 06, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 06, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">42</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">99</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals four distinct priority areas for NASEM engagement: (1) Microplastic contamination has escalated from environmental novelty to urgent public health concern, with bioengineered solutions now entering pilot stage and EPA regulatory action imminent; (2) Critical resource scarcity in helium driven by geopolitical instability threatens advanced research infrastructure (MRI, quantum computing, superconductivity); (3) AI adoption among teenagers shows significant racial/ethnic disparities in educational use patterns, warranting equity-focused guidance; and (4) Epigenetic aging clocks exemplify the gap between research innovation and clinical validity—a pattern relevant to NASEM's evidence assessment mission. The Bluesky discourse emphasizes research integrity concerns around AI-generated citations and sustained attention to space exploration policy trade-offs.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Bioengineered solutions to environmental contamination (algae for microplastics; potential scalability and co-benefits)</li>
+<li>Geopolitical disruption of scientific supply chains (helium shortage tied to Iran-Qatar tensions)</li>
+<li>Racial and ethnic disparities in technology access and educational outcomes (AI literacy among teens)</li>
+<li>Evidence gap between compelling research findings and actionable clinical/policy implementation (aging clocks, Blue Zones)</li>
+<li>Research integrity under pressure from AI tools (AI-generated invalid references in peer-reviewed literature)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Microplastic remediation transitioning from lab to infrastructure integration (EPA regulatory action + commercial-scale algae bioreactors) — consistent with 7-day microplastics focus</li>
+<li>Helium supply chain fragility as systemic research risk — newly surfaced urgency from geopolitical trigger</li>
+<li>AI-generated misinformation in scientific publishing — escalating concern on Bluesky about validity of citations</li>
+<li>Community-based longevity interventions with mixed evidence bases seeking policy adoption (Blue Zones Project model expansion)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid assessment: 'Microplastics in Drinking Water—Bioengineered and Nature-Inspired Remediation Technologies.' Coordinate with EPA and U.S. Geological Survey on regulatory pathways and infrastructure integration timelines.</div>
+<div class="opportunity">Host expert convening on helium supply security and strategic reserves policy, engaging DOE, NSF, and international partners to model supply resilience and prioritize critical research infrastructure (MRI, quantum computing).</div>
+<div class="opportunity">Establish standing committee on evidence standards for community health interventions: examine Blue Zones replication challenges and develop framework for distinguishing validated mechanisms from aspirational claims in built-environment health research.</div>
+<div class="opportunity">Issue guidance on AI integrity in peer review: partner with National Academies' research integrity initiatives to alert journals, funders, and institutions to AI-generated reference fabrication; recommend screening tools.</div>
+<div class="opportunity">Convene equity task force on AI literacy and educational disparities: synthesize Pew data on racial/ethnic patterns in teen AI use to inform NSF and Department of Education on digital divide mitigation strategies.</div>
+<div class="opportunity">Publish commentary on epigenetic aging clocks: clarify distinction between promising research biomarkers and premature consumer deployment; reinforce NASEM's role in translational science validation.</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Blue Zones 'Power Nine' universality claim: Edwards acknowledges community implementation remains a 'hypothesis' but promotional messaging still frames factors as universally transferable. The 15% adoption 'tipping point' is cited without source specification—verify against behavioral literature.</div>
+<div class="claim">Aging clock clinical utility overstating: Peter Attia episode correctly identifies lack of evidence for consumer use, but podcast platforms and supplement/wellness vendors may misrepresent DO-HEALTH results (omega-3 showed ~3 months biological age reduction over 3 years in some clocks). Monitor for consumer marketing of aging clock testing services.</div>
+<div class="claim">Helium balloon consumption narrative: episode correctly redirects blame from balloons to medical/research demand, but misinformation persists in public discourse. Opportunity to reinforce accurate scarcity drivers.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Aging, Longevity, and Biological Clocks</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">A convergent narrative around measuring and understanding aging is emerging across health-focused shows. The Peter Attia Drive and Policy Chats both engaged with aging research—Attia on epigenetic clocks and biological age measurement, Policy Chats on Blue Zones and centenarian populations—signaling policy and clinical interest in aging as a measurable, modifiable process. This reflects growing recognition that chronological age poorly predicts health outcomes, creating space for interventions targeting pace of aging.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Policy Chats</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor aging science policy frameworks, particularly how epigenetic biomarkers inform public health priorities and whether longevity research funding aligns with translational evidence.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microplastics as an Emerging Environmental and Health Hazard</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday dominated microplastics coverage across three episodes, moving from characterization (nanoplastic distribution, bioengineered removal) to ecosystem impacts (contaminated cave systems affecting endangered bats) and technological solutions (whale baleen-inspired filtration). This sequential framing—problem definition → ecological consequence → innovation—suggests the narrative is transitioning from 'novel pollutant' to 'ecosystem stressor requiring remediation,' creating policy windows for regulation and mitigation standards.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess whether current environmental monitoring and regulatory frameworks adequately capture microplastic risk across aquatic and terrestrial ecosystems, and identify knowledge gaps in human health impacts.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Adoption, Youth Digital Literacy, and Behavioral Risks</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">TechTank's focus on adolescent chatbot adoption, digital literacy gaps, and emotional dependency on AI systems reflects growing policy concern about generational AI integration without adequate competency frameworks. The emphasis on human-AI interaction patterns and emotional risk suggests a narrative shift from 'AI as tool' to 'AI as social actor with developmental consequences,' particularly for teenagers.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize convening research on developmental neurobiology of AI-assisted learning, digital literacy standards for K-12 education, and early warning indicators for maladaptive AI-human attachment in youth populations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Space Physiology, Deep-Space Radiation, and Human Spaceflight Readiness</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows (Science Friday, Short Wave, Nature Podcast) converged on human spaceflight challenges in the Artemis/Orion era: physiological effects beyond Earth's magnetosphere, organs-on-a-chip validation of radiation damage using astronaut biosamples, and lunar geology/far-side observation. The narrative is moving from theoretical concerns to empirical testing and mitigation, with Nature Podcast explicitly linking deep-space radiation exposure to organ damage, signaling readiness questions for sustained missions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should coordinate with NASA on validation of radiation countermeasures, long-duration spaceflight health monitoring standards, and whether current human factors research adequately addresses psychological and physiological burdens of deep-space missions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Precision Medicine, Genomic Biomarkers, and AI-Assisted Clinical Translation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Will Win and The Life Science Rundown both addressed genomic-driven medicine—AI-assisted early cancer detection and natural language processing for oncology literature on one side, gene therapy regulatory pathways (Zolgensma) and surrogate endpoints on the other. The convergence reflects momentum toward precision oncology and rare disease therapeutics, but reveals tension between rapid AI-assisted detection and regulatory frameworks designed for traditional clinical endpoints, suggesting policy lag in real-world evidence assessment.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Life Science Rundown</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should evaluate whether FDA and international regulatory pathways adequately accommodate AI biomarker validation, real-world evidence for orphan drugs, and clinical meaningfulness standards for rare disease interventions.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Peter Attia Drive: #386 - Aging clocks—what they measure, how they work, and their clinical and real-world relevance</span>
+</div>
+<div class="episode-meta">Peter Attia, MD &middot; Apr 06 &middot; 43 min</div>
+<p style="margin:10px 0;font-size:14px;">Peter Attia examines the scientific validity and clinical utility of epigenetic aging clocks, which use DNA methylation patterns to estimate biological age and pace of aging. He analyzes two key studies: the DO-HEALTH trial testing omega-3, vitamin D, and exercise interventions on four common epigenetic clocks, and a brain imaging study showing potential utility for predicting cognitive decline and mortality. While acknowledging the scientific interest and potential research value of aging clocks, Attia argues that current evidence does not support their use as consumer health tools, noting that traditional clinical biomarkers and actuarial models remain superior for predicting meaningful health outcomes.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">DNA methylation and epigenetic clocks</span>
+  <span class="topic-tag">CpG sites and gene expression regulation</span>
+  <span class="topic-tag">Chronological age versus biological age</span>
+  <span class="topic-tag">Pace of aging estimation</span>
+  <span class="topic-tag">FenoAge epigenetic clock</span>
+  <span class="topic-tag">GrimAge and GrimAge2 epigenetic clocks</span>
+  <span class="topic-tag">Dunedin-PACE epigenetic clock</span>
+  <span class="topic-tag">Structural brain MRI for aging assessment</span>
+  <span class="topic-tag">Proteome analysis and aging biomarkers</span>
+  <span class="topic-tag">GDF15, leptin, and PAI1 as aging-related plasma proteins</span>
+  <span class="topic-tag">Caloric restriction and aging</span>
+  <span class="topic-tag">Frailty assessment</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states" target="_blank">Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance" target="_blank">Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical" target="_blank">Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Omega-3 supplementation (1g/day with 330mg EPA, 660mg DHA) showed effects corresponding to approximately 3 months of reduced aging over 3 years in 3 of 4 epigenetic clocks tested in the DO-HEALTH trial</div>
+<div class="claim">Vitamin D supplementation (2,000 IU daily) did not significantly impact aging clocks in the DO-HEALTH trial</div>
+<div class="claim">Exercise (30 minutes strength training 3x/week) showed no independent effect on aging clocks in the already-active study population</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"All models are wrong, some are useful. But the question is, how useful are these models? Well, different clocks capture different aspects of biology. Small shifts in the measurements don't necessarily translate into meaningful improvements in health outcomes. And most importantly, we still don't know whether changing the clock actually changes what we ultimately care about, things like disease risk, disability, or lifespan."</div>
+<div class="quote">"At this moment, The science, as it stands, does not provide clear answers to those questions, and in many cases, we already have much more reliable metrics that tell us about health and longevity risk. Things like blood pressure, glucose, lipids, whether you're smoking or not, all the various metrics we have around physical fitness, and body composition. These are not particularly glamorous biomarkers, but they have something that aging clocks don't have yet. Decades of evidence linking them directly to real clinical outcomes."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The world is running out of helium — again</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 06 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores helium's critical role in modern science and technology, tracing its discovery in 1868 through its current applications in MRI machines, quantum computers, and rocket engines. The episode highlights that helium is a finite resource on Earth—created slowly through radioactive decay of uranium and thorium—and that recent geopolitical tensions, particularly Iran's missile attacks on Qatar (the world's second-largest helium supplier), have triggered another helium shortage. The episode emphasizes that while helium balloons are often blamed for waste, the real pressure on helium supplies comes from scientific research and medical applications that require liquid helium for cooling superconductors.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Helium discovery and spectroscopic analysis (1868)</span>
+  <span class="topic-tag">Noble gases and chemical inertness</span>
+  <span class="topic-tag">Atmospheric escape of light elements</span>
+  <span class="topic-tag">Helium formation through radioactive decay of uranium and thorium</span>
+  <span class="topic-tag">Superconductivity and liquid helium cooling</span>
+  <span class="topic-tag">Magnetic resonance imaging (MRI) technology</span>
+  <span class="topic-tag">Superconducting magnets for nuclear magnetic resonance</span>
+  <span class="topic-tag">Quantum computing and helium cooling requirements</span>
+  <span class="topic-tag">Rocket propulsion systems and helium as pressurant gas</span>
+  <span class="topic-tag">Natural gas extraction and helium as byproduct</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering" target="_blank">New Directions for Chemical Engineering</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters" target="_blank">Why Indoor Chemistry Matters</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18887/review-of-the-national-science-foundations-division-on-atmospheric-and-geospace-sciences-draft-goals-and-objectives-document" target="_blank">Review of the National Science Foundation's Division on Atmospheric and Geospace Sciences Draft Goals and Objectives Document</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science" target="_blank">Understanding and Addressing Misinformation About Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23482/preventing-bullying-through-science-policy-and-practice" target="_blank">Preventing Bullying Through Science, Policy, and Practice</a></div>
+<div class="nasem-match">Climate Intervention: Reflecting Sunlight to Cool Earth</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12620/liquid-transportation-fuels-from-coal-and-biomass-technological-status-costs" target="_blank">Liquid Transportation Fuels from Coal and Biomass: Technological Status, Costs, and Environmental Impacts</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Helium is the second most abundant element in the universe—accurate</div>
+<div class="claim">Helium escapes Earth's atmosphere due to low density and weak gravitational retention—accurate</div>
+<div class="claim">Helium on Earth is created by radioactive decay of uranium and thorium—accurate</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Although it's crystal clear there's tons of helium up in the sun, physicists can only find teeny tiny trace amounts on Earth... Because it rises? Yes! It literally just leaves the Earth. It just floats up, and it escapes the atmosphere."</div>
+<div class="quote">"For want of a chemical to sustain it, the liquid helium, we are taking those offline, making smaller the number of experiments that one can do, or maybe even shrinking the size of the research groups."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">TechTank: Teens are using AI—but not how we think</span>
+</div>
+<div class="episode-meta">Brookings Institution &middot; Apr 06 &middot; 29 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines how American teenagers actually use AI chatbots, based on new Pew Research Center data. Host Nicole Turner-Lee and guest Monica Anderson discuss findings showing that teens primarily use AI for information search and schoolwork rather than emotional support, despite media narratives about dependency. The episode highlights significant racial and ethnic disparities in AI use patterns, with Black and Hispanic teens using chatbots more frequently for schoolwork, and notes that teens hold nuanced views about both personal benefits and societal risks of AI, including concerns about job loss and loss of critical thinking skills.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Artificial intelligence chatbot adoption and use patterns among adolescents</span>
+  <span class="topic-tag">Digital literacy and AI competency assessment in teenagers</span>
+  <span class="topic-tag">Human-AI interaction and emotional dependency in young people</span>
+  <span class="topic-tag">Generational differences in AI adoption and attitudes</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Artificial Intelligence and Justified Confidence</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins" target="_blank">Foundational Research Gaps and Future Directions for Digital Twins</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13484/oral-health-literacy-workshop-summary" target="_blank">Oral Health Literacy: Workshop Summary</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change" target="_blank">Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">95% of teens have heard of AI; nearly 60% have heard a lot about it</div>
+<div class="claim">About 25% of teens describe themselves as extremely or very confident using chatbots; another third are somewhat confident</div>
+<div class="claim">Over half of teens use chatbots to help with schoolwork</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Not all teens are using it or using it in the same way, but there's some really interesting differences and patterns when you start to drill down into race and ethnicity."</div>
+<div class="quote">"The cat is out of the bag...not only are parents maybe having to play catch up, but so are educators and administrators."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Can algae help pull microplastics out of our water supply?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 06 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode explores emerging solutions to microplastic contamination, focusing on bioengineered algae developed at the University of Missouri that can remove over 90% of microplastics from water by binding to them and causing precipitation. The algae-based technology could be integrated into wastewater treatment plants and has co-benefits for removing excess nutrients like nitrogen and phosphorus. Additional efforts in the St. Louis area include whale baleen-inspired filtration and development of biodegradable plastic alternatives, while the EPA has recently announced initial steps to regulate microplastics in drinking water.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Microplastics and nanoplastics characterization and distribution</span>
+  <span class="topic-tag">Bioengineered hydrophobic algae for microplastic removal</span>
+  <span class="topic-tag">Microplastic contamination in cave ecosystems and impacts on endangered bat populations</span>
+  <span class="topic-tag">Whale baleen-inspired filtration technology for microplastic capture</span>
+  <span class="topic-tag">Biodegradable plastic alternatives and synthetic fiber pollution from textiles</span>
+  <span class="topic-tag">Nutrient removal (nitrogen and phosphorus) from wastewater using algae</span>
+  <span class="topic-tag">Bioreactor design for controlled cultivation of genetically modified organisms</span>
+  <span class="topic-tag">Microplastics in soil, water bodies, and human food systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24987/improving-characterization-of-anthropogenic-methane-emissions-in-the-united-states" target="_blank">Improving Characterization of Anthropogenic Methane Emissions in the United States</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge" target="_blank">NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25140/alternatives-for-the-demilitarization-of-conventional-munitions" target="_blank">Alternatives for the Demilitarization of Conventional Munitions</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Engineered algae removed more than 90% of microplastics in laboratory water solutions</div>
+<div class="claim">Microplastics were found in a cave closed to public for 30 years, indicating atmospheric/hydrologic transport mechanisms</div>
+<div class="claim">Microplastics accumulate more during flooding events in cave systems</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"They found that it removed more than 90% of microplastics in the water that they were testing in a solution. So very, very good. And it's especially good at removing super, super tiny pieces of plastic."</div>
+<div class="quote">"I think very interesting about research is you have open mind, then you talk with people, then you collaborate, and then different minds come together. I think create a much better project than the one by itself in the very beginning."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Policy Chats: Designing Healthier Cities: Inside the Blue Zones Project Riverside</span>
+</div>
+<div class="episode-meta">Dori Pham (UC Riverside School of Public Policy) &middot; Apr 03 &middot; 47 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode features Aaron Edwards, Executive Director of Blue Zones Project Riverside, discussing how cities can redesign built environments and systems to promote health and longevity. Edwards addresses concerns about the evidentiary basis of Blue Zones research—acknowledging that while the original identification of Blue Zones locations has been validated through further research, implementing their characteristics in new communities remains a hypothesis requiring careful local adaptation. The project uses a five-year community transformation model based on nine identified longevity factors (the "Power Nine"), targeting 15% population engagement, policy changes across built environment, food systems, alcohol, and tobacco domains, and sustainability planning from the outset.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Longevity research and centenarian populations in Blue Zones</span>
+  <span class="topic-tag">Built environment design and health outcomes</span>
+  <span class="topic-tag">Plant-based diet and cardiovascular health</span>
+  <span class="topic-tag">Tobacco exposure and youth smoking initiation</span>
+  <span class="topic-tag">Walkability and physical activity patterns</span>
+  <span class="topic-tag">Community social connection and mental health</span>
+  <span class="topic-tag">Purpose/ikigai and wellbeing outcomes</span>
+  <span class="topic-tag">Gallup Wellbeing Index metrics</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems" target="_blank">Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families" target="_blank">Launching Lifelong Health by Improving Health Care for Children, Youth, and Families</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems" target="_blank">Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and" target="_blank">Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/19018/assessing-the-use-of-agent-based-models-for-tobacco-regulation" target="_blank">Assessing the Use of Agent-Based Models for Tobacco Regulation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21802/physical-activity-moving-toward-obesity-solutions-workshop-summary" target="_blank">Physical Activity: Moving Toward Obesity Solutions: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education" target="_blank">Educating the Student Body: Taking Physical Activity and Physical Education to School</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">The original Blue Zones research (Dan Buettner, National Geographic, 1999) identifying five regions with high centenarian populations has been 'further validated' through additional research; Edwards notes critiques came from 'non-peer-reviewed' papers</div>
+<div class="claim">The 'Power Nine' factors (natural movement, plant-based diet, purposefulness, social connection, etc.) are claimed to be universally transferable to any community</div>
+<div class="claim">A 15% adoption threshold is cited as the tipping point for behavior change becoming woven into community fabric (source not specified in transcript)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We don't have the luxury of waiting until we know what the exact best right thing is to do. We know what are some good next steps. So let's start there. And then at every juncture, we have an opportunity to take the next best step in consultation with community and moving forward with a love of place."</div>
+<div class="quote">"How dare we ask people to walk more if they don't even have sidewalks in their neighborhood to walk on? And so the work of our policy team is thinking 5, 10, 50 years in the future to make sure that once our community engagement team has done the work of sharing why it's important to take more steps, that people have a way to make those steps right where they live."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">99 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Mission (18 posts)</span> <span style="font-size:13px;color:#4a5568;">Real-time coverage of the Artemis II lunar flyby mission including crew observations, spacecraft imagery, and scientific achievements.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Women in Space and STEM (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of female astronauts, historical women scientists, and gender representation in space exploration and physics.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Funding (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Analysis of NASA budget proposals, trade-offs between space exploration and Earth science programs, and science communication challenges.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Earth and Marine Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering climate/energy challenges, marine biology, and ecosystem conservation including kelp restoration and sturgeon biology.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Integrity and AI in Academia (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Concerns about AI-generated invalid references in published literature and implications for research quality.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">2010 likes &middot; 499 reposts &middot; 26 replies</div>
+  <div class="bluesky-text">April is Autism Acceptance Month🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3miqzditv522w" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@mcnees.bsky.social</div>
+  <div class="bluesky-stats">1090 likes &middot; 230 reposts &middot; 6 replies</div>
+  <div class="bluesky-text">Physicist Louise Dolan was born #OTD in 1950. Author of a foundational paper on symmetries and phase transitions at finite temperature, she received the @apsphysics.bsky.social's Maria Goeppert-Mayer Award for discovering uses of Kac-Moody algebras in field and string theory. 🧪 ⚛️ 👩‍🔬
+
+Image: UCLA C</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/mcnees.bsky.social/post/3mire4oyqvk2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">739 likes &middot; 247 reposts &middot; 11 replies</div>
+  <div class="bluesky-text">Great example of bad science policy communication 👇🏽 
+
+This post does not communicate that they don’t propose cuts to the Artemis program. In fact it proposes an increase to their budget. The cut is to the science programs: the curiosity and saving planet earth programs. 🔭🧪 #scicomm</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mirui26sxs2y" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@skylargrayson.bsky.social</div>
+  <div class="bluesky-stats">602 likes &middot; 108 reposts &middot; 15 replies</div>
+  <div class="bluesky-text">Can you image what it would be like to go from the first image to the second? To literally watch your home planet shrinking behind you until most of what you see is the emptiness of space? For every minute to further hammer in our insignificance against the vastness of the cosmos? (1/2)🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/skylargrayson.bsky.social/post/3mirvgag5w22v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@madisonearhart.bsky.social</div>
+  <div class="bluesky-stats">354 likes &middot; 44 reposts &middot; 12 replies</div>
+  <div class="bluesky-text">happy #sturgeonsaturday (on sunday)! 🧪👩🏻‍🔬🌐🦑🌎
+
+did you know that sturgeon rely heavily on scent & feel to find food rather than eyesight?
+
+in the photo you can see the barbels (like whiskers) & the 2 nostrils - which are basically the same size as the eye!
+
+these strong sniffers are quite impressive</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/madisonearhart.bsky.social/post/3mirbfajr2s2f" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>NASA Budget Allocation and Science Policy</strong>: Posts critically examine trade-offs between flagship programs (Artemis) and foundational science (Earth science, climate research), directly relevant to NASEM's advisory role in federal science policy and resource allocation.</div>
+<div class="nasem-match"><strong>Women in STEM and Space Workforce Diversity</strong>: Discussion of gender disparities in space exploration and physics workforce aligns with NASEM's ongoing work on broadening participation in STEM and addressing systemic barriers.</div>
+<div class="nasem-match"><strong>Research Integrity and Publication Quality</strong>: Concerns about AI-generated invalid references in peer-reviewed literature relate to NASEM's expertise in research integrity, academic publishing standards, and emerging technology impacts on science.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 06, 2026 at 11:38 AM | Internal use only
+    </div>
+</body>
+</html>

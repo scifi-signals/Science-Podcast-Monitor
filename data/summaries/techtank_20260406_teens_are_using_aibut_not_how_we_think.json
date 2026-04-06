@@ -1,0 +1,388 @@
+{
+  "podcast_id": "techtank",
+  "podcast_name": "TechTank",
+  "episode_title": "Teens are using AI—but not how we think",
+  "host": "Brookings Institution",
+  "published": "2026-04-06T08:00:00",
+  "episode_url": "https://shows.acast.com/tech-tank/episodes/teens-are-using-aibut-not-how-we-think",
+  "duration_minutes": 29.416666666666668,
+  "influence_tier": "medium",
+  "category": "tech_policy",
+  "summary": "This episode examines how American teenagers actually use AI chatbots, based on new Pew Research Center data. Host Nicole Turner-Lee and guest Monica Anderson discuss findings showing that teens primarily use AI for information search and schoolwork rather than emotional support, despite media narratives about dependency. The episode highlights significant racial and ethnic disparities in AI use patterns, with Black and Hispanic teens using chatbots more frequently for schoolwork, and notes that teens hold nuanced views about both personal benefits and societal risks of AI, including concerns about job loss and loss of critical thinking skills.",
+  "science_topics": [
+    "Artificial intelligence chatbot adoption and use patterns among adolescents",
+    "Digital literacy and AI competency assessment in teenagers",
+    "Human-AI interaction and emotional dependency in young people",
+    "Generational differences in AI adoption and attitudes"
+  ],
+  "claims_to_note": [
+    "95% of teens have heard of AI; nearly 60% have heard a lot about it",
+    "About 25% of teens describe themselves as extremely or very confident using chatbots; another third are somewhat confident",
+    "Over half of teens use chatbots to help with schoolwork",
+    "20% of Black teens use chatbots for emotional support vs. 10% of white and Hispanic teens",
+    "Teens earning less than $30k annually are more likely (20%) to say AI helps them compared to higher income families (7%)",
+    "50% of Black and Hispanic teens use internet almost constantly vs. 25% of white teens",
+    "On balance, more teens report chatbots were helpful rather than unhelpful for schoolwork",
+    "Teens cite loss of critical thinking/creative skills and job loss as primary societal concerns about AI",
+    "About 20% of teens express uncertainty about AI's future impact on their lives"
+  ],
+  "policy_relevance": [
+    "Mentions of schools creating AI policies amid rapid chatbot adoption by students",
+    "Discussion of privacy legislation and chatbot bans being developed by policymakers",
+    "Need for policymakers to incorporate perspectives of affected teen populations in policy design",
+    "Digital divide and equity implications for AI access and use across socioeconomic and racial demographics",
+    "Education policy concerns about academic integrity and chatbot use in schoolwork",
+    "Future employment and workforce preparation implications of teens using AI tools"
+  ],
+  "key_quotes": [
+    "Not all teens are using it or using it in the same way, but there's some really interesting differences and patterns when you start to drill down into race and ethnicity.",
+    "The cat is out of the bag...not only are parents maybe having to play catch up, but so are educators and administrators.",
+    "Black and Hispanic teens are more likely than white teens to say that these tools have been incredibly helpful to them when helping complete their schoolwork."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Artificial intelligence chatbot adoption and use patterns among adolescents",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "complex real world environments",
+            "achieving optimal performance",
+            "although artificial intelligence",
+            "human operations",
+            "successful performance",
+            "military operations",
+            "limitations mean",
+            "causation important",
+            "potential benefits",
+            "remain inadequate",
+            "teaming",
+            "human",
+            "state",
+            "needs",
+            "art"
+          ],
+          "description": "\"Although artificial intelligence (AI) has many potential benefits, it has also been shown to suffer from a number of challenges for successful performance in complex real-world environments such as military operations, including brittleness, perceptual limitations, hidden biases, and lack of a model of causation important for understanding and predicting future events. These limitations mean that AI will remain inadequate for operating on its own in many complex and novel situations for the foreseeable future, and that AI will need to be carefully managed by humans to achieve their desired utility. Human-AI Teaming: State-of-the-Art and Research Needs examines the factors that are relevant to the design and implementation of AI systems with respect to human operations. This report provides an overview of the state of research on human-AI teaming to determine gaps and future research priorities and explores critical human-systems integration issues for achieving optimal performance.\"--",
+          "year": 2021,
+          "page_keywords": [
+            "Artificial intelligence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Impact of Artificial Intelligence on Education and Workforce Trajectories in Tech: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-SEEW-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Digital literacy and AI competency assessment in teenagers",
+      "publications": [
+        {
+          "id": "26894",
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "individual patient level predictions",
+            "going beyond traditional simulation",
+            "digital twin technologies",
+            "modeling digital twins",
+            "bidirectional data flows",
+            "across multiple domains",
+            "climate conditions",
+            "conditions change",
+            "transform scientific",
+            "physical counterpart",
+            "digital twins",
+            "foundational",
+            "directions",
+            "gaps"
+          ],
+          "description": "Across multiple domains of science, engineering, and medicine, excitement is growing about the potential of digital twins to transform scientific research, industrial practices, and many aspects of daily life. A digital twin couples computational models with a physical counterpart to create a system that is dynamically updated through bidirectional data flows as conditions change. Going beyond traditional simulation and modeling, digital twins could enable improved medical decision-making at the individual patient level, predictions of future weather and climate conditions over longer timescales, and safer, more efficient engineering processes. However, many challenges remain before these applications can be realized. This report identifies the foundational research and resources needed to support the development of digital twin technologies. The report presents critical future research priorities and an interdisciplinary research agenda for the field, including how federal agencies an",
+          "year": 2024,
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "13484",
+          "title": "Oral Health Literacy: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/13484/oral-health-literacy-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "resolve health literacy challenges",
+            "health literacy sponsoring workshops",
+            "health literacy focuses",
+            "promote health literacy",
+            "health literacy forward",
+            "oral health literacy",
+            "bringing together leaders",
+            "policy makers regarding",
+            "sharon barrett benard",
+            "roundtable serves"
+          ],
+          "description": "The Institute of Medicine (IOM) Roundtable on Health Literacy focuses on bringing together leaders from the federal government, foundations, health plans, associations, and private companies to address challenges facing health literacy practice and research and to identify approaches to promote health literacy in both the public and private sectors. The roundtable serves to educate the public, press, and policy makers regarding the issues of health literacy, sponsoring workshops to discuss approaches to resolve health literacy challenges. It also builds partnerships to move the field of health literacy forward by translating research findings into practical strategies for implementation. The Roundtable held a workshop March 29, 2012, to explore the field of oral health literacy. The workshop was organized by an independent planning committee in accordance with the procedures of the National Academy of Sciences. The planning group was composed of Sharon Barrett, Benard P. Dreyer, Alice ",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "18378",
+          "title": "Organizational Change to Improve Health Literacy: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18378/organizational-change-to-improve-health-literacy-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health literacy implementers",
+            "health literacy innovations",
+            "although health literacy",
+            "improve health literacy",
+            "health literacy relat",
+            "implementing specific literacy",
+            "health care",
+            "public health",
+            "population health",
+            "discussion paper ten attributes",
+            "organizational change"
+          ],
+          "description": "Organizational Change to Improve Health Literacy is the summary of a workshop convened in April 2013 by the Institute of Medicine Board on Population Health and Public Health Practice Roundtable on Health Literacy. As a follow up to the 2012 discussion paper Ten Attributes of a Health Literate Health Care Organization, participants met to examine what is known about implementation of the attributes of a health literate health care organization and to create a network of health literacy implementers who can share information about health literacy innovations and problem solving. This report discusses implementation approaches and shares tools that could be used in implementing specific literacy strategies. Although health literacy is commonly defined as an individual trait, there is a growing appreciation that health literacy does not depend on the skills of individuals alone. Health literacy is the product of the interaction between individuals' capacities and the health literacy-relat",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Human-AI interaction and emotional dependency in young people",
+      "publications": [
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "27129",
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "attitudes behaviors social cohesion",
+            "built infrastructure reshaping mandates",
+            "entail massive socio emotional",
+            "adaptive societal responses",
+            "enhanced human responses",
+            "scale societal responses",
+            "translating policies investments",
+            "environmental change",
+            "climate change",
+            "sustained local impact",
+            "integrating",
+            "human"
+          ],
+          "description": "Responding to climate change will entail massive socio-emotional and behavioral changes. Translating policies, investments, or built infrastructure-reshaping mandates into real and sustained local impact that incorporates accountability and culture change will require hands-on work. Adaptive societal responses to climate change will succeed or fail based on the attitudes, behaviors, social cohesion and capital, organizational and emotional strengths, and collective impact and input of all stakeholders. To consider how to integrate, align, and converge the broad mix of social, behavioral, and cognitive sciences to produce new insights and inform efforts for enhanced human responses to environmental change, Board on Environmental Change and Society of the National Academies of Sciences, Engineering and Medicine convened this 2023 workshop, entitled Committee on Integrating the Human Sciences to Scale Societal Responses to Environmental Change: A Workshop. The workshop was intended to inv",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Environmental Change And Societ"
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Generational differences in AI adoption and attitudes",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 5193,
+  "saved_at": "2026-04-06T11:37:31.435101"
+}

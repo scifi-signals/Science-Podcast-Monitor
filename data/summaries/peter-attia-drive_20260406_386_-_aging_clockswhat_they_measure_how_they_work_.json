@@ -1,0 +1,439 @@
+{
+  "podcast_id": "peter-attia-drive",
+  "podcast_name": "The Peter Attia Drive",
+  "episode_title": "#386 - Aging clocks—what they measure, how they work, and their clinical and real-world relevance",
+  "host": "Peter Attia, MD",
+  "published": "2026-04-06T04:15:00",
+  "episode_url": "https://peterattiamd.com/agingclocks/?utm_source=podcast-feed&utm_medium=referral&utm_campaign=260406-pod-agingclocks&utm_content=260406-pod-agingclocks-podfeed",
+  "duration_minutes": 42.75,
+  "influence_tier": "high",
+  "category": "science_health_influencer",
+  "summary": "Peter Attia examines the scientific validity and clinical utility of epigenetic aging clocks, which use DNA methylation patterns to estimate biological age and pace of aging. He analyzes two key studies: the DO-HEALTH trial testing omega-3, vitamin D, and exercise interventions on four common epigenetic clocks, and a brain imaging study showing potential utility for predicting cognitive decline and mortality. While acknowledging the scientific interest and potential research value of aging clocks, Attia argues that current evidence does not support their use as consumer health tools, noting that traditional clinical biomarkers and actuarial models remain superior for predicting meaningful health outcomes.",
+  "science_topics": [
+    "DNA methylation and epigenetic clocks",
+    "CpG sites and gene expression regulation",
+    "Chronological age versus biological age",
+    "Pace of aging estimation",
+    "FenoAge epigenetic clock",
+    "GrimAge and GrimAge2 epigenetic clocks",
+    "Dunedin-PACE epigenetic clock",
+    "Structural brain MRI for aging assessment",
+    "Proteome analysis and aging biomarkers",
+    "GDF15, leptin, and PAI1 as aging-related plasma proteins",
+    "Caloric restriction and aging",
+    "Frailty assessment"
+  ],
+  "claims_to_note": [
+    "Omega-3 supplementation (1g/day with 330mg EPA, 660mg DHA) showed effects corresponding to approximately 3 months of reduced aging over 3 years in 3 of 4 epigenetic clocks tested in the DO-HEALTH trial",
+    "Vitamin D supplementation (2,000 IU daily) did not significantly impact aging clocks in the DO-HEALTH trial",
+    "Exercise (30 minutes strength training 3x/week) showed no independent effect on aging clocks in the already-active study population",
+    "Life insurance company actuarial models can predict mortality with less than 1% deviation in expected payouts at population level",
+    "Life insurance companies do not currently use commercially available epigenetic aging clocks for mortality prediction",
+    "Different epigenetic clocks measure different biological pathways and may show discordant results for the same intervention",
+    "DNA methylation measurements have significant technical noise from sample handling, storage, extraction methods, and batch effects",
+    "The Calorie Trial showed caloric restriction reduced pace of aging on Dunedin-PACE but not on FenoAge or GrimAge clocks"
+  ],
+  "policy_relevance": [
+    "Potential use of aging clocks as regulatory endpoints in clinical trials for anti-aging interventions",
+    "Questions about clinical validation standards for consumer-marketed aging clock tests",
+    "Implications for FDA oversight of direct-to-consumer biological age testing services",
+    "Discussion of how aging clocks could accelerate gerontological research and drug development timelines",
+    "Comparison to existing regulatory frameworks for biomarkers (blood pressure, glucose, lipids, smoking status)"
+  ],
+  "key_quotes": [
+    "All models are wrong, some are useful. But the question is, how useful are these models? Well, different clocks capture different aspects of biology. Small shifts in the measurements don't necessarily translate into meaningful improvements in health outcomes. And most importantly, we still don't know whether changing the clock actually changes what we ultimately care about, things like disease risk, disability, or lifespan.",
+    "At this moment, The science, as it stands, does not provide clear answers to those questions, and in many cases, we already have much more reliable metrics that tell us about health and longevity risk. Things like blood pressure, glucose, lipids, whether you're smoking or not, all the various metrics we have around physical fitness, and body composition. These are not particularly glamorous biomarkers, but they have something that aging clocks don't have yet. Decades of evidence linking them directly to real clinical outcomes.",
+    "Right now, I would say they would be best viewed as experimental tools for studying aging, at least at a broad enough population level, but not as definitive health metrics for individual decision-making."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "DNA methylation and epigenetic clocks",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "CpG sites and gene expression regulation",
+      "publications": [
+        {
+          "id": "27765",
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "vulnerabilities identifies remaining gaps",
+            "additional risk management planning",
+            "supply chain disruptions",
+            "supply market competition",
+            "relevant stakeholders addressed",
+            "drug administration contracted",
+            "infant formula",
+            "marketplace vulnerabilities",
+            "consequently disruptions",
+            "protect infants",
+            "challenges",
+            "regulation"
+          ],
+          "description": "Infant formula is a primary or supplementary source of nutrition for many infants in the U.S. Consequently, disruptions to the supply of infant formula can have a severe impact on infants' health and well-being. In late 2021 and early 2022, a recall of specific infant formula products, followed by a pause in production, resulted in a widespread, national shortage. The incident demonstrated that additional risk management planning is needed to protect infants from the consequences of potential future supply chain disruptions. In 2023, the U.S. Food and Drug Administration contracted with the National Academies to convene an expert committee to examine and report on challenges in supply, market competition, and regulation of infant formula. The resulting consensus study report explains policy and marketplace vulnerabilities that were exposed during the shortage, describes the extent to which actions taken by relevant stakeholders addressed these vulnerabilities, identifies remaining gaps",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food And Nutrition Board"
+        },
+        {
+          "id": "27397",
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "facial recognition technology",
+            "identifying potential security threats",
+            "regulations raising significant concerns",
+            "aiding law enforcement investigations",
+            "mitigate potential harms",
+            "comprehensive safeguards",
+            "identity verification",
+            "current capabilities",
+            "necessary governance",
+            "increasingly used",
+            "governance",
+            "prospects"
+          ],
+          "description": "Facial recognition technology is increasingly used for identity verification and identification, from aiding law enforcement investigations to identifying potential security threats at large venues. However, advances in this technology have outpaced laws and regulations, raising significant concerns related to equity, privacy, and civil liberties. This report explores the current capabilities, future possibilities, and necessary governance for facial recognition technology. Facial Recognition Technology discusses legal, societal, and ethical implications of the technology, and recommends ways that federal agencies and others developing and deploying the technology can mitigate potential harms and enact more comprehensive safeguards.",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Committee on Law and Justice"
+        },
+        {
+          "id": "19018",
+          "title": "Assessing the Use of Agent-Based Models for Tobacco Regulation",
+          "url": "https://nap.nationalacademies.org/catalog/19018/assessing-the-use-of-agent-based-models-for-tobacco-regulation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "tobacco use onset cessation",
+            "tobacco regulation describes",
+            "tobacco consumption continues",
+            "complex tobacco environment",
+            "inform tobacco policy",
+            "reduce tobacco use",
+            "strong social component inherent",
+            "drug administration fda regulates",
+            "social interactions agent",
+            "policy relevant agent",
+            "tobacco regulation",
+            "assessing",
+            "models",
+            "agent",
+            "use"
+          ],
+          "description": "Tobacco consumption continues to be the leading cause of preventable disease and death in the United States. The Food and Drug Administration (FDA) regulates the manufacture, distribution, and marketing of tobacco products - specifically cigarettes, cigarette tobacco, roll-your-own tobacco, and smokeless tobacco - to protect public health and reduce tobacco use in the United States. Given the strong social component inherent to tobacco use onset, cessation, and relapse, and given the heterogeneity of those social interactions, agent-based models have the potential to be an essential tool in assessing the effects of policies to control tobacco. Assessing the Use of Agent-Based Models for Tobacco Regulation describes the complex tobacco environment; discusses the usefulness of agent-based models to inform tobacco policy and regulation; presents an evaluation framework for policy-relevant agent-based models; examines the role and type of data needed to develop agent-based models for tobac",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Chronological age versus biological age",
+      "publications": [
+        {
+          "id": "26750",
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "make space exploration possible",
+            "enable human space exploration",
+            "space reviews",
+            "help astronauts adapt",
+            "physical science",
+            "transformative science",
+            "technological foundations",
+            "critical scientific",
+            "comprehensive vision",
+            "harsh environments",
+            "decadal survey",
+            "biological",
+            "thriving",
+            "ensuring",
+            "physical",
+            "space"
+          ],
+          "description": "Research in biological and physical sciences in space provides the critical scientific and technological foundations that make space exploration possible. As humanity looks towards the Moon and Mars for future missions, this work is needed to help astronauts adapt and live in the harsh environments of space. Thriving in Space provides a roadmap for increasing national investment in biological and physical science research, from experiments to infrastructure to education. This report identifies key scientific questions, priorities, and ambitious research campaigns that will enable human space exploration and transform our understanding of how the universe works. Thriving in Space reviews the state of knowledge in the current and emerging areas of space-related biological and physical sciences research and generates recommendations for a comprehensive vision and strategy for a decade of transformative science at the frontiers of biological and physical sciences research in space. This re",
+          "year": 2023,
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "26925",
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "atmosphere hydrosphere geosphere cryosphere",
+            "cultivate cross disciplinary collaborations",
+            "critical topic tipping points",
+            "earth systems science",
+            "observational platforms laboratory",
+            "skilled scientific workforce",
+            "physical chemical biological",
+            "interconnected processes",
+            "behavioral processes",
+            "myriad interactions",
+            "tipping points cascading impacts",
+            "interacting risks",
+            "earth system"
+          ],
+          "description": "Earth is a complex system, with myriad interactions and feedbacks among the atmosphere, hydrosphere, geosphere, cryosphere, and biosphere, as well as the people, institutions, and technologies that respond to and influence these dynamics. A systems-based approach to scientific research can yield understanding across all aspects of Earth's interconnected processes. Earth systems studies rest on careful analyses of physical, chemical, biological, and behavioral processes and their interactions and feedbacks; these studies are supported by observational platforms, laboratory and modeling facilities, a skilled scientific workforce, and the cyberinfrastructure that connects them to enable new breakthroughs. This workshop was organized to explore the approaches to Earth systems science through the lens of a critical topic - tipping points - and to cultivate cross-disciplinary collaborations and prime new research communities to discuss examples of research needs in a broader context of Earth",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Earth Sciences and Resources"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Pace of aging estimation",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "FenoAge epigenetic clock",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 6995,
+  "saved_at": "2026-04-06T11:37:31.435558"
+}

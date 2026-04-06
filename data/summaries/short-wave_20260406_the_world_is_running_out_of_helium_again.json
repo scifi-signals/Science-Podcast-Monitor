@@ -1,0 +1,737 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "The world is running out of helium — again",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-04-06T07:00:00",
+  "episode_url": "https://www.npr.org/2026/04/06/nx-s1-5770505/helium-shortage-iran-war",
+  "duration_minutes": 13.266666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores helium's critical role in modern science and technology, tracing its discovery in 1868 through its current applications in MRI machines, quantum computers, and rocket engines. The episode highlights that helium is a finite resource on Earth—created slowly through radioactive decay of uranium and thorium—and that recent geopolitical tensions, particularly Iran's missile attacks on Qatar (the world's second-largest helium supplier), have triggered another helium shortage. The episode emphasizes that while helium balloons are often blamed for waste, the real pressure on helium supplies comes from scientific research and medical applications that require liquid helium for cooling superconductors.",
+  "science_topics": [
+    "Helium discovery and spectroscopic analysis (1868)",
+    "Noble gases and chemical inertness",
+    "Atmospheric escape of light elements",
+    "Helium formation through radioactive decay of uranium and thorium",
+    "Superconductivity and liquid helium cooling",
+    "Magnetic resonance imaging (MRI) technology",
+    "Superconducting magnets for nuclear magnetic resonance",
+    "Quantum computing and helium cooling requirements",
+    "Rocket propulsion systems and helium as pressurant gas",
+    "Natural gas extraction and helium as byproduct"
+  ],
+  "claims_to_note": [
+    "Helium is the second most abundant element in the universe—accurate",
+    "Helium escapes Earth's atmosphere due to low density and weak gravitational retention—accurate",
+    "Helium on Earth is created by radioactive decay of uranium and thorium—accurate",
+    "Helium becomes liquid at 4.2 Kelvin—accurate",
+    "Outer space temperature is approximately 3 Kelvin—accurate (cosmic microwave background is ~2.7 K)",
+    "Superconductivity requires liquid helium cooling at ~4 Kelvin—accurate for conventional superconductors",
+    "MRI machines globally use significant liquid helium quantities—accurate",
+    "Google's quantum computer uses helium cooling—accurate",
+    "The U.S. is the world's largest helium supplier; Qatar is second; Algeria is third—should be verified against current 2026 data",
+    "Accumulated helium from radioactive decay 'will run out at some point'—speculative but scientifically reasonable"
+  ],
+  "policy_relevance": [
+    "U.S. government control of helium supply during World War I for military airship applications",
+    "Geopolitical disruption: Iran's missile attacks on Qatar affecting helium production and export",
+    "Strait of Hormuz shipping closure impacting helium transport to global markets",
+    "Helium supply chain vulnerability tied to only three major producing regions (U.S., Qatar, Algeria)",
+    "Scientific research funding impacts: helium shortages forcing research institutions to shut down expensive superconducting equipment and reduce experimental capacity"
+  ],
+  "key_quotes": [
+    "Although it's crystal clear there's tons of helium up in the sun, physicists can only find teeny tiny trace amounts on Earth... Because it rises? Yes! It literally just leaves the Earth. It just floats up, and it escapes the atmosphere.",
+    "For want of a chemical to sustain it, the liquid helium, we are taking those offline, making smaller the number of experiments that one can do, or maybe even shrinking the size of the research groups.",
+    "I will say I am not a balloon denier, in part because I think the helium that's used for party balloons gets every person almost to care about this resource. Whereas if I say, how do you feel about argon? You may not have an opinion about argon, which is another inert gas."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Helium discovery and spectroscopic analysis (1868)",
+      "publications": [
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "27457",
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "scientific discovery seem endless",
+            "everyday conversational technologies capturing",
+            "performed without human oversight",
+            "reliable discovery whether",
+            "scientific investigation",
+            "scientific community",
+            "computational technology",
+            "created opportunities",
+            "computational theory",
+            "artificial intelligence",
+            "scientific discovery"
+          ],
+          "description": "Over the past century, artificial intelligence (AI) has evolved from computational theory to everyday conversational technologies, capturing the attention and interest of the public and the media. It has also caught the attention of the scientific community, where it has provided a new tool to support inquiry and exploration. While AI in the context of scientific investigation has existed for decades, advances in computational technology and sensing in the physical world have created opportunities to integrate AI into science in unexpected ways, with capabilities that are rapidly accelerating. As a result, AI has been leveraged by an expanding collection of disciplines in the physical and biological sciences, as well as engineering domains. While the opportunities for AI in scientific discovery seem endless, there are numerous questions about what makes for trustworthy and reliable discovery, whether such investigation should be performed without human oversight or intervention, and ho",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Noble gases and chemical inertness",
+      "publications": [
+        {
+          "id": "26342",
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "sustainable developing medical advances",
+            "manufacturing scales uniquely positions",
+            "fuels electronics medical devices",
+            "apply systems level thinking",
+            "chemical engineers ability",
+            "helped transform societies",
+            "novel materials used",
+            "guide chemical",
+            "climate change",
+            "synthetic fertilizers",
+            "directions",
+            "chemical"
+          ],
+          "description": "Over the past century, the work of chemical engineers has helped transform societies and the lives of individuals, from the synthetic fertilizers that helped feed the world to the development of novel materials used in fuels, electronics, medical devices, and other products. Chemical engineers' ability to apply systems-level thinking from molecular to manufacturing scales uniquely positions them to address today's most pressing problems, including climate change and the overuse of resources by a growing population. New Directions in Chemical Engineering details a vision to guide chemical engineering research, innovation, and education over the next few decades. This report calls for new investments in U.S. chemical engineering and the interdisciplinary, cross-sector collaborations necessary to advance the societal goals of transitioning to a low-carbon energy system, ensuring our production and use of food and water is sustainable, developing medical advances and engineering solutions ",
+          "year": 2022,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "26228",
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "indoor chemistry matters calls",
+            "indoor chemical exposure",
+            "pathways affect human health",
+            "manage chemicals indoors",
+            "limit chemical exposures",
+            "occur indoors pathways",
+            "increased public awareness",
+            "indoor environments",
+            "long term impacts",
+            "chemical transformations",
+            "indoor chemistry matters"
+          ],
+          "description": "People spend the vast majority of their time inside their homes and other indoor environments where they are exposed to a wide range of chemicals from building materials, furnishings, occupants, cooking, consumer products, and other sources. Despite research to date, very little is known about how exposures to indoor chemicals across complex chemical phases and pathways affect human health. The COVID-19 pandemic has only increased public awareness of indoor environments and shed light on the many outstanding questions about how best to manage chemicals indoors. This report identifies gaps in current research and understanding of indoor chemistry and new approaches that can be applied to measure, manage, and limit chemical exposures. Why Indoor Chemistry Matters calls for further research about the chemical transformations that can occur indoors, pathways and timing of indoor chemical exposure, and the cumulative and long-term impacts of exposure on human health. Research priorities sho",
+          "year": 2023,
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "21918",
+          "title": "Chemical Laboratory Safety and Security: A Guide to Developing Standard Operating Procedures",
+          "url": "https://nap.nationalacademies.org/catalog/21918/chemical-laboratory-safety-and-security-a-guide-to-developing-standard",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "space",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "standard operating procedures sops",
+            "chemical laboratory safety",
+            "accompanying toolkit especially",
+            "good chemical safety",
+            "prudent chemical management",
+            "toolkit expansion product",
+            "previous reference book",
+            "safety resources",
+            "industrial laboratories",
+            "international standards",
+            "developing standard operating procedures",
+            "security",
+            "guide"
+          ],
+          "description": "The U.S. Department of State charged the Academies with the task of producing a protocol for development of standard operating procedures (SOPs) that would serve as a complement to the Chemical Laboratory Safety and Security: A Guide to Prudent Chemical Management and be included with the other materials in the 2010 toolkit. To accomplish this task, a committee with experience and knowledge in good chemical safety and security practices in academic and industrial laboratories with awareness of international standards and regulations was formed. The hope is that this toolkit expansion product will enhance the use of the previous reference book and the accompanying toolkit, especially in developing countries where safety resources are scarce and experience of operators and end-users may be limited.",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Atmospheric escape of light elements",
+      "publications": [
+        {
+          "id": "27157",
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "2023 shattered global climate records as the warmest year in the modern record, bringing with it devastating impacts on human and natural systems. Methane emissions, about 60% of which come from human activities, are a major contributor to global warming, second only to carbon dioxide (CO2). Methane is relatively short-lived in the atmosphere but is 80 times more potent than CO2 at trapping heat over a 20-year period. Together with reducing CO2 emissions, rapid and sustained reductions in methane emissions are critical to limit both near- and long-term warming in future decades. But given the many barriers to achieving needed emissions reductions at scale, researchers are exploring the potential of technologies to remove methane from the atmosphere. A Research Agenda Toward Atmospheric Methane Removal is the first report of a two-phase study to assess the need and potential for atmospheric methane removal. This report identifies priority research that should be addressed within 3-5 yea",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Energy and Environmental Systems",
+          "keywords": [
+            "nature",
+            "achieving needed emissions reductions",
+            "atmospheric methane removal",
+            "shattered global climate records",
+            "reducing emissions rapid",
+            "methane emissions",
+            "global warming second",
+            "modern record bringing",
+            "relatively short lived",
+            "long term warming",
+            "remove methane",
+            "agenda"
+          ]
+        },
+        {
+          "id": "18887",
+          "title": "Review of the National Science Foundation's Division on Atmospheric and Geospace Sciences Draft Goals and Objectives Document",
+          "url": "https://nap.nationalacademies.org/catalog/18887/review-of-the-national-science-foundations-division-on-atmospheric-and-geospace-sciences-draft-goals-and-objectives-document",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "multiple divisions within nsf",
+            "involve multiple disciplines",
+            "ags draft goals",
+            "content areas missing",
+            "objectives documents",
+            "objectives clear",
+            "agencies within",
+            "following questions",
+            "adequate mechanisms",
+            "science foundation",
+            "objectives document",
+            "draft goals",
+            "atmospheric",
+            "geospace"
+          ],
+          "description": "Review of the National Science Foundation's Division on Atmospheric and Geospace Sciences Draft Goals and Objectives Documents is a letter report by an ad hoc committee reviewing the AGS draft goals and objectives. It addresses the following questions: Are the goals and objectives clear and appropriate? Are there any content areas missing from the draft that should be present if AGS is to achieve its overall vision and mission? Are there adequate mechanisms for coordinating and integrating issues that involve multiple disciplines and multiple divisions within NSF and other agencies within the atmospheric and geospace sciences enterprise?",
+          "year": 2014,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        },
+        {
+          "id": "26921",
+          "title": "Opportunities and Challenges for Digital Twins in Atmospheric and Climate Sciences: Proceedings of a Workshop—in Brief",
+          "url": "https://nap.nationalacademies.org/catalog/26921/opportunities-and-challenges-for-digital-twins-in-atmospheric-and-climate-sciences",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "digital twins",
+            "opportunities",
+            "atmospheric",
+            "challenges",
+            "climate"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Helium formation through radioactive decay of uranium and thorium",
+      "publications": [
+        {
+          "id": "27894",
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "education",
+            "bad actors maliciously misleading",
+            "addressing misinformation",
+            "public concern given",
+            "address misinformation",
+            "high quality scientific",
+            "science characterizes",
+            "science arises",
+            "scientifically accurate",
+            "interventions policies",
+            "individual community",
+            "science"
+          ],
+          "description": "Our current information ecosystem makes it easier for misinformation about science to spread and harder for people to figure out what is scientifically accurate. Proactive solutions are needed to address misinformation about science, an issue of public concern given its potential to cause harm at individual, community, and societal levels. Improving access to high-quality scientific information can fill information voids that exist for topics of interest to people, reducing the likelihood of exposure to and uptake of misinformation about science. Misinformation is commonly perceived as a matter of bad actors maliciously misleading the public, but misinformation about science arises both intentionally and inadvertently and from a wide range of sources. Understanding and Addressing Misinformation About Science characterizes the nature, scope, and impacts of this phenomenon, and provides guidance on interventions, policies, and future research. This report is a comprehensive assessment of",
+          "year": 2025,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "23482",
+          "title": "Preventing Bullying Through Science, Policy, and Practice",
+          "url": "https://nap.nationalacademies.org/catalog/23482/preventing-bullying-through-science-policy-and-practice",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "law",
+            "although bullying behavior endures",
+            "typical social grouping",
+            "greater social capital",
+            "recent years however",
+            "passage among children",
+            "power pushing around",
+            "peer group formation",
+            "child perceived",
+            "place bullying",
+            "developmentally appropriate",
+            "preventing bullying",
+            "science policy"
+          ],
+          "description": "Bullying has long been tolerated as a rite of passage among children and adolescents. There is an implication that individuals who are bullied must have \"asked for\" this type of treatment, or deserved it. Sometimes, even the child who is bullied begins to internalize this idea. For many years, there has been a general acceptance and collective shrug when it comes to a child or adolescent with greater social capital or power pushing around a child perceived as subordinate. But bullying is not developmentally appropriate; it should not be considered a normal part of the typical social grouping that occurs throughout a child's life. Although bullying behavior endures through generations, the milieu is changing. Historically, bulling has occurred at school, the physical setting in which most of childhood is centered and the primary source for peer group formation. In recent years, however, the physical setting is not the only place bullying is occurring. Technology allows for an entirely n",
+          "year": 2016,
+          "page_keywords": [
+            "Law"
+          ],
+          "committee": "Committee on Law and Justice"
+        },
+        {
+          "id": "25438",
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "guiding cancer control defines",
+            "concerted efforts often referred",
+            "key principles attributes methods",
+            "cancer control plan",
+            "throughout history perhaps",
+            "perhaps even unknowable",
+            "public health systems",
+            "word cancer",
+            "afflict individuals",
+            "different diseases",
+            "guiding cancer control",
+            "transformation",
+            "path"
+          ],
+          "description": "Throughout history, perhaps no other disease has generated the level of social, scientific, and political discourse or has had the degree of cultural significance as cancer. A collective in the truest sense of the word, \"cancer\" is a clustering of different diseases that afflict individuals in different ways. Its burdens are equally broad and diverse, from the physical, financial, and psychological tolls it imposes on individuals to the costs it inflicts upon the nation's clinical care and public health systems, and despite decades of concerted efforts often referred to as the \"war on cancer\", those costs have only continued to grow over time. The causes and effects of cancer are complexâ€\"in part preventable and treatable, but also in part unknown, and perhaps even unknowable. Guiding Cancer Control defines the key principles, attributes, methods, and tools needed to achieve the goal of implementing an effective national cancer control plan. This report describes the current structure",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Superconductivity and liquid helium cooling",
+      "publications": [
+        {
+          "id": "18988",
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "keywords": [
+            "climate",
+            "geoengineering",
+            "solar",
+            "intervention",
+            "cooling",
+            "albedo"
+          ]
+        },
+        {
+          "id": "12620",
+          "title": "Liquid Transportation Fuels from Coal and Biomass: Technological Status, Costs, and Environmental Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/12620/liquid-transportation-fuels-from-coal-and-biomass-technological-status-costs",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "liquid transportation fuels",
+            "transportation sector cannot continue",
+            "alternative transportation fuels",
+            "economic viability carbon impact",
+            "greenhouse gases threatens",
+            "lower greenhouse emissions",
+            "abundant supply makes",
+            "oil importation threatens",
+            "oil prices threatens",
+            "liquid fuels",
+            "technological status costs",
+            "environmental impacts",
+            "biomass",
+            "coal"
+          ],
+          "description": "The transportation sector cannot continue on its current path: The volatility of oil prices threatens the U.S. economy, the large proportion of oil importation threatens U.S. energy security, and the massive contribution of greenhouse gases threatens the environment. The development of domestic sources of alternative transportation fuels with lower greenhouse emissions is now a national imperative. Coal and biomass are in abundant supply in the United States and can be converted to liquid fuels that can be combusted in existing and future vehicles. Their abundant supply makes them attractive candidates to provide non-oil-based liquid fuels to the U.S. transportation system. However, there are important questions about the economic viability, carbon impact, and technology status of these options. Liquid Transportation Fuels from Coal and Biomass provides a snapshot of the potential costs of liquid fuels from biomass by biochemical conversion and from biomass and coal by thermochemical c",
+          "year": 2009,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "27130",
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "state transportation agencies",
+            "risks quantify risks",
+            "extreme weather risks",
+            "increasingly becoming important",
+            "transportation agencies",
+            "assess risks",
+            "appropriate tools",
+            "use tools",
+            "implemented",
+            "demonstrate",
+            "measurement",
+            "transportation asset management",
+            "techniques",
+            "conduct",
+            "risk"
+          ],
+          "description": "\"The assessment of climatic and extreme weather risks is increasingly becoming important to the operation of transportation agencies. There are easy-to-use tools and techniques that can be implemented by agencies. [This report] discusses how to assess risks and summarizes 12 studies that demonstrate how to enhance the measurement of risks, quantify risks, and better link risk management processes with the appropriate tools.\"--Publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "State transportation agencies"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2526,
+  "saved_at": "2026-04-06T11:37:31.434329"
+}

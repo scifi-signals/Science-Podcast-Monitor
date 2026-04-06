@@ -1,7 +1,497 @@
 {
-  "updated": "2026-04-03T11:23:56.299892",
-  "episode_count": 150,
+  "updated": "2026-04-06T11:38:08.179639",
+  "episode_count": 155,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Can algae help pull microplastics out of our water supply?",
+      "host": "Ira Flatow",
+      "published": "2026-04-06T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode explores emerging solutions to microplastic contamination, focusing on bioengineered algae developed at the University of Missouri that can remove over 90% of microplastics from water by binding to them and causing precipitation. The algae-based technology could be integrated into wastewater treatment plants and has co-benefits for removing excess nutrients like nitrogen and phosphorus. Additional efforts in the St. Louis area include whale baleen-inspired filtration and development of biodegradable plastic alternatives, while the EPA has recently announced initial steps to regulate microplastics in drinking water.",
+      "science_topics": [
+        "Microplastics and nanoplastics characterization and distribution",
+        "Bioengineered hydrophobic algae for microplastic removal",
+        "Microplastic contamination in cave ecosystems and impacts on endangered bat populations",
+        "Whale baleen-inspired filtration technology for microplastic capture",
+        "Biodegradable plastic alternatives and synthetic fiber pollution from textiles",
+        "Nutrient removal (nitrogen and phosphorus) from wastewater using algae",
+        "Bioreactor design for controlled cultivation of genetically modified organisms",
+        "Microplastics in soil, water bodies, and human food systems"
+      ],
+      "claims_to_note": [
+        "Engineered algae removed more than 90% of microplastics in laboratory water solutions",
+        "Microplastics were found in a cave closed to public for 30 years, indicating atmospheric/hydrologic transport mechanisms",
+        "Microplastics accumulate more during flooding events in cave systems",
+        "The algae-based technology is particularly effective at removing ultra-fine microplastic particles",
+        "EPA announced first steps to regulate microplastics in drinking water (week of April 6, 2026)",
+        "Microplastics have been found on Mount Everest, in soil, and in human bodies"
+      ],
+      "policy_relevance": [
+        "EPA regulatory action on microplastics in drinking water (initial step announced April 2026)",
+        "Potential integration of algae-based microplastic removal into municipal wastewater treatment infrastructure",
+        "Concerns about genetic modified organism (GMO) release and need for confined bioreactor systems",
+        "Potential application at water treatment facilities and plants",
+        "Discussion of current wastewater treatment infrastructure limitations in handling nitrogen and phosphorus removal"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Improving Characterization of Anthropogenic Methane Emissions in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/24987/improving-characterization-of-anthropogenic-methane-emissions-in-the-united-states"
+        },
+        {
+          "title": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+          "url": "https://nap.nationalacademies.org/catalog/26285/globally-resilient-supply-chains-for-seasonal-and-pandemic-influenza-vaccines"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Alternatives for the Demilitarization of Conventional Munitions",
+          "url": "https://nap.nationalacademies.org/catalog/25140/alternatives-for-the-demilitarization-of-conventional-munitions"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        }
+      ]
+    },
+    {
+      "podcast_id": "techtank",
+      "podcast_name": "TechTank",
+      "episode_title": "Teens are using AI—but not how we think",
+      "host": "Brookings Institution",
+      "published": "2026-04-06T08:00:00",
+      "influence_tier": "medium",
+      "category": "tech_policy",
+      "summary": "This episode examines how American teenagers actually use AI chatbots, based on new Pew Research Center data. Host Nicole Turner-Lee and guest Monica Anderson discuss findings showing that teens primarily use AI for information search and schoolwork rather than emotional support, despite media narratives about dependency. The episode highlights significant racial and ethnic disparities in AI use patterns, with Black and Hispanic teens using chatbots more frequently for schoolwork, and notes that teens hold nuanced views about both personal benefits and societal risks of AI, including concerns about job loss and loss of critical thinking skills.",
+      "science_topics": [
+        "Artificial intelligence chatbot adoption and use patterns among adolescents",
+        "Digital literacy and AI competency assessment in teenagers",
+        "Human-AI interaction and emotional dependency in young people",
+        "Generational differences in AI adoption and attitudes"
+      ],
+      "claims_to_note": [
+        "95% of teens have heard of AI; nearly 60% have heard a lot about it",
+        "About 25% of teens describe themselves as extremely or very confident using chatbots; another third are somewhat confident",
+        "Over half of teens use chatbots to help with schoolwork",
+        "20% of Black teens use chatbots for emotional support vs. 10% of white and Hispanic teens",
+        "Teens earning less than $30k annually are more likely (20%) to say AI helps them compared to higher income families (7%)",
+        "50% of Black and Hispanic teens use internet almost constantly vs. 25% of white teens",
+        "On balance, more teens report chatbots were helpful rather than unhelpful for schoolwork",
+        "Teens cite loss of critical thinking/creative skills and job loss as primary societal concerns about AI",
+        "About 20% of teens express uncertainty about AI's future impact on their lives"
+      ],
+      "policy_relevance": [
+        "Mentions of schools creating AI policies amid rapid chatbot adoption by students",
+        "Discussion of privacy legislation and chatbot bans being developed by policymakers",
+        "Need for policymakers to incorporate perspectives of affected teen populations in policy design",
+        "Digital divide and equity implications for AI access and use across socioeconomic and racial demographics",
+        "Education policy concerns about academic integrity and chatbot use in schoolwork",
+        "Future employment and workforce preparation implications of teens using AI tools"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
+        },
+        {
+          "title": "Oral Health Literacy: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/13484/oral-health-literacy-workshop-summary"
+        },
+        {
+          "title": "Organizational Change to Improve Health Literacy: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18378/organizational-change-to-improve-health-literacy-workshop-summary"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "The world is running out of helium — again",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-06T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores helium's critical role in modern science and technology, tracing its discovery in 1868 through its current applications in MRI machines, quantum computers, and rocket engines. The episode highlights that helium is a finite resource on Earth—created slowly through radioactive decay of uranium and thorium—and that recent geopolitical tensions, particularly Iran's missile attacks on Qatar (the world's second-largest helium supplier), have triggered another helium shortage. The episode emphasizes that while helium balloons are often blamed for waste, the real pressure on helium supplies comes from scientific research and medical applications that require liquid helium for cooling superconductors.",
+      "science_topics": [
+        "Helium discovery and spectroscopic analysis (1868)",
+        "Noble gases and chemical inertness",
+        "Atmospheric escape of light elements",
+        "Helium formation through radioactive decay of uranium and thorium",
+        "Superconductivity and liquid helium cooling",
+        "Magnetic resonance imaging (MRI) technology",
+        "Superconducting magnets for nuclear magnetic resonance",
+        "Quantum computing and helium cooling requirements",
+        "Rocket propulsion systems and helium as pressurant gas",
+        "Natural gas extraction and helium as byproduct"
+      ],
+      "claims_to_note": [
+        "Helium is the second most abundant element in the universe—accurate",
+        "Helium escapes Earth's atmosphere due to low density and weak gravitational retention—accurate",
+        "Helium on Earth is created by radioactive decay of uranium and thorium—accurate",
+        "Helium becomes liquid at 4.2 Kelvin—accurate",
+        "Outer space temperature is approximately 3 Kelvin—accurate (cosmic microwave background is ~2.7 K)",
+        "Superconductivity requires liquid helium cooling at ~4 Kelvin—accurate for conventional superconductors",
+        "MRI machines globally use significant liquid helium quantities—accurate",
+        "Google's quantum computer uses helium cooling—accurate",
+        "The U.S. is the world's largest helium supplier; Qatar is second; Algeria is third—should be verified against current 2026 data",
+        "Accumulated helium from radioactive decay 'will run out at some point'—speculative but scientifically reasonable"
+      ],
+      "policy_relevance": [
+        "U.S. government control of helium supply during World War I for military airship applications",
+        "Geopolitical disruption: Iran's missile attacks on Qatar affecting helium production and export",
+        "Strait of Hormuz shipping closure impacting helium transport to global markets",
+        "Helium supply chain vulnerability tied to only three major producing regions (U.S., Qatar, Algeria)",
+        "Scientific research funding impacts: helium shortages forcing research institutions to shut down expensive superconducting equipment and reduce experimental capacity"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering"
+        },
+        {
+          "title": "Why Indoor Chemistry Matters",
+          "url": "https://nap.nationalacademies.org/catalog/26228/why-indoor-chemistry-matters"
+        },
+        {
+          "title": "Chemical Laboratory Safety and Security: A Guide to Developing Standard Operating Procedures",
+          "url": "https://nap.nationalacademies.org/catalog/21918/chemical-laboratory-safety-and-security-a-guide-to-developing-standard"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Review of the National Science Foundation's Division on Atmospheric and Geospace Sciences Draft Goals and Objectives Document",
+          "url": "https://nap.nationalacademies.org/catalog/18887/review-of-the-national-science-foundations-division-on-atmospheric-and-geospace-sciences-draft-goals-and-objectives-document"
+        },
+        {
+          "title": "Opportunities and Challenges for Digital Twins in Atmospheric and Climate Sciences: Proceedings of a Workshop—in Brief",
+          "url": "https://nap.nationalacademies.org/catalog/26921/opportunities-and-challenges-for-digital-twins-in-atmospheric-and-climate-sciences"
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Preventing Bullying Through Science, Policy, and Practice",
+          "url": "https://nap.nationalacademies.org/catalog/23482/preventing-bullying-through-science-policy-and-practice"
+        },
+        {
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
+        },
+        {
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "url": ""
+        },
+        {
+          "title": "Liquid Transportation Fuels from Coal and Biomass: Technological Status, Costs, and Environmental Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/12620/liquid-transportation-fuels-from-coal-and-biomass-technological-status-costs"
+        },
+        {
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research"
+        }
+      ]
+    },
+    {
+      "podcast_id": "peter-attia-drive",
+      "podcast_name": "The Peter Attia Drive",
+      "episode_title": "#386 - Aging clocks—what they measure, how they work, and their clinical and real-world relevance",
+      "host": "Peter Attia, MD",
+      "published": "2026-04-06T04:15:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Peter Attia examines the scientific validity and clinical utility of epigenetic aging clocks, which use DNA methylation patterns to estimate biological age and pace of aging. He analyzes two key studies: the DO-HEALTH trial testing omega-3, vitamin D, and exercise interventions on four common epigenetic clocks, and a brain imaging study showing potential utility for predicting cognitive decline and mortality. While acknowledging the scientific interest and potential research value of aging clocks, Attia argues that current evidence does not support their use as consumer health tools, noting that traditional clinical biomarkers and actuarial models remain superior for predicting meaningful health outcomes.",
+      "science_topics": [
+        "DNA methylation and epigenetic clocks",
+        "CpG sites and gene expression regulation",
+        "Chronological age versus biological age",
+        "Pace of aging estimation",
+        "FenoAge epigenetic clock",
+        "GrimAge and GrimAge2 epigenetic clocks",
+        "Dunedin-PACE epigenetic clock",
+        "Structural brain MRI for aging assessment",
+        "Proteome analysis and aging biomarkers",
+        "GDF15, leptin, and PAI1 as aging-related plasma proteins",
+        "Caloric restriction and aging",
+        "Frailty assessment"
+      ],
+      "claims_to_note": [
+        "Omega-3 supplementation (1g/day with 330mg EPA, 660mg DHA) showed effects corresponding to approximately 3 months of reduced aging over 3 years in 3 of 4 epigenetic clocks tested in the DO-HEALTH trial",
+        "Vitamin D supplementation (2,000 IU daily) did not significantly impact aging clocks in the DO-HEALTH trial",
+        "Exercise (30 minutes strength training 3x/week) showed no independent effect on aging clocks in the already-active study population",
+        "Life insurance company actuarial models can predict mortality with less than 1% deviation in expected payouts at population level",
+        "Life insurance companies do not currently use commercially available epigenetic aging clocks for mortality prediction",
+        "Different epigenetic clocks measure different biological pathways and may show discordant results for the same intervention",
+        "DNA methylation measurements have significant technical noise from sample handling, storage, extraction methods, and batch effects",
+        "The Calorie Trial showed caloric restriction reduced pace of aging on Dunedin-PACE but not on FenoAge or GrimAge clocks"
+      ],
+      "policy_relevance": [
+        "Potential use of aging clocks as regulatory endpoints in clinical trials for anti-aging interventions",
+        "Questions about clinical validation standards for consumer-marketed aging clock tests",
+        "Implications for FDA oversight of direct-to-consumer biological age testing services",
+        "Discussion of how aging clocks could accelerate gerontological research and drug development timelines",
+        "Comparison to existing regulatory frameworks for biomarkers (blood pressure, glucose, lipids, smoking status)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance"
+        },
+        {
+          "title": "Assessing the Use of Agent-Based Models for Tobacco Regulation",
+          "url": "https://nap.nationalacademies.org/catalog/19018/assessing-the-use-of-agent-based-models-for-tobacco-regulation"
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "policy-chats",
+      "podcast_name": "Policy Chats",
+      "episode_title": "Designing Healthier Cities: Inside the Blue Zones Project Riverside",
+      "host": "Dori Pham (UC Riverside School of Public Policy)",
+      "published": "2026-04-03T12:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode features Aaron Edwards, Executive Director of Blue Zones Project Riverside, discussing how cities can redesign built environments and systems to promote health and longevity. Edwards addresses concerns about the evidentiary basis of Blue Zones research—acknowledging that while the original identification of Blue Zones locations has been validated through further research, implementing their characteristics in new communities remains a hypothesis requiring careful local adaptation. The project uses a five-year community transformation model based on nine identified longevity factors (the \"Power Nine\"), targeting 15% population engagement, policy changes across built environment, food systems, alcohol, and tobacco domains, and sustainability planning from the outset.",
+      "science_topics": [
+        "Longevity research and centenarian populations in Blue Zones",
+        "Built environment design and health outcomes",
+        "Plant-based diet and cardiovascular health",
+        "Tobacco exposure and youth smoking initiation",
+        "Walkability and physical activity patterns",
+        "Community social connection and mental health",
+        "Purpose/ikigai and wellbeing outcomes",
+        "Gallup Wellbeing Index metrics"
+      ],
+      "claims_to_note": [
+        "The original Blue Zones research (Dan Buettner, National Geographic, 1999) identifying five regions with high centenarian populations has been 'further validated' through additional research; Edwards notes critiques came from 'non-peer-reviewed' papers",
+        "The 'Power Nine' factors (natural movement, plant-based diet, purposefulness, social connection, etc.) are claimed to be universally transferable to any community",
+        "A 15% adoption threshold is cited as the tipping point for behavior change becoming woven into community fabric (source not specified in transcript)",
+        "The claim that reducing smoke shop proximity to youth-oriented locations reduces youth smoking initiation (presented as established best practice from other jurisdictions)",
+        "The project's success will be measured partly through Gallup Wellbeing Index with requirement to show improvement in at least 8 of 20 measures over 5 years"
+      ],
+      "policy_relevance": [
+        "Smoke shop moratorium in Riverside as intermediate policy step before permanent regulations",
+        "Pedestrian conversion of Mount Rubidoux (formerly vehicle road); downtown pedestrian mall in Riverside",
+        "Crosswalk public art installations in Arlington Village commercial corridor",
+        "Ciclavia street-closure events for community cycling and walking (planned February 2027)",
+        "Blue Zones Project targeting 30 specific policies across built environment, alcohol, tobacco, and food systems over five years",
+        "Workplace wellness policies and Blue Zone certification for worksites (Phoenix Technology case study)",
+        "Restaurant menu modification standards for Blue Zone approval",
+        "School-based health initiatives requiring 50% of Riverside schools to achieve Blue Zone approval",
+        "Grocery store standards and food desert interventions (14 grocery stores targeted)",
+        "County-level coordination: Riverside County Public Health Department goal to make the county 'the healthiest county in the nation'; five-city first cohort (Riverside, Coachella, Palm Springs, Banning, Mead Valley)",
+        "Funding from IHP Foundation, Kaiser Permanente, Molina, RUHS Public Health, Riverside County, and City of Riverside"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems"
+        },
+        {
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "title": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems"
+        },
+        {
+          "title": "Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/12649/secondhand-smoke-exposure-and-cardiovascular-effects-making-sense-of-the"
+        },
+        {
+          "title": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+          "url": "https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and"
+        },
+        {
+          "title": "Assessing the Use of Agent-Based Models for Tobacco Regulation",
+          "url": "https://nap.nationalacademies.org/catalog/19018/assessing-the-use-of-agent-based-models-for-tobacco-regulation"
+        },
+        {
+          "title": "Ending the Tobacco Problem: A Blueprint for the Nation",
+          "url": "https://nap.nationalacademies.org/catalog/11795/ending-the-tobacco-problem-a-blueprint-for-the-nation"
+        },
+        {
+          "title": "Physical Activity: Moving Toward Obesity Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21802/physical-activity-moving-toward-obesity-solutions-workshop-summary"
+        },
+        {
+          "title": "Educating the Student Body: Taking Physical Activity and Physical Education to School",
+          "url": "https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education"
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
