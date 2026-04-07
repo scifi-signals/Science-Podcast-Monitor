@@ -1,7 +1,480 @@
 {
-  "updated": "2026-04-06T11:38:08.179639",
-  "episode_count": 155,
+  "updated": "2026-04-07T11:40:03.877926",
+  "episode_count": 160,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Is the US backing out of the electric vehicle market?",
+      "host": "Ira Flatow",
+      "published": "2026-04-07T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode examines America's declining competitiveness in electric vehicle and battery technology compared to China, which now leads global EV and battery production. Host Ira Flatow and Brookings Institution fellow Kyle Chan discuss how Chinese companies like BYD have surpassed Tesla and cornered over 70% of global battery production through aggressive industrial policy and government support. The conversation explores whether the U.S. is becoming isolated from the global clean energy transition and what policy shifts might be necessary for America to remain competitive in renewable energy technologies.",
+      "science_topics": [
+        "Electric vehicle battery technology",
+        "Megawatt fast-charging systems",
+        "Solid-state batteries",
+        "Battery energy storage systems for power grids",
+        "Solar and wind energy integration with battery storage",
+        "Smart grid technology",
+        "Autonomous vehicle/smart driving capabilities"
+      ],
+      "claims_to_note": [
+        "China produces more than 70% of the world's batteries",
+        "BYD surpassed Tesla as the number one selling EV manufacturer globally",
+        "BYD vehicles are available at prices as low as approximately $10,000 USD",
+        "BYD megawatt charging can charge an EV in approximately the same time as filling a gas tank",
+        "Battery cost has declined 'so remarkably' and reliability has improved 'so dramatically' to enable EV industry rise",
+        "Solid-state batteries offer greater energy density and improved reliability across weather conditions"
+      ],
+      "policy_relevance": [
+        "U.S. tariffs and regulations restricting Chinese electric vehicles from American roads",
+        "China's industrial policy approach to technology development and manufacturing support",
+        "Canada's tariff negotiations with China for lower-tariff entry of Chinese EVs, contingent on Canadian production and technology transfer",
+        "Trump administration government investment in Intel chip manufacturing as shift toward industrial policy",
+        "U.S. historical avoidance of industrial policy ('policy that shall not be named')",
+        "COVID-19 supply chain disruptions prompting reconsideration of just-in-time inventory models",
+        "Strait of Hormuz supply chain vulnerabilities"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Navigating an Electric Vehicle Future: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26668/navigating-an-electric-vehicle-future-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Overcoming Barriers to Deployment of Plug-in Electric Vehicles",
+          "url": "https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
+          "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Electricity from Renewable Resources: Status, Prospects, and Impediments",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-policy-irl",
+      "podcast_name": "Science Policy IRL (The Ongoing Transformation)",
+      "episode_title": "The Future of Making Babies",
+      "host": "Issues in Science & Technology",
+      "published": "2026-04-07T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode explores in vitro gametogenesis (IVG)—the emerging technology of creating eggs and sperm from stem cells in laboratories—and its implications for assisted reproductive medicine. The discussion covers current egg donation practices, the medical risks donors face, regulatory gaps in the U.S., and the ethical challenges IVG raises around family kinship, embryo selection, and equity. A critical theme is the global mobility of reproductive technologies, which tends to shift practices to countries with fewer protections, and the need for proactive international coordination rather than reactive responses to failures.",
+      "science_topics": [
+        "In vitro gametogenesis (IVG)",
+        "Induced pluripotent stem cells (iPSCs)",
+        "Ovarian hyperstimulation syndrome (OHSS)",
+        "Pre-implantation genetic testing for polygenic traits (PGTP)",
+        "Mitochondrial replacement therapy (MRT)",
+        "Heritable genome editing"
+      ],
+      "claims_to_note": [
+        "Clinics and professional societies cite OHSS risk as 1-2%, but retrospective patient surveys suggest much higher rates—researcher Dr. Tober's work is cited as questioning the official figures",
+        "Lab-derived human eggs have been produced at Oregon Health and Sciences University (end of 2024/early 2025), though most had chromosomal abnormalities and are not clinically ready",
+        "In mice, researchers have generated functional lab-derived sperm and eggs capable of producing healthy offspring",
+        "The first clinical use of mitochondrial replacement therapy occurred in Mexico in 2016, resulting in a live birth, circumventing U.S. FDA restrictions",
+        "An FDA appropriations rider prevents the FDA from reviewing clinical applications involving heritable genetic modifications, which creates regulatory ambiguity for IVG"
+      ],
+      "policy_relevance": [
+        "U.S. egg donation is regulated by individual states rather than federally, with clinicians not legally obligated to follow professional society guidance from the American Society for Reproductive Medicine",
+        "FDA appropriations rider prohibits federal review of heritable genetic modifications, creating barriers to IVG clinical approval in the U.S.",
+        "National Academies of Sciences hosted a 2023 workshop on ethical and social implications of IVG",
+        "Different countries have vastly different regulatory frameworks: U.S. is permissive (allows selection for specific traits), Spain mediates donor selection through clinics, some countries restrict access based on marital status or sexual orientation",
+        "Need for international coordination on reproductive technology regulation; currently lacking compared to coordination on heritable genome editing",
+        "Pattern of regulatory arbitrage: when countries restrict surrogacy or other reproductive services, the practice relocates (India/Thailand → Nepal/Cambodia → Ukraine/Georgia/Kenya)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Stem Cells and the Future of Regenerative Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/10195/stem-cells-and-the-future-of-regenerative-medicine"
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "Assessing the Medical Risks of Human Oocyte Donation for Stem Cell Research: Workshop Report",
+          "url": "https://nap.nationalacademies.org/catalog/11832/assessing-the-medical-risks-of-human-oocyte-donation-for-stem-cell-research"
+        },
+        {
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "url": ""
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "Gulf War Veterans: Treating Symptoms and Syndromes",
+          "url": "https://nap.nationalacademies.org/catalog/10185/gulf-war-veterans-treating-symptoms-and-syndromes"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Cognitive Rehabilitation Therapy for Traumatic Brain Injury: Evaluating the Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/13220/cognitive-rehabilitation-therapy-for-traumatic-brain-injury-evaluating-the-evidence"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Why are bees special? We get inside a hive to find out",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-07T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores bee intelligence and behavior through National Geographic's docuseries 'Secrets of the Bees.' Dr. Sammy Ramsey, an entomologist, discusses how bees demonstrate sophisticated learning abilities, teach each other new skills, and engage in play behavior—capabilities previously thought unique to vertebrates. The episode also addresses the critical threat posed by varroa mites to honeybee colonies worldwide and highlights concerns about declining USDA bee research funding.",
+      "science_topics": [
+        "Bee cognition and learning in Apis mellifera (honeybees)",
+        "Second-order thinking in insects",
+        "Bee communication and cultural transmission of learned behaviors",
+        "Play behavior in insects",
+        "Vespa mandarinia (Asian giant hornet) predation and bee defense mechanisms",
+        "Thermoregulation in honeybee defense (heat balling)",
+        "Varroa destructor mites and immunosuppression in honeybees",
+        "Varroa mite-induced liver damage in honeybees",
+        "Viral and bacterial susceptibility in mite-infested bees",
+        "Pesticide toxicity in immunocompromised bees",
+        "Bee pollination and flower-bee coevolution"
+      ],
+      "claims_to_note": [
+        "Nearly 100% of colonies in the U.S. have varroa mites or will have them within a year—verify against USDA epidemiological data",
+        "Varroa mites are present on every continent where bees are kept, including Australia (new within last few years)—check current distribution status",
+        "Honeybees are the third most valuable livestock in the world after chickens and pigs—verify valuation ranking with USDA",
+        "Bees demonstrated first-documented play behavior in the Queen Mary University of London study—confirm this was the first such documentation",
+        "Varroa mites liquefy bee livers and cause immunosuppression leading to increased viral/bacterial susceptibility—verify mechanistic claims against peer-reviewed literature",
+        "USDA Bee Research Laboratory is being dismantled—verify current status and funding decisions"
+      ],
+      "policy_relevance": [
+        "USDA classification of honeybees as livestock",
+        "USDA Bee Research Laboratory funding and reported dismantling",
+        "Pesticide regulation and its impacts on bee welfare",
+        "Call for reduced pesticide reliance to protect immunocompromised bee populations",
+        "Federal research prioritization and funding allocation for bee science"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades"
+        },
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a"
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27210/effective-health-communication-within-the-current-information-environment-and-the-role-of-the-federal-government"
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations",
+          "url": "https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Project Hail Mary with Andy Weir",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-04-07T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Neil deGrasse Tyson interviews science fiction author Andy Weir about his novel and film adaptation of Project Hail Mary. The discussion focuses on the scientifically-grounded worldbuilding behind the story, including the fictional astrophage microorganism that consumes stars, the alien Iridian species (nicknamed Rocky), and the exoplanet Tau Ceti. Weir explains how he derived alien biology from planetary constraints, and discusses the film adaptation starring Ryan Gosling, including budget considerations and creative decisions. The conversation highlights Weir's commitment to scientific accuracy in fiction and his creative process for developing realistic speculative science.",
+      "science_topics": [
+        "Astrophage - hypothetical microorganism that converts stellar mass to light for propulsion",
+        "Exoplanet habitability and atmospheric composition (ammonia-based atmosphere at high pressure)",
+        "Stellar dimming and stellar evolution",
+        "Magnetic field generation in planets (dynamo theory, molten iron cores)",
+        "Echolocation and sensory perception in non-humanoid aliens",
+        "Time dilation and relativistic physics effects on spacecraft fuel calculations",
+        "Panspermia and life distribution across star systems",
+        "Extremophile biology and chemosynthetic ecosystems",
+        "Venus atmospheric composition and pressure",
+        "Water boiling points under high atmospheric pressure"
+      ],
+      "claims_to_note": [
+        "40 Eridani Ab exoplanet (Fortier-Dani A planet) - Weir notes this was believed real when he wrote the book but has since been disproven as solar flare activity from 40 Eridani",
+        "Claim that relativistic effects allow significantly less fuel needed for interstellar travel than Newtonian calculations suggest",
+        "Assertion that echolocation-based aliens would lack object permanence and spatial mapping in consciousness",
+        "Statement that water at 200+ degrees Celsius will not boil at 29 atmospheres of pressure",
+        "Claim about human perception of novel colors through selective cone activation with lasers"
+      ],
+      "policy_relevance": [
+        "Film production and tax incentives - Project Hail Mary benefited from UK tax rebates for filming in the UK",
+        "Science fiction as policy communication vehicle for climate and existential risk messaging",
+        "Discussion of hypothetical geoengineering scenarios (Antarctic nuclear detonations to release methane for planetary warming)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "Space Nuclear Propulsion for Human Mars Exploration",
+          "url": "https://nap.nationalacademies.org/catalog/25977/space-nuclear-propulsion-for-human-mars-exploration"
+        },
+        {
+          "title": "Assessment of Solid-State Lighting, Phase Two",
+          "url": "https://nap.nationalacademies.org/catalog/24619/assessment-of-solid-state-lighting-phase-two"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        }
+      ]
+    },
+    {
+      "podcast_id": "shaping-science",
+      "podcast_name": "Shaping Science",
+      "episode_title": "#15 Steven Johnson on 19th Century Literature, the Future of Academic Research, and the Role of the Humanities in AI Development",
+      "host": "Nick Dirks (New York Academy of Sciences)",
+      "published": "2026-04-06T13:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Steven Johnson, bestselling author and editorial director at Google Labs, discusses his intellectual journey from 19th-century literature to technology innovation, and his work developing Notebook LM, an AI-powered research tool. Johnson traces how his early interest in semiotics and comparative literature informed his thinking about interface design and complex systems. He describes how Notebook LM uses source-grounded language models—restricting AI outputs to user-uploaded documents rather than general internet data—to create a research tool that avoids hallucination problems while enabling cross-disciplinary knowledge discovery. The conversation explores how AI tools might facilitate innovation by enabling researchers to access and synthesize information across fields.",
+      "science_topics": [
+        "Large language models (LLMs) and GPT models",
+        "Source-grounded AI and retrieval-augmented generation",
+        "AI applications in academic research and literature analysis",
+        "Retinal imaging and AI detection of systemic diseases",
+        "Complex systems and emergence in networks",
+        "Historical disease epidemiology (cholera in 19th century London)",
+        "Cross-disciplinary knowledge transfer in scientific innovation"
+      ],
+      "claims_to_note": [
+        "Johnson claims Notebook LM can handle 500 sources in a single notebook effectively, with state-of-the-art citation architecture—this architectural claim could be verified against technical documentation",
+        "Johnson states that as of the conversation date, adding documents to ChatGPT or Gemini 'really doesn't work very well' beyond 2-4 documents—this comparative claim about competitor products' capabilities should be fact-checked against current product specifications",
+        "Johnson asserts that 'no computer in the world could do that two years ago, three years ago' regarding cross-source citation and synthesis—this historical technological claim is verifiable",
+        "Johnson claims GPT-3 access was not publicly available in October 2021, only through special arrangements—this timeline claim about OpenAI's release dates is factual and verifiable",
+        "Johnson states AI can 'see patterns from retinal scans that humans can't' to diagnose systemic diseases—this claim about AI capabilities in medical imaging should be cross-referenced with peer-reviewed ophthalmology and AI literature"
+      ],
+      "policy_relevance": [
+        "Google's 'code red' response to ChatGPT release and reallocation of company resources to LLM development",
+        "Discussion of OpenAI's hybrid nonprofit/for-profit organizational structure and its policy implications for AI governance",
+        "Educational adoption of AI tools in schools and universities, with implications for academic integrity policies",
+        "Lack of early ethical oversight structures for AI development by major technology companies",
+        "Intellectual property considerations in AI training data (implicit in discussion of source-grounding approach)",
+        "AI tool deployment in academic institutions and need for researcher guidance on appropriate use cases"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation"
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of"
+        },
+        {
+          "title": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding"
+        },
+        {
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

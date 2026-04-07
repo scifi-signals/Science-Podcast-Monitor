@@ -1,0 +1,507 @@
+{
+  "podcast_id": "shaping-science",
+  "podcast_name": "Shaping Science",
+  "episode_title": "#15 Steven Johnson on 19th Century Literature, the Future of Academic Research, and the Role of the Humanities in AI Development",
+  "host": "Nick Dirks (New York Academy of Sciences)",
+  "published": "2026-04-06T13:00:00",
+  "episode_url": "https://podcasters.spotify.com/pod/show/shaping-science/episodes/15-Steven-Johnson-on-19th-Century-Literature--the-Future-of-Academic-Research--and-the-Role-of-the-Humanities-in-AI-Development-e3h10c9",
+  "duration_minutes": 50.75,
+  "influence_tier": "emerging",
+  "category": "science_policy",
+  "summary": "Steven Johnson, bestselling author and editorial director at Google Labs, discusses his intellectual journey from 19th-century literature to technology innovation, and his work developing Notebook LM, an AI-powered research tool. Johnson traces how his early interest in semiotics and comparative literature informed his thinking about interface design and complex systems. He describes how Notebook LM uses source-grounded language models—restricting AI outputs to user-uploaded documents rather than general internet data—to create a research tool that avoids hallucination problems while enabling cross-disciplinary knowledge discovery. The conversation explores how AI tools might facilitate innovation by enabling researchers to access and synthesize information across fields.",
+  "science_topics": [
+    "Large language models (LLMs) and GPT models",
+    "Source-grounded AI and retrieval-augmented generation",
+    "AI applications in academic research and literature analysis",
+    "Retinal imaging and AI detection of systemic diseases",
+    "Complex systems and emergence in networks",
+    "Historical disease epidemiology (cholera in 19th century London)",
+    "Cross-disciplinary knowledge transfer in scientific innovation"
+  ],
+  "claims_to_note": [
+    "Johnson claims Notebook LM can handle 500 sources in a single notebook effectively, with state-of-the-art citation architecture—this architectural claim could be verified against technical documentation",
+    "Johnson states that as of the conversation date, adding documents to ChatGPT or Gemini 'really doesn't work very well' beyond 2-4 documents—this comparative claim about competitor products' capabilities should be fact-checked against current product specifications",
+    "Johnson asserts that 'no computer in the world could do that two years ago, three years ago' regarding cross-source citation and synthesis—this historical technological claim is verifiable",
+    "Johnson claims GPT-3 access was not publicly available in October 2021, only through special arrangements—this timeline claim about OpenAI's release dates is factual and verifiable",
+    "Johnson states AI can 'see patterns from retinal scans that humans can't' to diagnose systemic diseases—this claim about AI capabilities in medical imaging should be cross-referenced with peer-reviewed ophthalmology and AI literature"
+  ],
+  "policy_relevance": [
+    "Google's 'code red' response to ChatGPT release and reallocation of company resources to LLM development",
+    "Discussion of OpenAI's hybrid nonprofit/for-profit organizational structure and its policy implications for AI governance",
+    "Educational adoption of AI tools in schools and universities, with implications for academic integrity policies",
+    "Lack of early ethical oversight structures for AI development by major technology companies",
+    "Intellectual property considerations in AI training data (implicit in discussion of source-grounding approach)",
+    "AI tool deployment in academic institutions and need for researcher guidance on appropriate use cases"
+  ],
+  "key_quotes": [
+    "Interface design—the way we visualize and interact with information—these people who control that are going to become incredibly important in society because everything is going to be funneled through the metaphors they come up with.",
+    "It was like October of 2021...I'm in my study in Brooklyn and I get access to [GPT-3] and I start playing around with it. And I'm there for like three hours and I'm just like, oh, this is so much more important than anybody has realized. Like, this is the single most important thing that has happened in technology in my lifetime.",
+    "One of [the recurring patterns when transformative ideas emerge] is collisions between different fields. Someone is working in one field and looks over at that adjacent field and it's like, hey, there's something interesting there. I wonder if I borrowed that and put it to use here. What would that unlock?"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Large language models (LLMs) and GPT models",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        },
+        {
+          "id": "23498",
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "health literacy cultural competency",
+            "make appropriate health decisions",
+            "health literate culturally competent",
+            "health care today impact",
+            "age race cultural background",
+            "profound demographic shift",
+            "dynamic forces operating",
+            "appropriate language",
+            "language skills",
+            "language access services"
+          ],
+          "description": "The aging and evolving racial and ethnic composition of the U.S. population has the United States in the midst of a profound demographic shift and health care organizations face many issues as they move to address and adapt to this change. In their drive to adequately serve increasingly diverse communities, health care organizations are searching for approaches that will enable them to provide information and service to all persons, regardless of age, race, cultural background, or language skills, in a manner that facilitates understanding and use of that information to make appropriate health decisions. To better understand how the dynamic forces operating in health care today impact the delivery of services in a way that is health literate, culturally competent, and in an appropriate language for patients and their families, the National Academies of Sciences, Engineering, and Medicine conducted a public workshop on the integration of health literacy, cultural competency, and languag",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Source-grounded AI and retrieval-augmented generation",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        },
+        {
+          "id": "26887",
+          "title": "Artificial Intelligence and Justified Confidence",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "confidence",
+            "trust",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "AI applications in academic research and literature analysis",
+      "publications": [
+        {
+          "id": "27993",
+          "title": "AI Applications for Automatic Pavement Condition Evaluation",
+          "url": "https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "automatic pavement condition evaluation",
+            "assess current pavement conditions",
+            "refine pavement performance models",
+            "evaluate pavement conditions",
+            "artificial intelligence technologies",
+            "rehabilitation treatments",
+            "cooperative highway",
+            "nchrp synthesis",
+            "budget needs",
+            "semiautomated",
+            "applications"
+          ],
+          "description": "Departments of transportation (DOTs) use pavement condition surveys to assess current pavement conditions and predict future pavement conditions to determine the type and timing of maintenance and rehabilitation treatments; define future budget needs; and develop, or refine, pavement performance models. Over the last two decades, pavement condition assessment has transitioned from manual to semiautomated to fully automated pavement condition surveys.NCHRP Synthesis 636: AI Applications for Automatic Pavement Condition Evaluation, from TRB's National Cooperative Highway Research Program, documents state DOT automated pavement distress identification and the use of artificial intelligence technologies to evaluate pavement conditions.",
+          "year": 2024,
+          "page_keywords": [
+            "Artificial intelligence"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Retinal imaging and AI detection of systemic diseases",
+      "publications": [
+        {
+          "id": "10107",
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "keywords": [
+            "cancer",
+            "breast cancer",
+            "mammography",
+            "screening",
+            "detection",
+            "women"
+          ]
+        },
+        {
+          "id": "25535",
+          "title": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "noncommunicable diseases risks posed",
+            "microbes affects host physiology",
+            "causes noncommunicable diseases",
+            "health care delivery models",
+            "colliding epidemics emerging",
+            "infectious diseases",
+            "chronic diseases",
+            "interventions potential",
+            "discussions included",
+            "potential directions",
+            "noncommunicable diseases",
+            "convergence"
+          ],
+          "description": "On June 11 and June 12, 2019, the National Academies convened a workshop to explore the growing understanding of how the interplay between humans and microbes affects host physiology and causes noncommunicable diseases. Discussions included an overview of colliding epidemics, emerging research on associations between infectious and noncommunicable diseases, risks posed by chronic diseases to the development and severity of infectious diseases, and the influence of the microbiome. Workshop participants also examined the challenges and opportunities of convergence, the integration of health care delivery models and interventions, potential approaches for research, policy, and practice in the immediate-term, and potential directions for the long-term. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        },
+        {
+          "id": "11996",
+          "title": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "systematic collection analysis interpretation",
+            "animal health communities",
+            "effective control involves",
+            "human public health",
+            "outbreak rapid recognition",
+            "reemerging disease",
+            "disease detection",
+            "infectious disease",
+            "emerging reemerging",
+            "disease event",
+            "global infectious disease surveillance",
+            "challenges finding solutions",
+            "detection",
+            "assessing"
+          ],
+          "description": "Early detection is essential to the control of emerging, reemerging, and novel infectious diseases, whether naturally occurring or intentionally introduced. Containing the spread of such diseases in a profoundly interconnected world requires active vigilance for signs of an outbreak, rapid recognition of its presence, and diagnosis of its microbial cause, in addition to strategies and resources for an appropriate and efficient response. Although these actions are often viewed in terms of human public health, they also challenge the plant and animal health communities. Surveillance, defined as \"the continual scrutiny of all aspects of occurrence and spread of a disease that are pertinent to effective control\", involves the \"systematic collection, analysis, interpretation, and dissemination of health data.\" Disease detection and diagnosis is the act of discovering a novel, emerging, or reemerging disease or disease event and identifying its cause. Diagnosis is \"the cornerstone of effecti",
+          "year": 2007,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Global Health"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Complex systems and emergence in networks",
+      "publications": [
+        {
+          "id": "23686",
+          "title": "A 21st Century Cyber-Physical Systems Education",
+          "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "cyber physical systems cps",
+            "widely deployed communication networks",
+            "increasingly capable adaptable",
+            "managing inter dependencies",
+            "regional energy grid",
+            "physical components",
+            "trustworthy systems",
+            "engineered systems",
+            "technical developments",
+            "appropriate education",
+            "cyber physical systems education"
+          ],
+          "description": "Cyber-physical systems (CPS) are \"engineered systems that are built from, and depend upon, the seamless integration of computational algorithms and physical components.\" CPS can be small and closed, such as an artificial pancreas, or very large, complex, and interconnected, such as a regional energy grid. CPS engineering focuses on managing inter- dependencies and impact of physical aspects on cyber aspects, and vice versa. With the development of low-cost sensing, powerful embedded system hardware, and widely deployed communication networks, the reliance on CPS for system functionality has dramatically increased. These technical developments in combination with the creation of a workforce skilled in engineering CPS will allow the deployment of increasingly capable, adaptable, and trustworthy systems. Engineers responsible for developing CPS but lacking the appropriate education or training may not fully understand at an appropriate depth, on the one hand, the technical issues associat",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 8588,
+  "saved_at": "2026-04-07T11:39:28.033422"
+}

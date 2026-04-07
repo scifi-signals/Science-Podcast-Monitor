@@ -1,0 +1,778 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "Why are bees special? We get inside a hive to find out",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-04-07T07:00:00",
+  "episode_url": "https://www.npr.org/2026/04/07/nx-s1-5757918/honey-bees-play-behavior-intelligence-hive",
+  "duration_minutes": 13.2,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores bee intelligence and behavior through National Geographic's docuseries 'Secrets of the Bees.' Dr. Sammy Ramsey, an entomologist, discusses how bees demonstrate sophisticated learning abilities, teach each other new skills, and engage in play behavior—capabilities previously thought unique to vertebrates. The episode also addresses the critical threat posed by varroa mites to honeybee colonies worldwide and highlights concerns about declining USDA bee research funding.",
+  "science_topics": [
+    "Bee cognition and learning in Apis mellifera (honeybees)",
+    "Second-order thinking in insects",
+    "Bee communication and cultural transmission of learned behaviors",
+    "Play behavior in insects",
+    "Vespa mandarinia (Asian giant hornet) predation and bee defense mechanisms",
+    "Thermoregulation in honeybee defense (heat balling)",
+    "Varroa destructor mites and immunosuppression in honeybees",
+    "Varroa mite-induced liver damage in honeybees",
+    "Viral and bacterial susceptibility in mite-infested bees",
+    "Pesticide toxicity in immunocompromised bees",
+    "Bee pollination and flower-bee coevolution"
+  ],
+  "claims_to_note": [
+    "Nearly 100% of colonies in the U.S. have varroa mites or will have them within a year—verify against USDA epidemiological data",
+    "Varroa mites are present on every continent where bees are kept, including Australia (new within last few years)—check current distribution status",
+    "Honeybees are the third most valuable livestock in the world after chickens and pigs—verify valuation ranking with USDA",
+    "Bees demonstrated first-documented play behavior in the Queen Mary University of London study—confirm this was the first such documentation",
+    "Varroa mites liquefy bee livers and cause immunosuppression leading to increased viral/bacterial susceptibility—verify mechanistic claims against peer-reviewed literature",
+    "USDA Bee Research Laboratory is being dismantled—verify current status and funding decisions"
+  ],
+  "policy_relevance": [
+    "USDA classification of honeybees as livestock",
+    "USDA Bee Research Laboratory funding and reported dismantling",
+    "Pesticide regulation and its impacts on bee welfare",
+    "Call for reduced pesticide reliance to protect immunocompromised bee populations",
+    "Federal research prioritization and funding allocation for bee science"
+  ],
+  "key_quotes": [
+    "They decouple their wing muscles from their wings and they vibrate their wing muscles so that they generate a huge amount of heat. That heat creates a convection oven effect where they literally cook the hornet like they bake it like a cookie.",
+    "When we pass down these things that we've learned, these things that we've discovered, these things that we enjoy and are our preferences, when we pass that down to the next generation, when we pass that down laterally to other individuals, that is indeed culture. And that means that insects, y'all, these insects out here are culturistas.",
+    "They are considered by the USDA as livestock and they are the third most valuable livestock in the world. Just after chickens and pigs. And so groups like the Bee Research Laboratory at the United States Department of Agriculture...that lab is being dismantled. And in addition to that, we are already in a context where we need more bee research and we are getting less of it."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Bee cognition and learning in Apis mellifera (honeybees)",
+      "publications": [
+        {
+          "id": "25183",
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "transportation"
+          ],
+          "keywords": [
+            "education",
+            "citizen science projects focus",
+            "science learning continue",
+            "citizen science involves",
+            "while citizen science",
+            "extend participants learning",
+            "professional practitioners participants",
+            "doing science",
+            "indeed modern theories",
+            "learning recognize",
+            "projects extend",
+            "enhancing opportunities",
+            "citizen science",
+            "learning",
+            "design"
+          ],
+          "description": "In the last twenty years, citizen science has blossomed as a way to engage a broad range of individuals in doing science. Citizen science projects focus on, but are not limited to, nonscientists participating in the processes of scientific research, with the intended goal of advancing and using scientific knowledge. A rich range of projects extend this focus in myriad directions, and the boundaries of citizen science as a field are not clearly delineated. Citizen science involves a growing community of professional practitioners, participants, and stakeholders, and a thriving collection of projects. While citizen science is often recognized for its potential to engage the public in science, it is also uniquely positioned to support and extend participants' learning in science. Contemporary understandings of science learning continue to advance. Indeed, modern theories of learning recognize that science learning is complex and multifaceted. Learning is affected by factors that are indiv",
+          "year": 2018,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "11625",
+          "title": "Taking Science to School: Learning and Teaching Science in Grades K-8",
+          "url": "https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "What is science for a child? How do children learn about science and how to do science? Drawing on a vast array of work from neuroscience to classroom observation, Taking Science to School provides a comprehensive picture of what we know about teaching and learning science from kindergarten through eighth grade. By looking at a broad range of questions, this book provides a basic foundation for guiding science teaching and supporting students in their learning. Taking Science to School answers such questions as: When do children begin to learn about science? Are there critical stages in a child's development of such scientific concepts as mass or animate objects? What role does nonschool learning play in children's knowledge of science? How can science education capitalize on children's natural curiosity? What are the best tasks for books, lectures, and hands-on learning? How can teachers be taught to teach science? The book also provides a detailed examination of how we know what we k",
+          "year": 2007,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "classroom observation taking science",
+            "guiding science teaching",
+            "science education capitalize",
+            "learning science",
+            "teach science",
+            "nonschool learning play",
+            "children learn",
+            "children begin",
+            "comprehensive picture",
+            "detailed examination",
+            "teaching science",
+            "taking science",
+            "learning",
+            "school",
+            "grades"
+          ]
+        },
+        {
+          "id": "1541",
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "keywords": [
+            "origins",
+            "life",
+            "astrobiology",
+            "evolution",
+            "biology",
+            "prebiotic"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Facilitating Experiential Learning for Emerging and Novel Technologies (ExLENT)",
+          "url": "https://www.nationalacademies.org/projects/NAE-NAE-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Second-order thinking in insects",
+      "publications": [
+        {
+          "id": "23484",
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ensure effective federal oversight",
+            "second symposium focused",
+            "first symposium held",
+            "government deliberative process",
+            "second meeting held",
+            "technical questions surrounding",
+            "ideas identified during",
+            "public symposium",
+            "government policies",
+            "pandemic potential",
+            "second symposium march",
+            "function",
+            "gain"
+          ],
+          "description": "On March 10-11, 2016, the National Academies of Sciences, Engineering, and Medicine held a public symposium on potential U.S. government policies for the oversight of gain-of- function (GOF) research. This was the Academies' second meeting held at the request of the U.S. government to provide a mechanism to engage the life sciences community and the broader public and solicit feedback on optimal approaches to ensure effective federal oversight of GOF research as part of a broader U.S. government deliberative process. The first symposium, held in December 2014, examined the underlying scientific and technical questions surrounding the potential risks and benefits of GOF research involving pathogens with pandemic potential. The second symposium focused on discussion of the draft recommendations regarding GOF research of a Working Group of the National Science Advisory Board for Biosecurity. This report summarizes the key issues and ideas identified during the second symposium.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "26662",
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Adolescence is a crucial period of life for the prevention of substance use disorders. Research has shown that early intervention can significantly reduce rates of substance use disorder in adulthood. To learn more about effective family-focused interventions in primary care settings for preventing substance use disorder, the National Academies of Sciences, Engineering, and Medicine hosted a workshop on May 5-6, 2022. The proceedings from that workshop explores existing efforts to incorporate family-focused interventions into state health care policies. It also examines barriers to implementing such interventions as well as lessons learned from successful efforts to scale up these interventions.",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "incorporate family focused interventions",
+            "effective family focused interventions",
+            "preventing substance use disorder",
+            "state health care policies",
+            "explores existing efforts",
+            "substance use disorders",
+            "significantly reduce rates",
+            "primary care settings",
+            "successful efforts",
+            "early intervention",
+            "prevent substance use disorders",
+            "family focused interventions",
+            "adolescence"
+          ]
+        },
+        {
+          "id": "27157",
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "2023 shattered global climate records as the warmest year in the modern record, bringing with it devastating impacts on human and natural systems. Methane emissions, about 60% of which come from human activities, are a major contributor to global warming, second only to carbon dioxide (CO2). Methane is relatively short-lived in the atmosphere but is 80 times more potent than CO2 at trapping heat over a 20-year period. Together with reducing CO2 emissions, rapid and sustained reductions in methane emissions are critical to limit both near- and long-term warming in future decades. But given the many barriers to achieving needed emissions reductions at scale, researchers are exploring the potential of technologies to remove methane from the atmosphere. A Research Agenda Toward Atmospheric Methane Removal is the first report of a two-phase study to assess the need and potential for atmospheric methane removal. This report identifies priority research that should be addressed within 3-5 yea",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Energy and Environmental Systems",
+          "keywords": [
+            "nature",
+            "achieving needed emissions reductions",
+            "atmospheric methane removal",
+            "shattered global climate records",
+            "reducing emissions rapid",
+            "methane emissions",
+            "global warming second",
+            "modern record bringing",
+            "relatively short lived",
+            "long term warming",
+            "remove methane",
+            "agenda"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Bee communication and cultural transmission of learned behaviors",
+      "publications": [
+        {
+          "id": "25664",
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "improve health outcomes across",
+            "cancer policy forum collaborated",
+            "low health literacy",
+            "cancer care continuum",
+            "improve communication across",
+            "treatment higher rates",
+            "reduce disease risk",
+            "however estimates suggest",
+            "poor health",
+            "treatment outcomes",
+            "health literacy",
+            "communication",
+            "oncology"
+          ],
+          "description": "Health literacy is a critical skill for engaging in healthy behaviors to reduce disease risk and improve health outcomes across the continuum of cancer care. However, estimates suggest that more than one-third of the U.S. adult population has low health literacy, and nearly half of all patients with cancer have difficulty understanding information about their disease or treatment. Low health literacy among patients with cancer is associated with poor health and treatment outcomes, including lower adherence to treatment, higher rates of missed appointments, and an increased risk of hospitalization. Low health literacy can also impede informed decision making, especially as cancer care becomes increasingly complex and as patients and their families take more active roles in treatment decisions. To examine opportunities to improve communication across the cancer care continuum, the National Cancer Policy Forum collaborated with the Roundtable on Health Literacy to host a workshop, Health ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "21790",
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing effective communication activities",
+            "enhanced communication summarizes evidence",
+            "chemistry communication activities",
+            "daily life impacting areas",
+            "chemistry community lacks",
+            "communications informal learning",
+            "communicating chemistry",
+            "practical guide intended",
+            "chemistry education",
+            "identifies key areas",
+            "effective chemistry communication",
+            "informal environments"
+          ],
+          "description": "Chemistry plays a critical role in daily life, impacting areas such as medicine and health, consumer products, energy production, the ecosystem, and many other areas. Communicating about chemistry in informal environments has the potential to raise public interest and understanding of chemistry around the world. However, the chemistry community lacks a cohesive, evidence-based guide for designing effective communication activities. This report is organized into two sections. Part A: The Evidence Base for Enhanced Communication summarizes evidence from communications, informal learning, and chemistry education on effective practices to communicate with and engage publics outside of the classroom; presents a framework for the design of chemistry communication activities; and identifies key areas for future research. Part B: Communicating Chemistry: A Framework for Sharing Science is a practical guide intended for any chemists to use in the design, implementation, and evaluation of their ",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        },
+        {
+          "id": "27933",
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Atypical weather events, such as extreme tropical cyclones, pose substantial threats to life, property and livelihoods in the U.S. and worldwide. Despite major advances in forecasting capabilities, communicating about extreme weather events with decision-makers and the public carries considerable challenges but also provides opportunities for innovation. Decisions surrounding extreme weather events often involve making tradeoffs between different degrees and varieties of risks. For example, deciding whether or when to issue an evacuation order ahead of a tropical cyclone entails tradeoffs between the risks to lives posed by the event and the risks to livelihoods posed by the financial costs of evacuations or relocations. In early 2024, the National Academies held a workshop on risk communication around extreme tropical cyclones and other atypical climate events. Participants aimed to identify opportunities and challenges for risk communication as well as lessons about community engagem",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Environmental Change and Society",
+          "keywords": [
+            "nature",
+            "tropical cyclone entails tradeoffs",
+            "public carries considerable challenges",
+            "extreme weather events",
+            "atypical weather events",
+            "atypical climate events",
+            "forecasting capabilities communicating",
+            "example deciding whether",
+            "despite major advances",
+            "evacuation order ahead",
+            "risk communication",
+            "advancing risk communication",
+            "extreme tropical cyclones",
+            "decision makers"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Play behavior in insects",
+      "publications": [
+        {
+          "id": "13462",
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sackler colloquia sponsored",
+            "installment explores evolutionary",
+            "evolution ile series",
+            "sackler colloquium brain",
+            "particular biological topic",
+            "mabel beckman center",
+            "evolutionary neuroscience",
+            "scientifically intriguing",
+            "contemporary societal",
+            "behavior focuses",
+            "evolution",
+            "behavior",
+            "volume",
+            "light",
+            "brain"
+          ],
+          "description": "The central goal of the In the Light of Evolution (ILE) series is to promote the evolutionary sciences through state-of-the-art colloquia-in the series of Arthur M. Sackler colloquia sponsored by the National Academy of Sciences-and their published proceedings. Each installment explores evolutionary perspectives on a particular biological topic that is scientifically intriguing but also has special relevance to contemporary societal issues or challenges. This book is the outgrowth of the Arthur M. Sackler Colloquium \"Brain and Behavior,\" which was sponsored by the National Academy of Sciences on January 20-21, 2012, at the Academy's Arnold and Mabel Beckman Center in Irvine, CA. It is the sixth in a series of Colloquia under the general title \"In the Light of Evolution.\" Specifically, In Light of Evolution: Brain and Behavior focuses on the field of evolutionary neuroscience that now includes a vast array of different approaches, data types, and species. This volume is also available f",
+          "year": 2013,
+          "page_keywords": [
+            "Science"
+          ]
+        },
+        {
+          "id": "26874",
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "recommends integrating behavioral specialists",
+            "six public policy domains",
+            "behavioral economics",
+            "collaborations among economists",
+            "policy impact",
+            "policy arena",
+            "climate change",
+            "influenced policymaking",
+            "psychologists focuses",
+            "numerous domains",
+            "directions"
+          ],
+          "description": "Behavioral economics - a field based in collaborations among economists and psychologists - focuses on integrating a nuanced understanding of behavior into models of decision-making. Since the mid-20th century, this growing field has produced research in numerous domains and has influenced policymaking, research, and marketing. However, little has been done to assess these contributions and review evidence of their use in the policy arena. Behavioral Economics: Policy Impact and Future Directions examines the evidence for behavioral economics and its application in six public policy domains: health, retirement benefits, climate change, social safety net benefits, climate change, education, and criminal justice. The report concludes that the principles of behavioral economics are indispensable for the design of policy and recommends integrating behavioral specialists into policy development within government units. In addition, the report calls for strengthening research methodology and",
+          "year": 2024,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Board On Behavioral Cognitive And Sensor"
+        },
+        {
+          "id": "27210",
+          "title": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27210/effective-health-communication-within-the-current-information-environment-and-the-role-of-the-federal-government",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "federal health communication",
+            "federal health agencies",
+            "communicate effectively within",
+            "behavior change explore",
+            "leadership positions joined",
+            "current health",
+            "federal government",
+            "government agencies",
+            "science education",
+            "public trust",
+            "effective health communication within",
+            "environment",
+            "current"
+          ],
+          "description": "On March 20 and 21, 2023, the Board on Science Education at the National Academies of Sciences, Engineering, and Medicine hosted a workshop titled Effective Health Communication within the Current Information Environment and the Role of the Federal Government. Workshop speakers and participants, a majority of whom were working in government agencies in federal health communication or leadership positions, joined both in person in Washington, D.C. as well as virtually to explore the current health information environment as it pertains to public trust and behavior change, explore how federal health agencies can communicate effectively within the current information environment and what is needed to support effective health communication moving forward. This publication summarizes the presentations and discussion of the workshop.",
+          "year": 2024,
+          "committee": "Board on Science Education"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Vespa mandarinia (Asian giant hornet) predation and bee defense mechanisms",
+      "publications": [
+        {
+          "id": "25762",
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "cool earth nrc reviewed",
+            "provided high level",
+            "climate intervention",
+            "reflecting sunlight",
+            "state",
+            "mechanisms",
+            "regarding",
+            "establish",
+            "encompass",
+            "governing",
+            "solar geoengineering",
+            "governance"
+          ],
+          "description": "The National Research Council report Climate Intervention: Reflecting Sunlight to Cool Earth (NRC, 2015) reviewed the state of the science and provided high-level findings and recommendations regarding SG methods. This current study was tasked to update the 2015 assessment of the state of understanding and to provide recommendations for how to establish a research program, what to encompass in the research agenda, and what mechanisms to employ for governing this research.",
+          "year": 2021,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "24833",
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "seemingly simple concept encompasses",
+            "featuring invited speakers",
+            "cyber resilience hosted",
+            "important mechanism",
+            "mechanisms policies",
+            "security changes",
+            "private sector",
+            "wide variety",
+            "software",
+            "presentations",
+            "resilience",
+            "mechanism",
+            "security"
+          ],
+          "description": "Software update is an important mechanism by which security changes and improvements are made in software, and this seemingly simple concept encompasses a wide variety of practices, mechanisms, policies, and technologies. To explore the landscape further, the Forum on Cyber Resilience hosted a workshop featuring invited speakers from government, the private sector, and academia. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "18282",
+          "title": "Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations",
+          "url": "https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "green building certification systems",
+            "cost benefit analysis return",
+            "congressional defense committees",
+            "ashrae energy standard",
+            "defense authorization act",
+            "sustainability standards used",
+            "environmental design leed",
+            "fiscal year requires",
+            "long term payback",
+            "building standards",
+            "energy efficiency standards",
+            "military construction",
+            "major renovations",
+            "department",
+            "defense"
+          ],
+          "description": "Congress has an ongoing interest in ensuring that the 500,000 buildings and other structures owned and operated by the Department of Defense (DOD) are operated effectively in terms of cost and resource use. Section 2830 of the National Defense Authorization Act for fiscal year requires the Secretary of Defense to submit a report to the congressional defense committees on the energy-efficiency and sustainability standards used by DOD for military construction and major renovations of buildings. DOD's report must include a cost-benefit analysis, return on investment, and long-term payback for the building standards and green building certification systems, including: (A) American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) Standard 189.1-2011 for the Design of High-Performance, Green Buildings Except Low-Rise Residential. (B) ASHRAE Energy Standard 90.1-2010 for Buildings Except Low-Rise Residential. (C) Leadership in Energy and Environmental Design (LEED) S",
+          "year": 2013,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Board on Infrastructure and the Constructed Environment"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Issue Paper on Mid-Scale Manufacturing for Defense",
+          "url": "https://www.nationalacademies.org/projects/DEPS-NMMB-25-02",
+          "status": "in_progress"
+        },
+        {
+          "title": "Strengthening Southeast Asian Academia and Industry Biotechnology and Biomanufacturing Safety and Security - A Workshop",
+          "url": "https://www.nationalacademies.org/projects/DELS-BLS-24-02",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 2570,
+  "saved_at": "2026-04-07T11:39:28.030539"
+}

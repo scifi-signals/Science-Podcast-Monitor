@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 07, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 07, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">41</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">89</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's coverage spans critical infrastructure challenges (U.S. EV competitiveness vs. China's 70%+ battery dominance), emerging reproductive technologies (in vitro gametogenesis raising regulatory and equity concerns), fundamental biology (bee cognition and varroa mite threats to U.S. agriculture), and AI applications in research acceleration. Bluesky data shows sustained focus on Artemis II achievements and federal science budget cuts threatening multiple agencies. Over the past week, a recurring pattern emerges: policy gaps and international coordination deficits are constraining U.S. competitiveness in clean energy, reproductive medicine governance, and scientific funding—areas where NASEM could provide critical guidance.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>U.S. regulatory and policy gaps enabling competitive disadvantage (EV batteries, reproductive tech, bee research funding)</li>
+<li>Global mobility of emerging technologies shifting practices to less-regulated jurisdictions</li>
+<li>Federal science funding erosion across agencies (NASA, NIH, NSF, NOAA, EPA)</li>
+<li>AI integration in research workflows and knowledge synthesis</li>
+<li>Ecological/agricultural threats requiring proactive scientific coordination (varroa mites, microplastics)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>In vitro gametogenesis (IVG) moving toward clinical deployment—regulatory frameworks urgently needed to prevent international governance gaps (recurring theme from April 7-8)</li>
+<li>Source-grounded AI tools (retrieval-augmented generation) gaining traction as antidote to LLM hallucination; potential game-changer for literature synthesis and cross-disciplinary innovation</li>
+<li>Varroa mite resistance and honeybee colony collapse reaching near-universal prevalence (nearly 100% of U.S. colonies affected)—paired with declining USDA research funding creates critical vulnerability</li>
+<li>Nature-based health interventions gaining evidence base—emerging parallel to precision medicine focus</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Lead rapid-response assessment on IVG governance: Convene working group on ethical, regulatory, and equity frameworks before clinical deployment accelerates and practices fragment internationally (address the 'global mobility' problem flagged in podcast)</div>
+<div class="opportunity">Commission study on U.S. battery technology and clean energy industrial policy: Synthesize economic, technological, and policy factors driving China's dominance; provide roadmap for federal investment priorities</div>
+<div class="opportunity">Organize consensus workshop on USDA bee research funding priorities: Address varroa mite genomics, immunology, and viral susceptibility research gaps; quantify economic impact of colony losses on U.S. agriculture</div>
+<div class="opportunity">Convene AI-in-research working group: Assess opportunities and risks of source-grounded LLMs for scientific literature synthesis; develop best practices for integration into research workflows</div>
+<div class="opportunity">Coordinate federal science budget defense strategy: Aggregate impact analysis of proposed FY27 cuts across NASA, NIH, NSF, NOAA, EPA</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Varroa mite distribution claim (present 'on every continent including Australia within last few years')—verify against current USDA epidemiological data and Australian quarantine records; Australia's historical isolation suggests recent entry is newsworthy if true but needs confirmation</div>
+<div class="claim">BYD EV pricing claim ($10,000 USD)—confirm current model availability and specifications; may conflate base trim models with full-featured vehicles</div>
+<div class="claim">Relative livestock valuation claim ('honeybees are third most valuable livestock after chickens and pigs')—requires verification of methodology (annual market value vs. productive asset value); needs USDA commodity data cross-check</div>
+<div class="claim">Notebook LM technical claims (500-source handling, competitor product limitations)—verify against Google technical documentation and current ChatGPT/Gemini specifications; Johnson's comparative claims about competitor tools may be time-sensitive and require updating</div>
+<div class="claim">Relativistic fuel savings for interstellar travel (StarTalk)—acknowledge this is speculative fiction content; not presented as peer-reviewed physics, but flag if mischaracterized as validated science in downstream citations</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Space Exploration and Human Physiology Integration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on how human spaceflight demands new understanding of physiological adaptation to deep space environments. Science Friday (2026-04-03) covered Orion spacecraft testing and deep space effects on human physiology, while Nature Podcast (2026-04-02) examined organs-on-a-chip technology using astronaut bone marrow cells and radiation exposure beyond Earth's magnetic shield. Short Wave (2026-04-01) detailed Orion capsule life support systems and lunar dust hazards. This represents a shift from engineering-focused space narratives toward biomedical integration—how missions require solving human biology problems in parallel with vehicle design.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's space policy and life sciences committees need coordinated input on human factors research priorities for sustained lunar operations and deep space missions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microplastic Contamination as Cross-System Threat</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday episodes (2026-04-07, 2026-04-06) devoted substantial coverage to microplastics and nanoplastics, shifting from ocean-centric narratives to ecosystem-wide impacts—including cave ecosystems affecting endangered bat populations and bioengineered solutions (hydrophobic algae, whale baleen-inspired filtration). The emergence of engineering-based remediation approaches suggests the field is moving beyond problem characterization to technological intervention. This represents a maturing policy area where science is generating actionable solutions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize cross-disciplinary assessment of microplastic remediation technologies and their regulatory pathways, as solutions span environmental biology, materials science, and water treatment.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Integration in Scientific Research and Youth Adoption Divergence</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Shaping Science (2026-04-06) focused on LLMs and source-grounded AI in academic research and literature analysis, representing sophisticated institutional deployment. Simultaneously, TechTank (2026-04-06) examined AI chatbot adoption among adolescents, revealing emotional dependency and generational differences in attitudes. The disconnect suggests diverging AI literacies: experts optimizing AI for research rigor while youth develop unprepared engagement patterns. This gap signals emerging policy friction around digital literacy standards and AI competency development.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's education and AI governance committees need joint analysis of digital literacy curricula and institutional AI adoption standards to address the widening competency gap between professional and adolescent AI users.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Precision Biology and Reproductive Medicine Acceleration</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL (2026-04-07) focused heavily on reproductive medicine advancement—in vitro gametogenesis, iPSCs, and pre-implantation genetic testing for polygenic traits—marking rapid movement from experimental to clinical-adjacent research. This complements emerging precision medicine narratives in Science Will Win (2026-04-02) on targeted cancer therapies and AI-assisted early detection. Together, these episodes indicate a convergence on precision interventions enabled by genomic data and AI, shifting medicine from population-level to individual-level prediction.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must develop policy guidance on ethical frameworks and regulatory pathways for polygenic trait testing and precision reproductive medicine before clinical deployment accelerates.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Aging Biology and Lifespan Extension Moving to Policy Discourse</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Peter Attia Drive (2026-04-06) presented epigenetic clocks and biological age measurement as quantifiable science, while Policy Chats (2026-04-03) elevated longevity into environmental and behavioral policy—Blue Zones demographics, built environment design, and diet effects on cardiovascular health. This represents aging moving from basic science boutique to policy-relevant territory. The shift from mechanism (DNA methylation) to implementation (urban design, nutrition policy) indicates maturation toward actionable recommendations.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Policy Chats</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's health and human factors committee should synthesize longevity science into built environment and public health policy recommendations, bridging basic gerontology and urban planning.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Project Hail Mary with Andy Weir</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Apr 07 &middot; 41 min</div>
+<p style="margin:10px 0;font-size:14px;">Neil deGrasse Tyson interviews science fiction author Andy Weir about his novel and film adaptation of Project Hail Mary. The discussion focuses on the scientifically-grounded worldbuilding behind the story, including the fictional astrophage microorganism that consumes stars, the alien Iridian species (nicknamed Rocky), and the exoplanet Tau Ceti. Weir explains how he derived alien biology from planetary constraints, and discusses the film adaptation starring Ryan Gosling, including budget considerations and creative decisions. The conversation highlights Weir's commitment to scientific accuracy in fiction and his creative process for developing realistic speculative science.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Astrophage - hypothetical microorganism that converts stellar mass to light for propulsion</span>
+  <span class="topic-tag">Exoplanet habitability and atmospheric composition (ammonia-based atmosphere at high pressure)</span>
+  <span class="topic-tag">Stellar dimming and stellar evolution</span>
+  <span class="topic-tag">Magnetic field generation in planets (dynamo theory, molten iron cores)</span>
+  <span class="topic-tag">Echolocation and sensory perception in non-humanoid aliens</span>
+  <span class="topic-tag">Time dilation and relativistic physics effects on spacecraft fuel calculations</span>
+  <span class="topic-tag">Panspermia and life distribution across star systems</span>
+  <span class="topic-tag">Extremophile biology and chemosynthetic ecosystems</span>
+  <span class="topic-tag">Venus atmospheric composition and pressure</span>
+  <span class="topic-tag">Water boiling points under high atmospheric pressure</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25977/space-nuclear-propulsion-for-human-mars-exploration" target="_blank">Space Nuclear Propulsion for Human Mars Exploration</a></div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states" target="_blank">The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">40 Eridani Ab exoplanet (Fortier-Dani A planet) - Weir notes this was believed real when he wrote the book but has since been disproven as solar flare activity from 40 Eridani</div>
+<div class="claim">Claim that relativistic effects allow significantly less fuel needed for interstellar travel than Newtonian calculations suggest</div>
+<div class="claim">Assertion that echolocation-based aliens would lack object permanence and spatial mapping in consciousness</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Whenever I was tempted to use hand wavy physics or take a shortcut and not be accurate, I honestly thought to myself, what if Neil deGrasse Tyson reads this?"</div>
+<div class="quote">"Constraints is the soul of creativity to all engineers."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Why are bees special? We get inside a hive to find out</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 07 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores bee intelligence and behavior through National Geographic's docuseries 'Secrets of the Bees.' Dr. Sammy Ramsey, an entomologist, discusses how bees demonstrate sophisticated learning abilities, teach each other new skills, and engage in play behavior—capabilities previously thought unique to vertebrates. The episode also addresses the critical threat posed by varroa mites to honeybee colonies worldwide and highlights concerns about declining USDA bee research funding.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Bee cognition and learning in Apis mellifera (honeybees)</span>
+  <span class="topic-tag">Second-order thinking in insects</span>
+  <span class="topic-tag">Bee communication and cultural transmission of learned behaviors</span>
+  <span class="topic-tag">Play behavior in insects</span>
+  <span class="topic-tag">Vespa mandarinia (Asian giant hornet) predation and bee defense mechanisms</span>
+  <span class="topic-tag">Thermoregulation in honeybee defense (heat balling)</span>
+  <span class="topic-tag">Varroa destructor mites and immunosuppression in honeybees</span>
+  <span class="topic-tag">Varroa mite-induced liver damage in honeybees</span>
+  <span class="topic-tag">Viral and bacterial susceptibility in mite-infested bees</span>
+  <span class="topic-tag">Pesticide toxicity in immunocompromised bees</span>
+  <span class="topic-tag">Bee pollination and flower-bee coevolution</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades" target="_blank">Taking Science to School: Learning and Teaching Science in Grades K-8</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence" target="_blank">Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments" target="_blank">Effective Chemistry Communication in Informal Environments</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Nearly 100% of colonies in the U.S. have varroa mites or will have them within a year—verify against USDA epidemiological data</div>
+<div class="claim">Varroa mites are present on every continent where bees are kept, including Australia (new within last few years)—check current distribution status</div>
+<div class="claim">Honeybees are the third most valuable livestock in the world after chickens and pigs—verify valuation ranking with USDA</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"They decouple their wing muscles from their wings and they vibrate their wing muscles so that they generate a huge amount of heat. That heat creates a convection oven effect where they literally cook the hornet like they bake it like a cookie."</div>
+<div class="quote">"When we pass down these things that we've learned, these things that we've discovered, these things that we enjoy and are our preferences, when we pass that down to the next generation, when we pass that down laterally to other individuals, that is indeed culture. And that means that insects, y'all, these insects out here are culturistas."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Is the US backing out of the electric vehicle market?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 07 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">The episode examines America's declining competitiveness in electric vehicle and battery technology compared to China, which now leads global EV and battery production. Host Ira Flatow and Brookings Institution fellow Kyle Chan discuss how Chinese companies like BYD have surpassed Tesla and cornered over 70% of global battery production through aggressive industrial policy and government support. The conversation explores whether the U.S. is becoming isolated from the global clean energy transition and what policy shifts might be necessary for America to remain competitive in renewable energy technologies.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Electric vehicle battery technology</span>
+  <span class="topic-tag">Megawatt fast-charging systems</span>
+  <span class="topic-tag">Solid-state batteries</span>
+  <span class="topic-tag">Battery energy storage systems for power grids</span>
+  <span class="topic-tag">Solar and wind energy integration with battery storage</span>
+  <span class="topic-tag">Smart grid technology</span>
+  <span class="topic-tag">Autonomous vehicle/smart driving capabilities</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26668/navigating-an-electric-vehicle-future-proceedings-of-a-workshop" target="_blank">Navigating an Electric Vehicle Future: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21725/overcoming-barriers-to-deployment-of-plug-in-electric-vehicles" target="_blank">Overcoming Barriers to Deployment of Plug-in Electric Vehicles</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match">Graduate STEM Education for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap" target="_blank">Knowledge Management at State Departments of Transportation: Research Roadmap</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings" target="_blank">Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology" target="_blank">Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales</a></div>
+<div class="nasem-match">Electricity from Renewable Resources: Status, Prospects, and Impediments</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">China produces more than 70% of the world's batteries</div>
+<div class="claim">BYD surpassed Tesla as the number one selling EV manufacturer globally</div>
+<div class="claim">BYD vehicles are available at prices as low as approximately $10,000 USD</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"China is doubling down on technology and especially clean technology, EVs, batteries, wind, solar, smart grids, you name it. I felt like the U.S. was doing the opposite."</div>
+<div class="quote">"For a lot of emerging technologies and especially new industries where there might be some aspect that not captured by profits or shareholder value like climate technologies you might need some upfront investment some extra incentives to get you going before this industry can really take off and be sustainable on its own."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Shaping Science: #15 Steven Johnson on 19th Century Literature, the Future of Academic Research, and the Role of the Humanities in AI Development</span>
+</div>
+<div class="episode-meta">Nick Dirks (New York Academy of Sciences) &middot; Apr 06 &middot; 51 min</div>
+<p style="margin:10px 0;font-size:14px;">Steven Johnson, bestselling author and editorial director at Google Labs, discusses his intellectual journey from 19th-century literature to technology innovation, and his work developing Notebook LM, an AI-powered research tool. Johnson traces how his early interest in semiotics and comparative literature informed his thinking about interface design and complex systems. He describes how Notebook LM uses source-grounded language models—restricting AI outputs to user-uploaded documents rather than general internet data—to create a research tool that avoids hallucination problems while enabling cross-disciplinary knowledge discovery. The conversation explores how AI tools might facilitate innovation by enabling researchers to access and synthesize information across fields.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Large language models (LLMs) and GPT models</span>
+  <span class="topic-tag">Source-grounded AI and retrieval-augmented generation</span>
+  <span class="topic-tag">AI applications in academic research and literature analysis</span>
+  <span class="topic-tag">Retinal imaging and AI detection of systemic diseases</span>
+  <span class="topic-tag">Complex systems and emergence in networks</span>
+  <span class="topic-tag">Historical disease epidemiology (cholera in 19th century London)</span>
+  <span class="topic-tag">Cross-disciplinary knowledge transfer in scientific innovation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their" target="_blank">The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27993/ai-applications-for-automatic-pavement-condition-evaluation" target="_blank">AI Applications for Automatic Pavement Condition Evaluation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of" target="_blank">The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education" target="_blank">A 21st Century Cyber-Physical Systems Education</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Johnson claims Notebook LM can handle 500 sources in a single notebook effectively, with state-of-the-art citation architecture—this architectural claim could be verified against technical documentation</div>
+<div class="claim">Johnson states that as of the conversation date, adding documents to ChatGPT or Gemini 'really doesn't work very well' beyond 2-4 documents—this comparative claim about competitor products' capabilities should be fact-checked against current product specifications</div>
+<div class="claim">Johnson asserts that 'no computer in the world could do that two years ago, three years ago' regarding cross-source citation and synthesis—this historical technological claim is verifiable</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Interface design—the way we visualize and interact with information—these people who control that are going to become incredibly important in society because everything is going to be funneled through the metaphors they come up with."</div>
+<div class="quote">"It was like October of 2021...I'm in my study in Brooklyn and I get access to [GPT-3] and I start playing around with it. And I'm there for like three hours and I'm just like, oh, this is so much more important than anybody has realized. Like, this is the single most important thing that has happened in technology in my lifetime."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Science Policy IRL (The Ongoing Transformation): The Future of Making Babies</span>
+</div>
+<div class="episode-meta">Issues in Science & Technology &middot; Apr 07 &middot; 21 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores in vitro gametogenesis (IVG)—the emerging technology of creating eggs and sperm from stem cells in laboratories—and its implications for assisted reproductive medicine. The discussion covers current egg donation practices, the medical risks donors face, regulatory gaps in the U.S., and the ethical challenges IVG raises around family kinship, embryo selection, and equity. A critical theme is the global mobility of reproductive technologies, which tends to shift practices to countries with fewer protections, and the need for proactive international coordination rather than reactive responses to failures.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">In vitro gametogenesis (IVG)</span>
+  <span class="topic-tag">Induced pluripotent stem cells (iPSCs)</span>
+  <span class="topic-tag">Ovarian hyperstimulation syndrome (OHSS)</span>
+  <span class="topic-tag">Pre-implantation genetic testing for polygenic traits (PGTP)</span>
+  <span class="topic-tag">Mitochondrial replacement therapy (MRT)</span>
+  <span class="topic-tag">Heritable genome editing</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10195/stem-cells-and-the-future-of-regenerative-medicine" target="_blank">Stem Cells and the Future of Regenerative Medicine</a></div>
+<div class="nasem-match">Graduate STEM Education for the 21st Century</div>
+<div class="nasem-match">Ovarian Cancers: Evolving Paradigms in Research and Care</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability" target="_blank">Selected Heritable Disorders of Connective Tissue and Disability</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13220/cognitive-rehabilitation-therapy-for-traumatic-brain-injury-evaluating-the-evidence" target="_blank">Cognitive Rehabilitation Therapy for Traumatic Brain Injury: Evaluating the Evidence</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Clinics and professional societies cite OHSS risk as 1-2%, but retrospective patient surveys suggest much higher rates—researcher Dr. Tober's work is cited as questioning the official figures</div>
+<div class="claim">Lab-derived human eggs have been produced at Oregon Health and Sciences University (end of 2024/early 2025), though most had chromosomal abnormalities and are not clinically ready</div>
+<div class="claim">In mice, researchers have generated functional lab-derived sperm and eggs capable of producing healthy offspring</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Waiting for highly visible failure to force a response, like did, for example, for heritable genome editing, is a pattern reproductive medicine has repeated too many times. And we need to take a more anticipatory approach for emerging technologies that involves international coordination."</div>
+<div class="quote">"If DNA is no longer the point of what the egg donor provides, that logic falls apart... recruitment practices might target donors with lower educational attainment, fewer related economic options, who may be more willing to undergo egg retrieval for more limited compensation."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">89 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Lunar Mission (28 posts)</span> <span style="font-size:13px;color:#4a5568;">Extensive coverage of Artemis II crew's historic lunar flyby, including distance records, eclipse observations, and communications milestones.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Federal Science Budget Cuts (1 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of proposed FY27 budget reductions across NASA, NIH, NSF, NOAA, and EPA with significant percentage cuts proposed.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Women in STEM (2 posts)</span> <span style="font-size:13px;color:#4a5568;">Observations about progress for women in science careers and positive representation in space missions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Lunar Geology and Science (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Scientific interest in far-side moon imagery, geological analysis, and impact crater observations from Artemis II.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Nature-Based Health Interventions (1 posts)</span> <span style="font-size:13px;color:#4a5568;">Evidence supporting nature prescriptions and nature-based interventions for promoting human health and wellness.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">974 likes &middot; 257 reposts &middot; 8 replies</div>
+  <div class="bluesky-text">A poignant moment 
+
+#Artemis 🔭🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3miudxvy5fc2m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@skylargrayson.bsky.social</div>
+  <div class="bluesky-stats">678 likes &middot; 164 reposts &middot; 16 replies</div>
+  <div class="bluesky-text">The first image we get after comms come back is us. All of humanity is in this shot. And I’m crying again. 🧪🔭
+
+📸: NASA, annotations by me</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/skylargrayson.bsky.social/post/3miugdfyij22j" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@meghanbartels.bsky.social</div>
+  <div class="bluesky-stats">216 likes &middot; 53 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">The crew of Artemis II is experiencing a total solar eclipse RIGHT NOW from just a few thousand miles above the lunar surface. Here's why it's cool and what they could see 🧪 🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/meghanbartels.bsky.social/post/3miulj72vxs2e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">130 likes &middot; 112 reposts &middot; 10 replies</div>
+  <div class="bluesky-text">WH requests budget cuts (again) for FY27 for federal science agencies ($ B)
+
+NASA: 24.4 to 18.8
+NIH: 47.2 to 41.3 (w/ proposed capping on publication costs)
+NSF: 8.8 to 4 (55% cut)
+NOAA: 6.2 to 4.5B
+EPA: 8.8 to 4.B (50% cut)
+
+Military budget: 44% increase. 
+
+This won't fly. 
+
+🧪 archive.today/yAdmQ</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3miullonsx22a" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@xenolith.bsky.social</div>
+  <div class="bluesky-stats">126 likes &middot; 49 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Why are scientists, particularly geologists,  so excited to get new images and human observations of the far side of the moon?
+
+A planets geology is the ultimate “crime scene”. Let me explain….
+
+#Artemis ⚒️🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/xenolith.bsky.social/post/3miugtwa4jk2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Federal Science Funding</strong>: Proposed FY27 budget cuts affecting major science agencies (NSF 55% cut, NASA 23% cut, NIH 12% cut) directly impact NASEM stakeholder agencies and science research capacity.</div>
+<div class="nasem-match"><strong>Women in STEM Careers</strong>: Artemis II mission visibility and female crew representation contributes to ongoing NASEM initiatives on broadening participation and advancing women's careers in science and engineering.</div>
+<div class="nasem-match"><strong>Artemis Program Scientific Return</strong>: Artemis II lunar observations and crew scientific activities provide data relevant to NASEM's oversight of space exploration goals and human spaceflight mission objectives.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 07, 2026 at 11:40 AM | Internal use only
+    </div>
+</body>
+</html>
