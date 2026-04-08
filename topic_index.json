@@ -1,7 +1,468 @@
 {
-  "updated": "2026-04-07T11:40:03.877926",
-  "episode_count": 160,
+  "updated": "2026-04-08T11:35:45.797520",
+  "episode_count": 165,
   "episodes": [
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-04-08T10:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode examines the history and current state of cholesterol denialism—the rejection of evidence linking high cholesterol to heart disease and the use of cholesterol-lowering medications like statins. Dr. Christopher Labos traces the scientific journey from Anichkov's 1913 rabbit experiments through modern randomized controlled trials, explaining how valid early skepticism evolved into pseudoscientific denial. The hosts discuss how pharmaceutical industry concerns, mistrust of government, and the internet enabled the persistence of cholesterol denialism despite overwhelming evidence from 26+ clinical trials demonstrating statin benefits.",
+      "science_topics": [
+        "Cholesterol metabolism and lipoprotein structure (LDL, HDL, VLDL, lipoprotein A)",
+        "Atherosclerosis and plaque formation in arteries",
+        "Anichkov's cholesterol-feeding experiments in rabbits (1913)",
+        "Statin medications and their cholesterol-lowering mechanisms",
+        "The 4S study (simvastatin trial) demonstrating statin efficacy",
+        "Meta-analyses of 26+ randomized controlled trials on statins",
+        "Familial hypercholesterolemia and the founder effect in Quebec populations",
+        "PCSK9 inhibitors and newer injectable cholesterol medications",
+        "Small interfering RNA (siRNA) therapies for cholesterol management",
+        "Pleiotropic effects of statins and linear dose-response relationships",
+        "Statin-associated muscle symptoms and nocebo effects",
+        "Vascular dementia and stroke prevention through cholesterol reduction"
+      ],
+      "claims_to_note": [
+        "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+        "Statins have no effect on dementia risk; may reduce dementia incidence through stroke prevention—should verify against latest neurology literature",
+        "Statin-associated muscle pain incidence is very low and largely attributable to nocebo effect in placebo-controlled trials—supported by cited research",
+        "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+        "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+        "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+        "Red meat is the #1 dietary source of cholesterol—standard nutritional science claim, should verify ranking",
+        "Cholesterol denialism overlaps with vaccine denialism and anti-pharmaceutical sentiment—sociological claim needing empirical support"
+      ],
+      "policy_relevance": [
+        "American Heart Association historical guidelines recommending no more than 3 eggs per week—outdated policy mentioned",
+        "FDA approval and marketing of statin medications (Lipitor mentioned)",
+        "Pharmaceutical industry regulation and statin marketing practices in the 1990s",
+        "Data transparency requirements for pharmaceutical trials and independent data review",
+        "Access to genetic testing for familial hypercholesterolemia diagnosis in Quebec healthcare system",
+        "Cost and insurance coverage barriers to newer cholesterol medications (PCSK9 inhibitors, siRNA therapies)",
+        "Clinical practice guidelines for primary vs. secondary prevention and statin eligibility criteria",
+        "Risk prediction models used to identify high-risk patients for cholesterol treatment"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?",
+          "url": "https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Shaping Summertime Experiences: Opportunities to Promote Healthy Development and Well-Being for Children and Youth",
+          "url": "https://nap.nationalacademies.org/catalog/25546/shaping-summertime-experiences-opportunities-to-promote-healthy-development-and-well"
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "The Future of Education Research at IES: Advancing an Equity-Oriented Science",
+          "url": "https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
+        },
+        {
+          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance",
+          "url": "https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Reflections on Sharing Clinical Trial Data: Challenges and a Way Forward: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25838/reflections-on-sharing-clinical-trial-data-challenges-and-a-way"
+        },
+        {
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system"
+        },
+        {
+          "title": "Oil Spill Dispersants: Efficacy and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/11283/oil-spill-dispersants-efficacy-and-effects"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "What a sperm whale’s birth tells us about whale culture",
+      "host": "Ira Flatow",
+      "published": "2026-04-08T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Scientists observed the birth of a sperm whale calf off Dominica and documented unprecedented behavior: 10 unrelated and related whales attended and assisted with the delivery. The discovery challenges traditional understanding of altruism in animal societies, as the helping whales were not all genetically related to the mother. The research suggests sperm whales engage in complex cultural and social behaviors including reciprocal cooperation, long-term memory, and coordinated care for newborns—behaviors previously thought to be unique to humans and recently documented in bonobos.",
+      "science_topics": [
+        "Sperm whale reproduction and birth behavior",
+        "Cetacean social structure and matrilineal family systems",
+        "Alloparental care in non-human mammals",
+        "Whale codas and dialectal communication",
+        "Negative buoyancy in cetacean calves",
+        "Animal altruism and reciprocal cooperation",
+        "Sperm whale clans and cultural variation",
+        "Computer vision tools for animal behavior analysis",
+        "Long-term memory in cetaceans"
+      ],
+      "claims_to_note": [
+        "Very few whale births have been documented in the wild in the last hundred years",
+        "Sperm whale families are matrilineal (grandmothers, mothers, daughters live together for life)",
+        "Young male sperm whales leave their families in their early teens",
+        "Newborn sperm whale calves are negatively buoyant and must actively work to maintain surface position",
+        "Communal birth assistance was previously thought to be uniquely human, then documented in bonobos",
+        "Sperm whale clans are distinguished by different codas (calls), movement patterns, habitat use, and social behaviors",
+        "Unrelated sperm whales appear capable of reciprocal cooperation across multi-year delays"
+      ],
+      "policy_relevance": [
+        "Research conducted by Dominica Sperm Whale Project suggests need for ongoing marine mammal research funding",
+        "Documentation of complex whale behavior may inform marine conservation policy and cetacean protection regulations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Shaping Summertime Experiences: Opportunities to Promote Healthy Development and Well-Being for Children and Youth",
+          "url": "https://nap.nationalacademies.org/catalog/25546/shaping-summertime-experiences-opportunities-to-promote-healthy-development-and-well"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        },
+        {
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a"
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Quantum physics is for everybody",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-08T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores quantum physics and theoretical physics as an accessible subject for general audiences. Host Regina Barber interviews theoretical physicist Chanda Prescott-Weinstein about her new book \"The Edge of Space-Time,\" which uses metaphor and storytelling to explain complex physics concepts. The discussion covers why classical Newtonian mechanics must be learned before quantum mechanics, the fundamental differences between quantum physics and general relativity, the ongoing search for a grand unified theory, and why basic science research matters even when practical applications aren't immediately apparent.",
+      "science_topics": [
+        "quantum mechanics",
+        "quantum physics",
+        "Newtonian mechanics",
+        "general relativity",
+        "Einstein's theory of relativity",
+        "gravity as curvature of space-time",
+        "photons and wave-particle duality",
+        "quantum gravity problem",
+        "cosmic inflation",
+        "energy as a physics concept",
+        "infinitesimals in calculus"
+      ],
+      "claims_to_note": [
+        "Computers and transistors operate on quantum phenomena - all bits and transistors are fundamentally quantum materials",
+        "Global positioning system (GPS) depends on calculations using Einstein's general relativity and will not provide correct location information without these relativistic calculations",
+        "Light behaves as both a wave and a particle simultaneously (photon concept)",
+        "Gravity is better described as an effect of space-time curvature rather than a force",
+        "Quantum physics deals with discontinuous phenomena (leaps, bunches) while classical physics assumes continuity"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications"
+        },
+        {
+          "title": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Integrating Oral and General Health Through Health Literacy Practices: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25468/integrating-oral-and-general-health-through-health-literacy-practices-proceedings"
+        },
+        {
+          "title": "Guidebooks for Post-Award Contract Administration for Highway Projects Delivered Using Alternative Contracting Methods, Volume 2: Construction Manager–General Contractor Delivery",
+          "url": "https://nap.nationalacademies.org/catalog/25829/guidebooks-for-post-award-contract-administration-for-highway-projects-delivered-using-alternative-contracting-methods-volume-2-construction-manager-general-contractor-delivery"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "AI for Scientific Discovery: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop"
+        },
+        {
+          "title": "Health Literacy and Numeracy: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18660/health-literacy-and-numeracy-workshop-summary"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "The Normals | Episode 1",
+      "host": "Sarah Crespi",
+      "published": "2026-04-07T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode traces the origins of the 'Normals' program at the National Institutes of Health in the 1950s, when NIH recruited healthy human volunteers from Mennonite and Church of the Brethren communities to serve as control subjects in medical research. The program emerged as a solution to NIH's need for normal, healthy research subjects while providing conscientious objectors an alternative to military service. The episode features interviews with actual participants like Dale Horst and Shirley Burry-Gessinger, who underwent experiments involving LSD, psychoactive drugs, sleep deprivation, and metabolic studies. Historian Laura Stark discusses how these volunteers, contrary to expectations, reported positive experiences and meaningful connections, raising complex questions about the ethics and outcomes of this large-scale human subjects research.",
+      "science_topics": [
+        "LSD (lysergic acid diethylamide) effects on human consciousness and schizophrenia models",
+        "Antipsychotic drug testing (chlorpromazine)",
+        "Sleep deprivation experiments (75-hour duration)",
+        "Metabolic research using radioactive tracers",
+        "Psychoactive drug effects (phenobarbital, dextroamphetamine sulfate, benactazine, atropine sulfate)",
+        "Sweat/fluid loss studies in controlled temperature environments",
+        "Cortisol level measurement under stress conditions",
+        "Hypertension control research and dietary interventions",
+        "Psychosomatic illness investigation"
+      ],
+      "claims_to_note": [
+        "LSD was used to induce schizophrenia-like symptoms in healthy controls to understand schizophrenia pathogenesis — investigators believed schizophrenia could be understood within five years through this approach",
+        "Sleep deprivation combined with psychoactive drugs was used experimentally on healthy subjects",
+        "Participants reported no serious harm and positive experiences from the program",
+        "The program included structural safeguards: committee approval of studies, personal physicians assigned to each volunteer, and ability to refuse participation",
+        "Church leaders functioned as advocates and could demand changes at NIH when participants were unhappy"
+      ],
+      "policy_relevance": [
+        "Historical context: formalization of human subjects protections and informed consent in the 1970s, prompted by earlier abuses (Holocaust experimentation, Tuskegee Experiment, Japanese POW experimentation)",
+        "NIH funding expansion after World War II and congressional recognition of NIH's wartime contributions",
+        "Draft policy and conscientious objector status during 1940s-1970s enabling alternative service placements",
+        "Mennonite Central Committee Voluntary Service as quasi-regulatory structure for research participant welfare",
+        "Institutional Review Boards and committee approval processes for human subject research (mentioned as safeguard in 1950s program)",
+        "National Institute of Mental Health conducting psychoactive drug research on human subjects"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Assessing the Effects of the Gulf of Mexico Oil Spill on Human Health: A Summary of the June 2010 Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/12949/assessing-the-effects-of-the-gulf-of-mexico-oil-spill-on-human-health"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Human Factors in Long-Duration Spaceflight",
+          "url": "https://nap.nationalacademies.org/catalog/12387/human-factors-in-long-duration-spaceflight"
+        },
+        {
+          "title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+          "url": "https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#468 — More From Sam: Gratitude, Bad Conversations, Conspiracy Addiction, Waffle House Teleportation, and More",
+      "host": "Sam Harris",
+      "published": "2026-04-07T17:55:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Sam Harris discusses managing anxiety about AI job displacement through mindfulness practices, declining churches' role in providing community, and his approach to podcast conversations. He criticizes Joe Rogan and others for spreading conspiracy theories and misinformation to massive audiences, arguing this constitutes a form of evil with real-world consequences. Harris defends his recent focus on interviewing knowledgeable guests over debate-style conversations with ideological opponents, distinguishing between productive learning and performative disagreement.",
+      "science_topics": [
+        "COVID-19 vaccine safety and claims of mortality from vaccines",
+        "Ivermectin efficacy for COVID-19 treatment",
+        "Virology and immunology in COVID-19 context",
+        "Epidemiology of vaccine-related adverse events"
+      ],
+      "claims_to_note": [
+        "Brett Weinstein claimed 17 million people were killed by vaccines - Harris characterizes this as 'equivalently crazy' and 'obviously erroneous'",
+        "Harris states ivermectin is not worth taking for COVID treatment - contradicts some alternative medicine claims",
+        "RFK Jr. characterized as 'basically a nutcase' and 'liar' making false vaccine claims - Harris implies widespread scientific consensus against RFK Jr.'s positions",
+        "Mainstream science consensus on COVID-19 vaccines and treatments referenced but not detailed"
+      ],
+      "policy_relevance": [
+        "Potential job displacement from AI advancement and need for societal policy solutions",
+        "Loss of institutional credibility in epistemic institutions and science communication",
+        "Role of social media platforms in spreading misinformation (mentions Twitter/X)",
+        "Mention of FEMA leadership (Greg Phillips) and emergency management oversight",
+        "US space policy and lunar missions",
+        "Upcoming interactions with political figures (Ben Shapiro mentioned as future guest)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Vaccine Safety Research, Data Access, and Public Trust",
+          "url": "https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust"
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series",
+          "url": "https://nap.nationalacademies.org/catalog/26573/evolving-crisis-standards-of-care-and-ongoing-lessons-from-covid-19"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Adverse Effects of Vaccines: Evidence and Causality",
+          "url": "https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality"
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 08, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 08, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">45</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">83</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reflects a diverse scientific landscape with notable convergence on vaccine policy and public health concerns. The dominant narrative arc spans from foundational physics education and animal cognition research to critical examination of historical medical ethics and contemporary misinformation. Vaccine safety and policy dominate discourse across Bluesky and Making Sense podcast, with specific focus on RFK Jr.'s influence and measles resurgence. Simultaneously, rigorous scientific communication is emphasized through accessible quantum physics pedagogy and debunking of cholesterol denialism—suggesting a broader tension between scientific consensus-building and misinformation persistence. The recurring week-long pattern of vaccine policy concerns (evident since April 7) now intersects with emerging emphasis on pharmaceutical evidence standards (statins, cholesterol management), indicating potential NASEM engagement opportunity in translating complex medical evidence for public trust.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Vaccine safety, efficacy, and public health policy—RFK Jr. influence on ACIP and measles concerns</li>
+<li>Misinformation and conspiracy theories spreading via high-reach media platforms</li>
+<li>Scientific consensus vs. pseudoscientific denial in medical evidence (cholesterol/statins, vaccines)</li>
+<li>Accessible science communication for general audiences (quantum physics, animal cognition)</li>
+<li>Ethical frameworks in historical and contemporary human subjects research</li>
+<li>Complex social behaviors in non-human animals challenging anthropocentric assumptions</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Renewed focus on cholesterol denialism as case study for evidence rejection—distinct from vaccine skepticism but revealing identical mechanisms (industry distrust, internet amplification, pseudoscientific persistence despite RCT evidence)</li>
+<li>Animal altruism and reciprocal cooperation in cetaceans—moving beyond kin-selection frameworks to document non-genetic cooperation, with potential implications for theories of social evolution across species</li>
+<li>Accessibility of foundational physics (quantum mechanics, general relativity) as public engagement priority—addressing gap between public understanding and technological dependence on quantum phenomena</li>
+<li>Historical medical ethics examination (NIH 'Normals' program) coinciding with contemporary vaccine policy debates—implicit comparative discussion of informed consent standards evolution</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission rapid evidence synthesis on statin efficacy and cholesterol management to counter persistent denialism—opportunity to model how 26+ RCTs build consensus and address nocebo effects in public communication</div>
+<div class="opportunity">Develop white paper on misinformation transmission mechanisms via high-reach podcasts and social platforms, using vaccine policy as concrete case study; position NASEM as trusted arbiter of evidence standards</div>
+<div class="opportunity">Convene working group on accessible science communication frameworks—leverage Prescott-Weinstein's metaphor-based physics pedagogy as model for translating complex evidence (quantum mechanics, immunology) to general audiences</div>
+<div class="opportunity">Engage with marine biology and animal cognition research on cetacean social behavior—NASEM could help integrate findings into policy discussions around marine mammal protections and cultural transmission in wildlife</div>
+<div class="opportunity">Develop historical analysis of informed consent standards from NIH 'Normals' program to present day—position NASEM to guide contemporary human subjects research ethics as psychedelic and other novel therapeutics enter trials</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Brett Weinstein's claim of 17 million vaccine-related deaths—Harris characterizes as 'obviously erroneous'; no epidemiological support in adverse event databases</div>
+<div class="claim">Cholesterol denialism claims that statins are ineffective despite 26+ randomized controlled trials demonstrating cardiovascular benefit—podcast documents how industry distrust and internet echo chambers enabled persistence of debunked claims</div>
+<div class="claim">RFK Jr. vaccine claims characterized by Harris as false/unsupported; Bluesky data shows concerns about his influence on ACIP composition and measles resurgence—warrant monitoring for emerging vaccine hesitancy metrics</div>
+<div class="claim">Ivermectin efficacy for COVID-19 treatment—Harris explicitly contradicts alternative medicine advocates; potential emerging claim in online health spaces requiring tracking</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI Integration in Scientific Research and Healthcare</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are covering AI's expanding role across biomedical and physical sciences—from literature analysis and cancer detection to data interpretation. Shaping Science discussed source-grounded AI and retrieval-augmented generation for academic research, while Science Will Win emphasized AI-assisted early cancer detection and natural language processing. This signals a pivot from general AI adoption to domain-specific AI applications in research workflows, reflecting both capability maturation and the need for evidence-based implementation frameworks.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Will Win</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must advise on AI governance in research integrity, validation standards for AI-assisted diagnostics, and workforce development requirements for AI-literate scientists.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Deep Space Human Physiology and Microgravity Biology</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday, Nature Podcast, and The Peter Attia Drive are converging on the biological consequences of space exploration. Coverage spans acute effects (radiation exposure, visual changes, organs-on-a-chip responses) to chronic concerns (epigenetic aging, bone marrow changes). The emergence of organs-on-a-chip technology using astronaut cells suggests real-time biomonitoring of deep space missions is becoming feasible, shifting from theoretical risk to measurable intervention opportunities.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish research priorities for mitigating human physiological risks in lunar and Mars missions, including biomarker standards for crew health monitoring.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microplastics as an Environmental and Biological Threat Across Ecosystems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday has featured microplastics in multiple contexts—cave ecosystems affecting bat populations, oceanic distribution, and emerging bioengineered solutions using hydrophobic algae and whale baleen-inspired filters. This cross-systems coverage reveals growing recognition that microplastics are not isolated pollutants but interconnected ecosystem stressors requiring novel biotechnologies and policy coordination.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should coordinate interdisciplinary research on microplastic remediation technologies and assess ecological thresholds for exposure across vulnerable species and human food webs.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Reproductive Technology and Ethical Governance of Germline Innovation</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL's episode on in vitro gametogenesis, induced pluripotent stem cells, and pre-implantation genetic testing for polygenic traits represents a critical inflection point where assisted reproductive technologies are shifting toward complex trait selection. The discussion of ovarian hyperstimulation syndrome alongside polygenic testing signals increasing awareness of both technical capabilities and clinical safety gaps requiring policy frameworks.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM must develop evidence-based guidance on clinical validation, equity access, and regulatory oversight for polygenic trait selection in IVG and iPSC-derived gametes.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biological Age, Longevity, and Preventive Health Across Life Course</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Peter Attia Drive, Policy Chats, and Short Wave are surfacing epigenetic aging, Blue Zone centenarian studies, and exercise physiology as converging evidence that biological age diverges from chronological age and is modifiable. The precision of epigenetic clocks (CpG sites, methylation patterns) combined with behavioral interventions (vigorous exercise, plant-based diet) suggests actionable targets for population health, though implementation at scale remains underdeveloped.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Policy Chats</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess readiness of epigenetic biomarkers for clinical translation and recommend public health strategies integrating longevity science into prevention frameworks.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #468 — More From Sam: Gratitude, Bad Conversations, Conspiracy Addiction, Waffle House Teleportation, and More</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Apr 07 &middot; 33 min</div>
+<p style="margin:10px 0;font-size:14px;">Sam Harris discusses managing anxiety about AI job displacement through mindfulness practices, declining churches' role in providing community, and his approach to podcast conversations. He criticizes Joe Rogan and others for spreading conspiracy theories and misinformation to massive audiences, arguing this constitutes a form of evil with real-world consequences. Harris defends his recent focus on interviewing knowledgeable guests over debate-style conversations with ideological opponents, distinguishing between productive learning and performative disagreement.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">COVID-19 vaccine safety and claims of mortality from vaccines</span>
+  <span class="topic-tag">Ivermectin efficacy for COVID-19 treatment</span>
+  <span class="topic-tag">Virology and immunology in COVID-19 context</span>
+  <span class="topic-tag">Epidemiology of vaccine-related adverse events</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust" target="_blank">Vaccine Safety Research, Data Access, and Public Trust</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26573/evolving-crisis-standards-of-care-and-ongoing-lessons-from-covid-19" target="_blank">Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Brett Weinstein claimed 17 million people were killed by vaccines - Harris characterizes this as 'equivalently crazy' and 'obviously erroneous'</div>
+<div class="claim">Harris states ivermectin is not worth taking for COVID treatment - contradicts some alternative medicine claims</div>
+<div class="claim">RFK Jr. characterized as 'basically a nutcase' and 'liar' making false vaccine claims - Harris implies widespread scientific consensus against RFK Jr.'s positions</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Is my being unhappy contributing anything useful... Is it useful? And almost always the answer is no."</div>
+<div class="quote">"If all the social media people pulled the plug on social media, I think they would all deserve—I told Jack Dorsey this when he was running Twitter. If he just pulled the plug on Twitter saying, sorry, this just, this didn't work out, guys, he would deserve the Nobel Peace Prize."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: The Normals | Episode 1</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Apr 07 &middot; 25 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode traces the origins of the 'Normals' program at the National Institutes of Health in the 1950s, when NIH recruited healthy human volunteers from Mennonite and Church of the Brethren communities to serve as control subjects in medical research. The program emerged as a solution to NIH's need for normal, healthy research subjects while providing conscientious objectors an alternative to military service. The episode features interviews with actual participants like Dale Horst and Shirley Burry-Gessinger, who underwent experiments involving LSD, psychoactive drugs, sleep deprivation, and metabolic studies. Historian Laura Stark discusses how these volunteers, contrary to expectations, reported positive experiences and meaningful connections, raising complex questions about the ethics and outcomes of this large-scale human subjects research.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">LSD (lysergic acid diethylamide) effects on human consciousness and schizophrenia models</span>
+  <span class="topic-tag">Antipsychotic drug testing (chlorpromazine)</span>
+  <span class="topic-tag">Sleep deprivation experiments (75-hour duration)</span>
+  <span class="topic-tag">Metabolic research using radioactive tracers</span>
+  <span class="topic-tag">Psychoactive drug effects (phenobarbital, dextroamphetamine sulfate, benactazine, atropine sulfate)</span>
+  <span class="topic-tag">Sweat/fluid loss studies in controlled temperature environments</span>
+  <span class="topic-tag">Cortisol level measurement under stress conditions</span>
+  <span class="topic-tag">Hypertension control research and dietary interventions</span>
+  <span class="topic-tag">Psychosomatic illness investigation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare" target="_blank">Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12949/assessing-the-effects-of-the-gulf-of-mexico-oil-spill-on-human-health" target="_blank">Assessing the Effects of the Gulf of Mexico Oil Spill on Human Health: A Summary of the June 2010 Workshop</a></div>
+<div class="nasem-match">An Evidence Framework for Genetic Testing</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12387/human-factors-in-long-duration-spaceflight" target="_blank">Human Factors in Long-Duration Spaceflight</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics" target="_blank">New Worlds, New Horizons in Astronomy and Astrophysics</a></div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">LSD was used to induce schizophrenia-like symptoms in healthy controls to understand schizophrenia pathogenesis — investigators believed schizophrenia could be understood within five years through this approach</div>
+<div class="claim">Sleep deprivation combined with psychoactive drugs was used experimentally on healthy subjects</div>
+<div class="claim">Participants reported no serious harm and positive experiences from the program</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"They would take us after breakfast, then we would go to a treatment room and get our shot. And then we would go back to our room and wait. The drug would begin to act rather slowly, actually. And you'd sort of feel these waves of having a different world of consciousness until it began to just take over your mind completely."</div>
+<div class="quote">"I was shocked to find that they were happy. And it was a real problem for me to have happy human subjects. And it was the insistence of the people that I spoke with not to misrepresent them by saying that it was a terrible experience and they wish they hadn't done it."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Quantum physics is for everybody</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 08 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores quantum physics and theoretical physics as an accessible subject for general audiences. Host Regina Barber interviews theoretical physicist Chanda Prescott-Weinstein about her new book "The Edge of Space-Time," which uses metaphor and storytelling to explain complex physics concepts. The discussion covers why classical Newtonian mechanics must be learned before quantum mechanics, the fundamental differences between quantum physics and general relativity, the ongoing search for a grand unified theory, and why basic science research matters even when practical applications aren't immediately apparent.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">quantum mechanics</span>
+  <span class="topic-tag">quantum physics</span>
+  <span class="topic-tag">Newtonian mechanics</span>
+  <span class="topic-tag">general relativity</span>
+  <span class="topic-tag">Einstein's theory of relativity</span>
+  <span class="topic-tag">gravity as curvature of space-time</span>
+  <span class="topic-tag">photons and wave-particle duality</span>
+  <span class="topic-tag">quantum gravity problem</span>
+  <span class="topic-tag">cosmic inflation</span>
+  <span class="topic-tag">energy as a physics concept</span>
+  <span class="topic-tag">infinitesimals in calculus</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications" target="_blank">Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25468/integrating-oral-and-general-health-through-health-literacy-practices-proceedings" target="_blank">Integrating Oral and General Health Through Health Literacy Practices: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern" target="_blank">A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop" target="_blank">AI for Scientific Discovery: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Computers and transistors operate on quantum phenomena - all bits and transistors are fundamentally quantum materials</div>
+<div class="claim">Global positioning system (GPS) depends on calculations using Einstein's general relativity and will not provide correct location information without these relativistic calculations</div>
+<div class="claim">Light behaves as both a wave and a particle simultaneously (photon concept)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Every time I try and explain a concept to you, I need to use a metaphor because I need to use something that's familiar to you to invite you into something that's not familiar to you."</div>
+<div class="quote">"The global positioning system depends on calculations that use general relativity. It will not give you correct information about your current location and trajectory without these calculations from Einstein's relativity."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: What a sperm whale’s birth tells us about whale culture</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 08 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">Scientists observed the birth of a sperm whale calf off Dominica and documented unprecedented behavior: 10 unrelated and related whales attended and assisted with the delivery. The discovery challenges traditional understanding of altruism in animal societies, as the helping whales were not all genetically related to the mother. The research suggests sperm whales engage in complex cultural and social behaviors including reciprocal cooperation, long-term memory, and coordinated care for newborns—behaviors previously thought to be unique to humans and recently documented in bonobos.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sperm whale reproduction and birth behavior</span>
+  <span class="topic-tag">Cetacean social structure and matrilineal family systems</span>
+  <span class="topic-tag">Alloparental care in non-human mammals</span>
+  <span class="topic-tag">Whale codas and dialectal communication</span>
+  <span class="topic-tag">Negative buoyancy in cetacean calves</span>
+  <span class="topic-tag">Animal altruism and reciprocal cooperation</span>
+  <span class="topic-tag">Sperm whale clans and cultural variation</span>
+  <span class="topic-tag">Computer vision tools for animal behavior analysis</span>
+  <span class="topic-tag">Long-term memory in cetaceans</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective" target="_blank">Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community" target="_blank">Early Relational Health: Building Foundations for Child, Family, and Community Well-Being</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments" target="_blank">Effective Chemistry Communication in Informal Environments</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Very few whale births have been documented in the wild in the last hundred years</div>
+<div class="claim">Sperm whale families are matrilineal (grandmothers, mothers, daughters live together for life)</div>
+<div class="claim">Young male sperm whales leave their families in their early teens</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"These are two unrelated families that have chosen to live together. And that's sort of being this fundamental question about sperm whales for decades. You know, how does this cooperative society evolve where animals who are unrelated to one another seem to help one another?"</div>
+<div class="quote">"I'm going to help you today by lifting up your baby, knowing that maybe as far as six years from now, when I have my baby, you will be there to support me and my calf, right? And so that level of exchange that happens, especially across a huge delay, suggests that there's all sorts of amazing cognitive sort of processes going on."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Apr 08 &middot; 48 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the history and current state of cholesterol denialism—the rejection of evidence linking high cholesterol to heart disease and the use of cholesterol-lowering medications like statins. Dr. Christopher Labos traces the scientific journey from Anichkov's 1913 rabbit experiments through modern randomized controlled trials, explaining how valid early skepticism evolved into pseudoscientific denial. The hosts discuss how pharmaceutical industry concerns, mistrust of government, and the internet enabled the persistence of cholesterol denialism despite overwhelming evidence from 26+ clinical trials demonstrating statin benefits.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Cholesterol metabolism and lipoprotein structure (LDL, HDL, VLDL, lipoprotein A)</span>
+  <span class="topic-tag">Atherosclerosis and plaque formation in arteries</span>
+  <span class="topic-tag">Anichkov's cholesterol-feeding experiments in rabbits (1913)</span>
+  <span class="topic-tag">Statin medications and their cholesterol-lowering mechanisms</span>
+  <span class="topic-tag">The 4S study (simvastatin trial) demonstrating statin efficacy</span>
+  <span class="topic-tag">Meta-analyses of 26+ randomized controlled trials on statins</span>
+  <span class="topic-tag">Familial hypercholesterolemia and the founder effect in Quebec populations</span>
+  <span class="topic-tag">PCSK9 inhibitors and newer injectable cholesterol medications</span>
+  <span class="topic-tag">Small interfering RNA (siRNA) therapies for cholesterol management</span>
+  <span class="topic-tag">Pleiotropic effects of statins and linear dose-response relationships</span>
+  <span class="topic-tag">Statin-associated muscle symptoms and nocebo effects</span>
+  <span class="topic-tag">Vascular dementia and stroke prevention through cholesterol reduction</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13508/corps-of-engineers-water-resources-infrastructure-deterioration-investment-or-divestment" target="_blank">Corps of Engineers Water Resources Infrastructure: Deterioration, Investment, or Divestment?</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation" target="_blank">Modernizing Probable Maximum Precipitation Estimation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science" target="_blank">Understanding and Addressing Misinformation About Science</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs" target="_blank">Human-AI Teaming: State-of-the-Art and Research Needs</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2" target="_blank">Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and" target="_blank">Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals</a></div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance" target="_blank">Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25838/reflections-on-sharing-clinical-trial-data-challenges-and-a-way" target="_blank">Reflections on Sharing Clinical Trial Data: Challenges and a Way Forward: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system" target="_blank">Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence</div>
+<div class="claim">Statins have no effect on dementia risk; may reduce dementia incidence through stroke prevention—should verify against latest neurology literature</div>
+<div class="claim">Statin-associated muscle pain incidence is very low and largely attributable to nocebo effect in placebo-controlled trials—supported by cited research</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If the full significance of his [Anichkov's] findings had been appreciated at the time, we might have saved more than 30 years in the long struggle to settle the cholesterol controversy."</div>
+<div class="quote">"For statins to not work, you would have to have had...probably amongst the thousands of people...The amount of coordination that would have to go into sort of manipulating this data...it's just not feasible."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">83 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Mission (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Dominant discussion centered on Artemis II imagery, lunar observations, mission updates, and scientific discoveries from the first crewed Moon mission since 1972.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Policy and Public Health (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discussing RFK Jr.'s influence on vaccine panels, ACIP composition changes, and rising measles cases amid policy concerns.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Astronomy (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Broader astronomy and space science content including galaxy observations, eclipse views, and astronomical phenomena beyond Artemis II.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Environmental Science (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussion of Super El Niño predictions, fossil fuel exploration contradictions, and climate change implications.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biological and Medical Research (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on paleontology discoveries, tooth regeneration, male contraceptive development, psychedelic drug effects, and marine biology.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@davidbflower.bsky.social</div>
+  <div class="bluesky-stats">563 likes &middot; 97 reposts &middot; 13 replies</div>
+  <div class="bluesky-text">This is probably one of my favourite Artemis II images. Tiny Earth setting behind the Moon as taken from the far side. 🔭 🧪 #astrophotogtaphy #ArtemisII</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/davidbflower.bsky.social/post/3mixmgktrvk2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@stim3on.bsky.social</div>
+  <div class="bluesky-stats">169 likes &middot; 30 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">I really can't stop looking at this photo - We usually think of space as being entirely empty and dark, but our sun has a lot of dust around it, giving the moon this eerie backlit glow. 
+
+And four people really have been there and witnessed this yesterday, absolutely blows my mind! #Artemis 🔭🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/stim3on.bsky.social/post/3miwusjzkn22m" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@skylargrayson.bsky.social</div>
+  <div class="bluesky-stats">148 likes &middot; 24 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Holy sh*t. A solar eclipse, seen for the first time by human eyes during a lunar flyby. The Earthlight illuminating the crescent of the moon and part of the spacecraft, the stars and planets in the background…I’m in tears 🤯
+
+📸: NASA 🔭🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/skylargrayson.bsky.social/post/3miwkisaibc2e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">88 likes &middot; 64 reposts &middot; 10 replies</div>
+  <div class="bluesky-text">Recently, a court ruled against Kennedy's chosen ACIP panel. 
+
+So, he gives himself more control over who can pick to shape vaccine guidelines. 
+
+Nevermind that measles cases are rising.
+
+Kennedy is hell bent on promoting his agenda at the expense of human health.
+
+ 🧪 arstechnica.com/health/2026/...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3miwzwesmyc2s" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@physgal.bsky.social</div>
+  <div class="bluesky-stats">113 likes &middot; 28 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">Timeline distraction: Amazing Artemis II images of Earth and the Moon together. 🔭🎢 🧪🚀 🌔</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/physgal.bsky.social/post/3miwkpbbo4s22" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Vaccine Panel Expertise and Public Health Policy</strong>: RFK Jr.'s modification of ACIP panel requirements and measles resurgence directly relates to NASEM's work on vaccine safety, immunization policy, and scientific expertise standards in federal health decision-making.</div>
+<div class="nasem-match"><strong>Women in Science and Inclusive Representation</strong>: Discussion of gender representation in lunar nomenclature and women's contributions to space exploration aligns with NASEM's focus on diversity, equity, and inclusion in STEM fields.</div>
+<div class="nasem-match"><strong>Space Exploration and Scientific Discovery</strong>: Artemis II mission outcomes and lunar science findings directly support NASEM's evaluation of NASA programs, space exploration policy, and international competitiveness in human spaceflight.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 08, 2026 at 11:35 AM | Internal use only
+    </div>
+</body>
+</html>
