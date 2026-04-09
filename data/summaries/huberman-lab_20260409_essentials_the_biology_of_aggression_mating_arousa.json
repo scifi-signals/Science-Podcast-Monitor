@@ -1,0 +1,210 @@
+{
+  "podcast_id": "huberman-lab",
+  "podcast_name": "Huberman Lab",
+  "episode_title": "Essentials: The Biology of Aggression, Mating & Arousal | Dr. David Anderson",
+  "host": "Andrew Huberman",
+  "published": "2026-04-09T08:00:00",
+  "episode_url": "https://www.hubermanlab.com/episode/essentials-the-biology-of-aggression-mating-and-arousal-david-anderson",
+  "duration_minutes": 38.016666666666666,
+  "influence_tier": "high",
+  "category": "science_health_influencer",
+  "summary": "Dr. David Anderson discusses the neurobiology of emotions, aggression, mating, and arousal, distinguishing emotions as internal brain states rather than subjective feelings. The episode explores neural circuits in the hypothalamus (particularly the ventromedial hypothalamus) that control aggression and mating, the role of estrogen receptors rather than testosterone in driving aggression, sex-specific neural populations, and the neuropeptide tachykinin's role in social isolation-induced aggression. Anderson emphasizes that understanding emotional states requires studying their underlying neurobiological mechanisms, which has implications for mental health and psychiatric treatment.",
+  "science_topics": [
+    "Ventromedial hypothalamus (VMH) neural circuits controlling aggression",
+    "Estrogen receptor signaling in male aggression (aromatization of testosterone)",
+    "Optogenetics and neural circuit manipulation in mice",
+    "Offensive vs. defensive aggression distinction",
+    "Sex-specific neuronal populations in the brain",
+    "Tachykinin neuropeptide pathway in social isolation-induced aggression",
+    "Periaqueductal gray (PAG) in innate behaviors and pain modulation",
+    "Fear-induced analgesia",
+    "Medial preoptic area role in mating behavior",
+    "Vagal afferent signaling and brain-body communication",
+    "Somatic marker hypothesis and emotional interoception"
+  ],
+  "claims_to_note": [
+    "Estrogen receptor activation (not testosterone) is necessary and sufficient for aggression in male mice - castrated males can regain aggression from estrogen implants alone",
+    "Female mice show aggression only during nursing/postpartum period, with distinct estrogen receptor neuron populations controlling fighting vs. mating",
+    "Tachykinin 2 is massively upregulated in socially isolated mice and is causally responsible for increased aggression, fear, and anxiety",
+    "Tachykinin receptor antagonist (osanotont) blocks social isolation effects and has been tested for human safety but abandoned for other indications",
+    "Fear-induced analgesia occurs during defensive states, explaining reduced pain sensation during fights",
+    "Bovine adrenal medullary peptide (BAMAP) has endogenous analgesic properties and may suppress pain during aggression or mating"
+  ],
+  "policy_relevance": [
+    "Mention of psychiatric treatment development and need for improved mental health interventions based on causal understanding of emotion circuits",
+    "Reference to solitary confinement as counterproductive for violent prisoners due to social isolation increasing aggression",
+    "Discussion of potential drug development (tachykinin antagonists) for social isolation stress and bereavement stress, noting difficulty finding pharmaceutical industry interest for economic reasons",
+    "Implication that understanding neural mechanisms of aggression and emotion could inform policy on criminal justice and incarceration practices"
+  ],
+  "key_quotes": [
+    "If you want to call it the state of aggressiveness is multifaceted. It depends on the type of aggression and it involves different sorts of circuits.",
+    "Putting a violent prisoner in solitary confinement is absolutely the worst, most counterproductive thing you could do to them.",
+    "We've got to figure out how emotion systems are controlled in a causal way if we ever want to improve on the psychiatric treatments that we have now. And that's going to require the next generation of people coming into the field."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Ventromedial hypothalamus (VMH) neural circuits controlling aggression",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "11705",
+          "title": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons",
+          "url": "https://nap.nationalacademies.org/catalog/11705/controlling-the-quantum-world-the-science-of-atoms-molecules-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "physics decadal survey project",
+            "science foundation requested",
+            "compelling scientific questions",
+            "optical amo science",
+            "near absolute zero",
+            "molecular processes",
+            "concerning maintaining",
+            "atomic molecular",
+            "council assess",
+            "quantum world",
+            "atoms molecules",
+            "controlling",
+            "photons"
+          ],
+          "description": "As part of the Physics 2010 decadal survey project, the Department of Energy and the National Science Foundation requested that the National Research Council assess the opportunities, over roughly the next decade, in atomic, molecular, and optical (AMO) science and technology. In particular, the National Research Council was asked to cover the state of AMO science, emphasizing recent accomplishments and identifying new and compelling scientific questions. Controlling the Quantum World, discusses both the roles and challenges for AMO science in instrumentation; scientific research near absolute zero; development of extremely intense x-ray and laser sources; exploration and control of molecular processes; photonics at the nanoscale level; and development of quantum information technology. This book also offers an assessment of and recommendations about critical issues concerning maintaining U.S. leadership in AMO science and technology.",
+          "year": 2007,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Optogenetics and neural circuit manipulation in mice",
+      "publications": [
+        {
+          "id": "24632",
+          "title": "An Evidence Framework for Genetic Testing",
+          "keywords": [
+            "genetic",
+            "genetics",
+            "testing",
+            "dna",
+            "genomic",
+            "screening"
+          ]
+        },
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        },
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Sex-specific neuronal populations in the brain",
+      "publications": [
+        {
+          "id": "26902",
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "keywords": [
+            "genetic",
+            "genomic",
+            "population",
+            "diversity",
+            "ancestry",
+            "dna"
+          ]
+        },
+        {
+          "id": "5955",
+          "title": "Evaluating Human Genetic Diversity",
+          "keywords": [
+            "genetic",
+            "diversity",
+            "human",
+            "population",
+            "dna",
+            "genome"
+          ]
+        },
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 5738,
+  "saved_at": "2026-04-09T11:51:23.868585"
+}

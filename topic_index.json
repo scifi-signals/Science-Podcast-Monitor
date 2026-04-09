@@ -1,7 +1,285 @@
 {
-  "updated": "2026-04-08T11:35:45.797520",
-  "episode_count": 165,
+  "updated": "2026-04-09T11:52:01.982133",
+  "episode_count": 169,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Can GLP-1 drugs treat addiction?",
+      "host": "Ira Flatow",
+      "published": "2026-04-09T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores emerging research on GLP-1 receptor agonist drugs (Ozempic, Wegovy, Zepbound) as potential treatments for alcohol and substance use disorders. While anecdotal reports and animal studies suggest these medications may reduce cravings and consumption, clinical trial evidence remains limited with mixed results so far. Experts discuss possible mechanisms involving brain reward pathways, emphasize that medication alone cannot treat addiction, and highlight concerns about access, nutritional deficiencies, and the need for comprehensive behavioral health services alongside pharmacological treatment.",
+      "science_topics": [
+        "GLP-1 receptor agonists mechanism of action in addiction",
+        "Nucleus accumbens and basal ganglia in craving and substance use",
+        "Blood-brain barrier permeability in chronic alcohol use disorder",
+        "Overlap between appetite regulation and addiction neurobiology",
+        "Neuropathway formation and behavioral change",
+        "Gastrointestinal side effects of GLP-1 agonists",
+        "Animal models of alcohol and substance use with GLP-1 drugs"
+      ],
+      "claims_to_note": [
+        "GLP-1 agonists reduce alcohol consumption in animal models over 10-15 years of research",
+        "Electronic medical record studies with tens of thousands of patients show fewer alcohol-related incidents in GLP-1 users",
+        "One UNC study (n=50) with semaglutide showed reduced alcohol craving and consumption in non-treatment-seeking heavy drinkers",
+        "Earlier trial with exenatide was negative overall but suggested benefit in highest body weight patients",
+        "30-40% of clinical trial patients experience gastrointestinal side effects that are typically transient",
+        "GLP-1 agonists may work through motivation/craving reduction distinct from nausea-based appetite suppression",
+        "Chronic alcohol use may increase blood-brain barrier permeability, potentially allowing GLP-1 access to brain reward centers",
+        "Naltrexone (used for alcohol use disorder) is also approved as a weight loss medication, suggesting overlapping pathways"
+      ],
+      "policy_relevance": [
+        "Off-label use of FDA-approved GLP-1 drugs for addiction treatment",
+        "Need for clinical trial data to inform prescriber decision-making for addiction indications",
+        "Access and affordability concerns for GLP-1 medications in addiction treatment",
+        "Representation in addiction research and who benefits from these treatments",
+        "Stigma in traditional recovery networks (AA/NA) regarding medication-assisted treatment",
+        "Nutritional monitoring and follow-up care requirements if GLP-1s used for addiction",
+        "Potential need for integrated care models combining pharmacotherapy with behavioral health services"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "url": ""
+        },
+        {
+          "title": "Measuring Recovery from Substance Use or Mental Disorders: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23589/measuring-recovery-from-substance-use-or-mental-disorders-workshop-summary"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory"
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on"
+        },
+        {
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        }
+      ]
+    },
+    {
+      "podcast_id": "huberman-lab",
+      "podcast_name": "Huberman Lab",
+      "episode_title": "Essentials: The Biology of Aggression, Mating & Arousal | Dr. David Anderson",
+      "host": "Andrew Huberman",
+      "published": "2026-04-09T08:00:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Dr. David Anderson discusses the neurobiology of emotions, aggression, mating, and arousal, distinguishing emotions as internal brain states rather than subjective feelings. The episode explores neural circuits in the hypothalamus (particularly the ventromedial hypothalamus) that control aggression and mating, the role of estrogen receptors rather than testosterone in driving aggression, sex-specific neural populations, and the neuropeptide tachykinin's role in social isolation-induced aggression. Anderson emphasizes that understanding emotional states requires studying their underlying neurobiological mechanisms, which has implications for mental health and psychiatric treatment.",
+      "science_topics": [
+        "Ventromedial hypothalamus (VMH) neural circuits controlling aggression",
+        "Estrogen receptor signaling in male aggression (aromatization of testosterone)",
+        "Optogenetics and neural circuit manipulation in mice",
+        "Offensive vs. defensive aggression distinction",
+        "Sex-specific neuronal populations in the brain",
+        "Tachykinin neuropeptide pathway in social isolation-induced aggression",
+        "Periaqueductal gray (PAG) in innate behaviors and pain modulation",
+        "Fear-induced analgesia",
+        "Medial preoptic area role in mating behavior",
+        "Vagal afferent signaling and brain-body communication",
+        "Somatic marker hypothesis and emotional interoception"
+      ],
+      "claims_to_note": [
+        "Estrogen receptor activation (not testosterone) is necessary and sufficient for aggression in male mice - castrated males can regain aggression from estrogen implants alone",
+        "Female mice show aggression only during nursing/postpartum period, with distinct estrogen receptor neuron populations controlling fighting vs. mating",
+        "Tachykinin 2 is massively upregulated in socially isolated mice and is causally responsible for increased aggression, fear, and anxiety",
+        "Tachykinin receptor antagonist (osanotont) blocks social isolation effects and has been tested for human safety but abandoned for other indications",
+        "Fear-induced analgesia occurs during defensive states, explaining reduced pain sensation during fights",
+        "Bovine adrenal medullary peptide (BAMAP) has endogenous analgesic properties and may suppress pain during aggression or mating"
+      ],
+      "policy_relevance": [
+        "Mention of psychiatric treatment development and need for improved mental health interventions based on causal understanding of emotion circuits",
+        "Reference to solitary confinement as counterproductive for violent prisoners due to social isolation increasing aggression",
+        "Discussion of potential drug development (tachykinin antagonists) for social isolation stress and bereavement stress, noting difficulty finding pharmaceutical industry interest for economic reasons",
+        "Implication that understanding neural mechanisms of aggression and emotion could inform policy on criminal justice and incarceration practices"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons",
+          "url": "https://nap.nationalacademies.org/catalog/11705/controlling-the-quantum-world-the-science-of-atoms-molecules-and"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing Chat: The tongue trick that helps sunbirds suck",
+      "host": "Springer Nature",
+      "published": "2026-04-08T15:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature podcast briefing discusses three recent scientific stories: the development of eye drops made from pig semen exosomes to deliver cancer drugs to the retina, showing promise in mouse and rabbit models; a quantitative study from Denmark demonstrating a significant \"motherhood penalty\" in academia where women are 29% less likely to be employed at universities eight years after having children compared to men's 14% penalty; and the discovery that sunbirds use a unique V-shaped tongue to create suction for extracting nectar from flowers, unlike hummingbirds which use a lapping mechanism.",
+      "science_topics": [
+        "Retinoblastoma treatment using exosome-based eye drops",
+        "Exosomes derived from pig semen as drug delivery vectors",
+        "Tight junction manipulation in cellular barriers",
+        "Blood-brain barrier penetration for therapeutic delivery",
+        "Motherhood penalty in academic research careers",
+        "Academic publication and tenure outcomes by parental status",
+        "Sunbird nectar feeding mechanism using tongue suction",
+        "Vertebrate tongue biomechanics and fluid dynamics",
+        "Hummingbird feeding mechanisms compared to sunbirds",
+        "Biomimicry applications in engineering"
+      ],
+      "claims_to_note": [
+        "Pig semen exosomes can open and close tight junctions in human corneal cells in vitro",
+        "Exosome-based eye drops loaded with anticancer drugs reduced tumor size in mice with retinal tumors over 30 days while preserving eyesight",
+        "Exosome drops showed safety in rabbits after 30 days of repeated application with only mild corneal irritation observed",
+        "Women in Denmark are 29% less likely to be employed at universities 8 years after their first child compared to childless women",
+        "Women are 35% less likely to get tenure after becoming parents, while men show no significant tenure penalty",
+        "Women made 31 fewer publications than men post-parenthood",
+        "Women in Danish academic households take on substantially more nighttime childcare and sick child care responsibilities despite equal parental leave policies",
+        "Labs with more women in senior positions showed less pronounced motherhood penalties",
+        "Earlier study found motherhood financial penalty of approximately $120,000 USD in first two years offset by 80% through generous Danish parental leave policies",
+        "Sunbirds create suction for nectar extraction using only tongue shape against the beak, the first observed vertebrate to achieve suction this way"
+      ],
+      "policy_relevance": [
+        "Denmark's subsidized childcare and parental leave policies as case study for addressing motherhood penalty",
+        "Need for data collection and tracking of gender disparities in academic employment and tenure to inform policy interventions",
+        "Workplace policies regarding flexible schedules and childcare support in research institutions",
+        "Promotion of women to senior academic positions as mechanism for institutional culture change",
+        "Evaluation of effectiveness of parental leave and work-life balance policies in reducing career penalties"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Deriving Drug Discovery Value from Large-Scale Genetic Bioresources: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23601/deriving-drug-discovery-value-from-large-scale-genetic-bioresources-proceedings"
+        },
+        {
+          "title": "Beyond Bias and Barriers: Fulfilling the Potential of Women in Academic Science and Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/11741/beyond-bias-and-barriers-fulfilling-the-potential-of-women-in"
+        },
+        {
+          "title": "Automated Applications for Infrastructure Owner-Operator Fleets",
+          "url": "https://nap.nationalacademies.org/catalog/27903/automated-applications-for-infrastructure-owner-operator-fleets"
+        },
+        {
+          "title": "Barriers and Opportunities for 2-Year and 4-Year STEM Degrees: Systemic Change to Support Students' Diverse Pathways",
+          "url": "https://nap.nationalacademies.org/catalog/21739/barriers-and-opportunities-for-2-year-and-4-year-stem-degrees"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Bus Operator Barrier Design: Guidelines and Considerations",
+          "url": "https://nap.nationalacademies.org/catalog/27877/bus-operator-barrier-design-guidelines-and-considerations"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Graduate STEM Education for the 21st Century",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
@@ -837,6 +1115,114 @@
         {
           "title": "Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop",
           "url": "https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change"
+        }
+      ]
+    },
+    {
+      "podcast_id": "hidden-brain",
+      "podcast_name": "Hidden Brain",
+      "episode_title": "The Debt Trap",
+      "host": "Shankar Vedantam",
+      "published": "2026-04-06T19:53:52",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Hidden Brain episode examines the psychology of debt through interviews with financial decision-making researcher John Dinsmore. The episode explores psychological traps that lead people into debt—including optimism bias, intertemporal discounting, loss aversion, and expense prediction bias—using examples from the financial crisis (the Siegel family's Versailles mansion), personal anecdotes, and behavioral research. The second half features Bobby Parmar discussing the role of doubt in decision-making, arguing that productive doubt—rather than constant certainty—can help us make better financial and life choices.",
+      "science_topics": [
+        "Behavioral economics and financial decision-making",
+        "Optimism bias in future financial planning",
+        "Intertemporal discounting (present vs. future time preferences)",
+        "Loss aversion and endowment effect",
+        "Expense prediction bias and cognitive limitations",
+        "Testosterone levels and money handling (evolutionary psychology)",
+        "Self-control depletion under cognitive load",
+        "Reward program psychology and purchase frequency",
+        "Partition pricing effects on consumer perception",
+        "Math anxiety and threat detection in the brain (fMRI studies)",
+        "Status-branded credit card effects on purchasing behavior",
+        "Counterfactual thinking as bias correction technique",
+        "Seizing and freezing phenomenon under exhaustion",
+        "Doubt and decision-making under uncertainty",
+        "Somatic cues and embodied cognition in decision-making"
+      ],
+      "claims_to_note": [
+        "One out of every four Americans with student loans is delinquent, nearly triple the pre-pandemic delinquency rate",
+        "Debt grew by $93 billion at the end of 2024, with half coming from credit card debt",
+        "Two-thirds of credit card holders carry forward balances month to month",
+        "25 states have made financial literacy part of high school curricula",
+        "Handling actual money (vs. paper of same dimensions) causes measurable rise in testosterone and increases aggressive/self-focused behavior",
+        "Study found that even refusing an offered drink at a casino degrades subsequent decision-making",
+        "Most people dramatically underestimate irregular expenses (car repairs, healthcare, travel)",
+        "The biggest factor affecting debt pricing is shopping effort, not credit scores"
+      ],
+      "policy_relevance": [
+        "Social Security mentioned as successful automatic savings program that works by removing money before receipt",
+        "Legal issues around genetic discrimination and workplace privacy (Huntington's disease scenario with airline pilot)",
+        "State-level financial literacy curriculum requirements (25 states noted)",
+        "CFPB and consumer protection regulation implied but not explicitly mentioned",
+        "No-doc mortgage practices during 2005 housing bubble and their regulatory gaps",
+        "Credit card regulation and transparency issues with introductory rates and hidden fees",
+        "Buy now, pay later (BNPL) schemes lacking traditional credit regulations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on"
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning",
+          "url": "https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26128/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        },
+        {
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Communicating Science Effectively: A Research Agenda",
+          "url": "https://nap.nationalacademies.org/catalog/23674/communicating-science-effectively-a-research-agenda"
+        },
+        {
+          "title": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27210/effective-health-communication-within-the-current-information-environment-and-the-role-of-the-federal-government"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
         }
       ]
     },
@@ -2118,106 +2504,6 @@
       ]
     },
     {
-      "podcast_id": "unbiased-science",
-      "podcast_name": "Unbiased Science",
-      "episode_title": "The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
-      "published": "2026-04-01T10:00:00",
-      "influence_tier": "emerging",
-      "category": "science_health",
-      "summary": "This episode of Unbiased Science discusses pediatric nutrition and feeding practices, featuring pediatric dietitian and nutrition PhD Dr. Taylor Arnold. The main topics include the 2026 dietary guidelines and their implementation challenges, the concept of intuitive eating and responsive feeding in children, strategies for addressing picky eating without forcing, and nutrition misinformation on social media. The hosts and guest emphasize evidence-based approaches to supporting children's healthy relationships with food while addressing medical factors, sensory needs, and neurodivergence.",
-      "science_topics": [
-        "Pediatric responsive feeding practices",
-        "Intuitive eating and diet culture in children",
-        "Eosinophilic esophagitis as cause of selective eating",
-        "ADHD and sensory processing in feeding behavior",
-        "Pediatric feeding disorders and ARFID (Avoidant/Restrictive Food Intake Disorder)",
-        "Iron deficiency anemia in picky eaters",
-        "Pesticide residues on conventional vs. organic produce",
-        "Sensory domains in food acceptance (taste, smell, tactile, auditory, proprioceptive, vestibular)",
-        "Oral allergy immunotherapy in children"
-      ],
-      "claims_to_note": [
-        "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
-        "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
-        "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
-        "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
-        "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
-        "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
-        "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature"
-      ],
-      "policy_relevance": [
-        "2026 U.S. Dietary Guidelines for Americans - discussed as lacking implementation detail for pediatric populations compared to previous versions",
-        "New dietary guidelines influence WIC (Women, Infants, and Children) and SNAP program policies affecting child nutrition",
-        "No federal policy on food marketing to children (advertising sugary cereals on kids' TV/podcasts) despite dietary guideline recommendations",
-        "School nutrition policies and accommodations for children with ADHD and feeding disorders",
-        "New food pyramid visual representation in dietary guidelines - criticized as confusing and not adhering to overall guideline structure",
-        "COVID-era expansion of telehealth options for feeding therapy services"
-      ],
-      "nasem_publications": [
-        {
-          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
-        },
-        {
-          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
-          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
-        },
-        {
-          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
-          "url": ""
-        },
-        {
-          "title": "Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators",
-          "url": "https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance"
-        },
-        {
-          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
-          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
-        },
-        {
-          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
-          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
-        },
-        {
-          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
-          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
-        },
-        {
-          "title": "Potential Environmental Effects of Nuclear War",
-          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
-        },
-        {
-          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
-          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
-        },
-        {
-          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
-        },
-        {
-          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
-          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
-        },
-        {
-          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
-          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
-        },
-        {
-          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
-        },
-        {
-          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
-          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
-        },
-        {
-          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
-          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
-        }
-      ]
-    },
-    {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
       "episode_title": "How to poop better, according to a gastroenterologist",
@@ -2317,6 +2603,106 @@
         {
           "title": "Dietary Reference Intakes: Applications in Dietary Assessment",
           "url": "https://nap.nationalacademies.org/catalog/9956/dietary-reference-intakes-applications-in-dietary-assessment"
+        }
+      ]
+    },
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-04-01T10:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode of Unbiased Science discusses pediatric nutrition and feeding practices, featuring pediatric dietitian and nutrition PhD Dr. Taylor Arnold. The main topics include the 2026 dietary guidelines and their implementation challenges, the concept of intuitive eating and responsive feeding in children, strategies for addressing picky eating without forcing, and nutrition misinformation on social media. The hosts and guest emphasize evidence-based approaches to supporting children's healthy relationships with food while addressing medical factors, sensory needs, and neurodivergence.",
+      "science_topics": [
+        "Pediatric responsive feeding practices",
+        "Intuitive eating and diet culture in children",
+        "Eosinophilic esophagitis as cause of selective eating",
+        "ADHD and sensory processing in feeding behavior",
+        "Pediatric feeding disorders and ARFID (Avoidant/Restrictive Food Intake Disorder)",
+        "Iron deficiency anemia in picky eaters",
+        "Pesticide residues on conventional vs. organic produce",
+        "Sensory domains in food acceptance (taste, smell, tactile, auditory, proprioceptive, vestibular)",
+        "Oral allergy immunotherapy in children"
+      ],
+      "claims_to_note": [
+        "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+        "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+        "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+        "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+        "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+        "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+        "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature"
+      ],
+      "policy_relevance": [
+        "2026 U.S. Dietary Guidelines for Americans - discussed as lacking implementation detail for pediatric populations compared to previous versions",
+        "New dietary guidelines influence WIC (Women, Infants, and Children) and SNAP program policies affecting child nutrition",
+        "No federal policy on food marketing to children (advertising sugary cereals on kids' TV/podcasts) despite dietary guideline recommendations",
+        "School nutrition policies and accommodations for children with ADHD and feeding disorders",
+        "New food pyramid visual representation in dietary guidelines - criticized as confusing and not adhering to overall guideline structure",
+        "COVID-era expansion of telehealth options for feeding therapy services"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Science and Engineering in Preschool Through Elementary Grades: The Brilliance of Children and the Strengths of Educators",
+          "url": "https://nap.nationalacademies.org/catalog/26215/science-and-engineering-in-preschool-through-elementary-grades-the-brilliance"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+          "url": "https://nap.nationalacademies.org/catalog/29239/effects-of-human-caused-greenhouse-gas-emissions-on-us-climate-health-and-welfare"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
+        },
+        {
+          "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
         }
       ]
     },
@@ -6570,6 +6956,104 @@
       ]
     },
     {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The heaviness and (not) hope of climate change",
+      "host": "Ira Flatow",
+      "published": "2026-03-18T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Science Friday interviews environmental journalist Elizabeth Colbert about her career covering climate change and her latest essay collection. The discussion spans from detailed scientific fieldwork—such as studying caterpillars with entomologist Dave Wagner—to global environmental crises including insect population declines and coral reef bleaching. Colbert reflects on the tension between documenting hope-inspiring solutions (like Denmark's Samsø island achieving carbon neutrality) and the sobering reality of climate science, arguing that humans must move beyond clichéd hopeful narratives while recognizing that humanity's capacity for foresight and creativity may be essential to navigating the 21st century.",
+      "science_topics": [
+        "Caterpillar ecology and life cycles",
+        "Insect population decline and biodiversity loss",
+        "Coral bleaching and heat tolerance in symbiotic algae",
+        "Wind energy technology and renewable energy cost reduction",
+        "Solar and battery technology advancement",
+        "Climate stabilization versus climate change reversal",
+        "Paleoclimate history and Holocene climate conditions",
+        "Coral reef functional extinction risk"
+      ],
+      "claims_to_note": [
+        "Caterpillars transfer 'a tremendous amount of energy' from photosynthesis to animal kingdom as food source for birds—verify ecosystem energy transfer claims",
+        "Insects make up the majority of species on Earth—verify against NASEM biodiversity assessments",
+        "Serious insect population declines found 'just about everywhere people look'—note claim of ubiquity of decline data",
+        "Climate scientists believe coral reefs 'could sort of be functionally extinct by the end of this century'—verify timeline and functional extinction definition",
+        "Modern humans have not experienced current climate conditions; ancestors lived in colder periods—verify paleoclimate claims",
+        "Samsø island achieved carbon neutrality through community effort and wind power—verify actual carbon neutral status and timeline",
+        "Solar, wind, and battery technologies have come down 'tremendously in price'—claim appears accurate but warrants verification against technology cost data"
+      ],
+      "policy_relevance": [
+        "Danish national energy policies that encouraged farmers to install wind turbines on private land",
+        "Wind energy subsidies and offshore wind development policy in Denmark",
+        "Current U.S. federal administration promoting fossil fuel use (stated concern that administration is working against renewable energy transition)",
+        "Mention of need for policies to make energy transition economically viable",
+        "Discussion of scaling climate adaptation efforts for ecosystems at national/regional scale"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Using Population Descriptors in Genetics and Genomics Research",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "A Research Review of Interventions to Increase the Persistence and Resilience of Coral Reefs",
+          "url": "https://nap.nationalacademies.org/catalog/25279/a-research-review-of-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
+          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
+        },
+        {
+          "title": "Electricity from Renewable Resources: Status, Prospects, and Impediments",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
+          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
+        }
+      ]
+    },
+    {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
       "episode_title": "When The Diagnosis Is Thrown For A Lupus",
@@ -6674,104 +7158,6 @@
         {
           "title": "Genomic Epidemiology Data Infrastructure Needs for SARS-CoV-2: Modernizing Pandemic Response Strategies",
           "url": "https://nap.nationalacademies.org/catalog/25879/genomic-epidemiology-data-infrastructure-needs-for-sars-cov-2-modernizing"
-        }
-      ]
-    },
-    {
-      "podcast_id": "science-friday",
-      "podcast_name": "Science Friday",
-      "episode_title": "The heaviness and (not) hope of climate change",
-      "host": "Ira Flatow",
-      "published": "2026-03-18T10:00:00",
-      "influence_tier": "medium",
-      "category": "science_news",
-      "summary": "Science Friday interviews environmental journalist Elizabeth Colbert about her career covering climate change and her latest essay collection. The discussion spans from detailed scientific fieldwork—such as studying caterpillars with entomologist Dave Wagner—to global environmental crises including insect population declines and coral reef bleaching. Colbert reflects on the tension between documenting hope-inspiring solutions (like Denmark's Samsø island achieving carbon neutrality) and the sobering reality of climate science, arguing that humans must move beyond clichéd hopeful narratives while recognizing that humanity's capacity for foresight and creativity may be essential to navigating the 21st century.",
-      "science_topics": [
-        "Caterpillar ecology and life cycles",
-        "Insect population decline and biodiversity loss",
-        "Coral bleaching and heat tolerance in symbiotic algae",
-        "Wind energy technology and renewable energy cost reduction",
-        "Solar and battery technology advancement",
-        "Climate stabilization versus climate change reversal",
-        "Paleoclimate history and Holocene climate conditions",
-        "Coral reef functional extinction risk"
-      ],
-      "claims_to_note": [
-        "Caterpillars transfer 'a tremendous amount of energy' from photosynthesis to animal kingdom as food source for birds—verify ecosystem energy transfer claims",
-        "Insects make up the majority of species on Earth—verify against NASEM biodiversity assessments",
-        "Serious insect population declines found 'just about everywhere people look'—note claim of ubiquity of decline data",
-        "Climate scientists believe coral reefs 'could sort of be functionally extinct by the end of this century'—verify timeline and functional extinction definition",
-        "Modern humans have not experienced current climate conditions; ancestors lived in colder periods—verify paleoclimate claims",
-        "Samsø island achieved carbon neutrality through community effort and wind power—verify actual carbon neutral status and timeline",
-        "Solar, wind, and battery technologies have come down 'tremendously in price'—claim appears accurate but warrants verification against technology cost data"
-      ],
-      "policy_relevance": [
-        "Danish national energy policies that encouraged farmers to install wind turbines on private land",
-        "Wind energy subsidies and offshore wind development policy in Denmark",
-        "Current U.S. federal administration promoting fossil fuel use (stated concern that administration is working against renewable energy transition)",
-        "Mention of need for policies to make energy transition economically viable",
-        "Discussion of scaling climate adaptation efforts for ecosystems at national/regional scale"
-      ],
-      "nasem_publications": [
-        {
-          "title": "The Search for Life's Origins: Progress and Future Directions",
-          "url": ""
-        },
-        {
-          "title": "Biodiversity",
-          "url": ""
-        },
-        {
-          "title": "Conserving Biodiversity: A Research Agenda for Development",
-          "url": ""
-        },
-        {
-          "title": "Using Population Descriptors in Genetics and Genomics Research",
-          "url": ""
-        },
-        {
-          "title": "Evaluating Human Genetic Diversity",
-          "url": ""
-        },
-        {
-          "title": "Biodiversity",
-          "url": ""
-        },
-        {
-          "title": "A Decision Framework for Interventions to Increase the Persistence and Resilience of Coral Reefs",
-          "url": "https://nap.nationalacademies.org/catalog/25424/a-decision-framework-for-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
-        },
-        {
-          "title": "A Research Review of Interventions to Increase the Persistence and Resilience of Coral Reefs",
-          "url": "https://nap.nationalacademies.org/catalog/25279/a-research-review-of-interventions-to-increase-the-persistence-and-resilience-of-coral-reefs"
-        },
-        {
-          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
-          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
-        },
-        {
-          "title": "Potential Hydrodynamic Impacts of Offshore Wind Energy on Nantucket Shoals Regional Ecology: An Evaluation from Wind to Whales",
-          "url": "https://nap.nationalacademies.org/catalog/27154/potential-hydrodynamic-impacts-of-offshore-wind-energy-on-nantucket-shoals-regional-ecology"
-        },
-        {
-          "title": "Electricity from Renewable Resources: Status, Prospects, and Impediments",
-          "url": ""
-        },
-        {
-          "title": "America's Energy Future: Technology and Transformation",
-          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
-        },
-        {
-          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
-          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
-        },
-        {
-          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
-          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
-        },
-        {
-          "title": "NASA Space Technology Roadmaps and Priorities Revisited",
-          "url": "https://nap.nationalacademies.org/catalog/23582/nasa-space-technology-roadmaps-and-priorities-revisited"
         }
       ]
     },
@@ -8303,6 +8689,93 @@
       ]
     },
     {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Is There Science Behind The ‘Nervous System Reset’?",
+      "host": "Ira Flatow",
+      "published": "2026-03-11T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the vagus nerve and its role in regulating inflammation and immune function, examining both scientifically-validated treatments and social media wellness trends. Host Flora Lichtman interviews Dr. Kevin Tracy, a neurosurgeon and pioneer in bioelectronic medicine, who explains his discovery in the 1990s that the vagus nerve controls inflammatory responses through cytokine regulation. The discussion covers FDA-approved vagus nerve stimulation devices for rheumatoid arthritis, the mechanisms of how electrical signals convert to chemical signals that suppress inflammation, and the distinction between rigorous clinical evidence and overhyped wellness claims about breathing techniques, gargling, and humming.",
+      "science_topics": [
+        "Vagus nerve anatomy and function",
+        "Cytokine regulation and cytokine storm",
+        "Vagal anti-inflammatory reflex",
+        "Bioelectronic medicine and electrical nerve stimulation",
+        "Neuroplasticity enhancement through vagus nerve stimulation",
+        "Autonomic dysfunction in long COVID",
+        "Vagus nerve damage in COVID-19 patients",
+        "Norepinephrine and acetylcholine signaling in immune regulation"
+      ],
+      "claims_to_note": [
+        "Vagus nerve stimulation is FDA-approved for treating rheumatoid arthritis (approved Summer 2024, device by Setpoint Medical)",
+        "Approximately 80% of rheumatoid arthritis patients not responding to drug therapy show significant improvement one year after implanted vagus nerve stimulation",
+        "Vagus nerve was previously FDA-approved for epilepsy treatment in the 1990s",
+        "About half of epilepsy patients benefit from vagus nerve stimulation, with unknown mechanism",
+        "There is evidence of vagus nerve damage in patients who died of COVID",
+        "Long COVID patients show evidence of autonomic dysfunction potentially related to vagus nerve dysfunction",
+        "Vagus nerve stimulation can enhance neuroplasticity in brain and improve outcomes when paired with psychological interventions for PTSD",
+        "The vagus nerve contains approximately 200,000 fibers total (100,000 per nerve)",
+        "Current biologic drugs for rheumatoid arthritis work in only 40-50% of cases"
+      ],
+      "policy_relevance": [
+        "FDA approval of vagus nerve stimulation device (Setpoint Medical) for rheumatoid arthritis treatment",
+        "FDA approval of vagus nerve stimulation for epilepsy treatment in the 1990s",
+        "Discussion of regulatory distinction between carefully controlled clinical trials versus unproven devices making limited claims",
+        "Mention of biologic drugs advertised during television (regulatory/marketing context)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Rising Above the Gathering Storm, Revisited: Rapidly Approaching Category 5",
+          "url": "https://nap.nationalacademies.org/catalog/12999/rising-above-the-gathering-storm-revisited-rapidly-approaching-category-5"
+        },
+        {
+          "title": "Modernizing Probable Maximum Precipitation Estimation",
+          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity",
+          "url": "https://nap.nationalacademies.org/catalog/25466/vibrant-and-healthy-kids-aligning-science-practice-and-policy-to"
+        },
+        {
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
+        }
+      ]
+    },
+    {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
       "episode_title": "Pediatricians: Not About The Benjamins, Baby",
@@ -8394,93 +8867,6 @@
         {
           "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
           "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap"
-        }
-      ]
-    },
-    {
-      "podcast_id": "science-friday",
-      "podcast_name": "Science Friday",
-      "episode_title": "Is There Science Behind The ‘Nervous System Reset’?",
-      "host": "Ira Flatow",
-      "published": "2026-03-11T10:00:00",
-      "influence_tier": "medium",
-      "category": "science_news",
-      "summary": "This Science Friday episode explores the vagus nerve and its role in regulating inflammation and immune function, examining both scientifically-validated treatments and social media wellness trends. Host Flora Lichtman interviews Dr. Kevin Tracy, a neurosurgeon and pioneer in bioelectronic medicine, who explains his discovery in the 1990s that the vagus nerve controls inflammatory responses through cytokine regulation. The discussion covers FDA-approved vagus nerve stimulation devices for rheumatoid arthritis, the mechanisms of how electrical signals convert to chemical signals that suppress inflammation, and the distinction between rigorous clinical evidence and overhyped wellness claims about breathing techniques, gargling, and humming.",
-      "science_topics": [
-        "Vagus nerve anatomy and function",
-        "Cytokine regulation and cytokine storm",
-        "Vagal anti-inflammatory reflex",
-        "Bioelectronic medicine and electrical nerve stimulation",
-        "Neuroplasticity enhancement through vagus nerve stimulation",
-        "Autonomic dysfunction in long COVID",
-        "Vagus nerve damage in COVID-19 patients",
-        "Norepinephrine and acetylcholine signaling in immune regulation"
-      ],
-      "claims_to_note": [
-        "Vagus nerve stimulation is FDA-approved for treating rheumatoid arthritis (approved Summer 2024, device by Setpoint Medical)",
-        "Approximately 80% of rheumatoid arthritis patients not responding to drug therapy show significant improvement one year after implanted vagus nerve stimulation",
-        "Vagus nerve was previously FDA-approved for epilepsy treatment in the 1990s",
-        "About half of epilepsy patients benefit from vagus nerve stimulation, with unknown mechanism",
-        "There is evidence of vagus nerve damage in patients who died of COVID",
-        "Long COVID patients show evidence of autonomic dysfunction potentially related to vagus nerve dysfunction",
-        "Vagus nerve stimulation can enhance neuroplasticity in brain and improve outcomes when paired with psychological interventions for PTSD",
-        "The vagus nerve contains approximately 200,000 fibers total (100,000 per nerve)",
-        "Current biologic drugs for rheumatoid arthritis work in only 40-50% of cases"
-      ],
-      "policy_relevance": [
-        "FDA approval of vagus nerve stimulation device (Setpoint Medical) for rheumatoid arthritis treatment",
-        "FDA approval of vagus nerve stimulation for epilepsy treatment in the 1990s",
-        "Discussion of regulatory distinction between carefully controlled clinical trials versus unproven devices making limited claims",
-        "Mention of biologic drugs advertised during television (regulatory/marketing context)"
-      ],
-      "nasem_publications": [
-        {
-          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
-          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
-        },
-        {
-          "title": "Call to Action for Science Education: Building Opportunity for the Future",
-          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
-        },
-        {
-          "title": "Teaching K-12 Science and Engineering During a Crisis",
-          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
-        },
-        {
-          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
-          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
-        },
-        {
-          "title": "Rising Above the Gathering Storm, Revisited: Rapidly Approaching Category 5",
-          "url": "https://nap.nationalacademies.org/catalog/12999/rising-above-the-gathering-storm-revisited-rapidly-approaching-category-5"
-        },
-        {
-          "title": "Modernizing Probable Maximum Precipitation Estimation",
-          "url": "https://nap.nationalacademies.org/catalog/27460/modernizing-probable-maximum-precipitation-estimation"
-        },
-        {
-          "title": "Toward Precision Medicine: Building a Knowledge Network",
-          "url": ""
-        },
-        {
-          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
-          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
-        },
-        {
-          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
-          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
-        },
-        {
-          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
-          "url": ""
-        },
-        {
-          "title": "Vibrant and Healthy Kids: Aligning Science, Practice, and Policy to Advance Health Equity",
-          "url": "https://nap.nationalacademies.org/catalog/25466/vibrant-and-healthy-kids-aligning-science-practice-and-policy-to"
-        },
-        {
-          "title": "Guiding Cancer Control: A Path to Transformation",
-          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation"
         }
       ]
     },
@@ -10479,6 +10865,88 @@
       ]
     },
     {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Slow Release Of Federal Science Funds Holds Up Research",
+      "host": "Ira Flatow",
+      "published": "2026-03-04T11:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "The episode examines a severe slowdown in federal science research funding despite Congressional budget approval for fiscal year 2026. The Office of Management and Budget (OMB) has implemented unusual restrictions on fund disbursement, releasing only 30% of normal grant funding levels at agencies like the NIH while limiting spending to salaries rather than research grants. This administrative bottleneck is causing widespread disruption across research institutions, delaying hiring of postdocs and students, and potentially triggering a brain drain as scientists consider opportunities abroad.",
+      "science_topics": [
+        "Biomedical research funding at NIH",
+        "NASA Earth science missions",
+        "AI and quantum computing research at NSF",
+        "National laboratories data analysis initiatives at Department of Energy"
+      ],
+      "claims_to_note": [
+        "NIH funding disbursement in early 2026 was only 30% of prior year levels at comparable points",
+        "Over 50 research proposals at Carnegie Institution have been pending since March 2025 without funding decisions despite budget approval",
+        "OMB is selectively funding some priorities (e.g., Artemis 2 moon mission at NASA) while restricting others (e.g., NASA Earth science missions)",
+        "Scientists report considering relocation to other countries (Canada, Europe, Australia, Mexico) due to funding uncertainty",
+        "OMB rewrote spending restriction rules last year without Congressional authorization"
+      ],
+      "policy_relevance": [
+        "Congressional budget approval for fiscal year 2026 but OMB implementation delays",
+        "OMB (Office of Management and Budget) restrictions on federal agency fund disbursement mechanisms",
+        "October-November 2025 government shutdown impact on funding timelines",
+        "White House administration priorities affecting agency funding allocation decisions",
+        "Project 2025 framework cited as basis for OMB director Russell Vought's authority claims over fund dispersal",
+        "Democratic Congressional members reportedly pressuring administration to release restricted funds",
+        "Genesis Project at Department of Energy for AI analysis of national laboratory datasets"
+      ],
+      "nasem_publications": [
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "The Next Generation of Biomedical and Behavioral Sciences Researchers: Breaking Through",
+          "url": "https://nap.nationalacademies.org/catalog/25008/the-next-generation-of-biomedical-and-behavioral-sciences-researchers-breaking"
+        },
+        {
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
+        },
+        {
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of"
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "SBIR at the National Science Foundation",
+          "url": ""
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations",
+          "url": "https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations"
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        }
+      ]
+    },
+    {
       "podcast_id": "unbiased-science",
       "podcast_name": "Unbiased Science",
       "episode_title": "Food Allergies: A Tough Nut to Crack",
@@ -10578,88 +11046,6 @@
         {
           "title": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
           "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
-        }
-      ]
-    },
-    {
-      "podcast_id": "science-friday",
-      "podcast_name": "Science Friday",
-      "episode_title": "Slow Release Of Federal Science Funds Holds Up Research",
-      "host": "Ira Flatow",
-      "published": "2026-03-04T11:00:00",
-      "influence_tier": "medium",
-      "category": "science_news",
-      "summary": "The episode examines a severe slowdown in federal science research funding despite Congressional budget approval for fiscal year 2026. The Office of Management and Budget (OMB) has implemented unusual restrictions on fund disbursement, releasing only 30% of normal grant funding levels at agencies like the NIH while limiting spending to salaries rather than research grants. This administrative bottleneck is causing widespread disruption across research institutions, delaying hiring of postdocs and students, and potentially triggering a brain drain as scientists consider opportunities abroad.",
-      "science_topics": [
-        "Biomedical research funding at NIH",
-        "NASA Earth science missions",
-        "AI and quantum computing research at NSF",
-        "National laboratories data analysis initiatives at Department of Energy"
-      ],
-      "claims_to_note": [
-        "NIH funding disbursement in early 2026 was only 30% of prior year levels at comparable points",
-        "Over 50 research proposals at Carnegie Institution have been pending since March 2025 without funding decisions despite budget approval",
-        "OMB is selectively funding some priorities (e.g., Artemis 2 moon mission at NASA) while restricting others (e.g., NASA Earth science missions)",
-        "Scientists report considering relocation to other countries (Canada, Europe, Australia, Mexico) due to funding uncertainty",
-        "OMB rewrote spending restriction rules last year without Congressional authorization"
-      ],
-      "policy_relevance": [
-        "Congressional budget approval for fiscal year 2026 but OMB implementation delays",
-        "OMB (Office of Management and Budget) restrictions on federal agency fund disbursement mechanisms",
-        "October-November 2025 government shutdown impact on funding timelines",
-        "White House administration priorities affecting agency funding allocation decisions",
-        "Project 2025 framework cited as basis for OMB director Russell Vought's authority claims over fund dispersal",
-        "Democratic Congressional members reportedly pressuring administration to release restricted funds",
-        "Genesis Project at Department of Energy for AI analysis of national laboratory datasets"
-      ],
-      "nasem_publications": [
-        {
-          "title": "SBIR at the National Science Foundation",
-          "url": ""
-        },
-        {
-          "title": "Foundational Cybersecurity Research",
-          "url": ""
-        },
-        {
-          "title": "The Next Generation of Biomedical and Behavioral Sciences Researchers: Breaking Through",
-          "url": "https://nap.nationalacademies.org/catalog/25008/the-next-generation-of-biomedical-and-behavioral-sciences-researchers-breaking"
-        },
-        {
-          "title": "Powering Science: NASA's Large Strategic Science Missions",
-          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
-        },
-        {
-          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
-          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of"
-        },
-        {
-          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
-          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
-        },
-        {
-          "title": "Quantum Computing: Progress and Prospects",
-          "url": ""
-        },
-        {
-          "title": "SBIR at the National Science Foundation",
-          "url": ""
-        },
-        {
-          "title": "Foundational Cybersecurity Research",
-          "url": ""
-        },
-        {
-          "title": "Energy-Efficiency Standards and Green Building Certification Systems Used by the Department of Defense for Military Construction and Major Renovations",
-          "url": "https://nap.nationalacademies.org/catalog/18282/energy-efficiency-standards-and-green-building-certification-systems-used-by-the-department-of-defense-for-military-construction-and-major-renovations"
-        },
-        {
-          "title": "America's Energy Future: Technology and Transformation",
-          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
-        },
-        {
-          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
-          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
         }
       ]
     },
@@ -11799,107 +12185,6 @@
       ]
     },
     {
-      "podcast_id": "science-will-win",
-      "podcast_name": "Science Will Win",
-      "episode_title": "Bringing Cancer Into Focus: Biomarkers & Precision Medicine",
-      "host": "Pfizer",
-      "published": "2026-02-26T09:00:00",
-      "influence_tier": "emerging",
-      "category": "science_health",
-      "summary": "This episode examines the role of biomarkers and precision medicine in transforming lung cancer treatment, using personal stories from patients Dr. Ross Camidge and Kelly Hoffman alongside scientific explanations. The episode traces the history of biomarker discovery from EGFR in the 1990s through ALK and other mutations, explaining how identifying specific genetic mutations allows for targeted therapies that are more effective and less toxic than traditional chemotherapy. The discussion highlights how next-generation sequencing has enabled testing for multiple biomarkers simultaneously, and notes that approximately 40-50% of non-small cell lung cancer patients now have actionable biomarkers with available therapies.",
-      "science_topics": [
-        "EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer",
-        "ALK (anaplastic lymphoma kinase) rearrangements in lung cancer",
-        "Biomarkers and tumor markers as diagnostic tools",
-        "Next-generation sequencing (NGS) for comprehensive genetic analysis",
-        "Targeted therapy/tyrosine kinase inhibitors for cancer treatment",
-        "Immunotherapy and immune checkpoint inhibition",
-        "Acquired resistance in cancer treatment",
-        "BRAF mutations in lung cancer",
-        "NRGN beta-6 as a novel biomarker target",
-        "Liquid biopsy and tissue biopsy techniques"
-      ],
-      "claims_to_note": [
-        "40-50% of non-small cell lung cancer patients have an actionable biomarker with available therapy",
-        "9-10 biomarkers have been discovered in lung cancer",
-        "EGFR mutation discovery occurred in 2004 by Harvard and Memorial Sloan Kettering researchers",
-        "ALK mutation occurs in approximately 5% of non-small cell lung cancer cases",
-        "20 years ago, majority of advanced stage lung cancer patients would not live more than a year",
-        "Non-small cell lung cancer represents 80% of thoracic oncology cases",
-        "Two-thirds of lung cancer patients are diagnosed at stage 4/advanced disease",
-        "Non-small cell lung cancer responds to chemotherapy at 15-30% response rates in advanced cases",
-        "First targeted therapy for ALK biomarker was developed by Pfizer in August 2011"
-      ],
-      "policy_relevance": [
-        "Discussion of lung cancer screening as an available option for early detection",
-        "Mention of FDA approval processes for targeted therapies (implied through discussion of drug development timeline)",
-        "Clinical trial development and advancement of new therapies through research institutions",
-        "Role of academic medical centers (Harvard, Memorial Sloan Kettering) in biomarker discovery"
-      ],
-      "nasem_publications": [
-        {
-          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
-          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
-        },
-        {
-          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
-          "url": ""
-        },
-        {
-          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
-          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
-        },
-        {
-          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
-          "url": ""
-        },
-        {
-          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
-          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
-        },
-        {
-          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
-          "url": ""
-        },
-        {
-          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
-          "url": ""
-        },
-        {
-          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
-          "url": ""
-        },
-        {
-          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
-          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies"
-        },
-        {
-          "title": "An Evidence Framework for Genetic Testing",
-          "url": ""
-        },
-        {
-          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
-          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
-        },
-        {
-          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
-          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
-        },
-        {
-          "title": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop",
-          "url": "https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a"
-        },
-        {
-          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
-          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
-        },
-        {
-          "title": "Making Better Drugs for Children with Cancer",
-          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer"
-        }
-      ]
-    },
-    {
       "podcast_id": "huberman-lab",
       "podcast_name": "Huberman Lab",
       "episode_title": "Essentials: Using Light to Optimize Health",
@@ -11998,6 +12283,107 @@
         {
           "title": "Potential Environmental Effects of Nuclear War",
           "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-will-win",
+      "podcast_name": "Science Will Win",
+      "episode_title": "Bringing Cancer Into Focus: Biomarkers & Precision Medicine",
+      "host": "Pfizer",
+      "published": "2026-02-26T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode examines the role of biomarkers and precision medicine in transforming lung cancer treatment, using personal stories from patients Dr. Ross Camidge and Kelly Hoffman alongside scientific explanations. The episode traces the history of biomarker discovery from EGFR in the 1990s through ALK and other mutations, explaining how identifying specific genetic mutations allows for targeted therapies that are more effective and less toxic than traditional chemotherapy. The discussion highlights how next-generation sequencing has enabled testing for multiple biomarkers simultaneously, and notes that approximately 40-50% of non-small cell lung cancer patients now have actionable biomarkers with available therapies.",
+      "science_topics": [
+        "EGFR (Epidermal Growth Factor Receptor) mutations in non-small cell lung cancer",
+        "ALK (anaplastic lymphoma kinase) rearrangements in lung cancer",
+        "Biomarkers and tumor markers as diagnostic tools",
+        "Next-generation sequencing (NGS) for comprehensive genetic analysis",
+        "Targeted therapy/tyrosine kinase inhibitors for cancer treatment",
+        "Immunotherapy and immune checkpoint inhibition",
+        "Acquired resistance in cancer treatment",
+        "BRAF mutations in lung cancer",
+        "NRGN beta-6 as a novel biomarker target",
+        "Liquid biopsy and tissue biopsy techniques"
+      ],
+      "claims_to_note": [
+        "40-50% of non-small cell lung cancer patients have an actionable biomarker with available therapy",
+        "9-10 biomarkers have been discovered in lung cancer",
+        "EGFR mutation discovery occurred in 2004 by Harvard and Memorial Sloan Kettering researchers",
+        "ALK mutation occurs in approximately 5% of non-small cell lung cancer cases",
+        "20 years ago, majority of advanced stage lung cancer patients would not live more than a year",
+        "Non-small cell lung cancer represents 80% of thoracic oncology cases",
+        "Two-thirds of lung cancer patients are diagnosed at stage 4/advanced disease",
+        "Non-small cell lung cancer responds to chemotherapy at 15-30% response rates in advanced cases",
+        "First targeted therapy for ALK biomarker was developed by Pfizer in August 2011"
+      ],
+      "policy_relevance": [
+        "Discussion of lung cancer screening as an available option for early detection",
+        "Mention of FDA approval processes for targeted therapies (implied through discussion of drug development timeline)",
+        "Clinical trial development and advancement of new therapies through research institutions",
+        "Role of academic medical centers (Harvard, Memorial Sloan Kettering) in biomarker discovery"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        },
+        {
+          "title": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+          "url": ""
+        },
+        {
+          "title": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies"
+        },
+        {
+          "title": "An Evidence Framework for Genetic Testing",
+          "url": ""
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25043/long-term-survivorship-care-after-cancer-treatment-proceedings-of-a"
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Making Better Drugs for Children with Cancer",
+          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer"
         }
       ]
     },
@@ -13752,98 +14138,6 @@
       "nasem_publications": []
     },
     {
-      "podcast_id": "nature-podcast",
-      "podcast_name": "Nature Podcast",
-      "episode_title": "Briefing chat: How hovering bumblebees keep their cool",
-      "host": "Springer Nature",
-      "published": "2026-02-20T15:00:00",
-      "influence_tier": "medium",
-      "category": "science_news",
-      "summary": "This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.",
-      "science_topics": [
-        "Sex differences in brain structure and functional connectivity",
-        "fMRI neuroimaging of structural and functional brain connections",
-        "Default mode network hyperconnectivity and depression",
-        "Puberty-related brain development and sexual dimorphism",
-        "Bumblebee thermoregulation during flight",
-        "Bumblebee wing muscle mechanics and heat generation",
-        "Neuroplasticity and environmental influences on brain development"
-      ],
-      "claims_to_note": [
-        "Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation",
-        "Default mode network hyperconnectivity in females is linked to depression and anxiety disorders",
-        "Males show stronger interhemispheric functional connections in the cerebellum with age",
-        "Women have higher frequencies of depression and anxiety; men more likely to have substance abuse issues; boys more commonly diagnosed with autism spectrum disorder—hosts acknowledge these may reflect socioeconomic, social, and environmental factors rather than purely biological sex differences",
-        "Bumblebees generate substantial heat during flight and can thermoregulate using wing muscles"
-      ],
-      "policy_relevance": [
-        "Potential implications for personalizing mental health treatment based on sex-specific brain differences",
-        "Discussion of need for sex-disaggregated research and treatment approaches in psychiatry and neurology"
-      ],
-      "nasem_publications": [
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Artificial Intelligence and the Future of Work",
-          "url": ""
-        },
-        {
-          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
-          "url": ""
-        },
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Artificial Intelligence and the Future of Work",
-          "url": ""
-        },
-        {
-          "title": "Incorporating Resilience into Transportation Networks",
-          "url": "https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks"
-        },
-        {
-          "title": "Implementation of the National Intercity Bus Atlas",
-          "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas"
-        },
-        {
-          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
-          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
-        },
-        {
-          "title": "Mapping the Brain and Its Functions",
-          "url": ""
-        },
-        {
-          "title": "Discovering the Brain",
-          "url": ""
-        },
-        {
-          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
-          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
-        },
-        {
-          "title": "Teaching K-12 Science and Engineering During a Crisis",
-          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
-        },
-        {
-          "title": "Minimizing Utility Issues During Construction: A Guide",
-          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide"
-        }
-      ]
-    },
-    {
       "podcast_id": "radiolab",
       "podcast_name": "Radiolab",
       "episode_title": "Gray's Donation",
@@ -13935,6 +14229,98 @@
         {
           "title": "Hepatitis and Liver Cancer: A National Strategy for Prevention and Control of Hepatitis B and C",
           "url": "https://nap.nationalacademies.org/catalog/12793/hepatitis-and-liver-cancer-a-national-strategy-for-prevention-and"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing chat: How hovering bumblebees keep their cool",
+      "host": "Springer Nature",
+      "published": "2026-02-20T15:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode of Nature's Briefing Chat podcast discusses two recent scientific findings: a preprint study on sex differences in brain structure and function across the lifespan using fMRI data from 1,286 people aged 8-100, and research on how bumblebees thermoregulate during flight to prevent overheating. The hosts emphasize that brain differences between sexes become more pronounced at puberty and may reflect complex interactions between biological factors (hormones) and social/environmental influences. They note the controversial nature of sex difference research and caution against oversimplifying findings into categorical male/female brain types.",
+      "science_topics": [
+        "Sex differences in brain structure and functional connectivity",
+        "fMRI neuroimaging of structural and functional brain connections",
+        "Default mode network hyperconnectivity and depression",
+        "Puberty-related brain development and sexual dimorphism",
+        "Bumblebee thermoregulation during flight",
+        "Bumblebee wing muscle mechanics and heat generation",
+        "Neuroplasticity and environmental influences on brain development"
+      ],
+      "claims_to_note": [
+        "Brain sex differences are minimal in childhood, increase massively at puberty, and continue to grow through life—based on cross-sectional (not longitudinal) data, limiting causal interpretation",
+        "Default mode network hyperconnectivity in females is linked to depression and anxiety disorders",
+        "Males show stronger interhemispheric functional connections in the cerebellum with age",
+        "Women have higher frequencies of depression and anxiety; men more likely to have substance abuse issues; boys more commonly diagnosed with autism spectrum disorder—hosts acknowledge these may reflect socioeconomic, social, and environmental factors rather than purely biological sex differences",
+        "Bumblebees generate substantial heat during flight and can thermoregulate using wing muscles"
+      ],
+      "policy_relevance": [
+        "Potential implications for personalizing mental health treatment based on sex-specific brain differences",
+        "Discussion of need for sex-disaggregated research and treatment approaches in psychiatry and neurology"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Incorporating Resilience into Transportation Networks",
+          "url": "https://nap.nationalacademies.org/catalog/27919/incorporating-resilience-into-transportation-networks"
+        },
+        {
+          "title": "Implementation of the National Intercity Bus Atlas",
+          "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Minimizing Utility Issues During Construction: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27860/minimizing-utility-issues-during-construction-a-guide"
         }
       ]
     },

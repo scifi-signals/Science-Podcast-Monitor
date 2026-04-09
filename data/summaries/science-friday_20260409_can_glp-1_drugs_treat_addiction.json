@@ -1,0 +1,561 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Can GLP-1 drugs treat addiction?",
+  "host": "Ira Flatow",
+  "published": "2026-04-09T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 19.1,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores emerging research on GLP-1 receptor agonist drugs (Ozempic, Wegovy, Zepbound) as potential treatments for alcohol and substance use disorders. While anecdotal reports and animal studies suggest these medications may reduce cravings and consumption, clinical trial evidence remains limited with mixed results so far. Experts discuss possible mechanisms involving brain reward pathways, emphasize that medication alone cannot treat addiction, and highlight concerns about access, nutritional deficiencies, and the need for comprehensive behavioral health services alongside pharmacological treatment.",
+  "science_topics": [
+    "GLP-1 receptor agonists mechanism of action in addiction",
+    "Nucleus accumbens and basal ganglia in craving and substance use",
+    "Blood-brain barrier permeability in chronic alcohol use disorder",
+    "Overlap between appetite regulation and addiction neurobiology",
+    "Neuropathway formation and behavioral change",
+    "Gastrointestinal side effects of GLP-1 agonists",
+    "Animal models of alcohol and substance use with GLP-1 drugs"
+  ],
+  "claims_to_note": [
+    "GLP-1 agonists reduce alcohol consumption in animal models over 10-15 years of research",
+    "Electronic medical record studies with tens of thousands of patients show fewer alcohol-related incidents in GLP-1 users",
+    "One UNC study (n=50) with semaglutide showed reduced alcohol craving and consumption in non-treatment-seeking heavy drinkers",
+    "Earlier trial with exenatide was negative overall but suggested benefit in highest body weight patients",
+    "30-40% of clinical trial patients experience gastrointestinal side effects that are typically transient",
+    "GLP-1 agonists may work through motivation/craving reduction distinct from nausea-based appetite suppression",
+    "Chronic alcohol use may increase blood-brain barrier permeability, potentially allowing GLP-1 access to brain reward centers",
+    "Naltrexone (used for alcohol use disorder) is also approved as a weight loss medication, suggesting overlapping pathways"
+  ],
+  "policy_relevance": [
+    "Off-label use of FDA-approved GLP-1 drugs for addiction treatment",
+    "Need for clinical trial data to inform prescriber decision-making for addiction indications",
+    "Access and affordability concerns for GLP-1 medications in addiction treatment",
+    "Representation in addiction research and who benefits from these treatments",
+    "Stigma in traditional recovery networks (AA/NA) regarding medication-assisted treatment",
+    "Nutritional monitoring and follow-up care requirements if GLP-1s used for addiction",
+    "Potential need for integrated care models combining pharmacotherapy with behavioral health services"
+  ],
+  "key_quotes": [
+    "The thing that I think is happening with GLP-1s, again, and that's specific perhaps to the caloric part of alcohol, is that they are taking away the motivation to drink. They're not making you sick and feeling like you don't want to drink because you're sick. They're taking away your interest in drinking in the first place, your desire to do that.",
+    "Addiction is such a complex thing. It's not just presence or absence of the substance use in and of itself...the medication has to be supplemented with other behavioral health services because if we're taking away that skill, we've got to put something in place because all of those emotions, all of those things that they have been yearning to avoid and escape are going to come flooding back.",
+    "These are diseases of the brain. They're diseases of neurobiology. But the fact that a medication can reverse some of this, I think, allows people to see that in a different way. And understanding that is critical to treating these disorders compassionately."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "GLP-1 receptor agonists mechanism of action in addiction",
+      "publications": [
+        {
+          "id": "25310",
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "keywords": [
+            "opioid",
+            "addiction",
+            "medication",
+            "treatment",
+            "drug",
+            "overdose"
+          ]
+        },
+        {
+          "id": "24833",
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "cybersecurity",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "seemingly simple concept encompasses",
+            "featuring invited speakers",
+            "cyber resilience hosted",
+            "important mechanism",
+            "mechanisms policies",
+            "security changes",
+            "private sector",
+            "wide variety",
+            "software",
+            "presentations",
+            "resilience",
+            "mechanism",
+            "security"
+          ],
+          "description": "Software update is an important mechanism by which security changes and improvements are made in software, and this seemingly simple concept encompasses a wide variety of practices, mechanisms, policies, and technologies. To explore the landscape further, the Forum on Cyber Resilience hosted a workshop featuring invited speakers from government, the private sector, and academia. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2017,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "27930",
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "earth systems science perspective",
+            "earth systems science aims",
+            "address climate change impacts",
+            "crossing international borders",
+            "interactions among natural",
+            "human migration",
+            "presentations focused",
+            "cultural socioeconomic",
+            "geopolitical processes",
+            "consequent influence",
+            "climate change"
+          ],
+          "description": "Earth systems science aims to discover and integrate knowledge on the structure, nature, and scales of interactions among natural (e.g., physical, chemical, and biological) and social (e.g., cultural, socioeconomic, and geopolitical) processes. Climate-related migration can be temporary or permanent, can involve internal displacement within countries or crossing international borders, and can involve a broad array of other direct and indirect drivers. To explore how an Earth systems science approach may be used to address climate change impacts and the consequent influence on human migration, the National Academies hosted a workshop, Climate Change and Human Migration: An Earth Systems Science Perspective, on March 18-19, 2024. Workshop presentations focused on the data, methods, and research strategies relevant to understanding climate-related migration. This publication summarizes the presentations and discussion of the workshop.",
+          "year": 2025,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Nucleus accumbens and basal ganglia in craving and substance use",
+      "publications": [
+        {
+          "id": "26015",
+          "title": "Mental Health, Substance Use, and Wellbeing in Higher Education",
+          "keywords": [
+            "mental health",
+            "psychology",
+            "substance use",
+            "wellbeing",
+            "college",
+            "students"
+          ]
+        },
+        {
+          "id": "23589",
+          "title": "Measuring Recovery from Substance Use or Mental Disorders: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23589/measuring-recovery-from-substance-use-or-mental-disorders-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "mental health services administration",
+            "participants discussed options",
+            "substance abuse",
+            "mental disorders",
+            "collecting data",
+            "include measures",
+            "explore options",
+            "producing estimates",
+            "substance use",
+            "recovery",
+            "measuring recovery"
+          ],
+          "description": "In February 2016, the National Academies of Sciences, Engineering, and Medicine held a workshop to explore options for expanding the Substance Abuse and Mental Health Services Administration's (SAMHSA) behavioral health data collections to include measures of recovery from substance use and mental disorder. Participants discussed options for collecting data and producing estimates of recovery from substance use and mental disorders, including available measures and associated possible data collection mechanisms. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "26662",
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Adolescence is a crucial period of life for the prevention of substance use disorders. Research has shown that early intervention can significantly reduce rates of substance use disorder in adulthood. To learn more about effective family-focused interventions in primary care settings for preventing substance use disorder, the National Academies of Sciences, Engineering, and Medicine hosted a workshop on May 5-6, 2022. The proceedings from that workshop explores existing efforts to incorporate family-focused interventions into state health care policies. It also examines barriers to implementing such interventions as well as lessons learned from successful efforts to scale up these interventions.",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "incorporate family focused interventions",
+            "effective family focused interventions",
+            "preventing substance use disorder",
+            "state health care policies",
+            "explores existing efforts",
+            "substance use disorders",
+            "significantly reduce rates",
+            "primary care settings",
+            "successful efforts",
+            "early intervention",
+            "prevent substance use disorders",
+            "family focused interventions",
+            "adolescence"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Blood-brain barrier permeability in chronic alcohol use disorder",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "26635",
+          "title": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "examining federal regulations",
+            "barriers impede access",
+            "opioid use disorder",
+            "drug control policy",
+            "chronic brain disease",
+            "methadone treatment",
+            "executive office",
+            "million people",
+            "saving lives",
+            "effectiveness",
+            "improving access",
+            "legal change",
+            "regulatory"
+          ],
+          "description": "Methadone is a Food and Drug Administration- (FDA-) approved medication for treating opioid use disorder (OUD), a chronic brain disease that affects more than 2.7 million people in the United States aged 12 and older. Despite its effectiveness in saving lives, many barriers impede access to, initiation of, and retention in methadone treatment for OUD. To address these barriers, on March 3 and 4, 2022, the National Academies of Sciences, Engineering, and Medicine hosted a workshop on \"Methadone Treatment for Opioid Use Disorder: Examining Federal Regulations and Laws,\" at the request of the Office of National Drug Control Policy in the Executive Office of the President. This publication summarizes the presentation and discussion of the workshop.",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Overlap between appetite regulation and addiction neurobiology",
+      "publications": [
+        {
+          "id": "25310",
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "keywords": [
+            "opioid",
+            "addiction",
+            "medication",
+            "treatment",
+            "drug",
+            "overdose"
+          ]
+        },
+        {
+          "id": "27765",
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "vulnerabilities identifies remaining gaps",
+            "additional risk management planning",
+            "supply chain disruptions",
+            "supply market competition",
+            "relevant stakeholders addressed",
+            "drug administration contracted",
+            "infant formula",
+            "marketplace vulnerabilities",
+            "consequently disruptions",
+            "protect infants",
+            "challenges",
+            "regulation"
+          ],
+          "description": "Infant formula is a primary or supplementary source of nutrition for many infants in the U.S. Consequently, disruptions to the supply of infant formula can have a severe impact on infants' health and well-being. In late 2021 and early 2022, a recall of specific infant formula products, followed by a pause in production, resulted in a widespread, national shortage. The incident demonstrated that additional risk management planning is needed to protect infants from the consequences of potential future supply chain disruptions. In 2023, the U.S. Food and Drug Administration contracted with the National Academies to convene an expert committee to examine and report on challenges in supply, market competition, and regulation of infant formula. The resulting consensus study report explains policy and marketplace vulnerabilities that were exposed during the shortage, describes the extent to which actions taken by relevant stakeholders addressed these vulnerabilities, identifies remaining gaps",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Food And Nutrition Board"
+        },
+        {
+          "id": "11876",
+          "title": "Science, Evolution, and Creationism",
+          "keywords": [
+            "evolution",
+            "evolutionary",
+            "biology",
+            "science",
+            "origins",
+            "natural selection"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Neuropathway formation and behavioral change",
+      "publications": [
+        {
+          "id": "12996",
+          "title": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+          "url": "https://nap.nationalacademies.org/catalog/12996/facilitating-climate-change-responses-a-report-of-two-workshops-on",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "global climate change called",
+            "mitigation behavioral elements",
+            "decision relevant contributions",
+            "flora hewlett foundation",
+            "organize two workshops",
+            "adaptation behavioral",
+            "climate changes",
+            "two broad areas",
+            "social determinants",
+            "workshops focused",
+            "facilitating climate change responses",
+            "two workshops",
+            "behavioral",
+            "social"
+          ],
+          "description": "The William and Flora Hewlett Foundation, understanding the need for policy makers at the national level to entrain the behavioral and social sciences in addressing the challenges of global climate change, called on the National Research Council to organize two workshops to showcase some of the decision-relevant contributions that these sciences have already made and can advance with future efforts. The workshops focused on two broad areas: (1) mitigation (behavioral elements of a strategy to reduce the net future human influence on climate) and (2) adaptation (behavioral and social determinants of societal capacity to minimize the damage from climate changes that are not avoided). Facilitating Climate Change Responses documents the information presented in the workshop presentations and discussions. This material illustrates some of the ways the behavioral and social sciences can contribute to the new era of climate research.",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on the Human Dimensions of Global Change"
+        },
+        {
+          "id": "27815",
+          "title": "Developing and Assessing Ideas for Social and Behavioral Research to Speed Efficient and Equitable Industrial Decarbonization: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27815/developing-and-assessing-ideas-for-social-and-behavioral-research-to-speed-efficient-and-equitable-industrial-decarbonization",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "equitable industrial decarbonization",
+            "assessing ideas",
+            "speed efficient",
+            "developing",
+            "behavioral",
+            "social"
+          ],
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "26874",
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "recommends integrating behavioral specialists",
+            "six public policy domains",
+            "behavioral economics",
+            "collaborations among economists",
+            "policy impact",
+            "policy arena",
+            "climate change",
+            "influenced policymaking",
+            "psychologists focuses",
+            "numerous domains",
+            "directions"
+          ],
+          "description": "Behavioral economics - a field based in collaborations among economists and psychologists - focuses on integrating a nuanced understanding of behavior into models of decision-making. Since the mid-20th century, this growing field has produced research in numerous domains and has influenced policymaking, research, and marketing. However, little has been done to assess these contributions and review evidence of their use in the policy arena. Behavioral Economics: Policy Impact and Future Directions examines the evidence for behavioral economics and its application in six public policy domains: health, retirement benefits, climate change, social safety net benefits, climate change, education, and criminal justice. The report concludes that the principles of behavioral economics are indispensable for the design of policy and recommends integrating behavioral specialists into policy development within government units. In addition, the report calls for strengthening research methodology and",
+          "year": 2024,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Board On Behavioral Cognitive And Sensor"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2903,
+  "saved_at": "2026-04-09T11:51:23.867940"
+}
