@@ -1,7 +1,406 @@
 {
-  "updated": "2026-04-09T11:52:01.982133",
-  "episode_count": 169,
+  "updated": "2026-04-10T12:03:09.671000",
+  "episode_count": 174,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "How a sound designer gave an alien its voice (and 250 words)",
+      "host": "Ira Flatow",
+      "published": "2026-04-10T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the art and science of sound design in cinema, featuring Eric Adol, the sound designer behind Project Hail Mary, Godzilla (2014), Transformers, and A Quiet Place. The discussion focuses on how Adol created the alien Rocky's vocalizations using layered natural sounds including didgeridoo, humpback whale, and bird calls, crafting an internally consistent 250-word Iridian language. The episode also covers Adol's work on other iconic movie creature sounds, including an updated Godzilla roar and ambient sound design for The Tree of Life, demonstrating how sound design manipulates emotion through neurological pathways.",
+      "science_topics": [
+        "Auditory neuroscience and how sound bypasses conscious thought via the medulla oblongata",
+        "Acoustics of dry ice and metal resonance",
+        "Animal bioacoustics including didgeridoo, humpback whale communication, and elephant vocalization",
+        "High-resolution audio recording at 192 kilohertz",
+        "Frequency manipulation and octave reduction of bird songs",
+        "The physics of sound propagation in vacuum (space)"
+      ],
+      "claims_to_note": [
+        "Sound goes through the medulla oblongata first before hitting the auditory cortex, where pitch and localization are processed pre-consciously — this is a simplification of auditory neurology that warrants verification against current neuroscience consensus",
+        "The claim that sound can manipulate emotion more powerfully than visual input through subliminal processing — degree of comparative power is subjective and difficult to verify scientifically"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "url": ""
+        },
+        {
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a"
+        },
+        {
+          "title": "Guide for the Care and Use of Laboratory Animals: Eighth Edition",
+          "url": "https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth"
+        },
+        {
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "A Strategic Vision for Biological Threat Reduction: The U.S. Department of Defense and Beyond",
+          "url": "https://nap.nationalacademies.org/catalog/25681/a-strategic-vision-for-biological-threat-reduction-the-us-department"
+        },
+        {
+          "title": "Global Security Engagement: A New Model for Cooperative Threat Reduction",
+          "url": "https://nap.nationalacademies.org/catalog/12583/global-security-engagement-a-new-model-for-cooperative-threat-reduction"
+        }
+      ]
+    },
+    {
+      "podcast_id": "ezra-klein",
+      "podcast_name": "The Ezra Klein Show",
+      "episode_title": "The Civilization Trump Destroys May Be Our Own",
+      "host": "Ezra Klein",
+      "published": "2026-04-10T09:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "```json\n{\n  \"summary\": \"This episode features Ezra Klein interviewing Fareed Zakaria about Trump's threats to destroy Iranian civilization during a week-long escalation in the Iran conflict, and the broader implications for American foreign policy and the rules-based international order. The discussion examines Trump's erratic negotiating tactics, the disastrous outcomes of the Iran war, the erosion of American moral authority and leadership globally, and the philosophical crisis facing liberali",
+      "science_topics": [],
+      "claims_to_note": [],
+      "policy_relevance": [],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Who's to blame for all this plastic?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-10T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode of Short Wave examines the history and present-day impact of plastic production, tracing how the petrochemical and fossil fuel industries deliberately expanded plastic use after World War II and continue to increase production today. Author Beth Gardner discusses how plastic manufacturing is intimately connected to oil and gas extraction—particularly through fracking for ethane—and how this creates both environmental and public health harms. The episode explores the industry's successful suppression of bottle deposit bills and highlights local policy solutions, like single-use plastic restrictions in Hawaii, as more effective avenues for change than state or federal legislation.",
+      "science_topics": [
+        "Petrochemical production from fossil fuel byproducts",
+        "Polyethylene plastic manufacturing processes",
+        "Fracking and ethane extraction for plastic production",
+        "Health effects of proximity to fracking wells (cancer rates in children)",
+        "Energy intensity of plastic production and associated emissions",
+        "Water contamination from fracking operations",
+        "Pipeline safety and industrial explosions related to fracking",
+        "Plastics as drivers of continued oil and gas demand"
+      ],
+      "claims_to_note": [
+        "Living near fracking wells is linked to higher rates of childhood cancers within approximately one mile — verify against epidemiological literature on fracking health impacts",
+        "International Energy Agency predicts petrochemicals will be the largest single driver of oil demand growth — verify against IEA reports",
+        "Plastic production is highly heat and pressure intensive with massive energy requirements and enormous emissions — verify quantification against LCA studies",
+        "Polyethylene cables improved radar performance during WWII and helped turn the naval conflict in favor of the Allies — verify historical claim",
+        "Ten U.S. states currently have bottle deposit bills on the books — verify current legislative status"
+      ],
+      "policy_relevance": [
+        "Bottle deposit bills (bottle bills) at local and state levels — industry opposition to these regulatory measures",
+        "Congressional consideration of national bottle bill legislation — ongoing industry lobbying against",
+        "Single-use plastic restrictions in Honolulu County and Maui County — local ordinances as model for policy change",
+        "Federal and state fracking regulation — connection between energy policy and plastic production incentives",
+        "Reusable packaging systems requiring standardization and regulation (Uber Eats, DoorDash partnerships mentioned)",
+        "Need for legislation resetting incentives away from disposable systems toward reuse models"
+      ],
+      "nasem_publications": [
+        {
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Hidden Costs of Energy: Unpriced Consequences of Energy Production and Use",
+          "url": "https://nap.nationalacademies.org/catalog/12794/hidden-costs-of-energy-unpriced-consequences-of-energy-production-and"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Improving Characterization of Anthropogenic Methane Emissions in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/24987/improving-characterization-of-anthropogenic-methane-emissions-in-the-united-states"
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate"
+        },
+        {
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "title": "Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions",
+          "url": "https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Cosmic Queries – Origins of the Universe, with Janna Levin",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-04-10T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "This StarTalk episode features astrophysicist Janna Levin discussing the origins, age, and composition of the universe. The conversation covers dark matter and dark energy comprising 95% of the universe, the Big Bang and cosmic expansion, the role of particle physics and the Large Hadron Collider in understanding early universe conditions, string theory as a unifying framework, and the quantum nature of vacuum. Levin explains complex concepts like black holes, the Higgs particle, and how quantum mechanics may fundamentally underlie spacetime itself.",
+      "science_topics": [
+        "Dark matter and dark energy (95% of universe composition)",
+        "Big Bang cosmology and cosmic expansion",
+        "Large Hadron Collider and particle physics discoveries",
+        "Higgs boson and mass generation mechanism",
+        "String theory and fundamental particles",
+        "Black holes and event horizons",
+        "Quantum vacuum and Heisenberg Uncertainty Principle",
+        "Matter-antimatter asymmetry in early universe",
+        "Neutrinos as weakly-interacting dark matter candidates",
+        "Microscopic primordial black holes",
+        "Extraspatial dimensions and gravity",
+        "Hawking radiation",
+        "Quantum mechanics and spacetime emergence",
+        "Virtual particles and quantum field theory",
+        "Cosmic expansion acceleration and future universe fate"
+      ],
+      "claims_to_note": [
+        "Only 5% of universe is luminous ordinary matter; 95% is dark matter and dark energy - consistent with standard cosmology",
+        "LHC discovery of Higgs boson explained as confirming predicted particle to explain mass generation - accurate",
+        "Dark matter does not interact with light but has gravitational effects - consistent with scientific consensus",
+        "Neutrinos confirmed as existing dark matter candidates but insufficient mass to account for all dark matter - accurate",
+        "Matter-antimatter asymmetry in early universe unexplained, described as symmetry violation - consistent with current understanding",
+        "Creating dark matter particles would require ~10 million times higher energy than current LHC capabilities - this is speculative but within scientific discussion",
+        "Claims about quantum vacuum never being truly empty due to Heisenberg Uncertainty Principle - accurate",
+        "Dark energy calculation from quantum mechanics yields either zero or enormous values, not observed values - acknowledged as major unsolved problem",
+        "Suggests universe may eventually undergo 'Great Rip' where expansion tears apart all structures - this is a speculative cosmological scenario discussed in literature",
+        "Proposes quantum mechanics may create spacetime rather than operate within it - this is frontier theoretical physics, not established"
+      ],
+      "policy_relevance": [
+        "Large Hadron Collider at CERN mentioned as major particle physics infrastructure",
+        "Discussion of potential need for larger particle colliders requiring enormous energy resources",
+        "Reference to legal injunctions filed against LHC operation due to public safety concerns about black hole creation",
+        "Pioneer Works cultural center in Brooklyn described as donation-model public science education facility",
+        "National Geographic Books as publisher of StarTalk book series"
+      ],
+      "nasem_publications": [
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Accelerating Decarbonization of the U.S. Energy System",
+          "url": ""
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Biosecurity Challenges of the Global Expansion of High-Containment Biological Laboratories: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/13315/biosecurity-challenges-of-the-global-expansion-of-high-containment-biological-laboratories"
+        },
+        {
+          "title": "Chemical Laboratory Safety and Security: A Guide to Developing Standard Operating Procedures",
+          "url": "https://nap.nationalacademies.org/catalog/21918/chemical-laboratory-safety-and-security-a-guide-to-developing-standard"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics"
+        },
+        {
+          "title": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25613/manipulating-quantum-systems-an-assessment-of-atomic-molecular-and-optical"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+          "url": "https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern"
+        },
+        {
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling"
+        },
+        {
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "A chimpanzee ‘civil war,’ and NASA plans for nuclear propulsion",
+      "host": "Sarah Crespi",
+      "published": "2026-04-09T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode covers two major science topics: NASA's newly announced nuclear fission-powered Mars mission planned for 2028 launch, which would demonstrate nuclear electric propulsion technology for the first time in over 60 years, and a unprecedented violent conflict among chimpanzees in Uganda's Kibale National Park where a unified community of ~200 chimps split into two groups that have engaged in lethal raids over nearly a decade. The nuclear propulsion segment explores technological feasibility, regulatory hurdles, and geopolitical competition with China and Russia, while the chimpanzee segment examines how social network disruption and hierarchy changes led to inter-group conflict despite former group cohesion.",
+      "science_topics": [
+        "Nuclear electric propulsion systems for spacecraft",
+        "Fission reactors in space",
+        "Chimpanzee social behavior and community structure",
+        "Chimpanzee territoriality and lethal aggression",
+        "Fission-fusion dynamics in primate groups",
+        "Social network analysis in primates",
+        "Inter-group conflict in animals",
+        "Cancer metastasis via cell clusters",
+        "Fingertip regeneration and extracellular matrix composition",
+        "Hyaluronic acid in wound healing"
+      ],
+      "claims_to_note": [
+        "NASA has not launched a fission reactor to space in over 60 years (last attempt was in 1965)",
+        "Nuclear fission spacecraft have never been successfully deployed despite the concept existing for 60+ years",
+        "Chimpanzee group splitting occurs approximately once every 500-2000 years based on genetic and observational evidence",
+        "Only one other documented case of chimpanzee group fission exists from Jane Goodall's studies in the 1970s",
+        "The Ngogo chimpanzee community has been continuously studied for 30 years",
+        "Five adult male chimpanzees died over approximately one month in 2014, preceding the social polarization",
+        "The Western group of chimps kills approximately one adult or adolescent male from the Central group per year",
+        "Starting in 2021, the Western chimps began killing infant chimpanzees from the Central group with near-complete success rate",
+        "Up to 90% of cancer deaths result from tumor metastasis rather than the original tumor",
+        "Fingertip injuries can regenerate while other body parts form scar tissue depending on extracellular matrix stiffness"
+      ],
+      "policy_relevance": [
+        "NASA's 2028 nuclear Mars mission announcement bypassed normal decadal survey process and community input",
+        "Department of Energy involvement in managing nuclear fuel for the mission",
+        "Cancellation of NASA's Gateway moon space station program, with thrusters repurposed for Mars mission",
+        "Permitting and regulatory requirements for transporting radioactive fuel cited as major timeline bottleneck",
+        "Trump administration budget proposal reduces NASA science funding by approximately 50% including planetary science",
+        "Funding source for the Mars mission unclear—could potentially come from multiple budget categories (planetary science, propulsion technology, or human spaceflight)",
+        "Mission cost estimated in hundreds of millions of dollars but not finalized",
+        "Geopolitical competition: Russia and China planning moon base with fission power for 2030s",
+        "Industry involvement in the mission announcement without typical scientific and engineering community input"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "Making the Nation Safer: The Role of Science and Technology in Countering Terrorism",
+          "url": "https://nap.nationalacademies.org/catalog/10415/making-the-nation-safer-the-role-of-science-and-technology"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings"
+        },
+        {
+          "title": "Community Interventions to Prevent Veteran Suicide: The Role of Social Determinants: Proceedings of a Virtual Symposium",
+          "url": "https://nap.nationalacademies.org/catalog/26638/community-interventions-to-prevent-veteran-suicide-the-role-of-social"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Communities in Action: Pathways to Health Equity",
+          "url": ""
+        },
+        {
+          "title": "To Err Is Human: Building a Safer Health System",
+          "url": "https://nap.nationalacademies.org/catalog/9728/to-err-is-human-building-a-safer-health-system"
+        },
+        {
+          "title": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication"
+        },
+        {
+          "title": "Evaluation of the Health and Safety Risks of the New USAMRIID High-Containment Facilities at Fort Detrick, Maryland",
+          "url": "https://nap.nationalacademies.org/catalog/12871/evaluation-of-the-health-and-safety-risks-of-the-new-usamriid-high-containment-facilities-at-fort-detrick-maryland"
+        },
+        {
+          "title": "An Assessment of the Prospects for Inertial Fusion Energy",
+          "url": ""
+        },
+        {
+          "title": "Final Report: Strategic Plan for U.S. Burning Plasma Research",
+          "url": ""
+        },
+        {
+          "title": "Bringing Fusion to the U.S. Grid",
+          "url": "https://nap.nationalacademies.org/catalog/25991/bringing-fusion-to-the-us-grid"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

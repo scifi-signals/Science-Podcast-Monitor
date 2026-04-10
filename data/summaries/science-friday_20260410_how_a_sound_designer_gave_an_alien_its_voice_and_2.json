@@ -1,0 +1,508 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "How a sound designer gave an alien its voice (and 250 words)",
+  "host": "Ira Flatow",
+  "published": "2026-04-10T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 18.066666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores the art and science of sound design in cinema, featuring Eric Adol, the sound designer behind Project Hail Mary, Godzilla (2014), Transformers, and A Quiet Place. The discussion focuses on how Adol created the alien Rocky's vocalizations using layered natural sounds including didgeridoo, humpback whale, and bird calls, crafting an internally consistent 250-word Iridian language. The episode also covers Adol's work on other iconic movie creature sounds, including an updated Godzilla roar and ambient sound design for The Tree of Life, demonstrating how sound design manipulates emotion through neurological pathways.",
+  "science_topics": [
+    "Auditory neuroscience and how sound bypasses conscious thought via the medulla oblongata",
+    "Acoustics of dry ice and metal resonance",
+    "Animal bioacoustics including didgeridoo, humpback whale communication, and elephant vocalization",
+    "High-resolution audio recording at 192 kilohertz",
+    "Frequency manipulation and octave reduction of bird songs",
+    "The physics of sound propagation in vacuum (space)"
+  ],
+  "claims_to_note": [
+    "Sound goes through the medulla oblongata first before hitting the auditory cortex, where pitch and localization are processed pre-consciously — this is a simplification of auditory neurology that warrants verification against current neuroscience consensus",
+    "The claim that sound can manipulate emotion more powerfully than visual input through subliminal processing — degree of comparative power is subjective and difficult to verify scientifically"
+  ],
+  "policy_relevance": [],
+  "key_quotes": [
+    "The voice conveys the soul and the spirit... we wanted the word for sleep in this section to be consistent with sleep later, but there might be a different context and so it might be performed a little bit more intensely or a little bit more calmly.",
+    "Sound kind of comes in through the back door and images come in through the front door. And in a way that gives us a lot of power over how to express emotion and evoke emotion in an audience.",
+    "Sometimes the answer is right in front of you. Or in you. Literally. [referring to breathing into a microphone to create the sound of eternal silence in The Tree of Life]"
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Auditory neuroscience and how sound bypasses conscious thought via the medulla oblongata",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "25303",
+          "title": "Reproducibility and Replicability in Science",
+          "keywords": [
+            "science",
+            "research",
+            "reproducibility",
+            "replicability",
+            "methodology",
+            "scientific"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Medicine in Neuroscience: Tools, Translation, and Implementation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CHPP-BHS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Acoustics of dry ice and metal resonance",
+      "publications": [
+        {
+          "id": "18726",
+          "title": "The Arctic in the Anthropocene: Emerging Research Questions",
+          "keywords": [
+            "arctic",
+            "climate",
+            "environment",
+            "polar",
+            "ice",
+            "anthropocene",
+            "north"
+          ]
+        },
+        {
+          "id": "27337",
+          "title": "Ocean Acoustics Education and Expertise",
+          "url": "https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "ocean acoustics education",
+            "ocean acoustics began",
+            "fundamental ocean science",
+            "widely varying career paths",
+            "higher education institutions",
+            "vocational associates level",
+            "ocean environment",
+            "human generated sources",
+            "assesses expected dem",
+            "formal education",
+            "expertise"
+          ],
+          "description": "Ocean Acoustics - the study of sound in the ocean, how it travels, interacts with, and is affected by its underwater surroundings - is a growing and critical field. Sound from both natural and human-generated sources can be an effective tool for probing the ocean environment. While the first applications of ocean acoustics began in the military, applications today encompass offshore energy production, national security, environmental monitoring, climate science, exploration and mapping, as well as fundamental ocean science. Even as demand for ocean acoustics grows, workforce development is challenged by both the multidisciplinary nature of the field and its widely varying career paths. Ocean acoustics may be housed in a diversity of departments in higher education institutions, and career paths and trajectory of formal education can range from the vocational/associates' level through the doctorate level. This report examines the state of ocean acoustics education; assesses expected dem",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "27830",
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "high magnetic field science",
+            "high magnetic field technologies",
+            "magnetic resonance imaging enables",
+            "while nuclear magnetic resonance",
+            "critical materials access necessary",
+            "workforce facilities magnet development",
+            "high magnetic fields",
+            "proposed fusion energy reactors",
+            "identify scientific opportunities",
+            "science foundation",
+            "current status",
+            "technology",
+            "direction"
+          ],
+          "description": "High magnetic fields are a vital tool in many areas of science and technology that impact our everyday lives. Magnetic resonance imaging enables a wide range of medical diagnostics and research, while nuclear magnetic resonance is critical for drug discovery research and more. High magnetic fields are an essential component to many proposed fusion energy reactors and are necessary to push the boundaries towards the development of new quantum technologies and semiconductors. At the request of the National Science Foundation, the National Academies organized a study to identify scientific opportunities and key applications for high-magnetic-field science and technology for the next decade and beyond. This report explores the current state and future prospects for high-magnetic-field technologies and recommends actions to support the workforce, facilities, magnet development, and critical materials access necessary to promote U.S. innovation.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Animal bioacoustics including didgeridoo, humpback whale communication, and elephant vocalization",
+      "publications": [
+        {
+          "id": "25664",
+          "title": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "improve health outcomes across",
+            "cancer policy forum collaborated",
+            "low health literacy",
+            "cancer care continuum",
+            "improve communication across",
+            "treatment higher rates",
+            "reduce disease risk",
+            "however estimates suggest",
+            "poor health",
+            "treatment outcomes",
+            "health literacy",
+            "communication",
+            "oncology"
+          ],
+          "description": "Health literacy is a critical skill for engaging in healthy behaviors to reduce disease risk and improve health outcomes across the continuum of cancer care. However, estimates suggest that more than one-third of the U.S. adult population has low health literacy, and nearly half of all patients with cancer have difficulty understanding information about their disease or treatment. Low health literacy among patients with cancer is associated with poor health and treatment outcomes, including lower adherence to treatment, higher rates of missed appointments, and an increased risk of hospitalization. Low health literacy can also impede informed decision making, especially as cancer care becomes increasingly complex and as patients and their families take more active roles in treatment decisions. To examine opportunities to improve communication across the cancer care continuum, the National Cancer Policy Forum collaborated with the Roundtable on Health Literacy to host a workshop, Health ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "12910",
+          "title": "Guide for the Care and Use of Laboratory Animals: Eighth Edition",
+          "url": "https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "space",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "institutional animal care",
+            "laboratory animal communities",
+            "institutional official attending veterinarian",
+            "animal environment husbandry",
+            "organized around major components",
+            "common laboratory animals",
+            "includes extensive references",
+            "humane care",
+            "animal use",
+            "aquatic animals",
+            "laboratory animals",
+            "eighth edition",
+            "guide",
+            "care",
+            "use"
+          ],
+          "description": "A respected resource for decades, the Guide for the Care and Use of Laboratory Animals has been updated by a committee of experts, taking into consideration input from the scientific and laboratory animal communities and the public at large. The Guide incorporates new scientific information on common laboratory animals, including aquatic species, and includes extensive references. It is organized around major components of animal use: Key concepts of animal care and use. The Guide sets the framework for the humane care and use of laboratory animals. Animal care and use program. The Guide discusses the concept of a broad Program of Animal Care and Use, including roles and responsibilities of the Institutional Official, Attending Veterinarian and the Institutional Animal Care and Use Committee. Animal environment, husbandry, and management. A chapter on this topic is now divided into sections on terrestrial and aquatic animals and provides recommendations for housing and environment, hus",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee for the Update of the Guide for the Care and Use of Laboratory Animals"
+        },
+        {
+          "id": "21790",
+          "title": "Effective Chemistry Communication in Informal Environments",
+          "url": "https://nap.nationalacademies.org/catalog/21790/effective-chemistry-communication-in-informal-environments",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "designing effective communication activities",
+            "enhanced communication summarizes evidence",
+            "chemistry communication activities",
+            "daily life impacting areas",
+            "chemistry community lacks",
+            "communications informal learning",
+            "communicating chemistry",
+            "practical guide intended",
+            "chemistry education",
+            "identifies key areas",
+            "effective chemistry communication",
+            "informal environments"
+          ],
+          "description": "Chemistry plays a critical role in daily life, impacting areas such as medicine and health, consumer products, energy production, the ecosystem, and many other areas. Communicating about chemistry in informal environments has the potential to raise public interest and understanding of chemistry around the world. However, the chemistry community lacks a cohesive, evidence-based guide for designing effective communication activities. This report is organized into two sections. Part A: The Evidence Base for Enhanced Communication summarizes evidence from communications, informal learning, and chemistry education on effective practices to communicate with and engage publics outside of the classroom; presents a framework for the design of chemistry communication activities; and identifies key areas for future research. Part B: Communicating Chemistry: A Framework for Sharing Science is a practical guide intended for any chemists to use in the design, implementation, and evaluation of their ",
+          "year": 2016,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Science Education"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "High-resolution audio recording at 192 kilohertz",
+      "publications": [],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Frequency manipulation and octave reduction of bird songs",
+      "publications": [
+        {
+          "id": "27157",
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "2023 shattered global climate records as the warmest year in the modern record, bringing with it devastating impacts on human and natural systems. Methane emissions, about 60% of which come from human activities, are a major contributor to global warming, second only to carbon dioxide (CO2). Methane is relatively short-lived in the atmosphere but is 80 times more potent than CO2 at trapping heat over a 20-year period. Together with reducing CO2 emissions, rapid and sustained reductions in methane emissions are critical to limit both near- and long-term warming in future decades. But given the many barriers to achieving needed emissions reductions at scale, researchers are exploring the potential of technologies to remove methane from the atmosphere. A Research Agenda Toward Atmospheric Methane Removal is the first report of a two-phase study to assess the need and potential for atmospheric methane removal. This report identifies priority research that should be addressed within 3-5 yea",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Energy and Environmental Systems",
+          "keywords": [
+            "nature",
+            "achieving needed emissions reductions",
+            "atmospheric methane removal",
+            "shattered global climate records",
+            "reducing emissions rapid",
+            "methane emissions",
+            "global warming second",
+            "modern record bringing",
+            "relatively short lived",
+            "long term warming",
+            "remove methane",
+            "agenda"
+          ]
+        },
+        {
+          "id": "25681",
+          "title": "A Strategic Vision for Biological Threat Reduction: The U.S. Department of Defense and Beyond",
+          "url": "https://nap.nationalacademies.org/catalog/25681/a-strategic-vision-for-biological-threat-reduction-the-us-department",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "international health security programs",
+            "wider looking strategic vision",
+            "year strategic vision",
+            "optimizing btrp success",
+            "international partners",
+            "biosecurity mission",
+            "because btrp",
+            "coordinating actions",
+            "current mission",
+            "program rely",
+            "biological threat reduction",
+            "strategic vision",
+            "department",
+            "defense",
+            "beyond"
+          ],
+          "description": "The National Academies of Sciences, Engineering, and Medicine was asked to articulate a 5-year strategic vision for international health security programs and provide findings and recommendations on how to optimize the impact of the Department of Defense (DOD) Biological Threat Reduction Program (BTRP) in fulfilling its biosafety and biosecurity mission. Because BTRP is just one of several U.S. government programs conducting international health security engagement, both the strategic vision and the success of the program rely on coordinating actions with the U.S. government as a whole and with its international partners. This report provides several recommendations for optimizing BTRP success in its current mission and the wider-looking strategic vision it proposes.",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on International Security and Arms Control"
+        },
+        {
+          "id": "12583",
+          "title": "Global Security Engagement: A New Model for Cooperative Threat Reduction",
+          "url": "https://nap.nationalacademies.org/catalog/12583/global-security-engagement-a-new-model-for-cooperative-threat-reduction",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "former weapons scientists",
+            "security challenges particularly",
+            "address contemporary threats",
+            "former soviet union",
+            "nuclear chemical",
+            "fundamentally redesigned",
+            "deactivating thousands",
+            "originally designed",
+            "mass destruction",
+            "great deal",
+            "cooperative threat reduction",
+            "global security engagement",
+            "model"
+          ],
+          "description": "The government's first Cooperative Threat Reduction (CTR) programs were created in 1991 to eliminate the former Soviet Union's nuclear, chemical, and other weapons and prevent their proliferation. The programs have accomplished a great deal: deactivating thousands of nuclear warheads, neutralizing chemical weapons, converting weapons facilities for peaceful use, and redirecting the work of former weapons scientists and engineers, among other efforts. Originally designed to deal with immediate post-Cold War challenges, the programs must be expanded to other regions and fundamentally redesigned as an active tool of foreign policy that can address contemporary threats from groups that are that are agile, networked, and adaptable. As requested by Congress, Global Security Engagement proposes how this goal can best be achieved. To meet the magnitude of new security challenges, particularly at the nexus of weapons of mass destruction and terrorism, Global Security Engagement recommends a new",
+          "year": 2009,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Committee on International Security and Arms Control"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2720,
+  "saved_at": "2026-04-10T12:02:35.815858"
+}

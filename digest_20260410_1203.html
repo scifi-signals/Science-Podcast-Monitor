@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 10, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 10, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">39</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">20</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">87</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals converging concerns across environmental health, space exploration, and fundamental science. The plastic production episode provides critical evidence linking petrochemical industries to health harms through fracking operations, corroborating week-long environmental contamination discussions on Bluesky. NASA's announced nuclear propulsion Mars mission (2028 launch) represents a significant inflection point in space technology that warrants NASEM engagement on safety and regulatory frameworks. Concurrently, Bluesky science discussions show sustained focus on research integrity, CAR-T immunotherapy adoption, and microplastics remediation—indicating a field-wide pivot toward translational applications. The chimpanzee conflict study and auditory neuroscience episodes provide foundational insights into behavioral dynamics and sensory processing that connect to broader neurobiology discussions from the past week.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Petrochemical industry health impacts and environmental justice—plastic production's connection to fossil fuel extraction and fracking-related childhood cancer risks</li>
+<li>Advanced propulsion and space technology feasibility—nuclear fission systems for deep space missions</li>
+<li>Sensory neuroscience and non-conscious processing—auditory pathways and their behavioral implications</li>
+<li>Inter-group conflict dynamics—from chimpanzee territoriality to social network disruption mechanisms</li>
+<li>Microplastics and environmental contamination—detection, distribution, and emerging remediation technologies</li>
+<li>Research integrity challenges—AI-generated references, publication ethics, and career incentives in science</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Nuclear space propulsion entering near-term deployment phase (2028 NASA Mars mission)—first fission reactor launch in 60 years, raising regulatory and geopolitical questions</li>
+<li>Exosome-based drug delivery vectors gaining clinical traction—from retinoblastoma eye drops to blood-brain barrier penetration strategies</li>
+<li>CAR-T cell therapy expansion into solid tumors and autoimmune diseases—rapid clinical adoption pattern</li>
+<li>Bioengineered solutions for microplastic remediation—hydrophobic algae and whale baleen-inspired filtration systems</li>
+<li>AI integrity crisis in publishing—systematic detection of machine-generated references creating career and credibility risks for researchers</li>
+<li>Epigenetic clock development and biological aging quantification—'pace of aging' becoming measurable clinical metric</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene expert committee on nuclear fission propulsion safety and regulatory framework ahead of 2028 NASA Mars mission launch—coordinate with aerospace and nuclear engineering domains</div>
+<div class="opportunity">Commission rapid assessment on petrochemical industry health impacts and fracking-related epidemiology—synthesize literature on childhood cancer clusters and water contamination within 1-mile radius of wells</div>
+<div class="opportunity">Establish research integrity working group addressing AI-generated content in academic publishing—develop detection protocols and journal standards</div>
+<div class="opportunity">Host symposium on translational immunotherapy—CAR-T expansion trajectory and solid tumor clinical outcomes</div>
+<div class="opportunity">Partner with environmental health programs on microplastics remediation technologies and monitoring standards—leverage bioengineered solutions emerging from academic labs</div>
+<div class="opportunity">Develop guidance on biological age assessment methodologies—coordinate with aging research and clinical implementation programs</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Auditory neuroscience claim: 'Sound bypasses conscious thought via the medulla oblongata first'—this oversimplifies auditory neuroanatomy; while certain reflexive responses involve brainstem, conscious pitch and localization processing occurs in auditory cortex. Verify against current neuroscience consensus before public dissemination.</div>
+<div class="claim">Comparative sensory neuroscience claim: 'Sound manipulates emotion more powerfully than visual input through subliminal processing'—lacks quantitative evidence and conflates measurable neurological pathways with unsubstantiated comparative power claims. Mark as speculative.</div>
+<div class="claim">Chimpanzee fission-fusion frequency claim: 'Group splitting occurs once every 500-2000 years'—appears based on limited observational dataset; requires validation against full paleoanthropological and primatological record.</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural circuits underlying behavior and addiction</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on mechanistic understanding of how neural circuits control complex behaviors—from aggression to substance use. Huberman Lab focused on VMH circuits and estrogen signaling in aggression; Science Friday examined GLP-1 mechanisms in addiction and appetite regulation; Science Magazine Podcast covered historical addiction research using radioactive tracers. This represents a shift from descriptive neurobiology toward circuit-level intervention targets.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should monitor emerging consensus on neural circuit manipulation as a therapeutic strategy, with implications for addiction treatment policy and ethical oversight of optogenetic/neuromodulation research.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Therapeutic delivery systems and biological barriers</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast, Science Friday, and Science Magazine Podcast are all addressing how to move drugs across biological barriers—exosome-based eye drops for retinoblastoma, whale baleen-inspired filtration, and blood-brain barrier penetration strategies. The common thread is engineering solutions to fundamental physiological obstacles, suggesting this is becoming a critical R&D bottleneck.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should consider cross-disciplinary infrastructure investments in drug delivery science, as this appears to be limiting progress in treating neurological and ocular diseases.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biological aging measurement and epigenetic clocks</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Peter Attia Drive's focus on DNA methylation, CpG sites, and biological versus chronological age introduces precision gerontology as an emerging measurement frontier. This complements broader medical discussion of aging mechanisms and moves beyond traditional age metrics toward predictive biomarkers of aging pace.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should evaluate whether standardized epigenetic clock protocols warrant inclusion in clinical research guidelines, as these tools could reshape longevity research design and personalized medicine approaches.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental health from fossil fuel infrastructure</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave is the primary venue examining health consequences of petrochemical production—specifically childhood cancer rates near fracking wells and ethane extraction. This signals emerging public health concern about industrial proximity effects that merits systematic epidemiological attention but is currently underrepresented in mainstream science coverage.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission an assessment of health surveillance gaps around fossil fuel extraction sites, particularly longitudinal cancer registries in proximity to active fracking operations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">AI literacy and human-AI interaction in adolescents</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">TechTank and Shaping Science are separately addressing AI adoption patterns and educational responses—one focusing on teenage chatbot use and emotional dependency, the other on AI's role in research. This split coverage suggests AI competency assessment for young people is emerging as a policy gap between education and technology sectors.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">TechTank</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Shaping Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should develop guidance on AI literacy standards for K-12 and higher education, particularly around distinguishing AI-augmented research from traditional methods.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Cosmic Queries – Origins of the Universe, with Janna Levin</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Apr 10 &middot; 49 min</div>
+<p style="margin:10px 0;font-size:14px;">This StarTalk episode features astrophysicist Janna Levin discussing the origins, age, and composition of the universe. The conversation covers dark matter and dark energy comprising 95% of the universe, the Big Bang and cosmic expansion, the role of particle physics and the Large Hadron Collider in understanding early universe conditions, string theory as a unifying framework, and the quantum nature of vacuum. Levin explains complex concepts like black holes, the Higgs particle, and how quantum mechanics may fundamentally underlie spacetime itself.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dark matter and dark energy (95% of universe composition)</span>
+  <span class="topic-tag">Big Bang cosmology and cosmic expansion</span>
+  <span class="topic-tag">Large Hadron Collider and particle physics discoveries</span>
+  <span class="topic-tag">Higgs boson and mass generation mechanism</span>
+  <span class="topic-tag">String theory and fundamental particles</span>
+  <span class="topic-tag">Black holes and event horizons</span>
+  <span class="topic-tag">Quantum vacuum and Heisenberg Uncertainty Principle</span>
+  <span class="topic-tag">Matter-antimatter asymmetry in early universe</span>
+  <span class="topic-tag">Neutrinos as weakly-interacting dark matter candidates</span>
+  <span class="topic-tag">Microscopic primordial black holes</span>
+  <span class="topic-tag">Extraspatial dimensions and gravity</span>
+  <span class="topic-tag">Hawking radiation</span>
+  <span class="topic-tag">Quantum mechanics and spacetime emergence</span>
+  <span class="topic-tag">Virtual particles and quantum field theory</span>
+  <span class="topic-tag">Cosmic expansion acceleration and future universe fate</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings" target="_blank">Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13315/biosecurity-challenges-of-the-global-expansion-of-high-containment-biological-laboratories" target="_blank">Biosecurity Challenges of the Global Expansion of High-Containment Biological Laboratories: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26403/physics-of-life" target="_blank">Physics of Life</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system" target="_blank">Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11631/a-beautiful-math-john-nash-game-theory-and-the-modern" target="_blank">A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling" target="_blank">Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Only 5% of universe is luminous ordinary matter; 95% is dark matter and dark energy - consistent with standard cosmology</div>
+<div class="claim">LHC discovery of Higgs boson explained as confirming predicted particle to explain mass generation - accurate</div>
+<div class="claim">Dark matter does not interact with light but has gravitational effects - consistent with scientific consensus</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It's like a soup of ingredients that compete at different phases... dark energy, the strange thing about dark energy is as the universe expands, because the dark energy is everywhere, it's like it feels more of it. So the expansion gets a little faster, and then it feels even more of it."</div>
+<div class="quote">"We have to do astronomy now because eventually, eventually in the very far future, there will be no galaxies in view anymore... We'd never know that there was anything outside of our galaxy."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Ezra Klein Show: The Civilization Trump Destroys May Be Our Own</span>
+</div>
+<div class="episode-meta">Ezra Klein &middot; Apr 10 &middot; 68 min</div>
+<p style="margin:10px 0;font-size:14px;">```json
+{
+  "summary": "This episode features Ezra Klein interviewing Fareed Zakaria about Trump's threats to destroy Iranian civilization during a week-long escalation in the Iran conflict, and the broader implications for American foreign policy and the rules-based international order. The discussion examines Trump's erratic negotiating tactics, the disastrous outcomes of the Iran war, the erosion of American moral authority and leadership globally, and the philosophical crisis facing liberali</p>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: A chimpanzee ‘civil war,’ and NASA plans for nuclear propulsion</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Apr 09 &middot; 42 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode covers two major science topics: NASA's newly announced nuclear fission-powered Mars mission planned for 2028 launch, which would demonstrate nuclear electric propulsion technology for the first time in over 60 years, and a unprecedented violent conflict among chimpanzees in Uganda's Kibale National Park where a unified community of ~200 chimps split into two groups that have engaged in lethal raids over nearly a decade. The nuclear propulsion segment explores technological feasibility, regulatory hurdles, and geopolitical competition with China and Russia, while the chimpanzee segment examines how social network disruption and hierarchy changes led to inter-group conflict despite former group cohesion.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Nuclear electric propulsion systems for spacecraft</span>
+  <span class="topic-tag">Fission reactors in space</span>
+  <span class="topic-tag">Chimpanzee social behavior and community structure</span>
+  <span class="topic-tag">Chimpanzee territoriality and lethal aggression</span>
+  <span class="topic-tag">Fission-fusion dynamics in primate groups</span>
+  <span class="topic-tag">Social network analysis in primates</span>
+  <span class="topic-tag">Inter-group conflict in animals</span>
+  <span class="topic-tag">Cancer metastasis via cell clusters</span>
+  <span class="topic-tag">Fingertip regeneration and extracellular matrix composition</span>
+  <span class="topic-tag">Hyaluronic acid in wound healing</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26638/community-interventions-to-prevent-veteran-suicide-the-role-of-social" target="_blank">Community Interventions to Prevent Veteran Suicide: The Role of Social Determinants: Proceedings of a Virtual Symposium</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community" target="_blank">Early Relational Health: Building Foundations for Child, Family, and Community Well-Being</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/9728/to-err-is-human-building-a-safer-health-system" target="_blank">To Err Is Human: Building a Safer Health System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18255/perspectives-on-research-with-h5n1-avian-influenza-scientific-inquiry-communication" target="_blank">Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop</a></div>
+<div class="nasem-match">An Assessment of the Prospects for Inertial Fusion Energy</div>
+<div class="nasem-match">Final Report: Strategic Plan for U.S. Burning Plasma Research</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">NASA has not launched a fission reactor to space in over 60 years (last attempt was in 1965)</div>
+<div class="claim">Nuclear fission spacecraft have never been successfully deployed despite the concept existing for 60+ years</div>
+<div class="claim">Chimpanzee group splitting occurs approximately once every 500-2000 years based on genetic and observational evidence</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It's essentially a 60-year dream that if this mission goes as planned, it can come to fruition in only two years."</div>
+<div class="quote">"The big blocker that everyone I was speaking to really said was the boring stuff. It's the paperwork and the red tape...getting radioactive fuel from place to place, there's a lot of permitting involved."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Who's to blame for all this plastic?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 10 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Short Wave examines the history and present-day impact of plastic production, tracing how the petrochemical and fossil fuel industries deliberately expanded plastic use after World War II and continue to increase production today. Author Beth Gardner discusses how plastic manufacturing is intimately connected to oil and gas extraction—particularly through fracking for ethane—and how this creates both environmental and public health harms. The episode explores the industry's successful suppression of bottle deposit bills and highlights local policy solutions, like single-use plastic restrictions in Hawaii, as more effective avenues for change than state or federal legislation.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Petrochemical production from fossil fuel byproducts</span>
+  <span class="topic-tag">Polyethylene plastic manufacturing processes</span>
+  <span class="topic-tag">Fracking and ethane extraction for plastic production</span>
+  <span class="topic-tag">Health effects of proximity to fracking wells (cancer rates in children)</span>
+  <span class="topic-tag">Energy intensity of plastic production and associated emissions</span>
+  <span class="topic-tag">Water contamination from fracking operations</span>
+  <span class="topic-tag">Pipeline safety and industrial explosions related to fracking</span>
+  <span class="topic-tag">Plastics as drivers of continued oil and gas demand</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering" target="_blank">New Directions for Chemical Engineering</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate" target="_blank">Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23490/commercial-aircraft-propulsion-and-energy-systems-research-reducing-global-carbon" target="_blank">Commercial Aircraft Propulsion and Energy Systems Research: Reducing Global Carbon Emissions</a></div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Living near fracking wells is linked to higher rates of childhood cancers within approximately one mile — verify against epidemiological literature on fracking health impacts</div>
+<div class="claim">International Energy Agency predicts petrochemicals will be the largest single driver of oil demand growth — verify against IEA reports</div>
+<div class="claim">Plastic production is highly heat and pressure intensive with massive energy requirements and enormous emissions — verify quantification against LCA studies</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The deliberateness and intention with which the industry pushed plastic into our lives...it really sort of intersects with the world of marketing and advertising."</div>
+<div class="quote">"Plastic as a revenue stream is helping to float the fossil fuel industry and keep it going as it starts to be undersold by clean energy. So any additional source of money is a way to keep drilling."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: How a sound designer gave an alien its voice (and 250 words)</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 10 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the art and science of sound design in cinema, featuring Eric Adol, the sound designer behind Project Hail Mary, Godzilla (2014), Transformers, and A Quiet Place. The discussion focuses on how Adol created the alien Rocky's vocalizations using layered natural sounds including didgeridoo, humpback whale, and bird calls, crafting an internally consistent 250-word Iridian language. The episode also covers Adol's work on other iconic movie creature sounds, including an updated Godzilla roar and ambient sound design for The Tree of Life, demonstrating how sound design manipulates emotion through neurological pathways.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Auditory neuroscience and how sound bypasses conscious thought via the medulla oblongata</span>
+  <span class="topic-tag">Acoustics of dry ice and metal resonance</span>
+  <span class="topic-tag">Animal bioacoustics including didgeridoo, humpback whale communication, and elephant vocalization</span>
+  <span class="topic-tag">High-resolution audio recording at 192 kilohertz</span>
+  <span class="topic-tag">Frequency manipulation and octave reduction of bird songs</span>
+  <span class="topic-tag">The physics of sound propagation in vacuum (space)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match">The Arctic in the Anthropocene: Emerging Research Questions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27337/ocean-acoustics-education-and-expertise" target="_blank">Ocean Acoustics Education and Expertise</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12910/guide-for-the-care-and-use-of-laboratory-animals-eighth" target="_blank">Guide for the Care and Use of Laboratory Animals: Eighth Edition</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25681/a-strategic-vision-for-biological-threat-reduction-the-us-department" target="_blank">A Strategic Vision for Biological Threat Reduction: The U.S. Department of Defense and Beyond</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Sound goes through the medulla oblongata first before hitting the auditory cortex, where pitch and localization are processed pre-consciously — this is a simplification of auditory neurology that warrants verification against current neuroscience consensus</div>
+<div class="claim">The claim that sound can manipulate emotion more powerfully than visual input through subliminal processing — degree of comparative power is subjective and difficult to verify scientifically</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The voice conveys the soul and the spirit... we wanted the word for sleep in this section to be consistent with sleep later, but there might be a different context and so it might be performed a little bit more intensely or a little bit more calmly."</div>
+<div class="quote">"Sound kind of comes in through the back door and images come in through the front door. And in a way that gives us a lot of power over how to express emotion and evoke emotion in an audience."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">87 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Mission (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering Artemis II launch, reentry, crew recovery, and international collaboration including European Space Agency contributions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Integrity and Publishing (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions of AI-generated references in publications, research retractions, ethics concerns, and career impact of merit-based funding decisions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Evolutionary Biology and Paleontology (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on fossil discoveries including octopus origins, dicynodonts, Archaeopteryx, and genomic analysis of historical populations.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Environmental and Health Impacts (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of pesticides and microbiome effects, microplastics detection, drought monitoring, and contaminant exposure in Arctic regions.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Medical Research and CAR-T Cell Therapy (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on innovative immunotherapy treatments for autoimmune diseases and solid tumors showing rapid clinical adoption.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@stim3on.bsky.social</div>
+  <div class="bluesky-stats">253 likes &middot; 88 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Amazing views of the Artemis II launch filmed from NASA's WB-57 high altitude aircraft 🔭🧪 #Artemis
+
+Full duration on YouTube: youtu.be/pa-dMk2VnUg</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/stim3on.bsky.social/post/3mj3qlskx5k2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@skylargrayson.bsky.social</div>
+  <div class="bluesky-stats">200 likes &middot; 49 reposts &middot; 10 replies</div>
+  <div class="bluesky-text">Alrighty so NASA (and me and a lot of other people) had a little goof. But I think it’s a great opportunity to remind people that sometimes mistakes can actually be pretty cool and lead to a lot of new perspectives and understanding! 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/skylargrayson.bsky.social/post/3mj42mnfcos2e" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@stim3on.bsky.social</div>
+  <div class="bluesky-stats">120 likes &middot; 45 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">If you're wondering what the Artemis II astronauts will be experiencing during tomorrows reentry, I recently made this video showing the Artemis I reentry with a telemetry overlay. 🔭🧪 #Artemis
+
+Full video on YouTube:
+youtu.be/-QbYrs5SZ5M</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/stim3on.bsky.social/post/3mj3wvp4jos2n" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@whysharksmatter.bsky.social</div>
+  <div class="bluesky-stats">105 likes &middot; 55 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">www.smithsonianmag.com/science-natu...
+
+🧪🌎</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/whysharksmatter.bsky.social/post/3mj3yurik3s2o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">109 likes &middot; 49 reposts &middot; 3 replies</div>
+  <div class="bluesky-text">Why spend years getting trained in research,  building a story, just to watch capricious decisions, not based on science or merit, destroy years of your hard work and career?
+
+I feel this deeply.
+
+🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mj46xrinrc26" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Integrity and Publication Quality</strong>: NASEM conducts studies on research integrity, scientific publishing standards, and peer review processes; AI-generated references and mass retractions directly impact credibility of scientific literature.</div>
+<div class="nasem-match"><strong>Space Exploration and International Collaboration</strong>: Artemis II demonstrates international science collaboration and NASEM's role in advising on space policy, lunar science objectives, and crew safety protocols.</div>
+<div class="nasem-match"><strong>Environmental Health and Emerging Contaminants</strong>: NASEM examines impacts of microplastics, pesticides on human health and ecosystems; Arctic contaminant studies and drought monitoring inform environmental policy recommendations.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 10, 2026 at 12:03 PM | Internal use only
+    </div>
+</body>
+</html>
