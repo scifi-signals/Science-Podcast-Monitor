@@ -1,7 +1,486 @@
 {
-  "updated": "2026-04-10T12:03:09.671000",
-  "episode_count": 174,
+  "updated": "2026-04-13T11:50:25.360994",
+  "episode_count": 179,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Green stuff, brown stuff: Secrets to a great compost pile",
+      "host": "Ira Flatow",
+      "published": "2026-04-13T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores the practical science and process of composting with guest Cassandra Marchato, author of \"Compost After Reading.\" The discussion covers the fundamentals of composting, including the proper balance of nitrogen-rich \"green\" materials (food scraps, grass) and carbon-rich \"brown\" materials (dried leaves, cardboard) in roughly a 1:2 ratio. Marchato emphasizes that composting is an intentional process of creating ideal conditions for microbial decomposition rather than simply allowing organic matter to rot, and provides practical advice for both backyard and urban composters, including common mistakes to avoid. The episode also briefly touches on municipal composting programs and potential policy support for community composting initiatives.",
+      "science_topics": [
+        "Microbial decomposition in compost piles",
+        "Carbon-to-nitrogen ratios in composting",
+        "Aerobic decomposition and oxygen requirements in compost",
+        "Thermophilic composting (heat generation from microbial activity)",
+        "Vermicomposting (worm composting)",
+        "Soil amendment and soil health improvement through finished compost",
+        "Fungal growth in decomposition processes"
+      ],
+      "claims_to_note": [
+        "Worms will naturally colonize a backyard compost pile without intentional introduction if the pile touches earth at the base",
+        "A properly managed compost pile should reach hot temperatures as an indicator of healthy decomposition",
+        "Finished compost quality is primarily determined by the composting process and maintenance rather than input materials",
+        "A 2:1 carbon-to-nitrogen ratio is recommended as an ideal starting point for home composters",
+        "Compost tumbler systems can create problems (compaction, reduced airflow, difficulty monitoring) particularly for beginners",
+        "Active three-bin composting systems can produce finished compost in approximately six weeks",
+        "Casual single-pile composting systems may take months to a year to produce finished compost"
+      ],
+      "policy_relevance": [
+        "Municipal composting programs mentioned as requiring city council and community board funding support",
+        "Discussion of need for municipal-level infrastructure to support regenerative waste management systems",
+        "Mention of community gardens and local community composting programs as policy priorities",
+        "Reference to funding community gardens as a mechanism to support local composting efforts"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Science and Applications of Microbial Genomics: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18261/the-science-and-applications-of-microbial-genomics-workshop-summary"
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Understanding and Responding to Global Health Security Risks from Microbial Threats in the Arctic: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25887/understanding-and-responding-to-global-health-security-risks-from-microbial-threats-in-the-arctic"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+          "url": "https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Options for Improving the Safety of DUKW Type Amphibious Vessels",
+          "url": "https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels"
+        },
+        {
+          "title": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "title": "Transporting Freight in Emergencies: A Guide on Special Permits and Weight Requirements",
+          "url": "https://nap.nationalacademies.org/catalog/27898/transporting-freight-in-emergencies-a-guide-on-special-permits-and"
+        },
+        {
+          "title": "The Science and Applications of Microbial Genomics: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/18261/the-science-and-applications-of-microbial-genomics-workshop-summary"
+        },
+        {
+          "title": "Educating the Student Body: Taking Physical Activity and Physical Education to School",
+          "url": "https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education"
+        },
+        {
+          "title": "Understanding and Responding to Global Health Security Risks from Microbial Threats in the Arctic: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25887/understanding-and-responding-to-global-health-security-risks-from-microbial-threats-in-the-arctic"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Are you pooping all wrong?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-13T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode discusses why many people experience problems with bowel movements and digestion, featuring gastroenterologist Dr. Trisha Paswicha who advocates for destigmatizing conversations about defecation. The episode identifies three main issues affecting bowel health: pliability (stool consistency), propulsion (muscle contractions), and pelvic floor dysfunction. Key recommendations include increasing fiber intake to 25-38 grams daily, adopting a squatting posture using a footstool, and managing stress through techniques like box breathing and vagus nerve activation. The discussion emphasizes the gut-brain connection and how lifestyle factors affect both digestive and mental health.",
+      "science_topics": [
+        "Pelvic floor muscle function and puborectalis muscle physiology",
+        "Dietary fiber intake and gastrointestinal health",
+        "Gut-brain axis and vagus nerve stimulation",
+        "Microbiome production of compounds from fiber metabolism",
+        "Bowel movement physiology and defecation posture",
+        "Kiwifruit efficacy for constipation and bloating",
+        "Stress and anxiety effects on bowel function",
+        "Pelvic floor physical therapy"
+      ],
+      "claims_to_note": [
+        "95% of Americans do not meet their daily fiber goals - specific prevalence claim worth verifying",
+        "40% of Americans report their bowel habits disrupt daily lives - prevalence statistic",
+        "Two randomized controlled trials in the last five years show kiwis are effective for bloating and constipation, and superior to prunes - specific trial evidence cited",
+        "Squatting straightens the colon by relaxing the puborectalis muscle, creating a straighter defecation angle compared to sitting - anatomical claim",
+        "Lifting knees above waist height approximates squat benefits on standard toilets - effectiveness claim",
+        "Box breathing activates the vagus nerve and reduces heart rate and GI cramping - physiological mechanism claim"
+      ],
+      "policy_relevance": [],
+      "nasem_publications": [
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
+          "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber"
+        },
+        {
+          "title": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds",
+          "url": "https://nap.nationalacademies.org/catalog/6252/dietary-reference-intakes-proposed-definition-and-plan-for-review-of"
+        },
+        {
+          "title": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
+          "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber"
+        },
+        {
+          "title": "Hidden Costs of Energy: Unpriced Consequences of Energy Production and Use",
+          "url": "https://nap.nationalacademies.org/catalog/12794/hidden-costs-of-energy-unpriced-consequences-of-energy-production-and"
+        },
+        {
+          "title": "Methodologies to Estimate the Economic Impacts of Disruptions to the Goods Movement System",
+          "url": "https://nap.nationalacademies.org/catalog/22702/methodologies-to-estimate-the-economic-impacts-of-disruptions-to-the-goods-movement-system"
+        },
+        {
+          "title": "Wildland Fires: Toward Improved Understanding and Forecasting of Air Quality Impacts: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26465/wildland-fires-toward-improved-understanding-and-forecasting-of-air-quality-impacts"
+        },
+        {
+          "title": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Why so many studies can’t be replicated",
+      "host": "Ira Flatow",
+      "published": "2026-04-11T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode examines the replication crisis in social science research, discussing the SCORE Project funded by DARPA, which found that only 50% of analyzed papers across economics, education, and psychology could be replicated. The episode features Dr. Tim Arrington from the Center for Open Science and Dr. Abel Brodeur from the Institute for Replication, who discuss systemic issues including lack of data sharing, coding errors, and inadequate methodology documentation. Both researchers note that while replication rates are improving in recent years due to increased awareness and better data-sharing practices, the scientific community needs structural changes in how research is conducted, published, and funded to address the problem.",
+      "science_topics": [
+        "Replication crisis in social science",
+        "Research methodology and reproducibility",
+        "Data sharing in scientific research",
+        "Coding errors in quantitative analysis",
+        "Research on public employee retention in U.S. Civil Service",
+        "Research on crime victimization and political participation",
+        "Economic policy research replication",
+        "Psychology research replication",
+        "Political science research replication",
+        "Public health research replication",
+        "Environmental research replication",
+        "Minimum wage effects on unemployment",
+        "Deforestation policy analysis",
+        "Robustness checks in statistical analysis"
+      ],
+      "claims_to_note": [
+        "The SCORE Project found that only 50% of papers analyzed across economics, education, and psychology could be replicate",
+        "In recent economic and political science papers (2022-2023), coding errors appear in 15-20% of papers",
+        "In recent studies, results are robust approximately 75% of the time",
+        "Data sharing practices are improving over time and differ significantly across fields",
+        "Most data and code are not shared during the peer review and publication process",
+        "The majority of replication failures are due to honest mistakes rather than intentional misconduct"
+      ],
+      "policy_relevance": [
+        "DARPA (Defense Advanced Research Projects Agency) funding of the SCORE Project to assess confidence in social science research",
+        "Use of social behavioral science research in policy decision-making across multiple government domains",
+        "Role of federal research funding agencies (NSF, NIH) in requiring research rigor and data sharing",
+        "Journal publication policies and their impact on research standards",
+        "Institutional accountability for researcher training and practices",
+        "Research funder requirements for documentation and methodology sharing",
+        "Potential role of AI in policy assessment and research validation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the"
+        },
+        {
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital"
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Statistical Challenges in Assessing and Fostering the Reproducibility of Scientific Results: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21915/statistical-challenges-in-assessing-and-fostering-the-reproducibility-of-scientific-results"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        },
+        {
+          "title": "Ensuring the Integrity, Accessibility, and Stewardship of Research Data in the Digital Age",
+          "url": "https://nap.nationalacademies.org/catalog/12615/ensuring-the-integrity-accessibility-and-stewardship-of-research-data-in-the-digital-age"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications"
+        },
+        {
+          "title": "Guide for the Analysis of Multimodal Corridor Access Management",
+          "url": "https://nap.nationalacademies.org/catalog/25342/guide-for-the-analysis-of-multimodal-corridor-access-management"
+        },
+        {
+          "title": "Foundational Cybersecurity Research",
+          "url": ""
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Reproducibility and Replicability in Science",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "The Builders",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-04-10T14:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "This Radiolab spinoff episode celebrates beavers as nature's engineers with outsized positive environmental impacts. The episode follows Jose, a beaver that returned to the Bronx River after 200+ years of absence following cleanup efforts, and the Little Last Chance beaver family in California that created a fire refuge during devastating wildfires. The hosts explore how beaver dams purify water, cool air, enrich soil, increase biodiversity, and protect against wildfires—demonstrating that small creatures can mend ecosystems and inspire human conservation efforts.",
+      "science_topics": [
+        "Beaver dam construction and hydrology",
+        "Wetland ecosystem creation and biodiversity enhancement",
+        "Water filtration and pollution removal through beaver dams",
+        "Fire refugia formation and wildfire protection",
+        "Soil nutrient cycling and enrichment",
+        "Beaver physiology (webbed feet, iron-containing teeth, breath-holding capacity up to 15 minutes)",
+        "Thermoregulation in beaver lodges",
+        "Fire ecology and megafire behavior",
+        "Wildlife habitat restoration",
+        "Interspecies cohabitation in beaver lodges (mice, muskrats, snakes)"
+      ],
+      "claims_to_note": [
+        "Beavers can hold their breath for up to 15 minutes",
+        "Beaver teeth contain iron, making them effective tools for chopping trees",
+        "Historical beaver population in North America numbered 'several hundred million'",
+        "Beaver dams filter pollution and trap chemicals from agricultural runoff",
+        "Beaver dams create mini air-conditioning effects through water evaporation",
+        "The Little Last Chance beaver family protected approximately 7.5 acres from burning during a 2021 California wildfire (observable from satellite)",
+        "Beaver dams remain effective at fire prevention across diverse ecosystems (mountains, forests, deserts)",
+        "Wetland vegetation growth (cattails, lily pads, swamp roses) appears within months of dam construction",
+        "Beavers instinctively know how to build dams even when raised in captivity without prior river observation",
+        "Dolphins were spotted in the Bronx River in 2023 after beaver recolonization and river cleanup"
+      ],
+      "policy_relevance": [
+        "First Earth Day (1970) inspired Bronx River cleanup movement",
+        "Congressional action by Rep. Jose Serrano directing millions of dollars to Bronx River cleanup and restoration",
+        "Factory pollution regulations changed to restrict dumping in Bronx River",
+        "1940s-1950s government beaver relocation program: Idaho and California transported beavers via parachute drops from airplanes to mountain lakes and streams for water conservation and ecosystem management",
+        "Beaver reintroduction efforts as wildlife management strategy",
+        "Federal and state interest in using beavers for wildfire mitigation"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Independent Cost Estimates for Design and Construction of Transit Facilities in Rural and Small Urban Areas",
+          "url": "https://nap.nationalacademies.org/catalog/22086/independent-cost-estimates-for-design-and-construction-of-transit-facilities-in-rural-and-small-urban-areas"
+        },
+        {
+          "title": "Bridge Construction Inspection Training Resources and Practices",
+          "url": "https://nap.nationalacademies.org/catalog/29031/bridge-construction-inspection-training-resources-and-practices"
+        },
+        {
+          "title": "Systematic Approach for Determining Construction Contract Time: A Guidebook",
+          "url": "https://nap.nationalacademies.org/catalog/26537/systematic-approach-for-determining-construction-contract-time-a-guidebook"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Biodiversity at Risk: Today's Choices Matter",
+          "url": "https://nap.nationalacademies.org/catalog/26384/biodiversity-at-risk-todays-choices-matter"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+          "url": ""
+        },
+        {
+          "title": "Implications of the California Wildfires for Health, Communities, and Preparedness",
+          "url": ""
+        },
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Social-Ecological Consequences of Future Wildfires and Smoke in the West",
+          "url": ""
+        },
+        {
+          "title": "Nutrient Requirements of Dogs and Cats",
+          "url": "https://nap.nationalacademies.org/catalog/10668/nutrient-requirements-of-dogs-and-cats"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Nutrient Requirements of Nonhuman Primates: Second Revised Edition",
+          "url": "https://nap.nationalacademies.org/catalog/9826/nutrient-requirements-of-nonhuman-primates-second-revised-edition"
+        }
+      ]
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Behind the scenes with Artemis II’s scientists during the historic Moon fly-by",
+      "host": "Springer Nature",
+      "published": "2026-04-10T13:30:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Nature Podcast covers the Artemis II lunar flyby mission, with correspondent Alex Whitsy reporting from NASA Mission Control in Houston during the historic Moon fly-by. The episode highlights the first-ever dedicated science officer position in the main mission control room and discusses the astronauts' observations of lunar features, including the Oriental Basin impact crater and previously unreported impact flashes on the lunar surface. Scientists and astronauts worked together to document color variations, topographical features, and eclipse phenomena that robotic orbiters cannot capture, demonstrating the unique value of human observation in deep space exploration.",
+      "science_topics": [
+        "Lunar geology - Oriental Basin impact crater structure and morphology",
+        "Impact crater ring formation and topography",
+        "Lunar color variations and regolith composition",
+        "Lunar impact flashes from meteorite collisions",
+        "Cosmic ray detection and visual phenomena in human vision",
+        "Solar eclipse observation from lunar perspective",
+        "Comparative analysis of human observation versus robotic spacecraft imaging",
+        "Heat shield protection during atmospheric re-entry"
+      ],
+      "claims_to_note": [
+        "Astronauts reported seeing green and brown colors on the moon, contrary to expectations of only grays and blacks",
+        "Astronauts reported observing approximately six impact flashes on the lunar surface",
+        "Scientists initially questioned whether reported flashes were impact events versus cosmic ray artifacts",
+        "Oriental Basin is described as a 660-kilometer-wide impact crater with multiple concentric impact rings",
+        "The spacecraft experienced a toilet malfunction during the mission"
+      ],
+      "policy_relevance": [
+        "NASA's institutional decision to incorporate formal science role (science officer position) in mission control for the first time",
+        "Strategic shift from Apollo-era focus on space race/military objectives to integrated science objectives in Artemis program",
+        "NASA's moon base planning considerations regarding meteorite impact frequency and shielding requirements",
+        "Human spaceflight program designed to test spacecraft systems and human safety in deep space before lunar landing missions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Nutrient Requirements of Dairy Cattle: Eighth Revised Edition",
+          "url": "https://nap.nationalacademies.org/catalog/25806/nutrient-requirements-of-dairy-cattle-eighth-revised-edition"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": ""
+        },
+        {
+          "title": "Evaluating Human Genetic Diversity",
+          "url": ""
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",

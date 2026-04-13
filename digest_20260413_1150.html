@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 13, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 13, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">47</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">99</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals two dominant narratives: human health optimization through lifestyle science (digestive health, fiber intake, gut-brain connections) and nature's engineering capacity (beavers as ecosystem engineers, lunar observations via human astronauts). The replication crisis in social science remains a critical institutional concern, with 50% of papers failing reproduction attempts. Space exploration continues gaining traction with Artemis II achievements, while environmental themes—composting, water purification, wildfire mitigation—appear across multiple sources. The past week shows consistent emphasis on biological systems (from gut microbiomes to cellular aging) and environmental resilience, suggesting NASEM should consider integrated research initiatives connecting human health, ecosystem function, and research integrity standards.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Gut-brain axis and lifestyle factors affecting health (fiber intake, stress management, bowel function)</li>
+<li>Human observation advantages over robotic systems in scientific discovery (Artemis II lunar observations)</li>
+<li>Ecosystem engineering and nature-based solutions (beaver dams for water, fire protection, biodiversity)</li>
+<li>Research methodology and reproducibility challenges (replication crisis, data sharing, coding errors)</li>
+<li>Microbial decomposition and carbon cycling (compost piles, soil health, ecosystem nutrient cycling)</li>
+<li>Environmental resilience through biological systems (water filtration, wildfire refugia, climate adaptation)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Destigmatization of bodily functions in science communication (digestive health accessibility)</li>
+<li>Nature-based climate solutions gaining prominence (beaver fire refugia during wildfires; composting for carbon cycling)</li>
+<li>Value of human expertise in space science (astronauts as scientific observers vs. pure robotic missions)</li>
+<li>Systemic research integrity reform—moving beyond individual lab practices toward institutional and funding-level changes</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission report on research reproducibility standards: NASEM could synthesize replication crisis findings across disciplines and recommend institutional reforms for academic publishing, funding agency requirements, and graduate training</div>
+<div class="opportunity">Convene expert consensus on integrated health science: Connect digestive health research (fiber, microbiome, vagus nerve) with mental health outcomes and develop clinical practice guidelines for gut-brain interventions</div>
+<div class="opportunity">Nature-based solutions for climate resilience: Establish working group on beaver-mediated ecosystem services, hydrological impacts, and wildfire mitigation to inform land management policy</div>
+<div class="opportunity">Human-robotic complementarity in space science: Develop framework for cost-benefit analysis of crewed vs. uncrewed missions, capitalizing on Artemis II data to inform future exploration strategy</div>
+<div class="opportunity">Environmental health equity initiative: Investigate disparities in access to fiber-rich foods, composting infrastructure, and nature-based health benefits across socioeconomic communities</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Claim: '95% of Americans do not meet daily fiber goals'—verify against NHANES and dietary surveillance data; prevalence statistic lacks attribution</div>
+<div class="claim">Claim: 'Kiwifruit superior to prunes for constipation and bloating' based on two RCTs—confirm trial design, sample sizes, and any industry funding; short-term efficacy claims may not reflect long-term health outcomes</div>
+<div class="claim">Claim: 'Worms will naturally colonize compost piles without introduction if pile touches earth'—this oversimplifies vermicomposting conditions; compost ecology is substrate and moisture-dependent; risks spreading this as unqualified guidance</div>
+<div class="claim">Lunar color observations (green/brown): Confirm whether astronaut reports of lunar colors represent genuine geological discoveries or lighting/vision artifacts; compare to spectroscopic data from orbiters to validate claims</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Microbiome-Gut-Health Axis Across Biological Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on microbial communities as functional biological systems—from human gut health (Short Wave: pelvic floor/microbiome, fiber metabolism) to environmental decomposition (Science Friday: composting microbiology). This reflects a shift toward understanding microbes not as pathogens but as essential mediators of systemic health, from individual physiology to ecosystem engineering.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should track how microbiome science is reshaping clinical, agricultural, and environmental policy frameworks—integrating microbial research across medicine, nutrition, and sustainability.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Reproducibility and Research Integrity in Quantitative Science</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's dedicated episode on replication crisis, coding errors, and data sharing (2026-04-11) signals mainstream science media attention to systemic methodological failures. This emerges as audiences and practitioners demand transparency in computational and social science research.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM's ongoing work on research integrity and reproducibility now has cultural momentum; this is an inflection point to amplify standards-setting and funder expectations for pre-registration and open data.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Circuits as Mechanistic Framework Across Neuroscience Domains</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab, Science Friday, and Short Wave are all exploring circuit-level neuroscience (VMH aggression circuits, medulla oblongata sound processing, gut-brain axis vagus signaling). This reflects a convergence on circuit mapping as the explanatory model for behavior, health, and dysfunction—enabled by optogenetics and imaging.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should anticipate neurotechnology translation and ethical issues (optogenetics, neuromodulation) as circuit understanding moves from basic research toward clinical and enhancement applications.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Ecosystem Engineering and Nature-Based Solutions</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab's beaver dam episode exemplifies a growing narrative: non-human agents (beavers, microbes) as designers of resilient systems that offer human co-benefits (water filtration, fire refuge, biodiversity). This frames ecological restoration as partnership rather than human control.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can position nature-based solutions (beaver reintroduction, constructed wetlands) as climate adaptation and biodiversity strategy, bridging conservation and infrastructure policy.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Emerging Reproductive and Genetic Technologies Reshaping Fertility</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Policy IRL's coverage of in vitro gametogenesis, iPSCs, and polygenic trait screening (2026-04-07) signals accelerating convergence of reproductive medicine and synthetic biology. These technologies enable genetic selection and alternative pathways to parenthood, raising equity and consent questions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Policy IRL</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene stakeholders on governance frameworks for IVG and polygenic screening before clinical uptake accelerates—critical for equity, regulation, and public trust.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Radiolab: The Builders</span>
+</div>
+<div class="episode-meta">Lulu Miller, Latif Nasser &middot; Apr 10 &middot; 30 min</div>
+<p style="margin:10px 0;font-size:14px;">This Radiolab spinoff episode celebrates beavers as nature's engineers with outsized positive environmental impacts. The episode follows Jose, a beaver that returned to the Bronx River after 200+ years of absence following cleanup efforts, and the Little Last Chance beaver family in California that created a fire refuge during devastating wildfires. The hosts explore how beaver dams purify water, cool air, enrich soil, increase biodiversity, and protect against wildfires—demonstrating that small creatures can mend ecosystems and inspire human conservation efforts.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Beaver dam construction and hydrology</span>
+  <span class="topic-tag">Wetland ecosystem creation and biodiversity enhancement</span>
+  <span class="topic-tag">Water filtration and pollution removal through beaver dams</span>
+  <span class="topic-tag">Fire refugia formation and wildfire protection</span>
+  <span class="topic-tag">Soil nutrient cycling and enrichment</span>
+  <span class="topic-tag">Beaver physiology (webbed feet, iron-containing teeth, breath-holding capacity up to 15 minutes)</span>
+  <span class="topic-tag">Thermoregulation in beaver lodges</span>
+  <span class="topic-tag">Fire ecology and megafire behavior</span>
+  <span class="topic-tag">Wildlife habitat restoration</span>
+  <span class="topic-tag">Interspecies cohabitation in beaver lodges (mice, muskrats, snakes)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22086/independent-cost-estimates-for-design-and-construction-of-transit-facilities-in-rural-and-small-urban-areas" target="_blank">Independent Cost Estimates for Design and Construction of Transit Facilities in Rural and Small Urban Areas</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29031/bridge-construction-inspection-training-resources-and-practices" target="_blank">Bridge Construction Inspection Training Resources and Practices</a></div>
+<div class="nasem-match">Biodiversity</div>
+<div class="nasem-match">Conserving Biodiversity: A Research Agenda for Development</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Implications of the California Wildfires for Health, Communities, and Preparedness</div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10668/nutrient-requirements-of-dogs-and-cats" target="_blank">Nutrient Requirements of Dogs and Cats</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Beavers can hold their breath for up to 15 minutes</div>
+<div class="claim">Beaver teeth contain iron, making them effective tools for chopping trees</div>
+<div class="claim">Historical beaver population in North America numbered 'several hundred million'</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"By making dams, they create deep pools of water, which allows them to transform from wobbly wolf snacks into elegant professional swimmers who can spin and twirl"</div>
+<div class="quote">"I drove past the burned houses coming up and the burned roads and all the things that we wanted to protect and couldn't... But then getting up to the beaver wetland, it was a very hopeful moment because sometimes it feels like we're all out of ideas and it's not working. But then right in front of me, something is clearly working."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Behind the scenes with Artemis II’s scientists during the historic Moon fly-by</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Apr 10 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">Nature Podcast covers the Artemis II lunar flyby mission, with correspondent Alex Whitsy reporting from NASA Mission Control in Houston during the historic Moon fly-by. The episode highlights the first-ever dedicated science officer position in the main mission control room and discusses the astronauts' observations of lunar features, including the Oriental Basin impact crater and previously unreported impact flashes on the lunar surface. Scientists and astronauts worked together to document color variations, topographical features, and eclipse phenomena that robotic orbiters cannot capture, demonstrating the unique value of human observation in deep space exploration.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Lunar geology - Oriental Basin impact crater structure and morphology</span>
+  <span class="topic-tag">Impact crater ring formation and topography</span>
+  <span class="topic-tag">Lunar color variations and regolith composition</span>
+  <span class="topic-tag">Lunar impact flashes from meteorite collisions</span>
+  <span class="topic-tag">Cosmic ray detection and visual phenomena in human vision</span>
+  <span class="topic-tag">Solar eclipse observation from lunar perspective</span>
+  <span class="topic-tag">Comparative analysis of human observation versus robotic spacecraft imaging</span>
+  <span class="topic-tag">Heat shield protection during atmospheric re-entry</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis" target="_blank">Teaching K-12 Science and Engineering During a Crisis</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color" target="_blank">The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Astronauts reported seeing green and brown colors on the moon, contrary to expectations of only grays and blacks</div>
+<div class="claim">Astronauts reported observing approximately six impact flashes on the lunar surface</div>
+<div class="claim">Scientists initially questioned whether reported flashes were impact events versus cosmic ray artifacts</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The very first time in the main mission control room, there is a placard that says science and there is a science officer sitting there in mission control... This time, because there's been a little bit more of an effort to incorporate science from the start."</div>
+<div class="quote">"You can just send a spacecraft out there and look at stuff. But again, this notion of describing colors, describing shadows, really having human eyes on an object, human perceptions."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Why so many studies can’t be replicated</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 11 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode examines the replication crisis in social science research, discussing the SCORE Project funded by DARPA, which found that only 50% of analyzed papers across economics, education, and psychology could be replicated. The episode features Dr. Tim Arrington from the Center for Open Science and Dr. Abel Brodeur from the Institute for Replication, who discuss systemic issues including lack of data sharing, coding errors, and inadequate methodology documentation. Both researchers note that while replication rates are improving in recent years due to increased awareness and better data-sharing practices, the scientific community needs structural changes in how research is conducted, published, and funded to address the problem.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Replication crisis in social science</span>
+  <span class="topic-tag">Research methodology and reproducibility</span>
+  <span class="topic-tag">Data sharing in scientific research</span>
+  <span class="topic-tag">Coding errors in quantitative analysis</span>
+  <span class="topic-tag">Research on public employee retention in U.S. Civil Service</span>
+  <span class="topic-tag">Research on crime victimization and political participation</span>
+  <span class="topic-tag">Economic policy research replication</span>
+  <span class="topic-tag">Psychology research replication</span>
+  <span class="topic-tag">Political science research replication</span>
+  <span class="topic-tag">Public health research replication</span>
+  <span class="topic-tag">Environmental research replication</span>
+  <span class="topic-tag">Minimum wage effects on unemployment</span>
+  <span class="topic-tag">Deforestation policy analysis</span>
+  <span class="topic-tag">Robustness checks in statistical analysis</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis" target="_blank">Teaching K-12 Science and Engineering During a Crisis</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the" target="_blank">Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System</a></div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21915/statistical-challenges-in-assessing-and-fostering-the-reproducibility-of-scientific-results" target="_blank">Statistical Challenges in Assessing and Fostering the Reproducibility of Scientific Results: Summary of a Workshop</a></div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12615/ensuring-the-integrity-accessibility-and-stewardship-of-research-data-in-the-digital-age" target="_blank">Ensuring the Integrity, Accessibility, and Stewardship of Research Data in the Digital Age</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of" target="_blank">Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications" target="_blank">Quantitative Safety Analyses for Highway Applications</a></div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">The SCORE Project found that only 50% of papers analyzed across economics, education, and psychology could be replicate</div>
+<div class="claim">In recent economic and political science papers (2022-2023), coding errors appear in 15-20% of papers</div>
+<div class="claim">In recent studies, results are robust approximately 75% of the time</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"How much confidence should we have in anything that's being published? The wrong way to do that is it's binary. It's published, it equals it's true. Not published means it's not true."</div>
+<div class="quote">"I look back at my own research that I was doing back in 2010 as a master's student and my coding was terrible... But also I remind myself that back then it was impossible virtually to look at other people's codes."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Are you pooping all wrong?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 13 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode discusses why many people experience problems with bowel movements and digestion, featuring gastroenterologist Dr. Trisha Paswicha who advocates for destigmatizing conversations about defecation. The episode identifies three main issues affecting bowel health: pliability (stool consistency), propulsion (muscle contractions), and pelvic floor dysfunction. Key recommendations include increasing fiber intake to 25-38 grams daily, adopting a squatting posture using a footstool, and managing stress through techniques like box breathing and vagus nerve activation. The discussion emphasizes the gut-brain connection and how lifestyle factors affect both digestive and mental health.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Pelvic floor muscle function and puborectalis muscle physiology</span>
+  <span class="topic-tag">Dietary fiber intake and gastrointestinal health</span>
+  <span class="topic-tag">Gut-brain axis and vagus nerve stimulation</span>
+  <span class="topic-tag">Microbiome production of compounds from fiber metabolism</span>
+  <span class="topic-tag">Bowel movement physiology and defecation posture</span>
+  <span class="topic-tag">Kiwifruit efficacy for constipation and bloating</span>
+  <span class="topic-tag">Stress and anxiety effects on bowel function</span>
+  <span class="topic-tag">Pelvic floor physical therapy</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the" target="_blank">Call to Action for Science Education: Building Opportunity for the Future</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber" target="_blank">Dietary Reference Intakes: Proposed Definition of Dietary Fiber</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems" target="_blank">Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/6252/dietary-reference-intakes-proposed-definition-and-plan-for-review-of" target="_blank">Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber" target="_blank">Dietary Reference Intakes: Proposed Definition of Dietary Fiber</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22702/methodologies-to-estimate-the-economic-impacts-of-disruptions-to-the-goods-movement-system" target="_blank">Methodologies to Estimate the Economic Impacts of Disruptions to the Goods Movement System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26465/wildland-fires-toward-improved-understanding-and-forecasting-of-air-quality-impacts" target="_blank">Wildland Fires: Toward Improved Understanding and Forecasting of Air Quality Impacts: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">95% of Americans do not meet their daily fiber goals - specific prevalence claim worth verifying</div>
+<div class="claim">40% of Americans report their bowel habits disrupt daily lives - prevalence statistic</div>
+<div class="claim">Two randomized controlled trials in the last five years show kiwis are effective for bloating and constipation, and superior to prunes - specific trial evidence cited</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"There's a lot that we just don't talk about, don't know, and if we could just all of us lean in a little bit more to our physiology and know how our body is supposed to work, then I think we could solve a lot of this problem on our own."</div>
+<div class="quote">"It's like trying to squeeze toothpaste out of a toothpaste tube, but you never take the cap off. And sometimes when you can just retrain those muscles, finally it's like taking the cap off that tube. And suddenly the toothpaste comes flying out."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Green stuff, brown stuff: Secrets to a great compost pile</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 13 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Friday episode explores the practical science and process of composting with guest Cassandra Marchato, author of "Compost After Reading." The discussion covers the fundamentals of composting, including the proper balance of nitrogen-rich "green" materials (food scraps, grass) and carbon-rich "brown" materials (dried leaves, cardboard) in roughly a 1:2 ratio. Marchato emphasizes that composting is an intentional process of creating ideal conditions for microbial decomposition rather than simply allowing organic matter to rot, and provides practical advice for both backyard and urban composters, including common mistakes to avoid. The episode also briefly touches on municipal composting programs and potential policy support for community composting initiatives.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Microbial decomposition in compost piles</span>
+  <span class="topic-tag">Carbon-to-nitrogen ratios in composting</span>
+  <span class="topic-tag">Aerobic decomposition and oxygen requirements in compost</span>
+  <span class="topic-tag">Thermophilic composting (heat generation from microbial activity)</span>
+  <span class="topic-tag">Vermicomposting (worm composting)</span>
+  <span class="topic-tag">Soil amendment and soil health improvement through finished compost</span>
+  <span class="topic-tag">Fungal growth in decomposition processes</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18261/the-science-and-applications-of-microbial-genomics-workshop-summary" target="_blank">The Science and Applications of Microbial Genomics: Workshop Summary</a></div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final" target="_blank">Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration" target="_blank">A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26447/options-for-improving-the-safety-of-dukw-type-amphibious-vessels" target="_blank">Options for Improving the Safety of DUKW Type Amphibious Vessels</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for" target="_blank">Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18261/the-science-and-applications-of-microbial-genomics-workshop-summary" target="_blank">The Science and Applications of Microbial Genomics: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18314/educating-the-student-body-taking-physical-activity-and-physical-education" target="_blank">Educating the Student Body: Taking Physical Activity and Physical Education to School</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Worms will naturally colonize a backyard compost pile without intentional introduction if the pile touches earth at the base</div>
+<div class="claim">A properly managed compost pile should reach hot temperatures as an indicator of healthy decomposition</div>
+<div class="claim">Finished compost quality is primarily determined by the composting process and maintenance rather than input materials</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The idea of becoming a composter means that we're getting involved with that process...providing an ideal environment for decomposition, for all the little microbes and fungi that are responsible for breaking things down in this world."</div>
+<div class="quote">"The really big one is that people think compost is synonymous with just a bunch of rotting food, and it's not. You will not get a good outcome if you just pile up a bunch of rotten food in your backyard and leave it alone. You have to mix it."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">99 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccination and Public Health (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts discussing vaccine effectiveness, COVID-19 impacts, and disease prevention strategies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Artemis Program (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering NASA's Artemis missions, space reactors, lunar exploration, and astronaut activities.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Wildlife Biology and Conservation (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Scientific illustrations and discoveries featuring bumblebees, owls, ducks, beetles, and adaptation mechanisms.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Environmental Science (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on El Niño events, renewable energy, battery storage capacity, and climate policy advocacy.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Cellular and Aging Biology (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on reversing cellular aging, Alzheimer's disease risk genes, and reproductive biology innovations.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sailorrooscout.bsky.social</div>
+  <div class="bluesky-stats">3329 likes &middot; 1133 reposts &middot; 32 replies</div>
+  <div class="bluesky-text">How Vaccines Work 🧬🧫🧪🔬💉🥽</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sailorrooscout.bsky.social/post/3mjcpuxlyt226" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">2003 likes &middot; 339 reposts &middot; 16 replies</div>
+  <div class="bluesky-text">NASA astronaut Christina Koch hugs the Orion spacecraft in the well deck of USS John P. Murtha.
+
+Credit: NASA/Bill Ingalls
+
+flic.kr/p/2s7aCi3 #Artemis 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mjdtfomock27" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@chanda.blacksky.app</div>
+  <div class="bluesky-stats">255 likes &middot; 55 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">Holy shit this screams “The National Academies have been compromised!!!!!!!!!!!” 🧪⚛️🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/chanda.blacksky.app/post/3mjdkaqqnoc2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@coreyspowell.bsky.social</div>
+  <div class="bluesky-stats">194 likes &middot; 47 reposts &middot; 0 replies</div>
+  <div class="bluesky-text">Among Orbán's many corrosive effects in Hungary, he politically strangled universities and research funding. His defeat offers the possibility of a better, more open future for Hungarian science. 🧪
+
+www.statnews.com/2025/09/02/h...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/coreyspowell.bsky.social/post/3mjd5toj7zs24" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">134 likes &middot; 63 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">April is Autism Awareness Month. Did you know that one of the first people to characterize autism was a woman? Grunya Sukhareva, a soviet psychiatrist studied autism in girls & boys. She published clinical descriptions in 1925, before Kanner & Asperger. She was ahead of her time.
+
+@autismwithsabby 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjcytmk4mk27" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Vaccine Development and Public Health Policy</strong>: Directly relevant to NASEM's work on pandemic preparedness, vaccine efficacy, and health communications; Long COVID research informs policy on emerging infectious diseases.</div>
+<div class="nasem-match"><strong>Space Exploration and Technology Development</strong>: Connects to NASEM's aerospace assessments including nuclear propulsion systems, NASA mission planning, and space technology policy recommendations.</div>
+<div class="nasem-match"><strong>Science Policy and Research Integrity</strong>: Relates to NASEM's advisory role on scientific integrity, peer review standards, and the importance of evidence-based policy-making versus pseudoscience platforming.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 13, 2026 at 11:50 AM | Internal use only
+    </div>
+</body>
+</html>

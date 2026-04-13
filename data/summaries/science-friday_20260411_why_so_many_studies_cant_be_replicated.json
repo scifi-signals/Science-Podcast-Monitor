@@ -1,0 +1,610 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Why so many studies can’t be replicated",
+  "host": "Ira Flatow",
+  "published": "2026-04-11T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 18.016666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Friday episode examines the replication crisis in social science research, discussing the SCORE Project funded by DARPA, which found that only 50% of analyzed papers across economics, education, and psychology could be replicated. The episode features Dr. Tim Arrington from the Center for Open Science and Dr. Abel Brodeur from the Institute for Replication, who discuss systemic issues including lack of data sharing, coding errors, and inadequate methodology documentation. Both researchers note that while replication rates are improving in recent years due to increased awareness and better data-sharing practices, the scientific community needs structural changes in how research is conducted, published, and funded to address the problem.",
+  "science_topics": [
+    "Replication crisis in social science",
+    "Research methodology and reproducibility",
+    "Data sharing in scientific research",
+    "Coding errors in quantitative analysis",
+    "Research on public employee retention in U.S. Civil Service",
+    "Research on crime victimization and political participation",
+    "Economic policy research replication",
+    "Psychology research replication",
+    "Political science research replication",
+    "Public health research replication",
+    "Environmental research replication",
+    "Minimum wage effects on unemployment",
+    "Deforestation policy analysis",
+    "Robustness checks in statistical analysis"
+  ],
+  "claims_to_note": [
+    "The SCORE Project found that only 50% of papers analyzed across economics, education, and psychology could be replicate",
+    "In recent economic and political science papers (2022-2023), coding errors appear in 15-20% of papers",
+    "In recent studies, results are robust approximately 75% of the time",
+    "Data sharing practices are improving over time and differ significantly across fields",
+    "Most data and code are not shared during the peer review and publication process",
+    "The majority of replication failures are due to honest mistakes rather than intentional misconduct"
+  ],
+  "policy_relevance": [
+    "DARPA (Defense Advanced Research Projects Agency) funding of the SCORE Project to assess confidence in social science research",
+    "Use of social behavioral science research in policy decision-making across multiple government domains",
+    "Role of federal research funding agencies (NSF, NIH) in requiring research rigor and data sharing",
+    "Journal publication policies and their impact on research standards",
+    "Institutional accountability for researcher training and practices",
+    "Research funder requirements for documentation and methodology sharing",
+    "Potential role of AI in policy assessment and research validation"
+  ],
+  "key_quotes": [
+    "How much confidence should we have in anything that's being published? The wrong way to do that is it's binary. It's published, it equals it's true. Not published means it's not true.",
+    "I look back at my own research that I was doing back in 2010 as a master's student and my coding was terrible... But also I remind myself that back then it was impossible virtually to look at other people's codes.",
+    "Science is a process. It's really easy to forget that, and it's really important to remember that, right? Each of our findings, each paper, each headline we read about, that's just a piece of a puzzle."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Replication crisis in social science",
+      "publications": [
+        {
+          "id": "25909",
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic is resulting in widespread and ongoing changes to how the K-12 education system functions, including disruptions to science teaching and learning environments. Students and teachers are all figuring out how to do schooling differently, and districts and states are working overtime to reimagine systems and processes. This is difficult and stressful work in the middle of the already stressful and sometimes traumatic backdrop of the global pandemic. In addition, students with disabilities, students of color, immigrants, English learners, and students from under-resourced communities have been disproportionately affected, both by the pandemic itself and by the resulting instructional shifts. Teaching K-12 Science and Engineering During a Crisis aims to describe what high quality science and engineering education can look like in a time of great uncertainty and to support practitioners as they work toward their goals. This book includes guidance for science and enginee",
+          "year": 2021,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Board on Science Education",
+          "keywords": [
+            "education",
+            "color immigrants english learners",
+            "resulting instructional shifts",
+            "high quality science",
+            "education system functions",
+            "sometimes traumatic backdrop",
+            "book includes guidance",
+            "science teaching",
+            "disabilities students",
+            "addition students",
+            "disproportionately affected",
+            "teaching",
+            "science",
+            "during",
+            "crisis"
+          ]
+        },
+        {
+          "id": "25663",
+          "title": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System",
+          "url": "https://nap.nationalacademies.org/catalog/25663/social-isolation-and-loneliness-in-older-adults-opportunities-for-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "social science",
+            "life course social isolation",
+            "high blood pressure smoking",
+            "community dwelling americans aged",
+            "exacerbate social isolation",
+            "older adult population",
+            "particularly high volume",
+            "premature mortality comparable",
+            "friends chronic illness",
+            "chronic depending upon",
+            "approximately one quarter",
+            "health care system",
+            "social isolation",
+            "older adults",
+            "opportunities",
+            "loneliness"
+          ],
+          "description": "Social isolation and loneliness are serious yet underappreciated public health risks that affect a significant portion of the older adult population. Approximately one-quarter of community-dwelling Americans aged 65 and older are considered to be socially isolated, and a significant proportion of adults in the United States report feeling lonely. People who are 50 years of age or older are more likely to experience many of the risk factors that can cause or exacerbate social isolation or loneliness, such as living alone, the loss of family or friends, chronic illness, and sensory impairments. Over a life course, social isolation and loneliness may be episodic or chronic, depending upon an individual's circumstances and perceptions. A substantial body of evidence demonstrates that social isolation presents a major risk for premature mortality, comparable to other risk factors such as high blood pressure, smoking, or obesity. As older adults are particularly high-volume and high-frequenc",
+          "year": 2020,
+          "page_keywords": [
+            "Social Science"
+          ],
+          "committee": "Board on Behavioral, Cognitive, and Sensory Sciences"
+        },
+        {
+          "id": "18831",
+          "title": "Civic Engagement and Social Cohesion: Measuring Dimensions of Social Capital to Inform Policy",
+          "url": "https://nap.nationalacademies.org/catalog/18831/civic-engagement-and-social-cohesion-measuring-dimensions-of-social-capital",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "social science",
+            "civic engagement social cohesion",
+            "social cohesion identifies measurement",
+            "conceptual frameworks developed",
+            "powerful drivers affecting",
+            "federal surveys contribute",
+            "social capital",
+            "institutional characteristics",
+            "collected elsewhere",
+            "bonds associations",
+            "determine promisin",
+            "social cohesion",
+            "measuring dimensions",
+            "civic engagement",
+            "inform policy"
+          ],
+          "description": "People's bonds, associations and networks - as well as the civil, political, and institutional characteristics of the society in which they live - can be powerful drivers affecting the quality of life among a community's, a city's, or a nation's inhabitants and their ability to achieve both individual and societal goals. Civic engagement, social cohesion, and other dimensions of social capital affect social, economic and health outcomes for individuals and communities. Can these be measured, and can federal surveys contribute toward this end? Can this information be collected elsewhere, and if so, how should it be collected? Civic Engagement and Social Cohesion identifies measurement approaches that can lead to improved understanding of civic engagement, social cohesion, and social capital - and their potential role in explaining the functioning of society. With the needs of data users in mind, this report examines conceptual frameworks developed in the literature to determine promisin",
+          "year": 2014,
+          "page_keywords": [
+            "Social Science"
+          ],
+          "committee": "Committee on National Statistics"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Bolstering National Science & Technology Competitiveness Through Effective Science Communication: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-POLICY-25-01",
+          "status": "in_progress"
+        },
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Research methodology and reproducibility",
+      "publications": [
+        {
+          "id": "25303",
+          "title": "Reproducibility and Replicability in Science",
+          "keywords": [
+            "science",
+            "research",
+            "reproducibility",
+            "replicability",
+            "methodology",
+            "scientific"
+          ]
+        },
+        {
+          "id": "21915",
+          "title": "Statistical Challenges in Assessing and Fostering the Reproducibility of Scientific Results: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/21915/statistical-challenges-in-assessing-and-fostering-the-reproducibility-of-scientific-results",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "workforce"
+          ],
+          "keywords": [
+            "mathematics",
+            "analysis inadequate statistical expertise",
+            "incomplete data among others",
+            "experimental design misaligned incentives",
+            "several high profile journal",
+            "improper data measurement",
+            "popular press articles",
+            "reproducibility challenges",
+            "perfect reproducibility",
+            "scientific results",
+            "inadequate instances",
+            "statistical challenges",
+            "reproducibility",
+            "assessing",
+            "fostering"
+          ],
+          "description": "Questions about the reproducibility of scientific research have been raised in numerous settings and have gained visibility through several high-profile journal and popular press articles. Quantitative issues contributing to reproducibility challenges have been considered (including improper data measurement and analysis, inadequate statistical expertise, and incomplete data, among others), but there is no clear consensus on how best to approach or to minimize these problems. A lack of reproducibility of scientific results has created some distrust in scientific findings among the general public, scientists, funding agencies, and industries. While studies fail for a variety of reasons, many factors contribute to the lack of perfect reproducibility, including insufficient training in experimental design, misaligned incentives for publication and the implications for university tenure, intentional manipulation, poor data management and analysis, and inadequate instances of statistical in",
+          "year": 2016,
+          "page_keywords": [
+            "Mathematics"
+          ],
+          "committee": "Board on Mathematical Sciences and Their Applications"
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Data sharing in scientific research",
+      "publications": [
+        {
+          "id": "25303",
+          "title": "Reproducibility and Replicability in Science",
+          "keywords": [
+            "science",
+            "research",
+            "reproducibility",
+            "replicability",
+            "methodology",
+            "scientific"
+          ]
+        },
+        {
+          "id": "12615",
+          "title": "Ensuring the Integrity, Accessibility, and Stewardship of Research Data in the Digital Age",
+          "url": "https://nap.nationalacademies.org/catalog/12615/ensuring-the-integrity-accessibility-and-stewardship-of-research-data-in-the-digital-age",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "researchers receive appropriate training",
+            "generated creating severe challenges",
+            "data sharing",
+            "data methods",
+            "integrity accessibility",
+            "long term use",
+            "digital technologies",
+            "include complications",
+            "changes affecting",
+            "raising complex",
+            "digital age",
+            "stewardship",
+            "ensuring",
+            "data"
+          ],
+          "description": "As digital technologies are expanding the power and reach of research, they are also raising complex issues. These include complications in ensuring the validity of research data; standards that do not keep pace with the high rate of innovation; restrictions on data sharing that reduce the ability of researchers to verify results and build on previous research; and huge increases in the amount of data being generated, creating severe challenges in preserving that data for long-term use. Ensuring the Integrity, Accessibility, and Stewardship of Research Data in the Digital Age examines the consequences of the changes affecting research data with respect to three issues - integrity, accessibility, and stewardship-and finds a need for a new approach to the design and the management of research projects. The report recommends that all researchers receive appropriate training in the management of research data, and calls on researchers to make all research data, methods, and other informati",
+          "year": 2009,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Committee on Science, Engineering, and Public Policy"
+        },
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "AI Infrastructure to Accelerate AI Convergence and Catalyze U.S. Scientific Innovation: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/PGA-GUIPRR-25-01",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Coding errors in quantitative analysis",
+      "publications": [
+        {
+          "id": "27978",
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "municipal solid waste recycling",
+            "facing msw recycling programs",
+            "recycling programs face",
+            "generated approximately million tons",
+            "potential policy options",
+            "municipal county state",
+            "economic efficiency",
+            "effective implementation",
+            "environmental benefits",
+            "stability efficacy",
+            "alternative",
+            "analysis",
+            "current"
+          ],
+          "description": "The United States generated approximately 292 million tons of municipal solid waste (MSW) annually, most of which (about 68 percent) were not recycled or composted. Recycling programs face a multitude of challenges today that complicate their stability, efficacy, and economic efficiency. However, a well-designed and supported MSW recycling programs hold many economic and environmental benefits. This report, produced at the request of Congress, reviews available information on MSW recycling programs in municipal, county, state, and tribal governments and provides advice on potential policy options for more effective implementation. Municipal Solid Waste Recycling in the United States explores the contemporary issues facing MSW recycling programs and lays out recommendations and policy options to chart a path forward. Using diverse case studies and publicly available data, this report includes an analysis of economic and programmatic costs of recycling programs and assessment of material",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "28851",
+          "title": "Quantitative Safety Analyses for Highway Applications",
+          "url": "https://nap.nationalacademies.org/catalog/28851/quantitative-safety-analyses-for-highway-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "highway research",
+            "traffic safety document analogous",
+            "quantitative safety analyses",
+            "highway capacity manual",
+            "highway applications",
+            "trb conference session",
+            "cooperative highway",
+            "traffic operations",
+            "process undertaken",
+            "program describes",
+            "development"
+          ],
+          "description": "\"Development of the AASHTO Highway Safety Manual began from a TRB conference session and a workshop, both held in 1999, that identified the need for a traffic safety document analogous to the role of the Highway Capacity Manual for traffic operations. NCHRP Research Report 1140: Quantitative Safety Analyses for Highway Applications, from TRB's National Cooperative Highway Research Program, describes a multiyear research process undertaken to improve the state of the practice for quantitative safety analyses for highway applications.\" --",
+          "year": 2025,
+          "page_keywords": [
+            "Highway research"
+          ],
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "25342",
+          "title": "Guide for the Analysis of Multimodal Corridor Access Management",
+          "url": "https://nap.nationalacademies.org/catalog/25342/guide-for-the-analysis-of-multimodal-corridor-access-management",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "multimodal corridor access management",
+            "analysis",
+            "guide"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Research on public employee retention in U.S. Civil Service",
+      "publications": [
+        {
+          "id": "24676",
+          "title": "Foundational Cybersecurity Research",
+          "keywords": [
+            "cybersecurity",
+            "cyber",
+            "research",
+            "security",
+            "computer",
+            "digital"
+          ]
+        },
+        {
+          "id": "27892",
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "carrier sizes operational structures",
+            "long distance truck",
+            "hire truck drivers",
+            "help regulators researchers",
+            "house private carriers",
+            "freight markets served",
+            "safe driving behavior",
+            "heterogeneous industry",
+            "work conditions",
+            "considerable variability",
+            "working conditions",
+            "driver safety",
+            "bus industries",
+            "assessing",
+            "retention",
+            "effects",
+            "pay"
+          ],
+          "description": "For-hire trucking--as opposed to in-house private carriers that transport the goods of their parent company--is a large and heterogeneous industry with considerable variability in carrier sizes, operational structures, and freight markets served. For this sector, the Federal Motor Carrier Safety Administration should explore opportunities for leveraging research and data collection that may be planned and programmed for other purposes to help regulators, researchers, and industry examine the potential effects of driver compensation and work conditions on the safe driving behavior and performance of long-distance for-hire truck drivers.This is among the recommendations in TRB Special Report 355: Pay and Work Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention, from the Transportation Research Board of the National Academies of Sciences, Engineering, and Medicine. The report examines--in response to a request from the U.S. Congre",
+          "year": 2024,
+          "committee": "Transportation Research Board"
+        },
+        {
+          "id": "25303",
+          "title": "Reproducibility and Replicability in Science",
+          "keywords": [
+            "science",
+            "research",
+            "reproducibility",
+            "replicability",
+            "methodology",
+            "scientific"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 3821,
+  "saved_at": "2026-04-13T11:49:53.034900"
+}
