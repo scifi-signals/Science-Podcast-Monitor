@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 14, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 14, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">14</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">83</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's coverage spans medical research equity, space exploration human factors, education policy, peptide therapeutics, and diplomacy. Sex-based medical research gaps persist despite the 1993 NIH mandate, requiring more nuanced approaches beyond binary frameworks. Astronaut family experiences highlight the psychological and social dimensions of space missions, with recurring themes about the overview effect and mission adaptation across Apollo and Artemis eras. Peptide therapeutics show a critical gap between FDA-approved compounds (insulin, GLP-1s) and unregulated gray-market products, requiring better evaluation frameworks. Policy discussions emphasize evidence-based reading instruction (phonics-based K-3 approaches showing measurable gains in Mississippi) and diplomatic engagement over military escalation. Bluesky trends indicate sustained scientific interest in space missions, Long COVID funding, climate adaptation, and quantum computing development.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Sex/gender variables in medical research: need for precision medicine beyond binary frameworks</li>
+<li>Astronaut psychology and human factors in space exploration (Apollo vs. Artemis comparison)</li>
+<li>Evidence-based pedagogy: phonics-based reading instruction demonstrating measurable outcomes</li>
+<li>Regulatory gaps in emerging therapeutics (peptides, compounds marketed without FDA approval)</li>
+<li>Diplomatic engagement and trust-building as alternatives to military escalation</li>
+<li>Long COVID and other chronic conditions requiring sustained research funding</li>
+<li>Space missions and their broader impacts on families, psychology, and public engagement</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Peptide therapeutics as a gray-market category: rapid growth in biohacking/longevity communities with minimal regulatory oversight; Attia's framework-based approach to evaluating safety/efficacy gaining traction</li>
+<li>Evidence-based reading policy gaining policy prominence: Mississippi case study (49th to 9th nationally using phonics mandates) cited across multiple policy discussions as measurable education intervention</li>
+<li>Astronaut family experiences as untold narrative: Science Friday's focus on psychological/social dimensions of space exploration, contrasting Apollo nostalgia with modern mission contexts</li>
+<li>Precision sex-based medicine reconsidered: moving from crude binary sex categorization toward mechanism-specific, demographic-adjusted research approaches</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene working group on sex as a biological variable in medical research: Short Wave episode identifies ongoing confusion post-1993 mandate; NASEM could provide consensus guidance on precision medicine frameworks that move beyond binary sex categories</div>
+<div class="opportunity">Commission report on peptide therapeutics regulation: High demand evident in Attia episode for better evaluation frameworks; NASEM could assess FDA approval pathways, third-party testing standards, and evidence gaps for popular compounds (BPC-157, CJC-1295, melanotan-2)</div>
+<div class="opportunity">Evidence synthesis on reading instruction science: Making Sense episode highlights policy interest in phonics-based approaches; NASEM could conduct rigorous review of literacy pedagogy evidence and implementation barriers</div>
+<div class="opportunity">Astronaut family support and psychological resilience: Science Friday identifies gaps in understanding modern mission support structures; NASEM could assess human factors research needs for long-duration space missions</div>
+<div class="opportunity">Long COVID research funding gap analysis: Bluesky trend indicates persistent funding disparities; NASEM could advocate for coordinated research priorities and funding mechanisms</div>
+<div class="opportunity">Diplomatic science engagement: Policy Chats episode on diplomatic trust-building suggests opportunity for NASEM to promote science diplomacy frameworks and international scientific collaboration</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Apollo-era astronaut family divorce rate claim (80% or higher): Requires verification against demographic studies; episode did not provide sources; may conflate personal anecdote with population data</div>
+<div class="claim">Mississippi reading improvement attribution solely to phonics mandates: Making Sense episode credits phonics training, but Mississippi's improvement also reflects sustained funding, teacher development, and demographic factors; risk of oversimplifying causality for policy advocacy</div>
+<div class="claim">Tylenol mechanism of action remains 'unknown': Attia noted this as partially accurate; current evidence shows COX inhibition involvement but full mechanisms debated; characterizing as completely unknown overstates uncertainty</div>
+<div class="claim">Fewer than 3% of FDA-approved drugs lack understood mechanism claim: Attia presented as general standard without specific source; should verify against FDA drug approval databases and pharmacology literature</div>
+<div class="claim">Cuba economic contraction 35% during special period: DeLantis cited specific percentage without sourcing; verify against economic data from 1991-1993 period and Cuban statistical authorities</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender as Biological Variables in Health Research</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Short Wave has emerged as the primary venue discussing sex-based differences in drug metabolism, cardiovascular presentation, and clinical trial design (April 14, 13). This reflects growing recognition that biological sex influences pharmacokinetics, disease manifestation, and treatment efficacy—moving beyond one-size-fits-all medicine. The emphasis on thalidomide teratogenicity alongside contemporary sex-based pharmacology suggests renewed attention to how sex-stratified research prevents both historical harms and modern treatment failures.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can advance guidance on mandating sex as a biological variable in NIH-funded research and clinical trial design to improve health equity and treatment outcomes.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Metabolic and Pharmaceutical Interventions in Chronic Disease</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows (The Peter Attia Drive, Short Wave, Science Friday) are converging on mechanisms of GLP-1 agonists, peptide biology, and mitochondrial function (April 13, 9). The Peter Attia Drive explores insulin therapy and SS31 (elamipretide) for metabolic dysfunction; Short Wave covers gastrointestinal-metabolic pathways via microbiome fiber metabolism; Science Friday discusses GLP-1 in addiction neurobiology. This signals a fundamental shift toward understanding chronic diseases through shared metabolic and neurobiological pathways rather than organ-system silos.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should coordinate research priorities across endocrinology, neuroscience, and microbiome science to accelerate mechanism-based therapeutic development for metabolic disease and addiction.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Reproducibility, Data Integrity, and Trust in Scientific Evidence</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday (April 11) directly addressed replication crisis, methodology, data sharing, and coding errors in quantitative research. Separately, Making Sense (April 7) scrutinized COVID-19 vaccine safety claims and ivermectin efficacy claims in real time. Together, these episodes reflect public and scientific concern about how findings are validated, communicated, and challenged—especially when high-stakes health claims circulate. The contrast between rigorous epistemology discussions and misinformation narratives suggests a widening gap between expert consensus-building and public-facing science communication.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can strengthen standards for research transparency, pre-registration, and real-time fact-checking infrastructure to rebuild public trust in health and life sciences.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neurobiological Basis of Behavior and Addiction</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab (April 9), Science Friday (April 9), and Science Magazine Podcast (April 7) collectively dissect neural circuits underlying aggression, addiction, and consciousness—using optogenetics, receptor signaling, and psychedelic models. Huberman focuses on estrogen-modulated VMH circuits in male aggression; Science Friday connects GLP-1 pathways to addiction neurobiology; Science Magazine explores LSD as a consciousness/schizophrenia model. This trend reveals growing technical capability to map behavior-generating circuits and repurpose psychiatric drugs across indications.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene neuroscience and psychiatry experts to establish research priorities for circuit-based interventions in addiction, aggression, and mental illness.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental and Ecological Engineering for Climate and Infrastructure Resilience</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Radiolab (April 10) highlighted beaver dams as nature-based solutions for hydrology, wetland creation, and wildfire refugia. This complements implicit themes in composting (Science Friday, April 13) and broader environmental stewardship discussions. These episodes suggest a pivot toward leveraging biological processes and animal behavior for infrastructure resilience, water management, and carbon cycling—rather than purely engineering-based solutions.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Radiolab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM can synthesize evidence on nature-based solutions for climate adaptation and disaster resilience, positioning ecosystem engineering as a critical infrastructure strategy.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">The Peter Attia Drive: #387 - AMA #83: Peptides—evaluating the science, safety, and hype in a rapidly growing field</span>
+</div>
+<div class="episode-meta">Peter Attia, MD &middot; Apr 13 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">Peter Attia discusses peptides as a category spanning from FDA-approved therapeutics (insulin, GLP-1) to unapproved gray-market compounds popular in biohacking and longevity communities. The episode aims to provide a framework for evaluating peptides by examining mechanism of action, safety data, efficacy in humans, risk-benefit analysis, and availability of approved alternatives. Attia emphasizes that peptides themselves are not inherently problematic—the issue is the lack of regulatory oversight and scientific evidence for many popular compounds being marketed for longevity, tissue repair, and performance enhancement.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Peptide biochemistry and structure (amino acid chains, short vs. long chain peptides)</span>
+  <span class="topic-tag">Insulin therapy and type 1 diabetes treatment</span>
+  <span class="topic-tag">GLP-1 agonists for metabolic and weight management</span>
+  <span class="topic-tag">SS31 (elamipretide) mechanism and mitochondrial function</span>
+  <span class="topic-tag">Melanotan-2 and melanocortin receptor signaling</span>
+  <span class="topic-tag">CJC-1295 and growth hormone-releasing peptide pathways</span>
+  <span class="topic-tag">BPC-157 (body protection compound-157) proposed mechanisms</span>
+  <span class="topic-tag">Peptide pharmacokinetics: absorption, oral bioavailability, and digestive breakdown</span>
+  <span class="topic-tag">FDA drug approval processes and regulatory pathways</span>
+  <span class="topic-tag">Patent incentives in pharmaceutical development</span>
+  <span class="topic-tag">Third-party testing limitations for peptide purity and quality</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">The Chemistry of Fires at the Wildland-Urban Interface</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey" target="_blank">Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap" target="_blank">Knowledge Management at State Departments of Transportation: Research Roadmap</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling" target="_blank">Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings" target="_blank">Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march" target="_blank">Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Fewer than 3% of FDA-approved drugs lack an understood mechanism of action—presented as general standard but should be verified against current FDA databases</div>
+<div class="claim">Insulin was discovered approximately 100 years ago and initially sourced from animal pancreases before synthetic production—historically accurate claim</div>
+<div class="claim">Tylenol (acetaminophen) mechanism of action remains unknown—partially accurate; mechanism involves COX inhibition but full mechanisms debated</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Peptides sit at the intersection of biological plausibility, clinical promise, and rampant commercialization. They're often marketed as cutting-edge, regenerative therapies for everything from muscle repair and longevity to cosmetic enhancements. But the reality is that the peptide ecosystem is sprawling, poorly regulated, and filled with claims that range from legitimate to completely ungrounded."</div>
+<div class="quote">"The single most important thing that people have heard of, like endorphins, insulin, GLP-1, these are all peptide hormones. Now of course some of these things can be produced synthetically. So we're able to create peptide therapies that can mimic the endogenous or body peptide."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #470 — Democrats at a Crossroads</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Apr 13 &middot; 22 min</div>
+<p style="margin:10px 0;font-size:14px;">Rahm Emanuel discusses Democratic Party challenges and his potential 2028 presidential run, focusing on the need to shift from nostalgia and identity politics to future-oriented policy. He emphasizes education reform, particularly the science of reading success in Mississippi, while addressing anti-Semitism, Israel-Palestine policy, and U.S.-China relations. Emanuel argues Democrats must abandon cultural war rhetoric, embrace standards and accountability in schools, and refocus on kitchen-table issues that resonated with voters.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Science of reading / phonics-based instruction in K-3 education</span>
+  <span class="topic-tag">Evidence-based reading pedagogy versus whole language methods</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23548/seeing-students-learn-science-integrating-assessment-and-instruction-in-the" target="_blank">Seeing Students Learn Science: Integrating Assessment and Instruction in the Classroom</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13078/learning-science-through-computer-games-and-simulations" target="_blank">Learning Science Through Computer Games and Simulations</a></div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25555/framing-opioid-prescribing-guidelines-for-acute-pain-developing-the-evidence" target="_blank">Framing Opioid Prescribing Guidelines for Acute Pain: Developing the Evidence</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">50% of American children cannot read at grade level - framed as a 30-year low</div>
+<div class="claim">Mississippi moved from 49th to 9th in national reading scores using phonics-based approach; when accounting for demographics, claimed to be beating Massachusetts</div>
+<div class="claim">Mississippi's reading improvement model involved mandated phonics training for all teachers, school-based coaches, standardized testing with multiple attempts, and minimum 1 hour 15 minutes daily reading instruction</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We weren't really good in 2024 when we talked about the kitchen table, the family room. The only room we did well was the bathroom, and it's the smallest room in the house."</div>
+<div class="quote">"The answer wasn't to abandon it, which is what we all did as a country. The answer is how to find that sweet spot where, yes, you have a test. Yes, you have a measure. It's a reflection of whether we're making progress, but it doesn't become the only thing you're doing from an academic standpoint."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: Is there still a gender gap in medical research?</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 14 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines the historical exclusion of women from medical research and the ongoing complications of including sex as a variable in biomedical studies. While the 1993 NIH mandate requiring women's inclusion in federally funded trials was a landmark achievement, the episode explores how the current two-category sex framework in medicine creates problems: it obscures overlaps between sexes (e.g., height distribution), masks diversity within sex categories, and can lead to oversimplified treatments like sex-based drug dosing. The hosts discuss how sex differences in medical outcomes may reflect both biological factors and differential treatment based on gender, emphasizing the need for more nuanced, specific approaches to sex in medical research rather than abandoning the variable entirely.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Sex differences in drug metabolism and pharmacokinetics (zolpidem/Ambien)</span>
+  <span class="topic-tag">Sex-based variations in heart attack symptoms and presentation</span>
+  <span class="topic-tag">Thalidomide teratogenicity and birth defects</span>
+  <span class="topic-tag">Sex as a biological variable in clinical trials</span>
+  <span class="topic-tag">Precision medicine and pharmacogenomics</span>
+  <span class="topic-tag">Drug dosing differences by sex</span>
+  <span class="topic-tag">Overlap in phenotypic traits between sexes (height distribution)</span>
+  <span class="topic-tag">Hormone levels and sex determination (estrogen, testosterone, X chromosomes)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Combating Antimicrobial Resistance and Protecting Modern Medicine</div>
+<div class="nasem-match">Medications for Opioid Use Disorder Save Lives</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23539/electricity-use-in-rural-and-islanded-communities-summary-of-a" target="_blank">Electricity Use in Rural and Islanded Communities: Summary of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective" target="_blank">Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing" target="_blank">Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity" target="_blank">Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials" target="_blank">The Prevention and Treatment of Missing Data in Clinical Trials</a></div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision" target="_blank">Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Women were not required to be included in NIH-funded medical trials until 1993 — verify against NIH historical records</div>
+<div class="claim">Thalidomide caused birth defects in over 12,000 children mainly in Europe starting in late 1950s — verify numbers and geographic scope</div>
+<div class="claim">FDA created a policy in 1977 excluding 'women of childbearing potential' from early drug trials following the thalidomide scandal — verify date and exact policy language</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Women have been seen as either two kind of variable, hormonally noisy and therefore bad sources of data, and or we have just taken a male body as a standard and used that to produce knowledge for everyone."</div>
+<div class="quote">"Metaphorically speaking, our medical system tends to sort people into two buckets, a blue bucket or a pink bucket... But a lot of researchers say that that might cause some problems."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Inside the lives of astronauts’ families</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 14 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Science Friday explores the personal and family experiences of astronauts, comparing the Apollo era to the current Artemis II mission. Dr. Tracy Scott, a sociologist and daughter of Apollo 15 Commander David R. Scott, discusses how space exploration affected astronaut families during the 1960s-70s moonshot era versus today. Key themes include the critical but often unrecognized role of astronauts' spouses, the dramatic shift in perspective astronauts experience when viewing Earth from space, and how the communal focus of the Apollo era contrasts with today's more individualistic culture.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Overview effect / perspective shift from deep space viewing of Earth</span>
+  <span class="topic-tag">Astronaut psychology and human factors in space missions</span>
+  <span class="topic-tag">Historical comparison of Apollo-era versus modern Artemis mission operations</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of" target="_blank">Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28594" target="_blank">A Science Strategy for the Human Exploration of Mars</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going" target="_blank">Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal" target="_blank">A Research Agenda Toward Atmospheric Methane Removal</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Claim: Divorce rate among Apollo-era astronaut families was approximately 80% or higher - should be verified against demographic studies of astronaut families</div>
+<div class="claim">Claim: Apollo astronauts had to know more about flying spacecraft manually than modern astronauts because computers were less sophisticated - accurate but worth contextualizing with modern automation capabilities</div>
+<div class="claim">Claim: The overview effect (perspective shift from seeing Earth in space) was first documented in Apollo era - historically accurate; attributed to astronauts like Rusty Schweickart and Frank Borman</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If you think going to the moon is hard, try staying home. - Barbara Cernan (Apollo astronaut spouse)"</div>
+<div class="quote">"What is most significant about the lunar voyage is not that man set foot on the moon, but that he set eye on Earth. - Norman Cousins"</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Policy Chats: The Craft of Diplomacy: Trust, Negotiation, and U.S. Foreign Policy</span>
+</div>
+<div class="episode-meta">Dori Pham (UC Riverside School of Public Policy) &middot; Apr 13 &middot; 34 min</div>
+<p style="margin:10px 0;font-size:14px;">Ambassador Jeffrey DeLantis discusses his diplomatic career spanning decades, with particular focus on U.S.-Cuba relations and multilateral diplomacy at the United Nations. He emphasizes that building trust with adversaries is fundamental to successful diplomacy, as evidenced by the 2015 normalization of U.S.-Cuba relations after 50+ years of estrangement. DeLantis reflects on the Cuban Missile Crisis, the Obama administration's JCPOA nuclear agreement with Iran, and current U.S.-Iran tensions, arguing throughout that diplomatic engagement and negotiation are preferable to military escalation. He concludes with advice for aspiring diplomats, highlighting emotional intelligence, political instincts, and current awareness as critical skills.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Cuba's economy contracted by 35 percent during the 'special period' following Soviet Union's collapse (1991-1993)</div>
+<div class="claim">Ambassador attributes Iran conflict escalation to abandonment of JCPOA negotiations and diplomatic channels</div>
+<div class="claim">Claims that majority of American people do not support current U.S.-Iran military conflict</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"When the secret negotiations began in the latter part of the first half of 2013, it was just massive distrust of American intentions. And so to build that trust, to begin to have this sort of relationship that you need with interlockers, even adversaries to make any progress, this took a lot of time."</div>
+<div class="quote">"I always think it's better to try and resolve things diplomatically. We did see that achieved during the Obama administration. The Trump administration came in and tore up the agreement, and we're now at war."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">83 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Astronomy (12 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts about Artemis II mission, exoplanet research, galaxy observations, and space debris management.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Medical Research and Public Health (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions of Long COVID funding disparities, HIV remission breakthroughs, and water fluoridation studies.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate and Environmental Science (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Research on afforestation optimization, ecological impacts of climate change, and air quality monitoring.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Biodiversity and Field Biology (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Wildlife surveys, amphibian/reptile observations, and ecological studies of mixed forest systems.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Quantum Computing and Advanced Technology (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage of European quantum computing development and space satellite recycling innovation.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">213 likes &middot; 114 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">Kennedy has not been able to find a competent director to lead the CDC. The last one was Susan Monarez, whom he fired. The courts ruled against his chosen ACIP panel. Casey Means does not have enough votes to be confirmed as Surgeon General.
+
+It's not looking good.
+
+🧪 archive.today/2iSrz</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjfypdwvmc2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">98 likes &middot; 20 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Beautiful pics of the Artemis II astronauts, captured when they arrived on the flight deck of USS John P. Murtha, after returning from space (1/3)
+
+Photos by Petty Officer 2nd Class August Clawson, Explosive Ordnance Disposal Group One
+
+www.dvidshub.net/image/960862... #Artemis 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mjfqgrslds2d" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@natureportfolio.nature.com</div>
+  <div class="bluesky-stats">61 likes &middot; 42 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">A study in Communications Medicine finds that Long COVID’s disability burden rivals that of Alzheimer’s and asthma in the US, but Long COVID receives 14% of its years lived with disability-proportionate funding from the National Institutes of Health. go.nature.com/4v23Nzv #medsky 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/natureportfolio.nature.com/post/3mjgbhzatdu2n" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@lauriewinkless.bsky.social</div>
+  <div class="bluesky-stats">54 likes &middot; 44 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Wear particles from tyres and brakes are far more prevalent and more damaging than you might think. My latest article for @forbes.com digs into some recent research on the impact of non-exhaust emissions 🧪⚛️ 👩🏼‍🔬
+
+www.forbes.com/sites/laurie...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/lauriewinkless.bsky.social/post/3mjg5bcvl522v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@drspacejunk.bsky.social</div>
+  <div class="bluesky-stats">84 likes &middot; 7 reposts &middot; 5 replies</div>
+  <div class="bluesky-text">A small accomplishment for today! I have just passed 2.7 million reads of my articles for The Conversation.
+🧪 @aunz.theconversation.com</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/drspacejunk.bsky.social/post/3mjgthktyz22p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Long COVID Research Funding Disparity</strong>: NASEM can advise on equitable research funding allocation and the need for comprehensive Long COVID research programs given disease burden.</div>
+<div class="nasem-match"><strong>Federal Health Agency Leadership and Scientific Expertise</strong>: NASEM's role in assessing qualifications for scientific leadership positions and advising on CDC director and Surgeon General appointments aligns with posts discussing agency leadership vacancies.</div>
+<div class="nasem-match"><strong>Space Debris and Sustainability in Space Operations</strong>: NASEM can address space sustainability, orbital debris remediation strategies, and policies for responsible space resource management as mentioned in satellite recycling discussions.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 14, 2026 at 11:31 AM | Internal use only
+    </div>
+</body>
+</html>

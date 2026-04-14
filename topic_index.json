@@ -1,7 +1,256 @@
 {
-  "updated": "2026-04-13T11:50:25.360994",
-  "episode_count": 179,
+  "updated": "2026-04-14T11:31:49.637058",
+  "episode_count": 184,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "Inside the lives of astronauts’ families",
+      "host": "Ira Flatow",
+      "published": "2026-04-14T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode of Science Friday explores the personal and family experiences of astronauts, comparing the Apollo era to the current Artemis II mission. Dr. Tracy Scott, a sociologist and daughter of Apollo 15 Commander David R. Scott, discusses how space exploration affected astronaut families during the 1960s-70s moonshot era versus today. Key themes include the critical but often unrecognized role of astronauts' spouses, the dramatic shift in perspective astronauts experience when viewing Earth from space, and how the communal focus of the Apollo era contrasts with today's more individualistic culture.",
+      "science_topics": [
+        "Overview effect / perspective shift from deep space viewing of Earth",
+        "Astronaut psychology and human factors in space missions",
+        "Historical comparison of Apollo-era versus modern Artemis mission operations"
+      ],
+      "claims_to_note": [
+        "Claim: Divorce rate among Apollo-era astronaut families was approximately 80% or higher - should be verified against demographic studies of astronaut families",
+        "Claim: Apollo astronauts had to know more about flying spacecraft manually than modern astronauts because computers were less sophisticated - accurate but worth contextualizing with modern automation capabilities",
+        "Claim: The overview effect (perspective shift from seeing Earth in space) was first documented in Apollo era - historically accurate; attributed to astronauts like Rusty Schweickart and Frank Borman"
+      ],
+      "policy_relevance": [
+        "NASA organizational structure comparison: Apollo-era NASA (5 years old, startup-like, informal) versus modern NASA (more bureaucratic, rule-heavy)",
+        "Artemis II mission as continuation of federal human spaceflight program",
+        "Historical context of JFK's goal to land a man on the moon by end of decade (1960s policy directive)",
+        "Implicit discussion of family support policies for federal employees in high-risk occupations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Earth Science and Applications from Space: A Midterm Assessment of NASA's Implementation of the Decadal Survey",
+          "url": "https://nap.nationalacademies.org/catalog/13405/earth-science-and-applications-from-space-a-midterm-assessment-of"
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "A Science Strategy for the Human Exploration of Mars",
+          "url": "https://nap.nationalacademies.org/catalog/28594"
+        },
+        {
+          "title": "Powering Science: NASA's Large Strategic Science Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24857/powering-science-nasas-large-strategic-science-missions"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Is there still a gender gap in medical research?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-14T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the historical exclusion of women from medical research and the ongoing complications of including sex as a variable in biomedical studies. While the 1993 NIH mandate requiring women's inclusion in federally funded trials was a landmark achievement, the episode explores how the current two-category sex framework in medicine creates problems: it obscures overlaps between sexes (e.g., height distribution), masks diversity within sex categories, and can lead to oversimplified treatments like sex-based drug dosing. The hosts discuss how sex differences in medical outcomes may reflect both biological factors and differential treatment based on gender, emphasizing the need for more nuanced, specific approaches to sex in medical research rather than abandoning the variable entirely.",
+      "science_topics": [
+        "Sex differences in drug metabolism and pharmacokinetics (zolpidem/Ambien)",
+        "Sex-based variations in heart attack symptoms and presentation",
+        "Thalidomide teratogenicity and birth defects",
+        "Sex as a biological variable in clinical trials",
+        "Precision medicine and pharmacogenomics",
+        "Drug dosing differences by sex",
+        "Overlap in phenotypic traits between sexes (height distribution)",
+        "Hormone levels and sex determination (estrogen, testosterone, X chromosomes)"
+      ],
+      "claims_to_note": [
+        "Women were not required to be included in NIH-funded medical trials until 1993 — verify against NIH historical records",
+        "Thalidomide caused birth defects in over 12,000 children mainly in Europe starting in late 1950s — verify numbers and geographic scope",
+        "FDA created a policy in 1977 excluding 'women of childbearing potential' from early drug trials following the thalidomide scandal — verify date and exact policy language",
+        "Congress passed a law in 1993 requiring inclusion of women and people of color in federally funded medical trials — verify legislation name and requirements",
+        "Zolpidem (Ambien) is the first and only drug with FDA-approved sex-based dosing recommendation (2013) — verify uniqueness claim against FDA drug approvals",
+        "Women are prescribed drugs at higher rates and prescribed more drugs simultaneously than men — cite source studies",
+        "Women tend to visit doctors more frequently than men — cite epidemiological studies",
+        "Studies show women with chest pain are seen by doctors later than men with same symptoms — verify recent studies mentioned as 'this year'"
+      ],
+      "policy_relevance": [
+        "NIH mandate (1993) requiring inclusion of women and people of color in federally funded biomedical research",
+        "FDA policy (1977) excluding women of childbearing potential from early-phase drug trials (thalidomide-related)",
+        "FDA approval of sex-differentiated dosing for zolpidem (2013)",
+        "Suggestion to extend inclusion requirements to FDA-regulated studies, not just NIH-funded research",
+        "Congressional action in 1990s responding to activist protests about women's exclusion from medical research"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Reassessment of the Department of Veterans Affairs Airborne Hazards and Open Burn Pit Registry",
+          "url": "https://nap.nationalacademies.org/catalog/26729/reassessment-of-the-department-of-veterans-affairs-airborne-hazards-and-open-burn-pit-registry"
+        },
+        {
+          "title": "Electricity Use in Rural and Islanded Communities: Summary of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23539/electricity-use-in-rural-and-islanded-communities-summary-of-a"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "title": "Transforming the Workforce for Children Birth Through Age 8: A Unifying Foundation",
+          "url": "https://nap.nationalacademies.org/catalog/19401/transforming-the-workforce-for-children-birth-through-age-8-a"
+        },
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "A National Cancer Clinical Trials System for the 21st Century: Reinvigorating the NCI Cooperative Group Program",
+          "url": "https://nap.nationalacademies.org/catalog/12879/a-national-cancer-clinical-trials-system-for-the-21st-century"
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Relevance of Health Literacy to Precision Medicine: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23592/relevance-of-health-literacy-to-precision-medicine-proceedings-of-a"
+        }
+      ]
+    },
+    {
+      "podcast_id": "policy-chats",
+      "podcast_name": "Policy Chats",
+      "episode_title": "The Craft of Diplomacy: Trust, Negotiation, and U.S. Foreign Policy",
+      "host": "Dori Pham (UC Riverside School of Public Policy)",
+      "published": "2026-04-13T20:17:23",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "Ambassador Jeffrey DeLantis discusses his diplomatic career spanning decades, with particular focus on U.S.-Cuba relations and multilateral diplomacy at the United Nations. He emphasizes that building trust with adversaries is fundamental to successful diplomacy, as evidenced by the 2015 normalization of U.S.-Cuba relations after 50+ years of estrangement. DeLantis reflects on the Cuban Missile Crisis, the Obama administration's JCPOA nuclear agreement with Iran, and current U.S.-Iran tensions, arguing throughout that diplomatic engagement and negotiation are preferable to military escalation. He concludes with advice for aspiring diplomats, highlighting emotional intelligence, political instincts, and current awareness as critical skills.",
+      "science_topics": [],
+      "claims_to_note": [
+        "Cuba's economy contracted by 35 percent during the 'special period' following Soviet Union's collapse (1991-1993)",
+        "Ambassador attributes Iran conflict escalation to abandonment of JCPOA negotiations and diplomatic channels",
+        "Claims that majority of American people do not support current U.S.-Iran military conflict",
+        "States that oil and energy prices have risen as a result of Iran conflict"
+      ],
+      "policy_relevance": [
+        "U.S.-Cuba diplomatic normalization (2014-2015) under Obama administration",
+        "JCPOA (Joint Comprehensive Plan of Action) nuclear agreement with Iran negotiated under Obama administration; withdrawn by Trump administration in 2017",
+        "U.S. diplomatic corps staffing losses mentioned under current administration",
+        "Cuban Missile Crisis (1962) referenced as near-nuclear exchange crisis",
+        "Kennedy administration speech at American University (June 10, 1963) on U.S.-Soviet relations",
+        "Current U.S.-Israel military strikes on Iran and regional escalation",
+        "United Nations Security Council and General Assembly negotiations",
+        "National Security Council role in major foreign policy decisions",
+        "State Department and assistant secretary positions in foreign policy decision-making"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#470 — Democrats at a Crossroads",
+      "host": "Sam Harris",
+      "published": "2026-04-13T17:55:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Rahm Emanuel discusses Democratic Party challenges and his potential 2028 presidential run, focusing on the need to shift from nostalgia and identity politics to future-oriented policy. He emphasizes education reform, particularly the science of reading success in Mississippi, while addressing anti-Semitism, Israel-Palestine policy, and U.S.-China relations. Emanuel argues Democrats must abandon cultural war rhetoric, embrace standards and accountability in schools, and refocus on kitchen-table issues that resonated with voters.",
+      "science_topics": [
+        "Science of reading / phonics-based instruction in K-3 education",
+        "Evidence-based reading pedagogy versus whole language methods"
+      ],
+      "claims_to_note": [
+        "50% of American children cannot read at grade level - framed as a 30-year low",
+        "Mississippi moved from 49th to 9th in national reading scores using phonics-based approach; when accounting for demographics, claimed to be beating Massachusetts",
+        "Mississippi's reading improvement model involved mandated phonics training for all teachers, school-based coaches, standardized testing with multiple attempts, and minimum 1 hour 15 minutes daily reading instruction",
+        "Whole language reading instruction method attributed to a Columbia University professor 25 years prior, claimed to lack scientific basis",
+        "States adopting comprehensive Mississippi model (Mississippi, Louisiana, Tennessee, Alabama) saw rapid reading score increases",
+        "77% of Democrats believe Israel committed genocide in Gaza; only 11% disagree (polling claim requiring verification)"
+      ],
+      "policy_relevance": [
+        "Democratic Party's approach to standards and accountability in K-12 education; Emanuel criticizes abandonment of measurement frameworks post-No Child Left Behind",
+        "Education policy: phonics-based science of reading as potential national model",
+        "Title IX athletics policy and Democrats' position on transgender participation in school sports",
+        "Israeli-Palestinian peace process and U.S. diplomatic role; references Oslo Accords, Camp David, Abraham Accords",
+        "U.S.-China relations and Indo-Pacific strategy; mentions withdrawal of THAAD systems from South Korea and aircraft carrier from Okinawa",
+        "Iran nuclear negotiations and claimed missed diplomatic opportunity",
+        "Anti-Semitism as policy/political issue; rising prevalence linked to speech norms and political permission structures"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Seeing Students Learn Science: Integrating Assessment and Instruction in the Classroom",
+          "url": "https://nap.nationalacademies.org/catalog/23548/seeing-students-learn-science-integrating-assessment-and-instruction-in-the"
+        },
+        {
+          "title": "Learning Science Through Computer Games and Simulations",
+          "url": "https://nap.nationalacademies.org/catalog/13078/learning-science-through-computer-games-and-simulations"
+        },
+        {
+          "title": "Sharing the Adventure with the Student: Exploring the Intersections of NASA Space Science and Education: A Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21751/sharing-the-adventure-with-the-student-exploring-the-intersections-of"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Framing Opioid Prescribing Guidelines for Acute Pain: Developing the Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/25555/framing-opioid-prescribing-guidelines-for-acute-pain-developing-the-evidence"
+        },
+        {
+          "title": "Evidence-Based Practice for Public Health Emergency Preparedness and Response",
+          "url": "https://nap.nationalacademies.org/catalog/25650/evidence-based-practice-for-public-health-emergency-preparedness-and-response"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -174,6 +423,98 @@
         {
           "title": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
           "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of"
+        }
+      ]
+    },
+    {
+      "podcast_id": "peter-attia-drive",
+      "podcast_name": "The Peter Attia Drive",
+      "episode_title": "#387 - AMA #83: Peptides—evaluating the science, safety, and hype in a rapidly growing field",
+      "host": "Peter Attia, MD",
+      "published": "2026-04-13T04:15:00",
+      "influence_tier": "high",
+      "category": "science_health_influencer",
+      "summary": "Peter Attia discusses peptides as a category spanning from FDA-approved therapeutics (insulin, GLP-1) to unapproved gray-market compounds popular in biohacking and longevity communities. The episode aims to provide a framework for evaluating peptides by examining mechanism of action, safety data, efficacy in humans, risk-benefit analysis, and availability of approved alternatives. Attia emphasizes that peptides themselves are not inherently problematic—the issue is the lack of regulatory oversight and scientific evidence for many popular compounds being marketed for longevity, tissue repair, and performance enhancement.",
+      "science_topics": [
+        "Peptide biochemistry and structure (amino acid chains, short vs. long chain peptides)",
+        "Insulin therapy and type 1 diabetes treatment",
+        "GLP-1 agonists for metabolic and weight management",
+        "SS31 (elamipretide) mechanism and mitochondrial function",
+        "Melanotan-2 and melanocortin receptor signaling",
+        "CJC-1295 and growth hormone-releasing peptide pathways",
+        "BPC-157 (body protection compound-157) proposed mechanisms",
+        "Peptide pharmacokinetics: absorption, oral bioavailability, and digestive breakdown",
+        "FDA drug approval processes and regulatory pathways",
+        "Patent incentives in pharmaceutical development",
+        "Third-party testing limitations for peptide purity and quality"
+      ],
+      "claims_to_note": [
+        "Fewer than 3% of FDA-approved drugs lack an understood mechanism of action—presented as general standard but should be verified against current FDA databases",
+        "Insulin was discovered approximately 100 years ago and initially sourced from animal pancreases before synthetic production—historically accurate claim",
+        "Tylenol (acetaminophen) mechanism of action remains unknown—partially accurate; mechanism involves COX inhibition but full mechanisms debated",
+        "Lithium mechanism for cognitive effects is unknown—partially accurate; speculated mechanisms exist but not fully understood",
+        "GLP-1 drugs are not exact replicas of natural GLP-1 peptide—accurate; most are modified versions with longer half-lives",
+        "Gray-market peptides are marketed as 'research use only' to circumvent FDA regulations—accurate description of current market practices",
+        "BPC-157 has animal evidence but limited human trial data—should be verified against current clinical trial registries",
+        "Most popular unapproved peptides (SS31, Melanotan-2, CJC-1295, BPC-157) lack FDA approval for marketed uses—accurate"
+      ],
+      "policy_relevance": [
+        "FDA approval status and regulatory pathways for peptide therapeutics vs. gray-market compounds",
+        "FDA oversight of peptides marketed as 'research use only' and regulatory gray areas",
+        "Distinction between FDA-approved peptide drugs and unapproved peptides in the biohacking/longevity market",
+        "Patent incentives and their role in why some compounds do or don't advance through clinical development pipelines",
+        "Manufacturing and quality control standards for gray-market peptides",
+        "Third-party testing and purity verification limitations for unregulated peptide products",
+        "Future regulatory pathways for peptide therapeutics in various medical areas"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Chemistry of Fires at the Wildland-Urban Interface",
+          "url": ""
+        },
+        {
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Toward Precision Medicine: Building a Knowledge Network",
+          "url": ""
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Knowledge Management at State Departments of Transportation: Research Roadmap",
+          "url": "https://nap.nationalacademies.org/catalog/28598/knowledge-management-at-state-departments-of-transportation-research-roadmap"
+        },
+        {
+          "title": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27473/greenhouse-gas-emissions-from-wildland-fires-toward-improved-monitoring-modeling"
+        },
+        {
+          "title": "Practices for Transportation Agency Procurement and Management of Advanced Technologies",
+          "url": "https://nap.nationalacademies.org/catalog/29072/practices-for-transportation-agency-procurement-and-management-of-advanced-technologies"
+        },
+        {
+          "title": "Software Update as a Mechanism for Resilience and Security: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24833/software-update-as-a-mechanism-for-resilience-and-security-proceedings"
+        },
+        {
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march"
+        },
+        {
+          "title": "Call to Action for Science Education: Building Opportunity for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26152/call-to-action-for-science-education-building-opportunity-for-the"
         }
       ]
     },
