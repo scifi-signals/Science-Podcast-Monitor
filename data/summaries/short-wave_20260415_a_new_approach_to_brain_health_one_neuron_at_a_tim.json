@@ -1,0 +1,606 @@
+{
+  "podcast_id": "short-wave",
+  "podcast_name": "Short Wave",
+  "episode_title": "A new approach to brain health, one neuron at a time",
+  "host": "Emily Kwong, Regina Barber",
+  "published": "2026-04-15T07:00:00",
+  "episode_url": "https://www.npr.org/2026/04/15/nx-s1-5744990/brain-motion-stroke-paralysis",
+  "duration_minutes": 13.3,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode explores brain-machine interfaces and neural recovery mechanisms through the research of Paul Nijukian at Stanford's Brain Interfacing Lab. After initially developing brain implants for paralyzed patients proved commercially unviable, Nijukian pivoted to studying stroke recovery by measuring activity in individual neurons in monkey brains. Using surgically implanted electrodes to record single-neuron activity, his lab discovered that the brain exhibits specific neural signatures during injury and recovery that could eventually be used to monitor and treat stroke patients. The research suggests that understanding single-neuron dynamics rather than aggregate brain activity may be key to developing more effective treatments for neurological diseases.",
+  "science_topics": [
+    "Brain-machine interfaces",
+    "Single-neuron recording and measurement",
+    "Stroke pathophysiology and neural recovery",
+    "Cerebral blood flow interruption",
+    "Neural plasticity after brain injury",
+    "Tetraplegia rehabilitation technologies",
+    "Microelectrode implantation techniques",
+    "Motor cortex function and reaching task performance"
+  ],
+  "claims_to_note": [
+    "One in four adults are predicted to have a stroke in their lifetime according to the World Health Organization — verify against current WHO epidemiological data",
+    "The brain exhibits recovery of neuronal activity within days to a week after small focal injuries in the studied animal model",
+    "Current clinical practice for brain disease treatment relies on downstream proxies rather than direct neural recording, compared analogously to treating diabetes without measuring blood sugar",
+    "No currently FDA-approved medical devices measure individual neurons for routine clinical treatment of brain disease"
+  ],
+  "policy_relevance": [
+    "FDA approval pathways for brain-machine interface medical devices",
+    "Off-label use of approved medical devices for treating different neurological conditions",
+    "Commercial viability challenges for medical devices targeting low-prevalence conditions (paralysis/tetraplegia)",
+    "Investment economics in neurotechnology development — hundreds of millions of dollars required for commercialization",
+    "Regulatory framework for implantable neural recording devices"
+  ],
+  "key_quotes": [
+    "If I wanted to help these individuals, if I wanted to see my work make it past the finish line, I would have to go after bigger problems in brain disease. Meaning problems affecting more people.",
+    "In order to advance brain disease treatment, to develop the most sophisticated brain machine interfaces, we got to get into the stands with the microphone to hear those individual conversations between neurons.",
+    "We don't record the brain to treat brain disease. Instead, what we've been doing up until this point is studying proxies, downstream effects of that brain injury. I liken it to treating diabetes... And that's sort of where we are right now in brain diseases."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Brain-machine interfaces",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Single-neuron recording and measurement",
+      "publications": [
+        {
+          "id": "27130",
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "state transportation agencies",
+            "risks quantify risks",
+            "extreme weather risks",
+            "increasingly becoming important",
+            "transportation agencies",
+            "assess risks",
+            "appropriate tools",
+            "use tools",
+            "implemented",
+            "demonstrate",
+            "measurement",
+            "transportation asset management",
+            "techniques",
+            "conduct",
+            "risk"
+          ],
+          "description": "\"The assessment of climatic and extreme weather risks is increasingly becoming important to the operation of transportation agencies. There are easy-to-use tools and techniques that can be implemented by agencies. [This report] discusses how to assess risks and summarizes 12 studies that demonstrate how to enhance the measurement of risks, quantify risks, and better link risk management processes with the appropriate tools.\"--Publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "State transportation agencies"
+          ]
+        },
+        {
+          "id": "27170",
+          "title": "Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned",
+          "url": "https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "nature",
+            "mexico communities particularly vulnerable",
+            "individuals families communities",
+            "prolonged disaster recovery",
+            "increasing disaster risk",
+            "unprecedented public health",
+            "global covid pandemic",
+            "weather climate hazards",
+            "acute weather events",
+            "seven major hurricanes",
+            "single disaster",
+            "gulf coast communities",
+            "compounding disasters",
+            "lessons learned",
+            "impacts"
+          ],
+          "description": "Experiencing a single disaster - a hurricane, tornado, flood, severe winter storm, or a global pandemic - can wreak havoc on the lives and livelihoods of individuals, families, communities and entire regions. For many people who live in communities in the U.S. Gulf of Mexico region, the reality of disaster is starker. Endemic socioeconomic and health disparities have made many living in Gulf of Mexico communities particularly vulnerable to the effects of weather-climate hazards. Prolonged disaster recovery and increasing disaster risk is an enduring reality for many living in Gulf of Mexico communities. Between 2020 and 2021, seven major hurricanes and a severe winter storm affected communities across the region. As a backdrop to these acute weather events, the global COVID-19 pandemic was unfolding, producing a complex and unprecedented public health and socioeconomic crisis. Traditionally, the impacts of disasters are quantified individually and often in economic terms of property da",
+          "year": 2024,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Gulf Health and Resilience Board"
+        },
+        {
+          "id": "26050",
+          "title": "Options for Reducing Lead Emissions from Piston-Engine Aircraft",
+          "url": "https://nap.nationalacademies.org/catalog/26050/options-for-reducing-lead-emissions-from-piston-engine-aircraft",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "aircraft exhaust emissions",
+            "small gasoline powered aircraft",
+            "entire gasoline powered flee",
+            "significantly reducing lead emissions",
+            "federal aviation administration faa",
+            "aircraft manufacturers according",
+            "unleaded aviation fuel",
+            "aviation gasoline",
+            "negative health effects",
+            "single largest emitter",
+            "major emission sources",
+            "reducing lead emissions",
+            "piston engine aircraft",
+            "options"
+          ],
+          "description": "Small gasoline-powered aircraft are the single largest emitter of lead in the United States, as other major emission sources such as automobile gasoline have been previously addressed. A highly toxic substance that can result in an array of negative health effects in humans, lead is added to aviation gasoline to meet the performance and safety requirements of a sizable portion of the country’s gasoline-powered aircraft. Significantly reducing lead emissions from gasoline-powered aircraft will require the leadership and strategic guidance of the Federal Aviation Administration (FAA) and a broad-based and sustained commitment by other government agencies and the nation’s pilots, airport managers, aviation fuel and service suppliers, and aircraft manufacturers, according to a congressionally mandated report from the National Academies of Sciences, Engineering, and Medicine. While efforts are underway to develop an unleaded aviation fuel that can be used by the entire gasoline-powered flee",
+          "year": 2021,
+          "page_keywords": [
+            "Aircraft exhaust emissions"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on Lead Emissions from P"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Stroke pathophysiology and neural recovery",
+      "publications": [
+        {
+          "id": "18996",
+          "title": "Healthy, Resilient, and Sustainable Communities After Disasters: Strategies, Opportunities, and Planning for Recovery",
+          "url": "https://nap.nationalacademies.org/catalog/18996/healthy-resilient-and-sustainable-communities-after-disasters-strategies-opportunities-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nuclear",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "disaster recovery process offers",
+            "overburdened health systems",
+            "help communities recover",
+            "critical recovery needs",
+            "rhetoric often characterizes",
+            "care delivery systems",
+            "pre event conditions",
+            "short sighted given",
+            "poor health",
+            "social services",
+            "sustainable communities",
+            "healthy resilient",
+            "opportunities",
+            "disasters",
+            "planning",
+            "recovery"
+          ],
+          "description": "In the devastation that follows a major disaster, there is a need for multiple sectors to unite and devote new resources to support the rebuilding of infrastructure, the provision of health and social services, the restoration of care delivery systems, and other critical recovery needs. In some cases, billions of dollars from public, private and charitable sources are invested to help communities recover. National rhetoric often characterizes these efforts as a \"return to normal.\" But for many American communities, pre-disaster conditions are far from optimal. Large segments of the U.S. population suffer from preventable health problems, experience inequitable access to services, and rely on overburdened health systems. A return to pre-event conditions in such cases may be short-sighted given the high costs - both economic and social - of poor health. Instead, it is important to understand that the disaster recovery process offers a series of unique and valuable opportunities to improv",
+          "year": 2015,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "10061",
+          "title": "Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas",
+          "url": "https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "infectious-disease",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "political science",
+            "comprehensive everglades restoration plan",
+            "major water storage component",
+            "upper floridan aquifer ufa",
+            "longer term dry periods",
+            "recovery during seasonal",
+            "excess surface water",
+            "total estimated cost",
+            "aquifer storage",
+            "pilot projects",
+            "recovery asr",
+            "western hillsboro areas",
+            "lake okeechobee",
+            "recovery",
+            "critique",
+            "plans"
+          ],
+          "description": "Aquifer storage and recovery (ASR) is a process by which water is recharged through wells to an aquifer and extracted for beneficial use at some later time from the same wells. ASR is proposed as a major water storage component in the Comprehensive Everglades Restoration Plan (CERP), developed jointly by the U.S. Army Corps of Engineers (USACE) and the South Florida Water Management District (SFWMD). The plan would use the Upper Floridan aquifer (UFA) to store as much as 1.7 billion gallons per day (gpd) (6.3 million m3/day) of excess surface water and shallow groundwater during wet periods for recovery during seasonal or longer-term dry periods, using about 333 wells. ASR represents about one-fifth of the total estimated cost of the CERP. Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan examines pilot project from the perspective of adaptive assessment, i.e., the extent to which the pilot projects will contribute to process understanding that can improve d",
+          "year": 2001,
+          "page_keywords": [
+            "Political Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "23589",
+          "title": "Measuring Recovery from Substance Use or Mental Disorders: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23589/measuring-recovery-from-substance-use-or-mental-disorders-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "mental health services administration",
+            "participants discussed options",
+            "substance abuse",
+            "mental disorders",
+            "collecting data",
+            "include measures",
+            "explore options",
+            "producing estimates",
+            "substance use",
+            "recovery",
+            "measuring recovery"
+          ],
+          "description": "In February 2016, the National Academies of Sciences, Engineering, and Medicine held a workshop to explore options for expanding the Substance Abuse and Mental Health Services Administration's (SAMHSA) behavioral health data collections to include measures of recovery from substance use and mental disorder. Participants discussed options for collecting data and producing estimates of recovery from substance use and mental disorders, including available measures and associated possible data collection mechanisms. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Cerebral blood flow interruption",
+      "publications": [
+        {
+          "id": "11269",
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cord blood program",
+            "umbilical cord blood",
+            "cord blood units",
+            "hematopoietic progenitor cell hpc",
+            "stem cell transplantation",
+            "stem cell transplants",
+            "stem cell technology",
+            "blood banks already",
+            "economics public heal",
+            "adult bone marrow",
+            "stem cell",
+            "cord blood",
+            "establishing"
+          ],
+          "description": "With the potential for self-renewal and differentiation, the possibilities for stem cells are enormous. One specific type of stem cell, the hematopoietic progenitor cell (HPC), which is derived from umbilical cord blood (as well as adult bone marrow and mobilized peripheral blood), holds particular promise. To make the most of these HPCs, the Institute of Medicine was asked to consider the optimal structure for a national cord blood program and to address pertinent issues related to maximizing the potential of stem cell technology. Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program examines: The role of cord blood in stem cell transplantation The current status of blood banks already in existence The optimal structure for the cord blood program The current use and utility of cord blood for stem cell transplants The best way to advance the use of cord blood units and make them available for research Expert advice from leaders in the fields of economics, public heal",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "25615",
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "primary surface water supplies",
+            "water table quantitative evaluation",
+            "already experiencing water stress",
+            "groundwater resources increasing",
+            "groundwater storage flow",
+            "arid regions groundwater",
+            "accessible water supply",
+            "direct ground observations",
+            "groundwater sources",
+            "groundwater models",
+            "remotely sensed data",
+            "groundwater recharge",
+            "challenges",
+            "monitoring",
+            "modeling",
+            "flow"
+          ],
+          "description": "Water of appropriate quantity and quality is essential for drinking, sanitation, and food, energy, and industrial production for any society and is derived for most needs from surface- or groundwater sources. Studies suggest that groundwater use in irrigation globally is increasing in total volume as well as a percentage of all water used for irrigation, with the demand for groundwater resources increasing as available primary surface water supplies are depleted. Particularly in arid regions, groundwater may be the most accessible water supply for any purpose, leaving groundwater withdrawals concentrated in areas that are already experiencing water stress. Even in the presence of direct ground observations and measurements of the water table, quantitative evaluation of groundwater storage, flow, or recharge at different scales requires remotely sensed data and observations applied to groundwater models. Resolving the interaction of groundwater storage, flow, and recharge at a scale at ",
+          "year": 2020,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Water Science and Technology Board"
+        },
+        {
+          "id": "26156",
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "offer pfas blood testing",
+            "non stick cookware water",
+            "polyfluoroalkyl substances pfas",
+            "fire fighting foam because",
+            "water reduce friction",
+            "resist temperature changes",
+            "stain repellent fabrics",
+            "made used disposed",
+            "adverse health effects",
+            "pfas exposure",
+            "pfas exposure testing",
+            "clinical follow",
+            "guidance"
+          ],
+          "description": "In thousands of communities across the United States, drinking water is contaminated with chemicals known as perfluoroalkyl and polyfluoroalkyl substances (PFAS). PFAS are used in a wide range of products, such as non-stick cookware, water and stain repellent fabrics, and fire-fighting foam, because they have properties that repel oil and water, reduce friction, and resist temperature changes. PFAS can leak into the environment where they are made, used, disposed of, or spilled. PFAS exposure has been linked to a number of adverse health effects including certain cancers, thyroid dysfunction, changes in cholesterol, and small reductions in birth weight. This report recommends that the Centers for Disease Control and Prevention (CDC) update its clinical guidance to advise clinicians to offer PFAS blood testing to patients who are likely to have a history of elevated exposure, such as those with occupational exposures or those who live in areas known to be contaminated. If testing reveal",
+          "year": 2022,
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on the Guidance on PFAS "
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Neural plasticity after brain injury",
+      "publications": [
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        },
+        {
+          "id": "1785",
+          "title": "Discovering the Brain",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "cognitive",
+            "neural",
+            "mind"
+          ]
+        },
+        {
+          "id": "25394",
+          "title": "Traumatic Brain Injury: A Roadmap for Accelerating Progress",
+          "url": "https://nap.nationalacademies.org/catalog/25394/traumatic-brain-injury-a-roadmap-for-accelerating-progress",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "traumatic brain injury tbi",
+            "occur following injury",
+            "amateur sports associations",
+            "criminal justice system",
+            "provide regulatory approval",
+            "overall tbi ecosystem",
+            "community organizations",
+            "physiological cognitive",
+            "accelerating progress",
+            "injuries across",
+            "traumatic brain injury",
+            "roadmap"
+          ],
+          "description": "Every community is affected by traumatic brain injury (TBI). Causes as diverse as falls, sports injuries, vehicle collisions, domestic violence, and military incidents can result in injuries across a spectrum of severity and age groups. Just as the many causes of TBI and the people who experience it are diverse, so too are the physiological, cognitive, and behavioral changes that can occur following injury. The overall TBI ecosystem is not limited to healthcare and research, but includes the related systems that administer and finance healthcare, accredit care facilities, and provide regulatory approval and oversight of products and therapies. TBI also intersects with the wide range of community organizations and institutions in which people return to learning, work, and play, including the education system, work environments, professional and amateur sports associations, the criminal justice system, and others. Traumatic Brain Injury: A Roadmap for Accelerating Progress examines the c",
+          "year": 2022,
+          "committee": "Board on Health Care Services"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 2132,
+  "saved_at": "2026-04-15T11:57:38.466633"
+}

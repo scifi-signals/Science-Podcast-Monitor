@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 15, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 15, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">50</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">25</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">84</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing highlights significant advances in neuroscience and planetary science alongside critical historical research ethics lessons. Stanford's single-neuron recording approach for stroke recovery represents a methodological shift toward precision intervention rather than aggregate monitoring, paralleling discoveries in dolphin communication that reveal sophisticated vocal learning mechanisms. The OSIRIS-REx asteroid sample return from Bennu has yielded prebiotic organic compounds including 14-15 of 20 amino acids necessary for life, strengthening the case for panspermia-related research directions. However, the Science Magazine Podcast's historical examination of NIH's Normal Control Volunteer Program (1950s-1980s) documents ethical failures—including intentional infections on prisoners and the death of a nursing student—that remain relevant to current human subjects protections. Microplastics anxiety continues to outpace evidence, with toxicological data suggesting inhalation rather than ingestion as the primary exposure route. Recurring themes across the past week include biological variability (sex-based drug metabolism, neuronal heterogeneity), precision measurement methodologies, and space exploration's continued yield of Earth-origin biosignature insights.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Precision measurement and individual-level variation: Single-neuron recording (stroke recovery), individual dolphin signature whistles, and amino acid detection in asteroid samples all emphasize moving beyond aggregate/population-level data toward granular understanding</li>
+<li>Early solar system chemistry and prebiotic molecules: Asteroid Bennu amino acids, volatile compounds, and evaporite minerals connect to long-standing questions about life's chemical origins</li>
+<li>Animal communication as window into cognition: Dolphin motherese-like frequency modulation and signature whistles parallel human language development, informing neuroscience and cognitive biology</li>
+<li>Human research ethics and vulnerable populations: Historical NIH abuses of incarcerated individuals and insufficiently protected volunteers remain relevant to contemporary informed consent and equity discussions</li>
+<li>Evidence-based skepticism of public health anxieties: Microplastics exposure and detergent pods exemplify cases where behavioral responses outpace scientific evidence, creating iatrogenic harm (hand-washing dishes versus machine efficiency)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Single-neuron dynamics as therapeutic target: Neural recording at individual-neuron resolution for stroke monitoring and intervention—represents shift from fMRI/EEG aggregate approaches; extends recent week's focus on biological variability</li>
+<li>Asteroid samples as biosignature library: Bennu's 14-15 amino acids and ribose detection reignite panspermia and exoplanetary habitability research; complements concurrent Artemis II lunar imagery engagement on Bluesky</li>
+<li>Microplastics communication gap: Toxicological consensus (inhalation > ingestion, dose-response matters) conflicts with consumer anxiety and greenwashing; represents growing pattern of risk perception misalignment—also seen in vaccine hesitancy, fracking health effects discussions from past week</li>
+<li>Marine mammal vocal learning as comparative model: Dolphin signature whistles and motherese suggest non-human vertebrates exhibit language-like learning mechanisms; bridges marine biology and developmental neuroscience</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission or workshop on single-neuron recording technologies and clinical translation: Stanford's stroke recovery work represents precision medicine frontier; NASEM could assess regulatory pathways, standardization needs, and clinical evidence gaps for neural implant safety and efficacy</div>
+<div class="opportunity">Historical research ethics symposium or report: The NIH Normal Control Volunteer Program history offers teachable moment about vulnerable population protections, equity in research, and institutional oversight; timely for federal research enterprise accountability</div>
+<div class="opportunity">Convene experts on microplastics risk communication: Bridge toxicological evidence and public perception; address greenwashing and behavioral inadvertent harms; coordinate with EPA, CDC, and consumer protection agencies on consistent messaging</div>
+<div class="opportunity">Asteroid sample science policy brief: OSIRIS-REx results and planned sample distribution raise questions about access equity, international collaboration frameworks, and long-term curation standards for extraterrestrial material—relevant to Artemis program planning</div>
+<div class="opportunity">Marine mammal cognition and communication research agenda: Dolphin vocal learning provides non-invasive model for comparative neuroscience; NASEM could recommend funding priorities and ethical frameworks for cetacean research given intelligence/sentience implications</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">WHO stroke prevalence claim (1 in 4 adults): Short Wave episode cites WHO prediction; verify current epidemiological estimates—this may conflate lifetime risk, annual incidence, or projected population-level rates</div>
+<div class="claim">PVA biodegradation consensus: Unbiased Science episode presents high-efficiency wastewater treatment breakdown as established fact, but cites critical 2021 study as relying solely on computer modeling without experimental validation—ensure listeners understand uncertainty in PVA environmental fate</div>
+<div class="claim">Microplastics inhalation as 'primary route': Both Unbiased Science hosts present air exposure dominance as settled science; this reflects emerging consensus but toxicological burden of disease estimates remain uncertain and context-dependent (occupational vs. ambient)</div>
+<div class="claim">Bennu impact probability framing: StarTalk states '1 in 2700 chance' for 2182 impact—accurate per NASA, but 156 years timeframe and low magnitude should be contextualized to avoid catastrophism; risk communication clarity needed</div>
+<div class="claim">NIH LSD and prisoner infection experiments framing: Science Magazine Podcast's historical account is factually grounded but may inadvertently suggest current NIH oversight is equally compromised—clarify that post-Belmont regulatory reforms substantially strengthened protections</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender as Biological Variables in Clinical Research</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on the recognition that sex differences fundamentally affect drug metabolism, disease presentation, and clinical outcomes, yet traditional research often treats participants as undifferentiated. Short Wave covered sex-based variations in zolpidem metabolism and heart attack symptom presentation (2026-04-14), while The Peter Attia Drive discussed GLP-1 agonists and metabolic therapies (2026-04-13) and Huberman Lab examined estrogen receptor signaling in aggression circuits (2026-04-09). This represents a shift from treating sex as a demographic checkbox to understanding it as a core biological variable affecting mechanistic research design.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize guidance on standardizing sex-as-a-biological-variable reporting across NIH-funded research and clinical trial design to improve therapeutic efficacy and safety for all populations.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Biobarriers and Drug Delivery: From Gut to Brain</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">A thematic cluster has emerged around cellular and physiological barriers—tight junctions, blood-brain barrier, and leaky gut—as both obstacles and opportunities for therapeutic intervention. Unbiased Science explored leaky gut and tight junction integrity (2026-04-15), Short Wave discussed pelvic floor physiology and gut-brain axis via vagus nerve (2026-04-13), and Nature Podcast highlighted exosome-based delivery systems crossing the blood-brain barrier for retinoblastoma treatment (2026-04-08). Shows are framing barrier biology as the critical frontier for next-generation drug design rather than a limitation.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene working groups on barrier physiology standardization and non-invasive delivery mechanisms, as this knowledge gap is slowing translation of neuropharmaceuticals and GI therapeutics.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Extraterrestrial Materials and Prebiotic Chemistry</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">StarTalk Radio has aired two episodes spotlighting amino acids and volatile compounds detected in asteroid samples (Bennu mission finding 14-15 of 20 essential amino acids, 2026-04-14) and cosmological composition (2026-04-10), while Nature Podcast covered lunar geology and impact processes (2026-04-10). Shows are moving beyond cataloging space samples to interpreting them as direct evidence of prebiotic chemical pathways, reframing astrobiology as an empirical rather than speculative science.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish interdisciplinary panels on astrobiology sample analysis standards and life-detection frameworks to prepare for imminent analysis of lunar and asteroid-returned materials.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Reproducibility and Research Integrity Across Disciplines</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday has emerged as the primary venue for discussing replication crises and methodological rigor, covering the replication crisis in social science, data sharing barriers, and coding errors in quantitative analysis (2026-04-11). This follows broader epistemological concerns evident in coverage of animal cognition (chimpanzee behavior on Science Magazine Podcast, 2026-04-09) and marine mammal communication (dolphin signature whistles on Science Friday, 2026-04-15), where observer bias and measurement validity are proving contentious.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize a cross-disciplinary assessment of reproducibility metrics, particularly in behavioral and computational sciences, and issue guidance on pre-registration and open data standards.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neurobiology of Addiction and Appetite as Integrated Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday and The Peter Attia Drive are converging on the concept that addiction and metabolic regulation share overlapping neural circuits and pharmacological targets. Science Friday examined GLP-1 agonists in addiction, nucleus accumbens function, and blood-brain barrier changes in alcohol use disorder (2026-04-09), while The Peter Attia Drive discussed GLP-1 mechanism in weight management and insulin therapy (2026-04-13). This unified framing suggests addiction medicine and metabolic disease represent expressions of the same underlying circuit dysfunction.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a study on whether GLP-1 therapeutics should be repositioned as dual-indication treatments and develop clinical frameworks for treating addiction and metabolic disease as co-morbid circuit disorders.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Secrets of Asteroid Bennu with Harold Connolly Jr.</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Apr 14 &middot; 73 min</div>
+<p style="margin:10px 0;font-size:14px;">Neil deGrasse Tyson interviews Harold Connolly Jr., mission sample scientist for NASA's OSIRIS-REx asteroid sample return mission, to discuss findings from samples collected from asteroid Bennu. The conversation explores how asteroids preserve pristine records of early solar system chemistry, including prebiotic organic compounds, volatile materials, and minerals that may have seeded life on Earth. The episode emphasizes the importance of geological context in interpreting extraterrestrial samples and discusses the collaborative nature of modern planetary science, while addressing the small but non-zero risk of Bennu impacting Earth in 2182.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Carbonaceous chondrite meteorites and their composition</span>
+  <span class="topic-tag">Volatile compounds in asteroids (water, ammonia, carbon dioxide)</span>
+  <span class="topic-tag">Amino acids in asteroid samples (14-15 of 20 amino acids necessary for life found in Bennu)</span>
+  <span class="topic-tag">Evaporite minerals (table salt, phosphate minerals) forming from water evaporation</span>
+  <span class="topic-tag">Pre-solar grains (diamonds, silicon carbide, corundum) predating solar system formation</span>
+  <span class="topic-tag">Early parent body differentiation and aqueous alteration in asteroids</span>
+  <span class="topic-tag">Ribose (RNA sugar) detected in asteroid samples</span>
+  <span class="topic-tag">Prebiotic organic compound formation in asteroid parent bodies</span>
+  <span class="topic-tag">Gypsum and vivianite deposits on Mars at Chaya Falls</span>
+  <span class="topic-tag">Greigite mineral as indicator of oxygen variation in fluids</span>
+  <span class="topic-tag">Rubble pile asteroid structure and surface composition</span>
+  <span class="topic-tag">Methane on Mars and Titan as abiotic chemical signature</span>
+  <span class="topic-tag">Sample contamination prevention through nitrogen storage</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Climate Change: Evidence and Causes: Update 2020</div>
+<div class="nasem-match">Negative Emissions Technologies and Reliable Sequestration</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25232/gaseous-carbon-waste-streams-utilization-status-and-research-needs" target="_blank">Gaseous Carbon Waste Streams Utilization: Status and Research Needs</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div class="nasem-match">The Search for Life's Origins: Progress and Future Directions</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics" target="_blank">The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space</a></div>
+<div class="nasem-match">Origins, Worlds, and Life: A Decadal Strategy for Planetary Science</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Bennu has 14-15 of the 20 amino acids needed for life, with tryptophan potentially confirmed in November paper</div>
+<div class="claim">Asteroid Bennu crosses Earth's orbit and poses approximately 1 in 2700 chance of impact on September 24, 2182</div>
+<div class="claim">OSIRIS-REx returned approximately 122 grams of material from asteroid Bennu (exceeding 60-gram scientific goal)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The asteroids are considered non-hazardous with respect to any sort of biological threat. They've been sitting in space for four and a half billion years and been cooked by the sun's radiation and cosmic rays in the background on the surface."</div>
+<div class="quote">"You must know what the rock is because the context is absolutely critical. Without the context of the rock, you may not be able to interpret your results."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: The Normals | Episode 2</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Apr 14 &middot; 27 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode traces the evolution of NIH's Normal Control Volunteer Program from the 1950s through the 1970s, examining how recruitment shifted from religious conscientious objectors to college students and eventually to transient, paid participants and incarcerated individuals. As the program expanded to find "more normal" subjects, motivations shifted from altruism to financial incentive, safeguards diminished, and the program came to resemble a gig economy. The episode highlights the tragic death of nursing student Bernadette Gilchrist in 1980 during a sleep study, which exemplified the vulnerabilities of the new pay-per-study model and lack of institutional oversight.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Normal human physiology research and control group methodology</span>
+  <span class="topic-tag">LSD research and psychopharmacology</span>
+  <span class="topic-tag">Schizophrenia research</span>
+  <span class="topic-tag">Drug testing on healthy human subjects</span>
+  <span class="topic-tag">Sleep deprivation studies</span>
+  <span class="topic-tag">Endocrinology research and hormone studies</span>
+  <span class="topic-tag">Hirsutism (excessive hair growth) studies</span>
+  <span class="topic-tag">Radioactive isotope-tagged estrogen research</span>
+  <span class="topic-tag">Sleep lab monitoring and assessment</span>
+  <span class="topic-tag">Intentional infection experiments with viruses</span>
+  <span class="topic-tag">Flu vaccine efficacy and vaccine contamination incidents</span>
+  <span class="topic-tag">Eating disorder and cardiac physiology (in context of Bernadette Gilchrist case)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match">Foundational Cybersecurity Research</div>
+<div class="nasem-match">Reproducibility and Replicability in Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10285/scientific-and-medical-aspects-of-human-reproductive-cloning" target="_blank">Scientific and Medical Aspects of Human Reproductive Cloning</a></div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26428/the-future-of-education-research-at-ies-advancing-an-equity" target="_blank">The Future of Education Research at IES: Advancing an Equity-Oriented Science</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">NIH researchers used LSD in psychological studies on healthy volunteers in the 1950s-1960s without clear justification or apparent scientific rigor</div>
+<div class="claim">NIH conducted intentional infection experiments on federal prisoners between 1960-1964, including experiments with a flu vaccine contaminated with a virus suspected of causing brain cancer</div>
+<div class="claim">A flu vaccine culture used in prisoner experiments was contaminated with a virus thought to cause brain cancer, and NIH researchers then studied the prisoners after administration</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The only people who wept from being there in the 1950s were the normals who were there because they were having a religious experience... The only people who actually didn't remember doing it... were like 'oh yeah, I guess that was something that I did.' It was just, you know, like a lark or like the umpteenth college job that they had to have. There was this remarkable difference in the meaning that people attributed between the 1950s and the 1970s."</div>
+<div class="quote">"The normals were just practice material for the researchers. And so one of the huge values of the normals for NIH is they just got populations for these trainees to just practice on."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: A new approach to brain health, one neuron at a time</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 15 &middot; 13 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores brain-machine interfaces and neural recovery mechanisms through the research of Paul Nijukian at Stanford's Brain Interfacing Lab. After initially developing brain implants for paralyzed patients proved commercially unviable, Nijukian pivoted to studying stroke recovery by measuring activity in individual neurons in monkey brains. Using surgically implanted electrodes to record single-neuron activity, his lab discovered that the brain exhibits specific neural signatures during injury and recovery that could eventually be used to monitor and treat stroke patients. The research suggests that understanding single-neuron dynamics rather than aggregate brain activity may be key to developing more effective treatments for neurological diseases.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Brain-machine interfaces</span>
+  <span class="topic-tag">Single-neuron recording and measurement</span>
+  <span class="topic-tag">Stroke pathophysiology and neural recovery</span>
+  <span class="topic-tag">Cerebral blood flow interruption</span>
+  <span class="topic-tag">Neural plasticity after brain injury</span>
+  <span class="topic-tag">Tetraplegia rehabilitation technologies</span>
+  <span class="topic-tag">Microelectrode implantation techniques</span>
+  <span class="topic-tag">Motor cortex function and reaching task performance</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research" target="_blank">Risk Assessment Techniques for Transportation Asset Management: Conduct of Research</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings" target="_blank">Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18996/healthy-resilient-and-sustainable-communities-after-disasters-strategies-opportunities-and" target="_blank">Healthy, Resilient, and Sustainable Communities After Disasters: Strategies, Opportunities, and Planning for Recovery</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10061/aquifer-storage-and-recovery-in-the-comprehensive-everglades-restoration-plan" target="_blank">Aquifer Storage and Recovery in the Comprehensive Everglades Restoration Plan: A Critique of the Pilot Projects and Related Plans for ASR in the Lake Okeechobee and Western Hillsboro Areas</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program" target="_blank">Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Mapping the Brain and Its Functions</div>
+<div class="nasem-match">Discovering the Brain</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">One in four adults are predicted to have a stroke in their lifetime according to the World Health Organization — verify against current WHO epidemiological data</div>
+<div class="claim">The brain exhibits recovery of neuronal activity within days to a week after small focal injuries in the studied animal model</div>
+<div class="claim">Current clinical practice for brain disease treatment relies on downstream proxies rather than direct neural recording, compared analogously to treating diabetes without measuring blood sugar</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If I wanted to help these individuals, if I wanted to see my work make it past the finish line, I would have to go after bigger problems in brain disease. Meaning problems affecting more people."</div>
+<div class="quote">"In order to advance brain disease treatment, to develop the most sophisticated brain machine interfaces, we got to get into the stands with the microphone to hear those individual conversations between neurons."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: When a dolphin whistles, what does it mean?</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 15 &middot; 14 min</div>
+<p style="margin:10px 0;font-size:14px;">Dr. Layla Saig from Woods Hole Oceanographic Institution discusses dolphin communication, specifically signature whistles that function similarly to human names. Each dolphin produces a unique signature whistle and can copy other dolphins' whistles to call them by name. The episode explores how dolphins learn these sounds, variation in whistles when communicating with calves (similar to human motherese), and newly identified non-signature whistles whose functions are still being investigated through playback experiments.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dolphin signature whistles and individual vocal recognition</span>
+  <span class="topic-tag">Vocal learning in marine mammals</span>
+  <span class="topic-tag">Dolphin mother-infant communication and motherese-like behavior</span>
+  <span class="topic-tag">Non-signature whistles in dolphin communication</span>
+  <span class="topic-tag">Acoustic playback experiments for dolphin behavior</span>
+  <span class="topic-tag">Cetacean communication systems</span>
+  <span class="topic-tag">Hydrophone recording methods for underwater animal vocalizations</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27170/compounding-disasters-in-gulf-coast-communities-2020-2021-impacts-findings" target="_blank">Compounding Disasters in Gulf Coast Communities 2020-2021: Impacts, Findings, and Lessons Learned</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance" target="_blank">Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27210/effective-health-communication-within-the-current-information-environment-and-the-role-of-the-federal-government" target="_blank">Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a" target="_blank">Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27933/advancing-risk-communication-with-decision-makers-for-extreme-tropical-cyclones-and-other-atypical-climate-events" target="_blank">Advancing Risk Communication with Decision-Makers for Extreme Tropical Cyclones and Other Atypical Climate Events: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior" target="_blank">In the Light of Evolution: Volume VI: Brain and Behavior</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions" target="_blank">Behavioral Economics: Policy Impact and Future Directions</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Signature whistles are 'the closest thing to human names that we know of in the animal world' - framed as comparison, not definitive claim</div>
+<div class="claim">About one-third of dolphin calves in Sarasota population develop whistles similar to their mothers</div>
+<div class="claim">Adult female dolphins increase maximum frequency of whistles when communicating with calves, compared to communication with other adults</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Signature whistles are the closest thing to human names that we know of in the animal world. They really are a lot like our own names. So each dolphin has their own."</div>
+<div class="quote">"They're powerful animals. They could do harm if they wanted to. And I know a colleague of mine said, would you jump on the back of a lion? I don't think so. But people don't think of dolphins that way."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#38a169;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">EMERGING</span>
+  <span class="episode-title">Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)</span>
+</div>
+<div class="episode-meta">Dr. Jessica Steier & Dr. Sarah Scheinman &middot; Apr 15 &middot; 42 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode examines microplastics, dishwasher pods, and laundry pods, addressing widespread public anxiety about these products that often outpaces scientific evidence. Dr. Joe Zagorski, a toxicologist at Michigan State University, discusses how microplastics are ubiquitous but detection does not equal harm, explains that primary exposure is through air rather than food/water, and analyzes specific concerns about polyvinyl alcohol (PVA) in detergent pods. The hosts and guest emphasize that behavioral changes motivated by microplastic fears (like hand-washing dishes) sometimes create worse environmental outcomes, and that greenwashing by companies capitalizing on consumer anxiety often involves unregulated marketing terms like 'plastic-free' and 'clean.'</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Microplastics detection and measurement methodology</span>
+  <span class="topic-tag">Polyvinyl alcohol (PVA) environmental degradation and biodegradability</span>
+  <span class="topic-tag">Routes of microplastic exposure (inhalation vs. ingestion)</span>
+  <span class="topic-tag">Leaky gut hypothesis and tight junction integrity</span>
+  <span class="topic-tag">Toxicology dose-response relationships</span>
+  <span class="topic-tag">In vitro cell culture models versus human physiology</span>
+  <span class="topic-tag">Wastewater treatment and microbial degradation of polymers</span>
+  <span class="topic-tag">Nanoplastics sizing and characterization</span>
+  <span class="topic-tag">Synthetic fiber shedding from textiles and tires</span>
+  <span class="topic-tag">Computer modeling validation in environmental science</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges" target="_blank">Environmental Engineering for the 21st Century: Addressing Grand Challenges</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Reckoning with the U.S. Role in Global Ocean Plastic Waste</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary" target="_blank">Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/28541/electricity-system-operability-and-reliability-under-increasing-complexity-proceedings-of" target="_blank">Electricity System Operability and Reliability Under Increasing Complexity: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10208/immunization-safety-review-thimerosal-containing-vaccines-and-neurodevelopmental-disorders" target="_blank">Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development" target="_blank">Measuring and Understanding the Relationship Between Air Service and Regional Economic Development</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13070/preparedness-and-response-to-a-rural-mass-casualty-incident-workshop" target="_blank">Preparedness and Response to a Rural Mass Casualty Incident: Workshop Summary</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding</div>
+<div class="claim">PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated</div>
+<div class="claim">A 2021 study claiming 67% of PVA doesn't break down relied solely on computer modeling without experimental validation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"The available information and scientific conclusions have been well outpaced by media narrative and social media presence... with microplastics, we don't know more than we do."</div>
+<div class="quote">"The dose makes the poison... Everything can be safe or harmful in the right amounts... with micro nanoplastics, there's more questions at this point than answers, because the ability to detect does not mean that there needs to be concern."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">84 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Artemis II Mission and Lunar Imagery (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts sharing dramatic images from Artemis II's lunar flyby, including eclipse views from Orion spacecraft and Earthrise photographs.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Science and Astronomy Observations (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering distant galaxies, dark matter models, meteor showers, and astronomy data trustworthiness initiatives.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Wildlife and Natural History Illustration (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Scientific illustration and field guide content featuring owls, butterflies, and other wildlife from Yale University Press publications.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Research Funding and Academic Challenges (4 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions about manuscript review bottlenecks, UK research funding cuts, and federal research funding delays.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Planetary Science and Exploration (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts about Mars dust storms, Titan subsurface exploration, moon dust biosignatures, and asteroid sample analysis.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@stim3on.bsky.social</div>
+  <div class="bluesky-stats">203 likes &middot; 62 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">The Total Solar Eclipse from Artemis II
+
+This image sequence was captured by a modified GoPro on the solar array of the Orion spacecraft while the Artemis II mission flew around the farside of the moon. 
+
+Credit: NASA/Simeon Schmauß
+
+🔭🧪 #Artemis</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/stim3on.bsky.social/post/3mjic54j7x22b" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@patrlynch1.bsky.social</div>
+  <div class="bluesky-stats">229 likes &middot; 33 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Great Horned Owl. From my book A Field Guide to Cape Cod, Yale University Press. a.co/d/eK4A0sd
+🧪🌿🌎🪶🐡 #wildlife #scicomm #sciviz #wildlifeart #illustration #scientificillustration #natureart #visualscicomm #sciviz #scicomm #birds #birdart #owls</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/patrlynch1.bsky.social/post/3mjit664l322t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@annikabarber.bsky.social</div>
+  <div class="bluesky-stats">154 likes &middot; 46 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">Senior professors - if you want to help your junior colleagues in these times, I am begging you, review our papers. I have done 25 manuscript reviews in the last 6 years. But my own manuscript is stalled out waiting for reviewers. Relatedly, I won't be doing any more reviews until tenure. 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/annikabarber.bsky.social/post/3mji7ymkaqs2g" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">144 likes &middot; 44 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Orion and solar eclipse: new, fascinating image posted on NASA Johnson's flickr account, captured by a GoPro camera mounted on one of the Orion spacecraft’s solar array wings. Venus can be spotted on the left, and Saturn on the right of the Moon. 
+
+flic.kr/p/2s7wkRo #Artemis 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mji4daxi2c2p" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@science.esa.int</div>
+  <div class="bluesky-stats">134 likes &middot; 36 reposts &middot; 1 replies</div>
+  <div class="bluesky-text">Mars Express has captured a blanket of dark ash creeping across the Red Planet.
+
+It has spread hundreds of kilometres in less than 50 years.
+
+🔭 🧪
+#planetsci
+1/4</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/science.esa.int/post/3mjjkgeqor22t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Research Funding Crisis and Federal Science Support</strong>: Posts document unprecedented delays in federally appropriated research funds and UK funding cuts affecting astrophysics, nuclear, and particle physics—directly relevant to NASEM's role in advising on federal science policy and research funding mechanisms.</div>
+<div class="nasem-match"><strong>Academic Peer Review System Dysfunction</strong>: Discussion of manuscript review bottlenecks and tenure-related disincentives for senior researchers to participate in peer review relates to NASEM's work on research integrity and the health of the scientific enterprise.</div>
+<div class="nasem-match"><strong>Public Health Communication and Vaccine Hesitancy</strong>: Post on MMR vaccination decline and economic framing of public health interventions connects to NASEM's work on science communication, health policy, and addressing public health challenges.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 15, 2026 at 11:58 AM | Internal use only
+    </div>
+</body>
+</html>
