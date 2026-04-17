@@ -1,0 +1,629 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "How a particle accelerator illuminated 56 human organs",
+  "host": "Ira Flatow",
+  "published": "2026-04-17T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 17.966666666666665,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode features Dr. Claire Walsh discussing the Human Organ Atlas, a public database of 56 human organs scanned using synchrotron radiation from a particle accelerator at the European Synchrotron Radiation Facility in Grenoble, France. The project emerged during COVID-19 to better understand lung pathology and has expanded to enable unprecedented 3D visualization of human anatomy at micrometer resolution. The technology enables medical education, AI-assisted analysis of anatomical structures like blood vessels and neural connectivity, and improved surgical planning for conditions like congenital heart disease.",
+  "science_topics": [
+    "Hierarchical phase contrast computed tomography (HIPCT)",
+    "Synchrotron radiation imaging",
+    "X-ray phase contrast imaging",
+    "Three-dimensional organ reconstruction",
+    "Blood vessel segmentation in kidneys",
+    "White matter connectivity mapping in human brain",
+    "Congenital heart disease anatomical analysis",
+    "Kidney disease and transplant rejection",
+    "AI-assisted image segmentation"
+  ],
+  "claims_to_note": [
+    "HIPCT achieves one micrometer resolution compared to one millimeter for hospital CT scanners (100-fold improvement) — verify against NASEM imaging technology assessments",
+    "Synchrotron radiation provides more 'brilliant' (intense and focused) x-rays than hospital CT, enabling phase contrast imaging — confirm technical specifications",
+    "Phase contrast imaging can detect density differences invisible to absorption-based CT — verify against medical imaging literature",
+    "Individual white matter axons can be visualized and their orientations mapped in human brain using HIPCT — verify feasibility against neuroscience imaging standards",
+    "Spider web application for wound healing mentioned in listener call — anecdotal, not scientifically validated in this episode",
+    "X-ray dose from HIPCT would be too high for living subjects — verify dosimetry against radiation safety guidelines"
+  ],
+  "policy_relevance": [
+    "Public database (Human Organ Atlas) for unrestricted researcher access to imaging data",
+    "International collaboration involving European Synchrotron Radiation Facility (ESRF) in Grenoble, France",
+    "Use of cadaver tissue with informed consent from body donors",
+    "Medical education applications for training surgeons in congenital heart disease repair",
+    "Potential policy implications for transplant medicine and chronic kidney disease management",
+    "Data accessibility and sharing infrastructure for large terabyte-scale datasets"
+  ],
+  "key_quotes": [
+    "With hip CT, we can look at the orientations and the directions that these connections are going and you can start to unpick okay what the wiring diagram of the human brain.",
+    "When you image one [organ] separate from the other, you lose a load of that connectivity between the two that's incredibly important in terms of how they actually function. So by scanning a whole intact human body, you preserve those connections between the different organs and you get a much better and holistic understanding of how the body functions.",
+    "We go down to one micrometer. So you're like a hundredth the hair, a hundredth the diameter of a human hair."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Hierarchical phase contrast computed tomography (HIPCT)",
+      "publications": [
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27165",
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "gene thereby diversifying genetic",
+            "existing methods cannot discover",
+            "current technological limitations",
+            "pressing societal challenges",
+            "living systems hold",
+            "distinct rna molecules",
+            "rna modifications",
+            "biological processes",
+            "human diseases",
+            "concerted efforts",
+            "sequencing rna",
+            "modifications",
+            "charting",
+            "biology",
+            "era"
+          ],
+          "description": "Concerted efforts to deepen understanding of RNA modifications and their role in living systems hold the potential to advance human health, improve crop yields, and address other pressing societal challenges. RNA, which carries the information encoded by DNA to the places where it is needed, is amazingly diverse and dynamic. RNA is processed and modified through natural biological pathways, giving rise to hundreds, in some cases thousands, of distinct RNA molecules for each gene, thereby diversifying genetic information. RNA modifications are known to be pivotal players in nearly all biological processes, and their dysregulation has been implicated in a wide range of human diseases and disorders. Yet, our knowledge of RNA modifications remains incomplete, hindered by current technological limitations. Existing methods cannot discover all RNA modifications, let alone comprehensively sequence them on every RNA molecule. Nonetheless, what is known about RNA modifications has already been ",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "13382",
+          "title": "Ranking Vaccines: A Prioritization Framework: Phase I: Demonstration of Concept and a Software Blueprint",
+          "url": "https://nap.nationalacademies.org/catalog/13382/ranking-vaccines-a-prioritization-framework-phase-i-demonstration-of-concept",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "next iteration smart vaccines",
+            "prioritization software tool phase",
+            "prioritization software tool developed",
+            "multi attribute utility theory",
+            "ranking vaccines",
+            "utilizes decision science",
+            "development validation",
+            "vaccine development",
+            "concept presented",
+            "model developed",
+            "software blueprint",
+            "prioritization",
+            "demonstration",
+            "concept",
+            "phase"
+          ],
+          "description": "SMART Vaccines--Strategic Multi-Attribute Ranking Tool for Vaccines--is a prioritization software tool developed by the Institute of Medicine that utilizes decision science and modeling to help inform choices among candidates for new vaccine development. A blueprint for this computer-based guide was presented in the 2012 report Ranking Vaccines: A Prioritization Framework: Phase I. Ranking Vaccines: A Prioritization Software Tool,Phase II extends the proof-of-concept presented in the Phase I report, which was based on multi-attribute utility theory. This report refines a beta version of the model developed in the Phase I report and presents its next iteration, SMART Vaccines 1.0. Ranking Vaccines: Phase II discusses the methods underlying the development, validation, and evaluation of SMART Vaccines 1.0. It also discusses how SMART Vaccines should--and, just as importantly, should not--be used. The report also offers ideas for future enhancements for SMART Vaccines as well as for ideas",
+          "year": 2013,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Identifying and Prioritizing New Preventive Vaccines for Development, Phase II"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Synchrotron radiation imaging",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "26139",
+          "title": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26139/quantum-science-concepts-in-enhancing-sensing-and-imaging-technologies-applications",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "art quantum enabled technologies",
+            "biology held online march",
+            "advance biological applications",
+            "quantum science concepts",
+            "quantum concepts hold",
+            "enable significant advances",
+            "imaging technologies",
+            "biological systems",
+            "quantum technology",
+            "enhancing sensing",
+            "applications",
+            "biology"
+          ],
+          "description": "Quantum concepts hold the potential to enable significant advances in sensing and imaging technologies that could be vital to the study of biological systems. The workshop Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology, held online March 8-10, 2021, was organized to examine the research and development needs to advance biological applications of quantum technology. Hosted by the National Academies of Sciences, Engineering, and Medicine, the event brought together experts working on state-of-the-art, quantum-enabled technologies and scientists who are interested in applying these technologies to biological systems. Through talks, panels, and discussions, the workshop facilitated a better understanding of the current and future biological applications of quantum-enabled technologies in fields such as microbiology, molecular biology, cell biology, plant science, mycology, and many others. This publication summarizes the presentation and di",
+          "year": 2021,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board On Life Sciences"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "X-ray phase contrast imaging",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "26712",
+          "title": "Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "communications navigational satellite positioning",
+            "global scale space weather",
+            "timing signals spacecraft operations",
+            "cascading socioeconomic effects resulting",
+            "space weather enterprise",
+            "affecting technological systems",
+            "electric power delivery",
+            "increased health risk",
+            "aviation flight crews",
+            "space administration",
+            "space weather operations",
+            "infrastructure",
+            "planning",
+            "phase"
+          ],
+          "description": "Affecting technological systems at a global-scale, space weather can disrupt high-frequency radio signals, satellite-based communications, navigational satellite positioning and timing signals, spacecraft operations, and electric power delivery with cascading socioeconomic effects resulting from these disruptions. Space weather can also present an increased health risk for astronauts, as well as aviation flight crews and passengers on transpolar flights. In 2019, the National Academies was approached by the National Aeronautics and Space Administration, the National Oceanic and Atmospheric Administration, and the National Science Foundation to organize a workshop that would examine the operational and research infrastructure that supports the space weather enterprise, including an analysis of existing and potential future measurement gaps and opportunities for future enhancements. This request was subsequently modified to include two workshops, the first (Phase I) of which occurred in ",
+          "year": 2023,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Three-dimensional organ reconstruction",
+      "publications": [
+        {
+          "id": "22086",
+          "title": "Independent Cost Estimates for Design and Construction of Transit Facilities in Rural and Small Urban Areas",
+          "url": "https://nap.nationalacademies.org/catalog/22086/independent-cost-estimates-for-design-and-construction-of-transit-facilities-in-rural-and-small-urban-areas",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "independent cost estimates",
+            "small urban areas",
+            "transit facilities",
+            "construction",
+            "design",
+            "rural"
+          ]
+        },
+        {
+          "id": "17620",
+          "title": "Countermeasures to Protect Bridge Abutments from Scour",
+          "url": "https://nap.nationalacademies.org/catalog/17620/countermeasures-to-protect-bridge-abutments-from-scour",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "explores two common forms",
+            "protect bridge abutments",
+            "angled face",
+            "selection criteria",
+            "angled walls",
+            "scour damage",
+            "countermeasures",
+            "construction",
+            "embankments",
+            "guidelines",
+            "scour"
+          ],
+          "description": "Examines selection criteria and guidelines for the design and construction of countermeasures to protect bridge abutments and approach embankments from scour damage. The report explores two common forms of bridge abutments--wing-wall (vertical face with angled walls into the bank) and spill-through (angled face).",
+          "year": 2007,
+          "page_keywords": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "id": "26704",
+          "title": "The Role of Net Metering in the Evolving Electricity System",
+          "url": "https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "evolving electricity system explores",
+            "resilient electricity system",
+            "net metering guidelines",
+            "last three decades",
+            "long term impacts",
+            "electricity grid",
+            "compensates customers",
+            "decarbonized equitable",
+            "fundamental shifts",
+            "excess energy",
+            "evolving electricity system",
+            "net metering"
+          ],
+          "description": "Over the last three decades, there have been fundamental shifts in the electricity system, including the growing adoption of clean distributed generation energy technologies such as rooftop solar. Net metering, which compensates customers for excess energy they contribute to the grid, has been instrumental in supporting the integration of these systems into the grid, but these policies may need to change to better address future needs. The Role of Net Metering in the Evolving Electricity System explores the medium-to-long term impacts of net metering on the electricity grid and customers. This report evaluates how net metering guidelines should evolve to support a decarbonized, equitable, and resilient electricity system.",
+          "year": 2024,
+          "committee": "Board on Environmental Change and Society"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Blood vessel segmentation in kidneys",
+      "publications": [
+        {
+          "id": "11269",
+          "title": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+          "url": "https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "cord blood program",
+            "umbilical cord blood",
+            "cord blood units",
+            "hematopoietic progenitor cell hpc",
+            "stem cell transplantation",
+            "stem cell transplants",
+            "stem cell technology",
+            "blood banks already",
+            "economics public heal",
+            "adult bone marrow",
+            "stem cell",
+            "cord blood",
+            "establishing"
+          ],
+          "description": "With the potential for self-renewal and differentiation, the possibilities for stem cells are enormous. One specific type of stem cell, the hematopoietic progenitor cell (HPC), which is derived from umbilical cord blood (as well as adult bone marrow and mobilized peripheral blood), holds particular promise. To make the most of these HPCs, the Institute of Medicine was asked to consider the optimal structure for a national cord blood program and to address pertinent issues related to maximizing the potential of stem cell technology. Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program examines: The role of cord blood in stem cell transplantation The current status of blood banks already in existence The optimal structure for the cord blood program The current use and utility of cord blood for stem cell transplants The best way to advance the use of cord blood units and make them available for research Expert advice from leaders in the fields of economics, public heal",
+          "year": 2005,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "27414",
+          "title": "Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future",
+          "url": "https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "scientific ocean drilling landscape",
+            "ocean science pro",
+            "dedicated drilling vessel",
+            "science foundation nsf",
+            "ocean crust",
+            "fundamentally transformed",
+            "diverse community",
+            "extreme greenhouse",
+            "icehouse climates",
+            "major extinctions",
+            "ocean drilling",
+            "priorities",
+            "progress",
+            "search",
+            "earth",
+            "past"
+          ],
+          "description": "Research supported by scientific ocean drilling has fundamentally transformed our understanding of the planet with key contributions to the discovery and theory of plate tectonics; the formation and destruction of ocean crust; the reconstruction of extreme greenhouse and icehouse climates; the identification of major extinctions; and the discovery of a diverse community of microbes living deep ocean seafloor. With the retirement in 2024 of the JOIDES Resolution-- the U.S. dedicated drilling vessel for deep sea research and the workhorse for the international scientific ocean drilling community-- the scientific ocean drilling landscape will change. At this critical juncture, the National Science Foundation (NSF) is looking to identify the most urgent research questions that can only be answered with scientific ocean drilling and what infrastructure is needed to progress those priorities. This interim report that is the first part of a broader study of decadal survey of ocean science pro",
+          "year": 2024,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Ocean Studies Board"
+        },
+        {
+          "id": "26156",
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "offer pfas blood testing",
+            "non stick cookware water",
+            "polyfluoroalkyl substances pfas",
+            "fire fighting foam because",
+            "water reduce friction",
+            "resist temperature changes",
+            "stain repellent fabrics",
+            "made used disposed",
+            "adverse health effects",
+            "pfas exposure",
+            "pfas exposure testing",
+            "clinical follow",
+            "guidance"
+          ],
+          "description": "In thousands of communities across the United States, drinking water is contaminated with chemicals known as perfluoroalkyl and polyfluoroalkyl substances (PFAS). PFAS are used in a wide range of products, such as non-stick cookware, water and stain repellent fabrics, and fire-fighting foam, because they have properties that repel oil and water, reduce friction, and resist temperature changes. PFAS can leak into the environment where they are made, used, disposed of, or spilled. PFAS exposure has been linked to a number of adverse health effects including certain cancers, thyroid dysfunction, changes in cholesterol, and small reductions in birth weight. This report recommends that the Centers for Disease Control and Prevention (CDC) update its clinical guidance to advise clinicians to offer PFAS blood testing to patients who are likely to have a history of elevated exposure, such as those with occupational exposures or those who live in areas known to be contaminated. If testing reveal",
+          "year": 2022,
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on the Guidance on PFAS "
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 3195,
+  "saved_at": "2026-04-17T11:27:00.272637"
+}

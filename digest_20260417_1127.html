@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 17, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 17, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">46</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">76</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing highlights convergence around advanced imaging technologies, cancer treatment efficacy, and neuroscience-based learning tools. The Human Organ Atlas represents a significant leap in medical visualization using synchrotron radiation, achieving 100-fold resolution improvements over clinical CT scanners—directly relevant to NASEM's role in evaluating emerging medical technologies. A major Dutch cancer trial demonstrates modest real-world effectiveness of off-label treatments (33% benefit, 7% durable response), contrasting with optimistic expectations and raising questions about personalized medicine validation. Neuroscience research on memory consolidation emphasizes the critical timing of stress/epinephrine for learning optimization, supported by sleep and exercise interventions. Bluesky activity reflects sustained policy-level concerns around federal research funding lapses and HHS leadership transitions affecting public health. These findings underscore NASEM opportunities in evaluating imaging technology translation, assessing cancer drug repositioning protocols, and advising on neuroscience-informed educational policy.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>Advanced imaging and visualization technologies (synchrotron HIPCT vs. clinical CT; 100-fold resolution gains)</li>
+<li>Cancer therapy effectiveness and off-label drug repositioning (modest real-world outcomes despite theoretical promise)</li>
+<li>Neuroscience of learning and memory consolidation (epinephrine timing, sleep, exercise as evidence-based tools)</li>
+<li>Precision medicine and genetic profiling (470 new selection variants; limitations in GWAS interpretation)</li>
+<li>Animal welfare and pain perception in non-mammalian species (lobster nociception; pharmaceutical responsiveness)</li>
+<li>Federal research policy and funding continuity (recurring theme on Bluesky)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Synchrotron radiation as clinical translation pathway—HIPCT moving from research to surgical planning (congenital heart disease, kidney transplant rejection); represents 3-5 year emerging adoption curve</li>
+<li>Off-label and drug repositioning frameworks gaining clinical traction after decade-long validation studies; reflects shift from single-indication discovery to repurposing existing drugs for unmet needs</li>
+<li>Epigenetic and population genomics reframing natural selection evidence—470 variants vs. prior ~20-30; methodological debate emerging over interpretation risk in complex trait attribution</li>
+<li>Invertebrate pain and nociception as animal welfare policy consideration—pharmaceutical responsiveness to analgesics suggests sentience-adjacent responses requiring ethical reconsideration</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Commission evaluation of synchrotron imaging translation pathways—assess feasibility/timeline for HIPCT adoption in U.S. medical centers; coordinate with NIH and hospital networks on infrastructure requirements</div>
+<div class="opportunity">Convene expert panel on off-label cancer drug protocols—review Drug Rediscovery Protocol methodology; advise on regulatory barriers and clinical trial design for repositioning studies</div>
+<div class="opportunity">Synthesize neuroscience evidence for K-12 education policy—memory consolidation research (stress-timing, sleep, exercise) directly applicable to classroom design and curriculum; coordinate with NSF and Department of Education</div>
+<div class="opportunity">Establish working group on invertebrate sentience and welfare standards—lobster nociception findings suggest need for updated laboratory animal care guidelines; interface with USDA and institutional animal care committees</div>
+<div class="opportunity">Address federal research funding continuity crisis—Bluesky activity reflects sustained concern; NASEM positioned to advise Congress on grant lapses' impact on research enterprise</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Overgeneralization risk: Ancient genomics study (470 selection variants) may be over-interpreted as deterministic for complex traits (bipolar, schizophrenia, educational attainment); episode notes methodological concerns and drift/confounding risks—monitor for casual attribution of traits to 'evolution'</div>
+<div class="claim">False equivalence emerging: Off-label cancer treatments (33% benefit rate) may be framed as equivalent to approved therapies in social media; Dutch trial shows limited durable benefit (7%) despite side effect burden—clarify distinction in public communication</div>
+<div class="claim">Memory enhancement claims: Huberman episode on epinephrine-timing for learning is evidence-based but may fuel unverified supplement/stimulant use if context of 'post-learning' timing is lost in popularization</div>
+<div class="claim">Animal pain consensus: Lobster pain research is preliminary nociception evidence, not definitive proof of subjective suffering; risk of anthropomorphization without nuance in welfare policy discussions</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender as Critical Variables in Clinical Research</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are converging on the recognition that biological sex differences fundamentally alter drug metabolism, disease presentation, and treatment outcomes—yet remain systematically under-investigated. Short Wave explored sex differences in zolpidem pharmacokinetics and heart attack symptom presentation; Science Magazine Podcast highlighted drug testing methodology on healthy subjects without apparent sex stratification; The Peter Attia Drive discussed GLP-1 agonists and insulin therapy without sex-specific dosing frameworks. This represents a shift from treating sex as a demographic checkbox to viewing it as a core biological variable requiring experimental redesign.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should establish guidance on mandatory sex-as-a-variable protocols in federally funded clinical research, as current practice gaps create safety and efficacy disparities.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Emerging Imaging and Measurement Technologies Enabling New Science</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Advanced imaging and measurement techniques are opening previously inaccessible research domains. Science Friday covered hierarchical phase contrast computed tomography for three-dimensional organ reconstruction; Short Wave discussed single-neuron recording in stroke recovery contexts; Unbiased Science examined microplastics detection methodology as a prerequisite for understanding exposure routes. These technologies are not merely incremental improvements but are enabling fundamentally new research questions about system-level biology and environmental contamination that were previously unmeasurable.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess infrastructure and training gaps in emerging imaging/measurement technologies to ensure equitable access across research institutions and prevent a two-tier research ecosystem.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Reproducibility and Methodological Rigor as Foundational Science Policy</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Friday's focus on the replication crisis in social science, coding errors in quantitative analysis, and data-sharing barriers has direct echoes in Making Sense's evidence-based reading research debate and Unbiased Science's scrutiny of microplastics methodology. The thread is not discipline-specific but reflects growing consensus that methodological transparency, pre-registration, and rigorous control group design are prerequisites for public trust in science—particularly in policy-relevant domains like education and environmental health.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Friday</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Making Sense</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize standards development and funding incentives for pre-registered research, open data practices, and replication studies across the life sciences and social science boundaries.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Mechanisms of Learning and Memory Consolidation Across Biological Systems</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab's deep dive into hippocampal-dependent learning, epinephrine-mediated memory consolidation, and one-trial learning is converging with Short Wave's coverage of pain perception and nociception in crustaceans—suggesting learning and memory consolidation mechanisms may be more conserved across phyla than previously understood. This emerging comparative neurobiology narrative challenges the traditional mammalian-centric model of cognition and suggests invertebrate systems offer tractable models for understanding fundamental plasticity mechanisms.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should recommend comparative neurobiology as a priority research area and develop funding mechanisms for invertebrate model systems research that could accelerate understanding of memory consolidation with translational relevance to human cognitive health.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Therapeutic Peptides and Mitochondrial Function as Emerging Drug Modalities</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">The Peter Attia Drive's extended discussion of peptide biochemistry, GLP-1 agonists, and SS31 (elamipretide) targeting mitochondrial function signals a paradigm shift from small-molecule drugs toward peptide-based therapeutics that address organellar dysfunction. This is distinct from traditional pharmaceutical development and requires new regulatory, manufacturing, and distribution frameworks. Nature Podcast's coverage of drug repositioning and off-label cancer therapy use complements this by highlighting how existing compounds (including potentially peptide-based agents) are being repurposed based on genetic profiling.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene working groups on regulatory pathways and manufacturing standards for peptide therapeutics, as this modality class may outpace existing FDA guidance and create commercialization bottlenecks.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Huberman Lab: Essentials: Understand & Improve Memory Using Science-Based Tools</span>
+</div>
+<div class="episode-meta">Andrew Huberman &middot; Apr 16 &middot; 40 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode explores the neurobiology of memory formation and evidence-based tools to enhance learning and retention. Huberman explains that memory depends on selective perception and is fundamentally shaped by adrenaline (epinephrine) and related neurochemicals. The episode presents research from McGaugh and Cahill demonstrating that acute stress and heightened emotional states shortly after learning can dramatically reduce repetitions needed to encode information. Huberman also discusses complementary tools including cardiovascular exercise, meditation, visual attention techniques, and the role of sleep in memory consolidation.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Hippocampal-dependent learning</span>
+  <span class="topic-tag">One-trial learning and conditioned place aversion/preference</span>
+  <span class="topic-tag">Epinephrine and norepinephrine in memory consolidation</span>
+  <span class="topic-tag">Neural plasticity and synaptic strengthening</span>
+  <span class="topic-tag">Dentate gyrus neurogenesis from cardiovascular exercise</span>
+  <span class="topic-tag">Osteocalcin signaling from bone to hippocampus</span>
+  <span class="topic-tag">Sleep and non-sleep deep rest in memory consolidation</span>
+  <span class="topic-tag">Meditation effects on attention and memory</span>
+  <span class="topic-tag">Visual imagery and photographic memory encoding</span>
+  <span class="topic-tag">Neural firing patterns and déjà vu mechanisms</span>
+  <span class="topic-tag">Cortisol and chronic stress effects on learning</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11625/taking-science-to-school-learning-and-teaching-science-in-grades" target="_blank">Taking Science to School: Learning and Teaching Science in Grades K-8</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design" target="_blank">Learning Through Citizen Science: Enhancing Opportunities by Design</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/18400/large-simple-trials-and-knowledge-generation-in-a-learning-health-system" target="_blank">Large Simple Trials and Knowledge Generation in a Learning Health System: Workshop Summary</a></div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27104/blue-dreams-rebecca-rutstein-and-the-ocean-memory-project" target="_blank">Blue Dreams: Rebecca Rutstein and the Ocean Memory Project</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25380/strengthening-the-military-family-readiness-system-for-a-changing-american-society" target="_blank">Strengthening the Military Family Readiness System for a Changing American Society</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases" target="_blank">A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12649/secondhand-smoke-exposure-and-cardiovascular-effects-making-sense-of-the" target="_blank">Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Epinephrine must be released after learning, not before, for optimal memory enhancement—contradicts common practice of taking stimulants before study sessions</div>
+<div class="claim">180-200 minutes minimum of zone two cardiovascular exercise can enhance dentate gyrus neurogenesis and hippocampal function</div>
+<div class="claim">One-trial learning can be achieved in animals through epinephrine release even for neutral stimuli</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"It is the presence of high adrenaline, high amounts of norepinephrine and epinephrine that allows a memory to be stamped down quickly and far and away different than the idea that we remember things because they are important to us or because they evoke emotion."</div>
+<div class="quote">"The ideal protocol would be focused on the thing you're trying to learn very intensely, still try and get excellent sleep... and spiking adrenaline... is going to reduce the number of repetitions required to learn. And that should be done at the very tail end or immediately after a learning bout."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Giant cancer study reveals effectiveness of 'off label' treatments</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Apr 15 &middot; 27 min</div>
+<p style="margin:10px 0;font-size:14px;">This Nature Podcast episode covers two major scientific studies: a decade-long Dutch cancer trial examining the effectiveness of off-label drug treatments for advanced solid tumors, and an ancient genomics study identifying widespread evidence of natural selection in human populations over the past 10,000 years in Western Eurasia. The cancer study found that while off-label treatments helped about one-third of patients and produced long-term responses in 7%, the majority showed limited benefit despite side effects. The genomics study identified approximately 470 gene variants with strong evidence of directional selection—roughly 15-25 times more than previous studies found—with implications for immunity, metabolism, and complex traits, though methodological concerns and the risk of over-interpretation remain.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Off-label cancer therapy and drug repositioning</span>
+  <span class="topic-tag">Targeted cancer therapies and genetic profiling of tumors</span>
+  <span class="topic-tag">Metastatic solid tumors treatment outcomes</span>
+  <span class="topic-tag">Ancient genomics and paleogenomics</span>
+  <span class="topic-tag">Natural selection in human genomes</span>
+  <span class="topic-tag">Directional selection and positive/negative selection</span>
+  <span class="topic-tag">Genetic drift and population genetics</span>
+  <span class="topic-tag">Lactase persistence and milk consumption adaptation</span>
+  <span class="topic-tag">Pathogen-driven evolution in human populations</span>
+  <span class="topic-tag">Genome-wide association studies (GWAS) for complex traits</span>
+  <span class="topic-tag">Variants associated with type 2 diabetes risk</span>
+  <span class="topic-tag">Variants associated with bipolar disorder and schizophrenia risk</span>
+  <span class="topic-tag">Variants associated with educational attainment and cognitive traits</span>
+  <span class="topic-tag">Population admixture and ancestry in ancient genomes</span>
+  <span class="topic-tag">Bacterial motility and E. coli locomotion</span>
+  <span class="topic-tag">Physical activity and mortality risk in middle-aged women</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of" target="_blank">Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop" target="_blank">The Drug Development Paradigm in Oncology: Proceedings of a Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21692/policy-issues-in-the-development-and-adoption-of-biomarkers-for-molecularly-targeted-cancer-therapies" target="_blank">Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary</a></div>
+<div class="nasem-match">From Cancer Patient to Cancer Survivor: Lost in Transition</div>
+<div class="nasem-match">Ovarian Cancers: Evolving Paradigms in Research and Care</div>
+<div class="nasem-match">Using Population Descriptors in Genetics and Genomics Research</div>
+<div class="nasem-match">Toward Precision Medicine: Building a Knowledge Network</div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match">Evaluating Human Genetic Diversity</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Off-label cancer treatments benefited approximately 33% of 1,610 patients treated, with 7% showing long-term responses lasting years</div>
+<div class="claim">The Drug Rediscovery Protocol identified cohorts where at least 5 of 24 patients benefited as successful for expansion to phase three</div>
+<div class="claim">Approximately 470 gene variants show strong evidence of directional selection in Western Eurasian populations over the last 10,000 years</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If we bring those types of data together, then we can really help patients... treating patients and still having a lot of side effects, that's not good healthcare. As a doctor, I have an obligation to protect my patients, but in the meantime, also provide them with the best opportunities."</div>
+<div class="quote">"We have drugs on the shelf that can truly help patients, even if it's 7% or 30%, depending on how you estimate the value. And secondly, we also need to be humble in the sense that we cannot just give patients these type of treatments without considering the side effects."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: Simone Giertz’s journey from robot comedy to high-end design</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 16 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode features an interview with Simone Giertz, a self-taught engineer and YouTuber known for creating innovative inventions ranging from deliberately impractical "shitty robots" to high-end functional design products. Giertz discusses her evolution from comedy-focused robot projects to solving real-world problems through thoughtful design, her experience as a woman in male-dominated engineering fields, and her philosophy of designing for everyday life rather than idealized scenarios. She reflects on longevity in online content creation, the importance of personal authenticity, and her transition from solo projects to collaborative team-based work.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Robotics and mechanical engineering</span>
+  <span class="topic-tag">Product design and industrial design</span>
+  <span class="topic-tag">Automation and mechanical systems</span>
+  <span class="topic-tag">Materials science and manufacturing (3D printing, welding, water jet cutting)</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Climate Intervention: Reflecting Sunlight to Cool Earth</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10999/the-engineer-of-2020-visions-of-engineering-in-the-new" target="_blank">The Engineer of 2020: Visions of Engineering in the New Century</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design" target="_blank">Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27877/bus-operator-barrier-design-guidelines-and-considerations" target="_blank">Bus Operator Barrier Design: Guidelines and Considerations</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation" target="_blank">The Future of Air Traffic Control: Human Operators and Automation</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an" target="_blank">Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and" target="_blank">Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Giertz mentions having a brain tumor and undergoing brain surgery, which she states changed her perspective and skills development—no specific medical claims requiring verification</div>
+<div class="claim">No major scientific or health claims are made that contradict established scientific consensus</div>
+<div class="claim">References to technologies (Tesla conversion, water jet cutting, 3D printing) are discussed in practical context without making disputed technical claims</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Instead of it's so easy to just beat ourselves up and being like, why can't I be neater and cleaner? But instead just accepting that life isn't perfect and designing for that. There's just something very loving about it."</div>
+<div class="quote">"The secret to longevity, I mean, at least for me, it's being genuinely excited about what I'm doing... you're so concerned thinking about the target audience that you lose out on the most important target audience which is yourself."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Short Wave: The psychology behind why you dread small talk</span>
+</div>
+<div class="episode-meta">Emily Kwong, Regina Barber &middot; Apr 17 &middot; 10 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode of Shortwave covers three distinct scientific topics: research showing that people enjoy conversations about seemingly boring topics more than expected, a study examining pain perception in lobsters using painkillers and electric shocks, and geological evidence about ancient lakes' role in carving the Colorado River and the Grand Canyon. The hosts discuss findings from the Journal of Personality and Social Psychology, Scientific Reports, and Science journal, connecting these studies to broader themes like loneliness and animal welfare.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Small talk psychology and conversation enjoyment</span>
+  <span class="topic-tag">Pain perception and nociception in crustaceans (lobsters)</span>
+  <span class="topic-tag">Pharmaceutical effects of aspirin and lidocaine on invertebrate pain responses</span>
+  <span class="topic-tag">Zircon crystal dating and uranium-lead dating methods in geology</span>
+  <span class="topic-tag">Colorado River formation and ancestral river pathways</span>
+  <span class="topic-tag">Grand Canyon geomorphology and ancient lacustrine systems</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match">Mental Health, Substance Use, and Wellbeing in Higher Education</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12187/changing-the-conversation-messages-for-improving-public-understanding-of-engineering" target="_blank">Changing the Conversation: Messages for Improving Public Understanding of Engineering</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Human-AI Teaming: State-of-the-Art and Research Needs</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27129/integrating-the-human-sciences-to-scale-societal-responses-to-environmental-change" target="_blank">Integrating the Human Sciences to Scale Societal Responses to Environmental Change: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Artificial Intelligence and the Future of Work</div>
+<div class="nasem-match">Origin and Evolution of Earth: Research Questions for a Changing Planet</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23551/pathways-to-urban-sustainability-challenges-and-opportunities-for-the-united" target="_blank">Pathways to Urban Sustainability: Challenges and Opportunities for the United States</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s" target="_blank">Pathways to Discovery in Astronomy and Astrophysics for the 2020s</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">Study of 1,800 participants found conversations rated as boring (onions, Pokemon, math) were consistently rated as more interesting and enjoyable than expected — published in Journal of Personality and Social Psychology</div>
+<div class="claim">Lobsters treated with aspirin or lidocaine flipped their tails less frequently in response to electric shock, suggesting pain-like sensations — published in Scientific Reports</div>
+<div class="claim">Distinction made between nociception (physiological response to negative stimulus) and pain (subjective emotional component)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"If we avoid talking to someone because we assume it will be boring, like we avoid talking to that co-worker at the coffee machine or a neighbor in the elevator, then we may be unnecessarily depriving ourselves of small moments of connection that could improve our mood and sense of belonging."</div>
+<div class="quote">"Do not under any circumstances give the crustaceans any painkillers because if you eat these animals, there's lots of side effects and you shouldn't do that."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Friday: How a particle accelerator illuminated 56 human organs</span>
+</div>
+<div class="episode-meta">Ira Flatow &middot; Apr 17 &middot; 18 min</div>
+<p style="margin:10px 0;font-size:14px;">This episode features Dr. Claire Walsh discussing the Human Organ Atlas, a public database of 56 human organs scanned using synchrotron radiation from a particle accelerator at the European Synchrotron Radiation Facility in Grenoble, France. The project emerged during COVID-19 to better understand lung pathology and has expanded to enable unprecedented 3D visualization of human anatomy at micrometer resolution. The technology enables medical education, AI-assisted analysis of anatomical structures like blood vessels and neural connectivity, and improved surgical planning for conditions like congenital heart disease.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Hierarchical phase contrast computed tomography (HIPCT)</span>
+  <span class="topic-tag">Synchrotron radiation imaging</span>
+  <span class="topic-tag">X-ray phase contrast imaging</span>
+  <span class="topic-tag">Three-dimensional organ reconstruction</span>
+  <span class="topic-tag">Blood vessel segmentation in kidneys</span>
+  <span class="topic-tag">White matter connectivity mapping in human brain</span>
+  <span class="topic-tag">Congenital heart disease anatomical analysis</span>
+  <span class="topic-tag">Kidney disease and transplant rejection</span>
+  <span class="topic-tag">AI-assisted image segmentation</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26712/planning-the-future-space-weather-operations-and-research-infrastructure-proceedings" target="_blank">Planning the Future Space Weather Operations and Research Infrastructure: Proceedings of the Phase II Workshop</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a" target="_blank">Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine</a></div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match">Retooling for an Aging America: Building the Health Care Workforce</div>
+<div class="nasem-match">Reducing the Impact of Dementia in America: A Decadal Survey</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/22086/independent-cost-estimates-for-design-and-construction-of-transit-facilities-in-rural-and-small-urban-areas" target="_blank">Independent Cost Estimates for Design and Construction of Transit Facilities in Rural and Small Urban Areas</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/17620/countermeasures-to-protect-bridge-abutments-from-scour" target="_blank">Countermeasures to Protect Bridge Abutments from Scour</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/11269/cord-blood-establishing-a-national-hematopoietic-stem-cell-bank-program" target="_blank">Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future" target="_blank">Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">HIPCT achieves one micrometer resolution compared to one millimeter for hospital CT scanners (100-fold improvement) — verify against NASEM imaging technology assessments</div>
+<div class="claim">Synchrotron radiation provides more 'brilliant' (intense and focused) x-rays than hospital CT, enabling phase contrast imaging — confirm technical specifications</div>
+<div class="claim">Phase contrast imaging can detect density differences invisible to absorption-based CT — verify against medical imaging literature</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"With hip CT, we can look at the orientations and the directions that these connections are going and you can start to unpick okay what the wiring diagram of the human brain."</div>
+<div class="quote">"When you image one [organ] separate from the other, you lose a load of that connectivity between the two that's incredibly important in terms of how they actually function. So by scanning a whole intact human body, you preserve those connections between the different organs and you get a much better and holistic understanding of how the body functions."</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">76 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Mars Missions (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts covering Artemis II, Mars rovers, ISS research, private astronaut missions, and space biology experiments.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Science Policy and Research Funding (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions on federal research grant lapses, NSF fellowships, scientists in politics, and institutional research priorities.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Vaccine Misinformation and Public Health Leadership (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts addressing vaccine skepticism, HHS leadership concerns, and CDC director appointments with public health credentials.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Wildlife Biology and Natural History (7 posts)</span> <span style="font-size:13px;color:#4a5568;">Scientific illustrations, behavioral studies of coyotes and otters, aDNA research, and species documentation.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Adaptation (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts on sea-level rise impacts, Venice adaptation strategies, fossil fuel subsidies, and environmental science.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">2951 likes &middot; 731 reposts &middot; 103 replies</div>
+  <div class="bluesky-text">In case you missed it: first-person video footage of the U.S. Navy Divers Medical Team opening the hatch and entering inside the Orion Integrity capsule to meet the Artemis II heros
+
+U.S. Navy Courtesy Asset/ Explosive Ordnance Disposal Group One 
+
+www.dvidshub.net/video/100269...
+
+#Artemis 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mjnbjm7rrs2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@sciwri.bsky.social</div>
+  <div class="bluesky-stats">213 likes &middot; 33 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">River riddle solved! The Colorado River disappeared from the geological record for 5 million years. Scientists now know where it went: Into vanished Bidahochi Lake, before eventually spilling over on a course to the Grand Canyon. ucla.in/4dO9niX 🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/sciwri.bsky.social/post/3mjncqtsng222" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">141 likes &middot; 57 reposts &middot; 26 replies</div>
+  <div class="bluesky-text">Misinformation is a formidable force.
+
+46% of US adults surveyed last month signaled that they think the science on vaccines remains “up for debate” & is damaging to require people to get them.
+
+We have an HHS secretary who likes to chop off rodent genitalia.
+
+🧪 www.politico.com/news/2026/04...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjo2xtdib22o" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">112 likes &middot; 52 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">Wow!
+All joking aside, our cells have an orientation & polarity, fundamental to function. They incessantly monitor the environment around them. Mechanosensing is the way cells translate physical changes (gravity) to internal signals.
+
+🧪We are literally earthlings, at the cellular & molecular level.</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjnjoq3lws2b" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">78 likes &middot; 30 reposts &middot; 2 replies</div>
+  <div class="bluesky-text">Fatal Flyby
+
+science.nasa.gov/blogs/the-su... 🧪🔭</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mjnealk5sk2t" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Vaccine Confidence and Science Communication</strong>: NASEM's work on rebuilding trust in science and addressing vaccine hesitancy directly relates to the 46% of Americans questioning vaccine science consensus.</div>
+<div class="nasem-match"><strong>Federal Research Funding Infrastructure</strong>: NASEM assesses research funding adequacy; lapses in SBIR/STTR programs and NSF fellowship restoration reflect critical gaps in small business and early-career researcher support systems.</div>
+<div class="nasem-match"><strong>Scientists' Role in Policy and Governance</strong>: NASEM examines science policy intersections; increasing numbers of scientists entering politics and concerns about HHS/CDC leadership qualifications align with NASEM's mandate on science-informed decision-making.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 17, 2026 at 11:27 AM | Internal use only
+    </div>
+</body>
+</html>
