@@ -1,7 +1,113 @@
 {
-  "updated": "2026-04-17T11:27:39.350629",
-  "episode_count": 194,
+  "updated": "2026-04-19T12:00:17.505390",
+  "episode_count": 199,
   "episodes": [
+    {
+      "podcast_id": "radiolab",
+      "podcast_name": "Radiolab",
+      "episode_title": "The Resistance of a Cow",
+      "host": "Lulu Miller, Latif Nasser",
+      "published": "2026-04-17T14:00:00",
+      "influence_tier": "high",
+      "category": "science_storytelling",
+      "summary": "```json\n{\n  \"summary\": \"This Radiolab episode investigates 'stray voltage'—the presence of unwanted electrical current on farms that farmers claim causes cows to refuse drinking water and instead consume urine. The story traces reports from Denmark to the American Midwest, where farmers have blamed power lines and electrical infrastructure for harming their livestock. However, the investigation reveals a complex scientific dispute: while some electricians and farmers argue that modern dairy farm",
+      "science_topics": [],
+      "claims_to_note": [],
+      "policy_relevance": [],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "nature-podcast",
+      "podcast_name": "Nature Podcast",
+      "episode_title": "Briefing Chat: Penguins pick up PFAS pollution",
+      "host": "Springer Nature",
+      "published": "2026-04-17T13:36:51",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Nature Briefing podcast discusses three environmental and biomedical science stories: the use of Magellanic penguins as biomonitors for PFAS (forever chemicals) pollution in remote Argentine Patagonia through silicon ankle bands, a case report of a woman whose three debilitating autoimmune conditions were completely resolved by a single personalized CAR-T cell therapy after nine failed treatments, and new evolutionary research suggesting that deep-sea anglerfish bioluminescent lures evolved not only for prey capture but also for mate attraction, driving species diversification over the past 72 million years.",
+      "science_topics": [
+        "PFAS (per- and polyfluoroalkyl substances) environmental contamination and biomonitoring",
+        "CAR-T cell immunotherapy for autoimmune conditions",
+        "Autoimmune hemolytic anemia and B cell-mediated autoimmune diseases",
+        "Deep-sea anglerfish bioluminescence and evolution",
+        "Sexual parasitism in anglerfish reproduction",
+        "Marine ecosystem monitoring using animal biomarkers"
+      ],
+      "claims_to_note": [
+        "PFAS chemicals detected in remote Argentine Patagonia penguin colonies, including banned legacy compounds and newer replacements",
+        "91 of 165 penguin ankle bands detected PFAS with nine different compound types identified",
+        "Single CAR-T therapy dose achieved 14-month complete remission in patient with three concurrent autoimmune conditions after nine prior treatments failed",
+        "Approximately 40% of 400 living anglerfish species are deep-sea bioluminescent species",
+        "Anglerfish lure evolution occurred 72 million years ago (non-luminescent forms) with luminescent forms evolving 34-23 million years ago"
+      ],
+      "policy_relevance": [
+        "PFAS monitoring and regulation implications for remote marine ecosystems",
+        "CAR-T therapy cost and accessibility as barriers to treating large populations with autoimmune conditions",
+        "Scalability challenges of ultra-personalized genetic therapies for rare autoimmune diseases"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Environmental Engineering for the 21st Century: Addressing Grand Challenges",
+          "url": "https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges"
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
+        },
+        {
+          "title": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+          "url": "https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of"
+        },
+        {
+          "title": "Science, Evolution, and Creationism",
+          "url": ""
+        },
+        {
+          "title": "In the Light of Evolution: Volume V: Cooperation and Conflict",
+          "url": "https://nap.nationalacademies.org/catalog/13223/in-the-light-of-evolution-volume-v-cooperation-and-conflict"
+        },
+        {
+          "title": "Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/24994/sexual-harassment-of-women-climate-culture-and-consequences-in-academic"
+        },
+        {
+          "title": "Measuring Sex, Gender Identity, and Sexual Orientation",
+          "url": "https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation"
+        },
+        {
+          "title": "Reducing Inequalities Between Lesbian, Gay, Bisexual, Transgender, and Queer Adolescents and Cisgender, Heterosexual Adolescents: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26383/reducing-inequalities-between-lesbian-gay-bisexual-transgender-and-queer-adolescents-and-cisgender-heterosexual-adolescents"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -190,6 +296,239 @@
         {
           "title": "Communities in Action: Pathways to Health Equity",
           "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity"
+        }
+      ]
+    },
+    {
+      "podcast_id": "startalk",
+      "podcast_name": "StarTalk Radio",
+      "episode_title": "Busting Nutrition Myths with Jessica Knurick",
+      "host": "Neil deGrasse Tyson",
+      "published": "2026-04-17T05:00:00",
+      "influence_tier": "high",
+      "category": "science_communication",
+      "summary": "Nutritionist Jessica Knurick discusses widespread nutrition myths and misinformation in America. The episode covers how chronic lifestyle diseases (type 2 diabetes, cardiovascular disease) have increased despite medical advances, the role of GLP-1 drugs as weight management tools, the confusion around ultra-processed foods, conflicts of interest in dietary guideline development, and the spread of scientifically unfounded claims about seed oils, raw milk, and food additives. Knurick emphasizes that healthy nutrition principles remain relatively stable and simple, but misinformation spreads rapidly on social media due to sensational claims tied to product sales.",
+      "science_topics": [
+        "GLP-1 receptor agonists (weight loss medications) - long-term effects and safety",
+        "Type 2 diabetes and cardiometabolic disease prevalence",
+        "Ultra-processed foods classification (NOVA system)",
+        "Polyunsaturated fatty acids and seed oils (linoleic acid, arachidonic acid conversion)",
+        "Saturated fat intake recommendations (less than 10% of calories)",
+        "Protein requirements and recommendations for different populations",
+        "Pasteurization of milk and pathogen elimination",
+        "Synthetic food dyes (Red 40, Blue 1, Blue 2, Yellow 5, Yellow 6) safety",
+        "Raw milk and foodborne pathogens (E. coli)",
+        "Dietary guidelines visual representations (food pyramid, MyPlate, inverted pyramid)",
+        "Nutritional epidemiology and longitudinal studies"
+      ],
+      "claims_to_note": [
+        "GLP-1 drugs have only been in use for ~20 years, so long-term human data is limited - relies on animal models and clinical trials for safety assessment",
+        "Most Americans get adequate protein on average according to NHANES data, with some over-consuming red meat",
+        "Linoleic acid converts to arachidonic acid at less than 1% (closer to 0.1%) in human bodies, contradicting claims that seed oils cause inflammation",
+        "Polyunsaturated fatty acids (from seed oils) are associated with heart health benefits according to global nutrition science and longitudinal studies",
+        "Five synthetic food dyes (Red 40, Blue 1, Blue 2, Yellow 5, Yellow 6) have been deemed safe by FDA, EFSA (EU), Australia, and Canada - contrary to social media claims",
+        "Pasteurization involves heating milk to ~165°F for 15 seconds and cooling - does not meaningfully change nutritional content",
+        "Over 70% of the U.S. food environment consists of ultra-processed foods",
+        "Previous dietary guideline scientific committee had fewer conflicts of interest with beef/dairy industry than current (2026) committee",
+        "Life expectancy and infectious disease control have improved, but chronic disease rates related to lifestyle have increased",
+        "The 2026 dietary guidelines changed visual representation from MyPlate to inverted pyramid, increasing prominence of animal proteins despite guidelines maintaining saturated fat limits of less than 10%"
+      ],
+      "policy_relevance": [
+        "USDA and HHS dietary guidelines development process - scientific committee selection by current administration",
+        "Dietary guidelines updated every 5 years with mandatory scientific report development over 2-year period",
+        "FDA working to establish regulatory definition for ultra-processed foods",
+        "Lobbying by beef and dairy industry during guideline-to-policy conversion period",
+        "Food fortification policy (iodization of salt to prevent goiters) - described as effective public health intervention",
+        "CDC website guidance changes mentioned as unprecedented conflict with other medical organizations",
+        "Conflicts of interest among scientists on 2026 dietary guideline committee with beef/dairy industry",
+        "Changes in clinical trial representation - moving from historically male-only testing to more diverse populations"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention",
+          "url": "https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        },
+        {
+          "title": "Medications for Opioid Use Disorder Save Lives",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans",
+          "url": "https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans"
+        },
+        {
+          "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+          "url": ""
+        },
+        {
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "url": ""
+        },
+        {
+          "title": "The Role of Net Metering in the Evolving Electricity System",
+          "url": "https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system"
+        },
+        {
+          "title": "In-Time Aviation Safety Management: Challenges and Research for an Evolving Aviation System",
+          "url": "https://nap.nationalacademies.org/catalog/24962/in-time-aviation-safety-management-challenges-and-research-for-an"
+        },
+        {
+          "title": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+          "url": "https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Frontiers in Thermal Transport and Energy Conversion: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25549/frontiers-in-thermal-transport-and-energy-conversion-proceedings-of-a"
+        },
+        {
+          "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+          "url": "https://nap.nationalacademies.org/catalog/10026/dietary-reference-intakes-for-vitamin-a-vitamin-k-arsenic-boron-chromium-copper-iodine-iron-manganese-molybdenum-nickel-silicon-vanadium-and-zinc"
+        },
+        {
+          "title": "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate",
+          "url": "https://nap.nationalacademies.org/catalog/10925/dietary-reference-intakes-for-water-potassium-sodium-chloride-and-sulfate"
+        },
+        {
+          "title": "Using Systematic Reviews to Support Future Dietary Reference Intakes: A Letter Report",
+          "url": "https://nap.nationalacademies.org/catalog/27031/using-systematic-reviews-to-support-future-dietary-reference-intakes-a"
+        }
+      ]
+    },
+    {
+      "podcast_id": "making-sense",
+      "podcast_name": "Making Sense",
+      "episode_title": "#471 — The End of History, Revisited",
+      "host": "Sam Harris",
+      "published": "2026-04-16T18:00:00",
+      "influence_tier": "high",
+      "category": "longform_interview",
+      "summary": "Francis Fukuyama discusses his famous 'End of History' thesis and its widespread misunderstanding, clarifying that it referred to the direction of historical progress toward liberal democracy and market economics rather than the cessation of events. The conversation explores liberalism's core commitments (rule of law, constitutional checks, individual rights), how conservatism has shifted from classical liberalism toward ethno-nationalism, and the vulnerabilities of liberal systems to being subverted by extremism on both left (identity politics) and right (neoliberalism, authoritarianism). Both speakers express concern about the erosion of liberal democracy in America and the rise of illiberal forces globally.",
+      "science_topics": [],
+      "claims_to_note": [
+        "China has created 'a pretty impressive system' that is 'very successful at marshalling new technology' and 'capable of innovating a lot of things we thought they weren't able to do' — this is a geopolitical assessment rather than a scientific claim",
+        "No explicit scientific or health claims that contradict established consensus are present in this transcript"
+      ],
+      "policy_relevance": [
+        "Discussion of liberal democracy versus authoritarian capitalism as competing political systems",
+        "Reference to Viktor Orban's recent election loss in Hungary and his concept of 'illiberal democracy'",
+        "Critique of current U.S. administration described as corrupt and anti-democratic, with concerns about election integrity",
+        "Discussion of identity politics and its role in shaping Democratic party policy and messaging",
+        "Mention of Israeli governance and the treatment of Arab citizens within Israel's political system",
+        "Implicit policy debate about race-conscious versus race-blind approaches to civil rights and governance"
+      ],
+      "nasem_publications": []
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "How to keep quantum computers cool, whether prediction markets harm public health, and podcasting on podcasting",
+      "host": "Sarah Crespi",
+      "published": "2026-04-16T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Magazine podcast episode covers three main topics: emerging cooling technologies for quantum computers that could reduce dependence on scarce helium-3 isotopes, potential public health harms from commercialized prediction markets including gambling-like addictive features and democratic threats, and the personal and professional benefits of science communication through podcasting for PhD students.",
+      "science_topics": [
+        "Dilution refrigeration and ultra-low temperature physics for quantum computing",
+        "Helium-3 isotope supply and nuclear weapons byproducts",
+        "Qubit scaling in quantum computers (current ~1000 qubits, target ~1 million)",
+        "Electronic cooling via energy-selective electron trapping on quantum chips",
+        "Photonic cooling using LED-based heat pumps",
+        "Magnetocaloric cooling materials and continuous cycling refrigeration",
+        "Quantum error correction and quantum computing practical applications",
+        "Encryption vulnerability to quantum computing with fewer qubits than previously estimated",
+        "Behavioral addiction mechanisms and gambling disorder epidemiology",
+        "Neuroscience research communication and translational medicine"
+      ],
+      "claims_to_note": [
+        "U.S. helium-3 stockpile estimated at ~90,000 liters based on 2021 internal DOE document (source reliability unclear)",
+        "Blue Force estimates ~40,000 liters of helium-3 needed to power one large quantum computer with million qubits",
+        "Hundreds of companies worldwide working on quantum computer development (needs verification)",
+        "2-3% of users develop behavioral disorders from online gambling platforms (traditional estimate; prediction market-specific data lacking)",
+        "Gambling addiction affects 6 additional people per affected individual (family/financial/mental impact)",
+        "Prediction market platforms lack deposit limits, affordability checks, and mandatory breaks standard in casinos",
+        "Cryptocurrency-based prediction markets enable greater anonymity for transactions",
+        "Event contracts fall under CFTC (commodities) rather than SEC (securities) regulatory authority in U.S."
+      ],
+      "policy_relevance": [
+        "Helium-3 supply controlled by U.S. and Russian governments; DOE declination to confirm stockpile size indicates classified status",
+        "Federal-state regulatory tension over prediction market jurisdiction (20+ states with court battles; potential Supreme Court escalation predicted for 2025)",
+        "Congressional initiatives to address insider trading in event contracts with rules stricter than current CFTC oversight",
+        "Prohibition of foreign campaign financing but allowance of foreign betting on U.S. elections creates regulatory gap",
+        "WHO recognition of gambling disorder as mental health condition requiring public health attention",
+        "Need for regulatory guardrails on prediction market platform design including interface standards, deposit limits, affordability checks"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": "https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects"
+        },
+        {
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape"
+        },
+        {
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design"
+        },
+        {
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war"
+        },
+        {
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states"
+        },
+        {
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25499/domestic-manufacturing-capabilities-for-critical-dod-applications-emerging-needs-in"
+        },
+        {
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance"
+        },
+        {
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": ""
+        },
+        {
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation"
+        },
+        {
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings"
+        },
+        {
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "url": ""
+        },
+        {
+          "title": "Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress",
+          "url": "https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region"
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
         }
       ]
     },

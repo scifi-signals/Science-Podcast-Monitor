@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Podcast Monitor - April 19, 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #553c9a 0%, #6b46c1 50%, #805ad5 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .header .date { opacity: 0.7; font-size: 14px; margin-top: 4px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #553c9a;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9d8fd;
+        }
+        .card h3 { color: #2d3748; font-size: 16px; margin-bottom: 8px; }
+        .episode {
+            border-left: 4px solid #805ad5;
+            padding: 16px;
+            margin-bottom: 16px;
+            background: #faf5ff;
+            border-radius: 0 8px 8px 0;
+        }
+        .episode-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+        .episode-title { font-weight: 700; color: #2d3748; font-size: 16px; }
+        .episode-meta { color: #718096; font-size: 13px; }
+        .topic-tag {
+            display: inline-block;
+            background: #e9d8fd;
+            color: #553c9a;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        .claim {
+            background: #fff5f5;
+            border-left: 3px solid #fc8181;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match {
+            background: #f0fff4;
+            border-left: 3px solid #68d391;
+            padding: 8px 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .nasem-match a { color: #276749; text-decoration: none; font-weight: 600; }
+        .nasem-match a:hover { text-decoration: underline; }
+        .quote {
+            font-style: italic;
+            color: #4a5568;
+            padding: 8px 16px;
+            border-left: 3px solid #805ad5;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .bluesky-post {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .bluesky-author { font-weight: 600; color: #2b6cb0; font-size: 14px; }
+        .bluesky-stats { color: #718096; font-size: 12px; }
+        .bluesky-text { font-size: 14px; margin-top: 4px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 28px; font-weight: 700; color: #553c9a; }
+        .stat-label { font-size: 12px; color: #718096; }
+        .opportunity {
+            background: #fffff0;
+            border-left: 3px solid #ecc94b;
+            padding: 8px 12px;
+            margin: 4px 0;
+            font-size: 14px;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 12px;
+            padding: 24px;
+            margin-top: 12px;
+        }
+        .section-divider { height: 1px; background: #e2e8f0; margin: 16px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Science Podcast Monitor</h1>
+        <div class="subtitle">Daily Intelligence Digest for NASEM</div>
+        <div class="date">April 19, 2026</div>
+    </div>
+    <div class="container">
+        
+    <div class="card">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Episodes Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">27</div>
+                <div class="stat-label">Topics Extracted</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">15</div>
+                <div class="stat-label">NASEM Matches</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">100</div>
+                <div class="stat-label">Bluesky Posts</div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+<h2>Executive Summary</h2>
+<p style="font-size:15px;line-height:1.7;">Today's briefing reveals converging concerns around public health misinformation and emerging biotechnologies. PFAS contamination continues to be documented in remote ecosystems through innovative biomonitoring approaches, while nutrition science is under sustained attack from viral misinformation on social media regarding seed oils, raw milk, and food additives—issues that have appeared consistently across the past week. Separately, significant advances in mRNA cancer vaccines and gene therapies are generating momentum on Bluesky, though concerns about potential HHS funding cuts have emerged. Quantum computing infrastructure challenges (helium-3 scarcity) and behavioral risks from prediction markets represent emerging policy-relevant concerns. Notably, GLP-1 drugs continue to dominate health discourse across multiple formats, reflecting both therapeutic promise and public confusion about long-term safety.</p>
+<div class="section-divider"></div>
+<h3>Shared Talking Points</h3>
+<ul>
+<li>GLP-1 receptor agonists: weight loss efficacy, long-term safety data gaps, and distinction from diabetes treatment</li>
+<li>Nutrition misinformation spread: seed oils, raw milk, synthetic dyes—sensationalism driving product sales on social media</li>
+<li>Environmental biomonitoring: PFAS in remote locations (penguins in Patagonia) demonstrating global contamination patterns</li>
+<li>mRNA technology: cancer vaccine breakthroughs (pancreatic cancer focus) alongside funding uncertainty concerns</li>
+<li>Gene therapy approvals: expanding therapeutic applications (blindness, leukemia) and CRISPR advancement</li>
+</ul>
+<div class="section-divider"></div>
+<h3>Emerging Trends</h3>
+<ul>
+<li>Prediction markets as public health threat: evidence of gambling-like addictive mechanics and democratic risks (NEW, high relevance for policy)</li>
+<li>Quantum computing infrastructure bottlenecks: helium-3 scarcity limits scaling; alternative cooling technologies under development (NEW, resource/geopolitical angle)</li>
+<li>CAR-T cell therapy expanding beyond hematologic malignancies: single-dose remission in multi-drug-resistant autoimmune disease (NOVEL application, 14-month follow-up)</li>
+<li>Climate tipping point communications: permafrost thaw and Arctic freshwater system impacts gaining traction (RECURRING from past week)</li>
+<li>Women in STEM clinical trial inclusion: persistent equity gap in medical research design (RECURRING emphasis)</li>
+</ul>
+<div class="section-divider"></div>
+<h3>NASEM Opportunities</h3>
+<div class="opportunity">Convene expert working group on PFAS biomonitoring standards and wildlife-based exposure assessment methodology</div>
+<div class="opportunity">Commission rapid report on prediction market regulation and public health safeguards (behavioral addiction, market integrity)</div>
+<div class="opportunity">Develop science communication toolkit countering seed oil and raw milk misinformation narratives—partner with nutrition communicators</div>
+<div class="opportunity">Host workshop on quantum computing infrastructure challenges (helium-3 supply chain, cooling alternatives) engaging DOE, NSF, and industry</div>
+<div class="opportunity">Engage mRNA vaccine/gene therapy funding landscape assessment in context of HHS policy uncertainty—advocate for continued support of foundational research</div>
+<div class="opportunity">Establish task force on sex-based biological variables in clinical trials—leverage recent protocol discussions from past week's content</div>
+<div class="section-divider"></div>
+<h3>Misinformation Watch</h3>
+<div class="claim">Seed oil inflammation claims: assertion that linoleic acid converts to arachidonic acid at high rates (DEBUNKED: actual conversion <1%, closer to 0.1%)</div>
+<div class="claim">Raw milk safety: claims of pathogen elimination through natural processes (CONTRADICTS consensus: E. coli and other foodborne pathogens persist; pasteurization remains gold standard)</div>
+<div class="claim">Synthetic food dye neurotoxicity: viral claims linking Red 40, Blue 1, Yellow 5/6 to hyperactivity without controlled trial evidence (UNSUBSTANTIATED: regulatory safety data from FDA/EFSA not mentioned in counter-claims)</div>
+<div class="claim">Stray voltage on farms: ongoing farmer claims of power line-caused livestock illness with contested scientific evidence (DISPUTED: investigation reveals complex technical dispute lacking consensus)</div>
+</div>
+
+        <div class="card">
+<h2>Cross-Show Trends</h2>
+<p style="font-size:13px;color:#718096;margin-bottom:16px;">Multi-day patterns identified across podcast shows and Bluesky, synthesized from the past 7 days of coverage.</p>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Sex and Gender as Critical Biological Variables in Research</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Multiple shows are highlighting how sex differences in drug metabolism, disease presentation, and clinical outcomes demand systematic integration into research design. Short Wave's discussion of zolpidem pharmacokinetics and sex-based heart attack symptom variation, paired with Science Magazine Podcast's focus on control group methodology in drug testing, signals growing recognition that historical one-size-fits-all approaches mask clinically significant biological variation. This represents a methodological correction gaining traction across basic science and clinical research communities.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should lead on standardizing sex-as-a-biological-variable reporting requirements across funded research and clinical trials to ensure equitable health outcomes.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Metabolic Disease and Pharmaceutical Intervention Convergence</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">StarTalk Radio, The Peter Attia Drive, and Nature Podcast are converging on narratives about GLP-1 agonists, type 2 diabetes, and cardiometabolic disease as interconnected health crises requiring multifactorial intervention. Discussion spans drug mechanisms (GLP-1 receptor action, mitochondrial optimization via SS31), dietary vectors (ultra-processed foods, polyunsaturated fatty acids), and long-term safety concerns—suggesting emerging policy questions about pharmaceutical access, food system reform, and prevention infrastructure.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">StarTalk Radio</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">The Peter Attia Drive</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should convene task forces on the diet-drug-disease policy interface, particularly GLP-1 access equity and food system sustainability in metabolic disease prevention.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Quantum Computing Infrastructure and Critical Supply Chain Dependencies</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Science Magazine Podcast's reporting on helium-3 isotope scarcity tied to nuclear weapons byproduct availability, combined with discussions of dilution refrigeration and qubit scaling bottlenecks, frames quantum computing advancement as constrained by geopolitical and resource dependencies. The narrative shifts from pure algorithmic progress to hardware infrastructure as the limiting factor in achieving 1-million-qubit systems.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Science Magazine Podcast</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should assess helium-3 and cryogenic infrastructure as critical supply chain risks for U.S. quantum computing competitiveness and recommend policy interventions.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Environmental Contamination and Biomonitoring as Foundational Health Data</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Nature Podcast, Unbiased Science, and Short Wave are building parallel narratives on PFAS environmental persistence and microplastics detection methodology, with Unbiased Science additionally raising mechanistic questions about leaky gut and routes of exposure. Shows are emphasizing measurement challenges and exposure pathways (inhalation vs. ingestion) as prerequisites for causal inference—signaling that environmental health policy requires validated biomonitoring infrastructure.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Nature Podcast</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Unbiased Science</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should prioritize standardization of PFAS and microplastics measurement methodology and establish national biomonitoring guidelines for environmental health surveillance.</div>
+</div>
+<div style="border-left:4px solid #805ad5;padding:14px 16px;margin:10px 0;background:#faf5ff;border-radius:0 8px 8px 0;">
+    <div style="font-weight:700;color:#553c9a;font-size:16px;margin-bottom:6px;">Neural Plasticity and Learning Mechanisms as Intervention Targets</div>
+    <p style="font-size:14px;line-height:1.6;margin-bottom:8px;">Huberman Lab's deep dive into hippocampal-dependent learning, one-trial learning, and epinephrine's role in memory consolidation, combined with Short Wave's brain-machine interface and neural recovery reporting, frames neural plasticity as an actionable target for therapeutic intervention. The convergence suggests emerging clinical applications in stroke rehabilitation and learning disorders.</p>
+    <div style="margin-bottom:6px;"><span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Huberman Lab</span>
+<span style="display:inline-block;background:#e9d8fd;color:#553c9a;padding:2px 8px;border-radius:12px;font-size:11px;margin:2px 4px 2px 0;">Short Wave</span>
+</div>
+    <div style="font-size:13px;color:#276749;background:#f0fff4;padding:6px 10px;border-radius:6px;margin-top:4px;"><strong>NASEM relevance:</strong> NASEM should commission a report on translating neural plasticity research into stroke rehabilitation and learning disorder interventions, with focus on timing and mechanisms of epinephrine-dependent consolidation.</div>
+</div>
+</div>
+
+        <div class="card">
+<h2>Podcast Episodes</h2>
+<div style="margin-bottom:16px;padding:10px 14px;background:#f7fafc;border-radius:8px;font-size:12px;color:#718096;">
+  <strong>Influence Tiers:</strong>   <span style="background:#c53030;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">HIGH REACH</span>   Top podcasts (est. 500K+ downloads/ep) &nbsp;&middot;&nbsp;   <span style="background:#d69e2e;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">MEDIUM REACH</span>   Established niche shows &nbsp;&middot;&nbsp;   <span style="background:#38a169;color:white;padding:1px 6px;border-radius:3px;font-size:11px;">EMERGING</span>   Smaller/policy-focused shows</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Making Sense: #471 — The End of History, Revisited</span>
+</div>
+<div class="episode-meta">Sam Harris &middot; Apr 16 &middot; 19 min</div>
+<p style="margin:10px 0;font-size:14px;">Francis Fukuyama discusses his famous 'End of History' thesis and its widespread misunderstanding, clarifying that it referred to the direction of historical progress toward liberal democracy and market economics rather than the cessation of events. The conversation explores liberalism's core commitments (rule of law, constitutional checks, individual rights), how conservatism has shifted from classical liberalism toward ethno-nationalism, and the vulnerabilities of liberal systems to being subverted by extremism on both left (identity politics) and right (neoliberalism, authoritarianism). Both speakers express concern about the erosion of liberal democracy in America and the rise of illiberal forces globally.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">China has created 'a pretty impressive system' that is 'very successful at marshalling new technology' and 'capable of innovating a lot of things we thought they weren't able to do' — this is a geopolitical assessment rather than a scientific claim</div>
+<div class="claim">No explicit scientific or health claims that contradict established consensus are present in this transcript</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"End does not mean the cessation of history. It meant what is the objective or goal towards which history seems to be moving... my argument was that it looked like it was tending towards a market economy linked to a liberal democratic political system."</div>
+<div class="quote">"I think that a liberal political system is one in which government authority is limited by a rule of law and by constitutional checks and balances... And it's really that obedience to law that is at the core of what I regard as a liberal political system."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">StarTalk Radio: Busting Nutrition Myths with Jessica Knurick</span>
+</div>
+<div class="episode-meta">Neil deGrasse Tyson &middot; Apr 17 &middot; 56 min</div>
+<p style="margin:10px 0;font-size:14px;">Nutritionist Jessica Knurick discusses widespread nutrition myths and misinformation in America. The episode covers how chronic lifestyle diseases (type 2 diabetes, cardiovascular disease) have increased despite medical advances, the role of GLP-1 drugs as weight management tools, the confusion around ultra-processed foods, conflicts of interest in dietary guideline development, and the spread of scientifically unfounded claims about seed oils, raw milk, and food additives. Knurick emphasizes that healthy nutrition principles remain relatively stable and simple, but misinformation spreads rapidly on social media due to sensational claims tied to product sales.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">GLP-1 receptor agonists (weight loss medications) - long-term effects and safety</span>
+  <span class="topic-tag">Type 2 diabetes and cardiometabolic disease prevalence</span>
+  <span class="topic-tag">Ultra-processed foods classification (NOVA system)</span>
+  <span class="topic-tag">Polyunsaturated fatty acids and seed oils (linoleic acid, arachidonic acid conversion)</span>
+  <span class="topic-tag">Saturated fat intake recommendations (less than 10% of calories)</span>
+  <span class="topic-tag">Protein requirements and recommendations for different populations</span>
+  <span class="topic-tag">Pasteurization of milk and pathogen elimination</span>
+  <span class="topic-tag">Synthetic food dyes (Red 40, Blue 1, Blue 2, Yellow 5, Yellow 6) safety</span>
+  <span class="topic-tag">Raw milk and foodborne pathogens (E. coli)</span>
+  <span class="topic-tag">Dietary guidelines visual representations (food pyramid, MyPlate, inverted pyramid)</span>
+  <span class="topic-tag">Nutritional epidemiology and longitudinal studies</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry" target="_blank">Strengthening the Safety Culture of the Offshore Oil and Gas Industry</a></div>
+<div class="nasem-match">What You Need to Know About Infectious Disease</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/21870/considerations-for-designing-an-epidemiologic-study-for-multiple-sclerosis-and-other-neurologic-disorders-in-pre-and-post-911-gulf-war-veterans" target="_blank">Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans</a></div>
+<div class="nasem-match">Crossing the Quality Chasm: A New Health System for the 21st Century</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26704/the-role-of-net-metering-in-the-evolving-electricity-system" target="_blank">The Role of Net Metering in the Evolving Electricity System</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids" target="_blank">Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects" target="_blank">Oil in the Sea IV: Inputs, Fates, and Effects</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10026/dietary-reference-intakes-for-vitamin-a-vitamin-k-arsenic-boron-chromium-copper-iodine-iron-manganese-molybdenum-nickel-silicon-vanadium-and-zinc" target="_blank">Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/10925/dietary-reference-intakes-for-water-potassium-sodium-chloride-and-sulfate" target="_blank">Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">GLP-1 drugs have only been in use for ~20 years, so long-term human data is limited - relies on animal models and clinical trials for safety assessment</div>
+<div class="claim">Most Americans get adequate protein on average according to NHANES data, with some over-consuming red meat</div>
+<div class="claim">Linoleic acid converts to arachidonic acid at less than 1% (closer to 0.1%) in human bodies, contradicting claims that seed oils cause inflammation</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"We have actually a lot of great data on how to prevent and reduce risk of chronic disease. What we don't have is people actually adopting those behaviors... we have to look at, are our systems set up for more people to succeed or for more people to fail?"</div>
+<div class="quote">"At the end of the day, the basis of nutrition science, like the basis of what we would explain to you as a healthful dietary eating pattern is pretty unchanged for over the last many decades... the discourse about it is constantly changing because people are trying to manipulate the narrative."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#c53030;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">HIGH REACH</span>
+  <span class="episode-title">Radiolab: The Resistance of a Cow</span>
+</div>
+<div class="episode-meta">Lulu Miller, Latif Nasser &middot; Apr 17 &middot; 51 min</div>
+<p style="margin:10px 0;font-size:14px;">```json
+{
+  "summary": "This Radiolab episode investigates 'stray voltage'—the presence of unwanted electrical current on farms that farmers claim causes cows to refuse drinking water and instead consume urine. The story traces reports from Denmark to the American Midwest, where farmers have blamed power lines and electrical infrastructure for harming their livestock. However, the investigation reveals a complex scientific dispute: while some electricians and farmers argue that modern dairy farm</p>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Science Magazine Podcast: How to keep quantum computers cool, whether prediction markets harm public health, and podcasting on podcasting</span>
+</div>
+<div class="episode-meta">Sarah Crespi &middot; Apr 16 &middot; 51 min</div>
+<p style="margin:10px 0;font-size:14px;">This Science Magazine podcast episode covers three main topics: emerging cooling technologies for quantum computers that could reduce dependence on scarce helium-3 isotopes, potential public health harms from commercialized prediction markets including gambling-like addictive features and democratic threats, and the personal and professional benefits of science communication through podcasting for PhD students.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">Dilution refrigeration and ultra-low temperature physics for quantum computing</span>
+  <span class="topic-tag">Helium-3 isotope supply and nuclear weapons byproducts</span>
+  <span class="topic-tag">Qubit scaling in quantum computers (current ~1000 qubits, target ~1 million)</span>
+  <span class="topic-tag">Electronic cooling via energy-selective electron trapping on quantum chips</span>
+  <span class="topic-tag">Photonic cooling using LED-based heat pumps</span>
+  <span class="topic-tag">Magnetocaloric cooling materials and continuous cycling refrigeration</span>
+  <span class="topic-tag">Quantum error correction and quantum computing practical applications</span>
+  <span class="topic-tag">Encryption vulnerability to quantum computing with fewer qubits than previously estimated</span>
+  <span class="topic-tag">Behavioral addiction mechanisms and gambling disorder epidemiology</span>
+  <span class="topic-tag">Neuroscience research communication and translational medicine</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects" target="_blank">Quantum Computing: Progress and Prospects</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape" target="_blank">Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war" target="_blank">Potential Environmental Effects of Nuclear War</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states" target="_blank">Laying the Foundation for New and Advanced Nuclear Reactors in the United States</a></div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25499/domestic-manufacturing-capabilities-for-critical-dod-applications-emerging-needs-in" target="_blank">Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Quantum Computing: Progress and Prospects</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation" target="_blank">America's Energy Future: Technology and Transformation</a></div>
+<div class="nasem-match">Climate Intervention: Reflecting Sunlight to Cool Earth</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region" target="_blank">Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">U.S. helium-3 stockpile estimated at ~90,000 liters based on 2021 internal DOE document (source reliability unclear)</div>
+<div class="claim">Blue Force estimates ~40,000 liters of helium-3 needed to power one large quantum computer with million qubits</div>
+<div class="claim">Hundreds of companies worldwide working on quantum computer development (needs verification)</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Much of the world's supply of helium-3 actually comes from nuclear weapons...Since the Cold War, governments have added this other gas to nuclear weapons called tritium in order to make them more destructive. And that tritium slowly decays into helium-3, and that provides much of the supply for global helium-3."</div>
+<div class="quote">"If we even stick with the traditional low number, even if we go with the 2% to 3% of users to develop behavioral disorders, if you scale it up to, you know, dozens of millions of participants, these numbers become significant. The larger the pool is, the more people could be impacted."</div>
+</div>
+<div class="episode">
+<div class="episode-header">
+  <span style="background:#d69e2e;color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold;">MEDIUM REACH</span>
+  <span class="episode-title">Nature Podcast: Briefing Chat: Penguins pick up PFAS pollution</span>
+</div>
+<div class="episode-meta">Springer Nature &middot; Apr 17 &middot; 15 min</div>
+<p style="margin:10px 0;font-size:14px;">This Nature Briefing podcast discusses three environmental and biomedical science stories: the use of Magellanic penguins as biomonitors for PFAS (forever chemicals) pollution in remote Argentine Patagonia through silicon ankle bands, a case report of a woman whose three debilitating autoimmune conditions were completely resolved by a single personalized CAR-T cell therapy after nine failed treatments, and new evolutionary research suggesting that deep-sea anglerfish bioluminescent lures evolved not only for prey capture but also for mate attraction, driving species diversification over the past 72 million years.</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Topics Discussed</div>
+<div style="margin:4px 0 8px 0;">
+  <span class="topic-tag">PFAS (per- and polyfluoroalkyl substances) environmental contamination and biomonitoring</span>
+  <span class="topic-tag">CAR-T cell immunotherapy for autoimmune conditions</span>
+  <span class="topic-tag">Autoimmune hemolytic anemia and B cell-mediated autoimmune diseases</span>
+  <span class="topic-tag">Deep-sea anglerfish bioluminescence and evolution</span>
+  <span class="topic-tag">Sexual parasitism in anglerfish reproduction</span>
+  <span class="topic-tag">Marine ecosystem monitoring using animal biomarkers</span>
+</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">Related NASEM Publications</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25121/environmental-engineering-for-the-21st-century-addressing-grand-challenges" target="_blank">Environmental Engineering for the 21st Century: Addressing Grand Challenges</a></div>
+<div class="nasem-match">Abrupt Impacts of Climate Change: Anticipating Surprises</div>
+<div class="nasem-match">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/27892/pay-and-working-conditions-in-the-long-distance-truck-and-bus-industries" target="_blank">Pay and Working Conditions in the Long-Distance Truck and Bus Industries: Assessing for Effects on Driver Safety and Retention</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of" target="_blank">The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop</a></div>
+<div class="nasem-match">Forecasting the Ocean: The 2025-2035 Decade of Ocean Science</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/12692/in-the-light-of-evolution-volume-iii-two-centuries-of" target="_blank">In the Light of Evolution: Volume III: Two Centuries of Darwin</a></div>
+<div class="nasem-match">Science, Evolution, and Creationism</div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/24994/sexual-harassment-of-women-climate-culture-and-consequences-in-academic" target="_blank">Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine</a></div>
+<div class="nasem-match"><a href="https://nap.nationalacademies.org/catalog/26424/measuring-sex-gender-identity-and-sexual-orientation" target="_blank">Measuring Sex, Gender Identity, and Sexual Orientation</a></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#c53030;text-transform:uppercase;letter-spacing:0.5px;">Claims to Verify</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:4px;">Factual claims from the episode that may warrant review against NASEM reports</p>
+<div class="claim">PFAS chemicals detected in remote Argentine Patagonia penguin colonies, including banned legacy compounds and newer replacements</div>
+<div class="claim">91 of 165 penguin ankle bands detected PFAS with nine different compound types identified</div>
+<div class="claim">Single CAR-T therapy dose achieved 14-month complete remission in patient with three concurrent autoimmune conditions after nine prior treatments failed</div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#553c9a;text-transform:uppercase;letter-spacing:0.5px;">Key Quotes</div>
+<div class="quote">"Penguins are our elite team of marine detectives - describing how Magellanic penguins serve as biomonitors for PFAS pollution"</div>
+<div class="quote">"She received a single dose of CAR-T therapy that was personalized for her own overactive B cells...it's been 14 months and she is in complete remission"</div>
+</div>
+</div>
+
+        
+        <div class="card">
+<h2>Bluesky Science Feed</h2>
+<p class="episode-meta">100 posts analyzed from the curated <a href="https://bsky.app/profile/emily.bsky.team/feed/for-science" style="color:#2b6cb0;">For Science</a> feed</p>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Trending Topics</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Most-discussed subjects among scientists on Bluesky in the last 48 hours</p>
+<div style="margin:6px 0;"><span class="topic-tag">mRNA Technology and Cancer Treatment (6 posts)</span> <span style="font-size:13px;color:#4a5568;">Multiple posts highlight breakthroughs in mRNA-based personalized cancer vaccines and gene therapies, particularly for pancreatic cancer, alongside concerns about potential HHS funding cuts.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Climate Change and Environmental Systems (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts discuss climate tipping points beyond 1.5°C, permafrost thaw effects on Arctic freshwater systems, and implications for global temperature management.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Space Exploration and Astronomy (8 posts)</span> <span style="font-size:13px;color:#4a5568;">Coverage includes Artemis II mission success, Voyager 1 operations, commercial space station development, and observations of celestial phenomena.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Gene Therapy and Genetic Medicine (5 posts)</span> <span style="font-size:13px;color:#4a5568;">Discussions of approved gene therapies for blindness, leukemia treatment breakthroughs involving gene switching, and CRISPR variants for selective DNA cutting.</span></div>
+<div style="margin:6px 0;"><span class="topic-tag">Women in STEM and Science Equity (3 posts)</span> <span style="font-size:13px;color:#4a5568;">Posts address inclusion of women in clinical trials, representation in STEM fields, and historical disparities in medical research participation.</span></div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;letter-spacing:0.5px;">Notable Posts</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Highest-engagement posts from scientists and science communicators, ranked by likes and reposts</p>
+<div class="bluesky-post">
+  <div class="bluesky-author">@skatsanevakis.bsky.social</div>
+  <div class="bluesky-stats">466 likes &middot; 154 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">Overshooting 1.5°C looks likely—but it’s not game over. The key is limiting how far (and how long) we exceed it, then bringing temperatures back down with rapid cuts + carbon removal. Every fraction of a degree still matters.
+👉 www.scientificamerican.com/article/why-...
+#ClimateChange 🌍🌐🧪</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/skatsanevakis.bsky.social/post/3mjryhsi4ek2l" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">426 likes &middot; 137 reposts &middot; 7 replies</div>
+  <div class="bluesky-text">🧪Ivermectin is no match for mRNA based technology.</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjsv52kkqc2r" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@pomarede.bsky.social</div>
+  <div class="bluesky-stats">292 likes &middot; 115 reposts &middot; 4 replies</div>
+  <div class="bluesky-text">NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating
+
+The Low-energy Charged Particles experiment has been operating almost without interruption since Voyager 1 launched in 1977 - almost 49 years. 🧪🔭 #Voyager
+
+science.nasa.gov/blogs/voyage...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/pomarede.bsky.social/post/3mjrjg25uts2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@mcnees.bsky.social</div>
+  <div class="bluesky-stats">252 likes &middot; 72 reposts &middot; 10 replies</div>
+  <div class="bluesky-text">Albert Einstein passed away #OTD in 1955 due to complications from a ruptured abdominal aneurysm.
+
+Doctors recommended surgical intervention but Einstein declined, saying “I have done my share; it is time to go. I will do it elegantly." 
+
+Here is his office as he left it. 🧪 ⚛️
+
+Image: R. Morse/LIFE</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/mcnees.bsky.social/post/3mjrrhc66wz2z" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="bluesky-post">
+  <div class="bluesky-author">@princess-vimentin.bsky.social</div>
+  <div class="bluesky-stats">175 likes &middot; 89 reposts &middot; 9 replies</div>
+  <div class="bluesky-text">More debunking: This time, of Kennedy's assertion that 
+Tylenol intake during pregnancy is linked to autism.
+
+Again, there is no link.
+
+He claimed that this study is garbage & should be retracted. His last retraction request of another Danish study was denied.
+
+🧪 www.cidrap.umn.edu/anti-science...</div>
+  <div style="margin-top:4px;"><a href="https://bsky.app/profile/princess-vimentin.bsky.social/post/3mjru462pac2v" target="_blank" style="color:#2b6cb0;font-size:12px;">View post</a></div>
+</div>
+<div class="section-divider"></div>
+<div style="margin:12px 0 4px 0;font-size:12px;font-weight:600;color:#276749;text-transform:uppercase;letter-spacing:0.5px;">NASEM-Relevant Mentions</div>
+<p style="font-size:11px;color:#a0aec0;margin-bottom:6px;">Bluesky discussions that connect to NASEM research areas or publications</p>
+<div class="nasem-match"><strong>Climate Science and Temperature Targets</strong>: NASEM regularly advises on climate policy and mitigation strategies; discussions of 1.5°C overshoot and carbon removal directly inform national climate science assessments and policy recommendations.</div>
+<div class="nasem-match"><strong>mRNA Technology Translation and Biomedical Innovation</strong>: NASEM evaluates biomedical research priorities and funding policies; posts highlighting mRNA therapeutic breakthroughs and concerns about HHS funding cuts relate to NASEM's role in advising on research investment and innovation policy.</div>
+<div class="nasem-match"><strong>Women and Diversity in STEM and Clinical Trials</strong>: NASEM has published reports on barriers to women in STEM and historical inequities in medical research; posts discussing trial recruitment disparities and inclusion challenges align with NASEM's equity and inclusion initiatives.</div>
+</div>
+
+        
+    <div class="card" style="background:#f8fafc;">
+        <h2 style="color:#718096;font-size:16px;">About This Digest</h2>
+        <p style="font-size:13px;color:#718096;">
+            This digest is automatically generated by the Science Podcast Monitor.
+            It transcribes recent podcast episodes using OpenAI, summarizes them using Claude,
+            and matches discussed topics to NASEM publications. Bluesky data comes from the
+            curated Science Feed. All summaries are AI-generated &mdash; review source material
+            for verification.
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        Science Podcast Monitor | National Academies of Sciences, Engineering, and Medicine<br>
+        Generated April 19, 2026 at 12:00 PM | Internal use only
+    </div>
+</body>
+</html>

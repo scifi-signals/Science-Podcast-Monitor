@@ -1,0 +1,685 @@
+{
+  "podcast_id": "science-magazine",
+  "podcast_name": "Science Magazine Podcast",
+  "episode_title": "How to keep quantum computers cool, whether prediction markets harm public health, and podcasting on podcasting",
+  "host": "Sarah Crespi",
+  "published": "2026-04-16T18:00:00",
+  "episode_url": "https://www.science.org/doi/10.1126/science.zukg0u9",
+  "duration_minutes": 50.516666666666666,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Science Magazine podcast episode covers three main topics: emerging cooling technologies for quantum computers that could reduce dependence on scarce helium-3 isotopes, potential public health harms from commercialized prediction markets including gambling-like addictive features and democratic threats, and the personal and professional benefits of science communication through podcasting for PhD students.",
+  "science_topics": [
+    "Dilution refrigeration and ultra-low temperature physics for quantum computing",
+    "Helium-3 isotope supply and nuclear weapons byproducts",
+    "Qubit scaling in quantum computers (current ~1000 qubits, target ~1 million)",
+    "Electronic cooling via energy-selective electron trapping on quantum chips",
+    "Photonic cooling using LED-based heat pumps",
+    "Magnetocaloric cooling materials and continuous cycling refrigeration",
+    "Quantum error correction and quantum computing practical applications",
+    "Encryption vulnerability to quantum computing with fewer qubits than previously estimated",
+    "Behavioral addiction mechanisms and gambling disorder epidemiology",
+    "Neuroscience research communication and translational medicine"
+  ],
+  "claims_to_note": [
+    "U.S. helium-3 stockpile estimated at ~90,000 liters based on 2021 internal DOE document (source reliability unclear)",
+    "Blue Force estimates ~40,000 liters of helium-3 needed to power one large quantum computer with million qubits",
+    "Hundreds of companies worldwide working on quantum computer development (needs verification)",
+    "2-3% of users develop behavioral disorders from online gambling platforms (traditional estimate; prediction market-specific data lacking)",
+    "Gambling addiction affects 6 additional people per affected individual (family/financial/mental impact)",
+    "Prediction market platforms lack deposit limits, affordability checks, and mandatory breaks standard in casinos",
+    "Cryptocurrency-based prediction markets enable greater anonymity for transactions",
+    "Event contracts fall under CFTC (commodities) rather than SEC (securities) regulatory authority in U.S."
+  ],
+  "policy_relevance": [
+    "Helium-3 supply controlled by U.S. and Russian governments; DOE declination to confirm stockpile size indicates classified status",
+    "Federal-state regulatory tension over prediction market jurisdiction (20+ states with court battles; potential Supreme Court escalation predicted for 2025)",
+    "Congressional initiatives to address insider trading in event contracts with rules stricter than current CFTC oversight",
+    "Prohibition of foreign campaign financing but allowance of foreign betting on U.S. elections creates regulatory gap",
+    "WHO recognition of gambling disorder as mental health condition requiring public health attention",
+    "Need for regulatory guardrails on prediction market platform design including interface standards, deposit limits, affordability checks"
+  ],
+  "key_quotes": [
+    "Much of the world's supply of helium-3 actually comes from nuclear weapons...Since the Cold War, governments have added this other gas to nuclear weapons called tritium in order to make them more destructive. And that tritium slowly decays into helium-3, and that provides much of the supply for global helium-3.",
+    "If we even stick with the traditional low number, even if we go with the 2% to 3% of users to develop behavioral disorders, if you scale it up to, you know, dozens of millions of participants, these numbers become significant. The larger the pool is, the more people could be impacted.",
+    "Reading that email made me pause for a second. It was a sudden reminder that science doesn't just exist inside the lab or in the papers. It can reach people and have a real world impact as well."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Dilution refrigeration and ultra-low temperature physics for quantum computing",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "url": "https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "quantum devices benchmarks associated",
+            "functional quantum computer capable",
+            "small quantum particles",
+            "however significant technical advances",
+            "building small scale devices",
+            "quantum computing",
+            "addressing real world problems",
+            "quantum mechanics",
+            "quantum systems",
+            "improve computational modeling",
+            "prospects",
+            "progress"
+          ],
+          "description": "Quantum mechanics, the subfield of physics that describes the behavior of very small (quantum) particles, provides the basis for a new paradigm of computing. First proposed in the 1980s as a way to improve computational modeling of quantum systems, the field of quantum computing has recently garnered significant attention due to progress in building small-scale devices. However, significant technical advances will be required before a large-scale, practical quantum computer can be achieved. Quantum Computing: Progress and Prospects provides an introduction to the field, including the unique characteristics and constraints of the technology, and assesses the feasibility and implications of creating a functional quantum computer capable of addressing real-world problems. This report considers hardware and software requirements, quantum algorithms, drivers of advances in quantum computing and quantum devices, benchmarks associated with relevant use cases, the time and resources required, ",
+          "year": 2019,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Intelligence Community Studies Board"
+        },
+        {
+          "id": "26916",
+          "title": "Charting a Path in a Shifting Technical and Geopolitical Landscape: Post-Exascale Computing for the National Nuclear Security Administration",
+          "url": "https://nap.nationalacademies.org/catalog/26916/charting-a-path-in-a-shifting-technical-and-geopolitical-landscape",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "first exascale computing system",
+            "use high end computing",
+            "grow beyond exascale driven",
+            "applications capabilities parallelization",
+            "computing systems",
+            "emerging mission problems",
+            "advanced computing",
+            "software tools while",
+            "next generation platforms",
+            "take full advantage",
+            "nuclear security administration",
+            "post exascale computing",
+            "geopolitical landscape",
+            "shifting technical",
+            "charting",
+            "path"
+          ],
+          "description": "In 2022, the United States installed its first exascale computing system for the Department of Energy (DOE) Office of Science, with an National Nuclear Security Administration (NNSA) system scheduled for 2023. The DOE Exascale Computing Project (ECP)2 has developed new applications capabilities, parallelization approaches, and software tools, while co-developing the computing systems in collaboration with vendor partners. The NNSA is positioned to take full advantage of exascale computing, but demand for more computing will continue to grow beyond exascale, driven by both familiar applications and new mission drivers and new computational approaches that will use high-end computing. Visionary leaders and creativity will be needed to move existing codes to next-generation platforms, to reconsider the use of advanced computing for current and emerging mission problems, and to envision new types of computing systems, algorithmic techniques implemented in software, partnerships, and models",
+          "year": 2024,
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25912",
+          "title": "Cultivating Interest and Competencies in Computing: Authentic Experiences and Design Factors",
+          "url": "https://nap.nationalacademies.org/catalog/25912/cultivating-interest-and-competencies-in-computing-authentic-experiences-and-design",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Computing in some form touches nearly every aspect of day to day life and is reflected in the ubiquitous use of cell phones, the expansion of automation into many industries, and the vast amounts of data that are routinely gathered about people's health, education, and buying habits. Computing is now a part of nearly every occupation, not only those in the technology industry. Given the ubiquity of computing in both personal and professional life, there are increasing calls for all learners to participate in learning experiences related to computing including more formal experiences offered in schools, opportunities in youth development programs and after-school clubs, or self-initiated hands-on experiences at home. At the same time, the lack of diversity in the computing workforce and in programs that engage learners in computing is well-documented. It is important to consider how to increase access and design experiences for a wide range of learners. Authentic experiences in STEM - t",
+          "year": 2021,
+          "committee": "Computer Science and Telecommunications Board",
+          "keywords": [
+            "formal experiences offered",
+            "youth development programs",
+            "form touches nearly",
+            "self initiated hands",
+            "computing workforce",
+            "authentic experiences",
+            "learning experiences",
+            "design experiences",
+            "engage learners",
+            "professional life",
+            "cultivating interest",
+            "design factors",
+            "competencies",
+            "computing"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Helium-3 isotope supply and nuclear weapons byproducts",
+      "publications": [
+        {
+          "id": "27515",
+          "title": "Potential Environmental Effects of Nuclear War",
+          "url": "https://nap.nationalacademies.org/catalog/27515/potential-environmental-effects-of-nuclear-war",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "large scale nuclear exchange",
+            "russian nuclear arsenals during",
+            "model earth system processes",
+            "block incoming solar radiation",
+            "given nuclear exchange",
+            "nuclear winter scenario",
+            "potential environmental social",
+            "cause major ecosystem",
+            "inject massive amounts",
+            "nuclear war",
+            "potential environmental effects"
+          ],
+          "description": "In response to the buildup of U.S. and Russian nuclear arsenals during the Cold War, a series of major scientific studies conducted in the 1980s issued warnings about the potential for a \"nuclear winter\" scenario - the possibility that a large-scale nuclear exchange could inject massive amounts of soot and particulates into the upper atmosphere that would block incoming solar radiation and cause major ecosystem and societal disruptions. In the decades since that concept emerged, profound military, political, and technological changes have reshaped the nuclear landscape, while scientific advances have deepened the understanding of, and ability to model, Earth system processes. It is in this context that the U.S. Congress asked for this report to re-examine the potential environmental, social, and economic effects that could unfold over the weeks to decades after a nuclear war. The effects of any given nuclear exchange would depend on key processes and interactions along a causal pathway",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "26630",
+          "title": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/26630/laying-the-foundation-for-new-and-advanced-nuclear-reactors-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "wants advanced nuclear reactors",
+            "advanced nuclear technologies",
+            "smaller safer less expensive",
+            "reduce greenhouse gas emissions",
+            "worlds low carbon electricity",
+            "climate change resulting",
+            "near term policies",
+            "nuclear power",
+            "successful commercialization",
+            "existential challenge",
+            "advanced nuclear reactors",
+            "foundation",
+            "laying"
+          ],
+          "description": "The world confronts an existential challenge in responding to climate change, resulting in an urgent need to reduce greenhouse gas emissions from all sectors of the economy. What will it take for new and advanced nuclear reactors to play a role in decarbonization? Nuclear power provides a significant portion of the worlds low-carbon electricity, and advanced nuclear technologies have the potential to be smaller, safer, less expensive to build, and better integrated with the modern grid. However, if the United States wants advanced nuclear reactors to play a role in its plans for decarbonization, there are many key challenges that must be overcome at the technical, economic, and regulatory levels. Laying the Foundation for New and Advanced Nuclear Reactors in the United States discusses how the United States could support the successful commercialization of advanced nuclear reactors with a set of near-term policies and practices. The recommendations of this report address the need to cl",
+          "year": 2024,
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "25490",
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "social science",
+            "improve supply chain management",
+            "resilient supply chains",
+            "essential supply chains",
+            "regional supply chains",
+            "made supply chains",
+            "hurricanes harvey irma",
+            "continuity planning partnerships",
+            "lessons learned during",
+            "significant vulnerabilities",
+            "three hurricanes",
+            "observations",
+            "maria"
+          ],
+          "description": "Resilient supply chains are crucial to maintaining the consistent delivery of goods and services to the American people. The modern economy has made supply chains more interconnected than ever, while also expanding both their range and fragility. In the third quarter of 2017, Hurricanes Harvey, Irma and Maria revealed some significant vulnerabilities in the national and regional supply chains of Texas, Florida, the U.S. Virgin Islands, and Puerto Rico. The broad impacts and quick succession of these three hurricanes also shed light on the effectiveness of the nation's disaster logistics efforts during response through recovery. Drawing on lessons learned during the 2017 hurricanes, this report explores future strategies to improve supply chain management in disaster situations. This report makes recommendations to strengthen the roles of continuity planning, partnerships between civic leaders with small businesses, and infrastructure investment to ensure that essential supply chains wi",
+          "year": 2020,
+          "page_keywords": [
+            "Social Science"
+          ],
+          "committee": "Committee on Building Adaptable and Resilient Supply Chains After Hurricanes Harvey, Irma, and Maria"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Qubit scaling in quantum computers (current ~1000 qubits, target ~1 million)",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "25499",
+          "title": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25499/domestic-manufacturing-capabilities-for-critical-dod-applications-emerging-needs-in",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "quantum enabled systems present",
+            "quantum computing communications",
+            "quantum sensing opportunities",
+            "materials manufacturing capabilities",
+            "assured domestic sources",
+            "networks opportunities",
+            "important developments",
+            "sensing applications",
+            "participants explored",
+            "recent advancements",
+            "domestic manufacturing capabilities",
+            "quantum enabled systems",
+            "critical dod applications",
+            "emerging needs"
+          ],
+          "description": "Recent advancements in quantum-enabled systems present a variety of new opportunities and challenges. These technologies are important developments for a variety of computing, communications, and sensing applications. However, many materials and components relevant to quantum-enabled systems exist outside of the United States, and it is important to promote the development of assured domestic sources of materials, manufacturing capabilities, and expertise. The National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop to explore implications and concerns related to the application of quantum-enabled systems in the United States. This workshop focused on quantum-enabled computing systems, quantum communications and networks, and quantum sensing opportunities. Participants explored the path to quantum computing, communications, and networks, opportunities for collaboration, as well as key gaps, supply chain concerns, and security issues. This publication summariz",
+          "year": 2019,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "National Materials and Manufacturing Board"
+        },
+        {
+          "id": "27397",
+          "title": "Facial Recognition Technology: Current Capabilities, Future Prospects, and Governance",
+          "url": "https://nap.nationalacademies.org/catalog/27397/facial-recognition-technology-current-capabilities-future-prospects-and-governance",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "computers",
+            "facial recognition technology",
+            "identifying potential security threats",
+            "regulations raising significant concerns",
+            "aiding law enforcement investigations",
+            "mitigate potential harms",
+            "comprehensive safeguards",
+            "identity verification",
+            "current capabilities",
+            "necessary governance",
+            "increasingly used",
+            "governance",
+            "prospects"
+          ],
+          "description": "Facial recognition technology is increasingly used for identity verification and identification, from aiding law enforcement investigations to identifying potential security threats at large venues. However, advances in this technology have outpaced laws and regulations, raising significant concerns related to equity, privacy, and civil liberties. This report explores the current capabilities, future possibilities, and necessary governance for facial recognition technology. Facial Recognition Technology discusses legal, societal, and ethical implications of the technology, and recommends ways that federal agencies and others developing and deploying the technology can mitigate potential harms and enact more comprehensive safeguards.",
+          "year": 2024,
+          "page_keywords": [
+            "Computers"
+          ],
+          "committee": "Committee on Law and Justice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Electronic cooling via energy-selective electron trapping on quantum chips",
+      "publications": [
+        {
+          "id": "25196",
+          "title": "Quantum Computing: Progress and Prospects",
+          "keywords": [
+            "quantum",
+            "computing",
+            "qubit",
+            "quantum computer",
+            "quantum mechanics",
+            "cryptography"
+          ]
+        },
+        {
+          "id": "12091",
+          "title": "America's Energy Future: Technology and Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/12091/americas-energy-future-technology-and-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "affordable energy supplies",
+            "impacts while providing sufficient",
+            "current energy prices",
+            "energy rises faster",
+            "important indirect impacts",
+            "energy production",
+            "energy portfolio",
+            "natural resources degradation",
+            "energy futur",
+            "geopolitically unstable regions",
+            "transformation",
+            "technology",
+            "america",
+            "energy"
+          ],
+          "description": "Energy production and use touch our lives in countless ways. We are reminded of the cost of energy every time we fill up at the gas pump, pay an electricity bill, or purchase an airline ticket. Energy use also has important indirect impacts, not all of which are reflected in current energy prices: depletion of natural resources, degradation of the environment, and threats to national security arising from a growing dependence on geopolitically unstable regions for some of our energy supplies. These indirect impacts could increase in the future if the demand for energy rises faster than available energy supplies. Our nation's challenge is to develop an energy portfolio that reduces these impacts while providing sufficient and affordable energy supplies to sustain our future economic prosperity. The United States has enormous economic and intellectual resources that can be brought to bear on these challenges through a sustained national effort in the decades ahead. America's Energy Futur",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Committee on America's Energy Future"
+        },
+        {
+          "id": "27102",
+          "title": "Navigating the Energy Transition in the Gulf of Mexico: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27102/navigating-the-energy-transition-in-the-gulf-of-mexico-proceedings",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "low carbon energy sources",
+            "bring energy security closer",
+            "meet energy demand reliably",
+            "carbon neutral economy mean",
+            "cleaner energy sources",
+            "changing climate putting pressure",
+            "energy supply chain",
+            "energy transition",
+            "ecosystems worldwide goals",
+            "reality questions remain",
+            "navigating",
+            "mexico",
+            "gulf"
+          ],
+          "description": "Today, with a changing climate putting pressure on communities and ecosystems worldwide, goals for a carbon-neutral economy mean that renewable and low-carbon energy sources are being presented as solutions. While these cleaner energy sources have the potential to reduce risk to the environment and bring energy security closer to a reality, questions remain about the stability of the energy supply chain, the ability to meet energy demand reliably, and the best ways to produce fair and equitable outcomes in an energy transition. To serve as a catalyst for developing new insights and coordination around the energy transition, the Gulf Research Program at the National Academies of Sciences, Engineering, and Medicine convened a 2-day workshop in Washington, DC, called Navigating the Energy Transition in the Gulf of Mexico. Based around two scenarios in the year 2050 - one in which a carbon neutral economy is achieved and another in which robust dependence on fossil fuels remains - this ser",
+          "year": 2023,
+          "committee": "Gulf Offshore Energy Safety Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Exploring Opportunities for Energy Parks",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-P-723",
+          "status": "in_progress"
+        },
+        {
+          "title": "Understanding and Addressing Energy Affordability in the United States: A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-PSSI-25-02",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Photonic cooling using LED-based heat pumps",
+      "publications": [
+        {
+          "id": "18988",
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "keywords": [
+            "climate",
+            "geoengineering",
+            "solar",
+            "intervention",
+            "cooling",
+            "albedo"
+          ]
+        },
+        {
+          "id": "27057",
+          "title": "Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress",
+          "url": "https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Consequences of natural disasters and the COVID-19 pandemic have taken a cumulative toll on the health and well-being of people in the Gulf of Mexico region. Long-standing societal challenges related to racism, poverty, education, housing, and underemployment are compounding the trauma, leading to chronic stress for many Gulf residents. The Committee on Progress Toward Human Health and Community Resilience in the Gulf of Mexico Region new report, Advancing Health and Community Resilience in the Gulf of Mexico Region: A Roadmap for Progress, explores key challenges and priorities in Gulf states, including Alabama, Florida, Louisiana, Mississippi, and Texas and evaluates recent progress. The report also makes recommendations for closing critical gaps and implementing transformative approaches that focus on the diverse needs and experiences of people who live and work in the Gulf region.",
+          "year": 2024,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on the Progress toward Human Health and Community Resilience in the Gulf of Mexico Region",
+          "keywords": [
+            "medical",
+            "progress explores key challenges",
+            "long standing societal challenges",
+            "alabama florida louisiana mississippi",
+            "racism poverty education housing",
+            "evaluates recent progress",
+            "gulf region",
+            "closing critical gaps",
+            "gulf residents",
+            "mexico region",
+            "community resilience",
+            "advancing health",
+            "resilience",
+            "progress",
+            "roadmap",
+            "gulf"
+          ]
+        },
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 9051,
+  "saved_at": "2026-04-19T11:59:40.306461"
+}
