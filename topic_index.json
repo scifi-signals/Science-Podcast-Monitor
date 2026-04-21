@@ -1,7 +1,506 @@
 {
-  "updated": "2026-04-19T12:00:17.505390",
-  "episode_count": 199,
+  "updated": "2026-04-21T11:33:14.240145",
+  "episode_count": 204,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "The lucky breaks that make our Earth home",
+      "host": "Ira Flatow",
+      "published": "2026-04-21T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "Astrophysicist Hakeem Olusheye discusses the cosmic conditions that make Earth uniquely habitable for life. The episode explores how a series of improbable events—from the formation of stars and planets to the development of Earth's protective magnetosphere and the emergence of life itself—created the conditions necessary for human existence. Olusheye argues that while individual steps are improbable, the vast scale of the universe makes life's emergence inevitable, though technologically advanced civilizations remain extraordinarily rare.",
+      "science_topics": [
+        "Giant molecular clouds and stellar formation",
+        "Matter-antimatter annihilation in the early universe",
+        "Planetary accretion and proto-planet collisions",
+        "Giant impact hypothesis (collision with Thea)",
+        "Earth's molten outer core and magnetic field generation",
+        "Magnetosphere and atmospheric protection from solar radiation",
+        "Ozone layer formation through photosynthetic life",
+        "Cell membrane structure and lipid bilayers",
+        "RNA spontaneous assembly under specific conditions",
+        "Abiogenesis (transition from non-living to living matter)",
+        "Black smoker hydrothermal vents as potential origin-of-life environments",
+        "Galactic habitable zone (1.2% of Milky Way stars)",
+        "Complexity emergence in the universe"
+      ],
+      "claims_to_note": [
+        "Only 1.2% of stars in the Milky Way are located in the galactic habitable zone",
+        "Earth's magnetosphere resulted from a Mars-sized collision (Thea) early in planetary formation",
+        "Without Earth's magnetic field, solar radiation would have eroded the atmosphere similar to what occurred on Mars",
+        "The ozone layer required billions of years of photosynthetic oxygen-producing life to develop",
+        "For every billion particles of matter-antimatter, only one matter particle remained after annihilation",
+        "Ozone layer is necessary for life to transition from oceans to land",
+        "Organic molecules spontaneously form under appropriate energy and temperature conditions",
+        "RNA will spontaneously form under the right conditions of energy, temperature, and compartmentalization",
+        "Approximately one out of one million planetary systems in the Milky Way have multicellular complex life",
+        "It took 500 million years from multicellular life emergence to technologically advanced humans",
+        "The Milky Way has approximately 400 billion stars and there are hundreds of billions of galaxies"
+      ],
+      "policy_relevance": [
+        "Episode aired during Earth Week, suggesting alignment with environmental awareness calendar and educational messaging",
+        "Discussion of planetary habitability and atmospheric protection relevant to climate and environmental protection policy discussions"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Opportunities to Improve Representation of Clouds and Aerosols in Climate Models with Classified Observing Systems: Proceedings of a Workshop: Abbreviated Version",
+          "url": "https://nap.nationalacademies.org/catalog/23527/opportunities-to-improve-representation-of-clouds-and-aerosols-in-climate-models-with-classified-observing-systems"
+        },
+        {
+          "title": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/21860/biomarker-tests-for-molecularly-targeted-therapies-key-to-unlocking-precision"
+        },
+        {
+          "title": "Understanding and Addressing Misinformation About Science",
+          "url": "https://nap.nationalacademies.org/catalog/27894/understanding-and-addressing-misinformation-about-science"
+        },
+        {
+          "title": "Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity",
+          "url": "https://nap.nationalacademies.org/catalog/12519/mathematics-learning-in-early-childhood-paths-toward-excellence-and-equity"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "Exploring Early Childhood Care and Education Levers to Improve Population Health: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25129/exploring-early-childhood-care-and-education-levers-to-improve-population-health"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Vision and Voyages for Planetary Science in the Decade 2013-2022",
+          "url": "https://nap.nationalacademies.org/catalog/13117/vision-and-voyages-for-planetary-science-in-the-decade-2013-2022"
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Electronic Surveillance of Railroad-Highway Crossings for Collision Avoidance: State of the Practice",
+          "url": "https://nap.nationalacademies.org/catalog/28291/electronic-surveillance-of-railroad-highway-crossings-for-collision-avoidance-state"
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-policy-irl",
+      "podcast_name": "Science Policy IRL (The Ongoing Transformation)",
+      "episode_title": "Untangling the “Cosmic Coincidence” of the Job Market",
+      "host": "Issues in Science & Technology",
+      "published": "2026-04-21T09:00:00",
+      "influence_tier": "emerging",
+      "category": "science_policy",
+      "summary": "This episode examines the future of work in the age of AI, focusing on labor market dynamics and economic mobility. Matt Siegelman from the Burning Glass Institute discusses how AI is transforming job requirements and skills rather than causing mass displacement, drawing parallels to previous general-purpose technologies like the internet. The conversation highlights a critical challenge: as AI automates entry-level tasks, employers increasingly hire experienced workers, potentially disrupting the traditional pathway where workers develop expertise through on-the-job learning. Siegelman emphasizes that solving this requires robust education and skills training infrastructure, particularly continuous learning throughout careers as job skill requirements shift rapidly.",
+      "science_topics": [
+        "Artificial intelligence and large language models (LLMs) impact on labor markets",
+        "General-purpose technology adoption and workforce effects",
+        "Career trajectory analysis and economic mobility metrics",
+        "Skills automation and augmentation dynamics in knowledge work",
+        "Learning curve analysis across different job categories"
+      ],
+      "claims_to_note": [
+        "90% of Americans work in occupations making substantial use of the internet",
+        "The internet caused relatively few job losses, instead changing workflows rather than eliminating positions",
+        "Skills predicted to be automated are 16% more likely to be in decline than skills overall",
+        "Correlation of 0.87 between jobs experiencing automation and augmentation, indicating AI is simultaneously automating and creating new tasks in the same roles",
+        "37% of average U.S. job skills turn over in five years",
+        "Of 100 high school graduates: 66 go to college, 42-43 graduate, only 23 land jobs requiring college",
+        "52% of college graduates one year out work in jobs not requiring a college degree",
+        "HBCU graduates disproportionately choose high social impact fields, contributing to lower average earnings",
+        "Most occupations in the knowledge economy show shift away from entry-level hiring toward expert-level hiring"
+      ],
+      "policy_relevance": [
+        "Discussion of college completion and education policy effectiveness",
+        "Federal College Scorecard mentioned as education tracking instrument",
+        "Regional economic development strategy integration with talent and education strategies",
+        "Need for employer engagement in skills training and human capital development",
+        "Accountability for educational outcomes in preparing workforce for evolving job requirements",
+        "Importance of continuous learning infrastructure as policy priority",
+        "Implications for how students are prepared for careers with changing skill requirements"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work"
+        },
+        {
+          "title": "Artificial Intelligence and Justified Confidence",
+          "url": ""
+        },
+        {
+          "title": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26566/machine-learning-and-artificial-intelligence-to-advance-earth-system-science"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Current Status and Future Direction of High-Magnetic-Field Science and Technology in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27830/the-current-status-and-future-direction-of-high-magnetic-field-science-and-technology-in-the-united-states"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "The Economic and Fiscal Consequences of Immigration",
+          "url": "https://nap.nationalacademies.org/catalog/23550/the-economic-and-fiscal-consequences-of-immigration"
+        },
+        {
+          "title": "The Role of Transit, Shared Modes, and Public Policy in the New Mobility Landscape",
+          "url": "https://nap.nationalacademies.org/catalog/26053/the-role-of-transit-shared-modes-and-public-policy-in-the-new-mobility-landscape"
+        },
+        {
+          "title": "Artificial Intelligence and the Future of Work",
+          "url": ""
+        },
+        {
+          "title": "Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century",
+          "url": "https://nap.nationalacademies.org/catalog/13398/education-for-life-and-work-developing-transferable-knowledge-and-skills"
+        },
+        {
+          "title": "The Future of Air Traffic Control: Human Operators and Automation",
+          "url": "https://nap.nationalacademies.org/catalog/6018/the-future-of-air-traffic-control-human-operators-and-automation"
+        },
+        {
+          "title": "Learning Through Citizen Science: Enhancing Opportunities by Design",
+          "url": "https://nap.nationalacademies.org/catalog/25183/learning-through-citizen-science-enhancing-opportunities-by-design"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Implementing Machine Learning at State Departments of Transportation: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/27880/implementing-machine-learning-at-state-departments-of-transportation-a-guide"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Eating disorder recovery in a diet culture world",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-21T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores eating disorders in adolescents, particularly the spike in cases during the COVID-19 pandemic, and discusses how these conditions affect the brain and body at a neurobiological level. Dr. Eva Trujillo, a pediatrician and president of the International Association of Eating Disorder Professionals, explains that eating disorders are serious psychiatric illnesses that rewire the brain and affect every organ system, not merely behavioral or emotional problems. The episode addresses recovery challenges in a diet-culture-saturated world, emphasizing that sustainable recovery requires compassionate family involvement, digital literacy, comprehensive medical education, and systemic changes to social media platforms and broader cultural messaging.",
+      "science_topics": [
+        "Neurobiological changes in eating disorders (gray and white matter reduction)",
+        "Malnutrition-induced cognitive impairment (concentration, obsessive thoughts, rigid thinking)",
+        "Cardiac effects of eating disorders (bradycardia, sudden cardiac arrest risk)",
+        "Gastrointestinal complications (delayed gastric emptying, constipation, reflux)",
+        "Bone density loss and early-onset osteoporosis in eating disorder patients",
+        "Brain reversibility with nutritional rehabilitation",
+        "Metabolic slowdown in malnutrition",
+        "Amenorrhea (loss of menstruation) as indicator of malnutrition"
+      ],
+      "claims_to_note": [
+        "Eating disorders literally rewire the brain and cause reduction in gray and white matter — this is well-established in neuroscience literature",
+        "Eating disorders have some of the highest mortality rates of any psychiatric disorders — this claim should be verified against current epidemiological data",
+        "Medical doctors receive less than five hours of eating disorder education in their entire career — this is a specific claim about medical training that warrants verification",
+        "Many brain changes from eating disorders can be reversed with full nutritional rehabilitation — this is optimistic and should be cross-referenced with NASEM and clinical literature on recovery outcomes",
+        "Eating disorders affect people across all demographics equally and are often more likely to go undiagnosed in marginalized communities — this intersectionality claim merits review against epidemiological data"
+      ],
+      "policy_relevance": [
+        "Dr. Trujillo served on a consulting panel for TikTok and Meta regarding safety policies related to body image and eating disorders",
+        "TikTok banned the hashtag 'Skinny Talk' following policy recommendations",
+        "Discussion of need for greater eating disorder education requirements in medical school curricula",
+        "Mention of eating disorder helpline embedded in digital platforms in Latin America as public health intervention",
+        "Advocacy for regulation and responsibility of social media platforms in protecting vulnerable populations",
+        "Global health equity issue: some countries have no eating disorder specialists"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Arctic Matters: The Global Connection to Changes in the Arctic",
+          "url": "https://nap.nationalacademies.org/catalog/21717/arctic-matters-the-global-connection-to-changes-in-the-arctic"
+        },
+        {
+          "title": "Family-Focused Interventions to Prevent Substance Use Disorders in Adolescence: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26662/family-focused-interventions-to-prevent-substance-use-disorders-in-adolescence"
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Exploring Strategies to Improve Cardiac Arrest Survival: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/23695/exploring-strategies-to-improve-cardiac-arrest-survival-proceedings-of-a"
+        },
+        {
+          "title": "Consequences of Delayed Maintenance of Highway Assets",
+          "url": "https://nap.nationalacademies.org/catalog/24933/consequences-of-delayed-maintenance-of-highway-assets"
+        },
+        {
+          "title": "Improving Diagnosis in Health Care",
+          "url": "https://nap.nationalacademies.org/catalog/21794/improving-diagnosis-in-health-care"
+        },
+        {
+          "title": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+          "url": "https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications"
+        },
+        {
+          "title": "Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity",
+          "url": "https://nap.nationalacademies.org/catalog/12519/mathematics-learning-in-early-childhood-paths-toward-excellence-and-equity"
+        },
+        {
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community"
+        },
+        {
+          "title": "From Cancer Patient to Cancer Survivor: Lost in Transition",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "How New Jersey tamped down PFAS in drinking water",
+      "host": "Ira Flatow",
+      "published": "2026-04-20T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "New Jersey's 2018 drinking water standards for PFAS (per- and polyfluoroalkyl substances, or \"forever chemicals\") led to a 55% reduction in average PFAS concentrations in public water systems over approximately a decade, according to a Rutgers University study. However, researchers note that safe long-term exposure levels remain unclear, and the full health impacts of historical PFAS exposure are still being understood. The study highlights both the success of state-level regulation and ongoing scientific questions about PFAS accumulation in the body and links to kidney disease, liver dysfunction, and potential cancer risks. Other states are watching New Jersey's experience to develop their own PFAS policies.",
+      "science_topics": [
+        "PFAS (per- and polyfluoroalkyl substances) contamination in drinking water",
+        "Endocrine-disrupting chemicals and sex hormone disruption",
+        "PFAS bioaccumulation and biological magnification",
+        "Kidney function and kidney cancer associated with PFAS exposure",
+        "Liver enzyme elevation from PFAS exposure",
+        "Lipid and cholesterol level changes associated with PFAS",
+        "Prostate cancer and endocrine disruption",
+        "Granular activated carbon filtration for PFAS removal",
+        "Historical exposure reconstruction using predictive modeling"
+      ],
+      "claims_to_note": [
+        "Nearly every person has some type of PFAS in their blood — this reflects widespread population exposure findings",
+        "55% reduction in average PFAS concentrations after New Jersey policy implementation — specific quantitative claim requiring verification",
+        "PFAS concentrations can be magnified by orders of magnitude in the body after water ingestion — claim about bioaccumulation mechanism",
+        "Kidney function and certain kidney cancers have been linked to PFAS exposures — stated as emerging evidence",
+        "Liver enzyme levels are elevated in people with high PFAS consumption — emerging evidence claim",
+        "New Jersey historically had higher average PFAS levels than other states — based on nationwide studies over 15 years",
+        "About one in ten New Jersey residents use home well systems (not covered by study) — demographic claim",
+        "Trump administration rolled back EPA PFAS regulations adopted roughly two years prior to this 2026 episode — regulatory history claim"
+      ],
+      "policy_relevance": [
+        "EPA adopted federal PFAS drinking water regulations approximately 2024 (two years before this 2026 episode)",
+        "Trump administration rolled back some EPA PFAS regulations in 2025",
+        "New Jersey adopted first state-level PFAS drinking water standards in 2018",
+        "Maximum contaminant levels (MCLs) for PFAS now set by regulation in New Jersey",
+        "Public water systems in New Jersey modified operations in anticipation of policies (well decommissioning, activated carbon treatment installation)",
+        "Study findings presented as potential model for other states to develop their own PFAS standards",
+        "Distinction between regulated public water systems and unregulated private home well systems"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering"
+        },
+        {
+          "title": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "title": "Equity in K-12 STEM Education: Framing Decisions for the Future",
+          "url": "https://nap.nationalacademies.org/catalog/26859/equity-in-k-12-stem-education-framing-decisions-for-the"
+        },
+        {
+          "title": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26750/thriving-in-space-ensuring-the-future-of-biological-and-physical"
+        },
+        {
+          "title": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26925/tipping-points-cascading-impacts-and-interacting-risks-in-the-earth-system"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Mammography and Beyond: Developing Technologies for Early Detection of Breast Cancer",
+          "url": ""
+        },
+        {
+          "title": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of"
+        },
+        {
+          "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+          "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up"
+        },
+        {
+          "title": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23531/health-risks-of-indoor-exposure-to-particulate-matter-workshop-summary"
+        },
+        {
+          "title": "Long-Term Health Consequences of Exposure to Burn Pits in Iraq and Afghanistan",
+          "url": "https://nap.nationalacademies.org/catalog/13209/long-term-health-consequences-of-exposure-to-burn-pits-in-iraq-and-afghanistan"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "These voicemails save lives",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-20T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores how simple voicemail-based weather warning systems are saving lives in flood-prone Cambodia. Rebecca Hersher reports from the village of Prek Tush on the Mekong River, where residents now receive flood forecasts up to five days in advance via voicemail and local broadcast announcements. Climate change is intensifying monsoon rains and making flooding more severe and unpredictable in Southeast Asia. While these early warning systems have proven effective at preventing deaths during evacuations, they do not protect agricultural livelihoods, highlighting the need for longer-term weather forecasting to help farmers adapt to climate-driven disasters.",
+      "science_topics": [
+        "Sea level rise from glacial and polar ice cap melting",
+        "Thermal expansion of ocean water due to warming",
+        "Atmospheric moisture capacity increases in warmer climate",
+        "Monsoon intensification and unpredictability related to climate change",
+        "Monsoon-driven flooding in Southeast Asia",
+        "Flash flood dynamics and hazards"
+      ],
+      "claims_to_note": [
+        "A warmer atmosphere can hold more moisture, leading to heavier rainfall events — supported by climate science consensus",
+        "Sea level rise is caused by both melting ice sheets/glaciers and thermal expansion — consistent with IPCC findings",
+        "Climate change is making monsoons more extreme and less predictable in Cambodia and Southeast Asia — aligns with climate projections",
+        "Disaster-related mortality is at least six times lower in countries with good early warning systems — cited from UN report",
+        "About half the world's least developed and small island nations don't have early warning systems — cited from 2025 UN report",
+        "The U.S. has some of the lowest per capita fatality rates from weather despite widespread exposure — attributed to effective warning systems",
+        "More than half of Cambodia's population is directly involved in agriculture — cited from UN survey"
+      ],
+      "policy_relevance": [
+        "UN and World Bank have spent more than $4 billion on weather warning systems since 2022",
+        "UN goal to protect everyone on Earth with early warning systems by 2027, acknowledged as unlikely to be met",
+        "Cambodia received UN funding over three years as a pilot site for flood warning systems",
+        "UN-affiliated agencies planning to spend additional $7.8 million to expand warning systems across Cambodia",
+        "National Weather Service (U.S.) issues official weather warnings that trigger alerts",
+        "Multiple countries have similar early warning system initiatives in place"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+          "url": "https://nap.nationalacademies.org/catalog/27160/future-directions-for-southern-ocean-and-antarctic-nearshore-and-coastal-research"
+        },
+        {
+          "title": "Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future",
+          "url": "https://nap.nationalacademies.org/catalog/13389/sea-level-rise-for-the-coasts-of-california-oregon-and-washington"
+        },
+        {
+          "title": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+          "url": "https://nap.nationalacademies.org/catalog/26338/mid-term-assessment-of-progress-on-the-2015-strategic-vision-for-antarctic-and-southern-ocean-research"
+        },
+        {
+          "title": "Using Graywater and Stormwater to Enhance Local Water Supplies: An Assessment of Risks, Costs, and Benefits",
+          "url": "https://nap.nationalacademies.org/catalog/21866/using-graywater-and-stormwater-to-enhance-local-water-supplies-an"
+        },
+        {
+          "title": "Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25615/groundwater-recharge-and-flow-approaches-and-challenges-for-monitoring-and"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Negative Emissions Technologies and Reliable Sequestration",
+          "url": ""
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal"
+        },
+        {
+          "title": "Climate Change: Evidence and Causes: Update 2020",
+          "url": ""
+        },
+        {
+          "title": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+          "url": ""
+        },
+        {
+          "title": "Attribution of Extreme Weather Events in the Context of Climate Change",
+          "url": "https://nap.nationalacademies.org/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change"
+        },
+        {
+          "title": "Community-Driven Relocation: Recommendations for the U.S. Gulf Coast Region and Beyond",
+          "url": "https://nap.nationalacademies.org/catalog/27213/community-driven-relocation-recommendations-for-the-us-gulf-coast-region"
+        },
+        {
+          "title": "Framing the Challenge of Urban Flooding in the United States",
+          "url": "https://nap.nationalacademies.org/catalog/25381/framing-the-challenge-of-urban-flooding-in-the-united-states"
+        },
+        {
+          "title": "Bridging Diverse Knowledge Systems on Flooding and Flood-Related Disasters in Northeast Houston Communities: Proceedings of a Workshop—in Brief",
+          "url": "https://nap.nationalacademies.org/catalog/27848/bridging-diverse-knowledge-systems-on-flooding-and-flood-related-disasters-in-northeast-houston-communities"
+        }
+      ]
+    },
     {
       "podcast_id": "radiolab",
       "podcast_name": "Radiolab",
