@@ -1,7 +1,380 @@
 {
-  "updated": "2026-04-21T11:33:14.240145",
-  "episode_count": 204,
+  "updated": "2026-04-22T11:54:35.757407",
+  "episode_count": 209,
   "episodes": [
+    {
+      "podcast_id": "science-friday",
+      "podcast_name": "Science Friday",
+      "episode_title": "How do you describe nature? Two poets help us",
+      "host": "Ira Flatow",
+      "published": "2026-04-22T10:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This Science Friday episode explores how poets capture and describe nature through language, featuring poets Jane Hirshfield and Kimberly Blazer discussing their creative processes for translating natural experiences into poetry. The episode examines the parallels and differences between poetry and science as ways of investigating the world, with emphasis on how poets use precise observation, restraint, and metaphor to avoid clichés and invite readers into spaces of mystery and meaning. Through listener stories and original poems, the hosts demonstrate how poetry serves as a means of responding to both beauty and impending loss in the natural world.",
+      "science_topics": [
+        "Monarch butterfly life cycle and metamorphosis",
+        "Tree resilience and redwood regrowth from root systems",
+        "Bird behavior and species identification (bluebirds, barred owls, songbirds)",
+        "Geological timescale and stratigraphic layering in earth formations"
+      ],
+      "claims_to_note": [
+        "Redwoods regrow from roots after logging and fire - generally accurate, though redwoods primarily regenerate from seeds rather than root sprouting, though some recovery can occur from root systems",
+        "Longwall coal mining can undermine homes and affect groundwater - accurate representation of mining impacts documented in geological and environmental science literature",
+        "Monarch butterfly chrysalis emergence process - referenced as accurate observation of metamorphosis"
+      ],
+      "policy_relevance": [
+        "Natural gas well development and extraction in Pennsylvania",
+        "Longwall coal mining operations and mineral extraction policies",
+        "Land use and conservation issues affecting family-owned property",
+        "Environmental impacts of extractive industries on private landowners"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Search for Life's Origins: Progress and Future Directions",
+          "url": ""
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+          "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science"
+        },
+        {
+          "title": "Physics of Life",
+          "url": "https://nap.nationalacademies.org/catalog/26403/physics-of-life"
+        },
+        {
+          "title": "Deploying Transportation Resilience Practices in State DOTs",
+          "url": "https://nap.nationalacademies.org/catalog/26209/deploying-transportation-resilience-practices-in-state-dots"
+        },
+        {
+          "title": "Advancing Health and Resilience in the Gulf of Mexico Region: A Roadmap for Progress",
+          "url": "https://nap.nationalacademies.org/catalog/27057/advancing-health-and-resilience-in-the-gulf-of-mexico-region"
+        },
+        {
+          "title": "Mainstreaming System Resilience Concepts into Transportation Agencies: A Guide",
+          "url": "https://nap.nationalacademies.org/catalog/26125/mainstreaming-system-resilience-concepts-into-transportation-agencies-a-guide"
+        },
+        {
+          "title": "In the Light of Evolution: Volume VI: Brain and Behavior",
+          "url": "https://nap.nationalacademies.org/catalog/13462/in-the-light-of-evolution-volume-vi-brain-and-behavior"
+        },
+        {
+          "title": "Biodiversity",
+          "url": ""
+        },
+        {
+          "title": "Conserving Biodiversity: A Research Agenda for Development",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        }
+      ]
+    },
+    {
+      "podcast_id": "unbiased-science",
+      "podcast_name": "Unbiased Science",
+      "episode_title": "All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "host": "Dr. Jessica Steier & Dr. Sarah Scheinman",
+      "published": "2026-04-22T10:00:00",
+      "influence_tier": "emerging",
+      "category": "science_health",
+      "summary": "This episode launches a new series on women's health focused on menopause, featuring Dr. Sarah Berg (OB-GYN), Veronica Jaramillo (food scientist), and Jen Bordnik (health researcher). The hosts discuss how perimenopause—which can begin in the 30s and last 4-10+ years—is poorly understood by both patients and physicians, leading women to see multiple doctors before diagnosis. They address myths about hormone testing, bioidentical hormones, vaginal estrogen treatments, and the marketing of unproven supplements targeting menopausal women.",
+      "science_topics": [
+        "Perimenopause and menopause symptomatology and duration",
+        "Estrogen's role across multiple organ systems (brain, heart, joints, bones)",
+        "Vaginal pH changes and urinary tract infection risk in menopause",
+        "Vaginal atrophy and tissue changes during menopause",
+        "Bioidentical hormone therapy versus compounded hormones",
+        "Vaginal estrogen therapy safety and efficacy",
+        "Hormone level testing variability during perimenopause",
+        "Microbiome changes during menopause",
+        "Brain fog and cognitive changes in perimenopause",
+        "Supplement efficacy and bioavailability"
+      ],
+      "claims_to_note": [
+        "Perimenopause can start in the 30s and last 4-8 years on average, but often over a decade—claim should be verified against NASEM reports on menopause transitions",
+        "Hormone levels fluctuate significantly throughout the day, making single-point hormone testing unreliable for perimenopause diagnosis—aligns with endocrinology consensus but worth confirming against NASEM guidance",
+        "Vaginal estrogen is safe even for women with history of breast cancer or heart attack—this is a strong claim that should be cross-referenced with current evidence-based clinical guidelines",
+        "Vaginal estrogen may be available over-the-counter in the future—indicates ongoing regulatory discussions worth tracking",
+        "Most dietary supplements contain less (or different compounds) than labeled due to poor third-party testing—a significant claim about supplement industry practices",
+        "Hormone therapy labeling and marketing use 'bioidentical' as primarily a marketing term rather than a precise scientific distinction—reflects debate in the field post-WHI study"
+      ],
+      "policy_relevance": [
+        "FDA approval status and regulation of compounded hormones versus pharmaceutical-grade bioidentical hormones",
+        "Dietary supplement regulation and labeling requirements (implied criticism of lack of enforcement)",
+        "Potential over-the-counter reclassification of vaginal estrogen products",
+        "Medical education gaps regarding menopause in OB-GYN training",
+        "Insurance coverage implications for hormone therapy and vaginal treatments"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Use of Dispersants in Marine Oil Spill Response",
+          "url": "https://nap.nationalacademies.org/catalog/25161/the-use-of-dispersants-in-marine-oil-spill-response"
+        },
+        {
+          "title": "Facilitating Health Communication with Immigrant, Refugee, and Migrant Populations Through the Use of Health Literacy and Community Engagement Strategies: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24845/facilitating-health-communication-with-immigrant-refugee-and-migrant-populations-through-the-use-of-health-literacy-and-community-engagement-strategies"
+        },
+        {
+          "title": "Evaluating the Suitability of Roadway Corridors for Use by Monarch Butterflies",
+          "url": "https://nap.nationalacademies.org/catalog/25693/evaluating-the-suitability-of-roadway-corridors-for-use-by-monarch-butterflies"
+        },
+        {
+          "title": "Traumatic Brain Injury: A Roadmap for Accelerating Progress",
+          "url": "https://nap.nationalacademies.org/catalog/25394/traumatic-brain-injury-a-roadmap-for-accelerating-progress"
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "Discovering the Brain",
+          "url": ""
+        },
+        {
+          "title": "What You Need to Know About Infectious Disease",
+          "url": ""
+        },
+        {
+          "title": "Combating Antimicrobial Resistance and Protecting Modern Medicine",
+          "url": ""
+        },
+        {
+          "title": "Arctic Matters: The Global Connection to Changes in the Arctic",
+          "url": "https://nap.nationalacademies.org/catalog/21717/arctic-matters-the-global-connection-to-changes-in-the-arctic"
+        },
+        {
+          "title": "Selected Heritable Disorders of Connective Tissue and Disability",
+          "url": "https://nap.nationalacademies.org/catalog/26431/selected-heritable-disorders-of-connective-tissue-and-disability"
+        },
+        {
+          "title": "Teaching K-12 Science and Engineering During a Crisis",
+          "url": "https://nap.nationalacademies.org/catalog/25909/teaching-k-12-science-and-engineering-during-a-crisis"
+        },
+        {
+          "title": "Arctic Matters: The Global Connection to Changes in the Arctic",
+          "url": "https://nap.nationalacademies.org/catalog/21717/arctic-matters-the-global-connection-to-changes-in-the-arctic"
+        },
+        {
+          "title": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+          "url": "https://nap.nationalacademies.org/catalog/27165/charting-a-future-for-sequencing-rna-and-its-modifications-a"
+        },
+        {
+          "title": "Cognitive Rehabilitation Therapy for Traumatic Brain Injury: Evaluating the Evidence",
+          "url": "https://nap.nationalacademies.org/catalog/13220/cognitive-rehabilitation-therapy-for-traumatic-brain-injury-evaluating-the-evidence"
+        },
+        {
+          "title": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+          "url": "https://nap.nationalacademies.org/catalog/13354/nasa-space-technology-roadmaps-and-priorities-restoring-nasas-technological-edge"
+        }
+      ]
+    },
+    {
+      "podcast_id": "short-wave",
+      "podcast_name": "Short Wave",
+      "episode_title": "Where did our moon come from?",
+      "host": "Emily Kwong, Regina Barber",
+      "published": "2026-04-22T07:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode explores the leading scientific hypothesis for the Moon's origin: the Giant Impact Hypothesis, in which a Mars-sized protoplanet called Thea collided with proto-Earth approximately 4.5 billion years ago, ejecting material that coalesced into the Moon. The hosts discuss competing theories, evidence from Apollo mission samples showing Earth-Moon compositional similarity, the role of magma oceans in early planetary formation, and implications for understanding Earth's water origin. The episode emphasizes the Moon's value as a preserved geological archive of the early solar system, contrasting it with Earth's geologically active and recycled surface.",
+      "science_topics": [
+        "Giant Impact Hypothesis for lunar formation",
+        "Protoplanet Thea collision with proto-Earth",
+        "Lunar magma ocean formation and cooling",
+        "Apollo mission lunar samples and chemical composition analysis",
+        "Planetary accretion and disk dynamics",
+        "Moon's near-side and far-side geological dichotomy",
+        "Early solar system formation and planetary migration",
+        "Lunar surface as geological archive of solar system history",
+        "Water delivery to Earth and inner solar system composition",
+        "Plate tectonics and Earth surface recycling"
+      ],
+      "claims_to_note": [
+        "Earth and Moon have almost identical chemical and elemental compositions (supported by Apollo samples)",
+        "Thea was possibly Mars-sized based on computer simulations",
+        "Thea likely originated from the inner solar system, suggesting it could not have brought significant water to Earth",
+        "The Moon's surface represents an undisturbed geological record from 4.5 billion years ago, whereas Earth's early geological record has been completely recycled",
+        "Humans have explored approximately 45 minutes of lunar surface area equivalent through Apollo missions despite numerous Moon missions",
+        "Recent Chinese Space Agency sample return missions provided samples from the lunar far side for comparative analysis",
+        "Alternative hypotheses (fission theory, capture theory, co-accretion) have been largely ruled out or are unsupported by computer simulations"
+      ],
+      "policy_relevance": [
+        "Artemis 2 mission recent completion mentioned as resumption of human lunar exploration after 50+ year gap",
+        "NASA's plans for future Moon missions to study far-side and near-side geological differences",
+        "Sample return missions as policy priority for advancing planetary science understanding",
+        "Chinese Space Agency's lunar sample return missions contributing to international lunar science",
+        "Implicit discussion of space exploration funding and prioritization for lunar research"
+      ],
+      "nasem_publications": [
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Behavioral Economics: Policy Impact and Future Directions",
+          "url": "https://nap.nationalacademies.org/catalog/26874/behavioral-economics-policy-impact-and-future-directions"
+        },
+        {
+          "title": "Developing a Research Agenda on Contrails and Their Climate Impacts",
+          "url": "https://nap.nationalacademies.org/catalog/29073/developing-a-research-agenda-on-contrails-and-their-climate-impacts"
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "A Vision for NSF Earth Sciences 2020-2030: Earth in Time",
+          "url": "https://nap.nationalacademies.org/catalog/25761/a-vision-for-nsf-earth-sciences-2020-2030-earth-in"
+        },
+        {
+          "title": "Climate Change and Human Migration: An Earth Systems Science Perspective: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/27930/climate-change-and-human-migration-an-earth-systems-science-perspective"
+        },
+        {
+          "title": "Forecasting the Ocean: The 2025-2035 Decade of Ocean Science",
+          "url": ""
+        },
+        {
+          "title": "Sea Change: 2015-2025 Decadal Survey of Ocean Sciences",
+          "url": ""
+        },
+        {
+          "title": "Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future",
+          "url": "https://nap.nationalacademies.org/catalog/27414/progress-and-priorities-in-ocean-drilling-in-search-of-earths-past-and-future"
+        },
+        {
+          "title": "New Directions for Chemical Engineering",
+          "url": "https://nap.nationalacademies.org/catalog/26342/new-directions-for-chemical-engineering"
+        },
+        {
+          "title": "Municipal Solid Waste Recycling in the United States: Analysis of Current and Alternative Approaches",
+          "url": "https://nap.nationalacademies.org/catalog/27978/municipal-solid-waste-recycling-in-the-united-states-analysis-of"
+        },
+        {
+          "title": "Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward",
+          "url": "https://nap.nationalacademies.org/catalog/26641/greenhouse-gas-emissions-information-for-decision-making-a-framework-going"
+        },
+        {
+          "title": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science",
+          "url": ""
+        },
+        {
+          "title": "Origin and Evolution of Earth: Research Questions for a Changing Planet",
+          "url": ""
+        },
+        {
+          "title": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions",
+          "url": "https://nap.nationalacademies.org/catalog/26336/report-series-committee-on-planetary-protection-evaluation-of-bioburden-requirements"
+        }
+      ]
+    },
+    {
+      "podcast_id": "science-magazine",
+      "podcast_name": "Science Magazine Podcast",
+      "episode_title": "The normals | Episode 3",
+      "host": "Sarah Crespi",
+      "published": "2026-04-21T18:00:00",
+      "influence_tier": "medium",
+      "category": "science_news",
+      "summary": "This episode examines the history and current state of healthy human subjects in clinical research, tracing the evolution from NIH's 'Normals' program (which recruited religious conscientious objectors in the 1950s) to today's privatized clinical trial system. The episode explores how the program expanded, changed its name to the 'Public Liaison and Patient Recruitment Program,' and became decentralized across third-party companies, while highlighting persistent ethical challenges including inadequate facility standards, lack of participant protections, insufficient informed consent, and absence of compensation systems for research-related injuries. Key discussion points include emerging international efforts like VolRethics to establish better protections for healthy volunteers and the vulnerability of economically disadvantaged populations who participate primarily for financial compensation.",
+      "science_topics": [
+        "Clinical trial design and phasing (Phase 1-4 drug testing)",
+        "COVID-19 vaccine trial protocols and design (double-blind placebo-controlled trials)",
+        "Nutrient absorption and beef consumption health effects",
+        "Dietary intervention studies and metabolic effects",
+        "Human subjects research protocols and safety testing"
+      ],
+      "claims_to_note": [
+        "FDA's 1962 Food and Drug Amendment first required drugs to be both safe AND effective (previously only safety was required) - this substantially increased demand for healthy human subjects",
+        "Declaration of Helsinki received significant update in 2024 explicitly adding language about protections for healthy volunteers (previously not specifically addressed)",
+        "NIH discontinued Fitbit/tracker portion of the 'All of Us' program",
+        "India has a clinical trial registry that researchers can consult to check if participants are currently in trials or have overlapping study participation; however, trial participants cannot access their own records",
+        "No federal U.S. regulation requires medical care or financial compensation for research-related injuries to clinical trial participants",
+        "Clinical research facilities are not routinely inspected, unlike animal research facilities which are required to be inspected"
+      ],
+      "policy_relevance": [
+        "NIH's Clinical Center and Normals/Public Liaison and Patient Recruitment Program - program renamed in 1980s after Bernadette Gilchrist's death, shifted toward public communication focus",
+        "FDA's 1962 Food and Drug Amendment requiring drug safety AND efficacy testing",
+        "Institutional Review Boards (IRBs) - distributed ethical oversight system; concern raised about for-profit IRBs hired by pharmaceutical companies to review their own protocols versus independent university-based IRBs",
+        "Declaration of Helsinki (international framework, updated 2024) - influences many countries' regulations but historically lacked specific protections for healthy volunteers",
+        "VolRethics initiative - international project led by France's National Health Institute (Inserm) to codify protections for healthy clinical trial volunteers; focuses on facility safety standards, long-term follow-up monitoring, national registries for trial participation, and informed consent in accessible language",
+        "Current NIH institutional challenges - multiple lawsuits about funding, advisory panels being dismissed and reconstituted, doctor departures at Clinical Center, difficulties recruiting patients from abroad for rare disease studies",
+        "Lack of federal compensation system for research-related injuries to healthy trial participants",
+        "Absence of routine site inspections at clinical trial facilities (contrast with animal research inspections)"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity"
+        },
+        {
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of"
+        },
+        {
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials"
+        },
+        {
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "url": ""
+        },
+        {
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders"
+        },
+        {
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response"
+        },
+        {
+          "title": "Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate"
+        },
+        {
+          "title": "Gulf War and Health: Volume 10: Update of Health Effects of Serving in the Gulf War, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/21840/gulf-war-and-health-volume-10-update-of-health-effects"
+        },
+        {
+          "title": "Gulf War and Health: Volume 8: Update of Health Effects of Serving in the Gulf War",
+          "url": "https://nap.nationalacademies.org/catalog/12835/gulf-war-and-health-volume-8-update-of-health-effects"
+        },
+        {
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "url": ""
+        },
+        {
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects"
+        },
+        {
+          "title": "Scientific and Medical Aspects of Human Reproductive Cloning",
+          "url": "https://nap.nationalacademies.org/catalog/10285/scientific-and-medical-aspects-of-human-reproductive-cloning"
+        },
+        {
+          "title": "Oversight and Review of Clinical Gene Transfer Protocols: Assessing the Role of the Recombinant DNA Advisory Committee",
+          "url": "https://nap.nationalacademies.org/catalog/18577/oversight-and-review-of-clinical-gene-transfer-protocols-assessing-the"
+        },
+        {
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry"
+        }
+      ]
+    },
     {
       "podcast_id": "science-friday",
       "podcast_name": "Science Friday",
@@ -401,6 +774,109 @@
         {
           "title": "Long-Term Health Consequences of Exposure to Burn Pits in Iraq and Afghanistan",
           "url": "https://nap.nationalacademies.org/catalog/13209/long-term-health-consequences-of-exposure-to-burn-pits-in-iraq-and-afghanistan"
+        }
+      ]
+    },
+    {
+      "podcast_id": "techtank",
+      "podcast_name": "TechTank",
+      "episode_title": "How should we approach chatbots' mental health and privacy concerns?",
+      "host": "Brookings Institution",
+      "published": "2026-04-20T08:00:00",
+      "influence_tier": "medium",
+      "category": "tech_policy",
+      "summary": "This episode examines the mental health and privacy risks posed by generative AI chatbots to young people, particularly vulnerable populations like LGBTQ+ youth. The hosts discuss how approximately one in eight U.S. adolescents have used chatbots for mental health advice, leading to documented harms including tragic cases where chatbots affirmed self-harm ideation. The conversation emphasizes that bans are ineffective policy solutions and instead advocates for privacy protections, digital literacy education, and thoughtful regulation that maintains youth access while building in safety guardrails and user agency.",
+      "science_topics": [
+        "Parasocial relationships between users and AI systems",
+        "Identity formation and cognitive development in adolescents",
+        "Mental health crisis in youth populations",
+        "Bias and discrimination in large language models",
+        "Digital literacy and critical thinking development",
+        "Data privacy and personal information protection in digital systems",
+        "Anthropomorphization of artificial intelligence systems",
+        "Evidence-based mental health chatbot applications (Therabot, randomized controlled trials)"
+      ],
+      "claims_to_note": [
+        "Approximately one in eight U.S. adolescents and young adults have used generative AI for mental health advice",
+        "Multiple teen deaths by suicide have been documented after interactions with chatbots",
+        "Trump administration cut $1 billion in school-based mental health support for K-12 students in 2025",
+        "There are insufficient mental health counselors and quality therapy resources available to address youth mental health crisis",
+        "Chatbots trained on internet data inherently reflect societal bias present in training data",
+        "AI chatbots lack the same privacy and confidentiality protections as licensed therapists or counselors",
+        "Social media relationships are typically one-to-many while chatbot interactions feel one-to-one and more private"
+      ],
+      "policy_relevance": [
+        "FTC inquiries into AI chatbot safety and practices",
+        "Updates to existing children's privacy rules (COPPA) and their applicability to AI chatbots",
+        "Proposed federal minimum age access bills (under 16 bans) for social media and chatbots",
+        "State-level social media ban proposals in Hawaii, California, Vermont, and Minnesota (2026)",
+        "Lack of comprehensive federal privacy framework in the United States",
+        "Australia's under-16 social media ban and human rights challenge",
+        "Fragmented federal regulatory approach to AI safety without comprehensive strategy",
+        "Proposed probabilistic age estimation requirements (ChatGPT approach to age verification)",
+        "LGBT Tech coalition statement opposing minimum age access restrictions",
+        "Character.AI safety rollback for users under 18"
+      ],
+      "nasem_publications": [
+        {
+          "title": "Measuring and Understanding the Relationship Between Air Service and Regional Economic Development",
+          "url": "https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development"
+        },
+        {
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems"
+        },
+        {
+          "title": "Health Literacy and Palliative Care: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21839/health-literacy-and-palliative-care-workshop-summary"
+        },
+        {
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "url": ""
+        },
+        {
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "url": ""
+        },
+        {
+          "title": "Mapping the Brain and Its Functions",
+          "url": ""
+        },
+        {
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color"
+        },
+        {
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "title": "Facilitating Health Communication with Immigrant, Refugee, and Migrant Populations Through the Use of Health Literacy and Community Engagement Strategies: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24845/facilitating-health-communication-with-immigrant-refugee-and-migrant-populations-through-the-use-of-health-literacy-and-community-engagement-strategies"
+        },
+        {
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "url": ""
+        },
+        {
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their"
+        },
+        {
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop"
+        },
+        {
+          "title": "Developing Health Literacy Skills in Children and Youth: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25888/developing-health-literacy-skills-in-children-and-youth-proceedings-of"
+        },
+        {
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final"
+        },
+        {
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins"
         }
       ]
     },

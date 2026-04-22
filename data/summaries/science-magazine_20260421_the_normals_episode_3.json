@@ -1,0 +1,724 @@
+{
+  "podcast_id": "science-magazine",
+  "podcast_name": "Science Magazine Podcast",
+  "episode_title": "The normals | Episode 3",
+  "host": "Sarah Crespi",
+  "published": "2026-04-21T18:00:00",
+  "episode_url": "https://www.science.org/topic/tags/normals",
+  "duration_minutes": 33.36666666666667,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode examines the history and current state of healthy human subjects in clinical research, tracing the evolution from NIH's 'Normals' program (which recruited religious conscientious objectors in the 1950s) to today's privatized clinical trial system. The episode explores how the program expanded, changed its name to the 'Public Liaison and Patient Recruitment Program,' and became decentralized across third-party companies, while highlighting persistent ethical challenges including inadequate facility standards, lack of participant protections, insufficient informed consent, and absence of compensation systems for research-related injuries. Key discussion points include emerging international efforts like VolRethics to establish better protections for healthy volunteers and the vulnerability of economically disadvantaged populations who participate primarily for financial compensation.",
+  "science_topics": [
+    "Clinical trial design and phasing (Phase 1-4 drug testing)",
+    "COVID-19 vaccine trial protocols and design (double-blind placebo-controlled trials)",
+    "Nutrient absorption and beef consumption health effects",
+    "Dietary intervention studies and metabolic effects",
+    "Human subjects research protocols and safety testing"
+  ],
+  "claims_to_note": [
+    "FDA's 1962 Food and Drug Amendment first required drugs to be both safe AND effective (previously only safety was required) - this substantially increased demand for healthy human subjects",
+    "Declaration of Helsinki received significant update in 2024 explicitly adding language about protections for healthy volunteers (previously not specifically addressed)",
+    "NIH discontinued Fitbit/tracker portion of the 'All of Us' program",
+    "India has a clinical trial registry that researchers can consult to check if participants are currently in trials or have overlapping study participation; however, trial participants cannot access their own records",
+    "No federal U.S. regulation requires medical care or financial compensation for research-related injuries to clinical trial participants",
+    "Clinical research facilities are not routinely inspected, unlike animal research facilities which are required to be inspected"
+  ],
+  "policy_relevance": [
+    "NIH's Clinical Center and Normals/Public Liaison and Patient Recruitment Program - program renamed in 1980s after Bernadette Gilchrist's death, shifted toward public communication focus",
+    "FDA's 1962 Food and Drug Amendment requiring drug safety AND efficacy testing",
+    "Institutional Review Boards (IRBs) - distributed ethical oversight system; concern raised about for-profit IRBs hired by pharmaceutical companies to review their own protocols versus independent university-based IRBs",
+    "Declaration of Helsinki (international framework, updated 2024) - influences many countries' regulations but historically lacked specific protections for healthy volunteers",
+    "VolRethics initiative - international project led by France's National Health Institute (Inserm) to codify protections for healthy clinical trial volunteers; focuses on facility safety standards, long-term follow-up monitoring, national registries for trial participation, and informed consent in accessible language",
+    "Current NIH institutional challenges - multiple lawsuits about funding, advisory panels being dismissed and reconstituted, doctor departures at Clinical Center, difficulties recruiting patients from abroad for rare disease studies",
+    "Lack of federal compensation system for research-related injuries to healthy trial participants",
+    "Absence of routine site inspections at clinical trial facilities (contrast with animal research inspections)"
+  ],
+  "key_quotes": [
+    "It's interesting... Following newspaper articles around the COVID vaccine trials, I was surprised by how much public exposure of the people's identity was allowed and permissible... the people who were in Seattle in some of the first trials and were healthy people, they were using much of the same language that we saw in the 1950s. It's like, I am so happy to be doing this for the greater good of everyone.",
+    "If we can have restaurant inspections, why can't we have clinical research facility inspections? So just the way that animal research is done, I think, provides an excellent example for how it is feasible... Even mice get inspected.",
+    "The original normals thought it was a norm for healthy people to sacrifice themselves for science, for the greater good. Later normals thought, let's trade credits, recommendations for the benefit of scientific inquiry. Now, more often, private companies plan the study, private review boards bless the ethics, and the subjects get money. It may be the normal for today, but probably not forever."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Clinical trial design and phasing (Phase 1-4 drug testing)",
+      "publications": [
+        {
+          "id": "26479",
+          "title": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+          "url": "https://nap.nationalacademies.org/catalog/26479/improving-representation-in-clinical-trials-and-research-building-research-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "long made substantial investments",
+            "ethnic minority population groups",
+            "congress improving representation",
+            "compounding health disparities",
+            "greatest health challenges",
+            "currently large swaths",
+            "extending human life",
+            "last three decades",
+            "nevertheless clinical",
+            "clinical trial",
+            "improving representation",
+            "underrepresented groups",
+            "building",
+            "equity",
+            "women"
+          ],
+          "description": "The United States has long made substantial investments in clinical research with the goal of improving the health and well-being of our nation. There is no doubt that these investments have contributed significantly to treating and preventing disease and extending human life. Nevertheless, clinical research faces a critical shortcoming. Currently, large swaths of the U.S. population, and those that often face the greatest health challenges, are less able to benefit from these discoveries because they are not adequately represented in clinical research studies. While progress has been made with representation of white women in clinical trials and clinical research, there has been little progress in the last three decades to increase participation of racial and ethnic minority population groups. This underrepresentation is compounding health disparities, with serious consequences for underrepresented groups and for the nation. At the request of Congress, Improving Representation in Clin",
+          "year": 2023,
+          "committee": "Committee on Women in Science Engineering and Medicine"
+        },
+        {
+          "id": "25616",
+          "title": "Health Literacy in Clinical Research: Practice and Impact: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25616/health-literacy-in-clinical-research-practice-and-impact-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "trial altogether confusing investigators",
+            "titled clinical trials",
+            "diverse populations participation",
+            "health literacy convened",
+            "broad patient base",
+            "become confused mistrustful",
+            "discussion centered around",
+            "early trials",
+            "individualized nature",
+            "possibly affecting",
+            "health literacy",
+            "clinical",
+            "impact"
+          ],
+          "description": "Because of the individualized nature of drug and therapeutic treatments, clinical trials require participants who represent the diversity of the patient base. If early trials do not have a broad patient base, it can be difficult to know who may or may not benefit from or respond to a treatment later. In addition to diversity in recruitment, informed consent during participation is also crucial. If participants do not fully understand what they are signing up for, they may become confused, mistrustful, or drop out of a trial altogether, confusing investigators and possibly affecting the generalizability of a study. To explore the incorporation of health literacy practices into clinical trials, the Roundtable on Health Literacy convened a workshop titled Clinical Trials: Practice and Impact on April 11, 2019, in Washington, DC. The workshop presentations and discussion centered around issues related to the challenges or barriers for diverse populations' participation in clinical trials, ",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "12955",
+          "title": "The Prevention and Treatment of Missing Data in Clinical Trials",
+          "url": "https://nap.nationalacademies.org/catalog/12955/the-prevention-and-treatment-of-missing-data-in-clinical-trials",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "missing data reduces",
+            "handle missing data",
+            "control groups balancing out",
+            "data collection ceases",
+            "resulting data provide",
+            "randomized clinical trials",
+            "missing values tend",
+            "introduces potential biases",
+            "unknown factors among",
+            "participants discontinue",
+            "clinical trial",
+            "missing data",
+            "prevention",
+            "treatment"
+          ],
+          "description": "Randomized clinical trials are the primary tool for evaluating new medical interventions. Randomization provides for a fair comparison between treatment and control groups, balancing out, on average, distributions of known and unknown factors among the participants. Unfortunately, these studies often lack a substantial percentage of data. This missing data reduces the benefit provided by the randomization and introduces potential biases in the comparison of the treatment groups. Missing data can arise for a variety of reasons, including the inability or unwillingness of participants to meet appointments for evaluation. And in some studies, some or all of data collection ceases when participants discontinue study treatment. Existing guidelines for the design and conduct of clinical trials, and the analysis of the resulting data, provide only limited advice on how to handle missing data. Thus, approaches to the analysis of data with an appreciable amount of missing values tend to be ad h",
+          "year": 2011,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on National Statistics"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "COVID-19 vaccine trial protocols and design (double-blind placebo-controlled trials)",
+      "publications": [
+        {
+          "id": "10306",
+          "title": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "keywords": [
+            "vaccine",
+            "immunization",
+            "immune",
+            "immunity",
+            "safety",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "10393",
+          "title": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+          "url": "https://nap.nationalacademies.org/catalog/10393/immunization-safety-review-hepatitis-b-vaccine-and-demyelinating-neurological-disorders",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "epidemiological evidence favors rejection",
+            "book makes additional recommenda",
+            "vaccine induced autism",
+            "thimerosal containing vaccines",
+            "vaccine safety activities",
+            "potential biological mechanisms",
+            "potential biologic mechanisms",
+            "public health response",
+            "autism finds",
+            "cause autism",
+            "demyelinating neurological disorders",
+            "immunization safety",
+            "hepatitis",
+            "vaccine"
+          ],
+          "description": "This eighth and final report of the Immunization Safety Review Committee examines the hypothesis that vaccines, specifically the measles-mumps-rubella (MMR) vaccine and thimerosal-containing vaccines, are causally associated with autism. The committee reviewed the extant published and unpublished epidemiological studies regarding causality and studies of potential biologic mechanisms by which these immunizations might cause autism. Immunization Safety Review: Vaccines and Autism finds that the body of epidemiological evidence favors rejection of a causal relationship between thimerosal-containing vaccines and autism. The book further finds that potential biological mechanisms for vaccine-induced autism that have been generated to date are only theoretical. It recommends a public health response that fully supports an array of vaccine safety activities and recommends that available funding for autism research be channeled to the most promising areas. The book makes additional recommenda",
+          "year": 2004,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Promotion and Disease Prevention"
+        },
+        {
+          "id": "26282",
+          "title": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+          "url": "https://nap.nationalacademies.org/catalog/26282/vaccine-research-and-development-to-advance-pandemic-and-seasonal-influenza-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "seasonal influenza preparedness",
+            "advance pandemic",
+            "development",
+            "response",
+            "vaccine",
+            "lessons",
+            "covid"
+          ],
+          "year": 2021
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Nutrient absorption and beef consumption health effects",
+      "publications": [
+        {
+          "id": "24846",
+          "title": "Protecting the Health and Well-Being of Communities in a Changing Climate: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24846/protecting-the-health-and-well-being-of-communities-in-a-changing-climate",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health sector leaders",
+            "public health",
+            "environmental health",
+            "population health",
+            "health care",
+            "health effects",
+            "civic government business",
+            "climate change",
+            "inform stakeholders",
+            "participants discussed",
+            "changing climate",
+            "communities",
+            "protecting",
+            "health"
+          ],
+          "description": "On March 13, 2017, the Roundtable on Environmental Health Sciences, Research, and Medicine and the Roundtable on Population Health Improvement jointly convened a 1-day public workshop in Washington, DC, to explore potential strategies for public health, environmental health, health care, and related stakeholders to help communities and regions to address and mitigate the health effects of climate change. Participants discussed the perspectives of civic, government, business, and health-sector leaders, and existing research, best practices, and examples that inform stakeholders and practitioners on approaches to support mitigation of and adaptation to climate change and its effects on population health. This publication summarizes the presentations and discussions from the workshop.",
+          "year": 2018,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "21840",
+          "title": "Gulf War and Health: Volume 10: Update of Health Effects of Serving in the Gulf War, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/21840/gulf-war-and-health-volume-10-update-of-health-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "existing health problems",
+            "health effects associated",
+            "gulf war veterans",
+            "persian gulf war",
+            "successful military operation",
+            "series released",
+            "identifies possible",
+            "fourth volume",
+            "medical literature",
+            "potential causes",
+            "health effects",
+            "gulf war",
+            "serving",
+            "volume"
+          ],
+          "description": "For the United States, the 1991 Persian Gulf War was a brief and successful military operation with few injuries and deaths. However, soon after returning from duty, a large number of veterans began reporting health problems they believed were associated with their service in the Gulf. At the request of Congress, the Institute of Medicine (IOM) has been conducting an ongoing review of the evidence to determine veterans' long-term health problems and potential causes. The fourth volume in the series, released in 2006, summarizes the long-term health problems seen in Gulf War veterans. In 2010, the IOM released an update that focuses on existing health problems and identifies possible new ones, considering evidence collected since the initial summary. Gulf War and Health: Volume 10 is an update of the scientific and medical literature on the health effects associated with deployment to the Gulf War that were identified in Volumes 4 and 8. This report reviews and evaluates the association",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on the Health of Select Populations"
+        },
+        {
+          "id": "12835",
+          "title": "Gulf War and Health: Volume 8: Update of Health Effects of Serving in the Gulf War",
+          "url": "https://nap.nationalacademies.org/catalog/12835/gulf-war-and-health-volume-8-update-of-health-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "food-nutrition",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "include potential adverse effects",
+            "increasingly involve female veterans",
+            "health effects identified",
+            "self reported sexual dysfunction",
+            "veterans concerns regarding",
+            "successful military operation",
+            "mental health",
+            "persian gulf war",
+            "potential causes",
+            "however soon",
+            "health effects",
+            "gulf war",
+            "serving",
+            "volume"
+          ],
+          "description": "For the United States, the 1991 Persian Gulf War was a brief and successful military operation with few injuries and deaths. However, soon after returning from duty, a large number of veterans began reporting health problems they believed were associated with their service in the Gulf. At the request of Congress, the National Academies of Sciences, Engineering, and Medicine has been conducting an ongoing review of the evidence to determine veterans' long-term health problems and potential causes. Some of the health effects identified by past reports include post-traumatic stress disorders, other mental health disorders, Gulf War illness, respiratory effects, and self-reported sexual dysfunction. Veterans' concerns regarding the impacts of deployment-related exposures on their health have grown to include potential adverse effects on the health of their children and grandchildren. These concerns now increasingly involve female veterans, as more women join the military and are deployed t",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Dietary intervention studies and metabolic effects",
+      "publications": [
+        {
+          "id": "18988",
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "keywords": [
+            "climate",
+            "geoengineering",
+            "solar",
+            "intervention",
+            "cooling",
+            "albedo"
+          ]
+        },
+        {
+          "id": "26809",
+          "title": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "The COVID-19 pandemic has had an unprecedented impact on the lives of children and their families, who have faced innumerable challenges such as illness and death; school closures; social isolation; financial hardship; food insecurity; deleterious mental health effects; and difficulties accessing health care. In almost every outcome related to social, emotional, behavioral, educational, mental, physical, and economic health and well-being, families identifying as Black, Latino, and Native American, and those with low incomes, have disproportionately borne the brunt of the negative effects of the pandemic. The effects of the COVID-19 pandemic on children and families will be felt for years to come. While these long-term effects are unknown, they are likely to have particularly significant implications for children and families from racially and ethnically minoritized communities and with low incomes. Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families iden",
+          "year": 2023,
+          "committee": "Board on Children Youth and Families",
+          "keywords": [
+            "deleterious mental health effects",
+            "difficulties accessing health care",
+            "long term effects",
+            "ethnically minoritized communities",
+            "faced innumerable challenges",
+            "families identifying",
+            "covid pandemic",
+            "negative effects",
+            "economic health",
+            "disproportionately borne",
+            "addressing",
+            "children",
+            "families"
+          ]
+        },
+        {
+          "id": "26410",
+          "title": "Oil in the Sea IV: Inputs, Fates, and Effects",
+          "url": "https://nap.nationalacademies.org/catalog/26410/oil-in-the-sea-iv-inputs-fates-and-effects",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "deepwater horizon oil spill",
+            "high energy demand driven",
+            "consumption exploration transportation",
+            "prevent chronic land",
+            "long term effects",
+            "worldwide energy supply",
+            "despite significant progress",
+            "production risks remain",
+            "oil spill science",
+            "decade long boom",
+            "inputs fates",
+            "effects",
+            "oil",
+            "sea"
+          ],
+          "description": "Oil and natural gas represent more than 50 percent of the worldwide energy supply, with high energy demand driven by population growth and improving standards of living. Despite significant progress in reducing the amount of oil in the sea from consumption, exploration, transportation, and production, risks remain. This report, the fourth in a series, documents the current state-of-knowledge on inputs, fates and effects of oil in the sea, reflecting almost 20 additional years of research, including long-term effects from spills such as the Exxon Valdez and a decade-long boom in oil spill science research following the Deepwater Horizon oil spill. The report finds that land-based sources of oil are the biggest input of oil to the sea, far outweighing other sources, and it also notes that the effects of chronic inputs on the marine environment, such as land-based runoff, are very different than that from an acute input, such as a spill. Steps to prevent chronic land-based oil inputs incl",
+          "year": 2023,
+          "committee": "Ocean Studies Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Consensus Studies",
+          "url": "https://www.nationalacademies.org/index.php/projects/consensusadvisory-activity",
+          "status": "in_progress"
+        },
+        {
+          "title": "Consensus Studies",
+          "url": "https://www.nationalacademies.org/projects/consensusadvisory-activity",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Human subjects research protocols and safety testing",
+      "publications": [
+        {
+          "id": "10285",
+          "title": "Scientific and Medical Aspects of Human Reproductive Cloning",
+          "url": "https://nap.nationalacademies.org/catalog/10285/scientific-and-medical-aspects-of-human-reproductive-cloning",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "human reproductive cloning considers",
+            "ethical religious societal scientific",
+            "assisted reproductive technology",
+            "newborn genetically identical",
+            "issue plus ethical",
+            "human subjects",
+            "another human",
+            "medical sides",
+            "world involving",
+            "medically safe",
+            "human reproductive cloning",
+            "scientific",
+            "medical"
+          ],
+          "description": "Human reproductive cloning is an assisted reproductive technology that would be carried out with the goal of creating a newborn genetically identical to another human being. It is currently the subject of much debate around the world, involving a variety of ethical, religious, societal, scientific, and medical issues. Scientific and Medical Aspects of Human Reproductive Cloning considers the scientific and medical sides of this issue, plus ethical issues that pertain to human-subjects research. Based on experience with reproductive cloning in animals, the report concludes that human reproductive cloning would be dangerous for the woman, fetus, and newborn, and is likely to fail. The study panel did not address the issue of whether human reproductive cloning, even if it were found to be medically safe, would beâ€\"or would not beâ€\"acceptable to individuals or society.",
+          "year": 2002,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Life Sciences"
+        },
+        {
+          "id": "18577",
+          "title": "Oversight and Review of Clinical Gene Transfer Protocols: Assessing the Role of the Recombinant DNA Advisory Committee",
+          "url": "https://nap.nationalacademies.org/catalog/18577/oversight-and-review-of-clinical-gene-transfer-protocols-assessing-the",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "clinical gene transfer protocols",
+            "clinical gene transfer trials",
+            "existing gene transfer science",
+            "institutional biosafety committees ibcs",
+            "nih recombinant dna advisory",
+            "rapidly advancing field",
+            "drug administration fda",
+            "human subject",
+            "diagnostic purposes",
+            "institutions funded",
+            "recombinant dna advisory",
+            "oversight",
+            "assessing"
+          ],
+          "description": "Gene transfer research is a rapidly advancing field that involves the introduction of a genetic sequence into a human subject for research or diagnostic purposes. Clinical gene transfer trials are subject to regulation by the U.S. Food and Drug Administration (FDA) at the federal level and to oversight by institutional review boards (IRBs) and institutional biosafety committees (IBCs) at the local level before human subjects can be enrolled. In addition, at present all researchers and institutions funded by the National Institutes of Health (NIH) are required by NIH guidelines to submit human gene transfer protocols for advisory review by the NIH Recombinant DNA Advisory Committee (RAC). Some protocols are then selected for individual review and public discussion. Oversight and Review of Clinical Gene Transfer Protocols provides an assessment of the state of existing gene transfer science and the current regulatory and policy context under which research is investigated. This report as",
+          "year": 2014,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Sciences Policy"
+        },
+        {
+          "id": "23524",
+          "title": "Strengthening the Safety Culture of the Offshore Oil and Gas Industry",
+          "url": "https://nap.nationalacademies.org/catalog/23524/strengthening-the-safety-culture-of-the-offshore-oil-and-gas-industry",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "health-care",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "industrial safety",
+            "assessing company safety culture",
+            "sustaining safety culture provided",
+            "robust safety culture methods",
+            "improving safety culture",
+            "defining safety culture",
+            "safety culture offered",
+            "gas industry offers",
+            "offshore industry",
+            "assessing improving",
+            "environmental enforcement",
+            "safety culture",
+            "offshore oil",
+            "gas industry",
+            "strengthening"
+          ],
+          "description": "\"TRB Special Report 321: Strengthening the Safety Culture of the Offshore Oil and Gas Industry offers recommendations to industry and regulators to strengthen and sustain the safety culture of the offshore oil and gas industry. The committee that prepared the report addresses conceptual challenges in defining safety culture and discusses the empirical support for the definition of safety culture offered by the Bureau of Safety and Environmental Enforcement, the nine characteristics or elements of a robust safety culture, methods for assessing company safety culture, and barriers to improving safety culture in the offshore industry. The committee's report also identifies topics on which further research is needed with respect to assessing, improving, and sustaining safety culture\"--Provided by publisher.",
+          "year": 2016,
+          "page_keywords": [
+            "Industrial safety"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Committee on U.S. Offshore Oil and"
+        }
+      ],
+      "projects": [
+        {
+          "title": "NextGen Oil Spill Research Community of Practice and Webinar SeriesEducational/Outreach Activity",
+          "url": "https://www.nationalacademies.org/projects/GULF-GULFEO-25-03",
+          "status": "in_progress"
+        },
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 5771,
+  "saved_at": "2026-04-22T11:54:00.031679"
+}

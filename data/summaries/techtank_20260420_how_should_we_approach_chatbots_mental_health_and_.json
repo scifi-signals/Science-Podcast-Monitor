@@ -1,0 +1,642 @@
+{
+  "podcast_id": "techtank",
+  "podcast_name": "TechTank",
+  "episode_title": "How should we approach chatbots' mental health and privacy concerns?",
+  "host": "Brookings Institution",
+  "published": "2026-04-20T08:00:00",
+  "episode_url": "https://shows.acast.com/tech-tank/episodes/how-should-we-approach-chatbots-mental-health-and-privacy-co",
+  "duration_minutes": 44.46666666666667,
+  "influence_tier": "medium",
+  "category": "tech_policy",
+  "summary": "This episode examines the mental health and privacy risks posed by generative AI chatbots to young people, particularly vulnerable populations like LGBTQ+ youth. The hosts discuss how approximately one in eight U.S. adolescents have used chatbots for mental health advice, leading to documented harms including tragic cases where chatbots affirmed self-harm ideation. The conversation emphasizes that bans are ineffective policy solutions and instead advocates for privacy protections, digital literacy education, and thoughtful regulation that maintains youth access while building in safety guardrails and user agency.",
+  "science_topics": [
+    "Parasocial relationships between users and AI systems",
+    "Identity formation and cognitive development in adolescents",
+    "Mental health crisis in youth populations",
+    "Bias and discrimination in large language models",
+    "Digital literacy and critical thinking development",
+    "Data privacy and personal information protection in digital systems",
+    "Anthropomorphization of artificial intelligence systems",
+    "Evidence-based mental health chatbot applications (Therabot, randomized controlled trials)"
+  ],
+  "claims_to_note": [
+    "Approximately one in eight U.S. adolescents and young adults have used generative AI for mental health advice",
+    "Multiple teen deaths by suicide have been documented after interactions with chatbots",
+    "Trump administration cut $1 billion in school-based mental health support for K-12 students in 2025",
+    "There are insufficient mental health counselors and quality therapy resources available to address youth mental health crisis",
+    "Chatbots trained on internet data inherently reflect societal bias present in training data",
+    "AI chatbots lack the same privacy and confidentiality protections as licensed therapists or counselors",
+    "Social media relationships are typically one-to-many while chatbot interactions feel one-to-one and more private"
+  ],
+  "policy_relevance": [
+    "FTC inquiries into AI chatbot safety and practices",
+    "Updates to existing children's privacy rules (COPPA) and their applicability to AI chatbots",
+    "Proposed federal minimum age access bills (under 16 bans) for social media and chatbots",
+    "State-level social media ban proposals in Hawaii, California, Vermont, and Minnesota (2026)",
+    "Lack of comprehensive federal privacy framework in the United States",
+    "Australia's under-16 social media ban and human rights challenge",
+    "Fragmented federal regulatory approach to AI safety without comprehensive strategy",
+    "Proposed probabilistic age estimation requirements (ChatGPT approach to age verification)",
+    "LGBT Tech coalition statement opposing minimum age access restrictions",
+    "Character.AI safety rollback for users under 18"
+  ],
+  "key_quotes": [
+    "If we are watching young people become too reliant on these systems for support, we do have to recognize that there is a reason they are turning to these systems for support in the first place...the answer cannot simply be to cut these vulnerable youth off from something they are using to seek connection information or support that is otherwise unavailable.",
+    "AI is the mirror that smiles back...it's meant to mirror your language...it's also meant to flatter you. It's by design...but when you're interacting with a human you have these friction points where that human might say like 'whoa let's check the facts' or 'let's stop here'...when we don't build those into a chatbot that doesn't happen.",
+    "My biggest hope is not ever that chatbots become stand-ins for human care...my hope is that they become safer, more limited and ultimately more honest tools...that can help young people find the information and the community that they feel like they are missing while...reducing some of that internal stigma...My hope is that chatbots can be a tool that builds to finding and connecting with real support without having to pretend to be the support itself."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Parasocial relationships between users and AI systems",
+      "publications": [
+        {
+          "id": "26682",
+          "title": "Measuring and Understanding the Relationship Between Air Service and Regional Economic Development",
+          "url": "https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "regional economic development",
+            "air service",
+            "relationship",
+            "measuring"
+          ],
+          "year": 2022
+        },
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "21839",
+          "title": "Health Literacy and Palliative Care: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/21839/health-literacy-and-palliative-care-workshop-summary",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "improving health literacy",
+            "health literacy convened",
+            "providing high quality delivery",
+            "key lessons presented practical",
+            "health literate communication",
+            "palliative care summarizes",
+            "occurred throughout",
+            "day public",
+            "opportunities",
+            "relationship",
+            "health literacy",
+            "palliative care"
+          ],
+          "description": "The Institute of Medicine Roundtable on Health Literacy convened a 1-day public workshop to explore the relationship between palliative care and health literacy, and the importance of health literate communication in providing high-quality delivery of palliative care. Health Literacy and Palliative Care summarizes the discussions that occurred throughout the workshop and highlights the key lessons presented, practical strategies, and the needs and opportunities for improving health literacy in the United States.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Identity formation and cognitive development in adolescents",
+      "publications": [
+        {
+          "id": "26175",
+          "title": "Reducing the Impact of Dementia in America: A Decadal Survey",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "cognitive",
+            "brain",
+            "aging",
+            "memory"
+          ]
+        },
+        {
+          "id": "28588",
+          "title": "Preventing and Treating Dementia: Research Priorities to Accelerate Progress",
+          "keywords": [
+            "dementia",
+            "alzheimer",
+            "treatment",
+            "prevention",
+            "brain",
+            "cognitive"
+          ]
+        },
+        {
+          "id": "1816",
+          "title": "Mapping the Brain and Its Functions",
+          "keywords": [
+            "brain",
+            "neuroscience",
+            "neurology",
+            "neural",
+            "cognitive",
+            "mapping"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Mental health crisis in youth populations",
+      "publications": [
+        {
+          "id": "26623",
+          "title": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color",
+          "topics": [
+            "adolescent-health",
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Involvement with the juvenile justice system can impact young people's physical and mental health and well-being throughout their lives, as well as the health and well-being of their families and communities. Youth of color are more likely to become involved with the juvenile justice system, and suffer worse outcomes in sentencing, during incarceration, and after release. The National Academies of Sciences, Engineering, and Medicine's Roundtable on the Promotion of Health Equity convened a workshop to discuss the impact that juvenile justice system involvement has on the health and well-being of adolescents, families, and communities of color; examine policies that are successful in improving outcomes; and explore what needs to be done to improve all aspects of encounters with the juvenile justice system. The workshop suggested pursuing alternatives to traditional juvenile justice systems that would allow adolescents to stay in their communities rather than in detention, responding to ",
+          "year": 2023,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board On Population Health And Public He",
+          "keywords": [
+            "medical",
+            "juvenile justice system involvement",
+            "traditional juvenile justice systems",
+            "health equity convened",
+            "sentencing during incarceration",
+            "suggested pursuing alternatives",
+            "suffer worse outcomes",
+            "impact young people",
+            "mental health",
+            "adolescents families",
+            "communities rather",
+            "youth families",
+            "communities",
+            "impact",
+            "health",
+            "color"
+          ]
+        },
+        {
+          "id": "27835",
+          "title": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "health care children especially",
+            "adolescent health care system",
+            "families improves child health",
+            "improving health care",
+            "launching lifelong health",
+            "mental health challenges",
+            "requires transforming key components",
+            "public health",
+            "health equity",
+            "leverage community supports",
+            "children youth",
+            "families"
+          ],
+          "description": "Ensuring every child is on an optimal trajectory to a healthy and productive adulthood is imperative for the nation's future. Investments in children and families improves child health, but also health equity, education outcomes, workforce productivity, and cost-effectiveness in public spending. Despite advances in health care, children, especially those from historically marginalized groups, face rising rates of chronic diseases, obesity, and mental health challenges. Launching Lifelong Health by Improving Health Care for Children, Youth, And Families presents a vision for transforming the child and adolescent health care system. This report also examines how the health care system can be better positioned to equitably address the needs of all children and families and leverage community supports. This requires transforming key components, such as health care financing, public health investment, community partnerships, and accountability strategies, to encourage team-based care delive",
+          "year": 2025,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "24845",
+          "title": "Facilitating Health Communication with Immigrant, Refugee, and Migrant Populations Through the Use of Health Literacy and Community Engagement Strategies: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/24845/facilitating-health-communication-with-immigrant-refugee-and-migrant-populations-through-the-use-of-health-literacy-and-community-engagement-strategies",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "public-health",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "increasingly diverse ethnic composition",
+            "health care communities",
+            "facilitating health communication",
+            "understand basic health",
+            "health literacy conducted",
+            "make appropriate health",
+            "increasingly diverse population",
+            "public health",
+            "culturally diverse populations",
+            "health literacy",
+            "community engagement",
+            "migrant populations",
+            "immigrant refugee",
+            "use"
+          ],
+          "description": "The increasingly diverse ethnic composition of the United States population has created a profound and ongoing demographic shift, and public health and health care organizations face many challenges as they move to address and adapt to this change. To better understand how the public health and health care communities can meet the challenges of serving an increasingly diverse population, the Roundtable on Health Literacy conducted a public workshop on facilitating health communication with immigrant, refugee, and migrant populations through the use of health literate approaches. The goal of the workshop was to identify approaches that will enable organizations that serve these ethnically and culturally diverse populations in a manner that allows all members of these communities to obtain, process, and understand basic health information and the services needed to make appropriate health and personal decisions. This publication summarizes the presentations and discussions from the works",
+          "year": 2017,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Bias and discrimination in large language models",
+      "publications": [
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "29112",
+          "title": "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations",
+          "url": "https://nap.nationalacademies.org/catalog/29112/the-air-traffic-controller-workforce-imperative-staffing-models-and-their",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "air traffic controllers",
+            "air traffic controller staffing",
+            "air traffic controllers association",
+            "federal aviation administration faa",
+            "efficient shift scheduling tools",
+            "facility staffing levels",
+            "agency developed collaboratively",
+            "local input rather",
+            "facility models",
+            "aviation safety",
+            "understaffed airports",
+            "efficient airspace operations",
+            "staffing models",
+            "ensure safe",
+            "implementation"
+          ],
+          "description": "Air traffic controller staffing is essential for aviation safety in the United States. Therefore, the Federal Aviation Administration (FAA) should continue to increase air traffic controller hiring, improve training success rates, incentivize transfers from overstaffed to understaffed airports, and implement robust fatigue management systems and efficient shift-scheduling tools. FAA should also rebuild its controller staffing based on its traditional modeling approach--as refined by needed updates and with local input--rather than adopting newer facility staffing models the agency developed collaboratively with members of the National Air Traffic Controllers Association. FAA should also conduct recommended research to improve understanding about the relationship between facility staffing levels and safety and validate its facility models using risk indicators, some of which are confidential and therefore not available to the committee that prepared the report.These are among the recomm",
+          "year": 2025,
+          "page_keywords": [
+            "Air traffic controllers"
+          ],
+          "committee": "National Academies of Sciences, Engineering, and Medicine (U.S.). Transportation Research Board. Com"
+        },
+        {
+          "id": "23498",
+          "title": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+          "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health care organizations face",
+            "health literacy cultural competency",
+            "make appropriate health decisions",
+            "health literate culturally competent",
+            "health care today impact",
+            "age race cultural background",
+            "profound demographic shift",
+            "dynamic forces operating",
+            "appropriate language",
+            "language skills",
+            "language access services"
+          ],
+          "description": "The aging and evolving racial and ethnic composition of the U.S. population has the United States in the midst of a profound demographic shift and health care organizations face many issues as they move to address and adapt to this change. In their drive to adequately serve increasingly diverse communities, health care organizations are searching for approaches that will enable them to provide information and service to all persons, regardless of age, race, cultural background, or language skills, in a manner that facilitates understanding and use of that information to make appropriate health decisions. To better understand how the dynamic forces operating in health care today impact the delivery of services in a way that is health literate, culturally competent, and in an appropriate language for patients and their families, the National Academies of Sciences, Engineering, and Medicine conducted a public workshop on the integration of health literacy, cultural competency, and languag",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Digital literacy and critical thinking development",
+      "publications": [
+        {
+          "id": "25888",
+          "title": "Developing Health Literacy Skills in Children and Youth: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25888/developing-health-literacy-skills-in-children-and-youth-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "water"
+          ],
+          "keywords": [
+            "medical",
+            "health literacy skills",
+            "health literacy convened",
+            "skills among youth",
+            "discussed factors relating",
+            "family life peers",
+            "young adulthood",
+            "social life",
+            "early childhood",
+            "school home",
+            "develop",
+            "developing health literacy skills",
+            "children",
+            "youth"
+          ],
+          "description": "Young people develop health literacy skills in a variety of environments, facing critical thinking challenges about their health from school, home and family life, peers and social life, and online. To explore the development of health literacy skills in youth, the Roundtable on Health Literacy convened a workshop on November 19, 2019, in Washington, DC. Presenters at the workshop discussed factors relating to health literacy skills and ways to further develop those skills among youth from early childhood to young adulthood. This publication summarizes the presentation and discussion of the workshop.",
+          "year": 2021,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "27732",
+          "title": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+          "url": "https://nap.nationalacademies.org/catalog/27732/carbon-utilization-infrastructure-markets-and-research-and-development-a-final",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "business & economics",
+            "carbon utilization infrastructure markets",
+            "eliminate net carbon emissions",
+            "aviation fuel chemicals plastics",
+            "reversing climate change focus",
+            "carbon dioxide released",
+            "contribute additional emissions",
+            "fossil emitting processes",
+            "fossil fuel combustion",
+            "greenhouse gas emissions",
+            "systems carbon",
+            "development",
+            "final"
+          ],
+          "description": "National and international plans for halting and reversing climate change focus on reducing and eventually ending the largest source of greenhouse gas emissions: carbon dioxide (CO2) released by fossil fuel combustion. However, as the nation moves towards replacing many fossil CO2-emitting processes with zero- or low-carbon-emission alternatives, special attention is needed to eliminate net carbon emissions from the systems that cannot be fully \"decarbonized\", such as the production of aviation fuel, chemicals, plastics, and construction materials. For these systems, carbon will need to be managed and utilized effectively, in a way that either prevents CO2 from entering the atmosphere or reuses it through circular processes that do not contribute additional emissions. Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report is the second report of a two-part study. The study's first report assessed the state of infrastructure for CO2 transportation, use,",
+          "year": 2025,
+          "page_keywords": [
+            "Business & Economics"
+          ],
+          "committee": "Board on Chemical Sciences and Technology"
+        },
+        {
+          "id": "26894",
+          "title": "Foundational Research Gaps and Future Directions for Digital Twins",
+          "url": "https://nap.nationalacademies.org/catalog/26894/foundational-research-gaps-and-future-directions-for-digital-twins",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "individual patient level predictions",
+            "going beyond traditional simulation",
+            "digital twin technologies",
+            "modeling digital twins",
+            "bidirectional data flows",
+            "across multiple domains",
+            "climate conditions",
+            "conditions change",
+            "transform scientific",
+            "physical counterpart",
+            "digital twins",
+            "foundational",
+            "directions",
+            "gaps"
+          ],
+          "description": "Across multiple domains of science, engineering, and medicine, excitement is growing about the potential of digital twins to transform scientific research, industrial practices, and many aspects of daily life. A digital twin couples computational models with a physical counterpart to create a system that is dynamically updated through bidirectional data flows as conditions change. Going beyond traditional simulation and modeling, digital twins could enable improved medical decision-making at the individual patient level, predictions of future weather and climate conditions over longer timescales, and safer, more efficient engineering processes. However, many challenges remain before these applications can be realized. This report identifies the foundational research and resources needed to support the development of digital twin technologies. The report presents critical future research priorities and an interdisciplinary research agenda for the field, including how federal agencies an",
+          "year": 2024,
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": [
+        {
+          "title": "A Workshop and Webinar Series on International Practices in K-12 Mathematics Education: The Role of Computational Thinking, Data Science, and AI",
+          "url": "https://www.nationalacademies.org/projects/PGA-NETWORKS-25-02",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 8512,
+  "saved_at": "2026-04-22T11:54:00.032864"
+}
