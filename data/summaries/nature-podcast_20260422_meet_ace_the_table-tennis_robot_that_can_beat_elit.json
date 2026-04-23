@@ -1,0 +1,606 @@
+{
+  "podcast_id": "nature-podcast",
+  "podcast_name": "Nature Podcast",
+  "episode_title": "Meet Ace, the table-tennis robot that can beat elite players",
+  "host": "Springer Nature",
+  "published": "2026-04-22T15:00:00",
+  "episode_url": "https://www.nature.com/articles/d41586-026-01341-x",
+  "duration_minutes": 26.166666666666668,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This Nature Podcast episode covers two major topics: Sony AI's development of Ace, a table-tennis-playing robot that can defeat elite human players through advanced perception systems and AI control, and recent efforts to precisely measure the gravitational constant (Big G). The Ace project demonstrates breakthroughs in real-time ball spin detection and neural network-based robotic control trained in simulation. The second segment discusses a decade-long replication study by NIST that attempted to verify a high-precision measurement of Big G from the International Bureau of Weights and Measures in Paris, finding significant discrepancies that highlight the ongoing difficulty in precisely measuring one of physics' fundamental constants.",
+  "science_topics": [
+    "Robotic arm control and perception systems",
+    "Event-based image sensors for high-speed object tracking",
+    "Neural network training in simulation for robotic control",
+    "Ball spin measurement and quantification (150-160 rotations per second)",
+    "Torsion balance gravimetry for measuring gravitational constant",
+    "Precision measurement of fundamental constants",
+    "Safety systems for human-robot interaction",
+    "Yersinia pestis (plague) bacterial detection in historical skeletal remains",
+    "Venus atmospheric haze composition and cosmic dust",
+    "Ultraviolet light absorption in planetary atmospheres"
+  ],
+  "claims_to_note": [
+    "Table tennis ball velocities reach 25-30 meters per second in professional play",
+    "Ball spin in professional table tennis can exceed 150-160 rotations per second",
+    "Big G (gravitational constant) value is 6.673 or 6.674 × 10^-11 depending on measurement",
+    "Big G has only three significant figures of precision, unlike other fundamental constants",
+    "NIST replication experiment found the French value for Big G was 'quite a lot lower' than the prestigious Paris lab measurement",
+    "The discrepancy between measurements is approximately 0.02% (or 1.5 parts per thousand according to the discussion)",
+    "Big G is trillions of times weaker than electromagnetic and nuclear forces",
+    "Gravity cannot be shielded against, making isolation of gravitational experiments extremely difficult",
+    "The plague outbreak in 17th-century Basel affected predominantly low-income workers and young individuals (11 of 15 buried were under age 20)"
+  ],
+  "policy_relevance": [
+    "CODATA (Committee on Data for Science and Technology) convenes every four years to establish agreed-upon values for fundamental constants, including Big G",
+    "International Bureau of Weights and Measures (BIPM) in Paris maintains reference measurements for fundamental constants",
+    "NIST (U.S. National Institute of Standards and Technology) conducts precision measurement experiments and works with international bodies on standardization",
+    "Funding and resource allocation for metrology research versus other physics priorities",
+    "International scientific replication standards and expectations for precision measurement experiments"
+  ],
+  "key_quotes": [
+    "If you look at the history of AI, scientists have often used games as benchmarks. And in a way, games are very interesting because they allow us to directly compare the performance of an AI agent to a human's performance.",
+    "I don't need robots to play soccer. I don't need robots to play table tennis, but I need the skills and the abilities of these robots learned in these environments that are easy for us to see how they are evolving... sports are really a good place for that.",
+    "Big G is the least well understood of any of the fundamental constants of nature... it's the weakest of all the fundamental forces, which is part of the problem when you're trying to measure it."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Robotic arm control and perception systems",
+      "publications": [
+        {
+          "id": "25438",
+          "title": "Guiding Cancer Control: A Path to Transformation",
+          "url": "https://nap.nationalacademies.org/catalog/25438/guiding-cancer-control-a-path-to-transformation",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education",
+            "substance-use"
+          ],
+          "keywords": [
+            "medical",
+            "guiding cancer control defines",
+            "concerted efforts often referred",
+            "key principles attributes methods",
+            "cancer control plan",
+            "throughout history perhaps",
+            "perhaps even unknowable",
+            "public health systems",
+            "word cancer",
+            "afflict individuals",
+            "different diseases",
+            "guiding cancer control",
+            "transformation",
+            "path"
+          ],
+          "description": "Throughout history, perhaps no other disease has generated the level of social, scientific, and political discourse or has had the degree of cultural significance as cancer. A collective in the truest sense of the word, \"cancer\" is a clustering of different diseases that afflict individuals in different ways. Its burdens are equally broad and diverse, from the physical, financial, and psychological tolls it imposes on individuals to the costs it inflicts upon the nation's clinical care and public health systems, and despite decades of concerted efforts often referred to as the \"war on cancer\", those costs have only continued to grow over time. The causes and effects of cancer are complexâ€\"in part preventable and treatable, but also in part unknown, and perhaps even unknowable. Guiding Cancer Control defines the key principles, attributes, methods, and tools needed to achieve the goal of implementing an effective national cancer control plan. This report describes the current structure",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Health Care Services"
+        },
+        {
+          "id": "25474",
+          "title": "Management of Legionella in Water Systems",
+          "url": "https://nap.nationalacademies.org/catalog/25474/management-of-legionella-in-water-systems",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "reported waterborne disease outbreaks",
+            "water systems specifically",
+            "engineered water systems",
+            "legionella infections leading",
+            "cooling towers building plumbing",
+            "water systems reviews",
+            "legionella occur naturally",
+            "different environmental sources",
+            "legionella contamination",
+            "warm stagnant conditions",
+            "water systems",
+            "management",
+            "legionella"
+          ],
+          "description": "Legionnaires' disease, a pneumonia caused by the Legionella bacterium, is the leading cause of reported waterborne disease outbreaks in the United States. Legionella occur naturally in water from many different environmental sources, but grow rapidly in the warm, stagnant conditions that can be found in engineered water systems such as cooling towers, building plumbing, and hot tubs. Humans are primarily exposed to Legionella through inhalation of contaminated aerosols into the respiratory system. Legionnaires' disease can be fatal, with between 3 and 33 percent of Legionella infections leading to death, and studies show the incidence of Legionnaires' disease in the United States increased five-fold from 2000 to 2017. Management of Legionella in Water Systems reviews the state of science on Legionella contamination of water systems, specifically the ecology and diagnosis. This report explores the process of transmission via water systems, quantification, prevention and control, and pol",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        },
+        {
+          "id": "10027",
+          "title": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "keywords": [
+            "health",
+            "healthcare",
+            "medical",
+            "quality",
+            "system",
+            "hospital"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Event-based image sensors for high-speed object tracking",
+      "publications": [
+        {
+          "id": "22670",
+          "title": "Design Guidance for High-Speed to Low-Speed Transition Zones for Rural Highways",
+          "url": "https://nap.nationalacademies.org/catalog/22670/design-guidance-for-high-speed-to-low-speed-transition-zones-for-rural-highways",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "high speed rural highway",
+            "low speed transitions zones",
+            "cooperative highway",
+            "highway sections",
+            "design guidance",
+            "potential treatments",
+            "rural highways",
+            "addressing problems",
+            "program nchrp",
+            "small town",
+            "low speed transition zones",
+            "high speed"
+          ],
+          "description": "\"TRBs National Cooperative Highway Research Program (NCHRP) Report 737: Design Guidance for High-Speed to Low-Speed Transitions Zones for Rural Highways presents guidance for designing the transition from a high-speed rural highway to a lower-speed section, typically approaching a small town. The report includes a methodology for assessing these highway sections and a catalog of potential treatments for addressing problems.\"--Publisher's description.",
+          "year": 2012,
+          "page_keywords": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        },
+        {
+          "id": "27987",
+          "title": "Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning",
+          "url": "https://nap.nationalacademies.org/catalog/27987/incorporating-shock-events-into-aviation-demand-forecasting-and-airport-planning",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "airports",
+            "describing relevant shock events",
+            "incorporating shock events",
+            "previous shock events",
+            "aviation demand forecasting",
+            "exerted profound impacts",
+            "largest events",
+            "aviation industry",
+            "airport cooperative",
+            "airport planning",
+            "airport business"
+          ],
+          "description": "The COVID-19 pandemic has made clear the vulnerability of aviation and other industries to shock events. While the pandemic is one of the largest events to impact the aviation industry, other previous shock events have also exerted profound impacts on the aviation industry. ACRP Research Report 272: Incorporating Shock Events into Aviation Demand Forecasting and Airport Planning, from TRB's Airport Cooperative Research Program, provides a methodology to assist airports in identifying and describing relevant shock events, understanding their potential impact on various aspects of the airport business, and developing approaches and strategies to enable the airport to better withstand and respond to shock events if they occur.",
+          "year": 2024,
+          "page_keywords": [
+            "Airports"
+          ],
+          "committee": "Transportation Research Board"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ensuring Access to High-Quality Primary Care in the United States",
+          "url": "https://www.nationalacademies.org/projects/CHPP-HCPH-25-03",
+          "status": "in_progress"
+        }
+      ]
+    },
+    {
+      "topic": "Neural network training in simulation for robotic control",
+      "publications": [
+        {
+          "id": "27644",
+          "title": "Artificial Intelligence and the Future of Work",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "work",
+            "labor",
+            "automation",
+            "jobs"
+          ]
+        },
+        {
+          "id": "25480",
+          "title": "Enhancing Urban Sustainability with Data, Modeling, and Simulation: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25480/enhancing-urban-sustainability-with-data-modeling-and-simulation-proceedings-of",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "technology & engineering",
+            "presentations highlighted urban sustainability",
+            "discussed promising urban sustainability",
+            "sustainable urban communities",
+            "emerging interdisciplinary network",
+            "data science needs",
+            "addressed common challenges",
+            "big data modeling",
+            "community sustainability",
+            "environmental systems",
+            "computer science",
+            "enhancing urban sustainability",
+            "data modeling",
+            "simulation"
+          ],
+          "description": "On January 30-31, 2019 the Board on Mathematical Sciences and Analytics, in collaboration with the Board on Energy and Environmental Systems and the Computer Science and Telecommunications Board, convened a workshop in Washington, D.C. to explore the frontiers of mathematics and data science needs for sustainable urban communities. The workshop strengthened the emerging interdisciplinary network of practitioners, business leaders, government officials, nonprofit stakeholders, academics, and policy makers using data, modeling, and simulation for urban and community sustainability, and addressed common challenges that the community faces. Presentations highlighted urban sustainability research efforts and programs under way, including research into air quality, water management, waste disposal, and social equity and discussed promising urban sustainability research questions that improved use of big data, modeling, and simulation can help address. This publication summarizes the presenta",
+          "year": 2019,
+          "page_keywords": [
+            "Technology & Engineering"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "26355",
+          "title": "Human-AI Teaming: State-of-the-Art and Research Needs",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "human",
+            "teaming",
+            "collaboration",
+            "machine learning"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Ball spin measurement and quantification (150-160 rotations per second)",
+      "publications": [
+        {
+          "id": "27130",
+          "title": "Risk Assessment Techniques for Transportation Asset Management: Conduct of Research",
+          "url": "https://nap.nationalacademies.org/catalog/27130/risk-assessment-techniques-for-transportation-asset-management-conduct-of-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "state transportation agencies",
+            "risks quantify risks",
+            "extreme weather risks",
+            "increasingly becoming important",
+            "transportation agencies",
+            "assess risks",
+            "appropriate tools",
+            "use tools",
+            "implemented",
+            "demonstrate",
+            "measurement",
+            "transportation asset management",
+            "techniques",
+            "conduct",
+            "risk"
+          ],
+          "description": "\"The assessment of climatic and extreme weather risks is increasingly becoming important to the operation of transportation agencies. There are easy-to-use tools and techniques that can be implemented by agencies. [This report] discusses how to assess risks and summarizes 12 studies that demonstrate how to enhance the measurement of risks, quantify risks, and better link risk management processes with the appropriate tools.\"--Publisher's website",
+          "year": 2023,
+          "page_keywords": [
+            "State transportation agencies"
+          ]
+        },
+        {
+          "id": "23484",
+          "title": "Gain-of-Function Research: Summary of the Second Symposium, March 10-11, 2016",
+          "url": "https://nap.nationalacademies.org/catalog/23484/gain-of-function-research-summary-of-the-second-symposium-march",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "ensure effective federal oversight",
+            "second symposium focused",
+            "first symposium held",
+            "government deliberative process",
+            "second meeting held",
+            "technical questions surrounding",
+            "ideas identified during",
+            "public symposium",
+            "government policies",
+            "pandemic potential",
+            "second symposium march",
+            "function",
+            "gain"
+          ],
+          "description": "On March 10-11, 2016, the National Academies of Sciences, Engineering, and Medicine held a public symposium on potential U.S. government policies for the oversight of gain-of- function (GOF) research. This was the Academies' second meeting held at the request of the U.S. government to provide a mechanism to engage the life sciences community and the broader public and solicit feedback on optimal approaches to ensure effective federal oversight of GOF research as part of a broader U.S. government deliberative process. The first symposium, held in December 2014, examined the underlying scientific and technical questions surrounding the potential risks and benefits of GOF research involving pathogens with pandemic potential. The second symposium focused on discussion of the draft recommendations regarding GOF research of a Working Group of the National Science Advisory Board for Biosecurity. This report summarizes the key issues and ideas identified during the second symposium.",
+          "year": 2016,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Committee on Science, Technology, and Law"
+        },
+        {
+          "id": "27157",
+          "title": "A Research Agenda Toward Atmospheric Methane Removal",
+          "url": "https://nap.nationalacademies.org/catalog/27157/a-research-agenda-toward-atmospheric-methane-removal",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "2023 shattered global climate records as the warmest year in the modern record, bringing with it devastating impacts on human and natural systems. Methane emissions, about 60% of which come from human activities, are a major contributor to global warming, second only to carbon dioxide (CO2). Methane is relatively short-lived in the atmosphere but is 80 times more potent than CO2 at trapping heat over a 20-year period. Together with reducing CO2 emissions, rapid and sustained reductions in methane emissions are critical to limit both near- and long-term warming in future decades. But given the many barriers to achieving needed emissions reductions at scale, researchers are exploring the potential of technologies to remove methane from the atmosphere. A Research Agenda Toward Atmospheric Methane Removal is the first report of a two-phase study to assess the need and potential for atmospheric methane removal. This report identifies priority research that should be addressed within 3-5 yea",
+          "year": 2025,
+          "page_keywords": [
+            "Nature"
+          ],
+          "committee": "Board on Energy and Environmental Systems",
+          "keywords": [
+            "nature",
+            "achieving needed emissions reductions",
+            "atmospheric methane removal",
+            "shattered global climate records",
+            "reducing emissions rapid",
+            "methane emissions",
+            "global warming second",
+            "modern record bringing",
+            "relatively short lived",
+            "long term warming",
+            "remove methane",
+            "agenda"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Torsion balance gravimetry for measuring gravitational constant",
+      "publications": [
+        {
+          "id": "26682",
+          "title": "Measuring and Understanding the Relationship Between Air Service and Regional Economic Development",
+          "url": "https://nap.nationalacademies.org/catalog/26682/measuring-and-understanding-the-relationship-between-air-service-and-regional-economic-development",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "regional economic development",
+            "air service",
+            "relationship",
+            "measuring"
+          ],
+          "year": 2022
+        },
+        {
+          "id": "22389",
+          "title": "Measuring and Removing Dissolved Metals from Stormwater in Highly Urbanized Areas",
+          "url": "https://nap.nationalacademies.org/catalog/22389/measuring-and-removing-dissolved-metals-from-stormwater-in-highly-urbanized-areas",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "runoff",
+            "removing dissolved metals",
+            "highly urbanized areas",
+            "stormwater",
+            "measuring"
+          ],
+          "description": "Measuring and Removing Dissolved Metals from Stormwater in Highly Urbanized Areas /",
+          "year": 2014,
+          "page_keywords": [
+            "Runoff"
+          ]
+        },
+        {
+          "id": "22703",
+          "title": "Measuring the Transportation System from a Supply Chain Perspective",
+          "url": "https://nap.nationalacademies.org/catalog/22703/measuring-the-transportation-system-from-a-supply-chain-perspective",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "supply chain perspective",
+            "transportation system",
+            "measuring"
+          ]
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "word_count": 4258,
+  "saved_at": "2026-04-23T11:59:21.256856"
+}

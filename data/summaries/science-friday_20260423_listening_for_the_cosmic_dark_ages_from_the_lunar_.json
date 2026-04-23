@@ -1,0 +1,737 @@
+{
+  "podcast_id": "science-friday",
+  "podcast_name": "Science Friday",
+  "episode_title": "Listening for the cosmic ‘dark ages,’ from the lunar far side",
+  "host": "Ira Flatow",
+  "published": "2026-04-23T10:00:00",
+  "episode_url": "https://www.wnycstudios.org/podcasts/science-friday",
+  "duration_minutes": 12.55,
+  "influence_tier": "medium",
+  "category": "science_news",
+  "summary": "This episode features Anja Slosar discussing the Lucy Knight mission, a small pathfinder radio telescope being deployed to the lunar far side via NASA's Commercial Lunar Payload Services program. The instrument aims to observe extremely low radio frequencies (below 50 MHz) that are difficult to detect from Earth, potentially paving the way for future observations of the 'Dark Ages'—an early epoch of the universe before stars formed. While Lucy Knight itself will not detect Dark Ages signals, it will demonstrate the feasibility of the lunar far side as a premier radio observation site and help identify technical challenges for larger future instruments.",
+  "science_topics": [
+    "Radio astronomy at very low frequencies (below 50 MHz)",
+    "The cosmic Dark Ages epoch (early universe before star formation)",
+    "Neutral hydrogen observations",
+    "Radio interferometry",
+    "Lunar far side radio shielding from Earth and solar interference",
+    "Micrometeorite impacts on lunar instruments",
+    "Lunar ionosphere effects on radio propagation",
+    "Dark matter physics and spectral line detection",
+    "Cosmic microwave background at low frequencies"
+  ],
+  "claims_to_note": [
+    "Observations below 50 MHz from the ground are extremely difficult, described as 'like looking up from the bottom of a swimming pool'",
+    "The lunar far side shields instruments from both Earth and solar radio interference, making it superior to ground-based observatories for low-frequency radio astronomy",
+    "The Dark Ages epoch is described as a 'pristine universe' where only neutral hydrogen exists before stars turn on, allowing precise predictions using fundamental physics",
+    "Lucy Knight will be the first functioning radio telescope on the lunar far side and the first commercial instrument to survive the lunar night",
+    "The Chinese previously landed an instrument on the far side that 'didn't work very well'",
+    "Lucy Knight can transfer approximately six gigabytes of data per 28-day lunar cycle via relay satellite"
+  ],
+  "policy_relevance": [
+    "NASA's Commercial Lunar Payload Services (CLIPS) program—a public-private partnership model for lunar access",
+    "Collaboration between Department of Energy (DOE) and NASA mentioned as originating the project concept",
+    "Private sector lunar lander companies (Blue Ghost/Blue Origin) being funded through CLIPS",
+    "Mission launch planned for end of 2026",
+    "Use of relay satellites for far-side communication, indicating space infrastructure policy considerations"
+  ],
+  "key_quotes": [
+    "If you go below 50 megahertz, observations from the ground, basically, it's like looking up from the bottom of the swim pool. Everything is blurred. It's a total mess.",
+    "Dark Ages refers to this particular epoch in the evolution of the universe where the initial hot plasma has cooled down enough that we have just neutral hydrogen and nothing more... This is a very, very pristine universe which we can explain just using fundamental physics.",
+    "It's such a simple system I can understand everything and I can go and really kind of like develop low level things without having to fight bureaucracy... but for somebody who spent their career doing stuff on the ground like the psychology of sending something to the moon is just insane."
+  ],
+  "nasem_matches": [
+    {
+      "topic": "Radio astronomy at very low frequencies (below 50 MHz)",
+      "publications": [
+        {
+          "id": "24808",
+          "title": "Report Series: Committee on Astronomy and Astrophysics: Small Explorer Missions",
+          "url": "https://nap.nationalacademies.org/catalog/24808/report-series-committee-on-astronomy-and-astrophysics-small-explorer-missions",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "sufficient compelling science motivations",
+            "astrophysics decadal survey",
+            "smex sized mission",
+            "astrophysics laid out",
+            "space science week",
+            "recommended activities",
+            "recommended priorities",
+            "smex announcement",
+            "astrophysics caa",
+            "exciting portfolio",
+            "small explorer missions",
+            "astrophysics",
+            "astronomy",
+            "series"
+          ],
+          "description": "The 2010 astronomy and astrophysics decadal survey, New Worlds, New Horizons in Astronomy and Astrophysics, laid out an exciting portfolio of recommended activities to guide the agencies' research programs over the period 2012-2021. The newly constituted Committee on Astronomy and Astrophysics (CAA) is tasked with monitoring the progress of the survey's recommended priorities. The CAA met in conjunction with Space Science Week 2017 in Washington, D.C., on March 28- 30, 2017. This was the first meeting at which the CAA could produce a report, and in advance of that meeting, the CAA received a question from NASA about an upcoming Small Explorer (SMEX) mission call. This report addresses whether there may or may not be sufficient compelling science motivations for a SMEX-sized mission to justify a SMEX Announcement of Opportunity (AO) in 2018 or 2019 (as is currently planned).",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "26141",
+          "title": "Pathways to Discovery in Astronomy and Astrophysics for the 2020s",
+          "url": "https://nap.nationalacademies.org/catalog/26141/pathways-to-discovery-in-astronomy-and-astrophysics-for-the-2020s",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "unanticipated competitive activities",
+            "compelling science challenges",
+            "include identifying recommending",
+            "field identify areas",
+            "recommend decision rules",
+            "astrophysics science",
+            "accommodate significant",
+            "scientific areas",
+            "reasonable deviations",
+            "urgency precipitated",
+            "astrophysics",
+            "discovery",
+            "astronomy",
+            "pathways"
+          ],
+          "description": "The steering committee was specifically asked to (1) provide an overview of the current state of astronomy and astrophysics science, and technology research in support of that science, with connections to other scientific areas where appropriate; (2) identify the most compelling science challenges and frontiers in astronomy and astrophysics, which shall motivate the committee’s strategy for the future; (3) develop a comprehensive research strategy to advance the frontiers of astronomy and astrophysics for the period 2022-2032 that will include identifying, recommending, and ranking the highest-priority research activities; (4) utilize and recommend decision rules, where appropriate, that can accommodate significant but reasonable deviations in the projected budget or changes in urgency precipitated by new discoveries or unanticipated competitive activities; (5) assess the state of the profession, including workforce and demographic issues in the field, identify areas of concern and imp",
+          "year": 2022,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Physics and Astronomy"
+        },
+        {
+          "id": "12951",
+          "title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+          "url": "https://nap.nationalacademies.org/catalog/12951/new-worlds-new-horizons-in-astronomy-and-astrophysics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "engineering",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "astrophysics proposes enhancing innovative",
+            "technological development theory computation",
+            "data handling laboratory experiments",
+            "scientific opportunities infrastructure",
+            "changed dramatically during",
+            "contingent upon maintaining",
+            "physics chemistry biology",
+            "moderate cost programs",
+            "astrophysics outlines",
+            "international context",
+            "astrophysics",
+            "astronomy",
+            "horizons",
+            "worlds"
+          ],
+          "description": "Driven by discoveries, and enabled by leaps in technology and imagination, our understanding of the universe has changed dramatically during the course of the last few decades. The fields of astronomy and astrophysics are making new connections to physics, chemistry, biology, and computer science. Based on a broad and comprehensive survey of scientific opportunities, infrastructure, and organization in a national and international context, New Worlds, New Horizons in Astronomy and Astrophysics outlines a plan for ground- and space- based astronomy and astrophysics for the decade of the 2010's. Realizing these scientific opportunities is contingent upon maintaining and strengthening the foundations of the research enterprise including technological development, theory, computation and data handling, laboratory experiments, and human resources. New Worlds, New Horizons in Astronomy and Astrophysics proposes enhancing innovative but moderate-cost programs in space and on the ground that w",
+          "year": 2011,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "The cosmic Dark Ages epoch (early universe before star formation)",
+      "publications": [
+        {
+          "id": "12519",
+          "title": "Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity",
+          "url": "https://nap.nationalacademies.org/catalog/12519/mathematics-learning-in-early-childhood-paths-toward-excellence-and-equity",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "genetics",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "description": "Early childhood mathematics is vitally important for young children's present and future educational success. Research demonstrates that virtually all young children have the capability to learn and become competent in mathematics. Furthermore, young children enjoy their early informal experiences with mathematics. Unfortunately, many children's potential in mathematics is not fully realized, especially those children who are economically disadvantaged. This is due, in part, to a lack of opportunities to learn mathematics in early childhood settings or through everyday experiences in the home and in their communities. Improvements in early childhood mathematics education can provide young children with the foundation for school success. Relying on a comprehensive review of the research, Mathematics Learning in Early Childhood lays out the critical areas that should be the focus of young children's early mathematics education, explores the extent to which they are currently being incorp",
+          "year": 2009,
+          "page_keywords": [
+            "Education"
+          ],
+          "committee": "Committee on Early Childhood Mathematics",
+          "keywords": [
+            "education",
+            "early childhood mathematics education",
+            "early mathematics education explores",
+            "furthermore young children enjoy",
+            "early childhood lays out",
+            "provide young children",
+            "early childhood settings",
+            "early informal experiences",
+            "learn mathematics",
+            "mathematics learning",
+            "fully realized especially",
+            "early childhood",
+            "excellence",
+            "equity",
+            "paths"
+          ]
+        },
+        {
+          "id": "29234",
+          "title": "Early Relational Health: Building Foundations for Child, Family, and Community Well-Being",
+          "url": "https://nap.nationalacademies.org/catalog/29234/early-relational-health-building-foundations-for-child-family-and-community",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "early relational health erh",
+            "community leadership workforce supports",
+            "strengthen supportive relationships",
+            "lifelong health learning",
+            "social emotional growth",
+            "thriving children families",
+            "cross sector collaboration",
+            "help create pathways",
+            "early relationships",
+            "health care",
+            "early relational health",
+            "building foundations",
+            "child family",
+            "community"
+          ],
+          "description": "Early relationships are foundational for lifelong health, learning, and well-being. Mutual, meaningful, and affirming moments of connection in the youngest relationships support brain development, resilience, and social-emotional growth. These experiences, known as early relational health (ERH), can also buffer the impacts of adversity and help create pathways toward thriving children, families, and communities. Early Relational Health: Building Foundations for Child, Family, and Community Well-Being provides evidence-based opportunities for advancing ERH. Developed by a committee of experts, this report highlights opportunities for practice, policy, and research to strengthen supportive relationships. It emphasizes asset-based approaches, family and community leadership, workforce supports, and cross-sector collaboration to promote ERH across health care, education, and social systems.",
+          "year": 2026,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Children Youth and Families"
+        },
+        {
+          "id": "12089",
+          "title": "Retooling for an Aging America: Building the Health Care Workforce",
+          "keywords": [
+            "aging",
+            "elderly",
+            "older adults",
+            "healthcare",
+            "workforce",
+            "age",
+            "senior"
+          ]
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Neutral hydrogen observations",
+      "publications": [
+        {
+          "id": "25490",
+          "title": "Strengthening Post-Hurricane Supply Chain Resilience: Observations from Hurricanes Harvey, Irma, and Maria",
+          "url": "https://nap.nationalacademies.org/catalog/25490/strengthening-post-hurricane-supply-chain-resilience-observations-from-hurricanes-harvey",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "social science",
+            "improve supply chain management",
+            "resilient supply chains",
+            "essential supply chains",
+            "regional supply chains",
+            "made supply chains",
+            "hurricanes harvey irma",
+            "continuity planning partnerships",
+            "lessons learned during",
+            "significant vulnerabilities",
+            "three hurricanes",
+            "observations",
+            "maria"
+          ],
+          "description": "Resilient supply chains are crucial to maintaining the consistent delivery of goods and services to the American people. The modern economy has made supply chains more interconnected than ever, while also expanding both their range and fragility. In the third quarter of 2017, Hurricanes Harvey, Irma and Maria revealed some significant vulnerabilities in the national and regional supply chains of Texas, Florida, the U.S. Virgin Islands, and Puerto Rico. The broad impacts and quick succession of these three hurricanes also shed light on the effectiveness of the nation's disaster logistics efforts during response through recovery. Drawing on lessons learned during the 2017 hurricanes, this report explores future strategies to improve supply chain management in disaster situations. This report makes recommendations to strengthen the roles of continuity planning, partnerships between civic leaders with small businesses, and infrastructure investment to ensure that essential supply chains wi",
+          "year": 2020,
+          "page_keywords": [
+            "Social Science"
+          ],
+          "committee": "Committee on Building Adaptable and Resilient Supply Chains After Hurricanes Harvey, Irma, and Maria"
+        },
+        {
+          "id": "12222",
+          "title": "Transitions to Alternative Transportation Technologies: A Focus on Hydrogen",
+          "url": "https://nap.nationalacademies.org/catalog/12222/transitions-to-alternative-transportation-technologies-a-focus-on-hydrogen",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "environment",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "hybrid electric vehicles builds",
+            "alternative transportation technologies plug",
+            "hydrogen fuel cell vehicles",
+            "however while battery technology",
+            "maximum practical penetration rate",
+            "projected technology status",
+            "recent years batteries",
+            "internal combustion engine",
+            "present volume reviews",
+            "made great strides",
+            "alternative transportation technologies",
+            "transitions",
+            "hydrogen",
+            "focus"
+          ],
+          "description": "The nation has compelling reasons to reduce its consumption of oil and emissions of carbon dioxide. Plug-in hybrid electric vehicles (PHEVs) promise to contribute to both goals by allowing some miles to be driven on electricity drawn from the grid, with an internal combustion engine that kicks in when the batteries are discharged. However, while battery technology has made great strides in recent years, batteries are still very expensive. Transitions to Alternative Transportation Technologies-Plug-in Hybrid Electric Vehicles builds on a 2008 National Research Council report on hydrogen fuel cell vehicles. The present volume reviews the current and projected technology status of PHEVs; considers the factors that will affect how rapidly PHEVs could enter the marketplace, including the interface with the electric transmission and distribution system; determines a maximum practical penetration rate for PHEVs consistent with the time frame and factors considered in the 2008 Hydrogen report;",
+          "year": 2010,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Energy and Environmental Systems"
+        },
+        {
+          "id": "24919",
+          "title": "Sustaining Ocean Observations to Understand Future Changes in Earth's Climate",
+          "url": "https://nap.nationalacademies.org/catalog/24919/sustaining-ocean-observations-to-understand-future-changes-in-earths-climate",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "earth-sciences",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "atmosphere notably carbon dioxide",
+            "increasingly face complex decisions",
+            "facilitating climate prediction",
+            "carbon dioxide associated",
+            "fossil fuel combustion",
+            "climate change",
+            "fresh water lost",
+            "climate system",
+            "ocean acidification",
+            "carbon absorbing",
+            "sustaining ocean observations",
+            "understand",
+            "changes",
+            "climate",
+            "earth"
+          ],
+          "description": "The ocean is an integral component of the Earth's climate system. It covers about 70% of the Earth's surface and acts as its primary reservoir of heat and carbon, absorbing over 90% of the surplus heat and about 30% of the carbon dioxide associated with human activities, and receiving close to 100% of fresh water lost from land ice. With the accumulation of greenhouse gases in the atmosphere, notably carbon dioxide from fossil fuel combustion, the Earth's climate is now changing more rapidly than at any time since the advent of human societies. Society will increasingly face complex decisions about how to mitigate the adverse impacts of climate change such as droughts, sea-level rise, ocean acidification, species loss, changes to growing seasons, and stronger and possibly more frequent storms. Observations play a foundational role in documenting the state and variability of components of the climate system and facilitating climate prediction and scenario development. Regular and consis",
+          "year": 2017,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Board on Atmospheric Sciences and Climate"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Radio interferometry",
+      "publications": [
+        {
+          "id": "25443",
+          "title": "Long-Term Health Monitoring of Populations Following a Nuclear or Radiological Incident in the United States: Proceedings of a Workshop",
+          "url": "https://nap.nationalacademies.org/catalog/25443/long-term-health-monitoring-of-populations-following-a-nuclear-or-radiological-incident-in-the-united-states",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "participants assessed existing",
+            "another incident occurs",
+            "local agencies respond",
+            "cause deaths injuries",
+            "radiological incident",
+            "psychosocial effects",
+            "populations affected",
+            "affected population",
+            "radioactive materials",
+            "surrounding community",
+            "long term health monitoring",
+            "populations following",
+            "nuclear"
+          ],
+          "description": "Accidents and terrorist attacks that lead to the release of radioactive materials can cause deaths, injuries, and a range of psychosocial effects in the surrounding community and team of emergency responders. In the United States, federal, state, and local agencies respond with the necessary resources to address the consequences of nuclear and radiological incidents and monitor the affected population. Following the 2011 Fukushima Daiichi Nuclear Power Plant accident and the 2017 Gotham Shield National Level Exercise, the CDC recognized an opportunity to improve their practices by establishing a more efficient and timely health effect surveillance system before another incident occurs. On March 12-13th, 2019, the National Academies convened a workshop to discuss the process for preparing a radiation registry for monitoring long-term health effects of populations affected by a nuclear or radiological incident. Participants assessed existing information, useful practices, and tools for p",
+          "year": 2019,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Nuclear and Radiation Studies Board"
+        },
+        {
+          "id": "24935",
+          "title": "Emergency Alert and Warning Systems: Current Knowledge and Future Research Directions",
+          "url": "https://nap.nationalacademies.org/catalog/24935/emergency-alert-and-warning-systems-current-knowledge-and-future-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "social media platforms offer",
+            "main stream media outlets",
+            "beyond broadcast radio television",
+            "response network warn act",
+            "short message service sms",
+            "additional official channels",
+            "via social media",
+            "less official channels",
+            "effectively alert populations",
+            "furthermore private companies",
+            "emergency alert",
+            "warning systems",
+            "directions",
+            "current"
+          ],
+          "description": "Following a series of natural disasters, including Hurricane Katrina, that revealed shortcomings in the nation's ability to effectively alert populations at risk, Congress passed the Warning, Alert, and Response Network (WARN) Act in 2006. Today, new technologies such as smart phones and social media platforms offer new ways to communicate with the public, and the information ecosystem is much broader, including additional official channels, such as government social media accounts, opt-in short message service (SMS)-based alerting systems, and reverse 911 systems; less official channels, such as main stream media outlets and weather applications on connected devices; and unofficial channels, such as first person reports via social media. Traditional media have also taken advantage of these new tools, including their own mobile applications to extend their reach of beyond broadcast radio, television, and cable. Furthermore, private companies have begun to take advantage of the large am",
+          "year": 2018,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Computer Science and Telecommunications Board"
+        },
+        {
+          "id": "25650",
+          "title": "Evidence-Based Practice for Public Health Emergency Preparedness and Response",
+          "url": "https://nap.nationalacademies.org/catalog/25650/evidence-based-practice-for-public-health-emergency-preparedness-and-response",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "medical",
+            "public health emergency preparedness",
+            "territorial public health agencies",
+            "public health emergencies",
+            "public health threats",
+            "infectious diseases natural disasters",
+            "make difficult decisions regarding",
+            "encompasses policies organizations",
+            "chemical biological radiological",
+            "response phepr system",
+            "effectively respond",
+            "evidence",
+            "response"
+          ],
+          "description": "When communities face complex public health emergencies, state local, tribal, and territorial public health agencies must make difficult decisions regarding how to effectively respond. The public health emergency preparedness and response (PHEPR) system, with its multifaceted mission to prevent, protect against, quickly respond to, and recover from public health emergencies, is inherently complex and encompasses policies, organizations, and programs. Since the events of September 11, 2001, the United States has invested billions of dollars and immeasurable amounts of human capital to develop and enhance public health emergency preparedness and infrastructure to respond to a wide range of public health threats, including infectious diseases, natural disasters, and chemical, biological, radiological, and nuclear events. Despite the investments in research and the growing body of empirical literature on a range of preparedness and response capabilities and functions, there has been no nat",
+          "year": 2020,
+          "page_keywords": [
+            "Medical"
+          ],
+          "committee": "Board on Population Health and Public Health Practice"
+        }
+      ],
+      "projects": []
+    },
+    {
+      "topic": "Lunar far side radio shielding from Earth and solar interference",
+      "publications": [
+        {
+          "id": "10477",
+          "title": "The Sun to the Earth -- and Beyond: A Decadal Research Strategy in Solar and Space Physics",
+          "url": "https://nap.nationalacademies.org/catalog/10477/the-sun-to-the-earth-and-beyond-a-decadal-research",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "solar system bodies",
+            "answered important questions",
+            "space physics during",
+            "influence extends throughout",
+            "human physical environment",
+            "provide heat light",
+            "solar wind",
+            "scientific investigations",
+            "space environments",
+            "interplanetary medium",
+            "space physics",
+            "strategy",
+            "decadal",
+            "beyond",
+            "earth",
+            "solar",
+            "sun"
+          ],
+          "description": "The sun is the source of energy for life on earth and is the strongest modulator of the human physical environment. In fact, the Sun's influence extends throughout the solar system, both through photons, which provide heat, light, and ionization, and through the continuous outflow of a magnetized, supersonic ionized gas known as the solar wind. While the accomplishments of the past decade have answered important questions about the physics of the Sun, the interplanetary medium, and the space environments of Earth and other solar system bodies, they have also highlighted other questions, some of which are long-standing and fundamental. The Sun to the Earthâ€\"and Beyond organizes these questions in terms of five challenges that are expected to be the focus of scientific investigations in solar and space physics during the coming decade and beyond.",
+          "year": 2003,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "27938",
+          "title": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+          "url": "https://nap.nationalacademies.org/catalog/27938/the-next-decade-of-discovery-in-solar-and-space-physics",
+          "topics": [
+            "aging",
+            "agriculture",
+            "air-quality",
+            "astronomy",
+            "behavioral-health",
+            "biomedical",
+            "cancer",
+            "children-youth",
+            "climate",
+            "covid",
+            "education",
+            "energy",
+            "global-health",
+            "mental-health",
+            "nutrition",
+            "ocean",
+            "physics",
+            "stem-education"
+          ],
+          "keywords": [
+            "science",
+            "near earth space environment",
+            "space weather events",
+            "dynamic physical processes",
+            "space physics",
+            "provided key insights",
+            "solar system",
+            "safeguarding humanity",
+            "groundbreaking advances",
+            "next decade",
+            "prioritized strategy",
+            "discovery",
+            "exploring",
+            "solar",
+            "home"
+          ],
+          "description": "Groundbreaking advances in solar and space physics have provided key insights into the dynamic physical processes on the Sun and its influence on Earth, the near-Earth space environment, other planets in our solar system, and beyond. As we look to the next decade, future discoveries in the field will expand our knowledge of the cosmos and better prepare us for the impact of space weather events on critical systems and humanity. The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space, a National Academies' decadal survey, presents a prioritized strategy for basic and applied research to advance scientific understanding of the heliosphere and the origins of space weather, the Sun's interactions with other bodies in the solar system, and the interplanetary and interstellar mediums.",
+          "year": 2025,
+          "page_keywords": [
+            "Science"
+          ],
+          "committee": "Space Studies Board"
+        },
+        {
+          "id": "18988",
+          "title": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+          "keywords": [
+            "climate",
+            "geoengineering",
+            "solar",
+            "intervention",
+            "cooling",
+            "albedo"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "The Economic Future of the U.S. Research Enterprise: From Vision to Value – A Workshop",
+          "url": "https://www.nationalacademies.org/projects/CAST-STPL-25-03",
+          "status": "in_progress"
+        }
+      ]
+    }
+  ],
+  "word_count": 2266,
+  "saved_at": "2026-04-23T11:59:21.255888"
+}
